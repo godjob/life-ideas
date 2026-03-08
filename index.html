@@ -162,6 +162,7 @@
   <button class="tab-btn active" onclick="switchTab('daily', this)">Daily</button>
   <button class="tab-btn" onclick="switchTab('weekly', this)">Weekly</button>
   <button class="tab-btn" onclick="switchTab('urls', this)">URLs</button>
+  <button class="tab-btn" onclick="switchTab('news', this)">朝刊</button>
 </div>
 
 <!-- オーバーレイメニュー（スマホのハンバーガー用） -->
@@ -185,7 +186,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.5';
+  const VERSION = 'v1.6';
   let currentTab = 'daily';
   const isMobile = () => window.innerWidth <= 768;
 
@@ -221,6 +222,10 @@
     if (dir === 'daily') {
       const parts = base.split('-');
       return `'${parts[0].slice(2)}/${parts[1]}-${parts[2]}`;
+    }
+    if (dir === 'news') {
+      const parts = base.split('-');
+      return `${parts[1]}/${parts[2]}`;
     }
     return base;
   }
