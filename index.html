@@ -21,6 +21,7 @@
     .tab-btn.active { color: #fff; border-bottom-color: #e94560; }
     .tab-btn:hover { color: #fff; }
 
+    /* PC: 2カラムレイアウト */
     .layout { display: flex; height: calc(100vh - 96px); }
 
     .file-list {
@@ -40,7 +41,7 @@
 
     .content-area {
       flex: 1; overflow-y: auto; padding: 32px;
-      background: #fff;
+      background: #fff; position: relative;
     }
     .content-area.loading { display: flex; align-items: center; justify-content: center; color: #aaa; }
 
@@ -66,10 +67,53 @@
     .placeholder { text-align: center; color: #aaa; margin-top: 80px; }
     .placeholder p { font-size: 1rem; margin-top: 8px; }
 
-    @media (max-width: 600px) {
-      .file-list { width: 180px; min-width: 180px; }
-      .content-area { padding: 16px; }
-      .tab-btn { padding: 10px 14px; font-size: 0.8rem; }
+    /* スクロールトップボタン */
+    .scroll-top {
+      position: fixed; bottom: 24px; right: 24px;
+      width: 44px; height: 44px; border-radius: 50%;
+      background: #e94560; color: #fff; border: none;
+      font-size: 1.2rem; cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      display: none; align-items: center; justify-content: center;
+      transition: opacity 0.2s;
+      z-index: 100;
+    }
+    .scroll-top.visible { display: flex; }
+    .scroll-top:hover { background: #c73652; }
+
+    /* スマホ対応 */
+    @media (max-width: 768px) {
+      .layout { display: block; height: auto; min-height: calc(100vh - 96px); }
+
+      .file-list {
+        width: 100%; min-width: unset; border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+        max-height: calc(100vh - 96px); overflow-y: auto;
+      }
+      .file-list.hidden { display: none; }
+
+      .content-area {
+        width: 100%; padding: 16px;
+        min-height: calc(100vh - 96px);
+        display: none;
+      }
+      .content-area.visible { display: block; }
+
+      .back-btn {
+        display: flex; align-items: center; gap: 6px;
+        margin-bottom: 16px; padding: 8px 12px;
+        background: #f0f4ff; border: none; border-radius: 6px;
+        color: #1a1a2e; font-size: 0.9rem; cursor: pointer;
+        font-weight: 600;
+      }
+      .tab-btn { padding: 12px 16px; font-size: 0.85rem; }
+      .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
+    }
+
+    /* PC: content-area は常に表示 */
+    @media (min-width: 769px) {
+      .content-area { display: block !important; }
+      .back-btn { display: none !important; }
     }
   </style>
 </head>
@@ -98,10 +142,23 @@
   </div>
 </div>
 
+<button class="scroll-top" id="scroll-top" onclick="scrollToTop()" title="上に戻る">↑</button>
+
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
   let currentTab = 'daily';
+  const isMobile = () => window.innerWidth <= 768;
+
+  // marked: 外部リンクを新タブで開く
+  const renderer = new marked.Renderer();
+  renderer.link = (href, title, text) => {
+    const isExternal = href && (href.startsWith('http://') || href.startsWith('https://'));
+    const titleAttr = title ? ` title="${title}"` : '';
+    const target = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
+    return `<a href="${href}"${titleAttr}${target}>${text}</a>`;
+  };
+  marked.use({ renderer });
 
   async function listFiles(dir) {
     const url = `https://api.github.com/repos/${REPO}/contents/ideas/${dir}?ref=${BRANCH}`;
@@ -117,14 +174,32 @@
     return await res.text();
   }
 
+  function formatLabel(dir, name) {
+    const base = name.replace('.md', '');
+    if (dir === 'daily') {
+      // "2026-03-08" → "'26/03-08"
+      const parts = base.split('-');
+      return `'${parts[0].slice(2)}/${parts[1]}-${parts[2]}`;
+    }
+    return base;
+  }
+
   async function switchTab(dir, btn) {
     currentTab = dir;
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     if (btn) btn.classList.add('active');
 
     const listEl = document.getElementById('file-list');
+    const contentEl = document.getElementById('content-area');
+
     listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
-    document.getElementById('content-area').innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
+    contentEl.innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
+
+    // モバイル: ファイルリストを表示、コンテンツを非表示
+    if (isMobile()) {
+      listEl.classList.remove('hidden');
+      contentEl.classList.remove('visible');
+    }
 
     // URLs タブは index.md を直接表示
     if (dir === 'urls') {
@@ -141,46 +216,91 @@
     }
 
     listEl.innerHTML = '';
-    // 新しい順に並び替え
     files.sort((a, b) => b.name.localeCompare(a.name));
 
     files.forEach(file => {
       const item = document.createElement('div');
       item.className = 'file-item';
-      // weekly: "2026-W10" → "W10 (3/2〜)" のような表示、daily: "2026-03-08" → "03-08" に短縮
-      const label = dir === 'daily'
-        ? file.name.replace('.md', '').slice(5)   // "2026-03-08" → "03-08"
-        : file.name.replace('.md', '');
-      item.textContent = label;
+      item.textContent = formatLabel(dir, file.name);
       item.title = file.name.replace('.md', '');
       item.onclick = () => openFile(file.path, item);
       listEl.appendChild(item);
     });
 
-    // 最新ファイルを自動で開く
-    listEl.firstChild.click();
+    // PCは最新ファイルを自動で開く、モバイルはリスト表示のまま
+    if (!isMobile()) {
+      listEl.firstChild.click();
+    }
   }
 
   async function openFile(path, itemEl) {
+    const listEl = document.getElementById('file-list');
+    const contentEl = document.getElementById('content-area');
+
     document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
     itemEl.classList.add('active');
 
-    const area = document.getElementById('content-area');
-    area.innerHTML = '<div class="loading">読み込み中...</div>';
-    area.classList.add('loading');
+    // モバイル: コンテンツを表示、ファイルリストを非表示
+    if (isMobile()) {
+      listEl.classList.add('hidden');
+      contentEl.classList.add('visible');
+    }
+
+    contentEl.innerHTML = '<div class="loading">読み込み中...</div>';
+    contentEl.classList.add('loading');
 
     const text = await fetchContent(path);
-    area.classList.remove('loading');
-    area.innerHTML = `<div class="markdown-body">${marked.parse(text)}</div>`;
+    contentEl.classList.remove('loading');
+
+    // 戻るボタン（モバイルのみ表示）
+    const backBtn = `<button class="back-btn" onclick="showFileList()">← 一覧に戻る</button>`;
+    contentEl.innerHTML = backBtn + `<div class="markdown-body">${marked.parse(text)}</div>`;
 
     // チェックボックスを本物のチェックボックスに変換
-    area.querySelectorAll('li').forEach(li => {
+    contentEl.querySelectorAll('li').forEach(li => {
       if (li.textContent.startsWith('[ ]')) {
         li.innerHTML = '<input type="checkbox" disabled> ' + li.innerHTML.replace('[ ]', '').trim();
       } else if (li.textContent.startsWith('[x]') || li.textContent.startsWith('[X]')) {
         li.innerHTML = '<input type="checkbox" checked disabled> ' + li.innerHTML.replace(/\[[xX]\]/, '').trim();
       }
     });
+
+    contentEl.scrollTop = 0;
+  }
+
+  function showFileList() {
+    const listEl = document.getElementById('file-list');
+    const contentEl = document.getElementById('content-area');
+    listEl.classList.remove('hidden');
+    contentEl.classList.remove('visible');
+  }
+
+  // スクロールトップボタン
+  const contentEl = document.getElementById('content-area');
+  contentEl.addEventListener('scroll', () => {
+    const btn = document.getElementById('scroll-top');
+    if (contentEl.scrollTop > 300) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  });
+  // モバイルはwindowスクロール
+  window.addEventListener('scroll', () => {
+    const btn = document.getElementById('scroll-top');
+    if (window.scrollY > 300) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  });
+
+  function scrollToTop() {
+    if (isMobile()) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      document.getElementById('content-area').scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
 
   // 初期表示
