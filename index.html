@@ -11,6 +11,7 @@
 
     header { background: #1a1a2e; color: #fff; padding: 16px 20px; display: flex; align-items: center; gap: 12px; }
     header h1 { font-size: 1.1rem; font-weight: 600; }
+    .version { font-size: 0.75rem; color: #888; margin-left: 4px; }
 
     .tabs { display: flex; background: #16213e; padding: 0 16px; }
     .tab-btn {
@@ -121,7 +122,7 @@
 
 <header>
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-  <h1>Life Ideas</h1>
+  <h1>Life Ideas <span class="version" id="version-label"></span></h1>
 </header>
 
 <div class="tabs">
@@ -147,8 +148,11 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
+  const VERSION = 'v1.4';
   let currentTab = 'daily';
   const isMobile = () => window.innerWidth <= 768;
+
+  document.getElementById('version-label').textContent = VERSION;
 
   // 外部リンクを新タブで開く（DOM後処理）
   function makeExternalLinksNewTab(container) {
