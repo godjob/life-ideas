@@ -150,15 +150,15 @@
   let currentTab = 'daily';
   const isMobile = () => window.innerWidth <= 768;
 
-  // marked: 外部リンクを新タブで開く
-  const renderer = new marked.Renderer();
-  renderer.link = (href, title, text) => {
-    const isExternal = href && (href.startsWith('http://') || href.startsWith('https://'));
-    const titleAttr = title ? ` title="${title}"` : '';
-    const target = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
-    return `<a href="${href}"${titleAttr}${target}>${text}</a>`;
-  };
-  marked.use({ renderer });
+  // 外部リンクを新タブで開く（DOM後処理）
+  function makeExternalLinksNewTab(container) {
+    container.querySelectorAll('a[href]').forEach(a => {
+      if (a.href.startsWith('http') && !a.href.includes(location.hostname)) {
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      }
+    });
+  }
 
   async function listFiles(dir) {
     const url = `https://api.github.com/repos/${REPO}/contents/ideas/${dir}?ref=${BRANCH}`;
@@ -263,6 +263,8 @@
     // 戻るボタン（モバイルのみ表示）
     const backBtn = `<button class="back-btn" onclick="showFileList()">← 一覧に戻る</button>`;
     contentEl.innerHTML = backBtn + `<div class="markdown-body">${marked.parse(text)}</div>`;
+
+    makeExternalLinksNewTab(contentEl);
 
     // チェックボックスを本物のチェックボックスに変換
     contentEl.querySelectorAll('li').forEach(li => {
