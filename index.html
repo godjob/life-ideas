@@ -9,42 +9,55 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
 
-    header { background: #1a1a2e; color: #fff; padding: 16px 20px; display: flex; align-items: center; gap: 12px; }
-    header h1 { font-size: 1.1rem; font-weight: 600; }
-    .version { font-size: 0.75rem; color: #888; margin-left: 4px; }
+    /* ヘッダー */
+    header {
+      background: #1a1a2e; color: #fff; padding: 12px 16px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .header-left { display: flex; align-items: center; gap: 10px; flex: 1; }
+    header h1 { font-size: 1.05rem; font-weight: 600; }
+    .version { font-size: 0.72rem; color: #888; margin-left: 4px; }
+    .header-right { display: flex; align-items: center; gap: 6px; }
 
+    /* ハンバーガー・リロードボタン */
+    .icon-btn {
+      background: none; border: none; color: #aaa; cursor: pointer;
+      padding: 6px; border-radius: 4px; display: flex; align-items: center;
+      transition: color 0.15s;
+    }
+    .icon-btn:hover { color: #fff; }
+
+    /* タブ */
     .tabs { display: flex; background: #16213e; padding: 0 16px; }
     .tab-btn {
-      padding: 12px 20px; color: #aaa; background: none; border: none;
-      cursor: pointer; font-size: 0.9rem; border-bottom: 3px solid transparent;
+      padding: 11px 18px; color: #aaa; background: none; border: none;
+      cursor: pointer; font-size: 0.88rem; border-bottom: 3px solid transparent;
       transition: all 0.2s;
     }
     .tab-btn.active { color: #fff; border-bottom-color: #e94560; }
     .tab-btn:hover { color: #fff; }
 
     /* PC: 2カラムレイアウト */
-    .layout { display: flex; height: calc(100vh - 96px); }
+    .layout { display: flex; height: calc(100vh - 88px); }
 
     .file-list {
       width: 240px; min-width: 240px; background: #fff;
       border-right: 1px solid #e0e0e0; overflow-y: auto;
-      padding: 8px 0;
+      padding: 8px 0; flex-shrink: 0;
     }
     .file-item {
       padding: 10px 16px; cursor: pointer; font-size: 0.85rem;
       color: #555; border-left: 3px solid transparent;
-      transition: all 0.15s; line-height: 1.4;
-      word-break: break-all;
+      transition: all 0.15s; line-height: 1.4; white-space: nowrap;
     }
     .file-item:hover { background: #f0f4ff; color: #333; }
     .file-item.active { background: #f0f4ff; border-left-color: #e94560; color: #1a1a2e; font-weight: 600; }
-    .file-item.empty { color: #aaa; cursor: default; font-style: italic; padding: 16px; }
+    .file-item.empty { color: #aaa; cursor: default; font-style: italic; padding: 16px; white-space: normal; }
 
     .content-area {
       flex: 1; overflow-y: auto; padding: 32px;
       background: #fff; position: relative;
     }
-    .content-area.loading { display: flex; align-items: center; justify-content: center; color: #aaa; }
 
     .markdown-body { max-width: 800px; margin: 0 auto; line-height: 1.7; }
     .markdown-body h1 { font-size: 1.6rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #e94560; }
@@ -76,53 +89,73 @@
       font-size: 1.2rem; cursor: pointer;
       box-shadow: 0 2px 8px rgba(0,0,0,0.2);
       display: none; align-items: center; justify-content: center;
-      transition: opacity 0.2s;
       z-index: 100;
     }
     .scroll-top.visible { display: flex; }
     .scroll-top:hover { background: #c73652; }
 
-    /* スマホ対応 */
-    @media (max-width: 768px) {
-      .layout { display: block; height: auto; min-height: calc(100vh - 96px); }
+    /* ハンバーガーメニュー：PCでは非表示 */
+    .hamburger-btn { display: none; }
 
-      .file-list {
-        width: 100%; min-width: unset; border-right: none;
-        border-bottom: 1px solid #e0e0e0;
-        max-height: calc(100vh - 96px); overflow-y: auto;
-      }
-      .file-list.hidden { display: none; }
-
-      .content-area {
-        width: 100%; padding: 16px;
-        min-height: calc(100vh - 96px);
-        display: none;
-      }
-      .content-area.visible { display: block; }
-
-      .back-btn {
-        display: flex; align-items: center; gap: 6px;
-        margin-bottom: 16px; padding: 8px 12px;
-        background: #f0f4ff; border: none; border-radius: 6px;
-        color: #1a1a2e; font-size: 0.9rem; cursor: pointer;
-        font-weight: 600;
-      }
-      .tab-btn { padding: 12px 16px; font-size: 0.85rem; }
-      .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
+    /* オーバーレイ（モバイル用） */
+    .overlay-backdrop {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.45); z-index: 200;
     }
+    .overlay-backdrop.visible { display: block; }
 
-    /* PC: content-area は常に表示 */
-    @media (min-width: 769px) {
-      .content-area { display: block !important; }
-      .back-btn { display: none !important; }
+    .overlay-menu {
+      position: fixed; top: 0; left: -100%; bottom: 0;
+      background: #fff; z-index: 201;
+      width: fit-content; min-width: 80px; max-width: 50vw;
+      overflow-y: auto; padding: 8px 0;
+      box-shadow: 2px 0 12px rgba(0,0,0,0.2);
+      transition: left 0.25s ease;
+    }
+    .overlay-menu.visible { left: 0; }
+    .overlay-menu .file-item { white-space: nowrap; padding: 12px 20px; }
+
+    /* スマホ: 2カラムレイアウト維持 */
+    @media (max-width: 768px) {
+      .layout { height: calc(100vh - 88px); }
+
+      .hamburger-btn { display: flex; }
+
+      /* スマホ用左カラム: テキスト幅に合わせる */
+      .file-list {
+        width: fit-content; min-width: unset;
+        padding: 8px 0;
+      }
+      .file-item { padding: 10px 12px; font-size: 0.82rem; }
+      .file-item.empty { padding: 10px 12px; font-size: 0.78rem; }
+
+      .content-area { padding: 16px; }
+
+      .tab-btn { padding: 10px 14px; font-size: 0.82rem; }
+      .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-  <h1>Life Ideas <span class="version" id="version-label"></span></h1>
+  <div class="header-left">
+    <!-- ハンバーガー（スマホのみ表示） -->
+    <button class="icon-btn hamburger-btn" onclick="toggleOverlay()" title="メニュー" aria-label="メニュー">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+    <h1>Life Ideas <span class="version" id="version-label"></span></h1>
+  </div>
+  <div class="header-right">
+    <button class="icon-btn" onclick="location.reload()" title="再読み込み" aria-label="再読み込み">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+      </svg>
+    </button>
+  </div>
 </header>
 
 <div class="tabs">
@@ -130,6 +163,10 @@
   <button class="tab-btn" onclick="switchTab('weekly', this)">Weekly</button>
   <button class="tab-btn" onclick="switchTab('urls', this)">URLs</button>
 </div>
+
+<!-- オーバーレイメニュー（スマホのハンバーガー用） -->
+<div class="overlay-backdrop" id="overlay-backdrop" onclick="closeOverlay()"></div>
+<div class="overlay-menu" id="overlay-menu"></div>
 
 <div class="layout">
   <div class="file-list" id="file-list">
@@ -148,7 +185,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.4';
+  const VERSION = 'v1.5';
   let currentTab = 'daily';
   const isMobile = () => window.innerWidth <= 768;
 
@@ -182,11 +219,24 @@
   function formatLabel(dir, name) {
     const base = name.replace('.md', '');
     if (dir === 'daily') {
-      // "2026-03-08" → "'26/03-08"
       const parts = base.split('-');
       return `'${parts[0].slice(2)}/${parts[1]}-${parts[2]}`;
     }
     return base;
+  }
+
+  // ファイルリスト項目を生成（左サイドバー・オーバーレイ共通）
+  function buildItems(files, dir, container, onSelect) {
+    container.innerHTML = '';
+    files.forEach(file => {
+      const item = document.createElement('div');
+      item.className = 'file-item';
+      item.textContent = formatLabel(dir, file.name);
+      item.title = file.name.replace('.md', '');
+      item.dataset.path = file.path;
+      item.onclick = () => onSelect(file.path, item);
+      container.appendChild(item);
+    });
   }
 
   async function switchTab(dir, btn) {
@@ -200,74 +250,66 @@
     listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
     contentEl.innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
 
-    // モバイル: ファイルリストを表示、コンテンツを非表示
-    if (isMobile()) {
-      listEl.classList.remove('hidden');
-      contentEl.classList.remove('visible');
-    }
-
-    // URLs タブは index.md を直接表示
+    // URLs タブ: index.md を直接表示
     if (dir === 'urls') {
       listEl.innerHTML = '<div class="file-item active">URLリスト</div>';
+      document.getElementById('overlay-menu').innerHTML = '<div class="file-item active">URLリスト</div>';
       openFile('ideas/urls/index.md', listEl.firstChild);
       return;
     }
 
     const files = await listFiles(dir);
-
     if (files.length === 0) {
       listEl.innerHTML = '<div class="file-item empty">ファイルなし</div>';
       return;
     }
 
-    listEl.innerHTML = '';
     files.sort((a, b) => b.name.localeCompare(a.name));
 
-    files.forEach(file => {
-      const item = document.createElement('div');
-      item.className = 'file-item';
-      item.textContent = formatLabel(dir, file.name);
-      item.title = file.name.replace('.md', '');
-      item.onclick = () => openFile(file.path, item);
-      listEl.appendChild(item);
+    // 左サイドバーに項目生成
+    buildItems(files, dir, listEl, (path, item) => {
+      syncActive(item);
+      openFile(path, item);
     });
 
-    // PCは最新ファイルを自動で開く、モバイルはリスト表示のまま
-    if (!isMobile()) {
-      listEl.firstChild.click();
-    }
+    // オーバーレイメニューにも同じ項目を生成
+    buildItems(files, dir, document.getElementById('overlay-menu'), (path, item) => {
+      syncActive(item);
+      closeOverlay();
+      openFile(path, document.querySelector(`#file-list .file-item[data-path="${path}"]`) || item);
+    });
+
+    // 常に最新ファイルを自動で開く（スマホ・PC共通）
+    listEl.firstChild.click();
+  }
+
+  // サイドバーとオーバーレイのアクティブ状態を同期
+  function syncActive(clickedItem) {
+    const path = clickedItem.dataset.path;
+    document.querySelectorAll('.file-item').forEach(i => {
+      i.classList.toggle('active', i.dataset.path === path);
+    });
   }
 
   async function openFile(path, itemEl) {
-    const listEl = document.getElementById('file-list');
     const contentEl = document.getElementById('content-area');
 
-    document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
-    itemEl.classList.add('active');
-
-    // モバイル: コンテンツを表示、ファイルリストを非表示
-    if (isMobile()) {
-      listEl.classList.add('hidden');
-      contentEl.classList.add('visible');
+    if (itemEl) {
+      document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
+      itemEl.classList.add('active');
     }
 
-    contentEl.innerHTML = '<div class="loading">読み込み中...</div>';
-    contentEl.classList.add('loading');
+    contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">読み込み中...</div>';
 
     let text;
     try {
       text = await fetchContent(path);
     } catch (e) {
-      contentEl.classList.remove('loading');
       contentEl.innerHTML = `<div class="placeholder"><p style="color:#e94560;">読み込みエラー<br><small>${e.message}</small></p></div>`;
       return;
     }
-    contentEl.classList.remove('loading');
 
-    // 戻るボタン（モバイルのみ表示）
-    const backBtn = `<button class="back-btn" onclick="showFileList()">← 一覧に戻る</button>`;
-    contentEl.innerHTML = backBtn + `<div class="markdown-body">${marked.parse(text)}</div>`;
-
+    contentEl.innerHTML = `<div class="markdown-body">${marked.parse(text)}</div>`;
     makeExternalLinksNewTab(contentEl);
 
     // チェックボックスを本物のチェックボックスに変換
@@ -282,39 +324,36 @@
     contentEl.scrollTop = 0;
   }
 
-  function showFileList() {
-    const listEl = document.getElementById('file-list');
-    const contentEl = document.getElementById('content-area');
-    listEl.classList.remove('hidden');
-    contentEl.classList.remove('visible');
+  // オーバーレイ（ハンバーガーメニュー）
+  function toggleOverlay() {
+    const menu = document.getElementById('overlay-menu');
+    const backdrop = document.getElementById('overlay-backdrop');
+    const isOpen = menu.classList.contains('visible');
+    if (isOpen) {
+      closeOverlay();
+    } else {
+      menu.classList.add('visible');
+      backdrop.classList.add('visible');
+    }
+  }
+
+  function closeOverlay() {
+    document.getElementById('overlay-menu').classList.remove('visible');
+    document.getElementById('overlay-backdrop').classList.remove('visible');
   }
 
   // スクロールトップボタン
-  const contentEl = document.getElementById('content-area');
-  contentEl.addEventListener('scroll', () => {
+  document.getElementById('content-area').addEventListener('scroll', () => {
     const btn = document.getElementById('scroll-top');
-    if (contentEl.scrollTop > 300) {
-      btn.classList.add('visible');
-    } else {
-      btn.classList.remove('visible');
-    }
+    btn.classList.toggle('visible', document.getElementById('content-area').scrollTop > 300);
   });
-  // モバイルはwindowスクロール
   window.addEventListener('scroll', () => {
-    const btn = document.getElementById('scroll-top');
-    if (window.scrollY > 300) {
-      btn.classList.add('visible');
-    } else {
-      btn.classList.remove('visible');
-    }
+    document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 300);
   });
 
   function scrollToTop() {
-    if (isMobile()) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    } else {
-      document.getElementById('content-area').scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    document.getElementById('content-area').scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // 初期表示
