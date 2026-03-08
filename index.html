@@ -126,6 +126,13 @@
     listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
     document.getElementById('content-area').innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
 
+    // URLs タブは index.md を直接表示
+    if (dir === 'urls') {
+      listEl.innerHTML = '<div class="file-item active">URLリスト</div>';
+      openFile('ideas/urls/index.md', listEl.firstChild);
+      return;
+    }
+
     const files = await listFiles(dir);
 
     if (files.length === 0) {
@@ -140,7 +147,12 @@
     files.forEach(file => {
       const item = document.createElement('div');
       item.className = 'file-item';
-      item.textContent = file.name.replace('.md', '');
+      // weekly: "2026-W10" → "W10 (3/2〜)" のような表示、daily: "2026-03-08" → "03-08" に短縮
+      const label = dir === 'daily'
+        ? file.name.replace('.md', '').slice(5)   // "2026-03-08" → "03-08"
+        : file.name.replace('.md', '');
+      item.textContent = label;
+      item.title = file.name.replace('.md', '');
       item.onclick = () => openFile(file.path, item);
       listEl.appendChild(item);
     });
