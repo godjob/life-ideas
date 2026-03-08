@@ -171,6 +171,7 @@
   async function fetchContent(path) {
     const url = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${path}`;
     const res = await fetch(url);
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}: ${path}`);
     return await res.text();
   }
 
@@ -249,7 +250,14 @@
     contentEl.innerHTML = '<div class="loading">読み込み中...</div>';
     contentEl.classList.add('loading');
 
-    const text = await fetchContent(path);
+    let text;
+    try {
+      text = await fetchContent(path);
+    } catch (e) {
+      contentEl.classList.remove('loading');
+      contentEl.innerHTML = `<div class="placeholder"><p style="color:#e94560;">読み込みエラー<br><small>${e.message}</small></p></div>`;
+      return;
+    }
     contentEl.classList.remove('loading');
 
     // 戻るボタン（モバイルのみ表示）
