@@ -18,5 +18,6 @@
 | 『AIを使って考えるための全技術』 | 石井力重著・AI思考支援ツールの全技術解説（YouTube） | 2026-03-08 | https://www.youtube.com/watch?v=CpnYlN9-S14 |
 | AIを利活用できる人材育成（安宅和人） | 文科省資料・AI時代の人材育成に必要なスキルセット | 2026-03-08 | https://www.mext.go.jp/content/20230328-mxt_kyoiku01-000028726_02.pdf |
 | 三菱UFJ銀行エンタープライズAI駆動開発のリアル | 大手銀行のAI駆動開発の実態と課題（SpeakerDeck） | 2026-03-08 | https://speakerdeck.com/muit/enterprise-a |
+| スマイルカーブの終焉と「コ」の字型社会の到来 | AI時代に中間工程が消え、ディレクションと評価の両端だけが残るという価値構造・判断主権の論考 | 2026-03-09 | https://kaz-ataka.hatenablog.com/entry/2026/02/10/132414 |
 | 個人開発でClaudeCodeにPR動画生成＆X自動投稿 | Claude Codeで画面操作付きPR動画を生成してXに自動投稿する実装例 | 2026-03-08 | https://qiita.com/akachiryo/items/2777af8e9912d6bbbbb3 |
 | 南場智子「速さが命題に」DeNA AI Day2026全文 | 生産性20倍・エンバイロメントエンジニアリング・日本の勝機 | 2026-03-08 | https://type.jp/et/feature/30605/ |
