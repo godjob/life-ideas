@@ -169,6 +169,7 @@
   <button class="tab-btn" onclick="switchTab('weekly', this)">Weekly</button>
   <button class="tab-btn" onclick="switchTab('urls', this)">URLs</button>
   <button class="tab-btn" onclick="switchTab('news', this)">記事</button>
+  <button class="tab-btn" onclick="switchTab('health', this)">Health</button>
 </div>
 
 <!-- オーバーレイメニュー（スマホのハンバーガー用） -->
@@ -192,7 +193,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.8';
+  const VERSION = 'v1.9';
   let currentTab = 'daily';
   const isMobile = () => window.innerWidth <= 768;
 
@@ -266,6 +267,14 @@
       listEl.innerHTML = '<div class="file-item active">URLリスト</div>';
       document.getElementById('overlay-menu').innerHTML = '<div class="file-item active">URLリスト</div>';
       openFile('ideas/urls/index.md', listEl.firstChild);
+      return;
+    }
+
+    // Health タブ: supplement-health-plan.md を直接表示
+    if (dir === 'health') {
+      listEl.innerHTML = '<div class="file-item active">健康管理プラン</div>';
+      document.getElementById('overlay-menu').innerHTML = '<div class="file-item active">健康管理プラン</div>';
+      openFile('health/supplement-health-plan.md', listEl.firstChild);
       return;
     }
 
