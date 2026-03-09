@@ -24,3 +24,4 @@
 | 南場智子「速さが命題に」DeNA AI Day2026全文 | 生産性20倍・エンバイロメントエンジニアリング・日本の勝機 | 2026-03-08 | https://type.jp/et/feature/30605/ |
 | Microsoft Copilot Cowork：意図をアクションへ変換するAIワークフロー | M365全体でタスク委任・バックグラウンド実行・承認制御を実現する新機能（2026年3月発表） | 2026-03-09 | https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/ |
 | Harness Engineeringベストプラクティス（Claude Code/Codex向け） | リポジトリ衛生・決定論的ツール・Hooks・E2Eテスト・MVHまでCoding Agent補助輪の全技術を解説 | 2026-03-09 | https://nyosegawa.github.io/posts/harness-engineering-best-practices-2026/ |
+| 1週間分の仕事がたった1日で終わるようになったClaude Code活用術 | 日曜に週次振り返り・商談準備・MTGアジェンダを自動化して翌週をほぼ終わらせるワークフロー | 2026-03-09 | https://x.com/0xfene/status/2030928836137783547 |
