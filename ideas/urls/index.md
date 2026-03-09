@@ -22,3 +22,4 @@
 | スマイルカーブの終焉と「コ」の字型社会の到来 | AI時代に中間工程が消え、ディレクションと評価の両端だけが残るという価値構造・判断主権の論考 | 2026-03-09 | https://kaz-ataka.hatenablog.com/entry/2026/02/10/132414 |
 | 個人開発でClaudeCodeにPR動画生成＆X自動投稿 | Claude Codeで画面操作付きPR動画を生成してXに自動投稿する実装例 | 2026-03-08 | https://qiita.com/akachiryo/items/2777af8e9912d6bbbbb3 |
 | 南場智子「速さが命題に」DeNA AI Day2026全文 | 生産性20倍・エンバイロメントエンジニアリング・日本の勝機 | 2026-03-08 | https://type.jp/et/feature/30605/ |
+| Microsoft Copilot Cowork：意図をアクションへ変換するAIワークフロー | M365全体でタスク委任・バックグラウンド実行・承認制御を実現する新機能（2026年3月発表） | 2026-03-09 | https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/ |
