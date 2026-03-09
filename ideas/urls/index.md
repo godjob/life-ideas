@@ -2,6 +2,7 @@
 
 | タイトル | 要約 | 日付 | URL |
 |---------|------|------|-----|
+| Anthropic「ClaudeのSkillを構築する完全ガイド」 | SkillのYAML設計・テスト・配布・5つの実装パターンを網羅した公式PDFガイドの全文日本語訳 | 2026-03-09 | https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf |
 | githubで人生を管理する | GitHubのlifeリポジトリでIssue・日記・プロジェクトを管理する実践ガイド | 2026-03-08 | https://zenn.dev/hand_dot/articles/85c9640b7dcc66 |
 | AIを活用した100倍エンジニアになる方法 | AIをオーケストレートするアーキテクト思考と2026年の開発スタック | 2026-03-08 | https://note.com/akihisa_shiozaki/n/n4c126c27fd3d |
 | AI活用1000本ノック | ChatGPT/AIツール活用の実践的ヒント集PDF | 2026-03-08 | https://downloads.ctfassets.net/7mrdlclm9xss/m7XsAz2M3bT8WoDrfmYn3/8ee77c25f48de5dab3b792b428df5495/AI_100tips_slide.pdf |
