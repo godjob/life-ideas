@@ -159,8 +159,7 @@
 </header>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('urls', this)">URLs</button>
-  <button class="tab-btn" onclick="switchTab('news', this)">記事</button>
+  <button class="tab-btn active" onclick="switchTab('news', this)">記事</button>
 </div>
 
 <!-- オーバーレイメニュー（スマホのハンバーガー用） -->
@@ -185,7 +184,7 @@
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
   const VERSION = 'v1.7';
-  let currentTab = 'urls';
+  let currentTab = 'news';
   const isMobile = () => window.innerWidth <= 768;
 
   document.getElementById('version-label').textContent = VERSION;
@@ -248,14 +247,6 @@
 
     listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
     contentEl.innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
-
-    // URLs タブ: index.md を直接表示
-    if (dir === 'urls') {
-      listEl.innerHTML = '<div class="file-item active">URLリスト</div>';
-      document.getElementById('overlay-menu').innerHTML = '<div class="file-item active">URLリスト</div>';
-      openFile('ideas/urls/index.md', listEl.firstChild);
-      return;
-    }
 
     const files = await listFiles(dir);
     if (files.length === 0) {
@@ -356,7 +347,7 @@
   }
 
   // 初期表示
-  switchTab('urls', document.querySelector('.tab-btn'));
+  switchTab('news', document.querySelector('.tab-btn'));
 </script>
 
 </body>
