@@ -37,8 +37,37 @@
     .tab-btn.active { color: #fff; border-bottom-color: #e94560; }
     .tab-btn:hover { color: #fff; }
 
+    /* 検索バー */
+    .search-bar {
+      background: #f0f2f5; border-bottom: 1px solid #e0e0e0;
+      padding: 8px 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    }
+    .search-date { display: flex; align-items: center; gap: 6px; }
+    .search-date input[type="date"] {
+      border: 1px solid #ccc; border-radius: 4px; padding: 4px 8px;
+      font-size: 0.82rem; color: #333; background: #fff;
+    }
+    .search-date span { color: #888; font-size: 0.85rem; }
+    .search-text-input {
+      flex: 1; min-width: 120px; max-width: 280px;
+      border: 1px solid #ccc; border-radius: 4px; padding: 4px 8px;
+      font-size: 0.85rem; color: #333;
+    }
+    .search-text-input:focus { outline: none; border-color: #e94560; }
+    .search-btn {
+      background: #e94560; color: #fff; border: none; border-radius: 4px;
+      padding: 5px 14px; font-size: 0.82rem; cursor: pointer;
+    }
+    .search-btn:hover { background: #c73652; }
+    .search-reset-btn {
+      background: none; color: #888; border: 1px solid #ccc; border-radius: 4px;
+      padding: 5px 10px; font-size: 0.82rem; cursor: pointer;
+    }
+    .search-reset-btn:hover { border-color: #999; color: #555; }
+    .search-count { font-size: 0.78rem; color: #888; white-space: nowrap; }
+
     /* PC: 2カラムレイアウト */
-    .layout { display: flex; height: calc(100vh - 88px); }
+    .layout { display: flex; height: calc(100vh - 136px); }
 
     .file-list {
       width: 240px; min-width: 240px; background: #fff;
@@ -117,7 +146,7 @@
 
     /* スマホ: 2カラムレイアウト維持 */
     @media (max-width: 768px) {
-      .layout { height: calc(100vh - 88px); }
+      .layout { height: calc(100vh - 136px); }
 
       .hamburger-btn { display: flex; }
 
@@ -162,6 +191,19 @@
   <button class="tab-btn active" onclick="switchTab('news', this)">記事</button>
 </div>
 
+<!-- 検索バー -->
+<div class="search-bar" id="search-bar">
+  <div class="search-date" id="search-date">
+    <input type="date" id="date-from" title="開始日">
+    <span>〜</span>
+    <input type="date" id="date-to" title="終了日">
+  </div>
+  <input type="text" id="search-text" class="search-text-input" placeholder="キーワード検索..." onkeydown="if(event.key==='Enter')doSearch()">
+  <button class="search-btn" onclick="doSearch()">検索</button>
+  <button class="search-reset-btn" onclick="resetSearch()">リセット</button>
+  <span id="search-count" class="search-count"></span>
+</div>
+
 <!-- オーバーレイメニュー（スマホのハンバーガー用） -->
 <div class="overlay-backdrop" id="overlay-backdrop" onclick="closeOverlay()"></div>
 <div class="overlay-menu" id="overlay-menu"></div>
@@ -183,8 +225,9 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.7';
+  const VERSION = 'v1.8';
   let currentTab = 'news';
+  let allFiles = [];
   const isMobile = () => window.innerWidth <= 768;
 
   document.getElementById('version-label').textContent = VERSION;
@@ -239,8 +282,10 @@
 
   async function switchTab(dir, btn) {
     currentTab = dir;
+    allFiles = [];
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     if (btn) btn.classList.add('active');
+    document.getElementById('search-count').textContent = '';
 
     const listEl = document.getElementById('file-list');
     const contentEl = document.getElementById('content-area');
@@ -255,6 +300,7 @@
     }
 
     files.sort((a, b) => b.name.localeCompare(a.name));
+    allFiles = files;
 
     // 左サイドバーに項目生成
     buildItems(files, dir, listEl, (path, item) => {
@@ -271,6 +317,72 @@
 
     // 常に最新ファイルを自動で開く（スマホ・PC共通）
     listEl.firstChild.click();
+  }
+
+  function renderFileList(files) {
+    const listEl = document.getElementById('file-list');
+    const overlayEl = document.getElementById('overlay-menu');
+    if (files.length === 0) {
+      listEl.innerHTML = '<div class="file-item empty">該当なし</div>';
+      overlayEl.innerHTML = '<div class="file-item empty">該当なし</div>';
+      document.getElementById('content-area').innerHTML = '<div class="placeholder"><p>検索結果がありません</p></div>';
+      return;
+    }
+    buildItems(files, currentTab, listEl, (path, item) => {
+      syncActive(item);
+      openFile(path, item);
+    });
+    buildItems(files, currentTab, overlayEl, (path, item) => {
+      syncActive(item);
+      closeOverlay();
+      openFile(path, document.querySelector(`#file-list .file-item[data-path="${path}"]`) || item);
+    });
+    listEl.firstChild.click();
+  }
+
+  async function doSearch() {
+    const dateFrom = document.getElementById('date-from').value;
+    const dateTo = document.getElementById('date-to').value;
+    const textQuery = document.getElementById('search-text').value.trim().toLowerCase();
+
+    let filtered = [...allFiles];
+
+    // 日付フィルタ
+    if (dateFrom || dateTo) {
+      filtered = filtered.filter(f => {
+        const m = f.name.match(/^(\d{4}-\d{2}-\d{2})/);
+        if (!m) return true;
+        const d = m[1];
+        if (dateFrom && d < dateFrom) return false;
+        if (dateTo && d > dateTo) return false;
+        return true;
+      });
+    }
+
+    // テキスト検索（本文fetch）
+    if (textQuery) {
+      document.getElementById('file-list').innerHTML = '<div class="file-item empty">検索中...</div>';
+      document.getElementById('search-count').textContent = '';
+      const results = [];
+      for (const file of filtered) {
+        try {
+          const text = await fetchContent(file.path);
+          if (text.toLowerCase().includes(textQuery)) results.push(file);
+        } catch {}
+      }
+      filtered = results;
+    }
+
+    document.getElementById('search-count').textContent = `${filtered.length}件`;
+    renderFileList(filtered);
+  }
+
+  function resetSearch() {
+    document.getElementById('date-from').value = '';
+    document.getElementById('date-to').value = '';
+    document.getElementById('search-text').value = '';
+    document.getElementById('search-count').textContent = '';
+    renderFileList(allFiles);
   }
 
   // サイドバーとオーバーレイのアクティブ状態を同期
