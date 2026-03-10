@@ -250,7 +250,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.12';
+  const VERSION = 'v1.13';
   let currentTab = 'news';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -498,6 +498,30 @@
       if (header) header.after(toc);
       else div.prepend(toc);
     }
+
+    // テーブル変換: 掲載日 | タイトル（リンク付き）| 媒体名
+    div.querySelectorAll('table').forEach(table => {
+      const rows = table.querySelectorAll('tbody tr');
+      if (!rows.length) return;
+      const thead = table.querySelector('thead tr');
+      if (thead) thead.innerHTML = '<th>掲載日</th><th>タイトル</th><th>媒体名</th>';
+      rows.forEach(tr => {
+        const tds = tr.querySelectorAll('td');
+        if (tds.length < 4) return;
+        const titleText = tds[0].textContent.trim();
+        const mediaText = tds[1].textContent.trim();
+        const dateText  = tds[2].textContent.trim();
+        const linkEl    = tds[3].querySelector('a');
+        const url       = linkEl ? linkEl.href : '';
+        const mediaClean  = mediaText.replace(/※$/, '').trim();
+        const escapedMedia = mediaClean.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const cleanTitle  = titleText.replace(new RegExp(` - ${escapedMedia}$`), '').trim();
+        const titleCell   = url
+          ? `<td><a href="${url}" target="_blank" rel="noopener noreferrer">${cleanTitle}</a></td>`
+          : `<td>${cleanTitle}</td>`;
+        tr.innerHTML = `<td style="white-space:nowrap;color:#888;font-size:0.8rem">${dateText}</td>${titleCell}<td style="white-space:nowrap;font-size:0.8rem">${mediaText}</td>`;
+      });
+    });
 
     return div.innerHTML;
   }
