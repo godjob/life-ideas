@@ -199,6 +199,24 @@
       .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
       .urls-table { font-size: 0.78rem; }
       .urls-table td, .urls-table th { padding: 8px; }
+
+      /* スクロール非表示アニメーション */
+      .search-bar:not(.hidden) {
+        max-height: 60px; overflow: hidden;
+        transition: max-height 0.25s ease, padding 0.25s ease, border-width 0.25s ease;
+      }
+      .mobile-nav.visible {
+        max-height: 50px; overflow: hidden;
+        transition: max-height 0.25s ease, padding 0.25s ease, border-width 0.25s ease;
+      }
+      .search-bar.scroll-hidden {
+        max-height: 0 !important; padding-top: 0 !important;
+        padding-bottom: 0 !important; border-bottom-width: 0 !important;
+      }
+      .mobile-nav.scroll-hidden {
+        max-height: 0 !important; padding-top: 0 !important;
+        padding-bottom: 0 !important; border-bottom-width: 0 !important;
+      }
     }
   </style>
 </head>
@@ -269,10 +287,11 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.12';
+  const VERSION = 'v1.13';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
+  let lastScrollY = 0;
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health'];
   const SEARCH_TABS = ['daily', 'weekly', 'news'];
@@ -381,10 +400,13 @@
     currentTab = dir;
     allFiles = [];
     currentFileIndex = -1;
+    lastScrollY = 0;
     localStorage.setItem('lastTab', dir);
 
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     if (btn) btn.classList.add('active');
+    document.getElementById('search-bar').classList.remove('scroll-hidden');
+    document.getElementById('mobile-nav').classList.remove('scroll-hidden');
 
     const searchBar = document.getElementById('search-bar');
     const searchDate = document.getElementById('search-date');
@@ -678,9 +700,22 @@
   }
 
   document.getElementById('content-area').addEventListener('scroll', () => {
-    document.getElementById('scroll-top').classList.toggle(
-      'visible', document.getElementById('content-area').scrollTop > 300
-    );
+    const el = document.getElementById('content-area');
+    const scrollTop = el.scrollTop;
+    document.getElementById('scroll-top').classList.toggle('visible', scrollTop > 300);
+
+    if (isMobile()) {
+      const delta = scrollTop - lastScrollY;
+      if (scrollTop <= 10) {
+        document.getElementById('search-bar').classList.remove('scroll-hidden');
+        document.getElementById('mobile-nav').classList.remove('scroll-hidden');
+      } else if (Math.abs(delta) > 5) {
+        const hide = delta > 0;
+        document.getElementById('search-bar').classList.toggle('scroll-hidden', hide);
+        document.getElementById('mobile-nav').classList.toggle('scroll-hidden', hide);
+      }
+    }
+    lastScrollY = scrollTop;
   });
   window.addEventListener('scroll', () => {
     document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 300);
