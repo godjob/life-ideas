@@ -7,19 +7,22 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f5f5; color: #333;
+      display: flex; flex-direction: column; height: 100vh; overflow: hidden;
+    }
 
     /* ヘッダー */
     header {
       background: #1a1a2e; color: #fff; padding: 12px 16px;
-      display: flex; align-items: center; gap: 10px;
+      display: flex; align-items: center; gap: 10px; flex-shrink: 0;
     }
     .header-left { display: flex; align-items: center; gap: 10px; flex: 1; }
     header h1 { font-size: 1.05rem; font-weight: 600; }
     .version { font-size: 0.72rem; color: #888; margin-left: 4px; }
     .header-right { display: flex; align-items: center; gap: 6px; }
 
-    /* ハンバーガー・リロードボタン */
     .icon-btn {
       background: none; border: none; color: #aaa; cursor: pointer;
       padding: 6px; border-radius: 4px; display: flex; align-items: center;
@@ -28,11 +31,11 @@
     .icon-btn:hover { color: #fff; }
 
     /* タブ */
-    .tabs { display: flex; background: #16213e; padding: 0 16px; }
+    .tabs { display: flex; background: #16213e; padding: 0 16px; flex-shrink: 0; overflow-x: auto; }
     .tab-btn {
       padding: 11px 18px; color: #aaa; background: none; border: none;
       cursor: pointer; font-size: 0.88rem; border-bottom: 3px solid transparent;
-      transition: all 0.2s;
+      transition: all 0.2s; white-space: nowrap;
     }
     .tab-btn.active { color: #fff; border-bottom-color: #e94560; }
     .tab-btn:hover { color: #fff; }
@@ -41,6 +44,7 @@
     .search-bar {
       background: #f0f2f5; border-bottom: 1px solid #e0e0e0;
       padding: 8px 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+      flex-shrink: 0;
     }
     .search-bar.hidden { display: none; }
     .search-date { display: flex; align-items: center; gap: 6px; }
@@ -68,9 +72,28 @@
     .search-reset-btn:hover { border-color: #999; color: #555; }
     .search-count { font-size: 0.78rem; color: #888; white-space: nowrap; }
 
+    /* モバイルナビバー（PC非表示） */
+    .mobile-nav {
+      display: none;
+      background: #f0f2f5; border-bottom: 1px solid #ddd;
+      padding: 6px 10px; align-items: center; gap: 8px; flex-shrink: 0;
+    }
+    .mobile-nav.visible { display: flex; }
+    .nav-arrow {
+      background: #fff; border: 1px solid #ccc; border-radius: 4px;
+      padding: 5px 10px; font-size: 0.82rem; cursor: pointer; color: #555;
+      flex-shrink: 0; white-space: nowrap; transition: all 0.15s;
+    }
+    .nav-arrow:disabled { opacity: 0.3; cursor: default; }
+    .nav-arrow:not(:disabled):hover { border-color: #e94560; color: #e94560; }
+    #mobile-select {
+      flex: 1; border: 1px solid #ccc; border-radius: 4px;
+      padding: 5px 6px; font-size: 0.85rem; color: #333; background: #fff;
+      min-width: 0;
+    }
+
     /* PC: 2カラムレイアウト */
-    .layout { display: flex; height: calc(100vh - 88px); }
-    .layout.has-search { height: calc(100vh - 136px); }
+    .layout { display: flex; flex: 1; min-height: 0; }
 
     .file-list {
       width: 240px; min-width: 240px; background: #fff;
@@ -126,45 +149,11 @@
     .scroll-top.visible { display: flex; }
     .scroll-top:hover { background: #c73652; }
 
-    /* ハンバーガーメニュー：PCでは非表示 */
-    .hamburger-btn { display: none; }
-
-    /* オーバーレイ（モバイル用） */
-    .overlay-backdrop {
-      display: none; position: fixed; inset: 0;
-      background: rgba(0,0,0,0.45); z-index: 200;
-    }
-    .overlay-backdrop.visible { display: block; }
-
-    .overlay-menu {
-      position: fixed; top: 0; left: -100%; bottom: 0;
-      background: #fff; z-index: 201;
-      width: fit-content; min-width: 80px; max-width: 50vw;
-      overflow-y: auto; padding: 8px 0;
-      box-shadow: 2px 0 12px rgba(0,0,0,0.2);
-      transition: left 0.25s ease;
-    }
-    .overlay-menu.visible { left: 0; }
-    .overlay-menu .file-item { white-space: nowrap; padding: 12px 20px; }
-
-    /* スマホ: 2カラムレイアウト維持 */
+    /* スマホ */
     @media (max-width: 768px) {
-      .layout { height: calc(100vh - 88px); }
-      .layout.has-search { height: calc(100vh - 136px); }
-
-      .hamburger-btn { display: flex; }
-
-      /* スマホ用左カラム: テキスト幅に合わせる */
-      .file-list {
-        width: fit-content; min-width: unset;
-        padding: 8px 0;
-      }
-      .file-item { padding: 10px 12px; font-size: 0.82rem; }
-      .file-item.empty { padding: 10px 12px; font-size: 0.78rem; }
-
+      .file-list { display: none; }
       .content-area { padding: 16px; }
-
-      .tab-btn { padding: 10px 14px; font-size: 0.82rem; }
+      .tab-btn { padding: 10px 12px; font-size: 0.82rem; }
       .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
     }
   </style>
@@ -173,12 +162,6 @@
 
 <header>
   <div class="header-left">
-    <!-- ハンバーガー（スマホのみ表示） -->
-    <button class="icon-btn hamburger-btn" onclick="toggleOverlay()" title="メニュー" aria-label="メニュー">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
-      </svg>
-    </button>
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e94560" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
     <h1>Life Ideas <span class="version" id="version-label"></span></h1>
   </div>
@@ -198,7 +181,7 @@
 </header>
 
 <div class="tabs">
-  <button class="tab-btn active" onclick="switchTab('daily', this)">Daily</button>
+  <button class="tab-btn" onclick="switchTab('daily', this)">Daily</button>
   <button class="tab-btn" onclick="switchTab('weekly', this)">Weekly</button>
   <button class="tab-btn" onclick="switchTab('urls', this)">URLs</button>
   <button class="tab-btn" onclick="switchTab('news', this)">記事</button>
@@ -218,9 +201,12 @@
   <span id="search-count" class="search-count"></span>
 </div>
 
-<!-- オーバーレイメニュー（スマホのハンバーガー用） -->
-<div class="overlay-backdrop" id="overlay-backdrop" onclick="closeOverlay()"></div>
-<div class="overlay-menu" id="overlay-menu"></div>
+<!-- モバイルナビバー -->
+<div class="mobile-nav" id="mobile-nav">
+  <button class="nav-arrow" id="nav-prev" onclick="navigateFile(1)">←</button>
+  <select id="mobile-select" onchange="navigateBySelect(this.value)"></select>
+  <button class="nav-arrow" id="nav-next" onclick="navigateFile(-1)">→</button>
+</div>
 
 <div class="layout">
   <div class="file-list" id="file-list">
@@ -239,19 +225,17 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.10';
+  const VERSION = 'v1.11';
   let currentTab = 'daily';
   let allFiles = [];
+  let currentFileIndex = -1;
   const isMobile = () => window.innerWidth <= 768;
-
-  // 検索バーを表示するタブ
+  const SINGLE_FILE_TABS = ['urls', 'health'];
   const SEARCH_TABS = ['daily', 'weekly', 'news'];
-  // 日付フィルタを使うタブ（YYYY-MM-DD形式ファイル名）
   const DATE_FILTER_TABS = ['daily', 'news'];
 
   document.getElementById('version-label').textContent = VERSION;
 
-  // 外部リンクを新タブで開く（DOM後処理）
   function makeExternalLinksNewTab(container) {
     container.querySelectorAll('a[href]').forEach(a => {
       if (a.href.startsWith('http') && !a.href.includes(location.hostname)) {
@@ -289,62 +273,92 @@
     return base;
   }
 
-  // ファイルリスト項目を生成（左サイドバー・オーバーレイ共通）
   function buildItems(files, dir, container, onSelect) {
     container.innerHTML = '';
-    files.forEach(file => {
+    files.forEach((file, i) => {
       const item = document.createElement('div');
       item.className = 'file-item';
       item.textContent = formatLabel(dir, file.name);
       item.title = file.name.replace('.md', '');
       item.dataset.path = file.path;
-      item.onclick = () => onSelect(file.path, item);
+      item.onclick = () => onSelect(file.path, item, i);
       container.appendChild(item);
     });
+  }
+
+  function updateMobileNav(files, idx) {
+    const nav = document.getElementById('mobile-nav');
+    if (!isMobile() || SINGLE_FILE_TABS.includes(currentTab) || files.length === 0) {
+      nav.classList.remove('visible');
+      return;
+    }
+    nav.classList.add('visible');
+
+    const select = document.getElementById('mobile-select');
+    select.innerHTML = files.map((f, i) =>
+      `<option value="${i}"${i === idx ? ' selected' : ''}>${formatLabel(currentTab, f.name)}</option>`
+    ).join('');
+
+    const prevBtn = document.getElementById('nav-prev');
+    const nextBtn = document.getElementById('nav-next');
+    const prevFile = files[idx + 1];
+    const nextFile = files[idx - 1];
+    prevBtn.disabled = idx >= files.length - 1;
+    prevBtn.textContent = prevFile ? `← ${formatLabel(currentTab, prevFile.name)}` : '←';
+    nextBtn.disabled = idx <= 0;
+    nextBtn.textContent = nextFile ? `${formatLabel(currentTab, nextFile.name)} →` : '→';
+  }
+
+  function navigateFile(offset) {
+    const newIdx = currentFileIndex + offset;
+    if (newIdx < 0 || newIdx >= allFiles.length) return;
+    currentFileIndex = newIdx;
+    const file = allFiles[newIdx];
+    updateMobileNav(allFiles, currentFileIndex);
+    document.querySelectorAll('#file-list .file-item').forEach((item, i) => {
+      item.classList.toggle('active', i === newIdx);
+    });
+    openFile(file.path, null);
+  }
+
+  function navigateBySelect(val) {
+    const idx = parseInt(val);
+    if (isNaN(idx)) return;
+    navigateFile(idx - currentFileIndex);
   }
 
   async function switchTab(dir, btn) {
     currentTab = dir;
     allFiles = [];
+    currentFileIndex = -1;
+    localStorage.setItem('lastTab', dir);
+
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     if (btn) btn.classList.add('active');
 
-    // 検索バー表示切替
     const searchBar = document.getElementById('search-bar');
     const searchDate = document.getElementById('search-date');
-    const layout = document.querySelector('.layout');
     if (SEARCH_TABS.includes(dir)) {
       searchBar.classList.remove('hidden');
-      layout.classList.add('has-search');
-      if (DATE_FILTER_TABS.includes(dir)) {
-        searchDate.classList.remove('hidden');
-      } else {
-        searchDate.classList.add('hidden');
-      }
+      searchDate.classList.toggle('hidden', !DATE_FILTER_TABS.includes(dir));
     } else {
       searchBar.classList.add('hidden');
-      layout.classList.remove('has-search');
     }
     document.getElementById('search-count').textContent = '';
+    document.getElementById('mobile-nav').classList.remove('visible');
 
     const listEl = document.getElementById('file-list');
     const contentEl = document.getElementById('content-area');
-
     listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
     contentEl.innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
 
-    // URLs タブ: index.md を直接表示
     if (dir === 'urls') {
       listEl.innerHTML = '<div class="file-item active">URLリスト</div>';
-      document.getElementById('overlay-menu').innerHTML = '<div class="file-item active">URLリスト</div>';
       openFile('ideas/urls/index.md', listEl.firstChild);
       return;
     }
-
-    // Health タブ: supplement-health-plan.md を直接表示
     if (dir === 'health') {
       listEl.innerHTML = '<div class="file-item active">健康管理プラン</div>';
-      document.getElementById('overlay-menu').innerHTML = '<div class="file-item active">健康管理プラン</div>';
       openFile('health/supplement-health-plan.md', listEl.firstChild);
       return;
     }
@@ -358,41 +372,36 @@
     files.sort((a, b) => b.name.localeCompare(a.name));
     allFiles = files;
 
-    // 左サイドバーに項目生成
-    buildItems(files, dir, listEl, (path, item) => {
-      syncActive(item);
+    buildItems(files, dir, listEl, (path, item, idx) => {
+      currentFileIndex = idx;
+      updateMobileNav(allFiles, currentFileIndex);
+      document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
       openFile(path, item);
     });
 
-    // オーバーレイメニューにも同じ項目を生成
-    buildItems(files, dir, document.getElementById('overlay-menu'), (path, item) => {
-      syncActive(item);
-      closeOverlay();
-      openFile(path, document.querySelector(`#file-list .file-item[data-path="${path}"]`) || item);
-    });
-
-    // 常に最新ファイルを自動で開く（スマホ・PC共通）
+    currentFileIndex = 0;
+    updateMobileNav(files, 0);
     listEl.firstChild.click();
   }
 
   function renderFileList(files) {
     const listEl = document.getElementById('file-list');
-    const overlayEl = document.getElementById('overlay-menu');
     if (files.length === 0) {
       listEl.innerHTML = '<div class="file-item empty">該当なし</div>';
-      overlayEl.innerHTML = '<div class="file-item empty">該当なし</div>';
+      document.getElementById('mobile-nav').classList.remove('visible');
       document.getElementById('content-area').innerHTML = '<div class="placeholder"><p>検索結果がありません</p></div>';
       return;
     }
-    buildItems(files, currentTab, listEl, (path, item) => {
-      syncActive(item);
+    buildItems(files, currentTab, listEl, (path, item, idx) => {
+      currentFileIndex = idx;
+      updateMobileNav(files, currentFileIndex);
+      document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
       openFile(path, item);
     });
-    buildItems(files, currentTab, overlayEl, (path, item) => {
-      syncActive(item);
-      closeOverlay();
-      openFile(path, document.querySelector(`#file-list .file-item[data-path="${path}"]`) || item);
-    });
+    currentFileIndex = 0;
+    updateMobileNav(files, 0);
     listEl.firstChild.click();
   }
 
@@ -404,7 +413,6 @@
 
     let filtered = [...allFiles];
 
-    // 日付フィルタ（YYYY-MM-DD形式タブのみ）
     if (DATE_FILTER_TABS.includes(dir) && (dateFrom || dateTo)) {
       filtered = filtered.filter(f => {
         const m = f.name.match(/^(\d{4}-\d{2}-\d{2})/);
@@ -416,7 +424,6 @@
       });
     }
 
-    // テキスト検索（本文fetch）
     if (textQuery) {
       document.getElementById('file-list').innerHTML = '<div class="file-item empty">検索中...</div>';
       document.getElementById('search-count').textContent = '';
@@ -442,14 +449,6 @@
     renderFileList(allFiles);
   }
 
-  // サイドバーとオーバーレイのアクティブ状態を同期
-  function syncActive(clickedItem) {
-    const path = clickedItem.dataset.path;
-    document.querySelectorAll('.file-item').forEach(i => {
-      i.classList.toggle('active', i.dataset.path === path);
-    });
-  }
-
   async function openFile(path, itemEl) {
     const contentEl = document.getElementById('content-area');
 
@@ -471,7 +470,6 @@
     contentEl.innerHTML = `<div class="markdown-body">${marked.parse(text)}</div>`;
     makeExternalLinksNewTab(contentEl);
 
-    // チェックボックスを本物のチェックボックスに変換
     contentEl.querySelectorAll('li').forEach(li => {
       if (li.textContent.startsWith('[ ]')) {
         li.innerHTML = '<input type="checkbox" disabled> ' + li.innerHTML.replace('[ ]', '').trim();
@@ -483,28 +481,10 @@
     contentEl.scrollTop = 0;
   }
 
-  // オーバーレイ（ハンバーガーメニュー）
-  function toggleOverlay() {
-    const menu = document.getElementById('overlay-menu');
-    const backdrop = document.getElementById('overlay-backdrop');
-    const isOpen = menu.classList.contains('visible');
-    if (isOpen) {
-      closeOverlay();
-    } else {
-      menu.classList.add('visible');
-      backdrop.classList.add('visible');
-    }
-  }
-
-  function closeOverlay() {
-    document.getElementById('overlay-menu').classList.remove('visible');
-    document.getElementById('overlay-backdrop').classList.remove('visible');
-  }
-
-  // スクロールトップボタン
   document.getElementById('content-area').addEventListener('scroll', () => {
-    const btn = document.getElementById('scroll-top');
-    btn.classList.toggle('visible', document.getElementById('content-area').scrollTop > 300);
+    document.getElementById('scroll-top').classList.toggle(
+      'visible', document.getElementById('content-area').scrollTop > 300
+    );
   });
   window.addEventListener('scroll', () => {
     document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 300);
@@ -515,8 +495,10 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  // 初期表示
-  switchTab('daily', document.querySelector('.tab-btn'));
+  // 初期表示（最後のタブを復元）
+  const savedTab = localStorage.getItem('lastTab') || 'daily';
+  const tabBtn = document.querySelector(`.tab-btn[onclick*="'${savedTab}'"]`);
+  switchTab(savedTab, tabBtn);
 </script>
 
 </body>
