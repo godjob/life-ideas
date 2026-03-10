@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/11 | - | BTC, JPYC, DeFi, Tax, Finance | [JPYC — 税務メリットとBTC×DeFi運用の可能性](https://x.com/ryanmbtc/status/2029111920993943970) | JPYCは電子決済手段として確定申告不要。BTC担保借入でBuy,Borrow,Die戦略が日本で最適化できる |
+| 26/03/11 | - | BTC, JPYC, Japan, Finance, Tax | [ビットコインホルダーは全員日本に移住すべき](https://x.com/ryanmbtc/status/2031245690727444914) | 日本ではBTC担保でJPYCを借りて生活費に充て、課税イベントなしにBTCを保有しながら生活できる |
 | 26/03/09 | - | AI, ClaudeCode, Development, Learning, Tools | [Anthropic「ClaudeのSkillを構築する完全ガイド」](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) | SkillのYAML設計・テスト・配布・5つの実装パターンを網羅した公式PDFガイドの全文日本語訳 |
 | 26/03/08 | - | GitHub, Productivity, Management | [githubで人生を管理する](https://zenn.dev/hand_dot/articles/85c9640b7dcc66) | GitHubのlifeリポジトリでIssue・日記・プロジェクトを管理する実践ガイド |
 | 26/03/08 | - | AI, Development, Career, Productivity | [AIを活用した100倍エンジニアになる方法](https://note.com/akihisa_shiozaki/n/n4c126c27fd3d) | AIをオーケストレートするアーキテクト思考と2026年の開発スタック |
