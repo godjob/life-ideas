@@ -202,20 +202,22 @@
 
       /* スクロール非表示アニメーション */
       .search-bar:not(.hidden) {
-        max-height: 60px; overflow: hidden;
+        max-height: 200px;
         transition: max-height 0.25s ease, padding 0.25s ease, border-width 0.25s ease;
       }
       .mobile-nav.visible {
-        max-height: 50px; overflow: hidden;
+        max-height: 100px;
         transition: max-height 0.25s ease, padding 0.25s ease, border-width 0.25s ease;
       }
       .search-bar.scroll-hidden {
-        max-height: 0 !important; padding-top: 0 !important;
-        padding-bottom: 0 !important; border-bottom-width: 0 !important;
+        max-height: 0 !important; overflow: hidden !important;
+        padding-top: 0 !important; padding-bottom: 0 !important;
+        border-bottom-width: 0 !important;
       }
       .mobile-nav.scroll-hidden {
-        max-height: 0 !important; padding-top: 0 !important;
-        padding-bottom: 0 !important; border-bottom-width: 0 !important;
+        max-height: 0 !important; overflow: hidden !important;
+        padding-top: 0 !important; padding-bottom: 0 !important;
+        border-bottom-width: 0 !important;
       }
     }
   </style>
@@ -287,7 +289,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.13';
+  const VERSION = 'v1.14';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
