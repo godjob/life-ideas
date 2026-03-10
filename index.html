@@ -114,6 +114,7 @@
       background: #fff; position: relative;
     }
 
+    /* Markdown 本文スタイル */
     .markdown-body { max-width: 800px; margin: 0 auto; line-height: 1.7; }
     .markdown-body h1 { font-size: 1.6rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #e94560; }
     .markdown-body h2 { font-size: 1.2rem; margin: 24px 0 8px; color: #1a1a2e; }
@@ -136,6 +137,47 @@
     .placeholder { text-align: center; color: #aaa; margin-top: 80px; }
     .placeholder p { font-size: 1rem; margin-top: 8px; }
 
+    /* ===== URLsタブ専用スタイル ===== */
+    .urls-container { width: 100%; }
+
+    /* タグフィルタチップ */
+    .tag-filter {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px;
+    }
+    .tag-chip {
+      background: #f0f0f0; border: 1px solid #ddd; border-radius: 14px;
+      padding: 4px 12px; font-size: 0.78rem; cursor: pointer; color: #555;
+      transition: all 0.15s; white-space: nowrap;
+    }
+    .tag-chip.active { background: #e94560; color: #fff; border-color: #e94560; }
+    .tag-chip:hover:not(.active) { border-color: #e94560; color: #e94560; }
+
+    /* URLテーブル */
+    .table-wrap { overflow-x: auto; }
+    .urls-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .urls-table th {
+      background: #1a1a2e; color: #fff; padding: 10px 12px;
+      text-align: left; white-space: nowrap;
+    }
+    .urls-table th.sortable { cursor: pointer; user-select: none; }
+    .urls-table th.sortable:hover { background: #2a2a4e; }
+    .urls-table td { padding: 10px 12px; border-bottom: 1px solid #eee; vertical-align: top; }
+    .urls-table tr:hover td { background: #f9f9f9; }
+    .urls-table a { color: #e94560; text-decoration: none; }
+    .urls-table a:hover { text-decoration: underline; }
+    .date-cell { white-space: nowrap; color: #888; font-size: 0.8rem; width: 72px; }
+    .tags-cell { width: 160px; }
+    .tag-chip-sm {
+      display: inline-block; background: #eef2ff; color: #4a6cf7;
+      border-radius: 10px; padding: 1px 7px; font-size: 0.72rem;
+      white-space: nowrap; margin: 1px 2px 1px 0;
+    }
+    .title-cell { width: 200px; }
+    .urls-count {
+      margin-top: 10px; font-size: 0.8rem; color: #aaa; text-align: right;
+    }
+    /* ============================= */
+
     /* スクロールトップボタン */
     .scroll-top {
       position: fixed; bottom: 24px; right: 24px;
@@ -155,6 +197,8 @@
       .content-area { padding: 16px; }
       .tab-btn { padding: 10px 12px; font-size: 0.82rem; }
       .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
+      .urls-table { font-size: 0.78rem; }
+      .urls-table td, .urls-table th { padding: 8px; }
     }
   </style>
 </head>
@@ -225,7 +269,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.11';
+  const VERSION = 'v1.12';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -233,6 +277,12 @@
   const SINGLE_FILE_TABS = ['urls', 'health'];
   const SEARCH_TABS = ['daily', 'weekly', 'news'];
   const DATE_FILTER_TABS = ['daily', 'news'];
+
+  // URLsタブ専用ステート
+  let urlsData = [];
+  let urlsSortCol = 'regDate';
+  let urlsSortDir = 'desc';
+  let urlsActiveTag = null;
 
   document.getElementById('version-label').textContent = VERSION;
 
@@ -350,13 +400,16 @@
     const listEl = document.getElementById('file-list');
     const contentEl = document.getElementById('content-area');
     listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
-    contentEl.innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
+    contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">読み込み中...</div>';
 
+    // URLsタブ: 専用レンダラー
     if (dir === 'urls') {
       listEl.innerHTML = '<div class="file-item active">URLリスト</div>';
-      openFile('ideas/urls/index.md', listEl.firstChild);
+      await renderUrlsTab();
       return;
     }
+
+    // Healthタブ: 単一ファイル表示
     if (dir === 'health') {
       listEl.innerHTML = '<div class="file-item active">健康管理プラン</div>';
       openFile('health/supplement-health-plan.md', listEl.firstChild);
@@ -366,6 +419,7 @@
     const files = await listFiles(dir);
     if (files.length === 0) {
       listEl.innerHTML = '<div class="file-item empty">ファイルなし</div>';
+      contentEl.innerHTML = '<div class="placeholder"><p>ファイルを選択してください</p></div>';
       return;
     }
 
@@ -448,6 +502,148 @@
     document.getElementById('search-count').textContent = '';
     renderFileList(allFiles);
   }
+
+  // ===== URLsタブ専用処理 =====
+
+  // Markdownテーブルをパース
+  // 期待フォーマット: | 登録日 | 投稿日 | タグ | タイトル | 要約 |
+  function parseUrlsMarkdown(md) {
+    const lines = md.split('\n').filter(l => l.trim().startsWith('|'));
+    // lines[0] = ヘッダー行, lines[1] = セパレータ行, lines[2+] = データ行
+    if (lines.length < 3) return [];
+
+    return lines.slice(2).map(line => {
+      const cells = line.split('|').slice(1, -1).map(c => c.trim());
+      if (cells.length < 5) return null;
+      const [regDate, pubDate, tagsRaw, titleRaw, summary] = cells;
+
+      // セパレータ行（---）が混入していたらスキップ
+      if (regDate.includes('---')) return null;
+
+      // タグをカンマ分割
+      const tags = tagsRaw
+        ? tagsRaw.split(',').map(t => t.trim()).filter(Boolean)
+        : [];
+
+      // タイトルからリンクを抽出: [text](url)
+      const linkMatch = titleRaw.match(/^\[(.+?)\]\((.+?)\)$/);
+      const title = linkMatch ? linkMatch[1] : titleRaw;
+      const url = linkMatch ? linkMatch[2] : '';
+
+      return { regDate, pubDate: pubDate || '-', tags, title, url, summary };
+    }).filter(Boolean);
+  }
+
+  async function renderUrlsTab() {
+    const contentEl = document.getElementById('content-area');
+    urlsActiveTag = null;
+    urlsSortCol = 'regDate';
+    urlsSortDir = 'desc';
+
+    let md;
+    try {
+      md = await fetchContent('ideas/urls/index.md');
+    } catch (e) {
+      contentEl.innerHTML = `<div class="placeholder"><p style="color:#e94560;">読み込みエラー<br><small>${e.message}</small></p></div>`;
+      return;
+    }
+
+    urlsData = parseUrlsMarkdown(md);
+    if (urlsData.length === 0) {
+      contentEl.innerHTML = '<div class="placeholder"><p>データがありません</p></div>';
+      return;
+    }
+
+    renderUrlsTable(contentEl);
+  }
+
+  function renderUrlsTable(contentEl) {
+    // 全タグを収集（アルファベット順）
+    const allTags = [...new Set(urlsData.flatMap(r => r.tags))].sort();
+
+    // タグフィルタ適用
+    const filtered = urlsActiveTag
+      ? urlsData.filter(r => r.tags.includes(urlsActiveTag))
+      : urlsData;
+
+    // ソート（'-' は最後に来るよう処理）
+    const sorted = [...filtered].sort((a, b) => {
+      const av = a[urlsSortCol] === '-' ? '' : (a[urlsSortCol] || '');
+      const bv = b[urlsSortCol] === '-' ? '' : (b[urlsSortCol] || '');
+      if (!av && !bv) return 0;
+      if (!av) return 1;   // '-' は末尾
+      if (!bv) return -1;
+      const cmp = av.localeCompare(bv);
+      return urlsSortDir === 'desc' ? -cmp : cmp;
+    });
+
+    // ソートヘッダーの矢印
+    const arrow = col => {
+      if (urlsSortCol !== col) return ' <span style="color:#888;font-size:0.8em">⇅</span>';
+      return urlsSortDir === 'desc'
+        ? ' <span style="color:#e94560">↓</span>'
+        : ' <span style="color:#e94560">↑</span>';
+    };
+
+    // タグフィルタチップ HTML
+    const tagFilterHtml = allTags.map(t =>
+      `<button class="tag-chip${t === urlsActiveTag ? ' active' : ''}" onclick="urlsFilterTag('${t}')">${t}</button>`
+    ).join('');
+
+    // テーブル行 HTML
+    const rowsHtml = sorted.map(r => {
+      const tagChips = r.tags.map(t =>
+        `<span class="tag-chip-sm">${t}</span>`
+      ).join('');
+      const titleHtml = r.url
+        ? `<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.title}</a>`
+        : r.title;
+      return `<tr>
+        <td class="date-cell">${r.regDate}</td>
+        <td class="date-cell">${r.pubDate}</td>
+        <td class="tags-cell">${tagChips}</td>
+        <td class="title-cell">${titleHtml}</td>
+        <td>${r.summary}</td>
+      </tr>`;
+    }).join('');
+
+    contentEl.innerHTML = `
+      <div class="urls-container">
+        <div class="tag-filter">${tagFilterHtml}</div>
+        <div class="table-wrap">
+          <table class="urls-table">
+            <thead>
+              <tr>
+                <th class="sortable" onclick="urlsSort('regDate')">登録日${arrow('regDate')}</th>
+                <th class="sortable" onclick="urlsSort('pubDate')">投稿日${arrow('pubDate')}</th>
+                <th>タグ</th>
+                <th>タイトル</th>
+                <th>要約</th>
+              </tr>
+            </thead>
+            <tbody>${rowsHtml}</tbody>
+          </table>
+        </div>
+        <p class="urls-count">${sorted.length} 件${urlsActiveTag ? ` — タグ: ${urlsActiveTag}` : ''}</p>
+      </div>`;
+  }
+
+  function urlsSort(col) {
+    if (urlsSortCol === col) {
+      urlsSortDir = urlsSortDir === 'desc' ? 'asc' : 'desc';
+    } else {
+      urlsSortCol = col;
+      urlsSortDir = 'desc';
+    }
+    renderUrlsTable(document.getElementById('content-area'));
+  }
+
+  function urlsFilterTag(tag) {
+    urlsActiveTag = urlsActiveTag === tag ? null : tag;
+    renderUrlsTable(document.getElementById('content-area'));
+  }
+
+  // ===========================
 
   async function openFile(path, itemEl) {
     const contentEl = document.getElementById('content-area');
