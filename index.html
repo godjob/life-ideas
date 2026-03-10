@@ -178,6 +178,23 @@
     }
     /* ============================= */
 
+    /* ===== 記事タブ専用スタイル ===== */
+    .news-header {
+      display: flex; align-items: baseline;
+      justify-content: space-between; flex-wrap: wrap; gap: 8px;
+      border-bottom: 2px solid #e94560; margin-bottom: 16px; padding-bottom: 8px;
+    }
+    .news-header h1 { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .news-meta { display: flex; gap: 10px; font-size: 0.82rem; color: #888; white-space: nowrap; }
+    .news-toc { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+    .news-toc a {
+      background: #f0f4ff; color: #4a6cf7; border: 1px solid #c8d6ff;
+      border-radius: 14px; padding: 4px 12px; font-size: 0.82rem;
+      text-decoration: none; white-space: nowrap;
+    }
+    .news-toc a:hover { background: #e94560; color: #fff; border-color: #e94560; }
+    /* ================================ */
+
     /* スクロールトップボタン */
     .scroll-top {
       position: fixed; bottom: 24px; right: 24px;
@@ -289,7 +306,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.14';
+  const VERSION = 'v1.15';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -669,6 +686,68 @@
 
   // ===========================
 
+  // ===== 記事タブ専用レンダラー =====
+  function renderNewsContent(html) {
+    const div = document.createElement('div');
+    div.innerHTML = html;
+
+    // blockquote からメタ情報を抽出して削除
+    const blockquote = div.querySelector('blockquote');
+    let timeStr = '';
+    let countStr = '';
+    if (blockquote) {
+      const text = blockquote.textContent || '';
+      // 収集時刻: "収集: 2026-03-10 13:45 JST" → "13:45"
+      const timeMatch = text.match(/収集[：:]\s*[\d-]+\s+(\d{2}:\d{2})/);
+      if (timeMatch) timeStr = timeMatch[1];
+      // 記事数: "記事数: 58件（直近7日以内）"
+      const countMatch = text.match(/記事数[：:]\s*([^\n※]+)/);
+      if (countMatch) countStr = countMatch[1].trim();
+      blockquote.remove();
+    }
+
+    // h1 をラッパーで包んでメタ情報を右側に追加
+    const h1 = div.querySelector('h1');
+    if (h1) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'news-header';
+      h1.parentNode.insertBefore(wrapper, h1);
+      wrapper.appendChild(h1);
+      if (timeStr || countStr) {
+        const meta = document.createElement('div');
+        meta.className = 'news-meta';
+        if (timeStr) meta.innerHTML += `<span>🕐 ${timeStr}</span>`;
+        if (countStr) meta.innerHTML += `<span>${countStr}</span>`;
+        wrapper.appendChild(meta);
+      }
+    }
+
+    // h2 にアンカーID付与 + TOC生成
+    const h2s = div.querySelectorAll('h2');
+    if (h2s.length > 0) {
+      const toc = document.createElement('nav');
+      toc.className = 'news-toc';
+      h2s.forEach((h2, i) => {
+        const id = `section-${i}`;
+        h2.id = id;
+        const a = document.createElement('a');
+        a.href = `#${id}`;
+        a.textContent = h2.textContent;
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          h2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        toc.appendChild(a);
+      });
+      const header = div.querySelector('.news-header');
+      if (header) header.after(toc);
+      else div.prepend(toc);
+    }
+
+    return div.innerHTML;
+  }
+  // ==================================
+
   async function openFile(path, itemEl) {
     const contentEl = document.getElementById('content-area');
 
@@ -687,7 +766,9 @@
       return;
     }
 
-    contentEl.innerHTML = `<div class="markdown-body">${marked.parse(text)}</div>`;
+    let rendered = marked.parse(text);
+    if (currentTab === 'news') rendered = renderNewsContent(rendered);
+    contentEl.innerHTML = `<div class="markdown-body">${rendered}</div>`;
     makeExternalLinksNewTab(contentEl);
 
     contentEl.querySelectorAll('li').forEach(li => {
