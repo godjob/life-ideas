@@ -46,6 +46,7 @@
       padding: 8px 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
       flex-shrink: 0;
     }
+    mark.search-highlight { background: #f59e0b; color: #1a1a2e; border-radius: 2px; padding: 0 2px; }
     .search-date { display: flex; align-items: center; gap: 6px; }
     .search-date input[type="date"] {
       border: 1px solid #ccc; border-radius: 4px; padding: 4px 8px;
@@ -250,14 +251,58 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.13';
+  const VERSION = 'v1.14';
   let currentTab = 'news';
   let allFiles = [];
   let currentFileIndex = -1;
   let lastScrollY = 0;
+  let currentSearchQuery = '';
   const isMobile = () => window.innerWidth <= 768;
 
   document.getElementById('version-label').textContent = VERSION;
+
+  function highlightText(container, query) {
+    const terms = query.split(/\s+/).filter(Boolean);
+    if (!terms.length) return;
+    const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        const tag = node.parentElement && node.parentElement.tagName;
+        if (['SCRIPT', 'STYLE', 'MARK'].includes(tag)) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    for (const node of nodes) {
+      const text = node.textContent;
+      const lower = text.toLowerCase();
+      let result = ''; let pos = 0; let found = false;
+      const positions = [];
+      for (const term of terms) {
+        let i = 0;
+        while ((i = lower.indexOf(term, i)) !== -1) { positions.push([i, i + term.length]); i++; }
+      }
+      if (!positions.length) continue;
+      positions.sort((a, b) => a[0] - b[0]);
+      const merged = [positions[0]];
+      for (let k = 1; k < positions.length; k++) {
+        const last = merged[merged.length - 1];
+        if (positions[k][0] <= last[1]) { last[1] = Math.max(last[1], positions[k][1]); }
+        else { merged.push(positions[k]); }
+      }
+      for (const [start, end] of merged) {
+        result += text.slice(pos, start).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        result += `<mark class="search-highlight">${text.slice(start, end).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</mark>`;
+        pos = end; found = true;
+      }
+      if (found) {
+        result += text.slice(pos).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        const span = document.createElement('span');
+        span.innerHTML = result;
+        node.parentNode.replaceChild(span, node);
+      }
+    }
+  }
 
   function makeExternalLinksNewTab(container) {
     container.querySelectorAll('a[href]').forEach(a => {
@@ -297,7 +342,15 @@
     files.forEach((file, i) => {
       const item = document.createElement('div');
       item.className = 'file-item';
-      item.textContent = formatLabel(dir, file.name);
+      const label = formatLabel(dir, file.name);
+      if (file.matchCount != null) {
+        item.innerHTML = `<span>${label}</span><span style="font-size:0.75rem;background:#f59e0b;color:#1a1a2e;border-radius:10px;padding:1px 7px;margin-left:auto;flex-shrink:0;">${file.matchCount}</span>`;
+        item.style.display = 'flex';
+        item.style.alignItems = 'center';
+        item.style.gap = '6px';
+      } else {
+        item.textContent = label;
+      }
       item.title = file.name.replace('.md', '');
       item.dataset.path = file.path;
       item.onclick = () => onSelect(file.path, item, i);
@@ -422,16 +475,28 @@
     }
 
     if (textQuery) {
+      const terms = textQuery.split(/\s+/).filter(Boolean);
+      currentSearchQuery = textQuery;
       document.getElementById('file-list').innerHTML = '<div class="file-item empty">検索中...</div>';
       document.getElementById('search-count').textContent = '';
       const results = [];
       for (const file of filtered) {
         try {
           const text = await fetchContent(file.path);
-          if (text.toLowerCase().includes(textQuery)) results.push(file);
+          const lower = text.toLowerCase();
+          if (terms.every(t => lower.includes(t))) {
+            const count = terms.reduce((sum, t) => {
+              let n = 0, i = 0;
+              while ((i = lower.indexOf(t, i)) !== -1) { n++; i++; }
+              return sum + n;
+            }, 0);
+            results.push({ ...file, matchCount: count });
+          }
         } catch {}
       }
       filtered = results;
+    } else {
+      currentSearchQuery = '';
     }
 
     document.getElementById('search-count').textContent = `${filtered.length}件`;
@@ -439,6 +504,7 @@
   }
 
   function resetSearch() {
+    currentSearchQuery = '';
     document.getElementById('date-from').value = '';
     document.getElementById('date-to').value = '';
     document.getElementById('search-text').value = '';
@@ -549,6 +615,7 @@
     rendered = renderNewsContent(rendered);
     contentEl.innerHTML = `<div class="markdown-body">${rendered}</div>`;
     makeExternalLinksNewTab(contentEl);
+    if (currentSearchQuery) highlightText(contentEl, currentSearchQuery);
 
     contentEl.querySelectorAll('li').forEach(li => {
       if (li.textContent.startsWith('[ ]')) {
