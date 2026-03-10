@@ -26,3 +26,4 @@
 | Harness Engineeringベストプラクティス（Claude Code/Codex向け） | リポジトリ衛生・決定論的ツール・Hooks・E2Eテスト・MVHまでCoding Agent補助輪の全技術を解説 | 2026-03-09 | https://nyosegawa.github.io/posts/harness-engineering-best-practices-2026/ |
 | 1週間分の仕事がたった1日で終わるようになったClaude Code活用術 | 日曜に週次振り返り・商談準備・MTGアジェンダを自動化して翌週をほぼ終わらせるワークフロー | 2026-03-09 | https://x.com/0xfene/status/2030928836137783547 |
 | Claude Codeで「仮想会社」を構築・経営する方法 | AI社員を各部署に配置した組織としてClaude Codeを活用、CEO視点で秘書・PM・リサーチ・マーケを自動化 | 2026-03-10 | https://www.youtube.com/watch?v=cfoE_8Llde0 |
+| Code Review for Claude Code | PRごとにマルチエージェントが深いコードレビューを実施、速さより深さを重視するAnthropicの新機能 | 2026-03-10 | https://claude.com/blog/code-review |
