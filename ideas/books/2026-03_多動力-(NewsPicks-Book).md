@@ -1,22 +1,17 @@
----
-title: 多動力 (NewsPicks Book)
-author: 著者: 堀江貴文
-publisher: 
-published: 
-asin: 
-isbn: 
-read_date: 2026-03
-highlight_count: 7
-rating: 
----
-
 # 多動力 (NewsPicks Book)
 
-## 書籍情報
-
-（メタデータ取得不可）
+| 項目 | 内容 |
+|------|------|
+| 著者 | 堀江貴文 |
+| 出版社 |  |
+| 出版年月 |  |
+| 読了月 | 2026-03 |
+| ハイライト数 | 7 |
+| 評価 |  |
+| Kindle | [Amazonで開く](https://www.amazon.co.jp/s?k=%E5%A4%9A%E5%8B%95%E5%8A%9B%20%28NewsPicks%20Book%29&i=digital-text) |
 
 ## ハイライト・メモ
+
 
 > 申し訳ありませんが、この形式のコンテンツは表示できません。
 > — オレンジ色のハイライト | 位置: 718
@@ -40,5 +35,6 @@ rating:
 > — オレンジ色のハイライト | 位置: 1,378
 
 ## 自分の考察
+
 
 （読後に追記）
