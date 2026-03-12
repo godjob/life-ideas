@@ -269,6 +269,7 @@
   <button class="tab-btn" onclick="switchTab('news', this)">記事</button>
   <button class="tab-btn" onclick="switchTab('health', this)">Health</button>
   <button class="tab-btn" onclick="switchTab('books', this)">Books</button>
+  <button class="tab-btn" onclick="switchTab('action', this)">Action</button>
 </div>
 
 <!-- 検索バー -->
@@ -308,7 +309,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.18';
+  const VERSION = 'v1.19';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -316,7 +317,7 @@
   let currentSearchQuery = '';
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health'];
-  const SEARCH_TABS = ['daily', 'weekly', 'news', 'books'];
+  const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action'];
   const DATE_FILTER_TABS = ['daily', 'news'];
 
   // URLsタブ専用ステート
@@ -409,6 +410,12 @@
       // 2026-03_タイトルslug → '26/03 タイトル
       const m = base.match(/^(\d{4})-(\d{2})_(.+)$/);
       if (m) return `'${m[1].slice(2)}/${m[2]} ${m[3].replace(/-/g, ' ')}`;
+      return base;
+    }
+    if (dir === 'action') {
+      // 2026-03-12_slug → '26/03/12 slug
+      const m = base.match(/^(\d{4})-(\d{2})-(\d{2})_(.+)$/);
+      if (m) return `'${m[1].slice(2)}/${m[2]}/${m[3]} ${m[4].replace(/-/g, ' ')}`;
       return base;
     }
     return base;
