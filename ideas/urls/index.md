@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/12 | - | AI, ClaudeCode, YouTube, Learning, Tools | [超簡単！エンジニアじゃなくても分かるClaude Code入門講座](https://www.youtube.com/watch?v=Nd5f3n0ovzc) | 非エンジニア向けClaude Code入門動画。チャットとの違い・業務活用・ワークフロー変化（設計→AI→デザイン）を解説 |
 | 26/03/11 | - | BTC, JPYC, DeFi, Tax, Finance | [JPYC — 税務メリットとBTC×DeFi運用の可能性](https://x.com/ryanmbtc/status/2029111920993943970) | JPYCは電子決済手段として確定申告不要。BTC担保借入でBuy,Borrow,Die戦略が日本で最適化できる |
 | 26/03/11 | - | BTC, JPYC, Japan, Finance, Tax | [ビットコインホルダーは全員日本に移住すべき](https://x.com/ryanmbtc/status/2031245690727444914) | 日本ではBTC担保でJPYCを借りて生活費に充て、課税イベントなしにBTCを保有しながら生活できる |
 | 26/03/09 | - | AI, ClaudeCode, Development, Learning, Tools | [Anthropic「ClaudeのSkillを構築する完全ガイド」](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) | SkillのYAML設計・テスト・配布・5つの実装パターンを網羅した公式PDFガイドの全文日本語訳 |
