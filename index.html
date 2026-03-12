@@ -268,6 +268,7 @@
   <button class="tab-btn" onclick="switchTab('urls', this)">URLs</button>
   <button class="tab-btn" onclick="switchTab('news', this)">記事</button>
   <button class="tab-btn" onclick="switchTab('health', this)">Health</button>
+  <button class="tab-btn" onclick="switchTab('books', this)">Books</button>
 </div>
 
 <!-- 検索バー -->
@@ -307,7 +308,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.17';
+  const VERSION = 'v1.18';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -315,7 +316,7 @@
   let currentSearchQuery = '';
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health'];
-  const SEARCH_TABS = ['daily', 'weekly', 'news'];
+  const SEARCH_TABS = ['daily', 'weekly', 'news', 'books'];
   const DATE_FILTER_TABS = ['daily', 'news'];
 
   // URLsタブ専用ステート
@@ -403,6 +404,12 @@
     if (dir === 'news') {
       const parts = base.split('-');
       return `${parts[1]}/${parts[2]}`;
+    }
+    if (dir === 'books') {
+      // 2026-03_タイトルslug → '26/03 タイトル
+      const m = base.match(/^(\d{4})-(\d{2})_(.+)$/);
+      if (m) return `'${m[1].slice(2)}/${m[2]} ${m[3].replace(/-/g, ' ')}`;
+      return base;
     }
     return base;
   }
