@@ -329,11 +329,14 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.20';
+  const VERSION = 'v1.21';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
   let lastScrollY = 0;
+  let scrollAccumulator = 0;
+  const HIDE_THRESHOLD = 40;
+  const SHOW_THRESHOLD = 30;
   let currentSearchQuery = '';
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health'];
@@ -916,14 +919,27 @@
     document.getElementById('scroll-top').classList.toggle('visible', scrollTop > 300);
 
     if (isMobile()) {
+      const maxScroll = el.scrollHeight - el.clientHeight;
+      const nearBottom = scrollTop >= maxScroll - 50;
       const delta = scrollTop - lastScrollY;
+
       if (scrollTop <= 10) {
+        scrollAccumulator = 0;
         document.getElementById('search-bar').classList.remove('scroll-hidden');
         document.getElementById('mobile-nav').classList.remove('scroll-hidden');
-      } else if (Math.abs(delta) > 5) {
-        const hide = delta > 0;
-        document.getElementById('search-bar').classList.toggle('scroll-hidden', hide);
-        document.getElementById('mobile-nav').classList.toggle('scroll-hidden', hide);
+      } else if (nearBottom && delta < 0) {
+        scrollAccumulator = 0;
+      } else {
+        scrollAccumulator += delta;
+        if (scrollAccumulator > HIDE_THRESHOLD) {
+          scrollAccumulator = 0;
+          document.getElementById('search-bar').classList.add('scroll-hidden');
+          document.getElementById('mobile-nav').classList.add('scroll-hidden');
+        } else if (scrollAccumulator < -SHOW_THRESHOLD) {
+          scrollAccumulator = 0;
+          document.getElementById('search-bar').classList.remove('scroll-hidden');
+          document.getElementById('mobile-nav').classList.remove('scroll-hidden');
+        }
       }
     }
     lastScrollY = scrollTop;
