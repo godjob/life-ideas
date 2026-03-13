@@ -212,28 +212,48 @@
     /* スマホ */
     @media (max-width: 768px) {
       .file-list { display: none; }
-      .content-area { padding: 16px; }
+      .content-area {
+        padding: 16px;
+        overflow-x: hidden;
+        overscroll-behavior: contain;
+      }
       .tab-btn { padding: 10px 12px; font-size: 0.82rem; }
       .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
-      .urls-table { font-size: 0.78rem; }
+      .urls-table { font-size: 0.78rem; table-layout: auto; }
       .urls-table td, .urls-table th { padding: 8px; }
+      .title-cell { min-width: 140px; width: auto; }
+      .date-cell { width: 56px; }
+      .tags-cell { width: auto; white-space: nowrap; }
+      /* 記事テーブルがビューポート幅を超えないよう制御 */
+      .markdown-body table {
+        display: block; overflow-x: auto;
+        max-width: 100%; min-width: 100%; width: max-content;
+      }
 
-      /* スクロール非表示アニメーション */
+      /* スクロール非表示アニメーション（滑らか化） */
       .search-bar:not(.hidden) {
-        max-height: 200px;
-        transition: max-height 0.25s ease, padding 0.25s ease, border-width 0.25s ease;
+        max-height: 80px;
+        transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                    opacity 0.2s ease,
+                    padding 0.25s ease,
+                    border-width 0.25s ease;
       }
       .mobile-nav.visible {
-        max-height: 100px;
-        transition: max-height 0.25s ease, padding 0.25s ease, border-width 0.25s ease;
+        max-height: 60px;
+        transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                    opacity 0.2s ease,
+                    padding 0.25s ease,
+                    border-width 0.25s ease;
       }
       .search-bar.scroll-hidden {
         max-height: 0 !important; overflow: hidden !important;
+        opacity: 0 !important;
         padding-top: 0 !important; padding-bottom: 0 !important;
         border-bottom-width: 0 !important;
       }
       .mobile-nav.scroll-hidden {
         max-height: 0 !important; overflow: hidden !important;
+        opacity: 0 !important;
         padding-top: 0 !important; padding-bottom: 0 !important;
         border-bottom-width: 0 !important;
       }
@@ -309,7 +329,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.19';
+  const VERSION = 'v1.20';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -724,9 +744,9 @@
       return `<tr>
         <td class="date-cell">${r.regDate}</td>
         <td class="date-cell">${r.pubDate}</td>
-        <td class="tags-cell">${tagChips}</td>
         <td class="title-cell">${titleHtml}</td>
         <td>${r.summary}</td>
+        <td class="tags-cell">${tagChips}</td>
       </tr>`;
     }).join('');
 
@@ -739,9 +759,9 @@
               <tr>
                 <th class="sortable" onclick="urlsSort('regDate')">登録日${arrow('regDate')}</th>
                 <th class="sortable" onclick="urlsSort('pubDate')">投稿日${arrow('pubDate')}</th>
-                <th>タグ</th>
                 <th>タイトル</th>
                 <th>要約</th>
+                <th>タグ</th>
               </tr>
             </thead>
             <tbody>${rowsHtml}</tbody>
