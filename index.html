@@ -194,6 +194,13 @@
       text-decoration: none; white-space: nowrap;
     }
     .news-toc a:hover { background: #e94560; color: #fff; border-color: #e94560; }
+    .news-table { width: 100%; border-collapse: collapse; }
+    .news-table td { padding: 8px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+    .news-date  { width: 15%; font-size: 0.8rem; color: #888; }
+    .news-title { width: 60%; }
+    .news-title a { color: #e94560; text-decoration: none; }
+    .news-title a:hover { text-decoration: underline; }
+    .news-media { width: 25%; font-size: 0.8rem; color: #666; }
     /* ================================ */
 
     /* スクロールトップボタン */
@@ -228,6 +235,11 @@
       .markdown-body table {
         display: block; overflow-x: auto;
         max-width: 100%; min-width: 100%; width: max-content;
+      }
+      /* news-table はビューポート内に収めてタイトル列を優先 */
+      .news-table {
+        display: table; table-layout: fixed;
+        overflow-x: visible; width: 100%;
       }
 
       /* スクロール非表示アニメーション（滑らか化） */
@@ -329,7 +341,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.21';
+  const VERSION = 'v1.22';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -854,6 +866,7 @@
       const rows = table.querySelectorAll('tbody tr');
       if (!rows.length) return;
       const thead = table.querySelector('thead tr');
+      table.classList.add('news-table');
       if (thead) thead.innerHTML = '<th>掲載日</th><th>タイトル</th><th>媒体名</th>';
       rows.forEach(tr => {
         const tds = tr.querySelectorAll('td');
@@ -868,9 +881,9 @@
         const escapedMedia = mediaClean.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const cleanTitle  = titleText.replace(new RegExp(` - ${escapedMedia}$`), '').trim();
         const titleCell   = url
-          ? `<td><a href="${url}" target="_blank" rel="noopener noreferrer">${cleanTitle}</a></td>`
-          : `<td>${cleanTitle}</td>`;
-        tr.innerHTML = `<td style="white-space:nowrap;color:#888;font-size:0.8rem">${dateText}</td>${titleCell}<td style="white-space:nowrap;font-size:0.8rem">${mediaText}</td>`;
+          ? `<td class="news-title"><a href="${url}" target="_blank" rel="noopener noreferrer">${cleanTitle}</a></td>`
+          : `<td class="news-title">${cleanTitle}</td>`;
+        tr.innerHTML = `<td class="news-date">${dateText}</td>${titleCell}<td class="news-media">${mediaText}</td>`;
       });
     });
 
