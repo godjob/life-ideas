@@ -83,7 +83,8 @@
     .nav-arrow {
       background: #fff; border: 1px solid #ccc; border-radius: 4px;
       padding: 5px 10px; font-size: 0.82rem; cursor: pointer; color: #555;
-      flex-shrink: 0; white-space: nowrap; transition: all 0.15s;
+      flex-shrink: 1; white-space: nowrap; transition: all 0.15s;
+      max-width: 35%; overflow: hidden; text-overflow: ellipsis;
     }
     .nav-arrow:disabled { opacity: 0.3; cursor: default; }
     .nav-arrow:not(:disabled):hover { border-color: #e94560; color: #e94560; }
@@ -341,7 +342,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.22';
+  const VERSION = 'v1.23';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -442,9 +443,12 @@
       return `${parts[1]}/${parts[2]}`;
     }
     if (dir === 'books') {
-      // 2026-03_タイトルslug → '26/03 タイトル
-      const m = base.match(/^(\d{4})-(\d{2})_(.+)$/);
-      if (m) return `'${m[1].slice(2)}/${m[2]} ${m[3].replace(/-/g, ' ')}`;
+      // YYYY-MM-DD_slug → '26/02/04 タイトル
+      const m = base.match(/^(\d{4})-(\d{2})-(\d{2})_(.+)$/);
+      if (m) return `'${m[1].slice(2)}/${m[2]}/${m[3]} ${m[4].replace(/-/g, ' ')}`;
+      // YYYY-MM_slug (旧形式) → '26/03 タイトル
+      const m2 = base.match(/^(\d{4})-(\d{2})_(.+)$/);
+      if (m2) return `'${m2[1].slice(2)}/${m2[2]} ${m2[3].replace(/-/g, ' ')}`;
       return base;
     }
     if (dir === 'action') {
@@ -568,7 +572,7 @@
       return;
     }
 
-    files.sort((a, b) => b.name.localeCompare(a.name));
+    files.sort((a, b) => b.name > a.name ? 1 : -1);
     allFiles = files;
 
     buildItems(files, dir, listEl, (path, item, idx) => {
