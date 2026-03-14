@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/14 | - | AI, Business, Management, Productivity | [AI時代、「勤勉に働く」はむしろ異常 〜「怠ける」が正解になる未来 〜](https://x.com/BrandonKHill/status/2032662965007298575) | AIエージェントが頭脳労働を代行する時代、長時間勤勉に働くことが「AIを活用できていないサイン」になりうるという逆転の発想 |
 | 26/03/12 | - | AI, ClaudeCode, YouTube, Learning, Tools | [超簡単！エンジニアじゃなくても分かるClaude Code入門講座](https://www.youtube.com/watch?v=Nd5f3n0ovzc) | 非エンジニア向けClaude Code入門動画。チャットとの違い・業務活用・ワークフロー変化（設計→AI→デザイン）を解説 |
 | 26/03/11 | - | BTC, JPYC, DeFi, Tax, Finance | [JPYC — 税務メリットとBTC×DeFi運用の可能性](https://x.com/ryanmbtc/status/2029111920993943970) | JPYCは電子決済手段として確定申告不要。BTC担保借入でBuy,Borrow,Die戦略が日本で最適化できる |
 | 26/03/11 | - | BTC, JPYC, Japan, Finance, Tax | [ビットコインホルダーは全員日本に移住すべき](https://x.com/ryanmbtc/status/2031245690727444914) | 日本ではBTC担保でJPYCを借りて生活費に充て、課税イベントなしにBTCを保有しながら生活できる |
