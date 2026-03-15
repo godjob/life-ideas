@@ -204,6 +204,31 @@
     .news-media { width: 25%; font-size: 0.8rem; color: #666; }
     /* ================================ */
 
+    /* ===== ダッシュボードタブ専用スタイル ===== */
+    .dashboard { padding: 20px; display: flex; flex-direction: column; gap: 16px; max-width: 640px; margin: 0 auto; }
+    .dash-card { background: #1e1e2e; border: 1px solid #333; border-radius: 10px; padding: 18px 20px; }
+    .dash-card h2 { margin: 0 0 14px; font-size: 0.95rem; color: #ccc; font-weight: 600; }
+    .dash-meta { font-size: 0.78rem; color: #666; font-weight: normal; margin-left: 8px; }
+    .usage-bar-wrap { background: #2a2a3e; border-radius: 6px; height: 14px; overflow: hidden; margin-bottom: 8px; }
+    .usage-bar { height: 100%; border-radius: 6px; transition: width 0.5s ease; }
+    .usage-pct { font-size: 2rem; font-weight: bold; color: #eee; line-height: 1; }
+    .usage-reset { font-size: 0.85rem; color: #aaa; margin-top: 6px; }
+    .usage-updated { font-size: 0.75rem; color: #555; margin-top: 3px; }
+    .day-bars { display: flex; gap: 6px; align-items: flex-end; height: 70px; margin-bottom: 10px; }
+    .day-bar-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+    .day-bar { width: 100%; background: #7c3aed; border-radius: 3px 3px 0 0; min-height: 3px; }
+    .day-bar.today { background: #e94560; }
+    .day-label { font-size: 0.68rem; color: #666; }
+    .dir-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .dir-badge { background: #2a2a3e; border: 1px solid #444; border-radius: 12px; padding: 3px 10px; font-size: 0.78rem; color: #bbb; }
+    .commit-list { display: flex; flex-direction: column; gap: 8px; }
+    .commit-item { font-size: 0.82rem; color: #bbb; display: flex; gap: 8px; align-items: baseline; }
+    .commit-date { color: #555; font-size: 0.75rem; min-width: 56px; flex-shrink: 0; }
+    .dash-empty { color: #555; font-size: 0.85rem; margin: 4px 0; }
+    .dash-footer { font-size: 0.72rem; color: #444; margin-top: 14px; text-align: right; }
+    @media (max-width: 768px) { .dashboard { padding: 12px; } }
+    /* ========================================= */
+
     /* スクロールトップボタン */
     .scroll-top {
       position: fixed; bottom: 24px; right: 24px;
@@ -303,6 +328,7 @@
   <button class="tab-btn" onclick="switchTab('health', this)">Health</button>
   <button class="tab-btn" onclick="switchTab('books', this)">Books</button>
   <button class="tab-btn" onclick="switchTab('action', this)">Action</button>
+  <button class="tab-btn" onclick="switchTab('dashboard', this)">Dashboard</button>
 </div>
 
 <!-- 検索バー -->
@@ -342,7 +368,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.23';
+  const VERSION = 'v1.24';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -562,6 +588,14 @@
     if (dir === 'health') {
       listEl.innerHTML = '<div class="file-item active">健康管理プラン</div>';
       openFile('health/supplement-health-plan.md', listEl.firstChild);
+      return;
+    }
+
+    // Dashboardタブ
+    if (dir === 'dashboard') {
+      listEl.innerHTML = '<div class="file-item active">ダッシュボード</div>';
+      contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">読み込み中...</div>';
+      await renderDashboard(contentEl);
       return;
     }
 
@@ -964,6 +998,91 @@
   window.addEventListener('scroll', () => {
     document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 300);
   });
+
+  // ===== Dashboard =====
+  async function renderDashboard(contentEl) {
+    const base = `https://raw.githubusercontent.com/${REPO}/main/dashboard`;
+    const [statsRes, usageRes] = await Promise.allSettled([
+      fetch(`${base}/stats.json`),
+      fetch(`${base}/claude-usage.json`)
+    ]);
+    let stats = null, usage = null;
+    if (statsRes.status === 'fulfilled' && statsRes.value.ok) stats = await statsRes.value.json();
+    if (usageRes.status === 'fulfilled' && usageRes.value.ok) usage = await usageRes.value.json();
+    contentEl.innerHTML = buildDashboardHTML(stats, usage);
+  }
+
+  function buildDashboardHTML(stats, usage) {
+    let html = '<div class="dashboard">';
+
+    // Claude 使用量カード
+    if (usage) {
+      const resetAt = new Date(usage.resetAt);
+      const now = new Date();
+      const diffMs = resetAt - now;
+      const diffH = Math.floor(Math.max(0, diffMs) / 3600000);
+      const diffM = Math.floor((Math.max(0, diffMs) % 3600000) / 60000);
+      const countdown = diffMs > 0 ? `あと ${diffH}時間${diffM}分でリセット` : 'リセット済み / 更新待ち';
+      const pct = usage.usagePercent ?? 0;
+      const barColor = pct >= 90 ? '#e74c3c' : pct >= 60 ? '#f39c12' : '#2ecc71';
+      const resetStr = resetAt.toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short', hour: '2-digit', minute: '2-digit' });
+      const updatedStr = new Date(usage.updatedAt).toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      html += `
+      <div class="dash-card">
+        <h2>🤖 Claude 使用量</h2>
+        <div class="usage-bar-wrap"><div class="usage-bar" style="width:${pct}%;background:${barColor}"></div></div>
+        <div class="usage-pct">${pct}<span style="font-size:1rem;color:#888">%</span></div>
+        <div class="usage-reset">リセット: ${resetStr}（${countdown}）</div>
+        <div class="usage-updated">最終更新: ${updatedStr}</div>
+      </div>`;
+    } else {
+      html += '<div class="dash-card"><h2>🤖 Claude 使用量</h2><p class="dash-empty">データなし — update_claude_usage.py を実行してください</p></div>';
+    }
+
+    // リポジトリ活動カード
+    if (stats) {
+      const today = new Date().toLocaleDateString('sv-SE'); // YYYY-MM-DD
+      const maxC = Math.max(...stats.weekly.byDay.map(d => d.count), 1);
+      const bars = stats.weekly.byDay.map(d => {
+        const h = Math.max(3, Math.round((d.count / maxC) * 60));
+        const dow = new Date(d.date + 'T00:00:00').toLocaleDateString('ja-JP', { weekday: 'short' });
+        const isToday = d.date === today;
+        return `<div class="day-bar-wrap"><div class="day-bar${isToday ? ' today' : ''}" style="height:${h}px" title="${d.date}: ${d.count}件"></div><div class="day-label">${dow}</div></div>`;
+      }).join('');
+
+      const icons = { scrap: '📝', ideas: '💡', health: '🏃', books: '📚', portfolio: '🐦', other: '📁' };
+      const dirHtml = Object.entries(stats.byDirectory)
+        .filter(([, v]) => v > 0).sort(([, a], [, b]) => b - a)
+        .map(([k, v]) => `<span class="dir-badge">${icons[k] || '📁'} ${k} ${v}</span>`).join('');
+
+      const commitHtml = stats.recentCommits.map(c =>
+        `<div class="commit-item"><span class="commit-date">${c.date.slice(5)}</span>${escapeHtml(c.message)}</div>`
+      ).join('');
+
+      const genStr = new Date(stats.generatedAt).toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      html += `
+      <div class="dash-card">
+        <h2>📊 今週の活動 <span class="dash-meta">計 ${stats.weekly.commitCount} コミット</span></h2>
+        <div class="day-bars">${bars}</div>
+        <div class="dir-badges">${dirHtml}</div>
+      </div>
+      <div class="dash-card">
+        <h2>🕐 直近のコミット</h2>
+        <div class="commit-list">${commitHtml}</div>
+        <div class="dash-footer">生成: ${genStr}</div>
+      </div>`;
+    } else {
+      html += '<div class="dash-card"><h2>📊 リポジトリ活動</h2><p class="dash-empty">データなし — GitHub Actions (sync-dashboard.yml) を実行してください</p></div>';
+    }
+
+    html += '</div>';
+    return html;
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+  // =====================
 
   function scrollToTop() {
     document.getElementById('content-area').scrollTo({ top: 0, behavior: 'smooth' });
