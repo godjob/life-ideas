@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/15 | - | AI, Development, Productivity, Tools, Management | [Coding Agent時代の開発ワークフローについてのまとめ - 逆瀬川ちゃんのブログ](https://nyosegawa.github.io/posts/coding-agent-workflow-2026/#brainstorm-%E2%86%92-plan-%E2%86%92-execute%EF%BC%88harper-reed%E5%BC%8F%EF%BC%89) | Coding Agent時代の開発ワークフローを体系化した記事。Agentic Engineeringの概念と、プロジェクト全体を効率的に進めるための実装手法を解説している。 |
 | 26/03/15 | 26/03/15 | AI, ClaudeCode, Management, Learning | [Claude Codeに指示を出し続けたら「人に任せる力」が身についていた話](https://x.com/0xfene/status/2032668593071309145) | AIへの指示出しを繰り返すことで指示の明確化・タスク分解・権限委譲・フィードバック型コミュニケーションが自然に身につく「逆流効果」の実体験 |
 | 26/03/15 | 26/03/15 | AI, ClaudeCode, Business, Productivity, Tools | [スタッフ0人の税理士がClaude Codeで顧問先60社を1人で回している全手法](https://x.com/kandmybike/status/2032817897119096855) | freee API＋MCP＋Claude Codeで60社の自動仕訳を実現。処理時間5時間→50分、年間300時間削減の具体的システム構成を公開 |
 | 26/03/14 | - | AI, Business, Management, Productivity | [AI時代、「勤勉に働く」はむしろ異常 〜「怠ける」が正解になる未来 〜](https://x.com/BrandonKHill/status/2032662965007298575) | AIエージェントが頭脳労働を代行する時代、長時間勤勉に働くことが「AIを活用できていないサイン」になりうるという逆転の発想 |
