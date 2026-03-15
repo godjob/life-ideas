@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-03-15T10:37:15+09:00",
+  "weekly": {
+    "commitCount": 30,
+    "byDay": [
+      {
+        "date": "2026-03-09",
+        "count": 0
+      },
+      {
+        "date": "2026-03-10",
+        "count": 0
+      },
+      {
+        "date": "2026-03-11",
+        "count": 0
+      },
+      {
+        "date": "2026-03-12",
+        "count": 6
+      },
+      {
+        "date": "2026-03-13",
+        "count": 5
+      },
+      {
+        "date": "2026-03-14",
+        "count": 15
+      },
+      {
+        "date": "2026-03-15",
+        "count": 4
+      }
+    ]
+  },
+  "byDirectory": {
+    "scrap": 2,
+    "ideas": 1,
+    "health": 4,
+    "books": 1,
+    "portfolio": 0,
+    "other": 22
+  },
+  "recentCommits": [
+    {
+      "date": "2026-03-15",
+      "message": "fix: sync-dashboard.yml を sparse-checkout に変更（日本語長ファイル名255バイト制限対応）"
+    },
+    {
+      "date": "2026-03-15",
+      "message": "feat: Dashboard タブ追加（Claude使用量 + リポジトリ活動）"
+    },
+    {
+      "date": "2026-03-15",
+      "message": "ideas: 2026-03-15 git scrap（日曜版）daily更新"
+    },
+    {
+      "date": "2026-03-15",
+      "message": "scrap: 2026-03-15 やおっち氏のAI社長運用記をアーカイブ・URL詳細に追記"
+    },
+    {
+      "date": "2026-03-14",
+      "message": "fix: macOS 11でのPlaywright互換性対応（システムNode.js自動検出）"
+    }
+  ]
+}
