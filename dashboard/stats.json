@@ -1,23 +1,19 @@
 {
-  "generatedAt": "2026-03-16T00:21:59+09:00",
+  "generatedAt": "2026-03-17T00:59:00+09:00",
   "weekly": {
-    "commitCount": 30,
+    "commitCount": 32,
     "byDay": [
-      {
-        "date": "2026-03-10",
-        "count": 0
-      },
       {
         "date": "2026-03-11",
         "count": 0
       },
       {
         "date": "2026-03-12",
-        "count": 2
+        "count": 0
       },
       {
         "date": "2026-03-13",
-        "count": 5
+        "count": 4
       },
       {
         "date": "2026-03-14",
@@ -29,12 +25,16 @@
       },
       {
         "date": "2026-03-16",
+        "count": 5
+      },
+      {
+        "date": "2026-03-17",
         "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
+    "scrap": 6,
     "ideas": 1,
     "health": 4,
     "books": 0,
@@ -43,24 +43,24 @@
   },
   "recentCommits": [
     {
-      "date": "2026-03-15",
-      "message": "news: 2026-03-15 記事まとめを自動生成"
+      "date": "2026-03-16",
+      "message": "scrap: 2026-03-16 ClaudeCode勉強会"
     },
     {
-      "date": "2026-03-15",
-      "message": "scrap: 2026-03-15 Coding Agent時代の開発ワークフローにつ"
+      "date": "2026-03-16",
+      "message": "Merge: リモートのmainブランチの変更を取り込み"
     },
     {
-      "date": "2026-03-15",
-      "message": "feat: git scrap のターミナル手動実行スクリプト追加（Claude API Haiku使用）"
+      "date": "2026-03-16",
+      "message": "Merge branch 'main' of https://github.com/godjob/life"
     },
     {
-      "date": "2026-03-15",
-      "message": "scrap: 2026-03-15 git scrap（日曜版）—— ClaudeCode活用2件・W11週次まとめ生成"
+      "date": "2026-03-16",
+      "message": "scrap: 2026-03-16 CC紹介"
     },
     {
-      "date": "2026-03-15",
-      "message": "fix: sync-dashboard.yml を sparse-checkout に変更（日本語長ファイル名255バイト制限対応）"
+      "date": "2026-03-16",
+      "message": "news: 2026-03-16 記事まとめを自動生成"
     }
   ]
 }
