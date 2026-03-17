@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T22:35:27+09:00",
+  "generatedAt": "2026-03-17T23:04:37+09:00",
   "weekly": {
     "commitCount": 32,
     "byDay": [
@@ -17,7 +17,7 @@
       },
       {
         "date": "2026-03-14",
-        "count": 12
+        "count": 11
       },
       {
         "date": "2026-03-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-17",
-        "count": 7
+        "count": 8
       }
     ]
   },
@@ -48,6 +48,10 @@
     },
     {
       "date": "2026-03-17",
+      "message": "dashboard: Claude使用量更新 (2026-03-17)"
+    },
+    {
+      "date": "2026-03-17",
       "message": "fix: Claude使用量をPlaywrightスクレイピングから手動入力方式に変更"
     },
     {
@@ -57,10 +61,6 @@
     {
       "date": "2026-03-17",
       "message": "research: NEC VersaPro セキュリティカメラ実装指示書を作成"
-    },
-    {
-      "date": "2026-03-17",
-      "message": "fix: 3/16 scrapのURL・daily遡及処理とgit_scrap.py URL抽出修正"
     }
   ]
 }
