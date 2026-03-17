@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T23:04:37+09:00",
+  "generatedAt": "2026-03-17T23:05:15+09:00",
   "weekly": {
     "commitCount": 32,
     "byDay": [
@@ -17,7 +17,7 @@
       },
       {
         "date": "2026-03-14",
-        "count": 11
+        "count": 10
       },
       {
         "date": "2026-03-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-17",
-        "count": 8
+        "count": 9
       }
     ]
   },
@@ -42,6 +42,10 @@
     "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-03-17",
+      "message": "feat: Claude使用量をSafari AppleScriptで自動取得する方式に変更"
+    },
     {
       "date": "2026-03-17",
       "message": "dashboard: Claude使用量更新 (2026-03-17)"
@@ -57,10 +61,6 @@
     {
       "date": "2026-03-17",
       "message": "research: セキュリティカメラ 音声録音＋イベントログ 実装指示書を追加"
-    },
-    {
-      "date": "2026-03-17",
-      "message": "research: NEC VersaPro セキュリティカメラ実装指示書を作成"
     }
   ]
 }
