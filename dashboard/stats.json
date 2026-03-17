@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T22:15:45+09:00",
+  "generatedAt": "2026-03-17T22:32:08+09:00",
   "weekly": {
     "commitCount": 32,
     "byDay": [
@@ -17,7 +17,7 @@
       },
       {
         "date": "2026-03-14",
-        "count": 15
+        "count": 13
       },
       {
         "date": "2026-03-15",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-03-17",
-        "count": 4
+        "count": 6
       }
     ]
   },
   "byDirectory": {
     "scrap": 6,
     "ideas": 1,
-    "health": 4,
+    "health": 2,
     "books": 1,
     "portfolio": 0,
-    "other": 20
+    "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-03-17",
+      "message": "fix: Claude使用量をPlaywrightスクレイピングから手動入力方式に変更"
+    },
+    {
+      "date": "2026-03-17",
+      "message": "research: セキュリティカメラ 音声録音＋イベントログ 実装指示書を追加"
+    },
     {
       "date": "2026-03-17",
       "message": "research: NEC VersaPro セキュリティカメラ実装指示書を作成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-03-17",
       "message": "feat: 日曜git scrap後に読書振り返りインタラクションを追加"
-    },
-    {
-      "date": "2026-03-17",
-      "message": "news: 2026-03-17 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-03-16",
-      "message": "scrap: 2026-03-16 ClaudeCode勉強会"
     }
   ]
 }
