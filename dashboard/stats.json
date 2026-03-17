@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T00:59:00+09:00",
+  "generatedAt": "2026-03-17T22:15:45+09:00",
   "weekly": {
     "commitCount": 32,
     "byDay": [
@@ -13,7 +13,7 @@
       },
       {
         "date": "2026-03-13",
-        "count": 4
+        "count": 0
       },
       {
         "date": "2026-03-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-17",
-        "count": 0
+        "count": 4
       }
     ]
   },
@@ -37,30 +37,30 @@
     "scrap": 6,
     "ideas": 1,
     "health": 4,
-    "books": 0,
+    "books": 1,
     "portfolio": 0,
-    "other": 21
+    "other": 20
   },
   "recentCommits": [
     {
+      "date": "2026-03-17",
+      "message": "research: NEC VersaPro セキュリティカメラ実装指示書を作成"
+    },
+    {
+      "date": "2026-03-17",
+      "message": "fix: 3/16 scrapのURL・daily遡及処理とgit_scrap.py URL抽出修正"
+    },
+    {
+      "date": "2026-03-17",
+      "message": "feat: 日曜git scrap後に読書振り返りインタラクションを追加"
+    },
+    {
+      "date": "2026-03-17",
+      "message": "news: 2026-03-17 記事まとめを自動生成"
+    },
+    {
       "date": "2026-03-16",
       "message": "scrap: 2026-03-16 ClaudeCode勉強会"
-    },
-    {
-      "date": "2026-03-16",
-      "message": "Merge: リモートのmainブランチの変更を取り込み"
-    },
-    {
-      "date": "2026-03-16",
-      "message": "Merge branch 'main' of https://github.com/godjob/life"
-    },
-    {
-      "date": "2026-03-16",
-      "message": "scrap: 2026-03-16 CC紹介"
-    },
-    {
-      "date": "2026-03-16",
-      "message": "news: 2026-03-16 記事まとめを自動生成"
     }
   ]
 }
