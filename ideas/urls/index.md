@@ -2,6 +2,9 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/18 | - | AI, Development, Learning, LLM, Tools | [AIエンジニアになるための6ヶ月ロードマップ（リソース付き）](https://x.com/DeRonin_/status/2033587293064204349) | LLM API・プロンプト設計・RAG・デプロイまで実践的スキルを体系化した10,000字超の詳細ガイド |
+| 26/03/18 | - | AI, ClaudeCode, Development, Tools | [Claude Codeスキル構築の知見：Anthropic社内での活用パターン](https://x.com/trq212/status/2033949937936085378) | Anthropic社内で何百もスキルを使って得た知見。スキル9カテゴリ・Gotchas優先・フォルダ構造活用・スキルマーケットプレイスの運用法を解説 |
+| 26/03/18 | - | AI, ClaudeCode, Development, Tools | [チームのCLAUDE.mdが勝手に育つ — Hook機能での自動化](https://zenn.dev/appbrew/articles/e2f38677f6a0ce) | SessionEnd/PreCompactフックで会話履歴を自動分析しCLAUDE.md更新提案を生成、チーム全体の知識を自然に蓄積する仕組み |
 | 26/03/16 | - | AI, ClaudeCode, Development, Productivity, Tools | [Claude Code Meetup Japan #3 各セッションの詳細レポート](https://www.youtube.com/watch?v=csJhIQFuYJw) | Claude Code Meetup Japan #3では、マルチエージェント機能の進化、AI主導の開発ライフサイクル(AIDLC)、複数エージェント並列処理による生産性向上が報告されました。 |
 | 26/03/15 | - | AI, Development, Productivity, Tools, Management | [Coding Agent時代の開発ワークフローについてのまとめ - 逆瀬川ちゃんのブログ](https://nyosegawa.github.io/posts/coding-agent-workflow-2026/#brainstorm-%E2%86%92-plan-%E2%86%92-execute%EF%BC%88harper-reed%E5%BC%8F%EF%BC%89) | Coding Agent時代の開発ワークフローを体系化した記事。Agentic Engineeringの概念と、プロジェクト全体を効率的に進めるための実装手法を解説している。 |
 | 26/03/15 | 26/03/15 | AI, ClaudeCode, Management, Learning | [Claude Codeに指示を出し続けたら「人に任せる力」が身についていた話](https://x.com/0xfene/status/2032668593071309145) | AIへの指示出しを繰り返すことで指示の明確化・タスク分解・権限委譲・フィードバック型コミュニケーションが自然に身につく「逆流効果」の実体験 |
