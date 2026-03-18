@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/19 | 26/03/19 | AI, Development, Tools | [AIエージェントプロトコル開発者ガイド（MCP・A2A・UCP・AP2・A2UI・AG-UI）](https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/) | Googleが6つのAIエージェントプロトコルをADKを使ったレストランエージェントの例で解説。各プロトコルの役割分担と段階的な導入方法を網羅 |
+| 26/03/19 | - | Development, Tools | [Google Stitch — プロンプト駆動UIデザインツール](https://stitch.withgoogle.com/docs/learn/overview/) | テキストプロンプトからUIを生成しHTMLで出力。LLMと組み合わせてReact/Flutter/SwiftUIへの変換が容易なGoogleのデザインツール |
 | 26/03/18 | - | AI, Development, Learning, LLM, Tools | [AIエンジニアになるための6ヶ月ロードマップ（リソース付き）](https://x.com/DeRonin_/status/2033587293064204349) | LLM API・プロンプト設計・RAG・デプロイまで実践的スキルを体系化した10,000字超の詳細ガイド |
 | 26/03/18 | - | AI, ClaudeCode, Development, Tools | [Claude Codeスキル構築の知見：Anthropic社内での活用パターン](https://x.com/trq212/status/2033949937936085378) | Anthropic社内で何百もスキルを使って得た知見。スキル9カテゴリ・Gotchas優先・フォルダ構造活用・スキルマーケットプレイスの運用法を解説 |
 | 26/03/18 | - | AI, ClaudeCode, Development, Tools | [チームのCLAUDE.mdが勝手に育つ — Hook機能での自動化](https://zenn.dev/appbrew/articles/e2f38677f6a0ce) | SessionEnd/PreCompactフックで会話履歴を自動分析しCLAUDE.md更新提案を生成、チーム全体の知識を自然に蓄積する仕組み |
