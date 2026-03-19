@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T01:03:12+09:00",
+  "generatedAt": "2026-03-19T10:59:44+09:00",
   "weekly": {
     "commitCount": 32,
     "byDay": [
@@ -9,7 +9,7 @@
       },
       {
         "date": "2026-03-14",
-        "count": 4
+        "count": 2
       },
       {
         "date": "2026-03-15",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-03-19",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "byDirectory": {
-    "scrap": 6,
+    "scrap": 7,
     "ideas": 1,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 24
+    "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-03-19",
+      "message": "dashboard: Claude使用量更新 (2026-03-19)"
+    },
+    {
+      "date": "2026-03-19",
+      "message": "scrap: 2026-03-19 AIエージェントプロトコルガイド・Google Stitchを取り込み"
+    },
     {
       "date": "2026-03-18",
       "message": "feat: Xアーカイブ取り込みスクリプト追加（import_x_archive.py）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-03-18",
       "message": "news: 2026-03-18 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-03-18",
-      "message": "dashboard: Claude使用量更新 (2026-03-18)"
-    },
-    {
-      "date": "2026-03-17",
-      "message": "dashboard: Claude使用量更新 (2026-03-17)"
     }
   ]
 }
