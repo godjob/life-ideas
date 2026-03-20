@@ -214,6 +214,15 @@
     .usage-pct { font-size: 2rem; font-weight: bold; color: #eee; line-height: 1; }
     .usage-reset { font-size: 0.85rem; color: #aaa; margin-top: 6px; }
     .usage-updated { font-size: 0.75rem; color: #555; margin-top: 3px; }
+    .model-badge { background: #2a2a3e; border: 1px solid #444; border-radius: 8px; padding: 2px 8px; font-size: 0.75rem; color: #aaa; font-weight: normal; margin-left: 8px; vertical-align: middle; }
+    .usage-label { font-size: 0.8rem; color: #888; margin-top: 6px; }
+    .usage-sub { margin-top: 14px; }
+    .usage-sub-header { display: flex; align-items: center; gap: 8px; }
+    .usage-sub-bar-wrap { background: #2a2a3e; border-radius: 4px; height: 8px; overflow: hidden; margin-top: 6px; }
+    .usage-sub-bar { height: 100%; border-radius: 4px; transition: width 0.5s ease; }
+    .usage-sub-pct { font-size: 0.9rem; color: #ccc; font-weight: bold; }
+    .usage-sub-label { font-size: 0.78rem; color: #888; font-weight: 600; }
+    .usage-sub-reset { font-size: 0.78rem; color: #777; margin-top: 4px; }
     .day-bars { display: flex; gap: 6px; align-items: flex-end; height: 70px; margin-bottom: 10px; }
     .day-bar-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
     .day-bar { width: 100%; background: #7c3aed; border-radius: 3px 3px 0 0; min-height: 3px; }
@@ -368,7 +377,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.24';
+  const VERSION = 'v1.25';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -1017,26 +1026,43 @@
 
     // Claude 使用量カード
     if (usage) {
-      const resetAt = new Date(usage.resetAt);
       const now = new Date();
-      const diffMs = resetAt - now;
-      const diffH = Math.floor(Math.max(0, diffMs) / 3600000);
-      const diffM = Math.floor((Math.max(0, diffMs) % 3600000) / 60000);
-      const countdown = diffMs > 0 ? `あと ${diffH}時間${diffM}分でリセット` : 'リセット済み / 更新待ち';
-      const pct = usage.usagePercent ?? 0;
-      const barColor = pct >= 90 ? '#e74c3c' : pct >= 60 ? '#f39c12' : '#2ecc71';
-      const resetStr = resetAt.toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short', hour: '2-digit', minute: '2-digit' });
+      // 7d メイン表示（sevenDayPercentがなければusagePercentにフォールバック）
+      const pct7d = usage.sevenDayPercent ?? usage.usagePercent ?? 0;
+      const barColor7d = pct7d >= 90 ? '#e74c3c' : pct7d >= 60 ? '#f39c12' : '#2ecc71';
+      const resetAt7d = new Date(usage.sevenDayResetAt || usage.resetAt);
+      const diffMs7d = resetAt7d - now;
+      const diffD7d = Math.floor(Math.max(0, diffMs7d) / 86400000);
+      const diffH7d = Math.floor((Math.max(0, diffMs7d) % 86400000) / 3600000);
+      const countdown7d = diffMs7d > 0 ? `あと ${diffD7d > 0 ? diffD7d + '日' : ''}${diffH7d}時間` : 'リセット済み / 更新待ち';
+      const resetStr7d = resetAt7d.toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short', hour: '2-digit', minute: '2-digit' });
       const updatedStr = new Date(usage.updatedAt).toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      // モデルバッジ
+      const modelBadge = usage.model ? `<span class="model-badge">${usage.model}</span>` : '';
+      // 5h サブ表示
+      let sub5hHtml = '';
+      if (usage.fiveHourPercent != null) {
+        const pct5h = usage.fiveHourPercent;
+        const barColor5h = pct5h >= 90 ? '#e74c3c' : pct5h >= 60 ? '#f39c12' : '#2ecc71';
+        const resetAt5h = new Date(usage.fiveHourResetAt);
+        const resetStr5h = resetAt5h.toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+        sub5hHtml = `
+        <div class="usage-sub">
+          <div class="usage-sub-header"><span class="usage-sub-label">5h</span><span class="usage-sub-pct">${pct5h}%</span></div>
+          <div class="usage-sub-bar-wrap"><div class="usage-sub-bar" style="width:${pct5h}%;background:${barColor5h}"></div></div>
+          <div class="usage-sub-reset">リセット: ${resetStr5h}</div>
+        </div>`;
+      }
       html += `
       <div class="dash-card">
-        <h2>🤖 Claude 使用量</h2>
-        <div class="usage-bar-wrap"><div class="usage-bar" style="width:${pct}%;background:${barColor}"></div></div>
-        <div class="usage-pct">${pct}<span style="font-size:1rem;color:#888">%</span></div>
-        <div class="usage-reset">リセット: ${resetStr}（${countdown}）</div>
+        <h2>🤖 Claude 使用量${modelBadge}</h2>
+        <div class="usage-bar-wrap"><div class="usage-bar" style="width:${pct7d}%;background:${barColor7d}"></div></div>
+        <div class="usage-pct">${pct7d}<span style="font-size:1rem;color:#888">%</span></div>
+        <div class="usage-label">7日間使用量　リセット: ${resetStr7d}（${countdown7d}）</div>${sub5hHtml}
         <div class="usage-updated">最終更新: ${updatedStr}</div>
       </div>`;
     } else {
-      html += '<div class="dash-card"><h2>🤖 Claude 使用量</h2><p class="dash-empty">データなし — update_claude_usage.py を実行してください</p></div>';
+      html += '<div class="dash-card"><h2>🤖 Claude 使用量</h2><p class="dash-empty">データなし — Claude Code を起動するとステータスラインから自動更新されます</p></div>';
     }
 
     // リポジトリ活動カード
