@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T20:19:38+09:00",
+  "generatedAt": "2026-03-20T20:44:11+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -44,23 +44,23 @@
   "recentCommits": [
     {
       "date": "2026-03-20",
+      "message": "読書記録: 103件更新、重複解消、日付修正"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
       "message": "fix: 書籍ファイルの重複8件を削除し、import_kindle.pyに重複防止ロジックを追加"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
     }
   ]
 }
