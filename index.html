@@ -216,13 +216,7 @@
     .usage-updated { font-size: 0.75rem; color: #555; margin-top: 3px; }
     .model-badge { background: #2a2a3e; border: 1px solid #444; border-radius: 8px; padding: 2px 8px; font-size: 0.75rem; color: #aaa; font-weight: normal; margin-left: 8px; vertical-align: middle; }
     .usage-label { font-size: 0.8rem; color: #888; margin-top: 6px; }
-    .usage-sub { margin-top: 14px; }
-    .usage-sub-header { display: flex; align-items: center; gap: 8px; }
-    .usage-sub-bar-wrap { background: #2a2a3e; border-radius: 4px; height: 8px; overflow: hidden; margin-top: 6px; }
-    .usage-sub-bar { height: 100%; border-radius: 4px; transition: width 0.5s ease; }
-    .usage-sub-pct { font-size: 0.9rem; color: #ccc; font-weight: bold; }
-    .usage-sub-label { font-size: 0.78rem; color: #888; font-weight: 600; }
-    .usage-sub-reset { font-size: 0.78rem; color: #777; margin-top: 4px; }
+    .usage-section-5h { margin-top: 16px; padding-top: 14px; border-top: 1px solid #333; }
     .day-bars { display: flex; gap: 6px; align-items: flex-end; height: 70px; margin-bottom: 10px; }
     .day-bar-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
     .day-bar { width: 100%; background: #7c3aed; border-radius: 3px 3px 0 0; min-height: 3px; }
@@ -377,7 +371,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.25';
+  const VERSION = 'v1.26';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -1028,7 +1022,7 @@
     if (usage) {
       const now = new Date();
       // 7d メイン表示（sevenDayPercentがなければusagePercentにフォールバック）
-      const pct7d = usage.sevenDayPercent ?? usage.usagePercent ?? 0;
+      const pct7d = Math.round(usage.sevenDayPercent ?? usage.usagePercent ?? 0);
       const barColor7d = pct7d >= 90 ? '#e74c3c' : pct7d >= 60 ? '#f39c12' : '#2ecc71';
       const resetAt7d = new Date(usage.sevenDayResetAt || usage.resetAt);
       const diffMs7d = resetAt7d - now;
@@ -1039,18 +1033,18 @@
       const updatedStr = new Date(usage.updatedAt).toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
       // モデルバッジ
       const modelBadge = usage.model ? `<span class="model-badge">${usage.model}</span>` : '';
-      // 5h サブ表示
+      // 5h 表示（7dと同じレイアウト）
       let sub5hHtml = '';
       if (usage.fiveHourPercent != null) {
-        const pct5h = usage.fiveHourPercent;
+        const pct5h = Math.round(usage.fiveHourPercent);
         const barColor5h = pct5h >= 90 ? '#e74c3c' : pct5h >= 60 ? '#f39c12' : '#2ecc71';
         const resetAt5h = new Date(usage.fiveHourResetAt);
         const resetStr5h = resetAt5h.toLocaleString('ja-JP', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
         sub5hHtml = `
-        <div class="usage-sub">
-          <div class="usage-sub-header"><span class="usage-sub-label">5h</span><span class="usage-sub-pct">${pct5h}%</span></div>
-          <div class="usage-sub-bar-wrap"><div class="usage-sub-bar" style="width:${pct5h}%;background:${barColor5h}"></div></div>
-          <div class="usage-sub-reset">リセット: ${resetStr5h}</div>
+        <div class="usage-section-5h">
+          <div class="usage-bar-wrap"><div class="usage-bar" style="width:${pct5h}%;background:${barColor5h}"></div></div>
+          <div class="usage-pct">${pct5h}<span style="font-size:1rem;color:#888">%</span></div>
+          <div class="usage-label">5時間使用量　リセット: ${resetStr5h}</div>
         </div>`;
       }
       html += `
