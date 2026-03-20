@@ -7,6 +7,7 @@
 | 出版年月 |  |
 | 最終ハイライト日 | 2019-05-09 |
 | ハイライト数 | 64 |
+| ISBN | 9784344032170 |
 | 評価 |  |
 | Kindle | [Amazonで開く](https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E5%86%8D%E8%88%88%E6%88%A6%E7%95%A5%20%28NewsPicks%20Book%29&i=digital-text) |
 

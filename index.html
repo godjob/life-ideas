@@ -384,7 +384,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.27';
+  const VERSION = 'v1.28';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -979,25 +979,29 @@
 
     // Booksタブ: 書影サムネイル表示 & ハイライト色変更
     if (currentTab === 'books') {
-      // 書影サムネイル: テーブルからASINを抽出してh1の左に表示
+      // 書影サムネイル: テーブルからISBNを抽出してh1の左に表示
       const mdBody = contentEl.querySelector('.markdown-body');
       if (mdBody) {
-        let asin = null;
+        let isbn = null;
         mdBody.querySelectorAll('tr').forEach(tr => {
           const cells = tr.querySelectorAll('td, th');
-          if (cells.length >= 2 && cells[0].textContent.trim() === 'ASIN') {
-            asin = cells[1].textContent.trim();
+          if (cells.length >= 2 && cells[0].textContent.trim() === 'ISBN') {
+            isbn = cells[1].textContent.trim();
           }
         });
         const h1 = mdBody.querySelector('h1');
-        if (asin && h1) {
+        if (isbn && h1) {
           const wrap = document.createElement('div');
           wrap.className = 'book-cover-wrap';
           const img = document.createElement('img');
           img.className = 'book-cover';
-          img.src = `https://m.media-amazon.com/images/P/${asin}.01._SCLZZZZZZZ_SX200_.jpg`;
+          img.src = `https://cover.openbd.jp/${isbn}.jpg`;
           img.alt = '書影';
-          img.onerror = function() { this.style.display = 'none'; };
+          img.onerror = function() {
+            // OpenBDで取得できない場合、Google Booksにフォールバック
+            this.onerror = function() { this.style.display = 'none'; };
+            this.src = `https://books.google.com/books/content?vid=isbn:${isbn}&printsec=frontcover&img=1&zoom=1`;
+          };
           h1.parentNode.insertBefore(wrap, h1);
           wrap.appendChild(img);
           wrap.appendChild(h1);
