@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T18:57:54+09:00",
+  "generatedAt": "2026-03-20T19:27:40+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -25,30 +25,26 @@
       },
       {
         "date": "2026-03-19",
-        "count": 3
+        "count": 0
       },
       {
         "date": "2026-03-20",
-        "count": 27
+        "count": 30
       }
     ]
   },
   "byDirectory": {
-    "scrap": 1,
+    "scrap": 0,
     "ideas": 0,
     "health": 0,
-    "books": 1,
-    "portfolio": 2,
+    "books": 4,
+    "portfolio": 0,
     "other": 26
   },
   "recentCommits": [
     {
       "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "読書記録: 103件追加・更新"
+      "message": "読書記録: 108件にISBNを追加（NDL Search API経由）"
     },
     {
       "date": "2026-03-20",
@@ -56,11 +52,15 @@
     },
     {
       "date": "2026-03-20",
+      "message": "books: ISBN取得スクリプトをNDL API版に変更、index.html書影をISBNベースに更新 (v1.28)"
+    },
+    {
+      "date": "2026-03-20",
       "message": "dashboard: Claude使用量更新 (2026-03-20)"
     },
     {
       "date": "2026-03-20",
-      "message": "dashboard: Booksタブに書影サムネイル表示とハイライト色変更機能を追加"
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
     }
   ]
 }
