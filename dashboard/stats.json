@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T14:43:29+09:00",
+  "generatedAt": "2026-03-20T14:47:49+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -13,11 +13,11 @@
       },
       {
         "date": "2026-03-16",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-03-17",
-        "count": 11
+        "count": 10
       },
       {
         "date": "2026-03-18",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-03-20",
-        "count": 8
+        "count": 10
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
+    "scrap": 3,
     "ideas": 0,
     "health": 0,
     "books": 1,
     "portfolio": 2,
-    "other": 23
+    "other": 24
   },
   "recentCommits": [
+    {
+      "date": "2026-03-20",
+      "message": "statusline: 使用量変更時のみJSON書き出し+自動コミット機能を追加"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
     {
       "date": "2026-03-20",
       "message": "dashboard: データなしメッセージを新方式に合わせて更新"
@@ -53,14 +61,6 @@
     {
       "date": "2026-03-20",
       "message": "dashboard: Claude使用量カードを7d/5h/モデルバッジ表示に改修 (v1.25)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "docs: CLAUDE.mdにカスタムコマンドとsetup-hooks.shの説明を追記"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "news: 2026-03-20 記事まとめを自動生成"
     }
   ]
 }
