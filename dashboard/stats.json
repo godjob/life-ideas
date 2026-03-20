@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T15:01:14+09:00",
+  "generatedAt": "2026-03-20T15:09:59+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -17,7 +17,7 @@
       },
       {
         "date": "2026-03-17",
-        "count": 6
+        "count": 3
       },
       {
         "date": "2026-03-18",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-20",
-        "count": 14
+        "count": 17
       }
     ]
   },
@@ -44,23 +44,23 @@
   "recentCommits": [
     {
       "date": "2026-03-20",
+      "message": "docs: CLAUDE.mdにClaude使用量データの自動書き出し仕様を追記"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
       "message": "ci: sync-ideas同期の競合エラーを修正（push前にpull --rebase追加）"
     },
     {
       "date": "2026-03-20",
       "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: 5h使用量を7dと同じレイアウトに統一、小数点四捨五入 (v1.26)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "statusline: 使用量変更時のみJSON書き出し+自動コミット機能を追加"
     }
   ]
 }
