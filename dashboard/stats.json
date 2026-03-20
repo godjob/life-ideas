@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T21:30:07+09:00",
+  "generatedAt": "2026-03-20T23:54:27+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -37,9 +37,9 @@
     "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 2,
+    "books": 3,
     "portfolio": 0,
-    "other": 27
+    "other": 26
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-03-20",
-      "message": "fix: import_kindle.pyにページリロード・リトライ機能を追加"
+      "message": "読書記録: 168件更新（全件取得成功）、日付フォールバック機能追加"
     },
     {
       "date": "2026-03-20",
@@ -60,7 +60,7 @@
     },
     {
       "date": "2026-03-20",
-      "message": "読書記録: 103件更新、ハイライト全件取得（スクロール読み込み対応）"
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
     }
   ]
 }
