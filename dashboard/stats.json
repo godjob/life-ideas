@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-20T11:19:30+09:00",
+  "generatedAt": "2026-03-20T14:43:29+09:00",
   "weekly": {
-    "commitCount": 32,
+    "commitCount": 30,
     "byDay": [
       {
         "date": "2026-03-14",
@@ -9,11 +9,11 @@
       },
       {
         "date": "2026-03-15",
-        "count": 5
+        "count": 0
       },
       {
         "date": "2026-03-16",
-        "count": 5
+        "count": 1
       },
       {
         "date": "2026-03-17",
@@ -29,12 +29,12 @@
       },
       {
         "date": "2026-03-20",
-        "count": 1
+        "count": 8
       }
     ]
   },
   "byDirectory": {
-    "scrap": 6,
+    "scrap": 4,
     "ideas": 0,
     "health": 0,
     "books": 1,
@@ -44,23 +44,23 @@
   "recentCommits": [
     {
       "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+      "message": "dashboard: データなしメッセージを新方式に合わせて更新"
     },
     {
-      "date": "2026-03-19",
-      "message": "portfolio: Xアカウント分析・SNS戦略レポート追加（2026-03-19）"
+      "date": "2026-03-20",
+      "message": "statusline: ステータスラインからdashboard/claude-usage.jsonへの書き出し機能を追加"
     },
     {
-      "date": "2026-03-19",
-      "message": "portfolio: Xアーカイブ取り込み 2462件（2010〜2026年）"
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量カードを7d/5h/モデルバッジ表示に改修 (v1.25)"
     },
     {
-      "date": "2026-03-19",
-      "message": "fix: Xアーカイブmdのファイル名にtweet_id末尾6桁を追加（衝突防止）"
+      "date": "2026-03-20",
+      "message": "docs: CLAUDE.mdにカスタムコマンドとsetup-hooks.shの説明を追記"
     },
     {
-      "date": "2026-03-19",
-      "message": "news: 2026-03-19 記事まとめを自動生成"
+      "date": "2026-03-20",
+      "message": "news: 2026-03-20 記事まとめを自動生成"
     }
   ]
 }
