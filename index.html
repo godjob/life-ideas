@@ -136,6 +136,19 @@
     .markdown-body blockquote { border-left: 4px solid #e94560; padding-left: 16px; color: #666; margin: 12px 0; }
     .markdown-body input[type="checkbox"] { margin-right: 6px; }
 
+    /* ===== Booksタブ専用スタイル ===== */
+    .book-cover-wrap {
+      display: flex; gap: 16px; align-items: flex-start; margin-bottom: 16px;
+    }
+    .book-cover {
+      width: 80px; border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15); flex-shrink: 0;
+    }
+    @media (max-width: 768px) {
+      .book-cover { width: 60px; }
+    }
+    /* ================================= */
+
     .placeholder { text-align: center; color: #aaa; margin-top: 80px; }
     .placeholder p { font-size: 1rem; margin-top: 8px; }
 
@@ -371,7 +384,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.26';
+  const VERSION = 'v1.27';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -963,6 +976,51 @@
         li.innerHTML = '<input type="checkbox" checked disabled> ' + li.innerHTML.replace(/\[[xX]\]/, '').trim();
       }
     });
+
+    // Booksタブ: 書影サムネイル表示 & ハイライト色変更
+    if (currentTab === 'books') {
+      // 書影サムネイル: テーブルからASINを抽出してh1の左に表示
+      const mdBody = contentEl.querySelector('.markdown-body');
+      if (mdBody) {
+        let asin = null;
+        mdBody.querySelectorAll('tr').forEach(tr => {
+          const cells = tr.querySelectorAll('td, th');
+          if (cells.length >= 2 && cells[0].textContent.trim() === 'ASIN') {
+            asin = cells[1].textContent.trim();
+          }
+        });
+        const h1 = mdBody.querySelector('h1');
+        if (asin && h1) {
+          const wrap = document.createElement('div');
+          wrap.className = 'book-cover-wrap';
+          const img = document.createElement('img');
+          img.className = 'book-cover';
+          img.src = `https://m.media-amazon.com/images/P/${asin}.01._SCLZZZZZZZ_SX200_.jpg`;
+          img.alt = '書影';
+          img.onerror = function() { this.style.display = 'none'; };
+          h1.parentNode.insertBefore(wrap, h1);
+          wrap.appendChild(img);
+          wrap.appendChild(h1);
+        }
+      }
+
+      // ハイライト色変更: blockquote内の「色のハイライト」テキストを処理
+      const colorMap = { '黄色': '#f5c842', '青': '#4a9eff', 'ピンク': '#ff6b9d', 'オレンジ': '#ff9f43' };
+      const hlRegex = /—\s*(黄色|青|ピンク|オレンジ)のハイライト\s*\|\s*位置:\s*(.+)/;
+      contentEl.querySelectorAll('blockquote').forEach(bq => {
+        const html = bq.innerHTML;
+        const match = html.match(hlRegex);
+        if (match) {
+          const color = colorMap[match[1]];
+          const pos = match[2].trim();
+          if (color) bq.style.borderLeftColor = color;
+          bq.title = `位置: ${pos}`;
+          // マッチした行を除去（<br>区切りまたは行末）
+          bq.innerHTML = html.replace(new RegExp('<br>\\s*—\\s*' + match[1] + 'のハイライト[^<]*', 'g'), '')
+                              .replace(new RegExp('—\\s*' + match[1] + 'のハイライト[^<]*(<br>)?', 'g'), '');
+        }
+      });
+    }
 
     contentEl.scrollTop = 0;
   }
