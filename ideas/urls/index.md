@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/20 | - | AI, Productivity, Business, Development | [【超AI時代の世界：戦争がまた起きる】落合陽一のAI活用／1年以内にAGI／研究自動化、AI創薬が進む／落合信彦と今の時代／「AI×戦争」の融合／フィジカルAIの中心は国防](https://www.youtube.com/watch?v=DXmaXV004xg) | 落合陽一が、AI時代における1年以内のAGI到来、研究自動化による産業変革、フィジカルAI中心の国防・軍事利用、そして日本の文化的価値創造における勝機を語る。 |
 | 26/03/19 | 26/03/19 | AI, Development, Tools | [AIエージェントプロトコル開発者ガイド（MCP・A2A・UCP・AP2・A2UI・AG-UI）](https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/) | Googleが6つのAIエージェントプロトコルをADKを使ったレストランエージェントの例で解説。各プロトコルの役割分担と段階的な導入方法を網羅 |
 | 26/03/19 | - | Development, Tools | [Google Stitch — プロンプト駆動UIデザインツール](https://stitch.withgoogle.com/docs/learn/overview/) | テキストプロンプトからUIを生成しHTMLで出力。LLMと組み合わせてReact/Flutter/SwiftUIへの変換が容易なGoogleのデザインツール |
 | 26/03/18 | - | AI, Development, Learning, LLM, Tools | [AIエンジニアになるための6ヶ月ロードマップ（リソース付き）](https://x.com/DeRonin_/status/2033587293064204349) | LLM API・プロンプト設計・RAG・デプロイまで実践的スキルを体系化した10,000字超の詳細ガイド |
