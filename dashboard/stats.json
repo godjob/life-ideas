@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T19:32:14+09:00",
+  "generatedAt": "2026-03-20T19:35:28+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -44,15 +44,15 @@
   "recentCommits": [
     {
       "date": "2026-03-20",
+      "message": "fix: 英語ハイライト（Yellow highlight）の除去と左バー色変更に対応（v1.30）"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
       "message": "fix: Booksハイライトのメタ文字列除去とバー色変更を修正（v1.29）"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
     },
     {
       "date": "2026-03-20",
