@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T19:27:40+09:00",
+  "generatedAt": "2026-03-20T19:32:14+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -44,7 +44,7 @@
   "recentCommits": [
     {
       "date": "2026-03-20",
-      "message": "読書記録: 108件にISBNを追加（NDL Search API経由）"
+      "message": "fix: Booksハイライトのメタ文字列除去とバー色変更を修正（v1.29）"
     },
     {
       "date": "2026-03-20",
@@ -52,7 +52,7 @@
     },
     {
       "date": "2026-03-20",
-      "message": "books: ISBN取得スクリプトをNDL API版に変更、index.html書影をISBNベースに更新 (v1.28)"
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
     },
     {
       "date": "2026-03-20",
