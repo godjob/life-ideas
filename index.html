@@ -384,7 +384,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.29';
+  const VERSION = 'v1.30';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -1009,21 +1009,28 @@
       }
 
       // ハイライト色変更: blockquote内の「色のハイライト」テキストを削除し、左バーをその色に変更
-      const colorMap = { '黄色': '#f5c842', '青': '#4a9eff', 'ピンク': '#ff6b9d', 'オレンジ': '#ff9f43' };
-      const hlTextRegex = /[—\u2014]\s*(黄色|青|ピンク|オレンジ)のハイライト\s*\|\s*位置:\s*(.+)/;
+      // 日本語: "— 黄色のハイライト | 位置: 353"  英語: "— Yellow highlight | Location: 133"
+      const colorMapJa = { '黄色': '#f5c842', '青': '#4a9eff', 'ピンク': '#ff6b9d', 'オレンジ': '#ff9f43' };
+      const colorMapEn = { 'Yellow': '#f5c842', 'Blue': '#4a9eff', 'Pink': '#ff6b9d', 'Orange': '#ff9f43' };
+      const hlRegexJa = /[—\u2014]\s*(黄色|青|ピンク|オレンジ)のハイライト\s*\|\s*位置:\s*(.+)/;
+      const hlRegexEn = /[—\u2014]\s*(Yellow|Blue|Pink|Orange)\s+highlight\s*\|\s*Location:\s*(.+)/i;
       contentEl.querySelectorAll('blockquote').forEach(bq => {
         const text = bq.textContent || '';
-        const match = text.match(hlTextRegex);
+        const matchJa = text.match(hlRegexJa);
+        const matchEn = text.match(hlRegexEn);
+        const match = matchJa || matchEn;
         if (match) {
-          const color = colorMap[match[1]];
+          const color = matchJa ? colorMapJa[match[1]] : colorMapEn[match[1].charAt(0).toUpperCase() + match[1].slice(1).toLowerCase()];
           const pos = match[2].trim();
           if (color) bq.style.borderLeftColor = color;
-          bq.title = `位置: ${pos}`;
-          // innerHTML からハイライトメタ行を除去（<br>前後、<p>内、行末すべて対応）
-          const escColor = match[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          bq.title = (matchJa ? '位置: ' : 'Location: ') + pos;
+          // innerHTML からハイライトメタ行を除去
+          const metaPattern = matchJa
+            ? '[—\u2014]\\s*' + match[1] + 'のハイライト[^<]*'
+            : '[—\u2014]\\s*' + match[1] + '\\s+highlight[^<]*';
           bq.innerHTML = bq.innerHTML
-            .replace(new RegExp('<br>\\s*[—\u2014]\\s*' + escColor + 'のハイライト[^<]*', 'g'), '')
-            .replace(new RegExp('[—\u2014]\\s*' + escColor + 'のハイライト[^<]*(<br>)?', 'g'), '')
+            .replace(new RegExp('<br>\\s*' + metaPattern, 'gi'), '')
+            .replace(new RegExp(metaPattern + '(<br>)?', 'gi'), '')
             .replace(/<p>\s*<\/p>/g, '');
         }
       });
