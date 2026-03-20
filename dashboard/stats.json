@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T21:25:52+09:00",
+  "generatedAt": "2026-03-20T21:30:07+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -48,19 +48,19 @@
     },
     {
       "date": "2026-03-20",
+      "message": "fix: import_kindle.pyにページリロード・リトライ機能を追加"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
+    },
+    {
+      "date": "2026-03-20",
       "message": "読書記録: 103件更新、ハイライト全件取得（スクロール読み込み対応）"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
-    },
-    {
-      "date": "2026-03-20",
-      "message": "dashboard: Claude使用量更新 (2026-03-20)"
     }
   ]
 }
