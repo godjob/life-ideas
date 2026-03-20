@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T20:55:40+09:00",
+  "generatedAt": "2026-03-20T20:59:02+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -37,14 +37,14 @@
     "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 4,
+    "books": 3,
     "portfolio": 0,
-    "other": 25
+    "other": 26
   },
   "recentCommits": [
     {
       "date": "2026-03-20",
-      "message": "scrap: 50 Claude Code Tips記事を処理、URLs・daily追記"
+      "message": "fix: ハイライト「オレンジ色/ピンク色」対応＋スクレイパーの全件スクロール読み込み（v1.31）"
     },
     {
       "date": "2026-03-20",
@@ -60,7 +60,7 @@
     },
     {
       "date": "2026-03-20",
-      "message": "読書記録: 103件更新、重複解消、日付修正"
+      "message": "dashboard: Claude使用量更新 (2026-03-20)"
     }
   ]
 }
