@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T10:25:17+09:00",
+  "generatedAt": "2026-03-21T22:34:49+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -25,11 +25,11 @@
       },
       {
         "date": "2026-03-20",
-        "count": 20
+        "count": 12
       },
       {
         "date": "2026-03-21",
-        "count": 10
+        "count": 18
       }
     ]
   },
@@ -44,7 +44,7 @@
   "recentCommits": [
     {
       "date": "2026-03-21",
-      "message": "portfolio: Xツイートmdをarchiveフォルダに移動（index.md/analysis.mdの参照性向上）"
+      "message": "dashboard: Claude使用量更新 (2026-03-21)"
     },
     {
       "date": "2026-03-21",
@@ -52,7 +52,7 @@
     },
     {
       "date": "2026-03-21",
-      "message": "セキュリティ: pre-push hookでforce pushをブロック + リスク対策ドキュメント追加"
+      "message": "dashboard: Claude使用量更新 (2026-03-21)"
     },
     {
       "date": "2026-03-21",
