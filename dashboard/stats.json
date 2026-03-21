@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T08:25:57+09:00",
+  "generatedAt": "2026-03-22T08:42:57+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -21,7 +21,7 @@
       },
       {
         "date": "2026-03-20",
-        "count": 6
+        "count": 0
       },
       {
         "date": "2026-03-21",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-22",
-        "count": 6
+        "count": 12
       }
     ]
   },
@@ -37,18 +37,18 @@
     "scrap": 0,
     "ideas": 0,
     "health": 0,
-    "books": 0,
+    "books": 1,
     "portfolio": 1,
-    "other": 29
+    "other": 28
   },
   "recentCommits": [
     {
       "date": "2026-03-22",
-      "message": "fix: 書籍ISBN 105件復元 + 著者名By:プレフィックス65件修正 + 再実行時のメタデータ保持ロジック追加"
+      "message": "dashboard: Claude使用量更新 (2026-03-22)"
     },
     {
       "date": "2026-03-22",
-      "message": "dashboard: Claude使用量更新 (2026-03-22)"
+      "message": "読書記録: メタデータ補完132件（ISBN・出版社・出版年月）+ 補完スクリプト追加"
     },
     {
       "date": "2026-03-22",
