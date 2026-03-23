@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T21:59:32+09:00",
+  "generatedAt": "2026-03-23T22:05:12+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -21,15 +21,15 @@
       },
       {
         "date": "2026-03-21",
-        "count": 3
+        "count": 0
       },
       {
         "date": "2026-03-22",
-        "count": 13
+        "count": 7
       },
       {
         "date": "2026-03-23",
-        "count": 14
+        "count": 23
       }
     ]
   },
@@ -48,11 +48,11 @@
     },
     {
       "date": "2026-03-23",
-      "message": "dashboard: Claude使用量更新 (2026-03-23)"
+      "message": "docs: books.mdにfill_book_meta.pyの仕様を追記"
     },
     {
       "date": "2026-03-23",
-      "message": "scrap: Claude Code長期記憶システム記事を取り込み（sui-memory検証）"
+      "message": "dashboard: Claude使用量更新 (2026-03-23)"
     },
     {
       "date": "2026-03-23",
