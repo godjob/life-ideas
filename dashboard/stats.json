@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-03-23T22:05:12+09:00",
+  "generatedAt": "2026-03-23T22:38:16+09:00",
   "weekly": {
-    "commitCount": 30,
+    "commitCount": 178,
     "byDay": [
       {
         "date": "2026-03-17",
-        "count": 0
+        "count": 11
       },
       {
         "date": "2026-03-18",
-        "count": 0
+        "count": 4
       },
       {
         "date": "2026-03-19",
-        "count": 0
+        "count": 6
       },
       {
         "date": "2026-03-20",
-        "count": 0
+        "count": 93
       },
       {
         "date": "2026-03-21",
-        "count": 0
+        "count": 18
       },
       {
         "date": "2026-03-22",
-        "count": 7
+        "count": 13
       },
       {
         "date": "2026-03-23",
-        "count": 23
+        "count": 33
       }
     ]
   },
   "byDirectory": {
-    "scrap": 1,
-    "ideas": 0,
+    "scrap": 10,
+    "ideas": 1,
     "health": 0,
-    "books": 1,
-    "portfolio": 0,
-    "other": 28
+    "books": 9,
+    "portfolio": 3,
+    "other": 170
   },
   "recentCommits": [
     {
       "date": "2026-03-23",
-      "message": "dashboard: Claude使用量更新 (2026-03-23)"
+      "message": "fix: ダッシュボード今週の活動が直近2日しか表示されない問題を修正"
     },
     {
       "date": "2026-03-23",
-      "message": "docs: books.mdにfill_book_meta.pyの仕様を追記"
+      "message": "dashboard: Claude使用量更新 (2026-03-23)"
     },
     {
       "date": "2026-03-23",
