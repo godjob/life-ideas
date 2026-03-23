@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/23 | 26/03/22 | AI, ClaudeCode, Tools, Productivity | [Claude Codeに長期記憶を持たせたら、壁打ちの質が変わった](https://zenn.dev/noprogllama/articles/7c24b2c2410213) | Claude Codeにsui-memoryという長期記憶システムを自作。セッション終了時に自動保存、FTS5+ベクトル検索のハイブリッドで過去の議論を意味検索。CLAUDE.mdとの2層記憶構造を提案 |
 | 26/03/21 | 26/03/21 | AI, ClaudeCode, Productivity, Management | [AI指数関数時代のプロダクトマネジメント](https://claude.com/blog/product-management-on-the-ai-exponential) | Anthropic Claude Codeプロダクト責任者Cat Wuが、指数関数的なモデル進化に対応するPMワークフローの4つのシフト（短スプリント・デモ重視・モデル更新時の機能再検討・シンプル実装）を解説 |
 | 26/03/20 | - | AI, ClaudeCode, Tools, Productivity | [50 Claude Code Tips and Best Practices For Daily Use](https://x.com/CodevolutionWeb/status/2034683638382506063) | Claude Codeを日常的に使う人向けの50個の実践Tips。worktree並列作業、Hooks自動化、subagent活用、CLAUDE.md管理など上級者向けの具体的テクニックを網羅 |
 | 26/03/20 | - | AI, Productivity, Business, Development | [【超AI時代の世界：戦争がまた起きる】落合陽一のAI活用／1年以内にAGI／研究自動化、AI創薬が進む／落合信彦と今の時代／「AI×戦争」の融合／フィジカルAIの中心は国防](https://www.youtube.com/watch?v=DXmaXV004xg) | 落合陽一が、AI時代における1年以内のAGI到来、研究自動化による産業変革、フィジカルAI中心の国防・軍事利用、そして日本の文化的価値創造における勝機を語る。 |
