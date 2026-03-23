@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T00:19:10+09:00",
+  "generatedAt": "2026-03-23T21:59:32+09:00",
   "weekly": {
     "commitCount": 30,
     "byDay": [
@@ -21,7 +21,7 @@
       },
       {
         "date": "2026-03-21",
-        "count": 17
+        "count": 3
       },
       {
         "date": "2026-03-22",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-03-23",
-        "count": 0
+        "count": 14
       }
     ]
   },
   "byDirectory": {
-    "scrap": 0,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
     "books": 1,
-    "portfolio": 1,
+    "portfolio": 0,
     "other": 28
   },
   "recentCommits": [
     {
-      "date": "2026-03-22",
-      "message": "news: 2026-03-22 記事まとめを自動生成"
+      "date": "2026-03-23",
+      "message": "dashboard: Claude使用量更新 (2026-03-23)"
     },
     {
-      "date": "2026-03-22",
-      "message": "dashboard: Claude使用量更新 (2026-03-22)"
+      "date": "2026-03-23",
+      "message": "dashboard: Claude使用量更新 (2026-03-23)"
     },
     {
-      "date": "2026-03-22",
-      "message": "読書記録: メタデータ補完132件（ISBN・出版社・出版年月）+ 補完スクリプト追加"
+      "date": "2026-03-23",
+      "message": "scrap: Claude Code長期記憶システム記事を取り込み（sui-memory検証）"
     },
     {
-      "date": "2026-03-22",
-      "message": "dashboard: Claude使用量更新 (2026-03-22)"
+      "date": "2026-03-23",
+      "message": "dashboard: Claude使用量更新 (2026-03-23)"
     },
     {
-      "date": "2026-03-22",
-      "message": "dashboard: Claude使用量更新 (2026-03-22)"
+      "date": "2026-03-23",
+      "message": "dashboard: Claude使用量更新 (2026-03-23)"
     }
   ]
 }
