@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-24T00:54:31+09:00",
+  "generatedAt": "2026-03-24T21:23:03+09:00",
   "weekly": {
-    "commitCount": 167,
+    "commitCount": 188,
     "byDay": [
       {
         "date": "2026-03-18",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-03-23",
-        "count": 33
+        "count": 34
       },
       {
         "date": "2026-03-24",
-        "count": 0
+        "count": 20
       }
     ]
   },
   "byDirectory": {
-    "scrap": 10,
-    "ideas": 1,
+    "scrap": 7,
+    "ideas": 0,
     "health": 0,
     "books": 9,
     "portfolio": 3,
-    "other": 168
+    "other": 185
   },
   "recentCommits": [
     {
-      "date": "2026-03-23",
-      "message": "fix: ダッシュボード今週の活動が直近2日しか表示されない問題を修正"
+      "date": "2026-03-24",
+      "message": "dashboard: Claude使用量更新 (2026-03-24)"
     },
     {
-      "date": "2026-03-23",
-      "message": "dashboard: Claude使用量更新 (2026-03-23)"
+      "date": "2026-03-24",
+      "message": "dashboard: Claude使用量更新 (2026-03-24)"
     },
     {
-      "date": "2026-03-23",
-      "message": "dashboard: Claude使用量更新 (2026-03-23)"
+      "date": "2026-03-24",
+      "message": "dashboard: Claude使用量更新 (2026-03-24)"
     },
     {
-      "date": "2026-03-23",
-      "message": "dashboard: Claude使用量更新 (2026-03-23)"
+      "date": "2026-03-24",
+      "message": "dashboard: Claude使用量更新 (2026-03-24)"
     },
     {
-      "date": "2026-03-23",
-      "message": "dashboard: Claude使用量更新 (2026-03-23)"
+      "date": "2026-03-24",
+      "message": "dashboard: Claude使用量更新 (2026-03-24)"
     }
   ]
 }
