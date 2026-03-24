@@ -2,6 +2,9 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/24 | - | Business | [経産省プレスリリース](https://www.meti.go.jp/press/index.html) | 経産省の公式プレスリリース一覧。ホルムズ海峡封鎖に伴うエネルギー政策・備蓄放出等の最新情報 |
+| 26/03/24 | - | Business | [資源エネルギー庁 石油備蓄の現況](https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl001/) | 日本の石油備蓄量の最新統計データ（国家備蓄・民間備蓄の日数） |
+| 26/03/24 | 26/03/23 | Business | [中小企業向け特別相談窓口（ホルムズ海峡封鎖関連）](https://www.meti.go.jp/press/2025/03/20260323004/20260323004.html) | ホルムズ海峡封鎖の影響を受ける中小企業向けの経産省特別相談窓口 |
 | 26/03/23 | 26/03/22 | AI, ClaudeCode, Tools, Productivity | [Claude Codeに長期記憶を持たせたら、壁打ちの質が変わった](https://zenn.dev/noprogllama/articles/7c24b2c2410213) | Claude Codeにsui-memoryという長期記憶システムを自作。セッション終了時に自動保存、FTS5+ベクトル検索のハイブリッドで過去の議論を意味検索。CLAUDE.mdとの2層記憶構造を提案 |
 | 26/03/21 | 26/03/21 | AI, ClaudeCode, Productivity, Management | [AI指数関数時代のプロダクトマネジメント](https://claude.com/blog/product-management-on-the-ai-exponential) | Anthropic Claude Codeプロダクト責任者Cat Wuが、指数関数的なモデル進化に対応するPMワークフローの4つのシフト（短スプリント・デモ重視・モデル更新時の機能再検討・シンプル実装）を解説 |
 | 26/03/20 | - | AI, ClaudeCode, Tools, Productivity | [50 Claude Code Tips and Best Practices For Daily Use](https://x.com/CodevolutionWeb/status/2034683638382506063) | Claude Codeを日常的に使う人向けの50個の実践Tips。worktree並列作業、Hooks自動化、subagent活用、CLAUDE.md管理など上級者向けの具体的テクニックを網羅 |
