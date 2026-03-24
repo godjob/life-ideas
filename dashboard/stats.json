@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-24T23:29:15+09:00",
+  "generatedAt": "2026-03-24T23:31:12+09:00",
   "weekly": {
-    "commitCount": 198,
+    "commitCount": 202,
     "byDay": [
       {
         "date": "2026-03-18",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-24",
-        "count": 30
+        "count": 34
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 9,
     "portfolio": 3,
-    "other": 195
+    "other": 199
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-03-24",
-      "message": "dashboard: Claude使用量更新 (2026-03-24)"
+      "message": "statusline: 自動コミットが他のステージ済みファイルを巻き込む問題を修正"
     },
     {
       "date": "2026-03-24",
