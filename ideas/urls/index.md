@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/03/26 | 26/03/26 | AI, ClaudeCode, Tools, Productivity | [Claude Code Auto Mode — パーミッション自動判定の新モード](https://claude.com/blog/auto-mode) | ツール呼び出しごとに分類器が安全性を自動判断するモード。--dangerously-skip-permissionsとデフォルト確認モードの中間。Team/Enterprise向け研究プレビュー、個人プランは未対応 |
 | 26/03/25 | 26/03/24 | AI, ClaudeCode, Development, Tools, Productivity | [Y Combinator CEO独自開発のClaude Code用カスタムスキル「gstack」が無料公開](https://www.techno-edge.net/article/2026/03/24/4951.html) | Garry Tanが28個のスラッシュコマンドで開発チームをシミュレートするgstackを公開。think→plan→build→review→test→ship→reflectの7フェーズスプリントで1人20人分の生産性を実現 |
 | 26/03/24 | 26/03/24 | AI, ClaudeCode, Development, Tools | [.claudeフォルダの解剖学 — 完全ガイド](https://x.com/akshay_pachaar/status/2035341800739877091) | CLAUDE.md・rules・commands・skills・agents・settings.jsonの役割と設定方法を体系的に解説。パススコープルール、スキルとコマンドの違い、サブエージェントの活用法まで網羅 |
 | 26/03/24 | - | Business | [経産省プレスリリース](https://www.meti.go.jp/press/index.html) | 経産省の公式プレスリリース一覧。ホルムズ海峡封鎖に伴うエネルギー政策・備蓄放出等の最新情報 |
