@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-26T01:02:52+09:00",
+  "generatedAt": "2026-03-26T18:43:12+09:00",
   "weekly": {
-    "commitCount": 207,
+    "commitCount": 223,
     "byDay": [
       {
         "date": "2026-03-20",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-03-25",
-        "count": 11
+        "count": 19
       },
       {
         "date": "2026-03-26",
-        "count": 0
+        "count": 8
       }
     ]
   },
   "byDirectory": {
     "scrap": 5,
-    "ideas": 0,
+    "ideas": 1,
     "health": 0,
     "books": 9,
     "portfolio": 3,
-    "other": 211
+    "other": 225
   },
   "recentCommits": [
     {
-      "date": "2026-03-25",
-      "message": "dashboard: Claude使用量更新 (2026-03-25)"
+      "date": "2026-03-26",
+      "message": "ideas: Claude Code auto-mode評価・記録 — 現時点では保留（Team/Enterprise限定・研究プレビュー）"
     },
     {
-      "date": "2026-03-25",
-      "message": "dashboard: Claude使用量更新 (2026-03-25)"
+      "date": "2026-03-26",
+      "message": "dashboard: Claude使用量更新 (2026-03-26)"
     },
     {
-      "date": "2026-03-25",
-      "message": "dashboard: Claude使用量更新 (2026-03-25)"
+      "date": "2026-03-26",
+      "message": "dashboard: Claude使用量更新 (2026-03-26)"
     },
     {
-      "date": "2026-03-25",
-      "message": "dashboard: Claude使用量更新 (2026-03-25)"
+      "date": "2026-03-26",
+      "message": "dashboard: Claude使用量更新 (2026-03-26)"
     },
     {
-      "date": "2026-03-25",
-      "message": "dashboard: Claude使用量更新 (2026-03-25)"
+      "date": "2026-03-26",
+      "message": "dashboard: Claude使用量更新 (2026-03-26)"
     }
   ]
 }
