@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-28T00:44:34+09:00",
+  "generatedAt": "2026-03-28T21:13:21+09:00",
   "weekly": {
-    "commitCount": 113,
+    "commitCount": 130,
     "byDay": [
       {
         "date": "2026-03-22",
@@ -21,7 +21,7 @@
       },
       {
         "date": "2026-03-26",
-        "count": 8
+        "count": 9
       },
       {
         "date": "2026-03-27",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-03-28",
-        "count": 0
+        "count": 16
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
+    "scrap": 3,
     "ideas": 1,
     "health": 0,
-    "books": 8,
+    "books": 9,
     "portfolio": 3,
-    "other": 214
+    "other": 228
   },
   "recentCommits": [
     {
-      "date": "2026-03-27",
-      "message": "news: 2026-03-27 記事まとめを自動生成"
+      "date": "2026-03-28",
+      "message": "dashboard: Claude使用量更新 (2026-03-28)"
     },
     {
-      "date": "2026-03-26",
-      "message": "ideas: Claude Code auto-mode評価・記録 — 現時点では保留（Team/Enterprise限定・研究プレビュー）"
+      "date": "2026-03-28",
+      "message": "読書記録: 人生の経営戦略 ハイライト取得・import_kindle.pyのASIN抽出修正"
     },
     {
-      "date": "2026-03-26",
-      "message": "dashboard: Claude使用量更新 (2026-03-26)"
+      "date": "2026-03-28",
+      "message": "dashboard: Claude使用量更新 (2026-03-28)"
     },
     {
-      "date": "2026-03-26",
-      "message": "dashboard: Claude使用量更新 (2026-03-26)"
+      "date": "2026-03-28",
+      "message": "dashboard: Claude使用量更新 (2026-03-28)"
     },
     {
-      "date": "2026-03-26",
-      "message": "dashboard: Claude使用量更新 (2026-03-26)"
+      "date": "2026-03-28",
+      "message": "dashboard: Claude使用量更新 (2026-03-28)"
     }
   ]
 }
