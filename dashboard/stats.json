@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-28T21:13:21+09:00",
+  "generatedAt": "2026-03-28T22:03:04+09:00",
   "weekly": {
-    "commitCount": 130,
+    "commitCount": 136,
     "byDay": [
       {
         "date": "2026-03-22",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-28",
-        "count": 16
+        "count": 22
       }
     ]
   },
@@ -37,9 +37,9 @@
     "scrap": 3,
     "ideas": 1,
     "health": 0,
-    "books": 9,
+    "books": 10,
     "portfolio": 3,
-    "other": 228
+    "other": 233
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-03-28",
-      "message": "読書記録: 人生の経営戦略 ハイライト取得・import_kindle.pyのASIN抽出修正"
+      "message": "読書記録: 人生の経営戦略の日付を2025-05-27に修正・import_kindle.pyの日付上書きバグ修正（既存ファイルの日付を常に優先）"
     },
     {
       "date": "2026-03-28",
