@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-29T00:24:20+09:00",
+  "generatedAt": "2026-03-29T14:21:11+09:00",
   "weekly": {
-    "commitCount": 123,
+    "commitCount": 131,
     "byDay": [
       {
         "date": "2026-03-23",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-03-29",
-        "count": 0
+        "count": 8
       }
     ]
   },
   "byDirectory": {
-    "scrap": 3,
+    "scrap": 2,
     "ideas": 1,
     "health": 0,
     "books": 10,
     "portfolio": 1,
-    "other": 232
+    "other": 237
   },
   "recentCommits": [
     {
-      "date": "2026-03-28",
-      "message": "dashboard: Claude使用量更新 (2026-03-28)"
+      "date": "2026-03-29",
+      "message": "dashboard: Claude使用量更新 (2026-03-29)"
     },
     {
-      "date": "2026-03-28",
-      "message": "読書記録: 人生の経営戦略の日付を2025-05-27に修正・import_kindle.pyの日付上書きバグ修正（既存ファイルの日付を常に優先）"
+      "date": "2026-03-29",
+      "message": "dashboard: Claude使用量更新 (2026-03-29)"
     },
     {
-      "date": "2026-03-28",
-      "message": "dashboard: Claude使用量更新 (2026-03-28)"
+      "date": "2026-03-29",
+      "message": "dashboard: Claude使用量更新 (2026-03-29)"
     },
     {
-      "date": "2026-03-28",
-      "message": "dashboard: Claude使用量更新 (2026-03-28)"
+      "date": "2026-03-29",
+      "message": "dashboard: Claude使用量更新 (2026-03-29)"
     },
     {
-      "date": "2026-03-28",
-      "message": "dashboard: Claude使用量更新 (2026-03-28)"
+      "date": "2026-03-29",
+      "message": "dashboard: Claude使用量更新 (2026-03-29)"
     }
   ]
 }
