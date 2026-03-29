@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-29T14:32:12+09:00",
+  "generatedAt": "2026-03-29T16:25:34+09:00",
   "weekly": {
-    "commitCount": 134,
+    "commitCount": 156,
     "byDay": [
       {
         "date": "2026-03-23",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-03-29",
-        "count": 11
+        "count": 33
       }
     ]
   },
@@ -37,14 +37,14 @@
     "scrap": 2,
     "ideas": 1,
     "health": 0,
-    "books": 10,
+    "books": 11,
     "portfolio": 1,
-    "other": 239
+    "other": 248
   },
   "recentCommits": [
     {
       "date": "2026-03-29",
-      "message": "dashboard: Claude使用量更新 (2026-03-29)"
+      "message": "books: 紙の本登録モードを追加（ISBN/ASIN/書籍名入力→一問一答→考察自動生成）"
     },
     {
       "date": "2026-03-29",
