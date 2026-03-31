@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-03-31T01:01:46+09:00",
+  "generatedAt": "2026-04-01T01:01:10+09:00",
   "weekly": {
-    "commitCount": 85,
+    "commitCount": 67,
     "byDay": [
-      {
-        "date": "2026-03-25",
-        "count": 19
-      },
       {
         "date": "2026-03-26",
         "count": 9
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-03-31",
+        "count": 1
+      },
+      {
+        "date": "2026-04-01",
         "count": 0
       }
     ]
@@ -37,11 +37,15 @@
     "scrap": 1,
     "ideas": 1,
     "health": 0,
-    "books": 4,
+    "books": 3,
     "portfolio": 0,
-    "other": 164
+    "other": 153
   },
   "recentCommits": [
+    {
+      "date": "2026-03-31",
+      "message": "news: 2026-03-31 記事まとめを自動生成"
+    },
     {
       "date": "2026-03-30",
       "message": "news: 2026-03-30 記事まとめを自動生成"
@@ -49,10 +53,6 @@
     {
       "date": "2026-03-29",
       "message": "books: 紙の本登録モードを追加（ISBN/ASIN/書籍名入力→一問一答→考察自動生成）"
-    },
-    {
-      "date": "2026-03-29",
-      "message": "dashboard: Claude使用量更新 (2026-03-29)"
     },
     {
       "date": "2026-03-29",
