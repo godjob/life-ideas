@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-01T01:01:10+09:00",
+  "generatedAt": "2026-04-01T20:35:16+09:00",
   "weekly": {
-    "commitCount": 67,
+    "commitCount": 148,
     "byDay": [
       {
         "date": "2026-03-26",
@@ -17,7 +17,7 @@
       },
       {
         "date": "2026-03-29",
-        "count": 33
+        "count": 79
       },
       {
         "date": "2026-03-30",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-03-31",
-        "count": 1
+        "count": 26
       },
       {
         "date": "2026-04-01",
-        "count": 0
+        "count": 10
       }
     ]
   },
   "byDirectory": {
-    "scrap": 1,
+    "scrap": 2,
     "ideas": 1,
     "health": 0,
     "books": 3,
     "portfolio": 0,
-    "other": 153
+    "other": 232
   },
   "recentCommits": [
     {
-      "date": "2026-03-31",
-      "message": "news: 2026-03-31 記事まとめを自動生成"
+      "date": "2026-04-01",
+      "message": "dashboard: Claude使用量更新 (2026-04-01)"
     },
     {
-      "date": "2026-03-30",
-      "message": "news: 2026-03-30 記事まとめを自動生成"
+      "date": "2026-04-01",
+      "message": "scrap: Claude Codeソースコード解説記事を取り込み（@mal_shaik）"
     },
     {
-      "date": "2026-03-29",
-      "message": "books: 紙の本登録モードを追加（ISBN/ASIN/書籍名入力→一問一答→考察自動生成）"
+      "date": "2026-04-01",
+      "message": "dashboard: Claude使用量更新 (2026-04-01)"
     },
     {
-      "date": "2026-03-29",
-      "message": "dashboard: Claude使用量更新 (2026-03-29)"
+      "date": "2026-04-01",
+      "message": "dashboard: Claude使用量更新 (2026-04-01)"
     },
     {
-      "date": "2026-03-29",
-      "message": "dashboard: Claude使用量更新 (2026-03-29)"
+      "date": "2026-04-01",
+      "message": "dashboard: Claude使用量更新 (2026-04-01)"
     }
   ]
 }
