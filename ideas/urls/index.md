@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/01 | 26/03/31 | AI, ClaudeCode, Tools | [Claude Codeのソースコードを読んで分かった、本当の使い方](https://x.com/mal_shaik/status/2038918662489510273) | ソースコードを全読みして判明した10倍生産性の秘訣。CLAUDE.mdは毎ターン読まれ、サブエージェントはキャッシュ共有で5体≒1体のコスト、Hooksが本当の拡張API。 |
 | 26/03/29 | - | AI, Business, YouTube | [動画要約：【最恐】高市首相に近づく、ヤバい「軍事AI企業」の正体](https://www.youtube.com/watch?v=YwhPLUcj0n0) | 軍事AI企業パランティアの実態と日本政治（高市首相）への接近を解説。AIが戦争の意思決定を変え、日本市場への本格進出が現実化しつつある。 |
 | 26/03/26 | 26/03/26 | AI, ClaudeCode, Tools, Productivity | [Claude Code Auto Mode — パーミッション自動判定の新モード](https://claude.com/blog/auto-mode) | ツール呼び出しごとに分類器が安全性を自動判断するモード。--dangerously-skip-permissionsとデフォルト確認モードの中間。Team/Enterprise向け研究プレビュー、個人プランは未対応 |
 | 26/03/25 | 26/03/24 | AI, ClaudeCode, Development, Tools, Productivity | [Y Combinator CEO独自開発のClaude Code用カスタムスキル「gstack」が無料公開](https://www.techno-edge.net/article/2026/03/24/4951.html) | Garry Tanが28個のスラッシュコマンドで開発チームをシミュレートするgstackを公開。think→plan→build→review→test→ship→reflectの7フェーズスプリントで1人20人分の生産性を実現 |
