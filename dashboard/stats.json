@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-01T20:35:16+09:00",
+  "generatedAt": "2026-04-01T21:38:46+09:00",
   "weekly": {
-    "commitCount": 148,
+    "commitCount": 159,
     "byDay": [
       {
         "date": "2026-03-26",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-01",
-        "count": 10
+        "count": 21
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 3,
     "portfolio": 0,
-    "other": 232
+    "other": 243
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-04-01",
-      "message": "scrap: Claude Codeソースコード解説記事を取り込み（@mal_shaik）"
+      "message": "git books: 差分取得モードを追加（前回以降のハイライトのみ取得）"
     },
     {
       "date": "2026-04-01",
