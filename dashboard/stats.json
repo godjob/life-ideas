@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-01T21:38:46+09:00",
+  "generatedAt": "2026-04-01T21:41:14+09:00",
   "weekly": {
-    "commitCount": 159,
+    "commitCount": 162,
     "byDay": [
       {
         "date": "2026-03-26",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-01",
-        "count": 21
+        "count": 24
       }
     ]
   },
@@ -37,9 +37,9 @@
     "scrap": 2,
     "ideas": 1,
     "health": 0,
-    "books": 3,
+    "books": 4,
     "portfolio": 0,
-    "other": 243
+    "other": 245
   },
   "recentCommits": [
     {
@@ -48,19 +48,19 @@
     },
     {
       "date": "2026-04-01",
+      "message": "読書記録: 2件追加・更新（Claude Code AI駆動開発入門・人生の経営戦略）"
+    },
+    {
+      "date": "2026-04-01",
+      "message": "dashboard: Claude使用量更新 (2026-04-01)"
+    },
+    {
+      "date": "2026-04-01",
+      "message": "dashboard: Claude使用量更新 (2026-04-01)"
+    },
+    {
+      "date": "2026-04-01",
       "message": "git books: 差分取得モードを追加（前回以降のハイライトのみ取得）"
-    },
-    {
-      "date": "2026-04-01",
-      "message": "dashboard: Claude使用量更新 (2026-04-01)"
-    },
-    {
-      "date": "2026-04-01",
-      "message": "dashboard: Claude使用量更新 (2026-04-01)"
-    },
-    {
-      "date": "2026-04-01",
-      "message": "dashboard: Claude使用量更新 (2026-04-01)"
     }
   ]
 }
