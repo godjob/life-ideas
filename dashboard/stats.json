@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-03T00:53:54+09:00",
+  "generatedAt": "2026-04-03T17:19:58+09:00",
   "weekly": {
-    "commitCount": 161,
+    "commitCount": 183,
     "byDay": [
       {
         "date": "2026-03-28",
@@ -25,11 +25,11 @@
       },
       {
         "date": "2026-04-02",
-        "count": 7
+        "count": 18
       },
       {
         "date": "2026-04-03",
-        "count": 0
+        "count": 11
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 187
+    "other": 208
   },
   "recentCommits": [
     {
-      "date": "2026-04-02",
-      "message": "dashboard: Claude使用量更新 (2026-04-02)"
+      "date": "2026-04-03",
+      "message": "dashboard: Claude使用量更新 (2026-04-03)"
     },
     {
-      "date": "2026-04-02",
-      "message": "scrap: エージェントハーネスとAIマネージドサービス記事を取り込み（LayerX 福島良典）"
+      "date": "2026-04-03",
+      "message": "dashboard: Claude使用量更新 (2026-04-03)"
     },
     {
-      "date": "2026-04-02",
-      "message": "dashboard: Claude使用量更新 (2026-04-02)"
+      "date": "2026-04-03",
+      "message": "docs: README.md を現状に合わせて更新"
     },
     {
-      "date": "2026-04-02",
-      "message": "dashboard: Claude使用量更新 (2026-04-02)"
+      "date": "2026-04-03",
+      "message": "dashboard: Claude使用量更新 (2026-04-03)"
     },
     {
-      "date": "2026-04-02",
-      "message": "dashboard: Claude使用量更新 (2026-04-02)"
+      "date": "2026-04-03",
+      "message": "dashboard: Claude使用量更新 (2026-04-03)"
     }
   ]
 }
