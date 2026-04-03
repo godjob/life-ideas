@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-03T17:19:58+09:00",
+  "generatedAt": "2026-04-03T18:56:34+09:00",
   "weekly": {
-    "commitCount": 183,
+    "commitCount": 187,
     "byDay": [
       {
         "date": "2026-03-28",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-04-03",
-        "count": 11
+        "count": 15
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 3,
     "ideas": 1,
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 208
+    "other": 211
   },
   "recentCommits": [
     {
       "date": "2026-04-03",
-      "message": "dashboard: Claude使用量更新 (2026-04-03)"
+      "message": "scrap: 2026-04-03 Gemma 4 技術考察・導入リファレンスガイド"
     },
     {
       "date": "2026-04-03",
@@ -52,7 +52,7 @@
     },
     {
       "date": "2026-04-03",
-      "message": "docs: README.md を現状に合わせて更新"
+      "message": "dashboard: Claude使用量更新 (2026-04-03)"
     },
     {
       "date": "2026-04-03",
