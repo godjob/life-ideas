@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-04T14:57:33+09:00",
+  "generatedAt": "2026-04-04T15:11:05+09:00",
   "weekly": {
-    "commitCount": 182,
+    "commitCount": 190,
     "byDay": [
       {
         "date": "2026-03-29",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-04",
-        "count": 16
+        "count": 24
       }
     ]
   },
@@ -39,12 +39,16 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 211
+    "other": 219
   },
   "recentCommits": [
     {
       "date": "2026-04-04",
-      "message": "scrap: 2026-04-04 【山口周×田中渓】中年の危機は“中年の好機”／田中"
+      "message": "dashboard: Claude使用量更新 (2026-04-04)"
+    },
+    {
+      "date": "2026-04-04",
+      "message": "git scrap: dailyの気づきをソース別セクション形式に変更・過去1週間を再生成"
     },
     {
       "date": "2026-04-04",
@@ -57,10 +61,6 @@
     {
       "date": "2026-04-04",
       "message": "dashboard: Claude使用量更新 (2026-04-04)"
-    },
-    {
-      "date": "2026-04-04",
-      "message": "scrap: 2026-04-04 【山口周×田中渓】お金と肩書きは人生を豊かにしてく"
     }
   ]
 }
