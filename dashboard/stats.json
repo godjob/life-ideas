@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-04T15:11:05+09:00",
+  "generatedAt": "2026-04-04T21:17:54+09:00",
   "weekly": {
-    "commitCount": 190,
+    "commitCount": 192,
     "byDay": [
       {
         "date": "2026-03-29",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-04-04",
-        "count": 24
+        "count": 26
       }
     ]
   },
   "byDirectory": {
-    "scrap": 5,
-    "ideas": 1,
+    "scrap": 6,
+    "ideas": 0,
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 219
+    "other": 206
   },
   "recentCommits": [
+    {
+      "date": "2026-04-04",
+      "message": "scrap: 2026-04-04 【中島聡の未来予測】AIで激変する10年後の仕事・・【新現実】2026年、勝ち組の「働き方」が変わった"
+    },
+    {
+      "date": "2026-04-04",
+      "message": "dashboard: Claude使用量更新 (2026-04-04)"
+    },
     {
       "date": "2026-04-04",
       "message": "dashboard: Claude使用量更新 (2026-04-04)"
@@ -49,14 +57,6 @@
     {
       "date": "2026-04-04",
       "message": "git scrap: dailyの気づきをソース別セクション形式に変更・過去1週間を再生成"
-    },
-    {
-      "date": "2026-04-04",
-      "message": "dashboard: Claude使用量更新 (2026-04-04)"
-    },
-    {
-      "date": "2026-04-04",
-      "message": "dashboard: Claude使用量更新 (2026-04-04)"
     },
     {
       "date": "2026-04-04",
