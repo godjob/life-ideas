@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-04T00:34:29+09:00",
+  "generatedAt": "2026-04-04T14:55:22+09:00",
   "weekly": {
-    "commitCount": 166,
+    "commitCount": 180,
     "byDay": [
       {
         "date": "2026-03-29",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-04-04",
-        "count": 0
+        "count": 14
       }
     ]
   },
   "byDirectory": {
-    "scrap": 3,
+    "scrap": 4,
     "ideas": 1,
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 198
+    "other": 210
   },
   "recentCommits": [
     {
-      "date": "2026-04-03",
-      "message": "2026-04-03.mdにGemma4の費用感を追記"
+      "date": "2026-04-04",
+      "message": "dashboard: Claude使用量更新 (2026-04-04)"
     },
     {
-      "date": "2026-04-03",
-      "message": "scrap: 2026-04-03 Gemma 4 技術考察・導入リファレンスガイド"
+      "date": "2026-04-04",
+      "message": "dashboard: Claude使用量更新 (2026-04-04)"
     },
     {
-      "date": "2026-04-03",
-      "message": "dashboard: Claude使用量更新 (2026-04-03)"
+      "date": "2026-04-04",
+      "message": "scrap: 2026-04-04 【山口周×田中渓】お金と肩書きは人生を豊かにしてく"
     },
     {
-      "date": "2026-04-03",
-      "message": "dashboard: Claude使用量更新 (2026-04-03)"
+      "date": "2026-04-04",
+      "message": "dashboard: Claude使用量更新 (2026-04-04)"
     },
     {
-      "date": "2026-04-03",
-      "message": "dashboard: Claude使用量更新 (2026-04-03)"
+      "date": "2026-04-04",
+      "message": "dashboard: Claude使用量更新 (2026-04-04)"
     }
   ]
 }
