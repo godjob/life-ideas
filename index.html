@@ -343,6 +343,7 @@
   <button class="tab-btn" onclick="switchTab('news', this)">記事</button>
   <button class="tab-btn" onclick="switchTab('health', this)">Health</button>
   <button class="tab-btn" onclick="switchTab('books', this)">Books</button>
+  <button class="tab-btn" onclick="switchTab('wiki', this)">Wiki</button>
   <button class="tab-btn" onclick="switchTab('action', this)">Action</button>
   <button class="tab-btn" onclick="switchTab('dashboard', this)">Dashboard</button>
 </div>
@@ -384,7 +385,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.31';
+  const VERSION = 'v1.32';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -395,7 +396,7 @@
   let currentSearchQuery = '';
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health'];
-  const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action'];
+  const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action', 'wiki'];
   const DATE_FILTER_TABS = ['daily', 'news'];
 
   // URLsタブ専用ステート
@@ -498,6 +499,11 @@
       const m = base.match(/^(\d{4})-(\d{2})-(\d{2})_(.+)$/);
       if (m) return `'${m[1].slice(2)}/${m[2]}/${m[3]} ${m[4].replace(/-/g, ' ')}`;
       return base;
+    }
+    if (dir === 'wiki') {
+      if (base === 'index') return '📋 インデックス';
+      if (base === 'log') return '📜 更新ログ';
+      return base.replace(/-/g, ' ');
     }
     return base;
   }
@@ -622,7 +628,17 @@
       return;
     }
 
-    files.sort((a, b) => b.name > a.name ? 1 : -1);
+    if (dir === 'wiki') {
+      // index.md → log.md → 残りをアルファベット順
+      const order = {'index.md': 0, 'log.md': 1};
+      files.sort((a, b) => {
+        const oa = order[a.name] ?? 2, ob = order[b.name] ?? 2;
+        if (oa !== ob) return oa - ob;
+        return a.name > b.name ? 1 : -1;
+      });
+    } else {
+      files.sort((a, b) => b.name > a.name ? 1 : -1);
+    }
     allFiles = files;
 
     buildItems(files, dir, listEl, (path, item, idx) => {
