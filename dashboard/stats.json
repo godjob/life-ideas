@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-05T10:31:22+09:00",
+  "generatedAt": "2026-04-05T11:08:06+09:00",
   "weekly": {
-    "commitCount": 141,
+    "commitCount": 146,
     "byDay": [
       {
         "date": "2026-03-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-05",
-        "count": 27
+        "count": 32
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 232
+    "other": 237
   },
   "recentCommits": [
     {
       "date": "2026-04-05",
-      "message": "dashboard: wiki内部リンクをビューア内で開くよう修正・v1.34"
+      "message": "wiki: 全80ページの途切れを補完・max_tokens=4096に修正"
     },
     {
       "date": "2026-04-05",
@@ -52,7 +52,7 @@
     },
     {
       "date": "2026-04-05",
-      "message": "gitignore: scripts/__pycache__/ を追加"
+      "message": "dashboard: Claude使用量更新 (2026-04-05)"
     },
     {
       "date": "2026-04-05",
