@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-05T08:44:31+09:00",
+  "generatedAt": "2026-04-05T09:28:28+09:00",
   "weekly": {
-    "commitCount": 124,
+    "commitCount": 132,
     "byDay": [
       {
         "date": "2026-03-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-05",
-        "count": 10
+        "count": 18
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 216
+    "other": 224
   },
   "recentCommits": [
     {
       "date": "2026-04-05",
-      "message": "ideas: wiki機能追加 — git scrapでニューロン的知識蓄積を自動化"
+      "message": "dashboard: Wiki タブ追加・v1.32"
     },
     {
       "date": "2026-04-05",
