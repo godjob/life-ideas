@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-05T09:28:28+09:00",
+  "generatedAt": "2026-04-05T10:26:27+09:00",
   "weekly": {
-    "commitCount": 132,
+    "commitCount": 136,
     "byDay": [
       {
         "date": "2026-03-30",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-04-05",
-        "count": 18
+        "count": 22
       }
     ]
   },
   "byDirectory": {
     "scrap": 6,
-    "ideas": 1,
+    "ideas": 2,
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 224
+    "other": 227
   },
   "recentCommits": [
     {
       "date": "2026-04-05",
+      "message": "dashboard: Wiki タブのラベルを日本語タイトル表示に変更・v1.33"
+    },
+    {
+      "date": "2026-04-05",
+      "message": "dashboard: Claude使用量更新 (2026-04-05)"
+    },
+    {
+      "date": "2026-04-05",
+      "message": "dashboard: Claude使用量更新 (2026-04-05)"
+    },
+    {
+      "date": "2026-04-05",
+      "message": "ideas: wiki初期構築 — daily全21件から82ページを生成"
+    },
+    {
+      "date": "2026-04-05",
       "message": "dashboard: Wiki タブ追加・v1.32"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "dashboard: Claude使用量更新 (2026-04-05)"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "dashboard: Claude使用量更新 (2026-04-05)"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "dashboard: Claude使用量更新 (2026-04-05)"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "dashboard: Claude使用量更新 (2026-04-05)"
     }
   ]
 }
