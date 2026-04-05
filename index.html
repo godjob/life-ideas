@@ -385,7 +385,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.33';
+  const VERSION = 'v1.34';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -460,6 +460,25 @@
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
       }
+    });
+  }
+
+  function makeWikiLinksInternal(container) {
+    container.querySelectorAll('a[href]').forEach(a => {
+      const href = a.getAttribute('href');
+      if (!href || !href.endsWith('.md') || href.startsWith('http')) return;
+      const slug = href.split('/').pop();
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const path = `ideas/wiki/${slug}`;
+        // サイドバーの該当アイテムをアクティブにする
+        const item = [...document.querySelectorAll('.file-item')]
+          .find(el => el.dataset.path === path);
+        openFile(path, item || null);
+        if (item) {
+          item.scrollIntoView({ block: 'nearest' });
+        }
+      });
     });
   }
 
@@ -995,6 +1014,7 @@
     if (currentTab === 'news') rendered = renderNewsContent(rendered);
     contentEl.innerHTML = `<div class="markdown-body">${rendered}</div>`;
     makeExternalLinksNewTab(contentEl);
+    if (currentTab === 'wiki') makeWikiLinksInternal(contentEl);
     if (currentSearchQuery) highlightText(contentEl, currentSearchQuery);
 
     contentEl.querySelectorAll('li').forEach(li => {
