@@ -20,4 +20,24 @@
 - **チュートリアル沼の排除**: Kaggle競技や理論学習に時間を使わず、実際のビジネス課題に即座に適用する方針
 - **[Agentic Engineering](agentic-engineering-supervisor-model.md)への接続**: 単なる成功例の構築から、検証・調整・改善ループの実装へシフト
 - **[skill-creator スキル](skill-creator-automation.md)との組み合わせ**: AIエンジニアが継続的にスキルセットを洗練させるための自動化フレームワーク
-- **非エンジニアの巻き込み**: [非エンジニアがAIと共にツールを育てる](non-engineer-ai-tool-development.md)ことで、6スキルの実装が組織全
+- **非エンジニアの巻き込み**: [非エンジニアがAIと共にツールを育てる](non-engineer-ai-tool-development.md)ことで、6スキルの実装が組織全体に展開可能になり、AIの価値創造が加速する
+
+## 実装上の注意点
+
+各スキルは独立せず相互に連携する。特に複雑なシステム構築では、プロンプト設計とツールコールの組み合わせ、RAGとデプロイメントの統合が重要となる。また、単発のプロジェクトで終わらず、反復的な改善と運用経験の蓄積が真のコア能力へと昇華させる鍵となる。
+
+## 関連ページ
+
+- [書籍メタデータ補完システム](book-metadata-completion-system.md)
+- [指示設計の3要素フレームワーク](instruction-design-three-elements.md)
+- [プロンプト明確性とマネジメント](prompt-clarity-management-feedback-loop.md)
+- [mcp-skill-architecture.md](mcp-skill-architecture.md)
+- [skill-system.md](skill-system.md)
+- [ai-agent-operations.md](ai-agent-operations.md)
+- [Agentic Engineering](agentic-engineering-supervisor-model.md)
+- [skill-creator スキル](skill-creator-automation.md)
+- [非エンジニアがAIと共にツールを育てる](non-engineer-ai-tool-development.md)
+
+## 更新履歴
+
+- 2024年 - ページ作成、6つのコアスキルフレームワークの整理

@@ -25,4 +25,22 @@
   - [プロンプト明確性とマネジメントの相互フィードバックループ](prompt-clarity-management-feedback-loop.md)により、AIを相手にした指示出しを通じて人間関係でのマネジメント筋肉を鍛える
   - AI活用で「任せすぎ→痛い目→ちょうどいい塩梅」の振り子を高速で経験できる
 
-- **24時間
+- **24時間並行実行による時間軸の解放**
+  - AIエージェントは24時間稼働するため、人間が寝ている間に仕事が進む
+  - 朝起きて結果を確認し、判断・修正指示を出すだけで、実装速度は人間の数十倍に加速
+  - このサイクルを回すことで、エンジニアは「実装の待ち時間」から完全に解放され、高レベルな判断と戦略に集中可能
+
+## 関連ページ
+
+- [agentic-engineering-supervisor-model.md](agentic-engineering-supervisor-model.md)
+- [manufacturing-ai-opportunities.md](manufacturing-ai-opportunities.md)
+- [claude-code-virtual-company.md](claude-code-virtual-company.md)
+- [ai-era-work-inversion.md](ai-era-work-inversion.md)
+- [ai-ceo-delegation-protocol.md](ai-ceo-delegation-protocol.md)
+- [claude-md-governance.md](claude-md-governance.md)
+- [instruction-design-three-elements.md](instruction-design-three-elements.md)
+- [prompt-clarity-management-feedback-loop.md](prompt-clarity-management-feedback-loop.md)
+
+## 更新履歴
+
+- 2024年：初版作成

@@ -41,4 +41,115 @@ SessionEndで自動実行する内容：
 - 長期会話履歴から重要な決定・学習事項を自動抽出
 - [メモリアーキテクチャ](skill-memory-architecture-stateful-workflow.md)への永続化（SQLite/JSON）
 - 次セッションへの知識引き継ぎ
-- コンテキ
+- コンテキスト圧縮後の参照索引の生成
+
+**実装のポイント：**
+```
+PreCompactで自動実行する内容：
+- 会話履歴から固有名詞・重要決定の抽出
+- セッション内で確立されたルール・パターンの保存
+- スキル実行結果の要約と教訓の記録
+- 未解決の課題・継続タスクの列挙
+```
+
+**圧縮前のメモリフラッシュパターン：**
+```bash
+#!/bin/bash
+# pre-compact hook
+if [ "$HOOK_EXECUTED" = "true" ]; then
+  exit 0
+fi
+
+export HOOK_EXECUTED=true
+
+# 会話履歴をJSONに構造化して永続化
+sqlite3 memory.db "INSERT INTO sessions (timestamp, summary, key_decisions) VALUES ..."
+
+# CLAUDE.mdの参照インデックスを更新
+python scripts/extract_context.py > .context_index.json
+```
+
+### 3. PreToolUse：スキル使用前の計測と追跡
+
+スキル・ツール実行の直前に実行。使用パターンの記録とリアルタイム分析を可能にする。
+
+**活用例：**
+- スキル使用頻度・成功率の自動計測
+- [量的自己記録](quantified-self-ai-feedback-loop.md)への自動ログ記録
+- 使用パターンの異常検知（予期しない組み合わせ等）
+- スキルの有効性を定期的に評価
+
+**実装のポイント：**
+```
+PreToolUseで自動実行する内容：
+- ツール実行前の引数・パラメータを記録
+- 使用コンテキスト（何を解決しようとしているか）の記録
+- 類似の過去使用例との比較分析
+- 使用予定スキルが最適か？代替手段はないか？の検証
+```
+
+**スキル利用統計の集約パターン：**
+```json
+{
+  "tool_usage_log": {
+    "timestamp": "2024-01-15T10:30:00Z",
+    "tool_name": "code_analysis",
+    "success": true,
+    "execution_time_ms": 245,
+    "context_tags": ["debugging", "performance"],
+    "result_quality": "high"
+  }
+}
+```
+
+## 実装例：統合的なHook運用
+
+### CLAUDE.mdの改善ループ設定
+
+```yaml
+# .git/hooks/post-commit (SessionEnd相当)
+- 実行: セッション終了分析スクリプト
+- 出力先: logs/session-analysis.md
+- 保存内容: 学習内容・失敗分析・提案
+
+# .git/hooks/pre-push (PreCompact相当)
+- 実行: 圧縮前情報抽出スクリプト
+- 出力先: .memory/persistent-context.json
+- 保存内容: 重要決定・確立ルール・統計
+
+# 各スキル実行時 (PreToolUse相当)
+- 自動ログ記録: tools-usage.jsonl
+- 分析対象: 月次スキル有効性レビュー
+```
+
+## Hook実行時の無限ループ対策
+
+環境変数フラグパターンは、同じHookが複数回呼び出されるのを防ぐ汎用的な手法：
+
+```bash
+#!/bin/bash
+if [ "$HOOK_SESSION_END_EXECUTED" = "true" ]; then
+  exit 0  # 既に実行済み
+fi
+
+export HOOK_SESSION_END_EXECUTED=true
+
+# 実際の処理
+python analysis/session_end_analyzer.py
+```
+
+このパターンは、Hookが自らコミット・プッシュを生成する場合に特に重要。スクリプト実行 → Gitイベント発火 → Hook再実行という連鎖を防止する。
+
+## 関連ページ
+
+- [CLAUDE.md統治](claude-md-governance.md)
+- [Skill](skill-system.md)
+- [CLAUDE.md自動育成](claude-md-auto-cultivation-hooks.md)
+- [AIエージェント失敗ログ](ai-failure-log.md)
+- [メモリアーキテクチャ](skill-memory-architecture-stateful-workflow.md)
+- [量的自己記録とAI分析の相乗効果](quantified-self-ai-feedback-loop.md)
+- [Git Hooksセキュリティ防御](git-hooks-security-defense.md)
+
+## 更新履歴
+
+- 2024-01-15: 初版作成。SessionEnd・PreCompact・PreToolUseの3パターン定義、実装例とループ対策パターンを追加

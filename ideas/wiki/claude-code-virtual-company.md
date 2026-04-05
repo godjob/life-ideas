@@ -35,3 +35,51 @@ Claude Codeを単なる開発ツールではなく、仮想会社として機能
 
 - **Skillベースの部門間連携**
   - [skill-md仕様](skill-md-specification.md)に従い、営業部が見積もりSkillを実行→企画部がプロジェクトプランSkillを呼び出し→開発部が実装Skillを実行
+
+## 実装のステップ
+
+### 1. 経営方針の明文化
+まず最初に[CLAUDE.md](claude-md-governance.md)を作成し、仮想会社の基本方針・判断基準・禁止事項を明確に定義します。これがAIエージェントの「憲法」となります。
+
+### 2. 部門ごとのSkill定義
+各部門（営業・企画・開発・品質管理）ごとに[Skill](skill-system.md)を定義し、[skill-md仕様](skill-md-specification.md)に従って実装します。Skillは一つの完結した業務フローを示します。
+
+### 3. エージェントチームの構築
+[Claude Code Agent Teams](claude-code-agent-teams.md)を組織し、[AI CEO委任プロトコル](ai-ceo-delegation-protocol.md)に基づいてAIエージェントに役割を割り当てます。
+
+### 4. オーケストレーションの確立
+[AIオーケストレーター](ai-orchestrator-role.md)が複数の部門Skillを統率し、部門間の協調動作を実現します。
+
+### 5. 失敗ログ管理の開始
+実行時の問題が発生したら[AIエージェント失敗ログ](ai-failure-log.md)に記録し、その日のうちに[CLAUDE.md](claude-md-governance.md)に反映させます。
+
+## 期待される効果
+
+- **スピードの飛躍的向上**：人間による承認待ちが減少し、AIが自律的に判断・実行することで業務サイクルが100倍以上高速化
+- **透明性の確保**：すべての判断基準が[CLAUDE.md](claude-md-governance.md)に明文化されるため、AIの行動が予測可能で監査可能
+- **継続的改善**：失敗や想定外の状況を即座に組織ナレッジに変換し、同じミスの再発を防止
+- **人間のコアワークへの集中**：AIが定型業務・判断業務を自動化することで、人間はより戦略的・創造的な仕事に注力可能
+- **スケーラビリティ**：仮想会社の仕組みが確立されれば、複数のプロジェクト・複数のAIチームを同時運用できる
+
+## 注意点と推奨事項
+
+- **段階的な権限委任**：最初から全権限をAIに委任するのではなく、小さなSkillから開始し、実績を積み重ねながら徐々に権限を拡大すること
+- **定期的なガードレール見直し**：[CLAUDE.md](claude-md-governance.md)は静的なドキュメントではなく、組織成長に合わせて定期的に見直す必要があります
+- **人間のチェック機能の維持**：最終的な決定権（特にお金や大規模な変更に関わるもの）は人間に留保すること
+- **ログの活用**：[AIエージェント失敗ログ](ai-failure-log.md)は単なる記録ではなく、組織の学習機構として機能させること
+
+## 関連ページ
+
+- [Skill System](skill-system.md)
+- [Claude Code Agent Teams](claude-code-agent-teams.md)
+- [CLAUDE.md統治](claude-md-governance.md)
+- [AI CEO委任プロトコル](ai-ceo-delegation-protocol.md)
+- [AIエージェント失敗ログ](ai-failure-log.md)
+- [AIオーケストレーター](ai-orchestrator-role.md)
+- [skill-md仕様](skill-md-specification.md)
+
+## 更新履歴
+
+- 初版作成：仮想会社パラダイムの基本概念を整理
+- 実装ステップセクション追加：段階的な導入方法を明記
+- 期待される効果と注意点セクション追加：実運用を見据えた実践的ガイダンスを追加
