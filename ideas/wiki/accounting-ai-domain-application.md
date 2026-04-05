@@ -153,5 +153,4 @@ AI導入の価値を定量化することで、経営判断が格段に容易に
 - [Claude Code Virtual Company](claude-code-virtual-company.md)
 
 ## 更新履歴
-
-- 2025年1月：初版公開、実例の詳細説明、除外ルール7種類の定義、効果測定データの追加
+- 2026-03-15: 現場の専門知識×Claude Code = 実務的に正しいものができる

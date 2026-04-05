@@ -67,5 +67,4 @@ Claude Codeの本質的な価値は、設定ファイル（CLAUDE.md）を毎回
 - [Claude Code Agent Teams](claude-code-agent-teams.md)
 
 ## 更新履歴
-
-- 2025年1月：初版作成。設定駆動ワークフロー、QMS様式の運用アナロジー、保守業務の並列化、権限設定による確認操作削減の主要知見を記述。実装パターンおよび期待効果表を追加。
+- 2026-04-01: [Claude Codeのソースコードを読んで分かった、本当の使い方](https://x.com/mal_shaik/status/2038918662489510273)

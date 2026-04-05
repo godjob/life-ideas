@@ -46,5 +46,4 @@ RTX 4090の導入タイミングは、Phase 1での検証結果に基づき、RO
 - [manufacturing-ai-quick-wins.md](manufacturing-ai-quick-wins.md)
 
 ## 更新履歴
-
-- 2024年：段階導入戦略フレームワーク初版作成
+- 2026-04-03: [Gemma 4 技術考察・導入リファレンスガイド](https://ai.google.dev/gemma/terms)

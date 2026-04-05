@@ -40,5 +40,6 @@ AI導入における最大の障壁は、技術的な複雑さではなく、ユ
 - [時間資本から人的資本への変換](time-capital-health-investment-narrative.md)
 
 ## 更新履歴
-
-- 2024年：初版作成。AI導入時の心理的障壁と段階的な成功体験設計について整理
+- 2026-03-12: 社内展開のヒント
+- 2026-03-29: [動画要約：【最恐】高市首相に近づく、ヤバい「軍事AI企業」の正体](https://www.youtube.com/watch?v=YwhPLUcj0n0)
+- 2026-04-04: [【山口周×田中渓】お金と肩書きは人生を豊かにしてくれる？田中渓が直面した“中年の](https://www.youtube.com/watch?v=j0AxzCtJt8c)

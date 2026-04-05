@@ -176,7 +176,5 @@ Claudeの判定精度は、descriptionの具体性に直結する。抽象的な
 - [ドキュメント作成ガイドライン](documentation-guidelines.md)
 
 ## 更新履歴
-
-- 2024-01-15: 初版作成、Gotchasセクションの重要性と実装パターンを記述
-- 2024-02-10: 実装例を充実させ、不良な例と良好な例を対比して追加
-- 2024-03-05: アンチパターンセクションを追加し、避けるべき書き方を明確化
+- 2026-03-18: Claude Code スキルの設計知見（Thariq氏 / Anthropic
+- 2026-03-21: --dangerously-skip-permissions のリスク対策

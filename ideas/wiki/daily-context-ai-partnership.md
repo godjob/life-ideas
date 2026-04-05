@@ -62,5 +62,5 @@ AIが常に相談相手になると、人間同士のコミュニケーション
 - [ai-adoption-resistance-mitigation.md](ai-adoption-resistance-mitigation.md) - AI採用時の心理障壁低減
 
 ## 更新履歴
-
-- **2024年版** - 初版作成。日常開発文脈とAIパートナーシップの統合モデルを定義
+- 2026-03-15: 声と電話によるAIインターフェース
+- 2026-03-23: sui-memory：Claude Codeの長期記憶システムの設計判断

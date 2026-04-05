@@ -87,5 +87,4 @@
 - [Claude Code Agent Teams](claude-code-agent-teams.md)
 
 ## 更新履歴
-
-- 2024年1月：ページ新規作成、初版完成
+- 2026-03-24: [参照情報源](https://www.meti.go.jp/press/index.html)

@@ -108,5 +108,6 @@ AIによって解放された時間を、創造的思考、学習、人間関係
 - [AI導入の抵抗感排除](ai-adoption-resistance-mitigation.md)
 
 ## 更新履歴
-
-- 2024年1月：初版作成
+- 2026-03-14: AI時代の働き方の逆転
+- 2026-04-04: [【山口周×田中渓】お金と肩書きは人生を豊かにしてくれる？田中渓が直面した“中年の](https://www.youtube.com/watch?v=j0AxzCtJt8c)
+- 2026-04-04: [【新現実】2026年、勝ち組の「働き方」が変わった（シリコンバレー/Anthro](https://www.youtube.com/watch?v=u5c_Pg2PEDg)

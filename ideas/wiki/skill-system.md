@@ -84,5 +84,13 @@ Claude API を用いた自動化の場合、SKILL.md の Gotchas セクション
 - [MCP（Model Context Protocol）と Skill の関係](mcp-skill-architecture.md)
 
 ## 更新履歴
-
-- 初版作成：Skill System フレームワークの基本概念を定義
+- 2026-03-08: 自分の業務へのアイデア
+- 2026-03-08: descriptionフィールドが最重要
+- 2026-03-08: 3段階の段階的開示（Progressive Disclosure）
+- 2026-03-08: SKILL.md作成の厳守ルール
+- 2026-03-08: Skillとは何か（基礎）
+- 2026-03-08: MCPとSkillの役割分担
+- 2026-03-08: テスト戦略
+- 2026-03-18: CLAUDE.mdをHookで自動育成する（AppBrew）
+- 2026-03-18: Claude Code スキルの設計知見（Thariq氏 / Anthropic
+- 2026-03-23: 書籍メタデータ補完の完了

@@ -89,5 +89,5 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 - [ライセンス・コンプライアンス](ai-model-license-compliance-manufacturing.md)
 
 ## 更新履歴
-
-- 2025年1月：ページ初版作成、3つの柱と段階導入戦略を追加
+- 2026-04-02: [Xユーザーの福島良典 | LayerXさん: 「エージェントハーネスとAIマネー](https://x.com/fukkyy/status/2039176036676722729)
+- 2026-04-03: [Gemma 4 技術考察・導入リファレンスガイド](https://ai.google.dev/gemma/terms)

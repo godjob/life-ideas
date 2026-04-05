@@ -165,5 +165,4 @@
 - [environment-engineering.md](environment-engineering.md)
 
 ## 更新履歴
-
-- 2024年：初版作成
+- 2026-03-10: 独立系コイルセンターの将来戦略（専門家パネル討議より）

@@ -215,3 +215,6 @@ CLAUDE.mdの質を保つため、以下のガバナンス体制を構築：
 ### 権限4: 本番デプロイ（strict-permission）
 - 自動デプロイ禁止、手動approval必須
 - ただし「開発・ステージング
+## 更新履歴
+- 2026-03-23: sui-memory：Claude Codeの長期記憶システムの設計判断
+- 2026-04-01: [Claude Codeのソースコードを読んで分かった、本当の使い方](https://x.com/mal_shaik/status/2038918662489510273)

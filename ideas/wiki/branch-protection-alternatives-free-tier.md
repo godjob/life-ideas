@@ -204,9 +204,4 @@ claude-code --dangerously-skip-permissions
 - GitHub Free プラン制限事項（公式ドキュメント）
 
 ## 更新履歴
-
-| 日付 | 内容 |
-|------|------|
-| 2024-01-15 | 初版作成。pre-push hook基本実装とClaude Code相互作用を記載 |
-| 2024-01-20 | 複数ブランチ保護の拡張実装パターンと検証方法を追加 |
-| 2024-01-25 | 多層防御戦略の補完策セクションを追加。ベストプラクティス統合 |
+- 2026-03-21: --dangerously-skip-permissions のリスク対策

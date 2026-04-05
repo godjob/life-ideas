@@ -260,6 +260,4 @@ function isStateStale(state, maxAgeSec = 3600) {
 - [Claude Code Skill設計の落とし穴](claude-code-skill-design-gotchas.md)
 
 ## 更新履歴
-
-- **2026-03-18**: 初版作成。SQLiteとJSONのメモリアーキテクチャ、自己参照型ワークフロー、並行実行管理について記述
-- **2026-03-18**: ベストプラクティス、段階的成熟度モデル追加
+- 2026-03-18: Claude Code スキルの設計知見（Thariq氏 / Anthropic

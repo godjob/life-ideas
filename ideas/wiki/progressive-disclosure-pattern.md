@@ -73,6 +73,4 @@ references/data-analysis/tools.md
 - [AI Orchestrator Role](ai-orchestrator-role.md)
 
 ## 更新履歴
-
-- 2024年度版：実装パターンと注意点を追加
-- ベストプラクティスセクションを新規追加
+- 2026-03-08: 3段階の段階的開示（Progressive Disclosure）

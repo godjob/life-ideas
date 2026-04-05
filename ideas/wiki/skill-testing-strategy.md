@@ -101,5 +101,5 @@ Skillの導入による実際の効果を定量的に検証します。同一タ
 - [The Factory Model](factory-model-software-development.md)
 
 ## 更新履歴
-
-- 2024年: 初版作成 - 3段階テスト戦略の概要と実装方法を記載
+- 2026-03-08: テスト戦略
+- 2026-03-15: git scrap からの気づき（26/03/15）

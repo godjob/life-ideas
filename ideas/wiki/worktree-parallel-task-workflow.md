@@ -58,6 +58,4 @@ git worktree remove ../project-ui
 - [日常開発文脈とAIパートナーシップ](daily-context-ai-partnership.md)
 
 ## 更新履歴
-
-- 2024年：Git worktreeによる3-5並列タスク処理モデルの概要をまとめた
-- エージェントチーム運用との連動性を明確化
+- 2026-03-20: git scrap からの気づき（26/03/20）

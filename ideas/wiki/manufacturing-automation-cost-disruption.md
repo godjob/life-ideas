@@ -56,5 +56,4 @@
 - [Gitワークツリーによる並列タスク処理](worktree-parallel-task-workflow.md)
 
 ## 更新履歴
-
-- 2024年：初版作成
+- 2026-03-20: git scrap からの気づき（26/03/20）

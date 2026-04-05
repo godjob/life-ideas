@@ -62,5 +62,5 @@ AI活用を通じたマネジメント学習を実効化するには、以下の
 - [instruction-design-three-elements.md](instruction-design-three-elements.md)
 
 ## 更新履歴
-
-- 初版作成
+- 2026-03-15: AIへの指示出しはマネジメントの筋トレ（逆流効果）
+- 2026-03-18: CLAUDE.mdをHookで自動育成する（AppBrew）

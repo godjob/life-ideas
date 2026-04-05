@@ -161,6 +161,4 @@ validate_branch_rules()
 - GitHub Branch Protection Rules 設定ガイド
 
 ## 更新履歴
-
-- 2024-01-XX: 初版作成 - Git Hooksセキュリティ防御設計の документ化
-- 2024-01-XX: pre-push hook 実装パターンの詳細化
+- 2026-03-21: --dangerously-skip-permissions のリスク対策

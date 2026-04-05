@@ -125,6 +125,5 @@ PreToolUse（記録）→ SessionEnd（集計）→ PreCompact（保存）→ CL
 - [CLAUDE.md統治](claude-md-governance.md)
 
 ## 更新履歴
-
-- 2024年：Hook機械化と無限ループ対策の統合設計を確立
-- 長期記憶システムとの相乗効果検証完了
+- 2026-03-18: CLAUDE.mdをHookで自動育成する（AppBrew）
+- 2026-03-23: sui-memory：Claude Codeの長期記憶システムの設計判断

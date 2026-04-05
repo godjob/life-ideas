@@ -151,5 +151,5 @@ python analysis/session_end_analyzer.py
 - [Git Hooksセキュリティ防御](git-hooks-security-defense.md)
 
 ## 更新履歴
-
-- 2024-01-15: 初版作成。SessionEnd・PreCompact・PreToolUseの3パターン定義、実装例とループ対策パターンを追加
+- 2026-03-18: CLAUDE.mdをHookで自動育成する（AppBrew）
+- 2026-03-21: --dangerously-skip-permissions のリスク対策

@@ -86,5 +86,13 @@ AIシステムの保守運用能力を社内に構築するか、外部の専門
 - [バラバラなデータを一つの視覚的マップに統合する技術](data-integration-visualization-manufacturing-application.md)
 
 ## 更新履歴
-
-- 2024年度初版作成
+- 2026-03-08: AI経営講座 第5回（製造現場変革）から
+- 2026-03-10: 独立系コイルセンターの将来戦略（専門家パネル討議より）
+- 2026-03-12: 社内展開のヒント
+- 2026-03-14: AI時代の働き方の逆転
+- 2026-03-16: git scrap からの気づき（26/03/16）
+- 2026-03-20: git scrap からの気づき（26/03/20）
+- 2026-03-24: [参照情報源](https://www.meti.go.jp/press/index.html)
+- 2026-03-29: [動画要約：【最恐】高市首相に近づく、ヤバい「軍事AI企業」の正体](https://www.youtube.com/watch?v=YwhPLUcj0n0)
+- 2026-04-03: [Gemma 4 技術考察・導入リファレンスガイド](https://ai.google.dev/gemma/terms)
+- 2026-04-04: [【中島聡の未来予測】AIで激変する10年後の仕事・暮らし・戦争（前編・後編統合版](https://www.youtube.com/watch?v=i73Cul3gm6M)

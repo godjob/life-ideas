@@ -101,5 +101,4 @@ skill-creatorの改善提案は以下の構造で出力されます：
 - [speed-first-prototyping.md](speed-first-prototyping.md) - 高速プロトタイピング手法
 
 ## 更新履歴
-
-- **2024年現在版** - 初版作成。skill-creatorの基本機能、活用シーン、実装アーキテクチャを記載
+- 2026-03-08: テスト戦略
