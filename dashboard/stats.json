@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-05T10:26:27+09:00",
+  "generatedAt": "2026-04-05T10:28:17+09:00",
   "weekly": {
-    "commitCount": 136,
+    "commitCount": 139,
     "byDay": [
       {
         "date": "2026-03-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-05",
-        "count": 22
+        "count": 25
       }
     ]
   },
@@ -39,9 +39,21 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 227
+    "other": 230
   },
   "recentCommits": [
+    {
+      "date": "2026-04-05",
+      "message": "gitignore: scripts/__pycache__/ を追加"
+    },
+    {
+      "date": "2026-04-05",
+      "message": "dashboard: Claude使用量更新 (2026-04-05)"
+    },
+    {
+      "date": "2026-04-05",
+      "message": "dashboard: Claude使用量更新 (2026-04-05)"
+    },
     {
       "date": "2026-04-05",
       "message": "dashboard: Wiki タブのラベルを日本語タイトル表示に変更・v1.33"
@@ -49,18 +61,6 @@
     {
       "date": "2026-04-05",
       "message": "dashboard: Claude使用量更新 (2026-04-05)"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "dashboard: Claude使用量更新 (2026-04-05)"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "ideas: wiki初期構築 — daily全21件から82ページを生成"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "dashboard: Wiki タブ追加・v1.32"
     }
   ]
 }
