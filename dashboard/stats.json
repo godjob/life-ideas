@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-05T11:17:53+09:00",
+  "generatedAt": "2026-04-05T17:02:14+09:00",
   "weekly": {
-    "commitCount": 149,
+    "commitCount": 157,
     "byDay": [
       {
         "date": "2026-03-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-05",
-        "count": 35
+        "count": 43
       }
     ]
   },
@@ -39,16 +39,12 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 240
+    "other": 247
   },
   "recentCommits": [
     {
       "date": "2026-04-05",
-      "message": "dashboard: Claude使用量更新 (2026-04-05)"
-    },
-    {
-      "date": "2026-04-05",
-      "message": "wiki: 全ページの更新履歴をlog.mdの正確な日付に修正"
+      "message": "wiki: タイトルマップ上書きバグ修正・index.md概要欄のリンク除去・v1.35"
     },
     {
       "date": "2026-04-05",
@@ -56,7 +52,11 @@
     },
     {
       "date": "2026-04-05",
-      "message": "wiki: 全80ページの途切れを補完・max_tokens=4096に修正"
+      "message": "dashboard: Claude使用量更新 (2026-04-05)"
+    },
+    {
+      "date": "2026-04-05",
+      "message": "dashboard: Claude使用量更新 (2026-04-05)"
     },
     {
       "date": "2026-04-05",
