@@ -385,7 +385,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.34';
+  const VERSION = 'v1.35';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -655,9 +655,12 @@
       try {
         const idxContent = await fetchContent('ideas/wiki/index.md');
         wikiTitleMap = {};
-        const rows = idxContent.matchAll(/\[([^\]]+)\]\(([^)]+\.md)\)/g);
-        for (const m of rows) {
-          wikiTitleMap[m[2]] = m[1];
+        // テーブルの1列目（タイトル列）のリンクのみ取得。
+        // 「| [タイトル](slug.md) |」の行パターンに限定し、
+        // 概要列に混入した短いリンクテキストによる上書きを防ぐ。
+        for (const line of idxContent.split('\n')) {
+          const m = line.match(/^\|\s*\[([^\]]+)\]\(([^)]+\.md)\)/);
+          if (m) wikiTitleMap[m[2]] = m[1];
         }
       } catch(e) { /* タイトルマップ取得失敗時はスラッグ表示にフォールバック */ }
       // index.md → log.md → 残りをアルファベット順
