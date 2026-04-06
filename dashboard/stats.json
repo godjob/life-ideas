@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-06T00:25:11+09:00",
+  "generatedAt": "2026-04-06T21:50:12+09:00",
   "weekly": {
-    "commitCount": 156,
+    "commitCount": 164,
     "byDay": [
       {
         "date": "2026-03-31",
@@ -25,30 +25,30 @@
       },
       {
         "date": "2026-04-05",
-        "count": 43
+        "count": 48
       },
       {
         "date": "2026-04-06",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 6,
+    "scrap": 7,
     "ideas": 2,
     "health": 0,
-    "books": 4,
+    "books": 3,
     "portfolio": 0,
-    "other": 247
+    "other": 235
   },
   "recentCommits": [
     {
-      "date": "2026-04-05",
-      "message": "wiki: タイトルマップ上書きバグ修正・index.md概要欄のリンク除去・v1.35"
+      "date": "2026-04-06",
+      "message": "scrap: 2026-04-06 【放置OK】Claude Codeハーネス設計で自・【スペースXの凄み。２兆ドル評価は必然】私が投資し"
     },
     {
-      "date": "2026-04-05",
-      "message": "dashboard: Claude使用量更新 (2026-04-05)"
+      "date": "2026-04-06",
+      "message": "dashboard: Claude使用量更新 (2026-04-06)"
     },
     {
       "date": "2026-04-05",
