@@ -16,7 +16,7 @@ Claude Codeなどの権限スキップ機能を使用する場合でも、Gitの
 
 ### 権限スキップとセキュリティのギャップ
 
-[agentic-engineering-supervisor-model.md](agentic-engineering-supervisor-model.md) で示される監督者モデルにおいて、Claude Codeが直接コード実行をする際に --dangerously-skip-permissions フラグを使用することがあります。この権限スキップにより、通常のファイルアクセス権限やシステム保護機構が迂回されます。
+[Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md) で示される監督者モデルにおいて、Claude Codeが直接コード実行をする際に --dangerously-skip-permissions フラグを使用することがあります。この権限スキップにより、通常のファイルアクセス権限やシステム保護機構が迂回されます。
 
 しかし重要な発見として、**Git Hooksはこの権限スキップの影響を受けない**という特性があります。これはGit Hooksが Gitコマンド実行そのものの仕組みに組み込まれているため、権限層の上位に存在するからです。
 
@@ -156,7 +156,7 @@ validate_branch_rules()
 
 ## 関連ページ
 
-- [agentic-engineering-supervisor-model.md](agentic-engineering-supervisor-model.md)
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md)
 - Git 公式ドキュメント: Customizing Git - Git Hooks
 - GitHub Branch Protection Rules 設定ガイド
 

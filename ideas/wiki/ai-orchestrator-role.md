@@ -32,14 +32,14 @@
 
 ## 関連ページ
 
-- [agentic-engineering-supervisor-model.md](agentic-engineering-supervisor-model.md)
-- [manufacturing-ai-opportunities.md](manufacturing-ai-opportunities.md)
-- [claude-code-virtual-company.md](claude-code-virtual-company.md)
-- [ai-era-work-inversion.md](ai-era-work-inversion.md)
-- [ai-ceo-delegation-protocol.md](ai-ceo-delegation-protocol.md)
-- [claude-md-governance.md](claude-md-governance.md)
-- [instruction-design-three-elements.md](instruction-design-three-elements.md)
-- [prompt-clarity-management-feedback-loop.md](prompt-clarity-management-feedback-loop.md)
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md)
+- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md)
+- [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md)
+- [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md)
+- [AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化](ai-ceo-delegation-protocol.md)
+- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)
+- [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md)
+- [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md)
 
 ## 更新履歴
 - 2026-03-08: 「AIオーケストレーター」という自分の役割

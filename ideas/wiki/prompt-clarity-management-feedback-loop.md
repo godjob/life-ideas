@@ -12,7 +12,7 @@ AIへの指示出しプロセスは、マネジメントスキルの「筋トレ
 
 - **高速フィードバックループによる学習加速**：AI活用で「任せすぎ→痛い目→ちょうどいい塩梅」の振り子を高速で経験できる。人間相手では半年かかる学びが、AIなら1週間のサイクルで回せる
 
-- **CLAUDE.mdの副次効果と機械化の必要性**：[claude-md-governance.md](claude-md-governance.md)の作成習慣が、人間チームへの業務引き継ぎ資料の質も自動的に向上させる。ただし「自動実行してください」という意図だけでは実行継続されないため、[claude-md-auto-cultivation-hooks.md](claude-md-auto-cultivation-hooks.md)で述べるHook機械化により強制的に育成プロセスを組み込む必要がある
+- **CLAUDE.mdの副次効果と機械化の必要性**：[CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)の作成習慣が、人間チームへの業務引き継ぎ資料の質も自動的に向上させる。ただし「自動実行してください」という意図だけでは実行継続されないため、[CLAUDE.md自動育成：Hook機械化と無限ループ対策](claude-md-auto-cultivation-hooks.md)で述べるHook機械化により強制的に育成プロセスを組み込む必要がある
 
 ## 本文
 
@@ -20,11 +20,11 @@ AIへの指示出しプロセスは、マネジメントスキルの「筋トレ
 
 人間組織でのマネジメント学習は遅い。チームメンバーが「空気を読んで」曖昧な指示を補完してくれるため、マネージャー自身が指示の不正確さに気づかない。結果として、不十分なマネジメント状態が長期間継続する。
 
-これに対し、[ai-orchestrator-role.md](ai-orchestrator-role.md)で述べるオーケストレーター的なAI活用では、フィードバックが即座で容赦ない。曖昧な指示は曖昧なまま実行され、その結果として低品質なアウトプットが返ってくる。この厳密なフィードバックループが、実は学習効率を劇的に向上させる。
+これに対し、[AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md)で述べるオーケストレーター的なAI活用では、フィードバックが即座で容赦ない。曖昧な指示は曖昧なまま実行され、その結果として低品質なアウトプットが返ってくる。この厳密なフィードバックループが、実は学習効率を劇的に向上させる。
 
 ### 指示設計の標準化
 
-[instruction-design-three-elements.md](instruction-design-three-elements.md)で詳述する「背景・目的・期待アウトプット形式」の3要素を、AIへの指示に組み込む習慣をつけると、その同じ構造が人間チームへの指示にも自然に波及する。
+[指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md)で詳述する「背景・目的・期待アウトプット形式」の3要素を、AIへの指示に組み込む習慣をつけると、その同じ構造が人間チームへの指示にも自然に波及する。
 
 - **背景**：なぜこの指示が必要なのか
 - **目的**：最終的に何を達成したいのか
@@ -40,9 +40,9 @@ AI活用における学習加速の本質は、試行錯誤のサイクル時間
 
 ### CLAUDE.mdドキュメンテーションの二重効果
 
-[claude-md-governance.md](claude-md-governance.md)に従ってAIとのやり取りを記録・整理する習慣は、単なるAI管理ツールではない。その過程で、指示や背景が明文化され、論理矛盾が浮き彫りになる。結果として、作成したドキュメントは自動的に人間チームへの引き継ぎ資料としても機能する高品質な成果物となる。
+[CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)に従ってAIとのやり取りを記録・整理する習慣は、単なるAI管理ツールではない。その過程で、指示や背景が明文化され、論理矛盾が浮き彫りになる。結果として、作成したドキュメントは自動的に人間チームへの引き継ぎ資料としても機能する高品質な成果物となる。
 
-ただし、この習慣が定着しなければ、継続的な効果は得られない。[claude-md-auto-cultivation-hooks.md](claude-md-auto-cultivation-hooks.md)で述べるように、Hook機構を用いて機械的に育成プロセスを組み込む必要がある。「自分でやった方が早い」という誘惑に抗し、システム的に正しい習慣を強制することで、初めて長期的なスキル向上が実現される。
+ただし、この習慣が定着しなければ、継続的な効果は得られない。[CLAUDE.md自動育成：Hook機械化と無限ループ対策](claude-md-auto-cultivation-hooks.md)で述べるように、Hook機構を用いて機械的に育成プロセスを組み込む必要がある。「自分でやった方が早い」という誘惑に抗し、システム的に正しい習慣を強制することで、初めて長期的なスキル向上が実現される。
 
 ### 実装上の注意点
 
@@ -56,10 +56,10 @@ AI活用を通じたマネジメント学習を実効化するには、以下の
 
 ## 関連ページ
 
-- [ai-orchestrator-role.md](ai-orchestrator-role.md)
-- [claude-md-governance.md](claude-md-governance.md)
-- [claude-md-auto-cultivation-hooks.md](claude-md-auto-cultivation-hooks.md)
-- [instruction-design-three-elements.md](instruction-design-three-elements.md)
+- [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md)
+- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)
+- [CLAUDE.md自動育成：Hook機械化と無限ループ対策](claude-md-auto-cultivation-hooks.md)
+- [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md)
 
 ## 更新履歴
 - 2026-03-15: AIへの指示出しはマネジメントの筋トレ（逆流効果）

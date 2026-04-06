@@ -10,13 +10,13 @@
 
 - **『コ』の字型社会の到来**：製造プロセスそのものがデータ・知識資産となり、AIやオートメーション、品質管理、カスタマイズ能力が新たな価値源泉となる。上流・下流の区別より、製造能力の高度化が重要に
 
-- **[manufacturing-ai-opportunities.md](manufacturing-ai-opportunities.md) との関連**：電話・FAX・スプレッドシート業界の変革と同じく、製造業でも自動化・データ化による生産性向上がビジネスモデルを根本的に変える
+- **[製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) との関連**：電話・FAX・スプレッドシート業界の変革と同じく、製造業でも自動化・データ化による生産性向上がビジネスモデルを根本的に変える
 
 - **[独立系コイルセンターの将来戦略](independent-coil-center-strategy.md) への示唆**：中堅製造企業は、単なる「製造受託」から「製造プロセスの最適化」と「顧客ニーズ対応型カスタマイズ」へシフトすることが生存戦略となる
 
 - **専門特化と価値創造の再定義**：スマイルカーブが消滅することで、従来の「下請け構造」から脱却し、自社の製造能力を直接的な競争優位源として再定位できる可能性が生まれる
 
-- **[environment-engineering.md](environment-engineering.md) としての製造基盤**：AI活動の土台同様、製造業でも「環境づくり」（デジタル化、AI導入、プロセス可視化）が競争力を決める時代へ
+- **[エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md) としての製造基盤**：AI活動の土台同様、製造業でも「環境づくり」（デジタル化、AI導入、プロセス可視化）が競争力を決める時代へ
 
 ## 背景：スマイルカーブとは
 
@@ -160,9 +160,9 @@
 
 ## 関連ページ
 
-- [manufacturing-ai-opportunities.md](manufacturing-ai-opportunities.md)
+- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md)
 - [独立系コイルセンターの将来戦略](independent-coil-center-strategy.md)
-- [environment-engineering.md](environment-engineering.md)
+- [エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md)
 
 ## 更新履歴
 - 2026-03-10: 独立系コイルセンターの将来戦略（専門家パネル討議より）

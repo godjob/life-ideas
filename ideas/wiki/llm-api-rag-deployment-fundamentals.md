@@ -12,9 +12,9 @@
 - **現代AIエンジニアの6つのコアスキル**:
   1. **LLM API の使い方** - OpenAI、Anthropic等のAPIを効率的に呼び出し、コスト最適化と応答品質を両立させる。複数APIの段階的フォールバック設計（例：OpenBD→NDL Search API→Google Books）による信頼性確保も重要
   2. **プロンプト設計** - [指示設計の3要素フレームワーク](instruction-design-three-elements.md)に基づいた効果的な指示文の作成。[プロンプト明確性とマネジメント](prompt-clarity-management-feedback-loop.md)によるAIフィードバックループの活用
-  3. **ツールコール（Function Calling）** - [mcp-skill-architecture.md](mcp-skill-architecture.md)や[skill-system.md](skill-system.md)で示されるようなLLMから外部ツール呼び出しの実装。[複数API統合](book-metadata-completion-system.md)を通じた信頼性設計
+  3. **ツールコール（Function Calling）** - [MCPとSkillの役割分担：ツール連携とワークフロー設計](mcp-skill-architecture.md)や[Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md)で示されるようなLLMから外部ツール呼び出しの実装。[複数API統合](book-metadata-completion-system.md)を通じた信頼性設計
   4. **RAG（Retrieval Augmented Generation）** - 企業データを活用した検索拡張生成による精度向上。メタデータ補完のような高精度なデータベース構築が基盤となる
-  5. **デプロイメント・運用** - [ai-agent-operations.md](ai-agent-operations.md)で示される実運用環境での検品・改善・スケーリング
+  5. **デプロイメント・運用** - [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md)で示される実運用環境での検品・改善・スケーリング
   6. **エンドツーエンド体験** - 要件定義から本番運用まで一気通貫した実装経験
 
 - **チュートリアル沼の排除**: Kaggle競技や理論学習に時間を使わず、実際のビジネス課題に即座に適用する方針
@@ -31,9 +31,9 @@
 - [書籍メタデータ補完システム](book-metadata-completion-system.md)
 - [指示設計の3要素フレームワーク](instruction-design-three-elements.md)
 - [プロンプト明確性とマネジメント](prompt-clarity-management-feedback-loop.md)
-- [mcp-skill-architecture.md](mcp-skill-architecture.md)
-- [skill-system.md](skill-system.md)
-- [ai-agent-operations.md](ai-agent-operations.md)
+- [MCPとSkillの役割分担：ツール連携とワークフロー設計](mcp-skill-architecture.md)
+- [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md)
+- [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md)
 - [Agentic Engineering](agentic-engineering-supervisor-model.md)
 - [skill-creator スキル](skill-creator-automation.md)
 - [非エンジニアがAIと共にツールを育てる](non-engineer-ai-tool-development.md)

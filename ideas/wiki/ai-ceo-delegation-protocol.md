@@ -18,7 +18,7 @@ AIを単なる「作業実行者」として指示する関係から、経営方
 
 - **複数モデルによる意思決定の体系化**：単一のAIに重要な判断を集中させず、複数の[LLM](llm-wiki-concept.md)モデル（Claude/OpenAI/Gemini）に役割を分担させ、わずか数分で意見を統合できる速度感が競争力となる
 
-- **[environment-engineering](environment-engineering.md)による土台形成**：経営方針が活きるためには、AIが判断に必要な情報・権限・実行環境が十分に整備されていることが前提となる
+- **[エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md)による土台形成**：経営方針が活きるためには、AIが判断に必要な情報・権限・実行環境が十分に整備されていることが前提となる
 
 ## コア・メカニズム
 
@@ -102,7 +102,7 @@ AIが適切に判断を実行するためには、十分な実行環境が必須
 - [CLAUDE.md統治](claude-md-governance.md)
 - [AI取締役会による意思決定](ai-board-decision-making.md)
 - [LLM](llm-wiki-concept.md)
-- [environment-engineering](environment-engineering.md)
+- [エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md)
 
 ## 更新履歴
 - 2026-03-15: AIを「社長」として雇う経営視点

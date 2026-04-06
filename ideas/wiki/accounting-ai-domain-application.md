@@ -10,7 +10,7 @@
 - **自動化対象の明確な線引き**：7種類の除外ルール（借入金、社会保険料、給与、還付金、期末調整、固定資産取得、前払費用など）は、「AIが自動処理して問題ない取引」と「人間が必ず確認すべき取引」の境界を表現したもの
 - **除外ルール設計の重要性**：自動仕訳システムの精度は、ルールエンジンの設計と除外ケースの定義の正確さに直結する。これは税務リスクに直結する判断であり、専門家による定義が必須
 - **AIは実行、人間は設計**：自動化の方針や除外ルール、確認フロー全体は人間（専門家）が設計し、その実行をAIが担当するという分業モデルが最適
-- **業務時間の定量化による価値可視化**：月24時間の削減を業務ログで可視化することで、AI投資のROIが明確になり、組織内での説得力が高まる。この考え方は[quantified-self-ai-feedback-loop](quantified-self-ai-feedback-loop.md)と同じ原理
+- **業務時間の定量化による価値可視化**：月24時間の削減を業務ログで可視化することで、AI投資のROIが明確になり、組織内での説得力が高まる。この考え方は[量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md)と同じ原理
 - **自動化による心理的負担軽減**：定型的で判断が少ない仕訳業務の自動化により、スタッフの精神的余裕が生まれ、より高度な分析業務へのシフトが可能に
 
 ## 実例：税務仕訳自動化システムの構築
@@ -149,7 +149,7 @@ AI導入の価値を定量化することで、経営判断が格段に容易に
 
 - [Claude Code](claude-code-agent-teams.md)
 - [ドメイン専門知識とAIの境界設計](domain-expertise-ai-boundary-design.md)
-- [quantified-self-ai-feedback-loop](quantified-self-ai-feedback-loop.md)
+- [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md)
 - [Claude Code Virtual Company](claude-code-virtual-company.md)
 
 ## 更新履歴

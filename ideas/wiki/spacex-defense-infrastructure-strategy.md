@@ -56,14 +56,14 @@
 
 ### BCP設計の地政学的転換
 
-[background-automation-design-competitive-advantage.md](background-automation-design-competitive-advantage.md)の思想を地政学的スケールで実装：
+[バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md)の思想を地政学的スケールで実装：
 
 - 自社インフラの可用性・セキュリティが、予期しない地政学的危機時に競争力になる視点が必要
 - 利益性だけでなく、「国家やパートナー企業が依存できるインフラ」としての戦略的価値を組み込む
 
 ### 失敗の学習速度を運用に組み込む
 
-[agentic-engineering-supervisor-model.md](agentic-engineering-supervisor-model.md)で言及される検証・調整フェーズと同様に：
+[Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md)で言及される検証・調整フェーズと同様に：
 
 - ロケット試験の失敗→データ化→設計改善が数週間単位で回転する運用体制の構築が、製造業全体で急務
 - ゼロ欠陥志向ではなく、失敗のコストを「学習機会へのROI」として再定義し、高速反復を組織設計に組み込む
@@ -71,7 +71,7 @@
 ### AI時代の垂直統合戦略
 
 - 単一製品企業ではなく、エコシステム全体を統合する企業構造が競争優位性を持つ
-- [claude-code-virtual-company.md](claude-code-virtual-company.md)で言及される仮想組織と同様に、複数機能を統合制御できるプラットフォーム企業への転換が必須
+- [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md)で言及される仮想組織と同様に、複数機能を統合制御できるプラットフォーム企業への転換が必須
 
 ## 地政学的シフトと民間企業の役割
 
@@ -91,14 +91,14 @@
 
 ## 関連ページ
 
-- [rapid-iteration-learning-loop-operational-design.md](rapid-iteration-learning-loop-operational-design.md): 高速反復学習ループの運用設計
-- [agentic-engineering-supervisor-model.md](agentic-engineering-supervisor-model.md): Agentic Engineeringの監督者モデル
-- [ai-failure-log.md](ai-failure-log.md): AIエージェント失敗ログと修正ナレッジ
-- [labor-money-decoupling.md](labor-money-decoupling.md): 労働とお金の切り離し
-- [background-automation-design-competitive-advantage.md](background-automation-design-competitive-advantage.md): バックグラウンド自動化設計
-- [claude-code-virtual-company.md](claude-code-virtual-company.md): Claude Codeを仮想会社として運営する
-- [factory-model-software-development.md](factory-model-software-development.md): The Factory Model
-- [manufacturing-ai-opportunities.md](manufacturing-ai-opportunities.md): 製造業のAI活用機会
+- [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md): 高速反復学習ループの運用設計
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md): Agentic Engineeringの監督者モデル
+- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md): AIエージェント失敗ログと修正ナレッジ
+- [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md): 労働とお金の切り離し
+- [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md): バックグラウンド自動化設計
+- [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md): Claude Codeを仮想会社として運営する
+- [The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理](factory-model-software-development.md): The Factory Model
+- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md): 製造業のAI活用機会
 
 ## 更新履歴
 

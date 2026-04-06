@@ -16,7 +16,7 @@
   ウクライナ戦争でスターリンクが国家の衛星通信より信頼されたことは、民間インフラが地政学的リスク対策において国防システムよりも信頼される段階へ到達したことを示唆する。自社システムの可用性・セキュリティは地政学的リスク（サプライチェーン寸断など）に対する競争力となり、BCP設計の根本的な見直しが急務である。
 
 - **カオス環境での学習サイクルの組織化**  
-  組織内に「失敗→データ化→分析→改善」のループを高速回転させる仕組みを埋め込むことが、不確実性の高い市場での生き残り戦略となる。このループは [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md) や [personal-os-operating-system](personal-os-operating-system.md) における個人レベルの適応戦略と同じ原理である。
+  組織内に「失敗→データ化→分析→改善」のループを高速回転させる仕組みを埋め込むことが、不確実性の高い市場での生き残り戦略となる。このループは [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md) や [人生OSの運用：PMの4つのシフトの個人適用](personal-os-operating-system.md) における個人レベルの適応戦略と同じ原理である。
 
 ## 実装設計の三要素
 
@@ -30,13 +30,13 @@
 
 失敗を「一度限りのコスト」とするのではなく、[AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md) のように失敗パターンを体系化し、組織全体のナレッジとして蓄積する仕組みが必須である。
 
-ウクライナ戦争でのスターリンク運用実績は、実戦環境での失敗データが最も価値あるフィードバックになることを示唆している。この原理は、[prompt-clarity-management-feedback-loop](prompt-clarity-management-feedback-loop.md) におけるAIのフィードバック受け入れメカニズムと同じ構造である。
+ウクライナ戦争でのスターリンク運用実績は、実戦環境での失敗データが最も価値あるフィードバックになることを示唆している。この原理は、[プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md) におけるAIのフィードバック受け入れメカニズムと同じ構造である。
 
 ### 3. BCP・地政学的レジリエンスの再設計
 
 民間インフラが国防クラスの信頼性を獲得した背景には、単なる技術優位ではなく、**カオス環境での即応能力**がある。サプライチェーン寸断時に自社システムがどれだけ独立稼働できるか、複数の代替経路をいかに素早く切り替えられるかが競争力の源泉となる。
 
-[background-automation-design-competitive-advantage](background-automation-design-competitive-advantage.md) における「待機時間の活用」と同じ論理で、平時から「障害時対応シナリオ」を組織に埋め込み、有事際に自動的に発動できる体制づくりが必要である。
+[バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md) における「待機時間の活用」と同じ論理で、平時から「障害時対応シナリオ」を組織に埋め込み、有事際に自動的に発動できる体制づくりが必要である。
 
 ## 組織体制への組み込み方
 
@@ -70,19 +70,19 @@
 
 組織内で高速反復を受け入れられない抵抗の根源は、従来の「完全性への執着」にある。成功体験の設計を通じて、失敗許容の文化を段階的に構築することが、この運用設計の社内定着を左右する。
 
-## [manufacturing-ai-quick-wins](manufacturing-ai-quick-wins.md) との実装パターン
+## [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md) との実装パターン
 
 製造業での即日適用パターン（資料処理の自動化など）は、まさにこの高速反復原理の実践例である。小さなAI活用から始めて、失敗・成功データを集積し、組織全体への拡大につなげるアプローチが有効である。
 
 ## 関連ページ
 
 - [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md)
-- [personal-os-operating-system](personal-os-operating-system.md)
+- [人生OSの運用：PMの4つのシフトの個人適用](personal-os-operating-system.md)
 - [AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制](ai-powered-web-production-flow.md)
 - [AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減](aidlc-manufacturing-requirements-definition.md)
 - [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md)
-- [prompt-clarity-management-feedback-loop](prompt-clarity-management-feedback-loop.md)
-- [background-automation-design-competitive-advantage](background-automation-design-competitive-advantage.md)
+- [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md)
+- [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md)
 - [AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化](ai-ceo-delegation-protocol.md)
 - [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md)
 - [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md)

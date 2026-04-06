@@ -385,7 +385,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.35';
+  const VERSION = 'v1.36';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -468,6 +468,11 @@
       const href = a.getAttribute('href');
       if (!href || !href.endsWith('.md') || href.startsWith('http')) return;
       const slug = href.split('/').pop();
+      // リンクテキストがスラッグ（英数字・ハイフン形式）の場合は日本語タイトルに置換
+      const linkText = a.textContent.trim();
+      if (/^[a-z0-9-]+\.md$/.test(linkText) && wikiTitleMap[slug]) {
+        a.textContent = wikiTitleMap[slug];
+      }
       a.addEventListener('click', e => {
         e.preventDefault();
         const path = `ideas/wiki/${slug}`;
