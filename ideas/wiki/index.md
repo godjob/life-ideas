@@ -1,6 +1,6 @@
 # Wiki インデックス
 
-最終更新: 2026-04-05
+最終更新: 2026-04-06
 
 | ページ | 概要 |
 |--------|------|
@@ -17,6 +17,7 @@
 | [AI専門家アンサンブル・プロンプティング：複数視点の合意形成分析](ai-expert-ensemble-prompting.md) | AI専門家アンサンブル・プロンプティングは、単一の視点ではなく複数の専門家が協調して分析・判断するようにAIに指示するプ |
 | [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md) | AIエージェントが犯したミスと その修正方法を体系的に記録・蓄積するプラクティスです。AIオーケストレーターとして人間が |
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |
+| [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md) | エンジニアのキャリアは「手でコードを書く職人」から「AIシステムを設計・監督する経営者」へ転換する過渡期を迎えている。こ |
 | [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md) | AI モデルの導入決定時には、機能性や性能だけでなく、ライセンス条件が法務リスク と導入スケジュール に直結する。特に製 |
 | [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md) | 「100倍エンジニア」とは、従来の「コードを書く人」ではなく「AIエージェントを指揮する人」へと進化したエンジニアのモデ |
 | [AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制](ai-powered-web-production-flow.md) | 従来の「設計→デザイン→コーディング」というWeb制作フローが逆転する新しい時代が到来している。AIの活用により、設計後 |
@@ -48,6 +49,7 @@
 | [Git Hooksセキュリティ防御：権限スキップ時の多層防御設計](git-hooks-security-defense.md) | Claude Codeなどの権限スキップ機能を使用する場合でも、Gitの仕組みそのものであるGit Hooksは有効とい |
 | [GitHubで人生を管理する：lifeリポジトリの運用と実践](github-life-management.md) | GitHubのリポジトリ機能を使って、個人の人生目標・プロジェクト・日々の活動を管理する方法論である。Issues、Pr |
 | [政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡](government-energy-policy-monitoring.md) | 経済産業省（METI）のプレスリリースと資源エネルギー庁の統計情報を自動追跡し、エネルギー政策の動向を継続的にモニタリン |
+| [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md) | ハーネスエンジニアリングは、Claude Codeのサブエージェント機能を活用して、Planner（計画）・Genera |
 | [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md) | AIエージェントの自動実行・成長を実現するには、手書き指示では限界がある。Hookという機械的な強制タイミングを活用する |
 | [独立系コイルセンターの将来戦略：専門特化と価値創造の再定義](independent-coil-center-strategy.md) | 独立系コイルセンターは、従来の製造業における中間的な価値提供者としてのポジショニングから脱却する必要に直面しています。ス |
 | [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
@@ -70,6 +72,7 @@
 | [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md) | AIへの指示出しプロセスは、マネジメントスキルの「筋トレ」になる。人間チームは曖昧な指示を忖度してくれるため問題が隠れる |
 | [QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用](qms-style-ai-prompt-governance.md) | 製造業の品質マネジメントシステム（QMS）では、手順書を中央集約的に管理し、全員がそれに従うことで品質を担保する。Cla |
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
+| [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md) | 従来の製造業・システム管理では稼働率最大化と予測可能性確保が目標だったが、スペースXに代表される次世代型組織は「失敗をデ |
 | [skill-creator スキル：Skill設計・レビュー・改善の自動化](skill-creator-automation.md) | skill-creatorはClaude.aiに組み込まれた専門的なスキルで、Skillの設計・レビュー・改善提案を自動 |
 | [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md) | SKILL.md は Skill System の中核をなすドキュメントであり、フォルダ単位での Claudeへの命令セ |
 | [Skillのメモリアーキテクチャ：SQLite/JSONによる状態管理と自己参照型ワークフロー自動化](skill-memory-architecture-stateful-workflow.md) | Skillが単なるマークダウンファイルではなく、スクリプト・アセット・データを含むフォルダ全体として機能する際、SQLi |
@@ -77,6 +80,7 @@
 | [Skillテスト戦略：トリガー・機能・パフォーマンス検証の3段階](skill-testing-strategy.md) | Skillの品質を確保するためには、体系的なテスト戦略が必要です。本ページでは、トリガーテスト・機能テスト・パフォーマン |
 | [睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性](sleep-priority-performance-management.md) | 製造業のシステム管理など、夜間対応や長時間労働が常態化しやすい業界では、脳のパフォーマンス低下が重大な障害につながるリス |
 | [スマイルカーブの終焉と『コ』の字型社会：製造業の戦略的転換](smile-curve-strategy.md) | 従来の製造業における価値分布を示す「スマイルカーブ」（設計・企画と販売・マーケティングが高付加価値、製造が低付加価値）が |
+| [スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替](spacex-defense-infrastructure-strategy.md) | スペースXが2兆ドル企業評価に達した本質は、ロケット製造企業から防衛インフラ企業への転換にある。ウクライナ戦争でスターリ |
 | [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md) | 「速さが命題」とは、完全な検討や計画より先にプロトタイプを実装・実行する姿勢のことである。社内ポータルシステムの改善提案 |
 | [ステーブルコイン税務比較：JPYC vs USDT日本における法的扱いの違い](stablecoin-tax-comparison.md) | 日本において、同じ「ステーブルコイン」であっても法的扱いが大きく異なるため、税務上の取り扱いも真逆になる場合がある。JP |
 | [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md) | 健康管理や運動といった個人的な活動を、単なる生活習慣ではなく「時間資本を人的資本に変換する自己投資」として捉え直すことで |

@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-04-06] ingest | 【スペースXの凄み。２兆ドル評価は必然】私が投資した理由／ウクライナ戦争が分水嶺／5年で価値20倍／
+- 更新ページ: [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md), [スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替](spacex-defense-infrastructure-strategy.md), [高速反復学習ループの運用設計：カオス環境での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md)
+- 出典: [【スペースXの凄み。２兆ドル評価は必然】私が投資した理由／ウクライナ戦争が分水嶺](https://www.youtube.com/watch?v=dRaN1Y3PNDs)
+
+## [2026-04-06] ingest | 【放置OK】Claude Codeハーネス設計で自律開発するハーネスエンジニアリング入門！
+- 更新ページ: [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md), [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md), [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md), [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md)
+- 出典: [【放置OK】Claude Codeハーネス設計で自律開発するハーネスエンジニアリ](https://www.youtube.com/watch?v=Wfz-gdWcItM)
+
 ## [2026-04-04] ingest | 【新現実】2026年、勝ち組の「働き方」が変わった（シリコンバレー/Anthropic/Google
 - 更新ページ: [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md), [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md), [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md)
 - 出典: [【新現実】2026年、勝ち組の「働き方」が変わった（シリコンバレー/Anthro](https://www.youtube.com/watch?v=u5c_Pg2PEDg)

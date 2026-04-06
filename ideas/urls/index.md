@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/06 | - | Business, AI, Learning | [【スペースXの凄み。２兆ドル評価は必然】私が投資した理由／ウクライナ戦争が分水嶺／5年で価値20倍／Starlinkの爆発的成長／宇宙インフラの完全独占／「宇宙×AI」の合流／「爆発」は失敗ではない](https://www.youtube.com/watch?v=dRaN1Y3PNDs) | スペースXが2兆ドル評価に達した理由は、ロケット企業から防衛インフラ企業への転換にあり、ウクライナ戦争での実績とAI統合による垂直統合独占戦略が評価されている。 |
+| 26/04/06 | - | AI, ClaudeCode, Development, Productivity, Management | [【放置OK】Claude Codeハーネス設計で自律開発するハーネスエンジニアリング入門！](https://www.youtube.com/watch?v=Wfz-gdWcItM) | Claude Codeのサブエージェント機能を使い、Planner・Generator・Evaluatorの3役割を持つAIを連携させることで、人間の手を介さずに自律的にアプリ開発を完結させる「ハーネスエンジニアリング」という次世代手法を解説。 |
 | 26/04/04 | 26/04/04 | AI, ClaudeCode, Productivity, Business, Career | [【新現実】2026年、勝ち組の「働き方」が変わった（シリコンバレー/Anthropic/Google/Amazon/Meta/Microsoft/ジェンスン・フアン/解説:後藤直義、森川潤）](https://www.youtube.com/watch?v=u5c_Pg2PEDg) | 2026年、AIのトークン消費量が個人の生産性評価に直結する「トークン・マキシマイジング」時代が到来。AIエージェントを24時間稼働させることが、勝ち組エンジニアの必須スキルになった。 |
 | 26/04/04 | - | AI, Career, Business, Productivity, Learning | [【中島聡の未来予測】AIで激変する10年後の仕事・暮らし・戦争（前編・後編統合版）](https://www.youtube.com/watch?v=i73Cul3gm6M) | Windows 95開発者の中島聡氏が、AIとロボティクスにより10年以内にホワイトカラー職の8割が消失し、EQと信頼資本が生き残りの鍵になると予測。戦争形態の変容と社会システムの根本的再設計の必要性も言及。 |
 | 26/04/04 | - | Career, Management, Learning | [【山口周×田中渓】中年の危機は“中年の好機”／田中渓の価値観を変えた2つの転機／時間の棚卸しと習慣の再設計をせよ／40代から人生の第2章がはじまる【人生の経営戦略】](https://www.youtube.com/watch?v=Qu3xIw_04PA) | 40代を「人生の危機」から「好機」へ転換するには、時間の棚卸しと習慣の再設計で新たなナラティブを構築することが重要である。結晶性知能を活用した人生後半戦の経営戦略が鍵となる。 |
