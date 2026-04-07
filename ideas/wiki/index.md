@@ -56,6 +56,7 @@
 | [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md) | ハーネスエンジニアリングは、Claude Codeのサブエージェント機能を活用して、Planner（計画）・Genera |
 | [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md) | AIエージェントの自動実行・成長を実現するには、手書き指示では限界がある。Hookという機械的な強制タイミングを活用する |
 | [独立系コイルセンターの将来戦略：専門特化と価値創造の再定義](independent-coil-center-strategy.md) | 独立系コイルセンターは、従来の製造業における中間的な価値提供者としてのポジショニングから脱却する必要に直面しています。ス |
+| [情報リテラシー・変化適応力・自分で考える力：AI時代の3つの必須能力](information-literacy-adaptive-capacity-self-directed-thinking.md) | 急速に変化し、情報が氾濫する現代を生き抜くためには、単なる知識習得では不十分である。正確な情報を見極める「情報リテラシー |
 | [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
 | [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md) | 日本の人口減少と労働力不足による社会システム機能不全が加速する中で、既存インフラの効率化と高度な維持管理スキルの価値が飛 |
 | [JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い](jpyc-tax-strategy.md) | JPYCは法的に「電子決済手段」として分類されるため、決済時に課税イベントが発生しない特性を持ちます。一方、USDTなど |
