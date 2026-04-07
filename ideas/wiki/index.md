@@ -57,6 +57,7 @@
 | [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md) | AIエージェントの自動実行・成長を実現するには、手書き指示では限界がある。Hookという機械的な強制タイミングを活用する |
 | [独立系コイルセンターの将来戦略：専門特化と価値創造の再定義](independent-coil-center-strategy.md) | 独立系コイルセンターは、従来の製造業における中間的な価値提供者としてのポジショニングから脱却する必要に直面しています。ス |
 | [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
+| [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md) | 日本の人口減少と労働力不足による社会システム機能不全が加速する中で、既存インフラの効率化と高度な維持管理スキルの価値が飛 |
 | [JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い](jpyc-tax-strategy.md) | JPYCは法的に「電子決済手段」として分類されるため、決済時に課税イベントが発生しない特性を持ちます。一方、USDTなど |
 | [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md) | AI時代において、従来の「労働量 = 報酬」という一次関数的な関係が崩壊しつつあります。AIエージェントが収益化プロセス |
 | [lifeリポジトリの進化：GitHubからMarkdown + Claude Codeへ](life-repository-evolution.md) | GitHubで人生を管理するというコンセプトから始まったlifeリポジトリは、単なるタスク管理ツールから、Markdow |
@@ -77,6 +78,7 @@
 | [QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用](qms-style-ai-prompt-governance.md) | 製造業の品質マネジメントシステム（QMS）では、手順書を中央集約的に管理し、全員がそれに従うことで品質を担保する。Cla |
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
 | [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md) | 従来の製造業・システム管理では稼働率最大化と予測可能性確保が目標だったが、スペースXに代表される次世代型組織は「失敗をデ |
+| [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md) | 日本の人口減少と労働力不足により、既存システムの陳腐化が加速する時代において、「指示待ち人間」では確実に競争力を失う。自 |
 | [skill-creator スキル：Skill設計・レビュー・改善の自動化](skill-creator-automation.md) | skill-creatorはClaude.aiに組み込まれた専門的なスキルで、Skillの設計・レビュー・改善提案を自動 |
 | [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md) | SKILL.md は Skill System の中核をなすドキュメントであり、フォルダ単位での Claudeへの命令セ |
 | [Skillのメモリアーキテクチャ：SQLite/JSONによる状態管理と自己参照型ワークフロー自動化](skill-memory-architecture-stateful-workflow.md) | Skillが単なるマークダウンファイルではなく、スクリプト・アセット・データを含むフォルダ全体として機能する際、SQLi |

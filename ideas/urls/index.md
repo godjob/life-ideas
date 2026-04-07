@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/07 | - | Business, Career, Learning | [【ホリエモン】※誰も言わないけどヤバいです※日本が終わる時に起こる本当の地獄を話します](https://www.youtube.com/watch?v=dRaN1Y3PNDs) | 堀江貴文氏が日本の人口減少、労働力不足、教育システムの陳腐化、経済停滞による社会システム機能不全を警告し、現状維持では確実に衰退すると指摘している。 |
 | 26/04/07 | - | Development, Tools, AI | [WordPressはもうやめよう。CloudflareのEmDashが来た](https://zenn.dev/yamitake/articles/cloudflare-emdash-wordpress-alternative) | Cloudflareが2026年4月に発表したEmDashは、WordPressの後継を目指すオープンソースCMSで、プラグインのサンドボックス化とAIエージェント対応が特徴。 |
 | 26/04/07 | 26/04/- | AI, Business, Management | [OpenAI](https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf) | OpenAIが超知能時代に向けた産業政策を提言。AI革命の恩恵を広く共有し、雇用・権力集中リスクを管理するため、民主的ガバナンス、税制改革、公共富裕基金、適応的セーフティネットなどの包括的政策アジェンダを提示。 |
 | 26/04/06 | - | Business, AI, Learning | [【スペースXの凄み。２兆ドル評価は必然】私が投資した理由／ウクライナ戦争が分水嶺／5年で価値20倍／Starlinkの爆発的成長／宇宙インフラの完全独占／「宇宙×AI」の合流／「爆発」は失敗ではない](https://www.youtube.com/watch?v=dRaN1Y3PNDs) | スペースXが2兆ドル評価に達した理由は、ロケット企業から防衛インフラ企業への転換にあり、ウクライナ戦争での実績とAI統合による垂直統合独占戦略が評価されている。 |

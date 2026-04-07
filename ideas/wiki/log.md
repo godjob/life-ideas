@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-07] ingest | 【ホリエモン】※誰も言わないけどヤバいです※日本が終わる時に起こる本当の地獄を話します
+- 更新ページ: [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md)
+- 出典: [【ホリエモン】※誰も言わないけどヤバいです※日本が終わる時に起こる本当の地獄を話](https://www.youtube.com/watch?v=dRaN1Y3PNDs)
+
 ## [2026-04-07] ingest | WordPressはもうやめよう。CloudflareのEmDashが来た
 - 更新ページ: [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md), [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md)
 - 出典: [WordPressはもうやめよう。CloudflareのEmDashが来た](https://zenn.dev/yamitake/articles/cloudflare-emdash-wordpress-alternative)
