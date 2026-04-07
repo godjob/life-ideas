@@ -385,7 +385,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.36';
+  const VERSION = 'v1.37';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -394,6 +394,7 @@
   const HIDE_THRESHOLD = 40;
   const SHOW_THRESHOLD = 30;
   let currentSearchQuery = '';
+  const contentCache = new Map();
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health'];
   const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action', 'wiki'];
@@ -496,10 +497,13 @@
   }
 
   async function fetchContent(path) {
+    if (contentCache.has(path)) return contentCache.get(path);
     const url = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${path}`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}: ${path}`);
-    return await res.text();
+    const text = await res.text();
+    contentCache.set(path, text);
+    return text;
   }
 
   function formatLabel(dir, name) {
@@ -737,22 +741,22 @@
       currentSearchQuery = textQuery;
       document.getElementById('file-list').innerHTML = '<div class="file-item empty">検索中...</div>';
       document.getElementById('search-count').textContent = '';
-      const results = [];
-      for (const file of filtered) {
-        try {
+      const settled = await Promise.allSettled(
+        filtered.map(async file => {
           const text = await fetchContent(file.path);
           const lower = text.toLowerCase();
-          if (terms.every(t => lower.includes(t))) {
-            const count = terms.reduce((sum, t) => {
-              let n = 0, i = 0;
-              while ((i = lower.indexOf(t, i)) !== -1) { n++; i++; }
-              return sum + n;
-            }, 0);
-            results.push({ ...file, matchCount: count });
-          }
-        } catch {}
-      }
-      filtered = results;
+          if (!terms.every(t => lower.includes(t))) return null;
+          const count = terms.reduce((sum, t) => {
+            let n = 0, i = 0;
+            while ((i = lower.indexOf(t, i)) !== -1) { n++; i++; }
+            return sum + n;
+          }, 0);
+          return { ...file, matchCount: count };
+        })
+      );
+      filtered = settled
+        .filter(r => r.status === 'fulfilled' && r.value !== null)
+        .map(r => r.value);
     } else {
       currentSearchQuery = '';
     }
