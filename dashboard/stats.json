@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T21:57:00+09:00",
+  "generatedAt": "2026-04-07T22:07:02+09:00",
   "weekly": {
-    "commitCount": 182,
+    "commitCount": 190,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,26 +29,26 @@
       },
       {
         "date": "2026-04-07",
-        "count": 36
+        "count": 44
       }
     ]
   },
   "byDirectory": {
-    "scrap": 11,
+    "scrap": 12,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 241
+    "other": 248
   },
   "recentCommits": [
     {
       "date": "2026-04-07",
-      "message": "scrap: 2026-04-07 【衝撃】今すぐやめてください！貧乏を引き寄せる最強"
+      "message": "scrap: 2026-04-07 【t_wadaさんの持つ現在の答え】AI疲れとの向"
     },
     {
       "date": "2026-04-07",
-      "message": "Revert \"scrap: 2026-04-07 【ひろゆきが語る】これからの時代を生き抜くために必\""
+      "message": "Revert \"scrap: 2026-04-07 【衝撃】今すぐやめてください！貧乏を引き寄せる最強\""
     },
     {
       "date": "2026-04-07",
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-04-07",
-      "message": "scrap: 2026-04-07 【ひろゆきが語る】これからの時代を生き抜くために必"
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
       "date": "2026-04-07",
