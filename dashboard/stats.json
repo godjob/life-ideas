@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T22:37:45+09:00",
+  "generatedAt": "2026-04-07T23:09:54+09:00",
   "weekly": {
-    "commitCount": 210,
+    "commitCount": 217,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-07",
-        "count": 64
+        "count": 71
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 267
+    "other": 274
   },
   "recentCommits": [
     {
       "date": "2026-04-07",
-      "message": "scrap: 2026-04-07 バックオフィス業務を自律的に遂行するAIサービス"
+      "message": "wiki: 途切れたページを補完（長期稼働AIエージェント・推論インフラ戦略）"
     },
     {
       "date": "2026-04-07",
