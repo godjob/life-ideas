@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T00:39:23+09:00",
+  "generatedAt": "2026-04-07T19:11:57+09:00",
   "weekly": {
-    "commitCount": 146,
+    "commitCount": 155,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-04-07",
-        "count": 0
+        "count": 9
       }
     ]
   },
   "byDirectory": {
-    "scrap": 7,
+    "scrap": 8,
     "ideas": 2,
     "health": 0,
-    "books": 2,
+    "books": 1,
     "portfolio": 0,
-    "other": 241
+    "other": 217
   },
   "recentCommits": [
     {
-      "date": "2026-04-06",
-      "message": "dashboard: Claude使用量更新 (2026-04-06)"
+      "date": "2026-04-07",
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
-      "date": "2026-04-06",
-      "message": "dashboard: Claude使用量更新 (2026-04-06)"
+      "date": "2026-04-07",
+      "message": "scrap: 2026-04-07 WordPressはもうやめよう。Cloudfla"
     },
     {
-      "date": "2026-04-06",
-      "message": "wiki: 関連ページリンクのテキストを日本語タイトルに修正"
+      "date": "2026-04-07",
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
-      "date": "2026-04-06",
-      "message": "dashboard: Claude使用量更新 (2026-04-06)"
+      "date": "2026-04-07",
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
-      "date": "2026-04-06",
-      "message": "dashboard: Claude使用量更新 (2026-04-06)"
+      "date": "2026-04-07",
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     }
   ]
 }
