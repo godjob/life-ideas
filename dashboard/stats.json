@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T19:11:57+09:00",
+  "generatedAt": "2026-04-07T21:25:24+09:00",
   "weekly": {
-    "commitCount": 155,
+    "commitCount": 171,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-07",
-        "count": 9
+        "count": 25
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 217
+    "other": 233
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-04-07",
-      "message": "scrap: 2026-04-07 WordPressはもうやめよう。Cloudfla"
+      "message": "git scrap: YouTube URL → Gemini詳細要約フローを追加"
     },
     {
       "date": "2026-04-07",
