@@ -2,7 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
-| 26/04/07 | - | Career, Learning, Business | [【ひろゆきが語る】これからの時代を生き抜くために必要なこと【切り抜き/論破】](https://www.youtube.com/watch?v=JgqL7mXiIT0) | ひろゆきが、情報過多で急速に変化する現代を生き抜くために必要な「情報リテラシー」「変化適応力」「自分で考える力」の3つの能力の重要性を説く。 |
+| 26/04/07 | - | Business, Learning, Career | [【衝撃】今すぐやめてください！貧乏を引き寄せる最強の悪習慣7選【習慣の力】](https://www.youtube.com/watch?v=JgqL7mXiIT0) | 貧困を引き寄せる7つの悪習慣（無駄遣い、時間浪費、学習放棄、自己投資不足、健康軽視、人間関係軽視、目標欠如）を解説し、習慣の転換で経済的自由への道を開くことを提案する動画。 |
 | 26/04/07 | - | Business, Career, Learning | [【ホリエモン】※誰も言わないけどヤバいです※日本が終わる時に起こる本当の地獄を話します](https://www.youtube.com/watch?v=dRaN1Y3PNDs) | 堀江貴文氏が日本の人口減少、労働力不足、教育システムの陳腐化、経済停滞による社会システム機能不全を警告し、現状維持では確実に衰退すると指摘している。 |
 | 26/04/07 | - | Development, Tools, AI | [WordPressはもうやめよう。CloudflareのEmDashが来た](https://zenn.dev/yamitake/articles/cloudflare-emdash-wordpress-alternative) | Cloudflareが2026年4月に発表したEmDashは、WordPressの後継を目指すオープンソースCMSで、プラグインのサンドボックス化とAIエージェント対応が特徴。 |
 | 26/04/07 | 26/04/- | AI, Business, Management | [OpenAI](https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf) | OpenAIが超知能時代に向けた産業政策を提言。AI革命の恩恵を広く共有し、雇用・権力集中リスクを管理するため、民主的ガバナンス、税制改革、公共富裕基金、適応的セーフティネットなどの包括的政策アジェンダを提示。 |

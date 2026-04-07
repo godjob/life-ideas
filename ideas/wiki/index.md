@@ -44,6 +44,7 @@
 | [暗号資産税務ガイドラインの整備状況と対策](crypto-asset-tax-guideline.md) | 暗号資産の税務処理は日本において未だ明確なガイドラインが整備されていない状況にあり、特にBTCやJPYCなどの異なる資産 |
 | [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
 | [日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化](daily-context-ai-partnership.md) | 開発環境（CLAUDE.md）と日常生活（電話・LINE）のコンテキストを統合することで、AIが単なるツールから真のパー |
+| [毎日の小さな習慣の複利効果：ランニング・システム管理・スキル投資の共通原理](daily-micro-habits-compounding-strategy.md) | 毎日の小さな習慣の積み重ねは、個人の経済状況、システムの信頼性、AI時代でのキャリア競争力など、異なる領域で同じ複利効果 |
 | [データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換](data-integration-visualization-manufacturing-application.md) | パランティアが開発した「バラバラなデータを一つの視覚的マップに統合する技術」は、軍事・情報分野での応用が知られていますが |
 | [descriptionフィールドの最適化：トリガー条件と機能説明の書き方](description-field-best-practices.md) | descriptionフィールドは、AIエージェントが自動的に適切なSkillを選択・実行するための最も重要なメタデータ |
 | [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md) | AIの価値は「技術的な優秀さ」ではなく「実務的な正しさ」にある。現場の専門知識を持つ人間が「何を自動化すべきか」「何を人 |
@@ -53,10 +54,10 @@
 | [Git Hooksセキュリティ防御：権限スキップ時の多層防御設計](git-hooks-security-defense.md) | Claude Codeなどの権限スキップ機能を使用する場合でも、Gitの仕組みそのものであるGit Hooksは有効とい |
 | [GitHubで人生を管理する：lifeリポジトリの運用と実践](github-life-management.md) | GitHubのリポジトリ機能を使って、個人の人生目標・プロジェクト・日々の活動を管理する方法論である。Issues、Pr |
 | [政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡](government-energy-policy-monitoring.md) | 経済産業省（METI）のプレスリリースと資源エネルギー庁の統計情報を自動追跡し、エネルギー政策の動向を継続的にモニタリン |
+| [習慣形成による長期価値創造：個人経済・システム管理・AI時代での原理統一](habit-formation-long-term-value-creation.md) | 習慣は個人の経済状況、製造業システムの運用効率、AI時代のキャリア競争力を決定する最重要要因である。貧困を引き寄せる悪習 |
 | [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md) | ハーネスエンジニアリングは、Claude Codeのサブエージェント機能を活用して、Planner（計画）・Genera |
 | [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md) | AIエージェントの自動実行・成長を実現するには、手書き指示では限界がある。Hookという機械的な強制タイミングを活用する |
 | [独立系コイルセンターの将来戦略：専門特化と価値創造の再定義](independent-coil-center-strategy.md) | 独立系コイルセンターは、従来の製造業における中間的な価値提供者としてのポジショニングから脱却する必要に直面しています。ス |
-| [情報リテラシー・変化適応力・自分で考える力：AI時代の3つの必須能力](information-literacy-adaptive-capacity-self-directed-thinking.md) | 急速に変化し、情報が氾濫する現代を生き抜くためには、単なる知識習得では不十分である。正確な情報を見極める「情報リテラシー |
 | [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
 | [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md) | 日本の人口減少と労働力不足による社会システム機能不全が加速する中で、既存インフラの効率化と高度な維持管理スキルの価値が飛 |
 | [JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い](jpyc-tax-strategy.md) | JPYCは法的に「電子決済手段」として分類されるため、決済時に課税イベントが発生しない特性を持ちます。一方、USDTなど |

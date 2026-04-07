@@ -1,8 +1,8 @@
 # Wiki 更新ログ
 
-## [2026-04-07] ingest | 【ひろゆきが語る】これからの時代を生き抜くために必要なこと【切り抜き/論破】
-- 更新ページ: [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md), [情報リテラシー・変化適応力・自分で考える力：AI時代の3つの必須能力](information-literacy-adaptive-capacity-self-directed-thinking.md)
-- 出典: [【ひろゆきが語る】これからの時代を生き抜くために必要なこと【切り抜き/論破】](https://www.youtube.com/watch?v=JgqL7mXiIT0)
+## [2026-04-07] ingest | 【衝撃】今すぐやめてください！貧乏を引き寄せる最強の悪習慣7選【習慣の力】
+- 更新ページ: [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md), [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md), [習慣形成による長期価値創造：個人経済・システム管理・AI時代での原理統一](habit-formation-long-term-value-creation.md), [毎日の小さな習慣の複利効果：ランニング・システム管理・スキル投資の共通原理](daily-micro-habits-compounding-strategy.md)
+- 出典: [【衝撃】今すぐやめてください！貧乏を引き寄せる最強の悪習慣7選【習慣の力】](https://www.youtube.com/watch?v=JgqL7mXiIT0)
 
 ## [2026-04-07] ingest | 【ホリエモン】※誰も言わないけどヤバいです※日本が終わる時に起こる本当の地獄を話します
 - 更新ページ: [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md)
