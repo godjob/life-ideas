@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T21:25:24+09:00",
+  "generatedAt": "2026-04-07T21:36:29+09:00",
   "weekly": {
-    "commitCount": 171,
+    "commitCount": 176,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,26 +29,26 @@
       },
       {
         "date": "2026-04-07",
-        "count": 25
+        "count": 30
       }
     ]
   },
   "byDirectory": {
-    "scrap": 8,
+    "scrap": 9,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 233
+    "other": 237
   },
   "recentCommits": [
     {
       "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+      "message": "scrap: 2026-04-07 【ホリエモン】※誰も言わないけどヤバいです※日本が"
     },
     {
       "date": "2026-04-07",
-      "message": "git scrap: YouTube URL → Gemini詳細要約フローを追加"
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
       "date": "2026-04-07",
