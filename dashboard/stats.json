@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T22:07:02+09:00",
+  "generatedAt": "2026-04-07T22:11:37+09:00",
   "weekly": {
-    "commitCount": 190,
+    "commitCount": 192,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-07",
-        "count": 44
+        "count": 46
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 248
+    "other": 250
   },
   "recentCommits": [
+    {
+      "date": "2026-04-07",
+      "message": "git scrap: YouTube要約を字幕ベースに変更（Geminiハルシネーション対策）"
+    },
+    {
+      "date": "2026-04-07",
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+    },
     {
       "date": "2026-04-07",
       "message": "scrap: 2026-04-07 【t_wadaさんの持つ現在の答え】AI疲れとの向"
@@ -49,14 +57,6 @@
     {
       "date": "2026-04-07",
       "message": "Revert \"scrap: 2026-04-07 【衝撃】今すぐやめてください！貧乏を引き寄せる最強\""
-    },
-    {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
-    },
-    {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
       "date": "2026-04-07",
