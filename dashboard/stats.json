@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T22:22:17+09:00",
+  "generatedAt": "2026-04-07T22:37:45+09:00",
   "weekly": {
-    "commitCount": 198,
+    "commitCount": 210,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-04-07",
-        "count": 52
+        "count": 64
       }
     ]
   },
   "byDirectory": {
-    "scrap": 12,
+    "scrap": 13,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 256
+    "other": 267
   },
   "recentCommits": [
     {
       "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+      "message": "scrap: 2026-04-07 バックオフィス業務を自律的に遂行するAIサービス"
     },
     {
       "date": "2026-04-07",
