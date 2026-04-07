@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-04-07] ingest | バックオフィス業務を自律的に遂行するAIサービス 『マネーフォワード AI Cowork』を2026
+- 更新ページ: [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md), [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md)
+- 出典: [バックオフィス業務を自律的に遂行するAIサービス 『マネーフォワード AI Co](https://corp.moneyforward.com/news/release/service/20260407-mf-press-1/)
+
+## [2026-04-07] ingest | 【AIは「推論時代」＝NVIDIA支配に突入】今井翔太「革ジャンCEOの頭はOpenClawでいっぱ
+- 更新ページ: [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md), [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md)
+- 出典: [【AIは「推論時代」＝NVIDIA支配に突入】今井翔太「革ジャンCEOの頭はOp](https://www.youtube.com/watch?v=5ClSLJBQLXg)
+
 ## [2026-04-07] ingest | 【t_wadaさんの持つ現在の答え】AI疲れとの向き合い方 /
 - 更新ページ: [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md), [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md), [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md), [ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持](junior-engineer-retention-ai-era-succession-planning.md)
 - 出典: [【t_wadaさんの持つ現在の答え】AI疲れとの向き合い方 /](https://www.youtube.com/watch?v=JgqL7mXiIT0)

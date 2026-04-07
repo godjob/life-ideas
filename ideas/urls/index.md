@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/07 | 26/04/07 | AI, Productivity, Business, Management, Tools | [バックオフィス業務を自律的に遂行するAIサービス 『マネーフォワード AI Cowork』を2026年7月より提供開始予定｜株式会社マネーフォワード](https://corp.moneyforward.com/news/release/service/20260407-mf-press-1/) | マネーフォワードが2026年7月にバックオフィス業務を自律実行するAIサービス『AI Cowork』を提供開始。AIが経理・労務・法務などの業務を同僚として自動処理する。 |
+| 26/04/07 | 26/04/07 | AI, LLM, Business, Development, Tools | [【AIは「推論時代」＝NVIDIA支配に突入】今井翔太「革ジャンCEOの頭はOpenClawでいっぱい」／AIエージェントは“1か月”働き続ける／学習は限界→長く考えて性能伸ばす【AI QUEST】](https://www.youtube.com/watch?v=5ClSLJBQLXg) | NVIDIA GTC 2026でAI業界は「推論時代」に突入し、AIエージェント「OpenClaw」が1ヶ月連続稼働できるレベルに進化。学習から推論での性能向上へシフトし、NVIDIAがGPUベースで支配的地位を確立しつつある。 |
 | 26/04/07 | - | AI, Development, Learning, Management, Career | [【t_wadaさんの持つ現在の答え】AI疲れとの向き合い方 /](https://www.youtube.com/watch?v=JgqL7mXiIT0) | T_wada氏がAI普及時代の「AI疲れ」を分析し、判断責任による疲労と教育投資の重要性を指摘。中長期的な企業の持続性のためジュニアエンジニア育成は不可欠と主張。 |
 | 26/04/07 | - | Business, Career, Learning | [【ホリエモン】※誰も言わないけどヤバいです※日本が終わる時に起こる本当の地獄を話します](https://www.youtube.com/watch?v=dRaN1Y3PNDs) | 堀江貴文氏が日本の人口減少、労働力不足、教育システムの陳腐化、経済停滞による社会システム機能不全を警告し、現状維持では確実に衰退すると指摘している。 |
 | 26/04/07 | - | Development, Tools, AI | [WordPressはもうやめよう。CloudflareのEmDashが来た](https://zenn.dev/yamitake/articles/cloudflare-emdash-wordpress-alternative) | Cloudflareが2026年4月に発表したEmDashは、WordPressの後継を目指すオープンソースCMSで、プラグインのサンドボックス化とAIエージェント対応が特徴。 |

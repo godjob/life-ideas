@@ -30,6 +30,7 @@
 | [自動コンテンツ配信：AIによるPR動画生成とSNS投稿の仕組み](automated-content-distribution.md) | AIを活用してPR動画を自動生成し、SNS（特にX）に自動投稿する仕組みについて扱う。ClaudeCodeなどのAIツー |
 | [効率配当制度：自動化削減分の労働者還元と週32時間制の実装](automation-efficiency-dividend-work-reduction.md) | AI・自動化による生産性向上で削減できたコスト・時間を労働者に還元する「効率配当制度」は、企業の競争力維持と従業員の生活 |
 | [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md) | 運動時間やランニング中、待機時間などの「仕事時間外」にAIエージェントを24時間稼働させる設計が、2026年以降の競争優 |
+| [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md) | マネーフォワードが2026年7月から提供開始予定の『AI Cowork』は、経理・労務・法務といったバックオフィス業務を |
 | [書籍メタデータ補完システム：OpenBD→NDL→Google Booksの3段階フォールバック](book-metadata-completion-system.md) | 書籍のメタデータ（タイトル、著者、出版社、ISBN等）を複数のデータソースから段階的に取得するシステムです。OpenBD |
 | [GitHub Free プライベートリポジトリのBranch Protection代替：pre-push hook活用](branch-protection-alternatives-free-tier.md) | GitHub Freeではプライベートリポジトリに対してBranch Protection Rulesが適用されないため |
 | [BTC vs JPYC：円安時代の資産配分戦略](btc-jpyc-asset-allocation.md) | 円安が進む現在の経済環境において、ビットコイン（BTC）とJPYC（日本円ステーブルコイン）を使い分けることで、資産価値 |
@@ -57,6 +58,7 @@
 | [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md) | ハーネスエンジニアリングは、Claude Codeのサブエージェント機能を活用して、Planner（計画）・Genera |
 | [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md) | AIエージェントの自動実行・成長を実現するには、手書き指示では限界がある。Hookという機械的な強制タイミングを活用する |
 | [独立系コイルセンターの将来戦略：専門特化と価値創造の再定義](independent-coil-center-strategy.md) | 独立系コイルセンターは、従来の製造業における中間的な価値提供者としてのポジショニングから脱却する必要に直面しています。ス |
+| [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md) | AI業界は2026年を境に「学習時代」から「推論時代」へと転換し、GPUインフラの役割が根本的に変わろうとしている。NV |
 | [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
 | [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md) | 日本の人口減少と労働力不足による社会システム機能不全が加速する中で、既存インフラの効率化と高度な維持管理スキルの価値が飛 |
 | [JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い](jpyc-tax-strategy.md) | JPYCは法的に「電子決済手段」として分類されるため、決済時に課税イベントが発生しない特性を持ちます。一方、USDTなど |
@@ -65,6 +67,7 @@
 | [lifeリポジトリの進化：GitHubからMarkdown + Claude Codeへ](life-repository-evolution.md) | GitHubで人生を管理するというコンセプトから始まったlifeリポジトリは、単なるタスク管理ツールから、Markdow |
 | [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md) | 機械学習理論よりも「実際に動くものを作る6つのスキル」に集中することが、AIエンジニアとしての最短成長経路である。LLM |
 | [LLM Wiki コンセプト](llm-wiki-concept.md) | Andrej Karpathyが提唱する「LLMをWikiの維持者として使う」知識管理パターン。 |
+| [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
 | [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
 | [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md) | 製造業の現場では、AIを即座に適用できる実践的なパターンが存在します。大量の資料から構成案を自動生成する業務や、修正要望 |
 | [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md) | 製造業システムの自動化・保守コストは今後数年で劇的に低下する可能性が高く、現在の高度なエンジニアスキルの重要性が相対的に |
@@ -75,6 +78,7 @@
 | [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md) | パランティアは、Forward Deployed Engineer（FDE）という現場密着型の開発スタイルを採用すること |
 | [人生OSの運用：PMの4つのシフトの個人適用](personal-os-operating-system.md) | AI時代のプロダクトマネジメントで求められる「4つのシフト」は、個人の人生運営にも直接応用できるフレームワークです。モデ |
 | [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md) | モデル能力が16ヶ月で41倍に成長する指数関数的な進化の時代において、従来の「事前に情報を集めて計画を立て、数ヶ月かけて |
+| [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md) | マネーフォワードの『AI Cowork』など自律実行型AIサービスの本格導入が2026年中盤に迫る中、導入前の限定された |
 | [Progressive Disclosure パターン：段階的情報開示による効率化](progressive-disclosure-pattern.md) | Progressive Disclosure（段階的情報開示）は、AIエージェントやシステムに必要な情報を最適なタイミン |
 | [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md) | AIへの指示出しプロセスは、マネジメントスキルの「筋トレ」になる。人間チームは曖昧な指示を忖度してくれるため問題が隠れる |
 | [QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用](qms-style-ai-prompt-governance.md) | 製造業の品質マネジメントシステム（QMS）では、手順書を中央集約的に管理し、全員がそれに従うことで品質を担保する。Cla |
