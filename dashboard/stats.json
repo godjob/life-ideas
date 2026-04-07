@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T21:42:19+09:00",
+  "generatedAt": "2026-04-07T21:57:00+09:00",
   "weekly": {
-    "commitCount": 179,
+    "commitCount": 182,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,22 +29,26 @@
       },
       {
         "date": "2026-04-07",
-        "count": 33
+        "count": 36
       }
     ]
   },
   "byDirectory": {
-    "scrap": 10,
+    "scrap": 11,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 239
+    "other": 241
   },
   "recentCommits": [
     {
       "date": "2026-04-07",
-      "message": "scrap: 2026-04-07 【ひろゆきが語る】これからの時代を生き抜くために必"
+      "message": "scrap: 2026-04-07 【衝撃】今すぐやめてください！貧乏を引き寄せる最強"
+    },
+    {
+      "date": "2026-04-07",
+      "message": "Revert \"scrap: 2026-04-07 【ひろゆきが語る】これからの時代を生き抜くために必\""
     },
     {
       "date": "2026-04-07",
@@ -52,11 +56,7 @@
     },
     {
       "date": "2026-04-07",
-      "message": "git scrap: Gemini モデルを gemini-2.5-flash に更新（gemini-2.0-flash廃止対応）"
-    },
-    {
-      "date": "2026-04-07",
-      "message": "scrap: 2026-04-07 【ホリエモン】※誰も言わないけどヤバいです※日本が"
+      "message": "scrap: 2026-04-07 【ひろゆきが語る】これからの時代を生き抜くために必"
     },
     {
       "date": "2026-04-07",
