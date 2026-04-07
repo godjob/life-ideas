@@ -6,8 +6,6 @@
 
 同時に[中年の危機を好機へのナラティブ再構築](midlife-crisis-reframing-opportunity.md)と連動し、人生の第2章におけるパフォーマンス戦略として、時間帯の心理的リセットや[結晶性知能の活用](crystallized-intelligence-ai-era-strategy.md)を組み合わせることで、40代からの競争力を設計する。
 
-本ページは、個人の習慣形成が組織パフォーマンスと長期価値創造に直結することを示し、[習慣形成による長期価値創造](habit-formation-long-term-value-creation.md)と[毎日の小さな習慣の複利効果](daily-micro-habits-compounding-strategy.md)の経営的正当性を支える。
-
 ## 主要な知見
 
 - **脳パフォーマンスとシステム安定性の因果関係**
@@ -20,11 +18,6 @@
   - 40代からの持続可能なパフォーマンスは、時間効率ではなく心身のコンディション管理で決まる
   - 限られた人生の時間をどこに配分するか、という[人生OSの運用](personal-os-operating-system.md)戦略の一環
 
-- **習慣の複利効果による長期価値創造**
-  - 個人の運動習慣、システム管理の定期メンテナンス、AI時代のスキル投資は、すべて[毎日の小さな習慣の複利効果](daily-micro-habits-compounding-strategy.md)の原理で機能する
-  - 無駄な時間浪費、学習放棄、健康軽視といった悪習慣は、組織のシステム運用でいえば「定期メンテナンス欠落」「ドキュメント整備放棄」「継続的改善の中止」に相当し、長期的な運用効率と設備稼働率を大きく低下させる
-  - [習慣形成による長期価値創造](habit-formation-long-term-value-creation.md)として、定期メンテナンス、ドキュメント整備、継続的改善の習慣が、個人の経済状況と同じ原理で、組織の競争力を決定する
-
 - **ナラティブの組織説得効果**
   - AI活用推進の立場では、単なる導入効果の数値化ではなく『自分たちの時間をどう解放し、創造的な判断にあてるか』という物語で説得すること
   - 技術者自身がコントロール感を取り戻すナラティブが、現場の抵抗を減らし真の業務改革につながる
@@ -34,11 +27,6 @@
   - マラソン大会の挫折経験も『長期的なトレーニング戦略への転換点』と解釈し直すことで、習慣設計の次レベルに進める
   - システム障害も『改善ストーリー』に編み込むことで組織資産化できる
   - [結晶性知能とAI時代](crystallized-intelligence-ai-era-strategy.md)の戦略において、失敗経験こそが成熟した判断力を形成する重要な要素となる
-
-- **AI時代における継続的学習習慣の必須性**
-  - AI時代の競争力維持には、新しいツールやLLMの習得、業務自動化の知識蓄積、自分の市場価値向上に時間を継続的に充てる習慣が必須
-  - [自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md)は、個人の長期的な経済的自由の基盤となり、組織への貢献度も高める
-  - 毎日の小さなスキル投資が、AI導入時代における他者との差別化戦略となる
 
 ## 実践的応用
 
@@ -50,22 +38,14 @@
 
 - **デジタル変革における主体性の回復**：AI導入により「人間の役割が奪われる」という不安を「時間が解放される→高度な判断に専念できる」という積極的ナラティブに転換する
 
-- **製造業システム管理の習慣化戦略**：定期メンテナンス、ドキュメント整備、継続的改善の習慣が、個人の経済的自由と同じく、組織の長期的な設備稼働率と運用効率を決定するという論理で、経営層の予算承認を獲得できる
-
 ## 関連ページ
 
-- [中年の危機を好機へのナラティブ再構築](midlife-crisis-reframing-opportunity.md): 人生の第2章における目的の再定義とパフォーマンス戦略
-- [結晶性知能とAI時代](crystallized-intelligence-ai-era-strategy.md): 経験価値の再構築と成熟した判断力による40代からの競争力
-- [睡眠優先のパフォーマンス管理](sleep-priority-performance-management.md): 脳認知能力を最優先とした時間管理とキャリア持続可能性
-- [人生OSの運用](personal-os-operating-system.md): 人生における時間配分の戦略的設計
-- [AI導入の抵抗感排除](ai-adoption-resistance-mitigation.md): 効率化と時間解放によるナラティブ転換
-- [習慣形成による長期価値創造](habit-formation-long-term-value-creation.md): 個人経済・システム管理・AI時代での習慣の共通原理
-- [毎日の小さな習慣の複利効果](daily-micro-habits-compounding-strategy.md): ランニング・システム管理・スキル投資の複合成長
-- [自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md): AI時代の継続的スキル投資と市場価値維持
-- [バックグラウンド自動化設計](background-automation-design-competitive-advantage.md): 運動時間・待機時間の活用による差別化戦略
-- [ウェルネス＆EQ資本](wellness-eq-capital-ai-era-competitive-advantage.md): 生きがい資産と信頼構築による競争優位
+- [中年の危機を好機へのナラティブ再構築](midlife-crisis-reframing-opportunity.md)
+- [結晶性知能とAI時代の戦略](crystallized-intelligence-ai-era-strategy.md)
+- [睡眠優先のパフォーマンス管理](sleep-priority-performance-management.md)
+- [人生OSの運用](personal-os-operating-system.md)
+- [AI導入の抵抗感排除](ai-adoption-resistance-mitigation.md)
 
 ## 更新履歴
-- 2026-04-07: [【衝撃】今すぐやめてください！貧乏を引き寄せる最強の悪習慣7選【習慣の力】](https://www.youtube.com/watch?v=JgqL7mXiIT0)
-- 2026-04-04: [【山口周×田中渓】お金と肩書きは人生を豊かにしてくれる？田中渓が直面した"中年の](https://www.youtube.com/watch?v=j0AxzCtJt8c)
-- 2026-04-04: [【山口周×田中渓】中年の危機は"中年の好機"／田中渓の価値観を変えた2つの転機／](https://www.youtube.com/watch?v=Qu3xIw_04PA)
+- 2026-04-04: [【山口周×田中渓】お金と肩書きは人生を豊かにしてくれる？田中渓が直面した“中年の](https://www.youtube.com/watch?v=j0AxzCtJt8c)
+- 2026-04-04: [【山口周×田中渓】中年の危機は“中年の好機”／田中渓の価値観を変えた2つの転機／](https://www.youtube.com/watch?v=Qu3xIw_04PA)

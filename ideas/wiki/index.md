@@ -17,6 +17,7 @@
 | [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
 | [AI専門家アンサンブル・プロンプティング：複数視点の合意形成分析](ai-expert-ensemble-prompting.md) | AI専門家アンサンブル・プロンプティングは、単一の視点ではなく複数の専門家が協調して分析・判断するようにAIに指示するプ |
 | [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md) | AIエージェントが犯したミスと その修正方法を体系的に記録・蓄積するプラクティスです。AIオーケストレーターとして人間が |
+| [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md) | AI時代のシステム管理では、自動化ツールの効率性に依存しながらも、生成結果の妥当性を判断する責任が人間に集中し、「AI疲 |
 | [AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止](ai-labor-policy-governance-framework.md) | AI革命による自動化の恩恵を社会全体に広く共有し、雇用喪失と権力集中のリスクを適切に管理するためには、民主的ガバナンス、 |
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |
 | [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md) | エンジニアのキャリアは「手でコードを書く職人」から「AIシステムを設計・監督する経営者」へ転換する過渡期を迎えている。こ |
@@ -44,7 +45,6 @@
 | [暗号資産税務ガイドラインの整備状況と対策](crypto-asset-tax-guideline.md) | 暗号資産の税務処理は日本において未だ明確なガイドラインが整備されていない状況にあり、特にBTCやJPYCなどの異なる資産 |
 | [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
 | [日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化](daily-context-ai-partnership.md) | 開発環境（CLAUDE.md）と日常生活（電話・LINE）のコンテキストを統合することで、AIが単なるツールから真のパー |
-| [毎日の小さな習慣の複利効果：ランニング・システム管理・スキル投資の共通原理](daily-micro-habits-compounding-strategy.md) | 毎日の小さな習慣の積み重ねは、個人の経済状況、システムの信頼性、AI時代でのキャリア競争力など、異なる領域で同じ複利効果 |
 | [データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換](data-integration-visualization-manufacturing-application.md) | パランティアが開発した「バラバラなデータを一つの視覚的マップに統合する技術」は、軍事・情報分野での応用が知られていますが |
 | [descriptionフィールドの最適化：トリガー条件と機能説明の書き方](description-field-best-practices.md) | descriptionフィールドは、AIエージェントが自動的に適切なSkillを選択・実行するための最も重要なメタデータ |
 | [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md) | AIの価値は「技術的な優秀さ」ではなく「実務的な正しさ」にある。現場の専門知識を持つ人間が「何を自動化すべきか」「何を人 |
@@ -54,13 +54,13 @@
 | [Git Hooksセキュリティ防御：権限スキップ時の多層防御設計](git-hooks-security-defense.md) | Claude Codeなどの権限スキップ機能を使用する場合でも、Gitの仕組みそのものであるGit Hooksは有効とい |
 | [GitHubで人生を管理する：lifeリポジトリの運用と実践](github-life-management.md) | GitHubのリポジトリ機能を使って、個人の人生目標・プロジェクト・日々の活動を管理する方法論である。Issues、Pr |
 | [政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡](government-energy-policy-monitoring.md) | 経済産業省（METI）のプレスリリースと資源エネルギー庁の統計情報を自動追跡し、エネルギー政策の動向を継続的にモニタリン |
-| [習慣形成による長期価値創造：個人経済・システム管理・AI時代での原理統一](habit-formation-long-term-value-creation.md) | 習慣は個人の経済状況、製造業システムの運用効率、AI時代のキャリア競争力を決定する最重要要因である。貧困を引き寄せる悪習 |
 | [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md) | ハーネスエンジニアリングは、Claude Codeのサブエージェント機能を活用して、Planner（計画）・Genera |
 | [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md) | AIエージェントの自動実行・成長を実現するには、手書き指示では限界がある。Hookという機械的な強制タイミングを活用する |
 | [独立系コイルセンターの将来戦略：専門特化と価値創造の再定義](independent-coil-center-strategy.md) | 独立系コイルセンターは、従来の製造業における中間的な価値提供者としてのポジショニングから脱却する必要に直面しています。ス |
 | [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
 | [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md) | 日本の人口減少と労働力不足による社会システム機能不全が加速する中で、既存インフラの効率化と高度な維持管理スキルの価値が飛 |
 | [JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い](jpyc-tax-strategy.md) | JPYCは法的に「電子決済手段」として分類されるため、決済時に課税イベントが発生しない特性を持ちます。一方、USDTなど |
+| [ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持](junior-engineer-retention-ai-era-succession-planning.md) | AI時代の急速な自動化により、効率性を理由とした人員削減の誘惑が高まる一方で、レガシーシステム対応や予期しない変動への適 |
 | [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md) | AI時代において、従来の「労働量 = 報酬」という一次関数的な関係が崩壊しつつあります。AIエージェントが収益化プロセス |
 | [lifeリポジトリの進化：GitHubからMarkdown + Claude Codeへ](life-repository-evolution.md) | GitHubで人生を管理するというコンセプトから始まったlifeリポジトリは、単なるタスク管理ツールから、Markdow |
 | [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md) | 機械学習理論よりも「実際に動くものを作る6つのスキル」に集中することが、AIエンジニアとしての最短成長経路である。LLM |

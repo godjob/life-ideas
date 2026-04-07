@@ -4,6 +4,8 @@
 
 エンジニアのキャリアは「手でコードを書く職人」から「AIシステムを設計・監督する経営者」へ転換する過渡期を迎えている。この転換期において、[ハーネスエンジニアリング](harness-engineering-autonomous-development.md)の理解度が市場価値を大きく左右する。既存のコーディングスキルをいかに再構築し、AIマネジメント能力へシフトさせるかが、次世代エンジニアの競争力を決める。
 
+同時に、AI時代には[AI疲れと判断負荷](ai-fatigue-judgment-burden-mitigation.md)という新しい課題が生じている。自動化の効率性だけに依存しすぎると、生成結果の妥当性を判断する疲労が蓄積し、長期的な組織の持続可能性を損なうリスクがある。
+
 ## 主要な知見
 
 ### キャリア転換の本質
@@ -36,10 +38,34 @@
 - **AIマネジメント設計スキルの急騰：** 複雑なマルチエージェントシステムを設計・運用できるエンジニアの需要と供給のギャップが急速に拡大
 - **過渡期における給与交渉機会：** スキル転換途上のエンジニアが、両領域の価値を主張できる限定的な時間ウィンドウが存在
 
+### AI時代の判断負荷と組織持続性
+
+[AI疲れと判断負荷](ai-fatigue-judgment-burden-mitigation.md)は、効率化時代の見過ごされた課題である：
+
+- **判断責任による疲労の蓄積：** AIに全てを任せるのではなく、生成結果の妥当性を判断する責任がエンジニアに集中する。この「検証負荷」の累積が心身の疲弊につながる
+- **基礎知識の維持の重要性：** AI時代でも、生成結果をレビューするための基礎知識（システム全体像、ドメイン専門知識、リスク判断基準）を保持することが不可欠
+- **判断基準の明確化による軽減：** AIの出力結果をレビューする際の判断基準を組織レベルで明確化・標準化することで、個人の検証負荷を大幅に削減できる
+
+### 人材育成と組織の長期競争力
+
+AI効率化で人員削減を急ぐ組織は、[ジュニアエンジニア育成と世代継承](junior-engineer-retention-ai-era-succession-planning.md)を失うリスクを抱える：
+
+- **若手育成の戦略的価値：** AIツールの効率性だけに依存すると、レガシーシステム対応や予期しない変動への適応力を急速に失う
+- **多様性と継続性のバランス：** 経験者層と若手層の両層が存在することで、初めて長期的な競争力を維持できる
+- **学習機会としてのコード審査：** モブプログラミングなどのチームでのレビュー活動は、判断負荷の分散と同時に若手の学習を加速させる一石二鳥の施策
+
+### 心身のリセットと持続可能なキャリア
+
+[睡眠優先のパフォーマンス管理](sleep-priority-performance-management.md)と定期的なリセットは、AI依存時代の疲労軽減に有効：
+
+- **定期的なリセット習慣の価値：** ランニングなど身体活動を通じたリセットは、判断疲れの蓄積を緩和し、長期的なキャリア持続可能性を高める
+- **脳認知能力の維持：** 40代以降も競争力を維持するには、睡眠と運動による基礎的な認知能力の維持が、AIスキル習得以上に重要になる可能性がある
+
 ### 個人・組織レベルの対応戦略
 
 - **スキル転換の優先順位付け：** 既存のコード執筆能力を完全に手放すのではなく、AIの教育教材・フィードバック源として再活用しながら、マネジメント能力に時間をシフト
 - **[AIプロンプト指示設計](ai-prompt-engineering-leadership-career.md)の習得：** AI操縦の基本スキル。[指示設計の3要素](instruction-design-three-elements.md)（背景・目的・期待アウトプット形式）の理解が最初の一歩
+- **判断基準の明文化：** [CLAUDE.md](claude-md-governance.md)により、AIへの経営判断基準を明示することで、組織全体の検証負荷を軽減しつつ、個人の専門知識を構造化できる
 - **[Skill System](skill-system.md)による標準化：** 組織内のAIマネジメント手法を再利用可能なSKILL.mdとして資産化することで、個人スキルを組織価値に転換
 - **失敗ログの資産化：** [AIエージェント失敗ログ](ai-failure-log.md)を組織知識として蓄積し、試行錯誤の効率化を図る
 
@@ -47,32 +73,35 @@
 
 この転換期は困難だが、同時に大きなチャンスを秘めている：
 
-- **困難な側面：** 20年かけて習得したコーディング技術が急速に陳腐化するという心理的・実務的ショック
-- **チャンス側面：** AIマネジメント能力の市場相場が未確立なため、早期採用者は想定外の高い価値評価を受ける可能性がある
+- **困難な側面：** 20年かけて習得したコーディング技術が急速に陳腐化するという心理的・実務的ショック。加えて、AI時代の判断負荷増加により、効率化の見た目とは異なる疲労が蓄積する可能性がある
+- **チャンス側面：** AIマネジメント能力の市場相場が未確立なため、早期採用者は想定外の高い価値評価を受ける可能性がある。同時に、判断負荷軽減の仕組みづくりができる組織が競争力を得る
 - **時間的制約：** この過渡期は永遠には続かない。2-3年以内に市場相場が確立し、遅れた者の挽回が困難になる可能性が高い
 
 ## エンジニアが今すぐできること
 
 1. **[ハーネスエンジニアリング](harness-engineering-autonomous-development.md)の実装体験：** 理論ではなく、実際にPlanner-Generator-Evaluatorモデルを構築して動かす
 2. **既存知見の言語化：** 自分が過去に体得した「品質管理」「改善ループ」「システム設計」の原理をAIマネジメント文脈に翻訳する
-3. **[CLAUDE.md](claude-md-governance.md)による経営判断の明文化：** AIに判断基準を与える作業を通じて、自分の専門知識を構造化する
-4. **[Skillシステム](skill-system.md)の活用：** 自動化パターンを再利用可能な形式で設計・共有することで、個人価値を組織価値に変換
+3. **[CLAUDE.md](claude-md-governance.md)による経営判断の明文化：** AIに判断基準を与える作業を通じて、自分の専門知識を構造化するとともに、チーム全体の検証負荷を軽減
+4. **判断基準の組織標準化：** 「どの判断はAIに任せられるか」「どの判断は人間が責任を取るべきか」の基準を、個人の経験から組織ルールに昇華させる
+5. **[Skillシステム](skill-system.md)の活用：** 自動化パターンを再利用可能な形式で設計・共有することで、個人価値を組織価値に変換
+6. **心身のメンテナンス習慣化：** 効率化追求の傍ら、[睡眠優先](sleep-priority-performance-management.md)と運動のようなリセット習慣を組織的に奨励し、判断疲れの蓄積を防ぐ
 
 ## 関連ページ
 
-- [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md)
-- [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md)
-- [AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略](ai-prompt-engineering-leadership-career.md)
-- [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md)
-- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md)
-- [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md)
-- [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md)
-- [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md)
-- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md)
-- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)
-- [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md)
-- [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md)
+- [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md): AI複数エージェントの役割分担と自動改善ループ設計
+- [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md): マルチエージェント間の調整と統制能力
+- [AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略](ai-prompt-engineering-leadership-career.md): 指示設計スキルによるキャリア転換
+- [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md): 専門知識とAI実行能力の最適分業
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md): 実行から監督への役割転換
+- [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md): AI時代の判断負荷と組織対策
+- [ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持](junior-engineer-retention-ai-era-succession-planning.md): 人材育成と組織の持続可能性
+- [睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性](sleep-priority-performance-management.md): 基礎的な認知能力の維持戦略
+- [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md): 自律システムの学習と改善仕組みづくり
+- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md): 判断基準の明確化と標準化
+- [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md): 自動化パターンの組織資産化
+- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md): 試行錯誤の資産化
+- [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md): AIプロンプト設計の基礎
 
 ## 更新履歴
 
-- 2026-04-06: [【放置OK】Claude Codeハーネス設計で自律開発するハーネスエンジニアリング入門！](https://www.youtube.com/watch?v=Wfz-gdWcItM)から新規作成
+- 2026-04-07: [【t_wadaさんの持つ現在の答え】AI疲れとの向き合い方](https://www.youtube.com/watch?v=JgqL7mXiIT0)の新情報を統合。判断負荷軽減、人材育成の戦略的価値、心身リセットの重要性を追記
