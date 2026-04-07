@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T23:09:54+09:00",
+  "generatedAt": "2026-04-07T23:36:59+09:00",
   "weekly": {
-    "commitCount": 217,
+    "commitCount": 227,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-07",
-        "count": 71
+        "count": 81
       }
     ]
   },
@@ -39,16 +39,16 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 274
+    "other": 284
   },
   "recentCommits": [
     {
       "date": "2026-04-07",
-      "message": "wiki: 途切れたページを補完（長期稼働AIエージェント・推論インフラ戦略）"
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
       "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+      "message": "dashboard: wiki検索を並列フェッチ+キャッシュで高速化 (v1.37)"
     },
     {
       "date": "2026-04-07",
