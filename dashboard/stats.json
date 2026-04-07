@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-07T21:36:29+09:00",
+  "generatedAt": "2026-04-07T21:42:19+09:00",
   "weekly": {
-    "commitCount": 176,
+    "commitCount": 179,
     "byDay": [
       {
         "date": "2026-04-01",
@@ -29,34 +29,34 @@
       },
       {
         "date": "2026-04-07",
-        "count": 30
+        "count": 33
       }
     ]
   },
   "byDirectory": {
-    "scrap": 9,
+    "scrap": 10,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 237
+    "other": 239
   },
   "recentCommits": [
     {
       "date": "2026-04-07",
+      "message": "scrap: 2026-04-07 【ひろゆきが語る】これからの時代を生き抜くために必"
+    },
+    {
+      "date": "2026-04-07",
+      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+    },
+    {
+      "date": "2026-04-07",
+      "message": "git scrap: Gemini モデルを gemini-2.5-flash に更新（gemini-2.0-flash廃止対応）"
+    },
+    {
+      "date": "2026-04-07",
       "message": "scrap: 2026-04-07 【ホリエモン】※誰も言わないけどヤバいです※日本が"
-    },
-    {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
-    },
-    {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
-    },
-    {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
     },
     {
       "date": "2026-04-07",
