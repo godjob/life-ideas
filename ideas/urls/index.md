@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/07 | - | Development, Tools, AI | [WordPressはもうやめよう。CloudflareのEmDashが来た](https://zenn.dev/yamitake/articles/cloudflare-emdash-wordpress-alternative) | Cloudflareが2026年4月に発表したEmDashは、WordPressの後継を目指すオープンソースCMSで、プラグインのサンドボックス化とAIエージェント対応が特徴。 |
+| 26/04/07 | 26/04/- | AI, Business, Management | [OpenAI](https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf) | OpenAIが超知能時代に向けた産業政策を提言。AI革命の恩恵を広く共有し、雇用・権力集中リスクを管理するため、民主的ガバナンス、税制改革、公共富裕基金、適応的セーフティネットなどの包括的政策アジェンダを提示。 |
 | 26/04/06 | - | Business, AI, Learning | [【スペースXの凄み。２兆ドル評価は必然】私が投資した理由／ウクライナ戦争が分水嶺／5年で価値20倍／Starlinkの爆発的成長／宇宙インフラの完全独占／「宇宙×AI」の合流／「爆発」は失敗ではない](https://www.youtube.com/watch?v=dRaN1Y3PNDs) | スペースXが2兆ドル評価に達した理由は、ロケット企業から防衛インフラ企業への転換にあり、ウクライナ戦争での実績とAI統合による垂直統合独占戦略が評価されている。 |
 | 26/04/06 | - | AI, ClaudeCode, Development, Productivity, Management | [【放置OK】Claude Codeハーネス設計で自律開発するハーネスエンジニアリング入門！](https://www.youtube.com/watch?v=Wfz-gdWcItM) | Claude Codeのサブエージェント機能を使い、Planner・Generator・Evaluatorの3役割を持つAIを連携させることで、人間の手を介さずに自律的にアプリ開発を完結させる「ハーネスエンジニアリング」という次世代手法を解説。 |
 | 26/04/04 | 26/04/04 | AI, ClaudeCode, Productivity, Business, Career | [【新現実】2026年、勝ち組の「働き方」が変わった（シリコンバレー/Anthropic/Google/Amazon/Meta/Microsoft/ジェンスン・フアン/解説:後藤直義、森川潤）](https://www.youtube.com/watch?v=u5c_Pg2PEDg) | 2026年、AIのトークン消費量が個人の生産性評価に直結する「トークン・マキシマイジング」時代が到来。AIエージェントを24時間稼働させることが、勝ち組エンジニアの必須スキルになった。 |

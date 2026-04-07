@@ -1,6 +1,6 @@
 # Wiki インデックス
 
-最終更新: 2026-04-06
+最終更新: 2026-04-07
 
 | ページ | 概要 |
 |--------|------|
@@ -8,6 +8,7 @@
 | [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md) | AIエージェントは短期タスクでは高い性能を発揮するが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害につな |
 | [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md) | Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コーディング」から「AIエージェントの監督・ |
 | [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md) | AI導入における最大の障壁は、技術的な複雑さではなく、ユーザーの心理的抵抗感にある。特に「ターミナル（黒い画面）への恐怖 |
+| [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md) | AIエージェントがCLI経由でシステムを自律操作し、ログ確認や定期メンテナンスなどのルーティン作業を自動化するパターンで |
 | [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md) | 製造業、特にコイルセンターなどの素材加工業における検品・在庫管理・受発注プロセスは、いまだ電話・ファックス・スプレッドシ |
 | [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md) | AIエージェントを24時間稼働させて運用を自動化できる人材へのキャリア転換は、2026年以降の生き残り戦略となりつつある |
 | [AI取締役会による意思決定：複数モデルの意見統合と人間判断](ai-board-decision-making.md) | 重要な経営判断を1つのAIモデルに依存するのではなく、複数の異なるAIモデル（Claude、OpenAI、Geminiな |
@@ -16,6 +17,7 @@
 | [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
 | [AI専門家アンサンブル・プロンプティング：複数視点の合意形成分析](ai-expert-ensemble-prompting.md) | AI専門家アンサンブル・プロンプティングは、単一の視点ではなく複数の専門家が協調して分析・判断するようにAIに指示するプ |
 | [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md) | AIエージェントが犯したミスと その修正方法を体系的に記録・蓄積するプラクティスです。AIオーケストレーターとして人間が |
+| [AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止](ai-labor-policy-governance-framework.md) | AI革命による自動化の恩恵を社会全体に広く共有し、雇用喪失と権力集中のリスクを適切に管理するためには、民主的ガバナンス、 |
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |
 | [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md) | エンジニアのキャリアは「手でコードを書く職人」から「AIシステムを設計・監督する経営者」へ転換する過渡期を迎えている。こ |
 | [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md) | AI モデルの導入決定時には、機能性や性能だけでなく、ライセンス条件が法務リスク と導入スケジュール に直結する。特に製 |
@@ -25,6 +27,7 @@
 | [AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減](aidlc-manufacturing-requirements-definition.md) | 製造業のシステム導入・更新時において、AIDLC（AI-Driven Development Life Cycle）のア |
 | [Anthropic Coursesの学習体系と実装](anthropic-courses.md) | Anthropic Coursesは、Claude APIの活用とAIエージェント開発に関する体系的な学習プログラムです |
 | [自動コンテンツ配信：AIによるPR動画生成とSNS投稿の仕組み](automated-content-distribution.md) | AIを活用してPR動画を自動生成し、SNS（特にX）に自動投稿する仕組みについて扱う。ClaudeCodeなどのAIツー |
+| [効率配当制度：自動化削減分の労働者還元と週32時間制の実装](automation-efficiency-dividend-work-reduction.md) | AI・自動化による生産性向上で削減できたコスト・時間を労働者に還元する「効率配当制度」は、企業の競争力維持と従業員の生活 |
 | [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md) | 運動時間やランニング中、待機時間などの「仕事時間外」にAIエージェントを24時間稼働させる設計が、2026年以降の競争優 |
 | [書籍メタデータ補完システム：OpenBD→NDL→Google Booksの3段階フォールバック](book-metadata-completion-system.md) | 書籍のメタデータ（タイトル、著者、出版社、ISBN等）を複数のデータソースから段階的に取得するシステムです。OpenBD |
 | [GitHub Free プライベートリポジトリのBranch Protection代替：pre-push hook活用](branch-protection-alternatives-free-tier.md) | GitHub Freeではプライベートリポジトリに対してBranch Protection Rulesが適用されないため |
@@ -37,6 +40,7 @@
 | [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md) | Claude Codeが継続的に学習・成長するためには、単発のプロンプト指示だけでなく、長期記憶システムが必須である。本 |
 | [CLAUDE.md自動育成：Hook機械化と無限ループ対策](claude-md-auto-cultivation-hooks.md) | CLAUDE.mdに「自動実行してください」と記述しても、Claude（AIも人間も）は指示を忘れてしまう。この課題を解 |
 | [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md) | CLAUDE.md統治は、AIへの経営判断基準を明文化し、日次改善ループを回すための運用フレームワークである。従来の「タ |
+| [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md) | Cloudflareが発表するEmDashは、WordPressの脆弱性問題の根本原因であるプラグイン野放し実行に終止符 |
 | [暗号資産税務ガイドラインの整備状況と対策](crypto-asset-tax-guideline.md) | 暗号資産の税務処理は日本において未だ明確なガイドラインが整備されていない状況にあり、特にBTCやJPYCなどの異なる資産 |
 | [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
 | [日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化](daily-context-ai-partnership.md) | 開発環境（CLAUDE.md）と日常生活（電話・LINE）のコンテキストを統合することで、AIが単なるツールから真のパー |

@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-04-07] ingest | WordPressはもうやめよう。CloudflareのEmDashが来た
+- 更新ページ: [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md), [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md)
+- 出典: [WordPressはもうやめよう。CloudflareのEmDashが来た](https://zenn.dev/yamitake/articles/cloudflare-emdash-wordpress-alternative)
+
+## [2026-04-07] ingest | OpenAI
+- 更新ページ: [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md), [AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止](ai-labor-policy-governance-framework.md), [効率配当制度：自動化削減分の労働者還元と週32時間制の実装](automation-efficiency-dividend-work-reduction.md)
+- 出典: [OpenAI](https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf)
+
 ## [2026-04-06] ingest | 【スペースXの凄み。２兆ドル評価は必然】私が投資した理由／ウクライナ戦争が分水嶺／5年で価値20倍／
 - 更新ページ: [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md), [スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替](spacex-defense-infrastructure-strategy.md), [高速反復学習ループの運用設計：カオス環境での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md)
 - 出典: [【スペースXの凄み。２兆ドル評価は必然】私が投資した理由／ウクライナ戦争が分水嶺](https://www.youtube.com/watch?v=dRaN1Y3PNDs)
