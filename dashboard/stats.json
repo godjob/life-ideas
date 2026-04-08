@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-09T01:10:34+09:00",
+  "generatedAt": "2026-04-09T06:46:04+09:00",
   "weekly": {
-    "commitCount": 194,
+    "commitCount": 198,
     "byDay": [
       {
         "date": "2026-04-03",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-04-08",
-        "count": 10
+        "count": 11
       },
       {
         "date": "2026-04-09",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 14,
+    "scrap": 15,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 293
+    "other": 296
   },
   "recentCommits": [
     {
+      "date": "2026-04-09",
+      "message": "scrap: Noisyさんアーカイブファイルのコミット漏れを追加"
+    },
+    {
+      "date": "2026-04-09",
+      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+    },
+    {
+      "date": "2026-04-09",
+      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+    },
+    {
+      "date": "2026-04-08",
+      "message": "dashboard: Claude使用量更新 (2026-04-08)"
+    },
+    {
       "date": "2026-04-08",
       "message": "scrap: 2026-04-08 XユーザーのGoogle Gemmaさん: 「Ru・XユーザーのNoisyさん: 「How I sto・Xユーザーの土屋尚史 / Goodpatchさん:"
-    },
-    {
-      "date": "2026-04-08",
-      "message": "dashboard: Claude使用量更新 (2026-04-08)"
-    },
-    {
-      "date": "2026-04-08",
-      "message": "dashboard: Claude使用量更新 (2026-04-08)"
-    },
-    {
-      "date": "2026-04-08",
-      "message": "dashboard: Claude使用量更新 (2026-04-08)"
-    },
-    {
-      "date": "2026-04-08",
-      "message": "dashboard: Claude使用量更新 (2026-04-08)"
     }
   ]
 }
