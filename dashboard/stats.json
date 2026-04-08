@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-08T01:06:16+09:00",
+  "generatedAt": "2026-04-08T22:07:05+09:00",
   "weekly": {
-    "commitCount": 201,
+    "commitCount": 212,
     "byDay": [
       {
         "date": "2026-04-02",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-04-07",
-        "count": 81
+        "count": 82
       },
       {
         "date": "2026-04-08",
-        "count": 0
+        "count": 10
       }
     ]
   },
   "byDirectory": {
-    "scrap": 13,
+    "scrap": 14,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 284
+    "other": 293
   },
   "recentCommits": [
     {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+      "date": "2026-04-08",
+      "message": "scrap: 2026-04-08 XユーザーのGoogle Gemmaさん: 「Ru・XユーザーのNoisyさん: 「How I sto・Xユーザーの土屋尚史 / Goodpatchさん:"
     },
     {
-      "date": "2026-04-07",
-      "message": "dashboard: wiki検索を並列フェッチ+キャッシュで高速化 (v1.37)"
+      "date": "2026-04-08",
+      "message": "dashboard: Claude使用量更新 (2026-04-08)"
     },
     {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+      "date": "2026-04-08",
+      "message": "dashboard: Claude使用量更新 (2026-04-08)"
     },
     {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+      "date": "2026-04-08",
+      "message": "dashboard: Claude使用量更新 (2026-04-08)"
     },
     {
-      "date": "2026-04-07",
-      "message": "dashboard: Claude使用量更新 (2026-04-07)"
+      "date": "2026-04-08",
+      "message": "dashboard: Claude使用量更新 (2026-04-08)"
     }
   ]
 }
