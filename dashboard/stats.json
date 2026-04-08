@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-09T06:52:33+09:00",
+  "generatedAt": "2026-04-09T07:00:36+09:00",
   "weekly": {
-    "commitCount": 199,
+    "commitCount": 201,
     "byDay": [
       {
         "date": "2026-04-03",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-04-09",
-        "count": 4
+        "count": 6
       }
     ]
   },
   "byDirectory": {
-    "scrap": 15,
+    "scrap": 16,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 297
+    "other": 298
   },
   "recentCommits": [
+    {
+      "date": "2026-04-09",
+      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+    },
+    {
+      "date": "2026-04-09",
+      "message": "scrap: 2026-04-09 Claude Managed Agents・組織の壊し方"
+    },
     {
       "date": "2026-04-09",
       "message": "dashboard: Claude使用量更新 (2026-04-09)"
@@ -53,14 +61,6 @@
     {
       "date": "2026-04-09",
       "message": "dashboard: Claude使用量更新 (2026-04-09)"
-    },
-    {
-      "date": "2026-04-09",
-      "message": "dashboard: Claude使用量更新 (2026-04-09)"
-    },
-    {
-      "date": "2026-04-08",
-      "message": "dashboard: Claude使用量更新 (2026-04-08)"
     }
   ]
 }
