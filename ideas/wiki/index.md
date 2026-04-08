@@ -1,6 +1,6 @@
 # Wiki インデックス
 
-最終更新: 2026-04-08
+最終更新: 2026-04-09
 
 | ページ | 概要 |
 |--------|------|
@@ -28,6 +28,7 @@
 | [AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略](ai-prompt-engineering-leadership-career.md) | AI時代の10年後、プログラミングスキルそのものより「AIへの指示設計能力」が競争優位を決定する。製造業システム管理など |
 | [AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減](aidlc-manufacturing-requirements-definition.md) | 製造業のシステム導入・更新時において、AIDLC（AI-Driven Development Life Cycle）のア |
 | [Anthropic Coursesの学習体系と実装](anthropic-courses.md) | Anthropic Coursesは、Claude APIの活用とAIエージェント開発に関する体系的な学習プログラムです |
+| [承認フロー簡素化と権限委譲設計：複雑さ排除による組織の自己防御メカニズム](approval-workflow-simplification-competitive-advantage.md) | CIAの秘密文書「Simple Sabotage Field Manual」に記載された組織破壊手法と現代企業の「大企業 |
 | [自動コンテンツ配信：AIによるPR動画生成とSNS投稿の仕組み](automated-content-distribution.md) | AIを活用してPR動画を自動生成し、SNS（特にX）に自動投稿する仕組みについて扱う。ClaudeCodeなどのAIツー |
 | [効率配当制度：自動化削減分の労働者還元と週32時間制の実装](automation-efficiency-dividend-work-reduction.md) | AI・自動化による生産性向上で削減できたコスト・時間を労働者に還元する「効率配当制度」は、企業の競争力維持と従業員の生活 |
 | [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md) | 運動時間やランニング中、待機時間などの「仕事時間外」にAIエージェントを24時間稼働させる設計が、2026年以降の競争優 |
@@ -41,6 +42,7 @@
 | [Claude Code Skill設計の落とし穴：Gotchasセクションの重要性と失敗から学ぶ設計知見](claude-code-skill-design-gotchas.md) | Claude Codeにおけるスキル設計において、最も信号密度が高いのは「Gotchasセクション」である。Claude |
 | [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md) | Claude Codeを単なる開発ツールではなく、仮想会社として機能させることで、複数の部門・役割を持つ組織を構築し、自 |
 | [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md) | Claude Codeが継続的に学習・成長するためには、単発のプロンプト指示だけでなく、長期記憶システムが必須である。本 |
+| [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md) | Claude Managed Agentsは、Anthropicが提供するクラウドホスト型エージェント構築・デプロイメン |
 | [CLAUDE.md自動育成：Hook機械化と無限ループ対策](claude-md-auto-cultivation-hooks.md) | CLAUDE.mdに「自動実行してください」と記述しても、Claude（AIも人間も）は指示を忘れてしまう。この課題を解 |
 | [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md) | CLAUDE.md統治は、AIへの経営判断基準を明文化し、日次改善ループを回すための運用フレームワークである。従来の「タ |
 | [クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減](cloud-independence-ai-cost-security-strategy.md) | クラウドへの依存を排除し、オンプレミス環境でAIモデルを直接実行する戦略が、セキュリティ要件が厳しい製造業やデータセンタ |
@@ -76,9 +78,11 @@
 | [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md) | 製造業システムの自動化・保守コストは今後数年で劇的に低下する可能性が高く、現在の高度なエンジニアスキルの重要性が相対的に |
 | [MCPとSkillの役割分担：ツール連携とワークフロー設計](mcp-skill-architecture.md) | MCPとSkillは、AIエージェントが外部ツールやデータを活用する際の「接続」と「使用方法」を担当する相補的な概念です |
 | [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md) | 中年の危機は、単なる人生の停滞ではなく、人生のナラティブを根本から再構築する転換点である。40代からの競争力は、過去の経 |
+| [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md) | 複数のエージェントが連携するパイプラインシステムでは、任意のステップでの失敗が全体の信頼性を損なう。本ページでは、Cla |
 | [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |
 | [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md) | エンジニアリングスキルがなくても、AIとの協働によってツール開発を実現し、継続的に改善していくことは可能です。このページ |
 | [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchの事例が示すように、**トッ |
+| [組織機能不全とサボタージュパターン認識：CIAマニュアルに学ぶ自己診断フレームワーク](organizational-dysfunction-sabotage-pattern-recognition.md) | CIAの秘密文書「Simple Sabotage Field Manual」に記録されたスパイによる組織破壊手法が、現代 |
 | [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md) | パランティアは、Forward Deployed Engineer（FDE）という現場密着型の開発スタイルを採用すること |
 | [人生OSの運用：PMの4つのシフトの個人適用](personal-os-operating-system.md) | AI時代のプロダクトマネジメントで求められる「4つのシフト」は、個人の人生運営にも直接応用できるフレームワークです。モデ |
 | [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md) | モデル能力が16ヶ月で41倍に成長する指数関数的な進化の時代において、従来の「事前に情報を集めて計画を立て、数ヶ月かけて |

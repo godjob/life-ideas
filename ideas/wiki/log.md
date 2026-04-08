@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-04-09] ingest | 組織の壊し方｜株式会社 帝国データバンク[TDB]
+- 更新ページ: [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md), [組織機能不全とサボタージュパターン認識：CIAマニュアルに学ぶ自己診断フレームワーク](organizational-dysfunction-sabotage-pattern-recognition.md), [承認フロー簡素化と権限委譲設計：複雑さ排除による組織の自己防御メカニズム](approval-workflow-simplification-competitive-advantage.md)
+- 出典: [組織の壊し方｜株式会社 帝国データバンク[TDB]](https://www.tdb.co.jp/report/economic/h-5oddsyxoyt/)
+
+## [2026-04-09] ingest | Claude Managed Agents: get to production 10x faste
+- 更新ページ: [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md)
+- 出典: [Claude Managed Agents: get to production](https://claude.com/blog/claude-managed-agents)
+
 ## [2026-04-08] ingest | Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Code大号令 — 1ヶ
 - 更新ページ: [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md)
 - 出典: [Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Co](https://x.com/tsuchinao83/status/2041763512104710538)

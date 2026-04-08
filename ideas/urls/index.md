@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/09 | - | Management, Business, Productivity | [組織の壊し方｜株式会社 帝国データバンク[TDB]](https://www.tdb.co.jp/report/economic/h-5oddsyxoyt/) | CIAの秘密文書「Simple Sabotage Field Manual」から、組織を内部から破壊するサボタージュ手法が明かされている。委員会の多用、承認プロセスの複雑化、ルールの厳格適用など、現代企業の「大企業病」と同じ症状がスパイによる工作指示書として記録されていた。 |
+| 26/04/09 | - | AI, Claude, Development, Tools, Productivity | [Claude Managed Agents: get to production 10x faster | Claude](https://claude.com/blog/claude-managed-agents) | AnthropicがClaude Managed Agentsを発表。クラウドホスト型エージェント構築・デプロイのための統合API群で、開発時間を10倍削減できる。 |
 | 26/04/08 | - | AI, ClaudeCode, Management, Productivity, Business | [Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Code大号令 — 1ヶ月で200個のアプリと300件のナレッジから見えたこと」 / X](https://x.com/tsuchinao83/status/2041763512104710538) | Goodpatchが全社員にClaude Codeでアプリ開発を命じ、1ヶ月で217個のアプリと295件のナレッジを生成。非エンジニアを含む87%が実際にデプロイまで到達した。 |
 | 26/04/08 | - | AI, LLM, Productivity, Development, Tools | [XユーザーのNoisyさん: 「How I stopped burning 75% of my Claude budget and saved $500/month"」 / X](https://x.com/noisyb0y1/status/2041454862425047268) | Claude利用時のトークン浪費を削減するため、「Caveman」プロンプトテクニックを使用すると75%のコスト削減が可能になる。不要な説明や自問自答を排除することで、月500ドル以上の節約ができる。 |
 | 26/04/08 | - | AI, LLM, Development, Tools | [XユーザーのGoogle Gemmaさん: 「Run Gemma 4 locally with OpenClaw 🦀 in 3 steps: 」 / X](https://x.com/googlegemma/status/2041512106269319328) | GoogleのGemma 4をローカル環境で実行し、OpenClawと連携させる方法を3ステップで紹介。Ollamaのインストール、モデルのダウンロード、OpenClawの起動で簡単に構築できる。 |
