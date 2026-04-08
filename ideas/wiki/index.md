@@ -1,6 +1,6 @@
 # Wiki インデックス
 
-最終更新: 2026-04-07
+最終更新: 2026-04-08
 
 | ページ | 概要 |
 |--------|------|
@@ -12,6 +12,7 @@
 | [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md) | 製造業、特にコイルセンターなどの素材加工業における検品・在庫管理・受発注プロセスは、いまだ電話・ファックス・スプレッドシ |
 | [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md) | AIエージェントを24時間稼働させて運用を自動化できる人材へのキャリア転換は、2026年以降の生き残り戦略となりつつある |
 | [AI取締役会による意思決定：複数モデルの意見統合と人間判断](ai-board-decision-making.md) | 重要な経営判断を1つのAIモデルに依存するのではなく、複数の異なるAIモデル（Claude、OpenAI、Geminiな |
+| [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md) | AI利用コストの削減は、モデル選択やアーキテクチャ設計よりも、プロンプト工夫とトークン消費最適化にある。Cavemanテ |
 | [AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化](ai-ceo-delegation-protocol.md) | AIを単なる「作業実行者」として指示する関係から、経営方針を明文化して「判断を委任する」関係へと転換するプロトコルである |
 | [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md) | 機械学習理論の深掘りや教科書的な学習に時間を費やすのではなく、「実際に動くものを作る」ことに集中することが、AIエンジニ |
 | [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
@@ -42,6 +43,7 @@
 | [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md) | Claude Codeが継続的に学習・成長するためには、単発のプロンプト指示だけでなく、長期記憶システムが必須である。本 |
 | [CLAUDE.md自動育成：Hook機械化と無限ループ対策](claude-md-auto-cultivation-hooks.md) | CLAUDE.mdに「自動実行してください」と記述しても、Claude（AIも人間も）は指示を忘れてしまう。この課題を解 |
 | [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md) | CLAUDE.md統治は、AIへの経営判断基準を明文化し、日次改善ループを回すための運用フレームワークである。従来の「タ |
+| [クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減](cloud-independence-ai-cost-security-strategy.md) | クラウドへの依存を排除し、オンプレミス環境でAIモデルを直接実行する戦略が、セキュリティ要件が厳しい製造業やデータセンタ |
 | [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md) | Cloudflareが発表するEmDashは、WordPressの脆弱性問題の根本原因であるプラグイン野放し実行に終止符 |
 | [暗号資産税務ガイドラインの整備状況と対策](crypto-asset-tax-guideline.md) | 暗号資産の税務処理は日本において未だ明確なガイドラインが整備されていない状況にあり、特にBTCやJPYCなどの異なる資産 |
 | [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
@@ -67,6 +69,7 @@
 | [lifeリポジトリの進化：GitHubからMarkdown + Claude Codeへ](life-repository-evolution.md) | GitHubで人生を管理するというコンセプトから始まったlifeリポジトリは、単なるタスク管理ツールから、Markdow |
 | [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md) | 機械学習理論よりも「実際に動くものを作る6つのスキル」に集中することが、AIエンジニアとしての最短成長経路である。LLM |
 | [LLM Wiki コンセプト](llm-wiki-concept.md) | Andrej Karpathyが提唱する「LLMをWikiの維持者として使う」知識管理パターン。 |
+| [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md) | ローカルLLMデプロイメント・アーキテクチャは、Ollama や OpenClaw といったオープンソースツールを活用し |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
 | [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
 | [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md) | 製造業の現場では、AIを即座に適用できる実践的なパターンが存在します。大量の資料から構成案を自動生成する業務や、修正要望 |
@@ -75,12 +78,14 @@
 | [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md) | 中年の危機は、単なる人生の停滞ではなく、人生のナラティブを根本から再構築する転換点である。40代からの競争力は、過去の経 |
 | [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |
 | [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md) | エンジニアリングスキルがなくても、AIとの協働によってツール開発を実現し、継続的に改善していくことは可能です。このページ |
+| [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchの事例が示すように、**トッ |
 | [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md) | パランティアは、Forward Deployed Engineer（FDE）という現場密着型の開発スタイルを採用すること |
 | [人生OSの運用：PMの4つのシフトの個人適用](personal-os-operating-system.md) | AI時代のプロダクトマネジメントで求められる「4つのシフト」は、個人の人生運営にも直接応用できるフレームワークです。モデ |
 | [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md) | モデル能力が16ヶ月で41倍に成長する指数関数的な進化の時代において、従来の「事前に情報を集めて計画を立て、数ヶ月かけて |
 | [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md) | マネーフォワードの『AI Cowork』など自律実行型AIサービスの本格導入が2026年中盤に迫る中、導入前の限定された |
 | [Progressive Disclosure パターン：段階的情報開示による効率化](progressive-disclosure-pattern.md) | Progressive Disclosure（段階的情報開示）は、AIエージェントやシステムに必要な情報を最適なタイミン |
 | [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md) | AIへの指示出しプロセスは、マネジメントスキルの「筋トレ」になる。人間チームは曖昧な指示を忖度してくれるため問題が隠れる |
+| [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md) | Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除する「Caveman」プロンプトテクニックにより、 |
 | [QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用](qms-style-ai-prompt-governance.md) | 製造業の品質マネジメントシステム（QMS）では、手順書を中央集約的に管理し、全員がそれに従うことで品質を担保する。Cla |
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
 | [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md) | 従来の製造業・システム管理では稼働率最大化と予測可能性確保が目標だったが、スペースXに代表される次世代型組織は「失敗をデ |

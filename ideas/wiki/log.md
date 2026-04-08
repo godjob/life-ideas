@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-04-08] ingest | Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Code大号令 — 1ヶ
+- 更新ページ: [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md)
+- 出典: [Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Co](https://x.com/tsuchinao83/status/2041763512104710538)
+
+## [2026-04-08] ingest | XユーザーのNoisyさん: 「How I stopped burning 75% of my Cl
+- 更新ページ: [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md), [Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計](claude-chat-claude-code-workflow.md), [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md), [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md), [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md)
+- 出典: [XユーザーのNoisyさん: 「How I stopped burning 75](https://x.com/noisyb0y1/status/2041454862425047268)
+
+## [2026-04-08] ingest | XユーザーのGoogle Gemmaさん: 「Run Gemma 4 locally with Op
+- 更新ページ: [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md), [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md), [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md), [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md), [クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減](cloud-independence-ai-cost-security-strategy.md)
+- 出典: [XユーザーのGoogle Gemmaさん: 「Run Gemma 4 local](https://x.com/googlegemma/status/2041512106269319328)
+
 ## [2026-04-07] ingest | バックオフィス業務を自律的に遂行するAIサービス 『マネーフォワード AI Cowork』を2026
 - 更新ページ: [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md), [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md)
 - 出典: [バックオフィス業務を自律的に遂行するAIサービス 『マネーフォワード AI Co](https://corp.moneyforward.com/news/release/service/20260407-mf-press-1/)

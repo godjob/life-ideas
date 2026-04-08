@@ -2,6 +2,9 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/08 | - | AI, ClaudeCode, Management, Productivity, Business | [Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Code大号令 — 1ヶ月で200個のアプリと300件のナレッジから見えたこと」 / X](https://x.com/tsuchinao83/status/2041763512104710538) | Goodpatchが全社員にClaude Codeでアプリ開発を命じ、1ヶ月で217個のアプリと295件のナレッジを生成。非エンジニアを含む87%が実際にデプロイまで到達した。 |
+| 26/04/08 | - | AI, LLM, Productivity, Development, Tools | [XユーザーのNoisyさん: 「How I stopped burning 75% of my Claude budget and saved $500/month"」 / X](https://x.com/noisyb0y1/status/2041454862425047268) | Claude利用時のトークン浪費を削減するため、「Caveman」プロンプトテクニックを使用すると75%のコスト削減が可能になる。不要な説明や自問自答を排除することで、月500ドル以上の節約ができる。 |
+| 26/04/08 | - | AI, LLM, Development, Tools | [XユーザーのGoogle Gemmaさん: 「Run Gemma 4 locally with OpenClaw 🦀 in 3 steps: 」 / X](https://x.com/googlegemma/status/2041512106269319328) | GoogleのGemma 4をローカル環境で実行し、OpenClawと連携させる方法を3ステップで紹介。Ollamaのインストール、モデルのダウンロード、OpenClawの起動で簡単に構築できる。 |
 | 26/04/07 | 26/04/07 | AI, Productivity, Business, Management, Tools | [バックオフィス業務を自律的に遂行するAIサービス 『マネーフォワード AI Cowork』を2026年7月より提供開始予定｜株式会社マネーフォワード](https://corp.moneyforward.com/news/release/service/20260407-mf-press-1/) | マネーフォワードが2026年7月にバックオフィス業務を自律実行するAIサービス『AI Cowork』を提供開始。AIが経理・労務・法務などの業務を同僚として自動処理する。 |
 | 26/04/07 | 26/04/07 | AI, LLM, Business, Development, Tools | [【AIは「推論時代」＝NVIDIA支配に突入】今井翔太「革ジャンCEOの頭はOpenClawでいっぱい」／AIエージェントは“1か月”働き続ける／学習は限界→長く考えて性能伸ばす【AI QUEST】](https://www.youtube.com/watch?v=5ClSLJBQLXg) | NVIDIA GTC 2026でAI業界は「推論時代」に突入し、AIエージェント「OpenClaw」が1ヶ月連続稼働できるレベルに進化。学習から推論での性能向上へシフトし、NVIDIAがGPUベースで支配的地位を確立しつつある。 |
 | 26/04/07 | - | AI, Development, Learning, Management, Career | [【t_wadaさんの持つ現在の答え】AI疲れとの向き合い方 /](https://www.youtube.com/watch?v=JgqL7mXiIT0) | T_wada氏がAI普及時代の「AI疲れ」を分析し、判断責任による疲労と教育投資の重要性を指摘。中長期的な企業の持続性のためジュニアエンジニア育成は不可欠と主張。 |
