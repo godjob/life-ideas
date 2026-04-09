@@ -43,6 +43,8 @@
 | [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md) | Claude Codeを単なる開発ツールではなく、仮想会社として機能させることで、複数の部門・役割を持つ組織を構築し、自 |
 | [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md) | Claude Codeが継続的に学習・成長するためには、単発のプロンプト指示だけでなく、長期記憶システムが必須である。本 |
 | [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md) | Claude Managed Agentsは、Anthropicが提供するクラウドホスト型エージェント構築・デプロイメン |
+| [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md) | Anthropic の Claude Managed Agents は、エージェントループと実行環境をクラウド側で一元管 |
+| [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md) | Claude Managed Agents は、クライアント終了後もサーバー側でエージェントが自律動作を続け、Sessi |
 | [CLAUDE.md自動育成：Hook機械化と無限ループ対策](claude-md-auto-cultivation-hooks.md) | CLAUDE.mdに「自動実行してください」と記述しても、Claude（AIも人間も）は指示を忘れてしまう。この課題を解 |
 | [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md) | CLAUDE.md統治は、AIへの経営判断基準を明文化し、日次改善ループを回すための運用フレームワークである。従来の「タ |
 | [クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減](cloud-independence-ai-cost-security-strategy.md) | クラウドへの依存を排除し、オンプレミス環境でAIモデルを直接実行する戦略が、セキュリティ要件が厳しい製造業やデータセンタ |
@@ -52,6 +54,7 @@
 | [日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化](daily-context-ai-partnership.md) | 開発環境（CLAUDE.md）と日常生活（電話・LINE）のコンテキストを統合することで、AIが単なるツールから真のパー |
 | [データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換](data-integration-visualization-manufacturing-application.md) | パランティアが開発した「バラバラなデータを一つの視覚的マップに統合する技術」は、軍事・情報分野での応用が知られていますが |
 | [descriptionフィールドの最適化：トリガー条件と機能説明の書き方](description-field-best-practices.md) | descriptionフィールドは、AIエージェントが自動的に適切なSkillを選択・実行するための最も重要なメタデータ |
+| [ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上](document-format-conversion-markdown-standardization.md) | 製造業や企業環境に散在するPDF、Word、Excel、PowerPoint等の複数形式ドキュメントをMarkdown形 |
 | [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md) | AIの価値は「技術的な優秀さ」ではなく「実務的な正しさ」にある。現場の専門知識を持つ人間が「何を自動化すべきか」「何を人 |
 | [エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md) | エンバイロメント・エンジニアリングとは、AIが動きやすい環境を整えるための専門職能である。サーバー、ネットワーク、システ |
 | [The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理](factory-model-software-development.md) | The Factory Modelは、製造業における自動アセンブリラインの効率化原理をソフトウェア開発に適用する管理思想 |
@@ -68,11 +71,14 @@
 | [JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い](jpyc-tax-strategy.md) | JPYCは法的に「電子決済手段」として分類されるため、決済時に課税イベントが発生しない特性を持ちます。一方、USDTなど |
 | [ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持](junior-engineer-retention-ai-era-succession-planning.md) | AI時代の急速な自動化により、効率性を理由とした人員削減の誘惑が高まる一方で、レガシーシステム対応や予期しない変動への適 |
 | [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md) | AI時代において、従来の「労働量 = 報酬」という一次関数的な関係が崩壊しつつあります。AIエージェントが収益化プロセス |
+| [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md) | モデルやシステムの能力が向上すると、古い前提に基づいた設計が足かせになり、『死に掛けたコード』として機能し続ける。Ant |
 | [lifeリポジトリの進化：GitHubからMarkdown + Claude Codeへ](life-repository-evolution.md) | GitHubで人生を管理するというコンセプトから始まったlifeリポジトリは、単なるタスク管理ツールから、Markdow |
 | [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md) | 機械学習理論よりも「実際に動くものを作る6つのスキル」に集中することが、AIエンジニアとしての最短成長経路である。LLM |
+| [LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化](llm-integration-technical-documentation-automation.md) | 製造業の技術資料（設備仕様書、操作マニュアル、メンテナンスガイド）は複数の形式（PDF、Word、Excel、画像など） |
 | [LLM Wiki コンセプト](llm-wiki-concept.md) | Andrej Karpathyが提唱する「LLMをWikiの維持者として使う」知識管理パターン。 |
 | [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md) | ローカルLLMデプロイメント・アーキテクチャは、Ollama や OpenClaw といったオープンソースツールを活用し |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
+| [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md) | AnthropicがClaudeの長時間実行エージェント管理を実現する「Managed Agents」をリリースした際、 |
 | [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
 | [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md) | 製造業の現場では、AIを即座に適用できる実践的なパターンが存在します。大量の資料から構成案を自動生成する業務や、修正要望 |
 | [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md) | 製造業システムの自動化・保守コストは今後数年で劇的に低下する可能性が高く、現在の高度なエンジニアスキルの重要性が相対的に |
@@ -93,6 +99,7 @@
 | [QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用](qms-style-ai-prompt-governance.md) | 製造業の品質マネジメントシステム（QMS）では、手順書を中央集約的に管理し、全員がそれに従うことで品質を担保する。Cla |
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
 | [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md) | 従来の製造業・システム管理では稼働率最大化と予測可能性確保が目標だったが、スペースXに代表される次世代型組織は「失敗をデ |
+| [リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制](remote-agent-session-sharing-multi-user-operations.md) | Claude Managed Agents がクラウドホスト型のエージェント実行環境を提供することで、複数拠点・複数ユー |
 | [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md) | 日本の人口減少と労働力不足により、既存システムの陳腐化が加速する時代において、「指示待ち人間」では確実に競争力を失う。自 |
 | [skill-creator スキル：Skill設計・レビュー・改善の自動化](skill-creator-automation.md) | skill-creatorはClaude.aiに組み込まれた専門的なスキルで、Skillの設計・レビュー・改善提案を自動 |
 | [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md) | SKILL.md は Skill System の中核をなすドキュメントであり、フォルダ単位での Claudeへの命令セ |

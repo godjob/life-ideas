@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-04-09] ingest | Scaling Managed Agents: Decoupling the brain from 
+- 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md), [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md)
+- 出典: [Scaling Managed Agents: Decoupling the b](https://www.anthropic.com/engineering/managed-agents)
+
+## [2026-04-09] ingest | Claude Managed Agents セッション再接続テスト（テスト2）実施記録
+- 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md)
+- 出典: [Claude Managed Agents セッション再接続テスト（テスト2）実](https://platform.claude.com/docs/en/managed-agents/overview)
+
+## [2026-04-09] ingest | markitdown/README.md at main · microsoft/markitdow
+- 更新ページ: [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md), [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md), [MCPとSkillの役割分担：ツール連携とワークフロー設計](mcp-skill-architecture.md), [ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上](document-format-conversion-markdown-standardization.md), [LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化](llm-integration-technical-documentation-automation.md)
+- 出典: [markitdown/README.md at main · microsoft](https://github.com/microsoft/markitdown/blob/main/README.md)
+
+## [2026-04-09] ingest | Claude Managed Agents の肝と従来手法との違い
+- 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md), [リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制](remote-agent-session-sharing-multi-user-operations.md)
+- 出典: [Claude Managed Agents の肝と従来手法との違い](https://claude.com/blog/claude-managed-agents)
+
 ## [2026-04-09] ingest | 組織の壊し方｜株式会社 帝国データバンク[TDB]
 - 更新ページ: [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md), [組織機能不全とサボタージュパターン認識：CIAマニュアルに学ぶ自己診断フレームワーク](organizational-dysfunction-sabotage-pattern-recognition.md), [承認フロー簡素化と権限委譲設計：複雑さ排除による組織の自己防御メカニズム](approval-workflow-simplification-competitive-advantage.md)
 - 出典: [組織の壊し方｜株式会社 帝国データバンク[TDB]](https://www.tdb.co.jp/report/economic/h-5oddsyxoyt/)

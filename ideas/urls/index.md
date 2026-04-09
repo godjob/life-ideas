@@ -2,6 +2,10 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/09 | - | AI, LLM, Development, Tools | [Scaling Managed Agents: Decoupling the brain from the hands \ Anthropic](https://www.anthropic.com/engineering/managed-agents) | AnthropicがClaudeの長時間実行エージェントを管理するホストサービス「Managed Agents」をリリース。モデル改善に伴い古い前提が無効化されるため、実装に依存しないインターフェース設計を採用している。 |
+| 26/04/09 | - | AI, Development, Tools | [Claude Managed Agents セッション再接続テスト（テスト2）実施記録](https://platform.claude.com/docs/en/managed-agents/overview) | Claude Managed Agents でクライアント終了後もサーバー側でエージェントが自律動作を続けることを、セッション再接続テストで実証。Session IDで同じエージェントに再接続可能であることを確認。 |
+| 26/04/09 | - | Development, Tools, AI, LLM | [markitdown/README.md at main · microsoft/markitdown](https://github.com/microsoft/markitdown/blob/main/README.md) | MicrosoftのmarkitdownはファイルやOfficeドキュメントをMarkdown形式に変換するPythonツールで、LLMアプリケーション向けのMCPサーバーも提供しています。 |
+| 26/04/09 | 26/04/08 | AI, LLM, Development, Tools | [Claude Managed Agents の肝と従来手法との違い](https://claude.com/blog/claude-managed-agents) | Anthropic が公開した Claude Managed Agents は、エージェントループと実行環境をクラウドに預ける新しいアーキテクチャで、従来のローカル実行型 Agent SDK と根本的に異なる。 |
 | 26/04/09 | - | Management, Business, Productivity | [組織の壊し方｜株式会社 帝国データバンク[TDB]](https://www.tdb.co.jp/report/economic/h-5oddsyxoyt/) | CIAの秘密文書「Simple Sabotage Field Manual」から、組織を内部から破壊するサボタージュ手法が明かされている。委員会の多用、承認プロセスの複雑化、ルールの厳格適用など、現代企業の「大企業病」と同じ症状がスパイによる工作指示書として記録されていた。 |
 | 26/04/09 | - | AI, Claude, Development, Tools, Productivity | [Claude Managed Agents: get to production 10x faster | Claude](https://claude.com/blog/claude-managed-agents) | AnthropicがClaude Managed Agentsを発表。クラウドホスト型エージェント構築・デプロイのための統合API群で、開発時間を10倍削減できる。 |
 | 26/04/08 | - | AI, ClaudeCode, Management, Productivity, Business | [Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Code大号令 — 1ヶ月で200個のアプリと300件のナレッジから見えたこと」 / X](https://x.com/tsuchinao83/status/2041763512104710538) | Goodpatchが全社員にClaude Codeでアプリ開発を命じ、1ヶ月で217個のアプリと295件のナレッジを生成。非エンジニアを含む87%が実際にデプロイまで到達した。 |
