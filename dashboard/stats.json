@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-09T07:00:36+09:00",
+  "generatedAt": "2026-04-09T18:56:35+09:00",
   "weekly": {
-    "commitCount": 201,
+    "commitCount": 205,
     "byDay": [
       {
         "date": "2026-04-03",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-09",
-        "count": 6
+        "count": 10
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 298
+    "other": 301
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-04-09",
-      "message": "scrap: 2026-04-09 Claude Managed Agents・組織の壊し方"
+      "message": "dashboard: Claude使用量更新 (2026-04-09)"
     },
     {
       "date": "2026-04-09",
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-04-09",
-      "message": "scrap: Noisyさんアーカイブファイルのコミット漏れを追加"
+      "message": "news: 2026-04-09 記事まとめを自動生成"
     },
     {
       "date": "2026-04-09",
