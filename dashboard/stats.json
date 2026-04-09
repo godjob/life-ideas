@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-09T18:57:49+09:00",
+  "generatedAt": "2026-04-09T19:10:49+09:00",
   "weekly": {
-    "commitCount": 207,
+    "commitCount": 209,
     "byDay": [
       {
         "date": "2026-04-03",
@@ -29,30 +29,30 @@
       },
       {
         "date": "2026-04-09",
-        "count": 12
+        "count": 14
       }
     ]
   },
   "byDirectory": {
-    "scrap": 17,
+    "scrap": 18,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 302
+    "other": 303
   },
   "recentCommits": [
     {
       "date": "2026-04-09",
+      "message": "scrap: 2026-04-09 【危険すぎてAnthropicが封印「Claude・XユーザーのLance Martinさん: 「La"
+    },
+    {
+      "date": "2026-04-09",
+      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+    },
+    {
+      "date": "2026-04-09",
       "message": "scrap: 2026-04-09 Managed Agents設計解説・markitdown・自作検証記録ほか"
-    },
-    {
-      "date": "2026-04-09",
-      "message": "dashboard: Claude使用量更新 (2026-04-09)"
-    },
-    {
-      "date": "2026-04-09",
-      "message": "dashboard: Claude使用量更新 (2026-04-09)"
     },
     {
       "date": "2026-04-09",
