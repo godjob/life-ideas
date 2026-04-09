@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-04-09] ingest | XユーザーのLance Martinさん: 「Launching Claude Managed Ag
+- 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](managed-agents-model-update-compatibility-design.md)
+- 出典: [XユーザーのLance Martinさん: 「Launching Claude ](https://x.com/RLanceMartin/status/2041927992986009773)
+
+## [2026-04-09] ingest | 【危険すぎてAnthropicが封印「Claude Mythos」爆誕】今井翔太「人類は一線を超えた
+- 更新ページ: [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md)
+- 出典: [【危険すぎてAnthropicが封印「Claude Mythos」爆誕】今井翔太](https://www.youtube.com/watch?v=tSOjux2CMM0)
+
 ## [2026-04-09] ingest | Scaling Managed Agents: Decoupling the brain from 
 - 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md), [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md)
 - 出典: [Scaling Managed Agents: Decoupling the b](https://www.anthropic.com/engineering/managed-agents)

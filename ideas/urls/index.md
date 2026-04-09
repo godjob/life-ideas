@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/09 | - | AI, Claude, Development, Tools | [XユーザーのLance Martinさん: 「Launching Claude Managed Agents」 / X](https://x.com/RLanceMartin/status/2041927992986009773) | AnthropicがClaude Managed Agentsを発表。事前構築された管理インフラ上で動作する設定可能なエージェントハーネスで、ツール呼び出しやコンテキスト管理を自動化する。 |
+| 26/04/09 | 26/04/09 | AI, LLM, Development, Business, Security | [【危険すぎてAnthropicが封印「Claude Mythos」爆誕】今井翔太「人類は一線を超えた」／“エイプリルフール”を疑う高性能／メタは新型モデルでAI競争に本格参戦【AI QUEST】](https://www.youtube.com/watch?v=tSOjux2CMM0) | Anthropicが発表した新AIモデル「Claude Mythos」は、コーディングやサイバーセキュリティで飛躍的な性能向上を示したため、一般公開が見送られた。これはGPT-2の公開停止事例と同様に、AI技術が新たな危険な段階に突入したことを示唆している。 |
 | 26/04/09 | - | AI, LLM, Development, Tools | [Scaling Managed Agents: Decoupling the brain from the hands \ Anthropic](https://www.anthropic.com/engineering/managed-agents) | AnthropicがClaudeの長時間実行エージェントを管理するホストサービス「Managed Agents」をリリース。モデル改善に伴い古い前提が無効化されるため、実装に依存しないインターフェース設計を採用している。 |
 | 26/04/09 | - | AI, Development, Tools | [Claude Managed Agents セッション再接続テスト（テスト2）実施記録](https://platform.claude.com/docs/en/managed-agents/overview) | Claude Managed Agents でクライアント終了後もサーバー側でエージェントが自律動作を続けることを、セッション再接続テストで実証。Session IDで同じエージェントに再接続可能であることを確認。 |
 | 26/04/09 | - | Development, Tools, AI, LLM | [markitdown/README.md at main · microsoft/markitdown](https://github.com/microsoft/markitdown/blob/main/README.md) | MicrosoftのmarkitdownはファイルやOfficeドキュメントをMarkdown形式に変換するPythonツールで、LLMアプリケーション向けのMCPサーバーも提供しています。 |

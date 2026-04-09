@@ -13,6 +13,7 @@
 | [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md) | AIエージェントを24時間稼働させて運用を自動化できる人材へのキャリア転換は、2026年以降の生き残り戦略となりつつある |
 | [AI取締役会による意思決定：複数モデルの意見統合と人間判断](ai-board-decision-making.md) | 重要な経営判断を1つのAIモデルに依存するのではなく、複数の異なるAIモデル（Claude、OpenAI、Geminiな |
 | [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md) | AI利用コストの削減は、モデル選択やアーキテクチャ設計よりも、プロンプト工夫とトークン消費最適化にある。Cavemanテ |
+| [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md) | AI技術の急速な性能向上に伴い、一定の能力水準に達したモデルの公開可否を判断するフレームワークが必要となっている。Ant |
 | [AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化](ai-ceo-delegation-protocol.md) | AIを単なる「作業実行者」として指示する関係から、経営方針を明文化して「判断を委任する」関係へと転換するプロトコルである |
 | [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md) | 機械学習理論の深掘りや教科書的な学習に時間を費やすのではなく、「実際に動くものを作る」ことに集中することが、AIエンジニ |
 | [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
@@ -79,9 +80,11 @@
 | [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md) | ローカルLLMデプロイメント・アーキテクチャは、Ollama や OpenClaw といったオープンソースツールを活用し |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
 | [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md) | AnthropicがClaudeの長時間実行エージェント管理を実現する「Managed Agents」をリリースした際、 |
+| [Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](managed-agents-model-update-compatibility-design.md) | Claude Managed Agentsは、Anthropicが提供する事前構築済みの管理インフラ上で動作する設定可能 |
 | [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
 | [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md) | 製造業の現場では、AIを即座に適用できる実践的なパターンが存在します。大量の資料から構成案を自動生成する業務や、修正要望 |
 | [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md) | 製造業システムの自動化・保守コストは今後数年で劇的に低下する可能性が高く、現在の高度なエンジニアスキルの重要性が相対的に |
+| [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md) | 高度なコーディング能力を持つAIモデル（Claude Mythosのような次世代AIなど）の登場により、27年前のレガシ |
 | [MCPとSkillの役割分担：ツール連携とワークフロー設計](mcp-skill-architecture.md) | MCPとSkillは、AIエージェントが外部ツールやデータを活用する際の「接続」と「使用方法」を担当する相補的な概念です |
 | [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md) | 中年の危機は、単なる人生の停滞ではなく、人生のナラティブを根本から再構築する転換点である。40代からの競争力は、過去の経 |
 | [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md) | 複数のエージェントが連携するパイプラインシステムでは、任意のステップでの失敗が全体の信頼性を損なう。本ページでは、Cla |
