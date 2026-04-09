@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-09T18:56:35+09:00",
+  "generatedAt": "2026-04-09T18:57:49+09:00",
   "weekly": {
-    "commitCount": 205,
+    "commitCount": 207,
     "byDay": [
       {
         "date": "2026-04-03",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-04-09",
-        "count": 10
+        "count": 12
       }
     ]
   },
   "byDirectory": {
-    "scrap": 16,
+    "scrap": 17,
     "ideas": 2,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 301
+    "other": 302
   },
   "recentCommits": [
     {
       "date": "2026-04-09",
-      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+      "message": "scrap: 2026-04-09 Managed Agents設計解説・markitdown・自作検証記録ほか"
     },
     {
       "date": "2026-04-09",
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-04-09",
-      "message": "news: 2026-04-09 記事まとめを自動生成"
+      "message": "dashboard: Claude使用量更新 (2026-04-09)"
     },
     {
       "date": "2026-04-09",
