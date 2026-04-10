@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-10T21:37:13+09:00",
+  "generatedAt": "2026-04-10T21:58:22+09:00",
   "weekly": {
-    "commitCount": 213,
+    "commitCount": 224,
     "byDay": [
       {
         "date": "2026-04-04",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-10",
-        "count": 16
+        "count": 27
       }
     ]
   },
@@ -37,18 +37,18 @@
     "scrap": 18,
     "ideas": 2,
     "health": 0,
-    "books": 1,
+    "books": 0,
     "portfolio": 0,
-    "other": 235
+    "other": 240
   },
   "recentCommits": [
     {
       "date": "2026-04-10",
-      "message": "scrap: Advisorストラテジー（Opus+Sonnet組み合わせパターン）"
+      "message": "dashboard: Claude使用量更新 (2026-04-10)"
     },
     {
       "date": "2026-04-10",
-      "message": "dashboard: Claude使用量更新 (2026-04-10)"
+      "message": "git_scrap: コミット待ち対策（commit_run + 最終チェック）"
     },
     {
       "date": "2026-04-10",
