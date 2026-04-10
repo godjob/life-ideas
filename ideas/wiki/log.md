@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-11] ingest | 【「AIが賢くなることをAI自身が加速させる」ループに入ったか】知性の物理学を研究する田中秀宣／「お
+- 更新ページ: [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md), [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md)
+- 出典: [【「AIが賢くなることをAI自身が加速させる」ループに入ったか】知性の物理学を研](https://www.youtube.com/watch?v=J7x-FJMB2kM)
+
 ## [2026-04-09] ingest | XユーザーのLance Martinさん: 「Launching Claude Managed Ag
 - 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](managed-agents-model-update-compatibility-design.md)
 - 出典: [XユーザーのLance Martinさん: 「Launching Claude ](https://x.com/RLanceMartin/status/2041927992986009773)

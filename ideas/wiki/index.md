@@ -1,6 +1,6 @@
 # Wiki インデックス
 
-最終更新: 2026-04-09
+最終更新: 2026-04-11
 
 | ページ | 概要 |
 |--------|------|
@@ -25,6 +25,7 @@
 | [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md) | エンジニアのキャリアは「手でコードを書く職人」から「AIシステムを設計・監督する経営者」へ転換する過渡期を迎えている。こ |
 | [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md) | AI モデルの導入決定時には、機能性や性能だけでなく、ライセンス条件が法務リスク と導入スケジュール に直結する。特に製 |
 | [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md) | 「100倍エンジニア」とは、従来の「コードを書く人」ではなく「AIエージェントを指揮する人」へと進化したエンジニアのモデ |
+| [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md) | AIが物理世界での試行錯誤を通じて、人間には得られない複雑性の直感を獲得する段階に入った。この進化により、AIは単なる計 |
 | [AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制](ai-powered-web-production-flow.md) | 従来の「設計→デザイン→コーディング」というWeb制作フローが逆転する新しい時代が到来している。AIの活用により、設計後 |
 | [AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略](ai-prompt-engineering-leadership-career.md) | AI時代の10年後、プログラミングスキルそのものより「AIへの指示設計能力」が競争優位を決定する。製造業システム管理など |
 | [AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減](aidlc-manufacturing-requirements-definition.md) | 製造業のシステム導入・更新時において、AIDLC（AI-Driven Development Life Cycle）のア |
@@ -104,6 +105,7 @@
 | [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md) | 従来の製造業・システム管理では稼働率最大化と予測可能性確保が目標だったが、スペースXに代表される次世代型組織は「失敗をデ |
 | [リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制](remote-agent-session-sharing-multi-user-operations.md) | Claude Managed Agents がクラウドホスト型のエージェント実行環境を提供することで、複数拠点・複数ユー |
 | [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md) | 日本の人口減少と労働力不足により、既存システムの陳腐化が加速する時代において、「指示待ち人間」では確実に競争力を失う。自 |
+| [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md) | シンギュラリティループとは、AIが自身の性能向上を自律的に加速させるメカニズムのことである。AIが改善提案を生成し、それ |
 | [skill-creator スキル：Skill設計・レビュー・改善の自動化](skill-creator-automation.md) | skill-creatorはClaude.aiに組み込まれた専門的なスキルで、Skillの設計・レビュー・改善提案を自動 |
 | [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md) | SKILL.md は Skill System の中核をなすドキュメントであり、フォルダ単位での Claudeへの命令セ |
 | [Skillのメモリアーキテクチャ：SQLite/JSONによる状態管理と自己参照型ワークフロー自動化](skill-memory-architecture-stateful-workflow.md) | Skillが単なるマークダウンファイルではなく、スクリプト・アセット・データを含むフォルダ全体として機能する際、SQLi |
