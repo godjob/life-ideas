@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-10T01:13:51+09:00",
+  "generatedAt": "2026-04-10T21:37:13+09:00",
   "weekly": {
-    "commitCount": 193,
+    "commitCount": 213,
     "byDay": [
       {
         "date": "2026-04-04",
@@ -25,11 +25,11 @@
       },
       {
         "date": "2026-04-09",
-        "count": 14
+        "count": 18
       },
       {
         "date": "2026-04-10",
-        "count": 0
+        "count": 16
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 303
+    "other": 235
   },
   "recentCommits": [
     {
-      "date": "2026-04-09",
-      "message": "scrap: 2026-04-09 【危険すぎてAnthropicが封印「Claude・XユーザーのLance Martinさん: 「La"
+      "date": "2026-04-10",
+      "message": "scrap: Advisorストラテジー（Opus+Sonnet組み合わせパターン）"
     },
     {
-      "date": "2026-04-09",
-      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+      "date": "2026-04-10",
+      "message": "dashboard: Claude使用量更新 (2026-04-10)"
     },
     {
-      "date": "2026-04-09",
-      "message": "scrap: 2026-04-09 Managed Agents設計解説・markitdown・自作検証記録ほか"
+      "date": "2026-04-10",
+      "message": "dashboard: Claude使用量更新 (2026-04-10)"
     },
     {
-      "date": "2026-04-09",
-      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+      "date": "2026-04-10",
+      "message": "dashboard: Claude使用量更新 (2026-04-10)"
     },
     {
-      "date": "2026-04-09",
-      "message": "dashboard: Claude使用量更新 (2026-04-09)"
+      "date": "2026-04-10",
+      "message": "dashboard: Claude使用量更新 (2026-04-10)"
     }
   ]
 }
