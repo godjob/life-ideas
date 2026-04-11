@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-04-11T08:40:53+09:00",
+  "generatedAt": "2026-04-12T00:26:12+09:00",
   "weekly": {
-    "commitCount": 206,
+    "commitCount": 159,
     "byDay": [
-      {
-        "date": "2026-04-05",
-        "count": 48
-      },
       {
         "date": "2026-04-06",
         "count": 11
@@ -29,26 +25,30 @@
       },
       {
         "date": "2026-04-11",
-        "count": 6
+        "count": 7
+      },
+      {
+        "date": "2026-04-12",
+        "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 19,
+    "scrap": 18,
     "ideas": 2,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 248
+    "other": 241
   },
   "recentCommits": [
     {
       "date": "2026-04-11",
-      "message": "scrap: 2026-04-11 【「AIが賢くなることをAI自身が加速させる」ルー"
+      "message": "news: 2026-04-11 記事まとめを自動生成"
     },
     {
       "date": "2026-04-11",
-      "message": "dashboard: Claude使用量更新 (2026-04-11)"
+      "message": "scrap: 2026-04-11 【「AIが賢くなることをAI自身が加速させる」ルー"
     },
     {
       "date": "2026-04-11",
