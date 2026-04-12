@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-13T00:29:56+09:00",
+  "generatedAt": "2026-04-13T08:37:51+09:00",
   "weekly": {
-    "commitCount": 189,
+    "commitCount": 213,
     "byDay": [
       {
         "date": "2026-04-07",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-13",
-        "count": 0
+        "count": 24
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 252
+    "other": 276
   },
   "recentCommits": [
     {
-      "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
+      "date": "2026-04-13",
+      "message": "dashboard: Claude使用量更新 (2026-04-13)"
     },
     {
-      "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
+      "date": "2026-04-13",
+      "message": "wiki: LLM Wiki v2採用4件を実装（Broken Link自動修正・Supersession・品質チェック・Schema）"
     },
     {
-      "date": "2026-04-12",
-      "message": "wiki: ローカルLLMデプロイメント・アーキテクチャページの途切れを修復"
+      "date": "2026-04-13",
+      "message": "dashboard: Claude使用量更新 (2026-04-13)"
     },
     {
-      "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
+      "date": "2026-04-13",
+      "message": "dashboard: Claude使用量更新 (2026-04-13)"
     },
     {
-      "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
+      "date": "2026-04-13",
+      "message": "dashboard: Claude使用量更新 (2026-04-13)"
     }
   ]
 }
