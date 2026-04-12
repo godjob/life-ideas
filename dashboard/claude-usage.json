@@ -1,9 +1,9 @@
 {
   "model": "Sonnet 4.6",
-  "fiveHourPercent": 3,
-  "fiveHourResetAt": "2026-04-11T13:00:00+09:00",
-  "sevenDayPercent": 37,
+  "fiveHourPercent": 4,
+  "fiveHourResetAt": "2026-04-12T22:00:00+09:00",
+  "sevenDayPercent": 38,
   "sevenDayResetAt": "2026-04-14T19:00:00+09:00",
-  "usagePercent": 37,
-  "updatedAt": "2026-04-11T08:40:03+09:00"
+  "usagePercent": 38,
+  "updatedAt": "2026-04-12T18:03:04+09:00"
 }

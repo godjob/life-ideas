@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-12T00:26:12+09:00",
+  "generatedAt": "2026-04-12T18:03:20+09:00",
   "weekly": {
-    "commitCount": 159,
+    "commitCount": 166,
     "byDay": [
       {
         "date": "2026-04-06",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-04-12",
-        "count": 0
+        "count": 7
       }
     ]
   },
   "byDirectory": {
-    "scrap": 18,
-    "ideas": 2,
+    "scrap": 19,
+    "ideas": 3,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 241
+    "other": 224
   },
   "recentCommits": [
     {
-      "date": "2026-04-11",
-      "message": "news: 2026-04-11 記事まとめを自動生成"
+      "date": "2026-04-12",
+      "message": "dashboard: Claude使用量更新 (2026-04-12)"
     },
     {
-      "date": "2026-04-11",
-      "message": "scrap: 2026-04-11 【「AIが賢くなることをAI自身が加速させる」ルー"
+      "date": "2026-04-12",
+      "message": "scrap: 2026-04-12 AnthropicのHead of Growth解説動画をアーカイブ"
     },
     {
-      "date": "2026-04-11",
-      "message": "dashboard: Claude使用量更新 (2026-04-11)"
+      "date": "2026-04-12",
+      "message": "ideas: 2026-W15 週次まとめ自動生成"
     },
     {
-      "date": "2026-04-11",
-      "message": "dashboard: Claude使用量更新 (2026-04-11)"
+      "date": "2026-04-12",
+      "message": "dashboard: Claude使用量更新 (2026-04-12)"
     },
     {
-      "date": "2026-04-11",
-      "message": "dashboard: Claude使用量更新 (2026-04-11)"
+      "date": "2026-04-12",
+      "message": "dashboard: Claude使用量更新 (2026-04-12)"
     }
   ]
 }
