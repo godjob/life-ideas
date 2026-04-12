@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-12T21:09:28+09:00",
+  "generatedAt": "2026-04-12T21:13:03+09:00",
   "weekly": {
-    "commitCount": 184,
+    "commitCount": 187,
     "byDay": [
       {
         "date": "2026-04-06",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-12",
-        "count": 25
+        "count": 28
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 236
+    "other": 239
   },
   "recentCommits": [
     {
@@ -48,19 +48,19 @@
     },
     {
       "date": "2026-04-12",
+      "message": "fix: wiki生成途切れ時の自動リトライ（簡潔化して再生成）を追加"
+    },
+    {
+      "date": "2026-04-12",
+      "message": "dashboard: Claude使用量更新 (2026-04-12)"
+    },
+    {
+      "date": "2026-04-12",
+      "message": "dashboard: Claude使用量更新 (2026-04-12)"
+    },
+    {
+      "date": "2026-04-12",
       "message": "fix: wikiページの途切れ修正（max_tokens 4096→8192、既存12件を修復）"
-    },
-    {
-      "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
-    },
-    {
-      "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
-    },
-    {
-      "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
     }
   ]
 }
