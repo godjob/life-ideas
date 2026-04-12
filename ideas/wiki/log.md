@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-12] ingest | garrytan/gbrain: GarryのこだわりのAIエージェント用ブレイン（OpenClaw
+- 更新ページ: [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md), [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md), [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md), [個人ナレッジベースのベクトル検索統合：会議・メール・ログの一元化とエージェント参照設計](personal-knowledge-base-vector-search-integration.md), [PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ](local-pglite-sensitive-data-management.md)
+- 出典: [garrytan/gbrain: GarryのこだわりのAIエージェント用ブレイ](https://github.com/garrytan/gbrain)
+
 ## [2026-04-12] ingest | 【保存版】あなたの1日が倍になる／10年続く習慣「たった1つのコツ」（井上新八）NewSchool 
 - 更新ページ: [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md), [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証](decision-fatigue-sop-standardization-cognitive-load-reduction.md)
 - 出典: [【保存版】あなたの1日が倍になる／10年続く習慣「たった1つのコツ」（井上新八）](https://www.youtube.com/watch?v=A3Tw6pnChC4)

@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/12 | - | AI, Tools, Development, Productivity | [garrytan/gbrain: GarryのこだわりのAIエージェント用ブレイン（OpenClaw/Hermes対応）](https://github.com/garrytan/gbrain) | AIエージェント用の個人ナレッジベースツール「GBrain」。会議・メール・カレンダーなどあらゆる情報をベクトル検索可能な形で統合し、エージェントが参照・学習できる環境を約30分で構築できる。 |
 | 26/04/12 | - | Productivity, Learning, Management | [【保存版】あなたの1日が倍になる／10年続く習慣「たった1つのコツ」（井上新八）NewSchool Movie](https://www.youtube.com/watch?v=A3Tw6pnChC4) | ブックデザイナー井上新八氏が、忙しさの本質を「心の渋滞」と定義し、「いつ何をどのぐらいやるか」というルール化による時間のデザインで、習慣化を通じて生産性を劇的に向上させる方法を解説する。 |
 | 26/04/12 | - | AI, LLM, Business, Management | [Head of Growth (Anthropic): “Claude is growing itself at this point”](https://www.youtube.com/watch?v=k-H4nsOTuxU) | Anthropicの成長責任者が、14ヶ月でARR10億ドルから190億ドルへ達成した記録的成長の戦略と、AI製品におけるアクティベーション課題への対応について語る。 |
 | 26/04/11 | - | AI, LLM, Learning | [【「AIが賢くなることをAI自身が加速させる」ループに入ったか】知性の物理学を研究する田中秀宣／「お辞儀」から考えるAIの文化形成／シンギュラリティ時代の世界をどう生きるか【1on1】](https://www.youtube.com/watch?v=J7x-FJMB2kM) | 知性の物理学研究者が、AIが自律的に進化を加速させるシンギュラリティループに既に入った現状を論じ、物理世界進出によるAIの知性爆発と、人間が持ち得ない直感獲得の可能性を指摘する。 |

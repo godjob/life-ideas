@@ -82,6 +82,7 @@
 | [LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化](llm-integration-technical-documentation-automation.md) | 製造業の技術資料（設備仕様書、操作マニュアル、メンテナンスガイド）は複数の形式（PDF、Word、Excel、画像など） |
 | [LLM Wiki コンセプト](llm-wiki-concept.md) | Andrej Karpathyが提唱する「LLMをWikiの維持者として使う」知識管理パターン。 |
 | [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md) | ローカルLLMデプロイメント・アーキテクチャは、Ollama や OpenClaw といったオープンソースツールを活用し |
+| [PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ](local-pglite-sensitive-data-management.md) | PGLiteはPostgreSQLのローカル環境実装であり、外部クラウドサーバーへのデータ送信を回避しながら、機密性の高 |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
 | [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md) | AnthropicがClaudeの長時間実行エージェント管理を実現する「Managed Agents」をリリースした際、 |
 | [Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](managed-agents-model-update-compatibility-design.md) | Claude Managed Agentsは、Anthropicが提供する事前構築済みの管理インフラ上で動作する設定可能 |
@@ -98,6 +99,7 @@
 | [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchの事例が示すように、**トッ |
 | [組織機能不全とサボタージュパターン認識：CIAマニュアルに学ぶ自己診断フレームワーク](organizational-dysfunction-sabotage-pattern-recognition.md) | CIAの秘密文書「Simple Sabotage Field Manual」に記録されたスパイによる組織破壊手法が、現代 |
 | [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md) | パランティアは、Forward Deployed Engineer（FDE）という現場密着型の開発スタイルを採用すること |
+| [個人ナレッジベースのベクトル検索統合：会議・メール・ログの一元化とエージェント参照設計](personal-knowledge-base-vector-search-integration.md) | GBrainのようなベクトル検索型ナレッジベースは、会議記録・メール・カレンダー・ログなどの断片化した個人情報を統合し、 |
 | [人生OSの運用：PMの4つのシフトの個人適用](personal-os-operating-system.md) | AI時代のプロダクトマネジメントで求められる「4つのシフト」は、個人の人生運営にも直接応用できるフレームワークです。モデ |
 | [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md) | モデル能力が16ヶ月で41倍に成長する指数関数的な進化の時代において、従来の「事前に情報を集めて計画を立て、数ヶ月かけて |
 | [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md) | マネーフォワードの『AI Cowork』など自律実行型AIサービスの本格導入が2026年中盤に迫る中、導入前の限定された |
