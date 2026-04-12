@@ -26,6 +26,12 @@ AI導入における最大の障壁は、技術的な複雑さではなく、ユ
 
 - **非エンジニアの短期開発能力の実装可能化**：従来、AIツール開発は高度なスキルが必須と考えられていたが、Claude Codeのような直感的なコード生成AIにより、非エンジニアも実用的なツール開発・デプロイが可能になった。これは[Claude Code Agent Teams](claude-code-agent-teams.md)の実装パターンによって、各部門が現場ニーズに基づいた小規模ツール開発を自律的に行える可能性を広げている
 
+- **『正しい摩擦』の段階的学習設計**：Anthropicの事例から、新しいAIツール導入時に機能を過度に簡略化するとユーザーが本来の価値を活用できなくなることが明らかになった。初期オンボーディング段階で適切な学習プロセスを設計することが、継続利用と実際の価値実現につながる。これは[オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md)で詳しく説明されている
+
+- **Capability Overhang：AIモデル能力とユーザー活用ギャップ**：AIモデルの能力が急速に向上する中で、ユーザーがその真の価値を活用できないギャップが生じている。実務では、AIツール導入後にユーザー教育や使用例の提示なしに放置すると、その機能の数%しか使われない可能性がある。このギャップを埋めるには、段階的な学習支援と具体的な活用事例の共有が不可欠である。[Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md)で、このギャップを戦略的に埋める方法を解説している
+
+- **急速なスケール段階における運用課題**：Anthropicが14ヶ月でARR10億ドルから190億ドルへ達成した記録的成長では、成長責任者の時間配分が『70%が問題対応、30%が戦略立案』に偏っている。製造業システム管理者も同様に予期せぬトラブル対応に追われる傾向があり、構造的な予防策への投資がAI導入成功を左右する重要な要素となる
+
 ## 実装上のポイント
 
 組織でこの考え方を実装する際には、以下の点に留意するべきである：
@@ -42,6 +48,10 @@ AI導入における最大の障壁は、技術的な複雑さではなく、ユ
 
 6. **定期的な成果の共有と習慣化促進**：1ヶ月単位での成果報告と、それに基づく次フェーズへのピボット決定により、変化への継続的な関与を維持する
 
+7. **段階的な学習支援による能力ギャップの解消**：導入直後はツールの基本機能に限定し、成功体験を得た後に段階的に高度な機能を開放することで、能力オーバーハングを防ぎ、真の価値活用につながる
+
+8. **予防的な運用設計への投資**：問題対応に追われる悪循環を避けるため、導入初期から監視・ロールバック機能、エラーハンドリング、チェックポイント設計などの信頼性基盤を整備することが、長期的な導入成功を支える
+
 ## 関連ページ
 
 - [製造業のAI即日適用パターン](manufacturing-ai-quick-wins.md): 資料処理と修正要望の自動化による具体的な成果の見える化
@@ -49,14 +59,14 @@ AI導入における最大の障壁は、技術的な複雑さではなく、ユ
 - [非エンジニアがAIと共にツールを育てる](non-engineer-ai-tool-development.md): 技術スキル不要なAI時代のツール開発アプローチ
 - [パランティアのFDE戦略](palantir-fde-user-centric-deployment.md): 現場密着型開発によるユーザー受容性の向上
 - [時間資本から人的資本への変換](time-capital-health-investment-narrative.md): AI導入の説得フレームワーク
-- [睡眠優先のパフォーマンス管理](sleep-priority-performance-management.md): 脳のパフォーマンス維持による組織文化醸成
-- [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md): Goodpatch事例に基づく組織変革パターン
-- [Claude Code Agent Teams](claude-code-agent-teams.md): AIエージェントチームを用いた自律的なツール開発
-- [Claude Code設定駆動ワークフロー](claude-code-configuration-driven-workflow.md): CLAUDE.mdによる導入フロー自動化
+- [睡眠優先のパフォーマンス管理](sleep-priority-performance-management.md): 脳認知能力と組織判断力の維持
+- [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md): トップダウン指示と自動化の組み合わせによる急速な導入
+- [Claude Code Agent Teams](claude-code-agent-teams.md): AIエージェントチームによる非エンジニアの開発能力支援
+- [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md): AIツール導入後の能力ギャップ解消戦略
+- [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md): 初期学習プロセスと継続利用設計
+- [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md): 運用信頼性による導入成功の基盤
+- [マルチエージェントパイプラインのエラーハンドリングとチェックポイント](multi-agent-pipeline-error-handling-checkpoint.md): 信頼性高い自動化の実装パターン
 
 ## 更新履歴
 
-- 2026-03-12: 社内展開のヒント
-- 2026-03-29: [動画要約：【最恐】高市首相に近づく、ヤバい「軍事AI企業」の正体](https://www.youtube.com/watch?v=YwhPLUcj0n0)
-- 2026-04-04: [【山口周×田中渓】お金と肩書きは人生を豊かにしてくれる？田中渓が直面した"中年の](https://www.youtube.com/watch?v=j0AxzCtJt8c)
-- 2026-04-08: [Xユーザーの土屋尚史 / Goodpatchさん: 「全社へのClaude Code大号令 — 1ヶ月で200個のアプリと300件のナレッジから見えたこと」](https://x.com/tsuchinao83/status/2041763512104710538): トップダウン指示と自動化インフラの組み合わせによる組織全体の導入加速パターンを追加
+- 2026-04-12: [Head of Growth (Anthropic): "Claude is growing itself at this point"](https://www.youtube.com/watch?v=k-H4nsOTuxU)の新情報を統合。Capability Overhangの概念とオンボーディング摩擦設計の重要性を追加。急速なスケール段階における運用課題と予防的設計投資の重要性を反映。

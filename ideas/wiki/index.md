@@ -1,6 +1,6 @@
 # Wiki インデックス
 
-最終更新: 2026-04-11
+最終更新: 2026-04-12
 
 | ページ | 概要 |
 |--------|------|
@@ -38,6 +38,7 @@
 | [書籍メタデータ補完システム：OpenBD→NDL→Google Booksの3段階フォールバック](book-metadata-completion-system.md) | 書籍のメタデータ（タイトル、著者、出版社、ISBN等）を複数のデータソースから段階的に取得するシステムです。OpenBD |
 | [GitHub Free プライベートリポジトリのBranch Protection代替：pre-push hook活用](branch-protection-alternatives-free-tier.md) | GitHub Freeではプライベートリポジトリに対してBranch Protection Rulesが適用されないため |
 | [BTC vs JPYC：円安時代の資産配分戦略](btc-jpyc-asset-allocation.md) | 円安が進む現在の経済環境において、ビットコイン（BTC）とJPYC（日本円ステーブルコイン）を使い分けることで、資産価値 |
+| [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md) | Capability Overhangとは、AIモデルが持つ実際の能力と、ユーザーが実際に活用できている能力の間の深刻な |
 | [Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計](claude-chat-claude-code-workflow.md) | Claude ChatとClaude Codeは異なる強みを持つツールであり、明確な役割分担によって初めて真価を発揮しま |
 | [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md) | Claude Code Agent Teamsは、複数のAIエージェントを協調させて、より複雑なタスクを実行するフレーム |
 | [Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化](claude-code-configuration-driven-workflow.md) | Claude Codeの本質的な価値は、設定ファイル（CLAUDE.md）を毎回読み込む仕組みにあり、業務システムの設計 |
@@ -91,6 +92,7 @@
 | [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md) | 複数のエージェントが連携するパイプラインシステムでは、任意のステップでの失敗が全体の信頼性を損なう。本ページでは、Cla |
 | [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |
 | [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md) | エンジニアリングスキルがなくても、AIとの協働によってツール開発を実現し、継続的に改善していくことは可能です。このページ |
+| [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md) | SaaS企業の成長戦略において、ユーザーオンボーディングに「適切な摩擦」を設計することが継続利用と機能活用につながる重要 |
 | [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchの事例が示すように、**トッ |
 | [組織機能不全とサボタージュパターン認識：CIAマニュアルに学ぶ自己診断フレームワーク](organizational-dysfunction-sabotage-pattern-recognition.md) | CIAの秘密文書「Simple Sabotage Field Manual」に記録されたスパイによる組織破壊手法が、現代 |
 | [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md) | パランティアは、Forward Deployed Engineer（FDE）という現場密着型の開発スタイルを採用すること |

@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/12 | - | AI, LLM, Business, Management | [Head of Growth (Anthropic): “Claude is growing itself at this point”](https://www.youtube.com/watch?v=k-H4nsOTuxU) | Anthropicの成長責任者が、14ヶ月でARR10億ドルから190億ドルへ達成した記録的成長の戦略と、AI製品におけるアクティベーション課題への対応について語る。 |
 | 26/04/11 | - | AI, LLM, Learning | [【「AIが賢くなることをAI自身が加速させる」ループに入ったか】知性の物理学を研究する田中秀宣／「お辞儀」から考えるAIの文化形成／シンギュラリティ時代の世界をどう生きるか【1on1】](https://www.youtube.com/watch?v=J7x-FJMB2kM) | 知性の物理学研究者が、AIが自律的に進化を加速させるシンギュラリティループに既に入った現状を論じ、物理世界進出によるAIの知性爆発と、人間が持ち得ない直感獲得の可能性を指摘する。 |
 | 26/04/09 | - | AI, Claude, Development, Tools | [XユーザーのLance Martinさん: 「Launching Claude Managed Agents」 / X](https://x.com/RLanceMartin/status/2041927992986009773) | AnthropicがClaude Managed Agentsを発表。事前構築された管理インフラ上で動作する設定可能なエージェントハーネスで、ツール呼び出しやコンテキスト管理を自動化する。 |
 | 26/04/09 | 26/04/09 | AI, LLM, Development, Business, Security | [【危険すぎてAnthropicが封印「Claude Mythos」爆誕】今井翔太「人類は一線を超えた」／“エイプリルフール”を疑う高性能／メタは新型モデルでAI競争に本格参戦【AI QUEST】](https://www.youtube.com/watch?v=tSOjux2CMM0) | Anthropicが発表した新AIモデル「Claude Mythos」は、コーディングやサイバーセキュリティで飛躍的な性能向上を示したため、一般公開が見送られた。これはGPT-2の公開停止事例と同様に、AI技術が新たな危険な段階に突入したことを示唆している。 |

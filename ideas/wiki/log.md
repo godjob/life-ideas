@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-12] ingest | Head of Growth (Anthropic): “Claude is growing its
+- 更新ページ: [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md), [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md), [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md)
+- 出典: [Head of Growth (Anthropic): “Claude is g](https://www.youtube.com/watch?v=k-H4nsOTuxU)
+
 ## [2026-04-11] ingest | 【「AIが賢くなることをAI自身が加速させる」ループに入ったか】知性の物理学を研究する田中秀宣／「お
 - 更新ページ: [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md), [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md)
 - 出典: [【「AIが賢くなることをAI自身が加速させる」ループに入ったか】知性の物理学を研](https://www.youtube.com/watch?v=J7x-FJMB2kM)
