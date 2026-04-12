@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-12T18:11:08+09:00",
+  "generatedAt": "2026-04-12T20:44:04+09:00",
   "weekly": {
-    "commitCount": 169,
+    "commitCount": 176,
     "byDay": [
       {
         "date": "2026-04-06",
@@ -29,26 +29,22 @@
       },
       {
         "date": "2026-04-12",
-        "count": 10
+        "count": 17
       }
     ]
   },
   "byDirectory": {
-    "scrap": 19,
+    "scrap": 20,
     "ideas": 3,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 227
+    "other": 228
   },
   "recentCommits": [
     {
       "date": "2026-04-12",
-      "message": "dashboard: Claude使用量更新 (2026-04-12)"
-    },
-    {
-      "date": "2026-04-12",
-      "message": "fix: 英語タイトルYouTube動画のコミットメッセージを日本語要約に変更"
+      "message": "scrap: 2026-04-12 garrytan/gbrain: Garryのこだ"
     },
     {
       "date": "2026-04-12",
@@ -60,7 +56,11 @@
     },
     {
       "date": "2026-04-12",
-      "message": "scrap: 2026-04-12 AnthropicのHead of Growth解説動画をアーカイブ"
+      "message": "dashboard: Claude使用量更新 (2026-04-12)"
+    },
+    {
+      "date": "2026-04-12",
+      "message": "dashboard: Claude使用量更新 (2026-04-12)"
     }
   ]
 }
