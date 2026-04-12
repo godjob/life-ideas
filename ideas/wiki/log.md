@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-12] ingest | 【保存版】あなたの1日が倍になる／10年続く習慣「たった1つのコツ」（井上新八）NewSchool 
+- 更新ページ: [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md), [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証](decision-fatigue-sop-standardization-cognitive-load-reduction.md)
+- 出典: [【保存版】あなたの1日が倍になる／10年続く習慣「たった1つのコツ」（井上新八）](https://www.youtube.com/watch?v=A3Tw6pnChC4)
+
 ## [2026-04-12] ingest | Head of Growth (Anthropic): “Claude is growing its
 - 更新ページ: [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md), [AI時代のプロダクトマネジメント：指数関数的進化への適応](pm-exponential-adaptation.md), [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md)
 - 出典: [Head of Growth (Anthropic): “Claude is g](https://www.youtube.com/watch?v=k-H4nsOTuxU)

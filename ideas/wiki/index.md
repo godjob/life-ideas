@@ -55,7 +55,9 @@
 | [暗号資産税務ガイドラインの整備状況と対策](crypto-asset-tax-guideline.md) | 暗号資産の税務処理は日本において未だ明確なガイドラインが整備されていない状況にあり、特にBTCやJPYCなどの異なる資産 |
 | [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
 | [日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化](daily-context-ai-partnership.md) | 開発環境（CLAUDE.md）と日常生活（電話・LINE）のコンテキストを統合することで、AIが単なるツールから真のパー |
+| [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md) | ブックデザイナー井上新八氏が定義する「心の渋滞」は、毎日の意思決定の積み重ねによって生じる心理的疲労であり、この状態では |
 | [データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換](data-integration-visualization-manufacturing-application.md) | パランティアが開発した「バラバラなデータを一つの視覚的マップに統合する技術」は、軍事・情報分野での応用が知られていますが |
+| [意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証](decision-fatigue-sop-standardization-cognitive-load-reduction.md) | 意思決定疲労（Decision Fatigue）は、1日を通じた複数の判断により心理的エネルギーが消耗し、判断力が低下す |
 | [descriptionフィールドの最適化：トリガー条件と機能説明の書き方](description-field-best-practices.md) | descriptionフィールドは、AIエージェントが自動的に適切なSkillを選択・実行するための最も重要なメタデータ |
 | [ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上](document-format-conversion-markdown-standardization.md) | 製造業や企業環境に散在するPDF、Word、Excel、PowerPoint等の複数形式ドキュメントをMarkdown形 |
 | [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md) | AIの価値は「技術的な優秀さ」ではなく「実務的な正しさ」にある。現場の専門知識を持つ人間が「何を自動化すべきか」「何を人 |
