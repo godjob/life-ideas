@@ -202,4 +202,55 @@ Claude Managed Agentsのモデル更新互換性設計は、**アプリケーシ
 
 特に、数週間～数ヶ月単位で連続稼働するエージェント、あるいは複数の現場で並行運用されるエージェントでは、このような設計が経営的価値を生み出します。
 
-開発チームは「モデルについていく」という疲弊から解放され、[ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モ
+開発チームは「モデルについていく」という疲弊から解放され、[ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル」の実装に集中できるようになります。
+
+## ドメイン専門知識への投資の効率化
+
+Managed Agentsにより、以下のような本質的な価値創造活動に時間を配分できます：
+
+### ビジネスルール設計の深掘り
+
+- 製造現場の判断基準を言語化し、エージェントの制約条件として定義
+- 業界規制（品質管理基準、トレーサビリティ要件）の正確な実装
+- 現場知見の形式知化と継続的改善ループ
+
+### エージェント振る舞いの検証と最適化
+
+- 「この判定基準で間違いないか」という業務側との対話
+- 新しい運用パターンへの迅速な適応
+- A/Bテスト（異なるビジネスルール）による効果測定
+
+## 実装チェックリスト
+
+Managed Agentsの互換性設計を活用する際の確認項目：
+
+- [ ] ビジネスロジック層が、具体的なツール呼び出しに依存していない
+- [ ] エージェント定義が設定ファイル（YAML/JSON）で管理可能な形式になっている
+- [ ] モデル更新時の検証テストがワークフロー化されている
+- [ ] フォールバック戦略（複数モデルの並行利用）が設計されている
+- [ ] エージェントの実行ログが集約され、モデルごとの性能差を追跡可能
+- [ ] 運用チーム向けの「モデル更新ガイド」が整備されている
+
+## 関連ページ
+
+- [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md)
+- [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md)
+- [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md)
+- [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md)
+- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md)
+- [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md)
+- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)
+- [Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化](claude-code-configuration-driven-workflow.md)
+- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md)
+- [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md)
+- [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md)
+- [Skillテスト戦略：トリガー・機能・パフォーマンス検証の3段階](skill-testing-strategy.md)
+- [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md)
+- [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md)
+
+## 更新履歴
+
+| 日付 | 更新内容 |
+|------|---------|
+| 2024-01-15 | 初版作成。モデル互換性設計の3層構造、実装パターン、経済的効果を記載 |
+| 2024-01-15 | 「ドメイン専門知識への投資の効率化」セクション追加、実装チェックリスト追加 |

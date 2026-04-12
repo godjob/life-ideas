@@ -73,4 +73,55 @@ AI導入前に、[AI導入前の先制的業務フロー最適化：スムーズ
 
 ### フェーズ2：Managed Agentsによるパイロット導入
 
-[Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md)に基づいて、簡潔なエージェントから段階的に導入を進める。複数拠点での運用を想定し、[リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限
+[Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md)に基づいて、簡潔なエージェントから段階的に導入を進める。複数拠点での運用を想定し、[リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制](remote-agent-session-sharing-multi-user-operations.md)を活用した権限管理の仕組みを構築する。
+
+### フェーズ3：マルチエージェント統合と誤り蓄積対策
+
+検品・在庫管理・受発注の各プロセスを独立したエージェントで実装した後、[マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md)に基づいて統合パイプラインを構築する。各段階でのチェックポイント機能により、誤り蓄積を防止し、長期連続運用の信頼性を確保する。
+
+### フェーズ4：エージェントハーネスの導入と監視体制の構築
+
+[エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md)に基づいて、エージェントの状態監視、異常検知、自動復旧の仕組みを実装する。同時に、[AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md)に基づいて、継続的な運用改善サイクルを確立する。
+
+### フェーズ5：バックオフィス自動化の統合
+
+2026年7月のAI Cowork提供開始に向けて、[バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md)に基づいた経理・労務プロセスの自動化準備を並行して進める。検品・在庫・受発注の自動化で得られた運用ノウハウを、バックオフィス業務にも適用することで、全社的な属人化排除と標準化が実現できる。
+
+## 具体的な効果測定指標
+
+- **検品プロセス**：人時削減率、誤検出率、検品所要時間
+- **在庫管理**：過剰在庫コスト削減率、欠品発生頻度、在庫回転率改善度
+- **受発注プロセス**：発注リードタイム短縮率、発注誤りゼロ達成度、需要予測精度
+- **全体システム**：エージェント稼働率、エラー発生頻度、システム改善までの対応時間
+- **経営指標**：事務作業工数削減率、意思決定期間短縮度、ボトルネック解消数
+
+## 推論インフラ投資計画
+
+推論時代への移行に伴い、GPUインフラの選択が重要になる。[推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md)に基づいて、以下の複数選択肢を並行検討すべき：
+
+- **NVIDIA GPU**：広い対応スタックと実績が豊富
+- **推論特化型チップ（Groq等）**：推論特化による低コスト・低レイテンシ
+- **クラウドベース推論サービス**：Managed Agentsのようなマネージド型サービスの活用による運用負荷軽減
+
+ベンダーロックイン回避を組織戦略に組み込み、複数ベンダーの評価と段階的な採用を進めることで、長期的な競争力維持が可能になる。
+
+## 関連ページ
+
+- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md)
+- [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md)
+- [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md)
+- [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md)
+- [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md)
+- [リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制](remote-agent-session-sharing-multi-user-operations.md)
+- [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md)
+- [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md)
+- [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md)
+- [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md)
+- [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md)
+- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md)
+
+## 更新履歴
+
+- 2026年1月：Claude Managed Agents提供開始に基づいた実装戦略の全体改訂
+- 2025年12月：推論インフラ投資計画セクション追加
+- 2025年11月：フェーズベース実装戦略の構造化

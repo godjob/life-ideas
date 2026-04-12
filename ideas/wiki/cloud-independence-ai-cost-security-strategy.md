@@ -131,4 +131,62 @@ Google がGemma 4のオンプレミス実行を積極的に推奨する背景：
 
 ## 関連ページ
 
-- [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレ
+- [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミス環境構築ガイド](local-llm-deployment-architecture.md)
+- [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md)
+- [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md)
+- [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md)
+- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md)
+- [効率配当制度：自動化削減分の労働者還元と週32時間制の実装](automation-efficiency-dividend-work-reduction.md)
+- [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md)
+- [段階的情報開示による効率化](progressive-disclosure-pattern.md)
+- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)
+- [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md)
+- [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md)
+- [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md)
+- [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md)
+- [QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用](qms-style-ai-prompt-governance.md)
+- [ワークフローのSkill化：業務手順の標準化と共有](workflow-skill-definition.md)
+- [声と電話によるAIインターフェース：直感的なチェックインと生活統合](voice-phone-ai-interface.md)
+
+## 実装チェックリスト
+
+導入担当者向けの確認項目：
+
+- [ ] **セキュリティレビュー完了**：ネットワーク隔離、ファイアウォール設定、データアクセス権限
+- [ ] **ハードウェア調達確定**：GPU種別（T4 vs A100）、メモリ要件、ストレージ容量見積
+- [ ] **ライセンス確認**：採用モデルのオンプレミス実行許可、OSS依存関係の法務確認
+- [ ] **運用ガイドライン作成**：プロンプト管理、バージョン管理、障害対応手順
+- [ ] **教育実施計画**：非エンジニア向けのUI操作研修、トラブルシューティング訓練
+- [ ] **監視基盤構築**：ログ収集、メトリクス監視、アラート設定
+- [ ] **ロールバック手順確立**：モデル更新失敗時の復旧手順、バックアップ戦略
+
+## 更新履歴
+
+| 版 | 日付 | 変更内容 |
+|---|------|--------|
+| 1.0 | 2025-01-15 | 初版作成。三層構成モデル、製造業適用例、コスト構造分析、セキュリティ対応を記載 |
+| 1.1 | 2025-02-20 | ベンダー戦略セクション追加、Google Gemmaの戦略的意義を詳述 |
+| 1.2 | 2025-03-10 | リスク管理と適用除外ケースを拡充、実装チェックリスト追加 |
+
+## 付録：クイックスタートガイド
+
+### 5分で始めるローカルAI環境
+
+**環境要件：** Windows 11/macOS/Linux、8GB RAM以上、インターネット接続
+
+```bash
+# 1. Ollamaインストール
+# https://ollama.ai からダウンロード、実行ファイル起動
+
+# 2. モデルダウンロード（初回のみ3～5分）
+ollama pull gemma:7b
+
+# 3. ローカルサーバー起動（自動起動）
+# http://localhost:11434 でAPI利用可能
+
+# 4. Streamlit UIで簡単インターフェース構築
+pip install streamlit
+streamlit run app.py
+```
+
+このシンプルなセットアップにより、**IT部門の支援なしに現場レベルでAI導入が可能**になる。初期導入から本格運用への段階的拡張も、同じOllamaベースで統一的に管理できる。
