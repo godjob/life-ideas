@@ -84,8 +84,8 @@ AI取締役会はあくまで「意思決定の支援機構」であり、以下
 
 - [Skill System](skill-system.md)
 - [AI専門家アンサンブル・プロンプティング](ai-expert-ensemble-prompting.md)
-- [経営意思決定フレームワーク](keiei-ishikettei-framework.md)
-- [マルチモデル統合戦略](multi-model-integration.md)
+- [経営意思決定フレームワーク](ai-ceo-delegation-protocol.md)
+- [マルチモデル統合戦略](ai-agent-operations.md)
 
 ## 更新履歴
 - 2026-03-15: AI取締役会による意思決定

@@ -137,7 +137,7 @@ AIが複雑性の直感を獲得する場合、従来の「手順に従ってい
 
 - [AI取締役会による意思決定：複数モデルの意見統合と人間判断](ai-board-decision-making.md): 複数AI間の合意検証メカニズムによるリスク軽減
 - [Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](managed-agents-model-update-compatibility-design.md): AIモデル更新時の予期しない動作変化への対策
-- [Claude Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](claude-managed-agents-compatibility-design.md): 実装レベルでの互換性確保戦略
+- [Claude Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](managed-agents-model-update-compatibility-design.md): 実装レベルでの互換性確保戦略
 - [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md): AI時代に必須となるエンジニアスキル
 - [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md): AIを統合・管理する新しい専門職
 - [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md): キャリア転換における価値創造の方向性

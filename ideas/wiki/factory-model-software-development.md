@@ -75,8 +75,8 @@ Factory Modelの継続的改善には、以下の指標が重要である：
 
 - [Agentic Engineering の監督者モデル](agentic-engineering-supervisor-model.md)
 - [AI時代の働き方の逆転](ai-era-work-inversion.md)
-- [CI/CDパイプライン設計](ci-cd-pipeline-design.md)
-- [自動テスト戦略](automated-testing-strategy.md)
+- [CI/CDパイプライン設計](factory-model-software-development.md)
+- [自動テスト戦略](skill-testing-strategy.md)
 
 ## 更新履歴
 - 2026-03-15: git scrap からの気づき（26/03/15）

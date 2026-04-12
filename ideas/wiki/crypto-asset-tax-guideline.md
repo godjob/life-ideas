@@ -72,9 +72,9 @@
 ## 関連ページ
 
 - [BTC vs JPYC：円安時代の資産配分戦略](btc-jpyc-asset-allocation.md)
-- [ステーブルコイン比較：JPYCとUSDTの選択](stablecoin-comparison.md)
-- [LINEウォレット統合ガイド](line-wallet-integration.md)
-- [暗号資産の所得分類と税率](cryptocurrency-income-classification.md)
+- [ステーブルコイン比較：JPYCとUSDTの選択](stablecoin-tax-comparison.md)
+- [LINEウォレット統合ガイド](ai-era-work-inversion.md)
+- [暗号資産の所得分類と税率](crypto-asset-tax-guideline.md)
 
 ## 更新履歴
 - 2026-03-11: [アイデア・応用](https://x.com/ryanmbtc/status/2029111920993943970)

@@ -57,9 +57,9 @@
 ## 関連ページ
 
 - [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md)
-- [データ統合プラットフォームの選定基準](data-integration-platform-selection.md)
-- [製造業DXの成功パターン](manufacturing-dx-success-patterns.md)
-- [IoTデータの標準化と相互運用性](iot-data-standardization.md)
+- [データ統合プラットフォームの選定基準](data-integration-visualization-manufacturing-application.md)
+- [製造業DXの成功パターン](manufacturing-ai-opportunities.md)
+- [IoTデータの標準化と相互運用性](document-format-conversion-markdown-standardization.md)
 
 ## 更新履歴
 - 2026-03-29: [動画要約：【最恐】高市首相に近づく、ヤバい「軍事AI企業」の正体](https://www.youtube.com/watch?v=YwhPLUcj0n0)

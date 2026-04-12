@@ -171,9 +171,9 @@ Claudeの判定精度は、descriptionの具体性に直結する。抽象的な
 ## 関連ページ
 
 - [descriptionフィールドの最適化](description-field-best-practices.md)
-- [スキル設計の基本原則](skill-design-fundamentals.md)
-- [エッジケースの特定方法](edge-case-identification.md)
-- [ドキュメント作成ガイドライン](documentation-guidelines.md)
+- [スキル設計の基本原則](llm-api-rag-deployment-fundamentals.md)
+- [エッジケースの特定方法](skill-md-specification.md)
+- [ドキュメント作成ガイドライン](crypto-asset-tax-guideline.md)
 
 ## 更新履歴
 - 2026-03-18: Claude Code スキルの設計知見（Thariq氏 / Anthropic

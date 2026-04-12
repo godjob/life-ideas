@@ -107,9 +107,9 @@
 
 - [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md)
 - [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md)
-- [習慣形成の心理学：三日坊主の仕組みと長期的習慣化への道](habit-formation-psychology.md)
-- [人生100年時代のキャリア設計：複線的なスキル開発戦略](multi-track-career-design.md)
-- [朝の時間管理戦略：4時起床による認知機能の最適化](morning-time-management-strategy.md)
+- [習慣形成の心理学：三日坊主の仕組みと長期的習慣化への道](daily-habit-routine-design-productivity-multiplication.md)
+- [人生100年時代のキャリア設計：複線的なスキル開発戦略](ai-manager-role-transition-code-craftsman.md)
+- [朝の時間管理戦略：4時起床による認知機能の最適化](daily-habit-routine-design-productivity-multiplication.md)
 
 ## 更新履歴
 - 2026-04-04: [【山口周×田中渓】中年の危機は“中年の好機”／田中渓の価値観を変えた2つの転機／](https://www.youtube.com/watch?v=Qu3xIw_04PA)

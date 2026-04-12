@@ -85,10 +85,10 @@ AI分析から得られた改善案を実装し、その効果を新たなデー
 ## 関連ページ
 
 - [ドメイン専門知識とAIの境界設計](domain-expertise-ai-boundary-design.md)
-- [量的自己記録（Quantified Self）の実践](quantified-self-practice.md)
-- [複数視点分析とアンサンブル手法](ensemble-analysis-methods.md)
-- [個人のLife OS構築](personal-life-os.md)
-- [AI投資の価値測定](ai-value-measurement.md)
+- [量的自己記録（Quantified Self）の実践](quantified-self-ai-feedback-loop.md)
+- [複数視点分析とアンサンブル手法](ai-expert-ensemble-prompting.md)
+- [個人のLife OS構築](personal-os-operating-system.md)
+- [AI投資の価値測定](ai-agent-token-metrics-career-leverage.md)
 
 ## 更新履歴
 - 2026-03-14: AI×ランニングデータ分析の可能性
