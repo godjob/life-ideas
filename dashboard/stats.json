@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-13T11:29:38+09:00",
+  "generatedAt": "2026-04-13T11:36:41+09:00",
   "weekly": {
-    "commitCount": 222,
+    "commitCount": 229,
     "byDay": [
       {
         "date": "2026-04-07",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-13",
-        "count": 33
+        "count": 40
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 282
+    "other": 289
   },
   "recentCommits": [
     {
       "date": "2026-04-13",
-      "message": "scrap: 2026-04-13 Xユーザーのminicoohei.ethさん: 「"
+      "message": "wiki: インデックスページに登録日・更新日列を追加し更新日降順ソート"
     },
     {
       "date": "2026-04-13",
@@ -52,11 +52,11 @@
     },
     {
       "date": "2026-04-13",
-      "message": "fix: YouTube複数URL処理 - 1ファイルにN件URLがある場合も全件個別処理するよう修正"
+      "message": "dashboard: Claude使用量更新 (2026-04-13)"
     },
     {
       "date": "2026-04-13",
-      "message": "scrap: 2026-04-13 【世界のエリートは暇人が多い】働いている人が「時間"
+      "message": "dashboard: Claude使用量更新 (2026-04-13)"
     },
     {
       "date": "2026-04-13",
