@@ -5,12 +5,19 @@
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
 | [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md) | 26/04/13 | 26/04/13 | AI利用コストの削減は、モデル選択やアーキテクチャ設計よりも、プロンプト工夫とトークン消費最適化にある。Cavemanテ |
+| [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md) | 26/04/13 | 26/04/13 | 機械学習理論の深掘りや教科書的な学習に時間を費やすのではなく、「実際に動くものを作る」ことに集中することが、AIエンジニ |
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | 26/04/13 | 26/04/13 | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |
+| [AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md) | 26/04/13 | 26/04/13 | AIシステムの本番運用では、LLMの推論コスト、レイテンシ、エラー率といった指標の可視化が不可欠です。Langfuseな |
+| [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md) | 26/04/13 | 26/04/13 | 「As Little AI As Possible」原則は、AIを万能解と見なさず、既存ロジック・ルールベースシステムと |
 | [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md) | 26/04/09 | 26/04/13 | Claude Managed Agentsは、Anthropicが提供するクラウドホスト型エージェント構築・デプロイメン |
+| [プロンプトエンジニアリングのコモディティ化と差別化要因としてのシステムアーキテクチャ設計](commodity-prompt-engineering-vs-architecture-differentiation.md) | 26/04/13 | 26/04/13 | 2026年以降のAIエンジニアに求められるスキルの中心は、プロンプトエンジニアリングから**システムアーキテクチャ設計* |
+| [エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル](edge-ai-system-design-production-skills.md) | 26/04/13 | 26/04/13 | 2026年のAIエンジニアに求められるコアスキルは、プロンプトエンジニアリングではなく、エッジデバイス上でのAI推論シス |
 | [エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略](executive-time-arbitrage-asset-building-strategy.md) | 26/04/13 | 26/04/13 | 世界のエリートが高い時給を得ていながら「暇人」である理由は、年収を資産価値に転換する時間裁定戦略を実行しているためである |
 | [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 26/04/13 | 26/04/13 | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
 | [レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化](legacy-harness-platform-api-migration-pattern.md) | 26/04/13 | 26/04/13 | 複雑な自作ハーネスをプラットフォーム型APIに統一することで、セキュリティ・オブザーバビリティ・運用負荷の大幅な簡素化が |
+| [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md) | 26/04/13 | 26/04/13 | 機械学習理論よりも「実際に動くものを作る6つのスキル」に集中することが、AIエンジニアとしての最短成長経路である。LLM |
 | [LLM Wiki コンセプト](llm-wiki-concept.md) | 26/03/08 | 26/04/13 | Andrej Karpathyが提唱する「LLMをWikiの維持者として使う」知識管理パターン。 |
+| [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md) | 26/04/13 | 26/04/13 | ローカルLLMデプロイメント・アーキテクチャは、Ollama や OpenClaw といったオープンソースツールを活用し |
 | [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md) | 26/04/13 | 26/04/13 | Claude Managed Agentsは複雑な自作ハーネスを一本のAPI統一でき、セキュリティとオブザーバビリティが |
 | [Wiki スキーマ定義](schema.md) | 26/04/13 | 26/04/13 | `ideas/wiki/` ディレクトリの運用ルール・ページ構造・品質基準を一元定義するスキーマ文書。 |
 | [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md) | 26/04/13 | 26/04/13 | 日本の人口減少と労働力不足により、既存システムの陳腐化が加速する時代において、「指示待ち人間」では確実に競争力を失う。自 |
@@ -19,7 +26,6 @@
 | [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md) | 26/04/12 | 26/04/12 | AI導入における最大の障壁は、技術的な複雑さではなく、ユーザーの心理的抵抗感にある。特に「ターミナル（黒い画面）への恐怖 |
 | [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md) | 26/04/12 | 26/04/12 | Capability Overhangとは、AIモデルが持つ実際の能力と、ユーザーが実際に活用できている能力の間の深刻な |
 | [意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証](decision-fatigue-sop-standardization-cognitive-load-reduction.md) | 26/04/12 | 26/04/12 | 意思決定疲労（Decision Fatigue）は、1日を通じた複数の判断により心理的エネルギーが消耗し、判断力が低下す |
-| [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md) | 26/04/12 | 26/04/12 | 機械学習理論よりも「実際に動くものを作る6つのスキル」に集中することが、AIエンジニアとしての最短成長経路である。LLM |
 | [PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ](local-pglite-sensitive-data-management.md) | 26/04/12 | 26/04/12 | PGLiteはPostgreSQLのローカル環境実装であり、外部クラウドサーバーへのデータ送信を回避しながら、機密性の高 |
 | [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md) | 26/04/12 | 26/04/12 | SaaS企業の成長戦略において、ユーザーオンボーディングに「適切な摩擦」を設計することが継続利用と機能活用につながる重要 |
 | [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md) | 26/04/11 | 26/04/11 | シンギュラリティループとは、AIが自身の性能向上を自律的に加速させるメカニズムのことである。AIが改善提案を生成し、それ |
@@ -38,7 +44,6 @@
 | [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md) | 26/04/08 | 26/04/08 | AIエージェントを24時間稼働させて運用を自動化できる人材へのキャリア転換は、2026年以降の生き残り戦略となりつつある |
 | [Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計](claude-chat-claude-code-workflow.md) | 26/04/08 | 26/04/08 | Claude ChatとClaude Codeは異なる強みを持つツールであり、明確な役割分担によって初めて真価を発揮しま |
 | [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md) | 26/04/08 | 26/04/08 | Claude Code Agent Teamsは、複数のAIエージェントを協調させて、より複雑なタスクを実行するフレーム |
-| [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md) | 26/04/12 | 26/04/08 | ローカルLLMデプロイメント・アーキテクチャは、Ollama や OpenClaw といったオープンソースツールを活用し |
 | [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md) | 26/04/08 | 26/04/08 | エンジニアリングスキルがなくても、AIとの協働によってツール開発を実現し、継続的に改善していくことは可能です。このページ |
 | [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md) | 26/04/08 | 26/04/08 | Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除する「Caveman」プロンプトテクニックにより、 |
 | [AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止](ai-labor-policy-governance-framework.md) | 26/04/07 | 26/04/07 | AI革命による自動化の恩恵を社会全体に広く共有し、雇用喪失と権力集中のリスクを適切に管理するためには、民主的ガバナンス、 |
@@ -114,7 +119,6 @@
 | [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md) | - | - | AIエージェントがCLI経由でシステムを自律操作し、ログ確認や定期メンテナンスなどのルーティン作業を自動化するパターンで |
 | [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md) | - | - | 製造業、特にコイルセンターなどの素材加工業における検品・在庫管理・受発注プロセスは、いまだ電話・ファックス・スプレッドシ |
 | [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md) | - | - | AI技術の急速な性能向上に伴い、一定の能力水準に達したモデルの公開可否を判断するフレームワークが必要となっている。Ant |
-| [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md) | - | - | 機械学習理論の深掘りや教科書的な学習に時間を費やすのではなく、「実際に動くものを作る」ことに集中することが、AIエンジニ |
 | [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | - | - | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
 | [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md) | - | - | AI時代のシステム管理では、自動化ツールの効率性に依存しながらも、生成結果の妥当性を判断する責任が人間に集中し、「AI疲 |
 | [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md) | - | - | AI モデルの導入決定時には、機能性や性能だけでなく、ライセンス条件が法務リスク と導入スケジュール に直結する。特に製 |

@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/13 | - | AI, LLM, Development, Learning, Tools | [2026年 AIエンジニアロードマップ](https://github.com/daveebbelaar/ai-cookbook/blob/main/roadmaps/ai-engineer-2026.md) | 2026年のAIエンジニア向けロードマップで、Python基礎からLLM、RAG、エージェント、本番運用まで6ステップで体系化。「as little AI as possible」原則に基づき、必要最小限のAI活用を重視している。 |
+| 26/04/13 | - | AI, LLM, Development, Career, Learning | [XユーザーのRohitさん: 「the 2026 ai engineer roadmap」 / X](https://x.com/rohit4verse/status/2009663737469542875) | 2026年のAIエンジニアが身につけるべきスキルは、プロンプトエンジニアリングではなく、エッジAI・メモリ管理・ローカル推論などを含むシステム設計能力であり、その習得のための5段階のプロダクショングレードプロジェクト例が提示されている。 |
 | 26/04/13 | - | AI, ClaudeCode, Development, Tools, Business | [Xユーザーのminicoohei.ethさん: 「Claude のManged Agentsに、土日で俺俺ハーネスを移植してみたら、法人向けにはこれだなって感じた話」 / X](https://x.com/minicoohei/status/2043391470376493515) | 開発者がClaudeのManaged Agents APIを導入し、複雑な自作ハーネスをAPI一本に統一。セキュリティとオブザーバビリティが大幅に簡素化される一方、コストが課題となるトレードオフを経験。 |
 | 26/04/13 | - | Career, Learning, Business, Productivity, Management | [【世界のエリートは暇人が多い】働いている人が「時間」を作るには？／自分を守ってくれるのは年収ではなく「資産」／エグゼクティブエデュケーションという投資／楽しく学ぶコツ](https://www.youtube.com/watch?v=LqmXkRqYIiE) | 世界のエリートは時間を効率的に使い、年収より資産形成を重視し、自己投資を最優先にしている。会社員も業務の再定義と不要な承諾を減らすことで、時間を生み出し学習や成長の機会を掴める。 |
 | 26/04/13 | - | Learning, Business, Management | [【日本人が知らない世界のエリートの学び方】地政学とは／物語（ナラティブ）のパワー／AI時代に好奇心が必要な理由／アンラーンとは／スーパーエリートが集う「問いを立てる会」／田村耕太郎](https://www.youtube.com/watch?v=GjxE7LMUy1c) | シンガポール国立大学教授の田村耕太郎氏が、地政学、ナラティブ（物語）の力、AI時代の学び方など、世界のエリートが実践する学習方法を解説する。 |

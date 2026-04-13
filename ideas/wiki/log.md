@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-04-13] ingest | 2026年 AIエンジニアロードマップ
+- 更新ページ: [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md), [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md), [AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md)
+- 出典: [2026年 AIエンジニアロードマップ](https://github.com/daveebbelaar/ai-cookbook/blob/main/roadmaps/ai-engineer-2026.md)
+
+## [2026-04-13] ingest | XユーザーのRohitさん: 「the 2026 ai engineer roadmap」 / X
+- 更新ページ: [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md), [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md), [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md), [エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル](edge-ai-system-design-production-skills.md), [プロンプトエンジニアリングのコモディティ化と差別化要因としてのシステムアーキテクチャ設計](commodity-prompt-engineering-vs-architecture-differentiation.md)
+- 出典: [XユーザーのRohitさん: 「the 2026 ai engineer roa](https://x.com/rohit4verse/status/2009663737469542875)
+
 ## [2026-04-13] ingest | Xユーザーのminicoohei.ethさん: 「Claude のManged Agentsに、土日
 - 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md), [レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化](legacy-harness-platform-api-migration-pattern.md)
 - 出典: [Xユーザーのminicoohei.ethさん: 「Claude のManged ](https://x.com/minicoohei/status/2043391470376493515)

@@ -48,6 +48,10 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **既存資産の活用と段階的移行**：新技術導入時に既存資産（Skillsなど）を新プラットフォームで活用できる設計が重要。[レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md)により、移行期間の無駄を最小化し、段階的な最適化を可能にすることで、組織全体の変化抵抗を軽減する
 
+- **必要最小限のAI活用原則**：~~AIは万能解である~~ → [As Little AI As Possible原則](as-little-ai-as-possible-principle.md)に基づき、AIが必要な部分と従来ロジック・ルールベースシステムで十分な部分を見極める設計思想が重要である。製造現場でも、すべてのプロセスをAI化するのではなく、確定的な判断が必要な部分は従来手法で堅牢に、不確実性が高い部分にAIを活用する選別が有効
+
+- **本番運用における監視とコスト可視化の必須性**：[AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md)により、本番環境でのトークン消費・API呼び出し・エラー率を継続的に追跡することで、システムの安定性を保ちながらコスト最適化を実現できる。Langfuseなどのモニタリングツール導入は、システム管理者の視点では予測可能性と管理性を確保するための必須要件
+
 ## 設計の3つの柱
 
 ### 1. 信頼性設計
@@ -66,7 +70,7 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 - **リアルタイム監視ダッシュボード**：エージェント実行のすべてのステップをトレーサビリティ付きで記録
 - **異常検知アラート**：信頼度低下・エラーレート上昇・予期しない状態遷移を即座に通知
 - **エラーログの自動分類**：[AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md)を蓄積し、再発防止に活用
-- **パフォーマンスメトリクス**：トークン消費量・実行時間・成功率を定量追跡
+- **パフォーマンスメトリクス**：~~トークン消費量・実行時間・成功率を定量追跡~~ → [Langfuseなどのモニタリングツール](ai-system-monitoring-cost-visibility-tools.md)を活用してトークン消費量・API呼び出し・実行時間・成功率を継続的に定量追跡し、本番環境の予測可能性を確保
 - **クラウドホスト統合**：[Claude Managed Agents](claude-managed-agents-cloud-deployment.md)の監視機能を活用して、分散運用でも一元管理
 - **コスト可視化**：[Managed Agentsのコスト最適化](managed-agents-cost-optimization-gtm-strategy.md)に基づき、トークン消費と実行成果の関連性を継続的に監視し、効率性を追跡
 
@@ -88,28 +92,34 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **投資判断の性能対効果化**：トークン単価の上昇に伴い、[AI予算管理とROI最適化](ai-budget-management-roi-optimization.md)による厳密なコスト評価が従来以上に重要になる。軽量モデルから段階導入し、実績値に基づいて拡大判断する運用が現実的
 
-- **プラットフォームAPI統一と運用効率化**：複雑な自作ハーネスの維持よりも[信頼できたプラットフォームAPIへの統一](managed-agents-cost-optimization-gtm-strategy.md)で、セキュリティと監視機構の運用負荷を大幅削減。段階導入により既存資産を活用しながら移行
+- **プラットフォームAPI統一と運用効率化**：複雑な自作ハーネスの維持よりも[信頼できるプラットフォームAPI](claude-managed-agents-cloud-deployment.md)への段階的移行により、セキュリティ・オブザーバビリティ・監視機構の運用負荷が大幅に削減される。同時に[Langfuseなどのモニタリングツール](ai-system-monitoring-cost-visibility-tools.md)により、本番環境での可視性が向上し、予測可能な運用を実現
+
+- **AIと従来システムの適切な使い分け**：[As Little AI As Possible原則](as-little-ai-as-possible-principle.md)に基づき、すべてのプロセスをAI化するのではなく、確定的な判断が必要な部分は従来ロジック・ルールベースシステムで堅牢に構築し、不確実性が高い部分にのみAIを活用する選別設計が有効
+
+- **過度な保守的設計の排除**：コンテキスト不安のような過度な保守的設計は柔軟性を奪い、後の改善を阻む可能性がある。[システム能力向上による『死に掛けたコード』](legacy-code-debt-system-capability-mismatch.md)を定期的に検出し、不要な複雑性を積極的に削除することで、長期運用の効率性を維持
 
 ## 関連ページ
 
-- [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md): マネージドサービス型の具体的な実装パターン
-- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md): 信頼性確保の制御・監視基盤
-- [長期連続稼働AIエージェント設計](long-running-ai-agent-design-patterns.md): 製造業での1ヶ月以上の自律運用パターン
-- [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md): 段階導入の具体的戦略
-- [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md): ライセンス管理の実装
-- [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md): 権限管理の設計パターン
-- [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md): 自動化の実装例
-- [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md): セキュリティ監査の方法論
-- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md): 失敗からの学習メカニズム
-- [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md): 複雑な自動化の信頼性確保
-- [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md): セッション管理の実装
-- [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md): 長期的な耐性設計
-- [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md): 技術負債の管理
-- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md): キャリア転換の方向性
-- [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md): コスト管理の手法
-- [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md): プラットフォーム統一のコスト戦略
-- [レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化](legacy-harness-platform-api-migration-pattern.md): 移行の実装パターン
+- [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md): クラウドホスト型エージェント統合APIによるデプロイメント時間削減と本番環境対応
+- [Claude Managed Agents セッション再接続と永続エージェント設計](claude-managed-agents-session-resilience.md): Session ID再接続とイベント二重取得による長期運用
+- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md): AIエージェント長期運用の制御・監視基盤の実装パターン
+- [長期連続稼働AIエージェント設計](long-running-ai-agent-design-patterns.md): 1ヶ月以上の自律運用と推論最適化パターン
+- [レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md): 既存資産を活用した段階的な最適化
+- [マルチエージェントパイプラインのエラーハンドリングとチェックポイント](multi-agent-pipeline-error-handling-checkpoint.md): 複数エージェント運用における信頼性確保の実装パターン
+- [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md): グローバル工場向けモデル選択と段階導入
+- [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md): モデル活用時の法的リスク管理
+- [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md): 権限管理とセキュリティ設計の実装事例
+- [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md): 自律的なシステム操作の自動化パターン
+- [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md): AIの高度化に伴う予防的セキュリティ戦略
+- [Managed Agentsのコスト最適化とGTM戦略](managed-agents-cost-optimization-gtm-strategy.md): スケール時のコスト最適化と戦略的な構成選択
+- [Managed Agentsのインターフェース分離設計](managed-agents-interface-decoupling-design.md): モデル改善に伴う前提無効化への耐性設計
+- [システム能力向上による『死に掛けたコード』](legacy-code-debt-system-capability-mismatch.md): 古い前提に基づく設計債務の定期的な検出と削除
+- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md): 失敗から学ぶ仕組みの構築
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md): システムエンジニアのキャリア転換と役割再定義
+- [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md): AI導入時の厳密なコスト評価とROI分析
+- [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md): 必要最小限のAI活用による実装効率化
+- [AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md): 本番環境での監視とコスト可視化ツール活用
 
 ## 更新履歴
 
-- 2026-04-13: [Xユーザーのminicoohei.ethさんの投稿](https://x.com/minicoohei/status/2043391470376493515)を追加。プラットフォームAPI統一によるセキュリティ・オブザーバビリティ簡素化とコスト構造の変化、既存資産活用の重要性を反映
+- 2026-04-13: [2026年 AIエンジニアロードマップ](https://github.com/daveebbelaar/ai-cookbook/blob/main/roadmaps/ai-engineer-2026.md)に基づき、「as little AI as possible」原則、Langfuseなどのモニタリングツール導入、RAG技術の製造業応用についての記述を追加。本番運用における可観測性とコスト管理の重要性を強調
