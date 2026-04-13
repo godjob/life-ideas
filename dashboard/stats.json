@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-13T08:37:51+09:00",
+  "generatedAt": "2026-04-13T09:31:13+09:00",
   "weekly": {
-    "commitCount": 213,
+    "commitCount": 219,
     "byDay": [
       {
         "date": "2026-04-07",
@@ -29,26 +29,26 @@
       },
       {
         "date": "2026-04-13",
-        "count": 24
+        "count": 30
       }
     ]
   },
   "byDirectory": {
-    "scrap": 20,
+    "scrap": 22,
     "ideas": 3,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 276
+    "other": 280
   },
   "recentCommits": [
     {
       "date": "2026-04-13",
-      "message": "dashboard: Claude使用量更新 (2026-04-13)"
+      "message": "scrap: 2026-04-13 【世界のエリートは暇人が多い】働いている人が「時間"
     },
     {
       "date": "2026-04-13",
-      "message": "wiki: LLM Wiki v2採用4件を実装（Broken Link自動修正・Supersession・品質チェック・Schema）"
+      "message": "dashboard: Claude使用量更新 (2026-04-13)"
     },
     {
       "date": "2026-04-13",
