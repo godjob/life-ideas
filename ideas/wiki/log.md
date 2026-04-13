@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-13] ingest | 【世界のエリートは暇人が多い】働いている人が「時間」を作るには？／自分を守ってくれるのは年収ではなく
+- 更新ページ: [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md), [エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略](executive-time-arbitrage-asset-building-strategy.md), [タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク](task-delegation-automation-decision-framework.md)
+- 出典: [【世界のエリートは暇人が多い】働いている人が「時間」を作るには？／自分を守ってく](https://www.youtube.com/watch?v=LqmXkRqYIiE)
+
 ## [2026-04-13] ingest | 【日本人が知らない世界のエリートの学び方】地政学とは／物語（ナラティブ）のパワー／AI時代に好奇心が
 - 更新ページ: [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md), [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md)
 - 出典: [【日本人が知らない世界のエリートの学び方】地政学とは／物語（ナラティブ）のパワー](https://www.youtube.com/watch?v=GjxE7LMUy1c)

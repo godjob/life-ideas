@@ -62,6 +62,7 @@
 | [ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上](document-format-conversion-markdown-standardization.md) | 製造業や企業環境に散在するPDF、Word、Excel、PowerPoint等の複数形式ドキュメントをMarkdown形 |
 | [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md) | AIの価値は「技術的な優秀さ」ではなく「実務的な正しさ」にある。現場の専門知識を持つ人間が「何を自動化すべきか」「何を人 |
 | [エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md) | エンバイロメント・エンジニアリングとは、AIが動きやすい環境を整えるための専門職能である。サーバー、ネットワーク、システ |
+| [エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略](executive-time-arbitrage-asset-building-strategy.md) | 世界のエリートが高い時給を得ていながら「暇人」である理由は、年収を資産価値に転換する時間裁定戦略を実行しているためである |
 | [The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理](factory-model-software-development.md) | The Factory Modelは、製造業における自動アセンブリラインの効率化原理をソフトウェア開発に適用する管理思想 |
 | [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md) | Gemma 4の140言語対応と音声・動画入力機能は、グローバル工場の多言語マニュアル化やライン監視カメラの異常検知自動 |
 | [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
@@ -124,6 +125,7 @@
 | [スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替](spacex-defense-infrastructure-strategy.md) | スペースXが2兆ドル企業評価に達した本質は、ロケット製造企業から防衛インフラ企業への転換にある。ウクライナ戦争でスターリ |
 | [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md) | 「速さが命題」とは、完全な検討や計画より先にプロトタイプを実装・実行する姿勢のことである。社内ポータルシステムの改善提案 |
 | [ステーブルコイン税務比較：JPYC vs USDT日本における法的扱いの違い](stablecoin-tax-comparison.md) | 日本において、同じ「ステーブルコイン」であっても法的扱いが大きく異なるため、税務上の取り扱いも真逆になる場合がある。JP |
+| [タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク](task-delegation-automation-decision-framework.md) | 世界のエリートが時間的余裕を生み出せるのは、「これは自分にしかできない」という思い込みを定期的に検証し、委譲や自動化で対 |
 | [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md) | 健康管理や運動といった個人的な活動を、単なる生活習慣ではなく「時間資本を人的資本に変換する自己投資」として捉え直すことで |
 | [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md) | アンラーン能力とは、既存の知識や方法論を意識的に手放し、新しい問いを立てる能力を指します。AI時代において、過去の経験や |
 | [声と電話によるAIインターフェース：直感的なチェックインと生活統合](voice-phone-ai-interface.md) | 従来のテキストベースのAIインターフェースに「声」と「電話」を組み込むことで、より直感的で自然なチェックインが可能になる |
