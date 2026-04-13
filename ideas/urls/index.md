@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/13 | - | AI, ClaudeCode, Development, Tools, Business | [Xユーザーのminicoohei.ethさん: 「Claude のManged Agentsに、土日で俺俺ハーネスを移植してみたら、法人向けにはこれだなって感じた話」 / X](https://x.com/minicoohei/status/2043391470376493515) | 開発者がClaudeのManaged Agents APIを導入し、複雑な自作ハーネスをAPI一本に統一。セキュリティとオブザーバビリティが大幅に簡素化される一方、コストが課題となるトレードオフを経験。 |
 | 26/04/13 | - | Career, Learning, Business, Productivity, Management | [【世界のエリートは暇人が多い】働いている人が「時間」を作るには？／自分を守ってくれるのは年収ではなく「資産」／エグゼクティブエデュケーションという投資／楽しく学ぶコツ](https://www.youtube.com/watch?v=LqmXkRqYIiE) | 世界のエリートは時間を効率的に使い、年収より資産形成を重視し、自己投資を最優先にしている。会社員も業務の再定義と不要な承諾を減らすことで、時間を生み出し学習や成長の機会を掴める。 |
 | 26/04/13 | - | Learning, Business, Management | [【日本人が知らない世界のエリートの学び方】地政学とは／物語（ナラティブ）のパワー／AI時代に好奇心が必要な理由／アンラーンとは／スーパーエリートが集う「問いを立てる会」／田村耕太郎](https://www.youtube.com/watch?v=GjxE7LMUy1c) | シンガポール国立大学教授の田村耕太郎氏が、地政学、ナラティブ（物語）の力、AI時代の学び方など、世界のエリートが実践する学習方法を解説する。 |
 | 26/04/12 | - | AI, Tools, Development, Productivity | [garrytan/gbrain: GarryのこだわりのAIエージェント用ブレイン（OpenClaw/Hermes対応）](https://github.com/garrytan/gbrain) | AIエージェント用の個人ナレッジベースツール「GBrain」。会議・メール・カレンダーなどあらゆる情報をベクトル検索可能な形で統合し、エージェントが参照・学習できる環境を約30分で構築できる。 |

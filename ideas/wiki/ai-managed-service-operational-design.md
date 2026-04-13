@@ -18,9 +18,9 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **段階的改善の必要性**：[長期連続稼働AIエージェント設計](long-running-ai-agent-design-patterns.md)では、段階的な改善・モニタリング・中断判断の仕組みが必要であり、運用設計が最優先事項である
 
-- **マネージドサービス型への転換**：社内システム管理では、高性能よりも信頼性・監視・ロールバック機能を備えたマネージドサービス型の提供が、実際の業務を機能させるキーになる。[Claude Managed Agents](claude-managed-agents-cloud-deployment.md)のようなクラウドホスト型APIは、本番環境へのデプロイメント時間を大幅に短縮し、エラーハンドリングとチェックポイント機能により信頼性の高い自動化を実現しやすくする
+- **マネージドサービス型への転換**：社内システム管理では、高性能よりも信頼性・監視・ロールバック機能を備えたマネージドサービス型の提供が、実際の業務を機能させるキーになる。[Claude Managed Agents](claude-managed-agents-cloud-deployment.md)のようなクラウドホスト型APIは、本番環境へのデプロイメント時間を大幅に短縮し、エラーハンドリングとチェックポイント機能により信頼性の高い自動化を実現しやすくする。~~複雑なセキュリティ・監視機構の自前構築~~ → [プラットフォームAPIへの統一で運用負荷を大幅削減](managed-agents-cost-optimization-gtm-strategy.md)できる。特にシステム管理者の負担軽減に直結
 
-- **エージェントハーネスの必須性**：[エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md)という制御・監視基盤がAIエージェントの実装には必須となる
+- **エージェントハーネスの必須性**：[エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md)という制御・監視基盤がAIエージェントの実装には必須となるが、[レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md)により既存資産を活用しながら段階的に最適化することが現実的である
 
 - **グローバル対応モデルの実用性と導入課題**：Gemma 4の140言語対応と音声・動画入力は、グローバル工場の多言語マニュアル化やライン監視カメラの異常検知自動化に直結する実用性があるが、Apache 2.0以外の厳格なライセンス制限が社内システム組み込みや子会社での再利用時に法務確認を必須化させる
 
@@ -38,11 +38,15 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **柔軟な設計による戦略的位置づけ**：ペース配分の誤り（コンテキスト不安のような過度な保守的設計）は後の改善を阻む可能性がある。長距離ランニングと同じく、エージェント設計でも柔軟性を保つことが戦略的に重要である
 
-- **高度なAIの登場に伴う脆弱性管理の急務化**：Anthropicの「Claude Mythos」がコーディングやサイバーセキュリティで飛躍的な性能向上を示したことで、未検出だった27年前のバグが発見される可能性が現実となった。このため、AI導入時には事前のセキュリティ監査が従来の事後対応から予防的検査へシフトすることが必須になる
+- **高度なAIの登場に伴う脆弱性管理の急務化**：Anthropicの「Claude Mythos」がコーディングやサイバーセキュリティで飛躍的な性能向上を示したことで、未検出だった27年前のバグが発見される可能性が現実となった。このため、[製造業システム脆弱性の先制監査](manufacturing-system-vulnerability-preemptive-audit.md)がかつてない重要性を帯びている
 
 - **システムエンジニアのキャリア転換点**：高度なコーディング能力を持つAIの実装加速により、システムエンジニアは低レイヤーの実装作業から脱却し、[アーキテクチャ設計やリスク管理](agentic-engineering-supervisor-model.md)に注力する転換期を迎えている。性能対効果による投資判断能力が従来の単価ベース評価に代わる新しい評価軸となる
 
 - **高性能AIのコスト現実化**：Claude Mythosのようなハイエンドモデルがトークン単価5倍という高コスト設定を示すことで、AI導入時のコスト評価基準が従来の単価ベースから性能対効果に根本的に切り替わる。大規模活用の前段階では、[AI予算管理とROI最適化](ai-budget-management-roi-optimization.md)による慎重な投資判断が重要になる
+
+- **プラットフォーム統一によるコスト構造の変化**：複雑な自作ハーネスをManaged Agents APIに統一することで、セキュリティ・オブザーバビリティ・監視機構の運用負荷は大幅に削減される一方、スケール時のコスト増加に直面する。[Managed Agentsのコスト最適化とGTM戦略](managed-agents-cost-optimization-gtm-strategy.md)により、スケールの度に増加するコストに対し、GTM戦略に応じた柔軟な構成選択が必須となる
+
+- **既存資産の活用と段階的移行**：新技術導入時に既存資産（Skillsなど）を新プラットフォームで活用できる設計が重要。[レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md)により、移行期間の無駄を最小化し、段階的な最適化を可能にすることで、組織全体の変化抵抗を軽減する
 
 ## 設計の3つの柱
 
@@ -64,6 +68,7 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 - **エラーログの自動分類**：[AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md)を蓄積し、再発防止に活用
 - **パフォーマンスメトリクス**：トークン消費量・実行時間・成功率を定量追跡
 - **クラウドホスト統合**：[Claude Managed Agents](claude-managed-agents-cloud-deployment.md)の監視機能を活用して、分散運用でも一元管理
+- **コスト可視化**：[Managed Agentsのコスト最適化](managed-agents-cost-optimization-gtm-strategy.md)に基づき、トークン消費と実行成果の関連性を継続的に監視し、効率性を追跡
 
 ### 3. ロールバック・リカバリー機能
 
@@ -83,9 +88,28 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **投資判断の性能対効果化**：トークン単価の上昇に伴い、[AI予算管理とROI最適化](ai-budget-management-roi-optimization.md)による厳密なコスト評価が従来以上に重要になる。軽量モデルから段階導入し、実績値に基づいて拡大判断する運用が現実的
 
+- **プラットフォームAPI統一と運用効率化**：複雑な自作ハーネスの維持よりも[信頼できたプラットフォームAPIへの統一](managed-agents-cost-optimization-gtm-strategy.md)で、セキュリティと監視機構の運用負荷を大幅削減。段階導入により既存資産を活用しながら移行
+
 ## 関連ページ
 
 - [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md): マネージドサービス型の具体的な実装パターン
 - [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md): 信頼性確保の制御・監視基盤
 - [長期連続稼働AIエージェント設計](long-running-ai-agent-design-patterns.md): 製造業での1ヶ月以上の自律運用パターン
-- [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md): 段階導入の具体的戦
+- [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md): 段階導入の具体的戦略
+- [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md): ライセンス管理の実装
+- [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md): 権限管理の設計パターン
+- [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md): 自動化の実装例
+- [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md): セキュリティ監査の方法論
+- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md): 失敗からの学習メカニズム
+- [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md): 複雑な自動化の信頼性確保
+- [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md): セッション管理の実装
+- [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md): 長期的な耐性設計
+- [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md): 技術負債の管理
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md): キャリア転換の方向性
+- [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md): コスト管理の手法
+- [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md): プラットフォーム統一のコスト戦略
+- [レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化](legacy-harness-platform-api-migration-pattern.md): 移行の実装パターン
+
+## 更新履歴
+
+- 2026-04-13: [Xユーザーのminicoohei.ethさんの投稿](https://x.com/minicoohei/status/2043391470376493515)を追加。プラットフォームAPI統一によるセキュリティ・オブザーバビリティ簡素化とコスト構造の変化、既存資産活用の重要性を反映

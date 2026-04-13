@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-13] ingest | Xユーザーのminicoohei.ethさん: 「Claude のManged Agentsに、土日
+- 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md), [レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化](legacy-harness-platform-api-migration-pattern.md)
+- 出典: [Xユーザーのminicoohei.ethさん: 「Claude のManged ](https://x.com/minicoohei/status/2043391470376493515)
+
 ## [2026-04-13] ingest | 【世界のエリートは暇人が多い】働いている人が「時間」を作るには？／自分を守ってくれるのは年収ではなく
 - 更新ページ: [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md), [エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略](executive-time-arbitrage-asset-building-strategy.md), [タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク](task-delegation-automation-decision-framework.md)
 - 出典: [【世界のエリートは暇人が多い】働いている人が「時間」を作るには？／自分を守ってく](https://www.youtube.com/watch?v=LqmXkRqYIiE)
