@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-13T11:36:41+09:00",
+  "generatedAt": "2026-04-13T20:47:43+09:00",
   "weekly": {
-    "commitCount": 229,
+    "commitCount": 245,
     "byDay": [
       {
         "date": "2026-04-07",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-04-13",
-        "count": 40
+        "count": 56
       }
     ]
   },
   "byDirectory": {
-    "scrap": 23,
+    "scrap": 22,
     "ideas": 3,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 289
+    "other": 282
   },
   "recentCommits": [
     {
       "date": "2026-04-13",
-      "message": "wiki: インデックスページに登録日・更新日列を追加し更新日降順ソート"
+      "message": "scrap: 2026-04-13 XユーザーのRohitさん: 「the 2026 ・2026年 AIエンジニアロードマップ"
     },
     {
       "date": "2026-04-13",
