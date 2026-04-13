@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-13] ingest | 【日本人が知らない世界のエリートの学び方】地政学とは／物語（ナラティブ）のパワー／AI時代に好奇心が
+- 更新ページ: [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md), [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md)
+- 出典: [【日本人が知らない世界のエリートの学び方】地政学とは／物語（ナラティブ）のパワー](https://www.youtube.com/watch?v=GjxE7LMUy1c)
+
 ## [2026-04-12] ingest | garrytan/gbrain: GarryのこだわりのAIエージェント用ブレイン（OpenClaw
 - 更新ページ: [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md), [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md), [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md), [個人ナレッジベースのベクトル検索統合：会議・メール・ログの一元化とエージェント参照設計](personal-knowledge-base-vector-search-integration.md), [PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ](local-pglite-sensitive-data-management.md)
 - 出典: [garrytan/gbrain: GarryのこだわりのAIエージェント用ブレイ](https://github.com/garrytan/gbrain)

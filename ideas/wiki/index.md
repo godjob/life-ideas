@@ -1,6 +1,6 @@
 # Wiki インデックス
 
-最終更新: 2026-04-12
+最終更新: 2026-04-13
 
 | ページ | 概要 |
 |--------|------|
@@ -64,6 +64,7 @@
 | [エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md) | エンバイロメント・エンジニアリングとは、AIが動きやすい環境を整えるための専門職能である。サーバー、ネットワーク、システ |
 | [The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理](factory-model-software-development.md) | The Factory Modelは、製造業における自動アセンブリラインの効率化原理をソフトウェア開発に適用する管理思想 |
 | [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md) | Gemma 4の140言語対応と音声・動画入力機能は、グローバル工場の多言語マニュアル化やライン監視カメラの異常検知自動 |
+| [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
 | [Git Hooksセキュリティ防御：権限スキップ時の多層防御設計](git-hooks-security-defense.md) | Claude Codeなどの権限スキップ機能を使用する場合でも、Gitの仕組みそのものであるGit Hooksは有効とい |
 | [GitHubで人生を管理する：lifeリポジトリの運用と実践](github-life-management.md) | GitHubのリポジトリ機能を使って、個人の人生目標・プロジェクト・日々の活動を管理する方法論である。Issues、Pr |
 | [政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡](government-energy-policy-monitoring.md) | 経済産業省（METI）のプレスリリースと資源エネルギー庁の統計情報を自動追跡し、エネルギー政策の動向を継続的にモニタリン |
@@ -110,6 +111,7 @@
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
 | [高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却](rapid-iteration-learning-loop-operational-design.md) | 従来の製造業・システム管理では稼働率最大化と予測可能性確保が目標だったが、スペースXに代表される次世代型組織は「失敗をデ |
 | [リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制](remote-agent-session-sharing-multi-user-operations.md) | Claude Managed Agents がクラウドホスト型のエージェント実行環境を提供することで、複数拠点・複数ユー |
+| [Wiki スキーマ定義](schema.md) | `ideas/wiki/` ディレクトリの運用ルール・ページ構造・品質基準を一元定義するスキーマ文書。 |
 | [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md) | 日本の人口減少と労働力不足により、既存システムの陳腐化が加速する時代において、「指示待ち人間」では確実に競争力を失う。自 |
 | [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md) | シンギュラリティループとは、AIが自身の性能向上を自律的に加速させるメカニズムのことである。AIが改善提案を生成し、それ |
 | [skill-creator スキル：Skill設計・レビュー・改善の自動化](skill-creator-automation.md) | skill-creatorはClaude.aiに組み込まれた専門的なスキルで、Skillの設計・レビュー・改善提案を自動 |
@@ -123,6 +125,7 @@
 | [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md) | 「速さが命題」とは、完全な検討や計画より先にプロトタイプを実装・実行する姿勢のことである。社内ポータルシステムの改善提案 |
 | [ステーブルコイン税務比較：JPYC vs USDT日本における法的扱いの違い](stablecoin-tax-comparison.md) | 日本において、同じ「ステーブルコイン」であっても法的扱いが大きく異なるため、税務上の取り扱いも真逆になる場合がある。JP |
 | [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md) | 健康管理や運動といった個人的な活動を、単なる生活習慣ではなく「時間資本を人的資本に変換する自己投資」として捉え直すことで |
+| [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md) | アンラーン能力とは、既存の知識や方法論を意識的に手放し、新しい問いを立てる能力を指します。AI時代において、過去の経験や |
 | [声と電話によるAIインターフェース：直感的なチェックインと生活統合](voice-phone-ai-interface.md) | 従来のテキストベースのAIインターフェースに「声」と「電話」を組み込むことで、より直感的で自然なチェックインが可能になる |
 | [ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位](wellness-eq-capital-ai-era-competitive-advantage.md) | AI失業時代において、従来の労働市場での競争優位は急速に消滅する一方で、ウェルネス活動（運動・趣味文化への没入）と情動知 |
 | [ワークフローのSkill化：業務手順の標準化と共有](workflow-skill-definition.md) | 日々の業務に含まれる反復的なワークフローをSkill Systemとして定義することで、個人の暗黙知を形式知に変え、チー |
