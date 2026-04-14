@@ -515,56 +515,81 @@
     contentEl.appendChild(container);
 
     // Vis.js データ
-    const nodes = new vis.DataSet(graphData.nodes.map(n => ({
-      ...n,
-      color: COLOR_MAP[n.group] || COLOR_MAP['その他'],
-      // ラベルは非表示。ホバー時にツールチップで表示
-      label: undefined,
-      title: `<b>${n.label}</b><br><small>${n.group} / 被リンク: ${n.value}</small>`,
-      scaling: { min: 10, max: 50 },
-    })));
-    const edges = new vis.DataSet(graphData.edges.map(e => ({
-      ...e,
-      arrows: { to: { enabled: true, scaleFactor: 0.3 } },
-      color: { color: '#cbd5e1', opacity: 0.4 },
-    })));
+    const GRAPH_POS_KEY = 'wiki-graph-positions-v1';
+    const savedPositions = JSON.parse(localStorage.getItem(GRAPH_POS_KEY) || 'null');
 
+    const nodes = new vis.DataSet(graphData.nodes.map(n => {
+      const pos = savedPositions && savedPositions[n.id];
+      return {
+        ...n,
+        color: COLOR_MAP[n.group] || COLOR_MAP['その他'],
+        label: undefined,  // ラベル非表示（ホバーでツールチップ表示）
+        title: `${n.label}（${n.group} / 被リンク: ${n.value}）`,
+        scaling: { min: 10, max: 50 },
+        ...(pos ? { x: pos.x, y: pos.y } : {}),
+      };
+    }));
+    const edges = new vis.DataSet(graphData.edges.map(e => ({ ...e })));
+
+    const useCache = !!savedPositions;
     const options = {
       nodes: { shape: 'dot', scaling: { min: 10, max: 50 } },
-      edges: { smooth: { enabled: false } },  // 直線にしてレンダリング負荷を下げる
-      physics: {
-        stabilization: {
-          enabled: true,
-          iterations: 300,
-          updateInterval: 50,
+      edges: {
+        smooth: { enabled: false },
+        arrows: { to: { enabled: true, scaleFactor: 0.3 } },
+        color: {
+          color: '#e5e7eb',      // 通常: ほぼ見えない薄いグレー
+          highlight: '#3b82f6',  // 選択ノードの接続エッジ: 青
+          hover: '#93c5fd',      // ホバー時: 薄青
+          opacity: 0.25,
         },
+        width: 0.5,
+        selectionWidth: 2.5,
+        hoverWidth: 2,
+      },
+      physics: useCache ? false : {
+        stabilization: { enabled: true, iterations: 300, updateInterval: 50 },
         barnesHut: {
-          gravitationalConstant: -12000, // 強い反発で重なりを解消
+          gravitationalConstant: -12000,
           centralGravity: 0.1,
           springLength: 200,
           springConstant: 0.02,
           damping: 0.6,
-          avoidOverlap: 1.0,  // ノード同士の重なりを最大限回避
+          avoidOverlap: 1.0,
         },
       },
-      interaction: { hover: true, tooltipDelay: 100, zoomView: true },
+      interaction: {
+        hover: true,
+        tooltipDelay: 100,
+        hoverConnectedEdges: true,   // ホバー時に接続エッジをハイライト
+        selectConnectedEdges: true,  // 選択時に接続エッジをハイライト
+      },
     };
 
-    // 安定化中のプログレス表示
-    const loadingDiv = document.createElement('div');
-    loadingDiv.style.cssText = 'position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#888;font-size:0.85rem;pointer-events:none;';
-    loadingDiv.textContent = 'ノード配置を計算中...';
-    container.style.position = 'relative';
-    container.appendChild(loadingDiv);
+    // 安定化中のプログレス表示（キャッシュなし時のみ）
+    let loadingDiv = null;
+    if (!useCache) {
+      loadingDiv = document.createElement('div');
+      loadingDiv.style.cssText = 'position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#888;font-size:0.85rem;pointer-events:none;';
+      loadingDiv.textContent = 'ノード配置を計算中（初回のみ）...';
+      container.style.position = 'relative';
+      container.appendChild(loadingDiv);
+    }
 
     const network = new vis.Network(container, { nodes, edges }, options);
 
-    // 安定化完了後に物理を停止・全体を表示範囲に収める
-    network.on('stabilizationIterationsDone', () => {
-      network.setOptions({ physics: false });
-      network.fit({ animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
-      loadingDiv.remove();
-    });
+    if (useCache) {
+      // キャッシュあり: 即フィット
+      network.fit();
+    } else {
+      // 初回: 安定化完了後に位置を保存して物理停止
+      network.on('stabilizationIterationsDone', () => {
+        network.setOptions({ physics: false });
+        network.fit({ animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
+        if (loadingDiv) loadingDiv.remove();
+        localStorage.setItem(GRAPH_POS_KEY, JSON.stringify(network.getPositions()));
+      });
+    }
 
     // ノードクリックでwikiページを開く
     network.on('click', params => {
