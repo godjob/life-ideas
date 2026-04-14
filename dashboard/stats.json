@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-14T22:33:13+09:00",
+  "generatedAt": "2026-04-14T22:37:35+09:00",
   "weekly": {
-    "commitCount": 201,
+    "commitCount": 204,
     "byDay": [
       {
         "date": "2026-04-08",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-14",
-        "count": 37
+        "count": 40
       }
     ]
   },
@@ -39,9 +39,21 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 276
+    "other": 279
   },
   "recentCommits": [
+    {
+      "date": "2026-04-14",
+      "message": "dashboard: Wikiグラフの物理安定化後に停止するよう修正（v1.39）"
+    },
+    {
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+    },
+    {
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+    },
     {
       "date": "2026-04-14",
       "message": "dashboard: Claude使用量更新 (2026-04-14)"
@@ -49,18 +61,6 @@
     {
       "date": "2026-04-14",
       "message": "dashboard: Wikiグラフビューを追加（v1.39）"
-    },
-    {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
-    },
-    {
-      "date": "2026-04-14",
-      "message": "wiki: グラフ自動生成機能を追加（git scrap連動）"
-    },
-    {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
     }
   ]
 }
