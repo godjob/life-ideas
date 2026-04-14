@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Life Ideas</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vis-network@9/standalone/umd/vis-network.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -385,7 +386,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.38';
+  const VERSION = 'v1.39';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -461,6 +462,99 @@
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
       }
+    });
+  }
+
+  async function renderWikiGraph() {
+    const contentEl = document.getElementById('content-area');
+    contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">グラフを読み込み中...</div>';
+
+    let graphData;
+    try {
+      const resp = await fetch('dashboard/wiki-graph.json?t=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      graphData = await resp.json();
+    } catch(e) {
+      contentEl.innerHTML = '<div style="padding:32px;color:#e94560;text-align:center;">wiki-graph.json が見つかりません。<br>git scrap を実行してグラフを生成してください。</div>';
+      return;
+    }
+
+    // カテゴリ色マップ
+    const COLOR_MAP = {
+      'Claude/AI開発ツール':        { background: '#3b82f6', border: '#1d4ed8' },
+      'AIエージェント設計':          { background: '#06b6d4', border: '#0e7490' },
+      '製造業・業務DX':              { background: '#f97316', border: '#c2410c' },
+      'AI戦略・社会':                { background: '#8b5cf6', border: '#6d28d9' },
+      '技術実装・エンジニアリング':   { background: '#10b981', border: '#047857' },
+      'ビジネス・組織':              { background: '#eab308', border: '#a16207' },
+      'キャリア・働き方':            { background: '#ec4899', border: '#be185d' },
+      'プロンプト・AI活用':          { background: '#ef4444', border: '#b91c1c' },
+      '個人OS・知識管理':            { background: '#a16207', border: '#78350f' },
+      '資産・投資':                  { background: '#ca8a04', border: '#92400e' },
+      '健康・習慣':                  { background: '#84cc16', border: '#4d7c0f' },
+      'その他':                      { background: '#9ca3af', border: '#6b7280' },
+    };
+
+    // コンテナ構築
+    contentEl.innerHTML = '';
+
+    // 凡例
+    const legend = document.createElement('div');
+    legend.style.cssText = 'padding:8px 16px;display:flex;flex-wrap:wrap;gap:8px;border-bottom:1px solid #e0e0e0;font-size:0.75rem;';
+    Object.entries(COLOR_MAP).forEach(([name, color]) => {
+      const dot = document.createElement('span');
+      dot.style.cssText = 'display:inline-flex;align-items:center;gap:4px;';
+      dot.innerHTML = `<span style="width:10px;height:10px;border-radius:50%;background:${color.background};display:inline-block;"></span>${name}`;
+      legend.appendChild(dot);
+    });
+    contentEl.appendChild(legend);
+
+    // グラフコンテナ
+    const container = document.createElement('div');
+    container.style.cssText = 'width:100%;height:calc(100vh - 180px);';
+    contentEl.appendChild(container);
+
+    // Vis.js データ
+    const nodes = new vis.DataSet(graphData.nodes.map(n => ({
+      ...n,
+      color: COLOR_MAP[n.group] || COLOR_MAP['その他'],
+      font: { color: '#fff', size: 11 },
+      scaling: { min: 10, max: 40 },
+      title: n.label,
+    })));
+    const edges = new vis.DataSet(graphData.edges.map(e => ({
+      ...e,
+      arrows: { to: { enabled: true, scaleFactor: 0.4 } },
+      color: { color: '#cbd5e1', opacity: 0.6 },
+    })));
+
+    const options = {
+      nodes: { shape: 'dot', scaling: { min: 8, max: 35 } },
+      edges: { smooth: { type: 'continuous' } },
+      physics: {
+        stabilization: { iterations: 150 },
+        barnesHut: { gravitationalConstant: -3000, springLength: 120 },
+      },
+      interaction: { hover: true, tooltipDelay: 200 },
+    };
+
+    const network = new vis.Network(container, { nodes, edges }, options);
+
+    // ノードクリックでwikiページを開く
+    network.on('click', params => {
+      if (params.nodes.length === 0) return;
+      const slug = params.nodes[0];
+      const path = `ideas/wiki/${slug}.md`;
+      // 左メニューのfile-itemからpathに対応するアイテムを探してクリック
+      const items = document.querySelectorAll('#file-list .file-item');
+      for (const item of items) {
+        if (item.dataset && item.dataset.path === path) {
+          item.click();
+          return;
+        }
+      }
+      // file-itemが見つからない場合はopenFileを直接呼ぶ
+      openFile(path, null);
     });
   }
 
@@ -692,9 +786,27 @@
       openFile(path, item);
     });
 
+    // wikiタブの場合: グラフアイテムを先頭に追加
+    if (dir === 'wiki') {
+      const graphItem = document.createElement('div');
+      graphItem.className = 'file-item';
+      graphItem.style.cssText = 'display:flex;align-items:center;gap:6px;';
+      graphItem.innerHTML = '<span>🕸</span><span>グラフ</span>';
+      graphItem.addEventListener('click', () => {
+        document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
+        graphItem.classList.add('active');
+        renderWikiGraph();
+      });
+      listEl.insertBefore(graphItem, listEl.firstChild);
+      // セパレーター
+      const sep = document.createElement('div');
+      sep.style.cssText = 'height:1px;background:#e0e0e0;margin:4px 8px;';
+      listEl.insertBefore(sep, listEl.children[1]);
+    }
+
     currentFileIndex = 0;
     updateMobileNav(files, 0);
-    listEl.firstChild.click();
+    listEl.children[dir === 'wiki' ? 2 : 0].click();
   }
 
   function renderFileList(files) {
