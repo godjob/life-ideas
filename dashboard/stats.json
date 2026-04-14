@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-14T22:41:08+09:00",
+  "generatedAt": "2026-04-14T22:52:40+09:00",
   "weekly": {
-    "commitCount": 209,
+    "commitCount": 212,
     "byDay": [
       {
         "date": "2026-04-08",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-14",
-        "count": 45
+        "count": 48
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 284
+    "other": 287
   },
   "recentCommits": [
     {
@@ -48,19 +48,19 @@
     },
     {
       "date": "2026-04-14",
+      "message": "dashboard: Wikiグラフ改善（ツールチップ修正・配置キャッシュ・エッジ視認性改善）"
+    },
+    {
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+    },
+    {
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+    },
+    {
+      "date": "2026-04-14",
       "message": "dashboard: Wikiグラフのノード重なり解消・ラベル非表示化（v1.39）"
-    },
-    {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
-    },
-    {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
-    },
-    {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
     }
   ]
 }
