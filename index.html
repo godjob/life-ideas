@@ -532,13 +532,30 @@
       nodes: { shape: 'dot', scaling: { min: 8, max: 35 } },
       edges: { smooth: { type: 'continuous' } },
       physics: {
-        stabilization: { iterations: 150 },
-        barnesHut: { gravitationalConstant: -3000, springLength: 120 },
+        stabilization: {
+          enabled: true,
+          iterations: 500,
+          updateInterval: 25,
+        },
+        barnesHut: {
+          gravitationalConstant: -2000,
+          centralGravity: 0.3,
+          springLength: 100,
+          springConstant: 0.04,
+          damping: 0.5,
+        },
       },
       interaction: { hover: true, tooltipDelay: 200 },
     };
 
     const network = new vis.Network(container, { nodes, edges }, options);
+
+    // 安定化完了後に物理を停止（ノードが動き回るのを防ぐ）
+    network.on('stabilizationIterationsDone', () => {
+      network.setOptions({ physics: false });
+      container.title = '';
+    });
+    container.title = '配置を計算中...';
 
     // ノードクリックでwikiページを開く
     network.on('click', params => {
