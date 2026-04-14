@@ -2,6 +2,11 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/14 | - | AI, LLM, Business | [【動画生成「Sora」終了→新型GPTに全振り】今井翔太「技術力はOpenAIが今もトップ」／新モデルは「Claude Mythos」並みか／Anthropicが売上高で追い抜いた【AI QUEST】](https://www.youtube.com/watch?v=cncHYZp2qz0) | OpenAIがSoraプロジェクトを終了してB2B戦略にシフトする一方で、Anthropicの猛追により次世代モデル「スパット」での競争が激化している。 |
+| 26/04/14 | - | AI, Business, Management, Development, Tools | [【経営者、気をつけろ！】非エンジニアでも必須のセキュリティ常識 / バイブコーディングのセキュリティリスク / OpencrawやCowork何が怖い？/ セキュリティを超えて持つべき倫理](https://www.youtube.com/watch?v=b7ZR1LIdIgM) | AI開発ツールの普及に伴い、非エンジニアのセキュリティリスクが急増している。経営者が「分ける、残す、防ぐ」という3つの対策と権限管理を徹底することが急務である。 |
+| 26/04/14 | - | AI, Business, Development, Tools, Learning | [【中島聡×国山ハセン】生成AIの真価はコストセーブじゃない──「MulmoCast」から紐解く、誰もが](https://www.youtube.com/watch?v=J-ljQiNDm3g) | 生成AIの真価はコスト削減ではなく、誰もが低コストでコンテンツやビジネスを創出できる「民主化」にあり、MulmoCastなどのツールがその可能性を実現する。 |
+| 26/04/14 | - | AI, Management, Business | [Google DeepMind’s boss on AI, power, God and what’s next | The Economist](https://www.youtube.com/watch?v=aYjXt6iVt70) | Google DeepMindのCEO・デミス・ハサビス氏が、AI開発の個人的動機は宇宙を理解するための究極の科学ツールであり、AGIの安全な実現が人生のミッションだと語る。 |
+| 26/04/14 | - | AI, Business, Career | [We’re Entering The Most Dangerous Phase Of AI Yet | AI Architects](https://www.youtube.com/watch?v=RljBVCnt9AQ) | Google X元CBO Mo Gawdat氏が、AI時代における20～50%以上の失業、自律兵器による戦争、監視社会化を警告し、資本主義の終焉とUBIの必然性を指摘する。 |
 | 26/04/13 | - | AI, LLM, Development, Learning, Tools | [2026年 AIエンジニアロードマップ](https://github.com/daveebbelaar/ai-cookbook/blob/main/roadmaps/ai-engineer-2026.md) | 2026年のAIエンジニア向けロードマップで、Python基礎からLLM、RAG、エージェント、本番運用まで6ステップで体系化。「as little AI as possible」原則に基づき、必要最小限のAI活用を重視している。 |
 | 26/04/13 | - | AI, LLM, Development, Career, Learning | [XユーザーのRohitさん: 「the 2026 ai engineer roadmap」 / X](https://x.com/rohit4verse/status/2009663737469542875) | 2026年のAIエンジニアが身につけるべきスキルは、プロンプトエンジニアリングではなく、エッジAI・メモリ管理・ローカル推論などを含むシステム設計能力であり、その習得のための5段階のプロダクショングレードプロジェクト例が提示されている。 |
 | 26/04/13 | - | AI, ClaudeCode, Development, Tools, Business | [Xユーザーのminicoohei.ethさん: 「Claude のManged Agentsに、土日で俺俺ハーネスを移植してみたら、法人向けにはこれだなって感じた話」 / X](https://x.com/minicoohei/status/2043391470376493515) | 開発者がClaudeのManaged Agents APIを導入し、複雑な自作ハーネスをAPI一本に統一。セキュリティとオブザーバビリティが大幅に簡素化される一方、コストが課題となるトレードオフを経験。 |

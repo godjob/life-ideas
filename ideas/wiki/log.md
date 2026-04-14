@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-04-14] ingest | 【経営者、気をつけろ！】非エンジニアでも必須のセキュリティ常識 / バイブコーディングのセキュリティ
+- 更新ページ: [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md), [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md), [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md), [AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護](ai-agent-permission-model-least-privilege.md)
+- 出典: [【経営者、気をつけろ！】非エンジニアでも必須のセキュリティ常識 / バイブコーデ](https://www.youtube.com/watch?v=b7ZR1LIdIgM)
+
+## [2026-04-14] ingest | 【中島聡×国山ハセン】生成AIの真価はコストセーブじゃない──「MulmoCast」から紐解く、誰も
+- 更新ページ: [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md), [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン](custom-tool-development-ai-empowerment.md)
+- 出典: [【中島聡×国山ハセン】生成AIの真価はコストセーブじゃない──「MulmoCas](https://www.youtube.com/watch?v=J-ljQiNDm3g)
+
+## [2026-04-14] ingest | Google DeepMind’s boss on AI, power, God and what’
+- 更新ページ: [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md), [科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見](ai-as-scientific-instrument-verification-loop.md)
+- 出典: [Google DeepMind’s boss on AI, power, God](https://www.youtube.com/watch?v=aYjXt6iVt70)
+
+## [2026-04-14] ingest | We’re Entering The Most Dangerous Phase Of AI Yet 
+- 更新ページ: [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md), [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md), [自律兵器と監視社会化：AI軍事転用とシステム監視の民主的ガバナンス枠組み](ai-autonomous-weapons-surveillance-state-governance.md)
+- 出典: [We’re Entering The Most Dangerous Phase ](https://www.youtube.com/watch?v=RljBVCnt9AQ)
+
 ## [2026-04-13] ingest | 2026年 AIエンジニアロードマップ
 - 更新ページ: [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md), [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md), [AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md)
 - 出典: [2026年 AIエンジニアロードマップ](https://github.com/daveebbelaar/ai-cookbook/blob/main/roadmaps/ai-engineer-2026.md)
