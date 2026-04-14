@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-14T22:37:35+09:00",
+  "generatedAt": "2026-04-14T22:41:08+09:00",
   "weekly": {
-    "commitCount": 204,
+    "commitCount": 209,
     "byDay": [
       {
         "date": "2026-04-08",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-14",
-        "count": 40
+        "count": 45
       }
     ]
   },
@@ -39,12 +39,16 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 279
+    "other": 284
   },
   "recentCommits": [
     {
       "date": "2026-04-14",
-      "message": "dashboard: Wikiグラフの物理安定化後に停止するよう修正（v1.39）"
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+    },
+    {
+      "date": "2026-04-14",
+      "message": "dashboard: Wikiグラフのノード重なり解消・ラベル非表示化（v1.39）"
     },
     {
       "date": "2026-04-14",
@@ -57,10 +61,6 @@
     {
       "date": "2026-04-14",
       "message": "dashboard: Claude使用量更新 (2026-04-14)"
-    },
-    {
-      "date": "2026-04-14",
-      "message": "dashboard: Wikiグラフビューを追加（v1.39）"
     }
   ]
 }
