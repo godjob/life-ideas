@@ -518,44 +518,53 @@
     const nodes = new vis.DataSet(graphData.nodes.map(n => ({
       ...n,
       color: COLOR_MAP[n.group] || COLOR_MAP['その他'],
-      font: { color: '#fff', size: 11 },
-      scaling: { min: 10, max: 40 },
-      title: n.label,
+      // ラベルは非表示。ホバー時にツールチップで表示
+      label: undefined,
+      title: `<b>${n.label}</b><br><small>${n.group} / 被リンク: ${n.value}</small>`,
+      scaling: { min: 10, max: 50 },
     })));
     const edges = new vis.DataSet(graphData.edges.map(e => ({
       ...e,
-      arrows: { to: { enabled: true, scaleFactor: 0.4 } },
-      color: { color: '#cbd5e1', opacity: 0.6 },
+      arrows: { to: { enabled: true, scaleFactor: 0.3 } },
+      color: { color: '#cbd5e1', opacity: 0.4 },
     })));
 
     const options = {
-      nodes: { shape: 'dot', scaling: { min: 8, max: 35 } },
-      edges: { smooth: { type: 'continuous' } },
+      nodes: { shape: 'dot', scaling: { min: 10, max: 50 } },
+      edges: { smooth: { enabled: false } },  // 直線にしてレンダリング負荷を下げる
       physics: {
         stabilization: {
           enabled: true,
-          iterations: 500,
-          updateInterval: 25,
+          iterations: 300,
+          updateInterval: 50,
         },
         barnesHut: {
-          gravitationalConstant: -2000,
-          centralGravity: 0.3,
-          springLength: 100,
-          springConstant: 0.04,
-          damping: 0.5,
+          gravitationalConstant: -12000, // 強い反発で重なりを解消
+          centralGravity: 0.1,
+          springLength: 200,
+          springConstant: 0.02,
+          damping: 0.6,
+          avoidOverlap: 1.0,  // ノード同士の重なりを最大限回避
         },
       },
-      interaction: { hover: true, tooltipDelay: 200 },
+      interaction: { hover: true, tooltipDelay: 100, zoomView: true },
     };
+
+    // 安定化中のプログレス表示
+    const loadingDiv = document.createElement('div');
+    loadingDiv.style.cssText = 'position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#888;font-size:0.85rem;pointer-events:none;';
+    loadingDiv.textContent = 'ノード配置を計算中...';
+    container.style.position = 'relative';
+    container.appendChild(loadingDiv);
 
     const network = new vis.Network(container, { nodes, edges }, options);
 
-    // 安定化完了後に物理を停止（ノードが動き回るのを防ぐ）
+    // 安定化完了後に物理を停止・全体を表示範囲に収める
     network.on('stabilizationIterationsDone', () => {
       network.setOptions({ physics: false });
-      container.title = '';
+      network.fit({ animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
+      loadingDiv.remove();
     });
-    container.title = '配置を計算中...';
 
     // ノードクリックでwikiページを開く
     network.on('click', params => {
