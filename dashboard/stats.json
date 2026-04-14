@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-14T01:07:30+09:00",
+  "generatedAt": "2026-04-14T20:43:26+09:00",
   "weekly": {
-    "commitCount": 163,
+    "commitCount": 177,
     "byDay": [
       {
         "date": "2026-04-08",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-04-13",
-        "count": 56
+        "count": 57
       },
       {
         "date": "2026-04-14",
-        "count": 0
+        "count": 13
       }
     ]
   },
   "byDirectory": {
-    "scrap": 21,
-    "ideas": 3,
+    "scrap": 22,
+    "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 280
+    "other": 252
   },
   "recentCommits": [
     {
-      "date": "2026-04-13",
-      "message": "scrap: 2026-04-13 XユーザーのRohitさん: 「the 2026 ・2026年 AIエンジニアロードマップ"
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
     },
     {
-      "date": "2026-04-13",
-      "message": "dashboard: Claude使用量更新 (2026-04-13)"
+      "date": "2026-04-14",
+      "message": "scrap: 2026-04-14 YouTube 5件要約・wiki更新"
     },
     {
-      "date": "2026-04-13",
-      "message": "dashboard: Claude使用量更新 (2026-04-13)"
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
     },
     {
-      "date": "2026-04-13",
-      "message": "dashboard: Claude使用量更新 (2026-04-13)"
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
     },
     {
-      "date": "2026-04-13",
-      "message": "dashboard: Claude使用量更新 (2026-04-13)"
+      "date": "2026-04-14",
+      "message": "dashboard: Claude使用量更新 (2026-04-14)"
     }
   ]
 }
