@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T21:25:56+09:00",
+  "generatedAt": "2026-04-15T21:32:56+09:00",
   "weekly": {
-    "commitCount": 236,
+    "commitCount": 241,
     "byDay": [
       {
         "date": "2026-04-09",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-15",
-        "count": 27
+        "count": 32
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 321
+    "other": 326
   },
   "recentCommits": [
     {
@@ -48,11 +48,7 @@
     },
     {
       "date": "2026-04-15",
-      "message": "sync-ideas: magazines/ をトリガーパスに追加"
-    },
-    {
-      "date": "2026-04-15",
-      "message": "朝刊: 2026-04-15 Morning Edition生成"
+      "message": "朝刊: Gemini翻訳をREST API直呼びに変更（SDK依存を削除）"
     },
     {
       "date": "2026-04-15",
@@ -60,7 +56,11 @@
     },
     {
       "date": "2026-04-15",
-      "message": "朝刊workflow: GITHUB_TOKENにcontents: write権限を付与"
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
+    },
+    {
+      "date": "2026-04-15",
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     }
   ]
 }
