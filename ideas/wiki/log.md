@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-15] ingest | 累計200億再生を「狙って」作った男：関ミナティ氏の動画哲学
+- 更新ページ: [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md), [Progressive Disclosure パターン：段階的情報開示による効率化](progressive-disclosure-pattern.md), [クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合](creator-intuition-driven-design-philosophy.md), [強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化](strengths-leverage-task-design-productivity-multiplication.md)
+- 出典: [累計200億再生を「狙って」作った男：関ミナティ氏の動画哲学](https://www.youtube.com/watch?v=2G1vmemQ1P8)
+
 ## [2026-04-14] ingest | 【経営者、気をつけろ！】非エンジニアでも必須のセキュリティ常識 / バイブコーディングのセキュリティ
 - 更新ページ: [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md), [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md), [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md), [AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護](ai-agent-permission-model-least-privilege.md)
 - 出典: [【経営者、気をつけろ！】非エンジニアでも必須のセキュリティ常識 / バイブコーデ](https://www.youtube.com/watch?v=b7ZR1LIdIgM)

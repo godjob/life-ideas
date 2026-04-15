@@ -22,7 +22,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 24
+      "value": 25
     },
     {
       "id": "ai-agent-cli-automation-pattern",
@@ -88,7 +88,7 @@
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-engineer-practical-skills-roadmap",
@@ -349,6 +349,12 @@
       "value": 4
     },
     {
+      "id": "creator-intuition-driven-design-philosophy",
+      "label": "クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "crypto-asset-tax-guideline",
       "label": "暗号資産税務ガイドラインの整備状況と対策",
       "group": "資産・投資",
@@ -358,7 +364,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 17
+      "value": 18
     },
     {
       "id": "custom-tool-development-ai-empowerment",
@@ -370,13 +376,13 @@
       "id": "daily-context-ai-partnership",
       "label": "日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化",
       "group": "個人OS・知識管理",
-      "value": 3
+      "value": 4
     },
     {
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "健康・習慣",
-      "value": 8
+      "value": 10
     },
     {
       "id": "data-integration-visualization-manufacturing-application",
@@ -388,7 +394,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "その他",
-      "value": 8
+      "value": 10
     },
     {
       "id": "description-field-best-practices",
@@ -406,7 +412,7 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "その他",
-      "value": 21
+      "value": 22
     },
     {
       "id": "edge-ai-system-design-production-skills",
@@ -418,7 +424,7 @@
       "id": "environment-engineering",
       "label": "エンバイロメント・エンジニアリング：AI活動の土台づくり",
       "group": "Claude/AI開発ツール",
-      "value": 17
+      "value": 18
     },
     {
       "id": "executive-time-arbitrage-asset-building-strategy",
@@ -650,7 +656,7 @@
     },
     {
       "id": "openai-anthropic-competitive-dynamics-market-shift",
-      "label": "openai-anthropic-competitive-dynamics-market-shift",
+      "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
       "group": "その他",
       "value": 3
     },
@@ -682,13 +688,13 @@
       "id": "personal-os-operating-system",
       "label": "人生OSの運用：PMの4つのシフトの個人適用",
       "group": "個人OS・知識管理",
-      "value": 9
+      "value": 10
     },
     {
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "キャリア・働き方",
-      "value": 12
+      "value": 13
     },
     {
       "id": "preemptive-workflow-optimization-ai-migration",
@@ -700,13 +706,13 @@
       "id": "progressive-disclosure-pattern",
       "label": "Progressive Disclosure パターン：段階的情報開示による効率化",
       "group": "Claude/AI開発ツール",
-      "value": 10
+      "value": 11
     },
     {
       "id": "prompt-clarity-management-feedback-loop",
       "label": "プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上",
       "group": "プロンプト・AI活用",
-      "value": 9
+      "value": 10
     },
     {
       "id": "prompt-optimization-cost-efficiency",
@@ -784,7 +790,7 @@
       "id": "sleep-priority-performance-management",
       "label": "睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性",
       "group": "健康・習慣",
-      "value": 19
+      "value": 20
     },
     {
       "id": "smile-curve-strategy",
@@ -811,10 +817,16 @@
       "value": 3
     },
     {
+      "id": "strengths-leverage-task-design-productivity-multiplication",
+      "label": "強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "task-delegation-automation-decision-framework",
       "label": "タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク",
       "group": "その他",
-      "value": 5
+      "value": 7
     },
     {
       "id": "time-capital-health-investment-narrative",
@@ -2528,6 +2540,10 @@
     },
     {
       "from": "capability-overhang-user-activation-gap",
+      "to": "creator-intuition-driven-design-philosophy"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
       "to": "custom-tool-development-ai-empowerment"
     },
     {
@@ -2565,6 +2581,10 @@
     {
       "from": "capability-overhang-user-activation-gap",
       "to": "skill-system"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
       "from": "claude-chat-claude-code-workflow",
@@ -3097,6 +3117,46 @@
     {
       "from": "commodity-prompt-engineering-vs-architecture-differentiation",
       "to": "prompt-optimization-cost-efficiency"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "daily-context-ai-partnership"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "pm-exponential-adaptation"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "progressive-disclosure-pattern"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "prompt-clarity-management-feedback-loop"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
+    },
+    {
+      "from": "creator-intuition-driven-design-philosophy",
+      "to": "task-delegation-automation-decision-framework"
     },
     {
       "from": "crypto-asset-tax-guideline",
@@ -5032,6 +5092,10 @@
     },
     {
       "from": "onboarding-friction-design-saas-growth",
+      "to": "creator-intuition-driven-design-philosophy"
+    },
+    {
+      "from": "onboarding-friction-design-saas-growth",
       "to": "domain-expertise-ai-boundary-design"
     },
     {
@@ -5049,6 +5113,10 @@
     {
       "from": "onboarding-friction-design-saas-growth",
       "to": "progressive-disclosure-pattern"
+    },
+    {
+      "from": "onboarding-friction-design-saas-growth",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -5424,11 +5492,19 @@
     },
     {
       "from": "progressive-disclosure-pattern",
+      "to": "creator-intuition-driven-design-philosophy"
+    },
+    {
+      "from": "progressive-disclosure-pattern",
       "to": "environment-engineering"
     },
     {
       "from": "progressive-disclosure-pattern",
       "to": "skill-system"
+    },
+    {
+      "from": "progressive-disclosure-pattern",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
       "from": "prompt-clarity-management-feedback-loop",
@@ -5993,6 +6069,42 @@
     {
       "from": "stablecoin-tax-comparison",
       "to": "jpyc-tax-strategy"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "creator-intuition-driven-design-philosophy"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "environment-engineering"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "personal-os-operating-system"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "sleep-priority-performance-management"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "task-delegation-automation-decision-framework"
     },
     {
       "from": "task-delegation-automation-decision-framework",
