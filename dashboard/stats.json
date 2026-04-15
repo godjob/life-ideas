@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T21:32:56+09:00",
+  "generatedAt": "2026-04-15T22:09:21+09:00",
   "weekly": {
-    "commitCount": 241,
+    "commitCount": 250,
     "byDay": [
       {
         "date": "2026-04-09",
@@ -29,17 +29,17 @@
       },
       {
         "date": "2026-04-15",
-        "count": 32
+        "count": 41
       }
     ]
   },
   "byDirectory": {
-    "scrap": 22,
+    "scrap": 21,
     "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 326
+    "other": 329
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-04-15",
-      "message": "朝刊: Gemini翻訳をREST API直呼びに変更（SDK依存を削除）"
+      "message": "朝刊: Geminiモデルをgemini-2.5-flashに修正、本日号を日本語で再生成"
     },
     {
       "date": "2026-04-15",
