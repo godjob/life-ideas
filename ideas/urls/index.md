@@ -92,3 +92,4 @@
 | 26/03/09 | - | AI, ClaudeCode, Productivity, Tools | [1週間分の仕事がたった1日で終わるようになったClaude Code活用術](https://x.com/0xfene/status/2030928836137783547) | 日曜に週次振り返り・商談準備・MTGアジェンダを自動化して翌週をほぼ終わらせるワークフロー |
 | 26/03/10 | - | AI, ClaudeCode, Productivity, Management, YouTube | [Claude Codeで「仮想会社」を構築・経営する方法](https://www.youtube.com/watch?v=cfoE_8Llde0) | AI社員を各部署に配置した組織としてClaude Codeを活用、CEO視点で秘書・PM・リサーチ・マーケを自動化 |
 | 26/03/10 | - | AI, ClaudeCode, Development, Tools | [Code Review for Claude Code](https://claude.com/blog/code-review) | PRごとにマルチエージェントが深いコードレビューを実施、速さより深さを重視するAnthropicの新機能 |
+| 26/04/15 | - | YouTube, Productivity, Business, Learning | [累計200億再生を「狙って」作った男：関ミナティ氏の動画哲学](https://www.youtube.com/watch?v=2G1vmemQ1P8) | 内なるワクワクを起点に世界的トレンドを設計した関ミナティ氏の哲学。「心で決め、頭は候補を出すだけ」の意思決定と、クリエイターを巻き込む仕組みで広告費50億円相当の効果を生み出す |
