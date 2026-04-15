@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T23:04:53+09:00",
+  "generatedAt": "2026-04-15T23:20:21+09:00",
   "weekly": {
-    "commitCount": 265,
+    "commitCount": 269,
     "byDay": [
       {
         "date": "2026-04-09",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-15",
-        "count": 56
+        "count": 60
       }
     ]
   },
@@ -39,16 +39,16 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 335
+    "other": 339
   },
   "recentCommits": [
     {
       "date": "2026-04-15",
-      "message": "dashboard: Claude使用量更新 (2026-04-15)"
+      "message": "wiki: 関ミナティ動画からwikiページ追加・更新（144ノード）"
     },
     {
       "date": "2026-04-15",
-      "message": "scrap: 関ミナティ氏YouTube動画を取り込み（200億再生の動画哲学）"
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     },
     {
       "date": "2026-04-15",
