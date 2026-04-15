@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T21:23:45+09:00",
+  "generatedAt": "2026-04-15T21:25:56+09:00",
   "weekly": {
-    "commitCount": 233,
+    "commitCount": 236,
     "byDay": [
       {
         "date": "2026-04-09",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-15",
-        "count": 24
+        "count": 27
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 318
+    "other": 321
   },
   "recentCommits": [
     {
@@ -48,19 +48,19 @@
     },
     {
       "date": "2026-04-15",
+      "message": "sync-ideas: magazines/ をトリガーパスに追加"
+    },
+    {
+      "date": "2026-04-15",
+      "message": "朝刊: 2026-04-15 Morning Edition生成"
+    },
+    {
+      "date": "2026-04-15",
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
+    },
+    {
+      "date": "2026-04-15",
       "message": "朝刊workflow: GITHUB_TOKENにcontents: write権限を付与"
-    },
-    {
-      "date": "2026-04-15",
-      "message": "朝刊workflow: sparse checkoutでscrap/の長ファイル名エラーを回避"
-    },
-    {
-      "date": "2026-04-15",
-      "message": "dashboard: Claude使用量更新 (2026-04-15)"
-    },
-    {
-      "date": "2026-04-15",
-      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     }
   ]
 }
