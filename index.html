@@ -345,6 +345,7 @@
   <button class="tab-btn" onclick="switchTab('health', this)">Health</button>
   <button class="tab-btn" onclick="switchTab('books', this)">Books</button>
   <button class="tab-btn" onclick="switchTab('wiki', this)">Wiki</button>
+  <button class="tab-btn" onclick="switchTab('magazines', this)">📰 Magazines</button>
   <button class="tab-btn" onclick="switchTab('action', this)">Action</button>
   <button class="tab-btn" onclick="switchTab('dashboard', this)">Dashboard</button>
 </div>
@@ -386,7 +387,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.39';
+  const VERSION = 'v1.40';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -794,6 +795,12 @@
       listEl.innerHTML = '<div class="file-item active">ダッシュボード</div>';
       contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">読み込み中...</div>';
       await renderDashboard(contentEl);
+      return;
+    }
+
+    // Magazinesタブ
+    if (dir === 'magazines') {
+      await renderMagazinesTab(listEl, contentEl);
       return;
     }
 
@@ -1299,6 +1306,85 @@
   window.addEventListener('scroll', () => {
     document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 300);
   });
+
+  // ===== Magazines タブ =====
+  async function renderMagazinesTab(listEl, contentEl) {
+    listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
+    contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">読み込み中...</div>';
+
+    let issues = [];
+    try {
+      const res = await fetch(`https://raw.githubusercontent.com/${REPO}/main/magazines/index.json?t=${Date.now()}`);
+      if (res.ok) {
+        const data = await res.json();
+        issues = data.issues || [];
+      }
+    } catch(e) { /* ネットワークエラーは無視 */ }
+
+    if (issues.length === 0) {
+      listEl.innerHTML = '<div class="file-item empty">まだ号がありません</div>';
+      contentEl.innerHTML = `<div class="placeholder">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ddd" stroke-width="1.5"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2z"/><polyline points="8 10 12 14 16 10"/></svg>
+        <p>Morning Edition はまだ生成されていません</p>
+        <p style="font-size:0.8rem;margin-top:8px;">GitHub Actions の <code>morning-edition.yml</code> を手動実行するか、翌朝7時まで待ってください</p>
+      </div>`;
+      return;
+    }
+
+    // サイドバー: 日付リスト
+    listEl.innerHTML = '';
+    issues.forEach((issue, i) => {
+      const item = document.createElement('div');
+      item.className = 'file-item' + (i === 0 ? ' active' : '');
+      const d = issue.date.split('-');
+      item.textContent = `'${d[0].slice(2)}/${d[1]}/${d[2]}`;
+      item.title = issue.title || issue.date;
+      item.onclick = () => {
+        document.querySelectorAll('#file-list .file-item').forEach(el => el.classList.remove('active'));
+        item.classList.add('active');
+        openMagazine(issue, contentEl);
+      };
+      listEl.appendChild(item);
+    });
+
+    openMagazine(issues[0], contentEl);
+  }
+
+  function openMagazine(issue, contentEl) {
+    const pageUrl = `https://godjob.github.io/life-ideas/magazines/${issue.file}`;
+    const d = issue.date.split('-');
+    const dateJa = `${d[0]}年${parseInt(d[1])}月${parseInt(d[2])}日`;
+
+    // ストーリーリスト (index.jsonにstoriesがある場合)
+    const storiesHtml = (issue.stories && issue.stories.length > 0)
+      ? `<ol style="margin:16px 0 0;padding-left:20px;line-height:2;">` +
+        issue.stories.map(s => `<li style="font-size:0.9rem;color:#555;">${escapeHtml(s.title_ja || s.title || '')}</li>`).join('') +
+        `</ol>`
+      : '';
+
+    contentEl.innerHTML = `
+      <div style="max-width:640px;margin:40px auto;padding:0 16px;">
+        <div style="text-align:center;margin-bottom:32px;">
+          <div style="font-family:Georgia,serif;font-size:0.75rem;letter-spacing:0.2em;color:#999;text-transform:uppercase;margin-bottom:8px;">Morning Edition</div>
+          <h1 style="font-size:2rem;font-weight:800;color:#1a1a2e;margin-bottom:6px;">${dateJa}</h1>
+          <p style="color:#888;font-size:0.85rem;">Hacker News 日刊まとめ + Today's Ideas</p>
+        </div>
+        <div style="background:#fff;border:1px solid #e0e0e0;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+          <div style="background:#1a1a2e;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-size:0.9rem;font-weight:600;">📰 今号のストーリー</span>
+            <a href="${pageUrl}" target="_blank" rel="noopener noreferrer"
+               style="background:#e94560;color:#fff;text-decoration:none;padding:6px 16px;border-radius:6px;font-size:0.82rem;font-weight:600;">
+              フルページで読む ↗
+            </a>
+          </div>
+          <div style="padding:20px 24px;">
+            ${storiesHtml || '<p style="color:#aaa;font-size:0.85rem;padding:8px 0;">ストーリーデータなし — フルページで読んでください</p>'}
+          </div>
+        </div>
+      </div>`;
+    contentEl.scrollTop = 0;
+  }
+  // =========================
 
   // ===== Dashboard =====
   async function renderDashboard(contentEl) {
