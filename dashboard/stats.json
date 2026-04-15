@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T21:10:49+09:00",
+  "generatedAt": "2026-04-15T21:21:54+09:00",
   "weekly": {
-    "commitCount": 229,
+    "commitCount": 231,
     "byDay": [
       {
         "date": "2026-04-09",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-15",
-        "count": 20
+        "count": 22
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 314
+    "other": 316
   },
   "recentCommits": [
+    {
+      "date": "2026-04-15",
+      "message": "朝刊workflow: sparse checkoutでscrap/の長ファイル名エラーを回避"
+    },
+    {
+      "date": "2026-04-15",
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
+    },
     {
       "date": "2026-04-15",
       "message": "dashboard: Claude使用量更新 (2026-04-15)"
@@ -49,14 +57,6 @@
     {
       "date": "2026-04-15",
       "message": "朝刊機能追加: Morning Edition（HN日刊 + Dailyマガジン化）"
-    },
-    {
-      "date": "2026-04-15",
-      "message": "dashboard: Claude使用量更新 (2026-04-15)"
-    },
-    {
-      "date": "2026-04-15",
-      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     },
     {
       "date": "2026-04-15",
