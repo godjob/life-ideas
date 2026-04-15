@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T01:02:41+09:00",
+  "generatedAt": "2026-04-15T21:10:49+09:00",
   "weekly": {
-    "commitCount": 205,
+    "commitCount": 229,
     "byDay": [
       {
         "date": "2026-04-09",
@@ -25,11 +25,11 @@
       },
       {
         "date": "2026-04-14",
-        "count": 52
+        "count": 56
       },
       {
         "date": "2026-04-15",
-        "count": 0
+        "count": 20
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 291
+    "other": 314
   },
   "recentCommits": [
     {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+      "date": "2026-04-15",
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     },
     {
-      "date": "2026-04-14",
-      "message": "sync: dashboard/wiki-graph.jsonをlife-ideasへの同期対象に追加"
+      "date": "2026-04-15",
+      "message": "朝刊機能追加: Morning Edition（HN日刊 + Dailyマガジン化）"
     },
     {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+      "date": "2026-04-15",
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     },
     {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+      "date": "2026-04-15",
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     },
     {
-      "date": "2026-04-14",
-      "message": "dashboard: Claude使用量更新 (2026-04-14)"
+      "date": "2026-04-15",
+      "message": "dashboard: Claude使用量更新 (2026-04-15)"
     }
   ]
 }
