@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-15T22:09:21+09:00",
+  "generatedAt": "2026-04-15T23:04:53+09:00",
   "weekly": {
-    "commitCount": 250,
+    "commitCount": 265,
     "byDay": [
       {
         "date": "2026-04-09",
@@ -29,17 +29,17 @@
       },
       {
         "date": "2026-04-15",
-        "count": 41
+        "count": 56
       }
     ]
   },
   "byDirectory": {
-    "scrap": 21,
+    "scrap": 22,
     "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 329
+    "other": 335
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-04-15",
-      "message": "朝刊: Geminiモデルをgemini-2.5-flashに修正、本日号を日本語で再生成"
+      "message": "scrap: 関ミナティ氏YouTube動画を取り込み（200億再生の動画哲学）"
     },
     {
       "date": "2026-04-15",
