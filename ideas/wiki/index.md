@@ -1,9 +1,41 @@
 # Wiki インデックス
 
-最終更新: 2026-04-15
+最終更新: 2026-04-16
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md) | 26/04/16 | 26/04/16 | AIエージェントは短期タスクでは高い性能を発揮するが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害につな |
+| [AI書籍執筆加速パターン：Claude Codeによる1ヶ月半完成メカニズムと知識資産化戦略](ai-book-authoring-acceleration-pattern.md) | 26/04/16 | 26/04/16 | 日本CTO協会理事の広木大地氏がClaude Codeを活用して1ヶ月半で書籍執筆を完成させた事例から、AIエージェント |
+| [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md) | 26/04/16 | 26/04/16 | AIモデルの能力が急速に進化する時代において、システムアーキテクチャを過度にカスタマイズするのではなく、既存の強力なツー |
+| [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md) | 26/04/16 | 26/04/16 | AI技術の急速な性能向上に伴い、一定の能力水準に達したモデルの公開可否を判断するフレームワークが必要となっている。Ant |
+| [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | 26/04/16 | 26/04/16 | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
+| [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md) | 26/04/14 | 26/04/16 | AI導入時におけるシステムの信頼性と安全性は、技術仕様だけでなく、開発リーダーの個人的動機・価値観・根底にある哲学に大き |
+| [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md) | 26/04/16 | 26/04/16 | エンジニアのキャリアは「手でコードを書く職人」から「AIシステムを設計・監督する経営者」へ転換する過渡期を迎えている。こ |
+| [AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計](ai-sandboxing-isolation-architecture-manufacturing.md) | 26/04/16 | 26/04/16 | 高性能AI（Claude Mythosなど）の能力向上に伴い、「サンドボックス内での自力脱出」のような制御外の動作が可能 |
+| [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md) | 26/04/14 | 26/04/16 | AI開発ツール（バイブコーディング、OpenCraw、Coworkなど）の普及により、非エンジニアも含む全社的なセキュリ |
+| [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md) | 26/04/16 | 26/04/16 | AI技術の急速な進展により、2030年代には製造業・システム管理・事務職など広範な職種で20～50%以上の失業率が予測さ |
+| [仮定の再評価サイクル：ルール削減と継続的改善の運用設計](assumption-reevaluation-cycle-continuous-improvement.md) | 26/04/16 | 26/04/16 | AIシステムやエージェントの能力向上に伴い、かつて必要だった複雑なルールや制限が不要になるケースが増えている。本ページは |
+| [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md) | 26/04/16 | 26/04/16 | Claude Code Agent Teamsは、複数のAIエージェントを協調させて、より複雑なタスクを実行するフレーム |
+| [Claude Code 100万トークンコンテキスト管理：セッション分割とコンテキストポリューション対策](claude-code-context-window-management.md) | 26/04/16 | 26/04/16 | Claude Codeの100万トークンコンテキストウィンドウは、大規模システムの開発において強力な能力を提供する一方で |
+| [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md) | 26/04/16 | 26/04/16 | Claude Codeを活用することで、プログラミングの基礎知識がなくても数日でWebアプリケーションを開発・販売できる |
+| [Claude Code Skill設計の落とし穴：Gotchasセクションの重要性と失敗から学ぶ設計知見](claude-code-skill-design-gotchas.md) | 26/03/18 | 26/04/16 | Claude Codeにおけるスキル設計において、最も信号密度が高いのは「Gotchasセクション」である。Claude |
+| [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md) | 26/03/10 | 26/04/16 | Claude Codeを単なる開発ツールではなく、仮想会社として機能させることで、複数の部門・役割を持つ組織を構築し、自 |
+| [Claude Mythos：高性能化とサンドボックス脱出リスク、経営判断基準の実装](claude-mythos-capability-risk-management.md) | 26/04/16 | 26/04/16 | Anthropicの高性能AI「Claude Mythos」はコーディング・数学能力で非連続的な伸びを示し、既存の制御フ |
+| [Claudeスキルテンプレートの再利用と組織展開：検証済みプロンプトの標準化と採用加速](claude-skill-template-library-reuse.md) | 26/04/16 | 26/04/16 | AI Edgeが5時間かけて開発・検証したClaudeの9つのスキルテンプレートの無料公開は、単なるプロンプト集ではなく |
+| [コンテキスト設計によるリーダーシップ：行動の文脈が評価を決める](context-design-leadership-impression-management.md) | 26/04/16 | 26/04/16 | リーダーの評価は能力やスキルではなく、周囲が持つ「印象」によって決定される。同じ行動であっても、その背景にある「文脈（コ |
+| [ドメイン専門知識のデジタル商品化：本業スキルの受動収入転換と自動販売機型ビジネス](domain-expertise-digital-product-monetization.md) | 26/04/16 | 26/04/16 | 本業で蓄積した専門知識やトラブルシューティング経験を、デジタル商品化することで、受動的な副収入へと転換するビジネスモデル |
+| [人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略](humanoid-robot-labor-market-disruption.md) | 26/04/16 | 26/04/16 | 2030年代には人型ロボット技術の普及により、ホワイトカラーの自動化に続いてブルーカラー職も急速に置き換わる時代が到来す |
+| [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | 26/03/15 | 26/04/16 | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
+| [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md) | 26/04/16 | 26/04/16 | AI時代において、従来の「労働量 = 報酬」という一次関数的な関係が崩壊しつつあります。AIエージェントが収益化プロセス |
+| [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/04/16 | 26/04/16 | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
+| [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md) | 26/04/16 | 26/04/16 | 製造業システムの自動化・保守コストは今後数年で劇的に低下する可能性が高く、現在の高度なエンジニアスキルの重要性が相対的に |
+| [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md) | 26/04/14 | 26/04/16 | 高度なコーディング能力を持つAIモデル（Claude Mythosのような次世代AIなど）の登場により、27年前のレガシ |
+| [マルチセッション管理のライフサイクル：初期設定後の継続的な検証と最適化フレームワーク](multi-session-lifecycle-continuous-monitoring.md) | 26/04/16 | 26/04/16 | Claude Codeの100万トークンコンテキストウィンドウは強力な一方で、複数セッション管理とコンテキストポリューシ |
+| [パーソナルAIアシスタント化：フライデー型自動化エージェントの組織導入と個人生産性向上設計](personal-ai-assistant-automation-design.md) | 26/04/16 | 26/04/16 | パーソナルAIアシスタント「フライデー」型の自動化エージェントを導入することで、個人の業務を大幅に削減し、生産性を飛躍的 |
+| [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md) | 26/04/08 | 26/04/16 | Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除する「Caveman」プロンプトテクニックにより、 |
+| [プロンプトテンプレートの反復検証フレームワーク：5時間の調整プロセスと組織的スケーリング](prompt-template-iteration-testing-framework.md) | 26/04/16 | 26/04/16 | AI Edgeが5時間をかけて開発・検証したClaudeスキルテンプレートの公開事例から、単なるプロンプト作成ではなく「 |
+| [透明性とコミュニケーション：判断背景の共有による信頼醸成](transparency-communication-trust-foundation.md) | 26/04/16 | 26/04/16 | リーダーシップの評価は、実際の能力や行動そのものではなく、周囲がそれをどう「解釈」するかによって決まる。同じ指示でも「任 |
+| [ウェアラブルデバイスと職場監視：プライバシー・データガバナンスの倫理的枠組み](wearable-device-workplace-privacy-governance.md) | 26/04/16 | 26/04/16 | ウェアラブルデバイスの普及により、製造業や物流業など現場作業を主とする職場では、労働者の生体データ・位置情報・行動パター |
 | [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md) | 26/04/15 | 26/04/15 | Capability Overhangとは、AIモデルが持つ実際の能力と、ユーザーが実際に活用できている能力の間の深刻な |
 | [クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合](creator-intuition-driven-design-philosophy.md) | 26/04/15 | 26/04/15 | クリエイターの成功は、外部トレンドの追従ではなく、内なる「ワクワク」感と外部フィードバックの相互作用にある。累計200億 |
 | [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md) | 26/04/12 | 26/04/15 | SaaS企業の成長戦略において、ユーザーオンボーディングに「適切な摩擦」を設計することが継続利用と機能活用につながる重要 |
@@ -12,24 +44,17 @@
 | [AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護](ai-agent-permission-model-least-privilege.md) | 26/04/14 | 26/04/14 | AI開発ツールやエージェントの普及に伴い、セキュリティリスクが急増している。経営者・システム管理者が実装すべき重要な防御 |
 | [科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見](ai-as-scientific-instrument-verification-loop.md) | 26/04/14 | 26/04/14 | AIの価値は、単なる自動化ツールとしてではなく「科学的な検証道具」として捉える時に最大化される。Google DeepM |
 | [自律兵器と監視社会化：AI軍事転用とシステム監視の民主的ガバナンス枠組み](ai-autonomous-weapons-surveillance-state-governance.md) | 26/04/14 | 26/04/14 | AI技術の軍事転用と監視社会化は、21世紀最大の地政学的リスクとして急速に現実化しつつある。自律兵器システムの展開、大規 |
-| [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md) | 26/04/14 | 26/04/14 | AI技術の急速な性能向上に伴い、一定の能力水準に達したモデルの公開可否を判断するフレームワークが必要となっている。Ant |
-| [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md) | 26/04/14 | 26/04/14 | 生成AIの真価は単なるコスト削減ではなく、誰もが低コストでコンテンツやビジネスを創出できる「民主化」にある。AIが創造的 |
-| [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | 26/04/14 | 26/04/14 | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
-| [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md) | 26/04/14 | 26/04/14 | AI導入時におけるシステムの信頼性と安全性は、技術仕様だけでなく、開発リーダーの個人的動機・価値観・根底にある哲学に大き |
-| [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md) | 26/04/14 | 26/04/14 | AI開発ツール（バイブコーディング、OpenCraw、Coworkなど）の普及により、非エンジニアも含む全社的なセキュリ |
-| [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md) | 26/04/14 | 26/04/14 | AI技術の急速な進展により、2030年代には製造業・システム管理・事務職など広範な職種で20～50%以上の失業率が予測さ |
+| [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md) | 26/04/16 | 26/04/14 | 生成AIの真価は単なるコスト削減ではなく、誰もが低コストでコンテンツやビジネスを創出できる「民主化」にある。AIが創造的 |
 | [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 26/04/14 | 26/04/14 | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
 | [カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン](custom-tool-development-ai-empowerment.md) | 26/04/14 | 26/04/14 | 生成AIの真の価値は**コスト削減ではなく、誰もが低コストでカスタムツールやサービスを自前開発できる「民主化」**にある |
 | [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md) | 26/04/14 | 26/04/14 | AIの価値は「技術的な優秀さ」ではなく「実務的な正しさ」にある。現場の専門知識を持つ人間が「何を自動化すべきか」「何を人 |
 | [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md) | 26/04/14 | 26/04/14 | AI業界は2026年を境に「学習時代」から「推論時代」へと転換し、GPUインフラの役割が根本的に変わろうとしている。NV |
-| [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md) | 26/04/14 | 26/04/14 | AI時代において、従来の「労働量 = 報酬」という一次関数的な関係が崩壊しつつあります。AIエージェントが収益化プロセス |
 | [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 26/04/14 | 26/04/14 | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
-| [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md) | 26/04/14 | 26/04/14 | 高度なコーディング能力を持つAIモデル（Claude Mythosのような次世代AIなど）の登場により、27年前のレガシ |
 | [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/04/14 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md) | 26/04/13 | 26/04/13 | AI利用コストの削減は、モデル選択やアーキテクチャ設計よりも、プロンプト工夫とトークン消費最適化にある。Cavemanテ |
 | [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md) | 26/04/13 | 26/04/13 | 機械学習理論の深掘りや教科書的な学習に時間を費やすのではなく、「実際に動くものを作る」ことに集中することが、AIエンジニ |
 | [AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md) | 26/04/13 | 26/04/13 | AIシステムの本番運用では、LLMの推論コスト、レイテンシ、エラー率といった指標の可視化が不可欠です。Langfuseな |
-| [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md) | 26/04/13 | 26/04/13 | 「As Little AI As Possible」原則は、AIを万能解と見なさず、既存ロジック・ルールベースシステムと |
+| [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md) | 26/04/16 | 26/04/13 | 「As Little AI As Possible」原則は、AIを万能解と見なさず、既存ロジック・ルールベースシステムと |
 | [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md) | 26/04/09 | 26/04/13 | Claude Managed Agentsは、Anthropicが提供するクラウドホスト型エージェント構築・デプロイメン |
 | [プロンプトエンジニアリングのコモディティ化と差別化要因としてのシステムアーキテクチャ設計](commodity-prompt-engineering-vs-architecture-differentiation.md) | 26/04/13 | 26/04/13 | 2026年以降のAIエンジニアに求められるスキルの中心は、プロンプトエンジニアリングから**システムアーキテクチャ設計* |
 | [エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル](edge-ai-system-design-production-skills.md) | 26/04/13 | 26/04/13 | 2026年のAIエンジニアに求められるコアスキルは、プロンプトエンジニアリングではなく、エッジデバイス上でのAI推論シス |
@@ -48,10 +73,10 @@
 | [意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証](decision-fatigue-sop-standardization-cognitive-load-reduction.md) | 26/04/12 | 26/04/12 | 意思決定疲労（Decision Fatigue）は、1日を通じた複数の判断により心理的エネルギーが消耗し、判断力が低下す |
 | [PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ](local-pglite-sensitive-data-management.md) | 26/04/12 | 26/04/12 | PGLiteはPostgreSQLのローカル環境実装であり、外部クラウドサーバーへのデータ送信を回避しながら、機密性の高 |
 | [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md) | 26/04/11 | 26/04/11 | シンギュラリティループとは、AIが自身の性能向上を自律的に加速させるメカニズムのことである。AIが改善提案を生成し、それ |
-| [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md) | 26/04/09 | 26/04/09 | Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コーディング」から「AIエージェントの監督・ |
+| [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md) | 26/04/16 | 26/04/09 | Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コーディング」から「AIエージェントの監督・ |
 | [承認フロー簡素化と権限委譲設計：複雑さ排除による組織の自己防御メカニズム](approval-workflow-simplification-competitive-advantage.md) | 26/04/09 | 26/04/09 | CIAの秘密文書「Simple Sabotage Field Manual」に記載された組織破壊手法と現代企業の「大企業 |
 | [Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理](claude-managed-agents-manufacturing-compliance.md) | 26/04/14 | 26/04/09 | Anthropic の Claude Managed Agents は、エージェントループと実行環境をクラウド側で一元管 |
-| [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md) | 26/04/09 | 26/04/09 | Claude Managed Agents は、クライアント終了後もサーバー側でエージェントが自律動作を続け、Sessi |
+| [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md) | 26/04/16 | 26/04/09 | Claude Managed Agents は、クライアント終了後もサーバー側でエージェントが自律動作を続け、Sessi |
 | [ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上](document-format-conversion-markdown-standardization.md) | 26/04/09 | 26/04/09 | 製造業や企業環境に散在するPDF、Word、Excel、PowerPoint等の複数形式ドキュメントをMarkdown形 |
 | [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md) | 26/04/09 | 26/04/09 | モデルやシステムの能力が向上すると、古い前提に基づいた設計が足かせになり、『死に掛けたコード』として機能し続ける。Ant |
 | [LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化](llm-integration-technical-documentation-automation.md) | 26/04/09 | 26/04/09 | 製造業の技術資料（設備仕様書、操作マニュアル、メンテナンスガイド）は複数の形式（PDF、Word、Excel、画像など） |
@@ -62,11 +87,8 @@
 | [リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制](remote-agent-session-sharing-multi-user-operations.md) | 26/04/09 | 26/04/09 | Claude Managed Agents がクラウドホスト型のエージェント実行環境を提供することで、複数拠点・複数ユー |
 | [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md) | 26/04/08 | 26/04/08 | AIエージェントを24時間稼働させて運用を自動化できる人材へのキャリア転換は、2026年以降の生き残り戦略となりつつある |
 | [Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計](claude-chat-claude-code-workflow.md) | 26/04/08 | 26/04/08 | Claude ChatとClaude Codeは異なる強みを持つツールであり、明確な役割分担によって初めて真価を発揮しま |
-| [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md) | 26/04/08 | 26/04/08 | Claude Code Agent Teamsは、複数のAIエージェントを協調させて、より複雑なタスクを実行するフレーム |
 | [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md) | 26/04/08 | 26/04/08 | エンジニアリングスキルがなくても、AIとの協働によってツール開発を実現し、継続的に改善していくことは可能です。このページ |
-| [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md) | 26/04/08 | 26/04/08 | Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除する「Caveman」プロンプトテクニックにより、 |
 | [AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止](ai-labor-policy-governance-framework.md) | 26/04/07 | 26/04/07 | AI革命による自動化の恩恵を社会全体に広く共有し、雇用喪失と権力集中のリスクを適切に管理するためには、民主的ガバナンス、 |
-| [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md) | 26/04/07 | 26/04/07 | エンジニアのキャリアは「手でコードを書く職人」から「AIシステムを設計・監督する経営者」へ転換する過渡期を迎えている。こ |
 | [効率配当制度：自動化削減分の労働者還元と週32時間制の実装](automation-efficiency-dividend-work-reduction.md) | 26/04/07 | 26/04/07 | AI・自動化による生産性向上で削減できたコスト・時間を労働者に還元する「効率配当制度」は、企業の競争力維持と従業員の生活 |
 | [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md) | 26/04/07 | 26/04/07 | マネーフォワードが2026年7月から提供開始予定の『AI Cowork』は、経理・労務・法務といったバックオフィス業務を |
 | [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md) | 26/04/07 | 26/04/07 | Cloudflareが発表するEmDashは、WordPressの脆弱性問題の根本原因であるプラグイン野放し実行に終止符 |
@@ -97,7 +119,6 @@
 | [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md) | 26/03/08 | 26/03/23 | SKILL.md は Skill System の中核をなすドキュメントであり、フォルダ単位での Claudeへの命令セ |
 | [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md) | 26/03/08 | 26/03/23 | Skill System は、フォルダ単位で Claude に対する命令セットを体系的に整理し、再利用可能にするフレーム |
 | [GitHub Free プライベートリポジトリのBranch Protection代替：pre-push hook活用](branch-protection-alternatives-free-tier.md) | 26/03/21 | 26/03/21 | GitHub Freeではプライベートリポジトリに対してBranch Protection Rulesが適用されないため |
-| [Claude Code Skill設計の落とし穴：Gotchasセクションの重要性と失敗から学ぶ設計知見](claude-code-skill-design-gotchas.md) | 26/03/18 | 26/03/21 | Claude Codeにおけるスキル設計において、最も信号密度が高いのは「Gotchasセクション」である。Claude |
 | [エンバイロメント・エンジニアリング：AI活動の土台づくり](environment-engineering.md) | 26/03/08 | 26/03/21 | エンバイロメント・エンジニアリングとは、AIが動きやすい環境を整えるための専門職能である。サーバー、ネットワーク、システ |
 | [Git Hooksセキュリティ防御：権限スキップ時の多層防御設計](git-hooks-security-defense.md) | 26/03/21 | 26/03/21 | Claude Codeなどの権限スキップ機能を使用する場合でも、Gitの仕組みそのものであるGit Hooksは有効とい |
 | [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md) | 26/03/18 | 26/03/21 | AIエージェントの自動実行・成長を実現するには、手書き指示では限界がある。Hookという機械的な強制タイミングを活用する |
@@ -111,9 +132,7 @@
 | [AI取締役会による意思決定：複数モデルの意見統合と人間判断](ai-board-decision-making.md) | 26/03/15 | 26/03/15 | 重要な経営判断を1つのAIモデルに依存するのではなく、複数の異なるAIモデル（Claude、OpenAI、Geminiな |
 | [AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化](ai-ceo-delegation-protocol.md) | 26/03/15 | 26/03/15 | AIを単なる「作業実行者」として指示する関係から、経営方針を明文化して「判断を委任する」関係へと転換するプロトコルである |
 | [AI専門家アンサンブル・プロンプティング：複数視点の合意形成分析](ai-expert-ensemble-prompting.md) | 26/03/14 | 26/03/15 | AI専門家アンサンブル・プロンプティングは、単一の視点ではなく複数の専門家が協調して分析・判断するようにAIに指示するプ |
-| [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md) | 26/03/10 | 26/03/15 | Claude Codeを単なる開発ツールではなく、仮想会社として機能させることで、複数の部門・役割を持つ組織を構築し、自 |
 | [The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理](factory-model-software-development.md) | 26/03/15 | 26/03/15 | The Factory Modelは、製造業における自動アセンブリラインの効率化原理をソフトウェア開発に適用する管理思想 |
-| [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md) | 26/03/15 | 26/03/15 | AIへの指示出しの質は、人間相手のマネジメント能力に直結する。Claude Codeなどの忖度しないAIモデルは曖昧な指 |
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 26/03/14 | 26/03/15 | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
 | [Skillテスト戦略：トリガー・機能・パフォーマンス検証の3段階](skill-testing-strategy.md) | 26/03/08 | 26/03/15 | Skillの品質を確保するためには、体系的なテスト戦略が必要です。本ページでは、トリガーテスト・機能テスト・パフォーマン |
 | [声と電話によるAIインターフェース：直感的なチェックインと生活統合](voice-phone-ai-interface.md) | 26/03/15 | 26/03/15 | 従来のテキストベースのAIインターフェースに「声」と「電話」を組み込むことで、より直感的で自然なチェックインが可能になる |
@@ -131,7 +150,6 @@
 | [MCPとSkillの役割分担：ツール連携とワークフロー設計](mcp-skill-architecture.md) | 26/04/09 | 26/03/08 | MCPとSkillは、AIエージェントが外部ツールやデータを活用する際の「接続」と「使用方法」を担当する相補的な概念です |
 | [skill-creator スキル：Skill設計・レビュー・改善の自動化](skill-creator-automation.md) | 26/03/08 | 26/03/08 | skill-creatorはClaude.aiに組み込まれた専門的なスキルで、Skillの設計・レビュー・改善提案を自動 |
 | [ワークフローのSkill化：業務手順の標準化と共有](workflow-skill-definition.md) | 26/03/08 | 26/03/08 | 日々の業務に含まれる反復的なワークフローをSkill Systemとして定義することで、個人の暗黙知を形式知に変え、チー |
-| [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md) | - | - | AIエージェントは短期タスクでは高い性能を発揮するが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害につな |
 | [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md) | - | - | AIエージェントがCLI経由でシステムを自律操作し、ログ確認や定期メンテナンスなどのルーティン作業を自動化するパターンで |
 | [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md) | - | - | 製造業、特にコイルセンターなどの素材加工業における検品・在庫管理・受発注プロセスは、いまだ電話・ファックス・スプレッドシ |
 | [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md) | - | - | AI時代のシステム管理では、自動化ツールの効率性に依存しながらも、生成結果の妥当性を判断する責任が人間に集中し、「AI疲 |
@@ -142,9 +160,7 @@
 | [クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減](cloud-independence-ai-cost-security-strategy.md) | - | - | クラウドへの依存を排除し、オンプレミス環境でAIモデルを直接実行する戦略が、セキュリティ要件が厳しい製造業やデータセンタ |
 | [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md) | - | - | ブックデザイナー井上新八氏が定義する「心の渋滞」は、毎日の意思決定の積み重ねによって生じる心理的疲労であり、この状態では |
 | [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md) | - | - | 日本の人口減少と労働力不足による社会システム機能不全が加速する中で、既存インフラの効率化と高度な維持管理スキルの価値が飛 |
-| [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | - | - | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
 | [Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー](managed-agents-model-update-compatibility-design.md) | - | - | Claude Managed Agentsは、Anthropicが提供する事前構築済みの管理インフラ上で動作する設定可能 |
-| [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md) | - | - | 製造業システムの自動化・保守コストは今後数年で劇的に低下する可能性が高く、現在の高度なエンジニアスキルの重要性が相対的に |
 | [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md) | - | - | 複数のエージェントが連携するパイプラインシステムでは、任意のステップでの失敗が全体の信頼性を損なう。本ページでは、Cla |
 | [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | - | - | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchの事例が示すように、**トッ |
 | [個人ナレッジベースのベクトル検索統合：会議・メール・ログの一元化とエージェント参照設計](personal-knowledge-base-vector-search-integration.md) | - | - | GBrainのようなベクトル検索型ナレッジベースは、会議記録・メール・カレンダー・ログなどの断片化した個人情報を統合し、 |

@@ -1,5 +1,37 @@
 # Wiki 更新ログ
 
+## [2026-04-16] ingest | Harnessing Claude's Intelligence | 3 Key Patterns 
+- 更新ページ: [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md), [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [仮定の再評価サイクル：ルール削減と継続的改善の運用設計](assumption-reevaluation-cycle-continuous-improvement.md)
+- 出典: [Harnessing Claude's Intelligence | 3 Key](https://claude.com/blog/harnessing-claudes-intelligence)
+
+## [2026-04-16] ingest | 【最高の上司、最悪の上司】リーダーの評価は「印象」で決まる／何をするかより、どう見えるかが大事／「文
+- 更新ページ: [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md), [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md), [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md), [コンテキスト設計によるリーダーシップ：行動の文脈が評価を決める](context-design-leadership-impression-management.md), [透明性とコミュニケーション：判断背景の共有による信頼醸成](transparency-communication-trust-foundation.md)
+- 出典: [【最高の上司、最悪の上司】リーダーの評価は「印象」で決まる／何をするかより、どう](https://www.youtube.com/watch?v=2NxkBvw3wok)
+
+## [2026-04-16] ingest | 【生成AI】1カ月で書籍執筆 / 日本CTO協会理事・広木さんのAI活用方法 / Claude Co
+- 更新ページ: [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md), [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md), [パーソナルAIアシスタント化：フライデー型自動化エージェントの組織導入と個人生産性向上設計](personal-ai-assistant-automation-design.md), [AI書籍執筆加速パターン：Claude Codeによる1ヶ月半完成メカニズムと知識資産化戦略](ai-book-authoring-acceleration-pattern.md)
+- 出典: [【生成AI】1カ月で書籍執筆 / 日本CTO協会理事・広木さんのAI活用方法 /](https://www.youtube.com/watch?v=hVTWCV6_ubw)
+
+## [2026-04-16] ingest | 【爆速起業】Claude Codeを使った全く新しい起業・副業の方法を解説します！
+- 更新ページ: [Claude Codeを仮想会社として運営する：組織シミュレーションと自動化](claude-code-virtual-company.md), [労働とお金の切り離し：AI自動化による収益化プロセスの構造化](labor-money-decoupling.md), [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md), [ドメイン専門知識のデジタル商品化：本業スキルの受動収入転換と自動販売機型ビジネス](domain-expertise-digital-product-monetization.md)
+- 出典: [【爆速起業】Claude Codeを使った全く新しい起業・副業の方法を解説します](https://www.youtube.com/watch?v=XCrAMXIaI-8)
+
+## [2026-04-16] ingest | 【中島聡vs未来予測】ホワイトカラー消滅後はブルーカラーも危ない？次の主役…人型ロボット社会とは？【
+- 更新ページ: [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md), [製造業自動化コストの劇的低下：経営判断能力へのシフト](manufacturing-automation-cost-disruption.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略](humanoid-robot-labor-market-disruption.md), [ウェアラブルデバイスと職場監視：プライバシー・データガバナンスの倫理的枠組み](wearable-device-workplace-privacy-governance.md)
+- 出典: [【中島聡vs未来予測】ホワイトカラー消滅後はブルーカラーも危ない？次の主役…人型](https://www.youtube.com/watch?v=nsV2rKjrbZg)
+
+## [2026-04-16] ingest | 【完全入門：Claude Mythos】コーディングと数学能力で非連続的な伸び／金融システムに与える
+- 更新ページ: [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md), [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md), [Claude Mythos：高性能化とサンドボックス脱出リスク、経営判断基準の実装](claude-mythos-capability-risk-management.md), [AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計](ai-sandboxing-isolation-architecture-manufacturing.md)
+- 出典: [【完全入門：Claude Mythos】コーディングと数学能力で非連続的な伸び／](https://www.youtube.com/watch?v=vPX9SXHgCRA)
+
+## [2026-04-16] ingest | XユーザーのAI Edgeさん: 「9 Claude Skills That Will Change
+- 更新ページ: [Claude Code Skill設計の落とし穴：Gotchasセクションの重要性と失敗から学ぶ設計知見](claude-code-skill-design-gotchas.md), [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md), [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [Claudeスキルテンプレートの再利用と組織展開：検証済みプロンプトの標準化と採用加速](claude-skill-template-library-reuse.md), [プロンプトテンプレートの反復検証フレームワーク：5時間の調整プロセスと組織的スケーリング](prompt-template-iteration-testing-framework.md)
+- 出典: [XユーザーのAI Edgeさん: 「9 Claude Skills That W](https://x.com/aiedge_/status/2044431605209673973)
+
+## [2026-04-16] ingest | XユーザーのThariqさん: 「Using Claude Code: Session Manage
+- 更新ページ: [Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用](claude-managed-agents-session-resilience.md), [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [Claude Code 100万トークンコンテキスト管理：セッション分割とコンテキストポリューション対策](claude-code-context-window-management.md), [マルチセッション管理のライフサイクル：初期設定後の継続的な検証と最適化フレームワーク](multi-session-lifecycle-continuous-monitoring.md)
+- 出典: [XユーザーのThariqさん: 「Using Claude Code: Sess](https://x.com/trq212/status/2044548257058328723?s=12&t=zdgVF5rr7h6fY4jW-FB-JA)
+
 ## [2026-04-15] ingest | 累計200億再生を「狙って」作った男：関ミナティ氏の動画哲学
 - 更新ページ: [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用](onboarding-friction-design-saas-growth.md), [Progressive Disclosure パターン：段階的情報開示による効率化](progressive-disclosure-pattern.md), [クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合](creator-intuition-driven-design-philosophy.md), [強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化](strengths-leverage-task-design-productivity-multiplication.md)
 - 出典: [累計200億再生を「狙って」作った男：関ミナティ氏の動画哲学](https://www.youtube.com/watch?v=2G1vmemQ1P8)
