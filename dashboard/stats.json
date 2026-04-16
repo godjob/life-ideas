@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-16T21:06:00+09:00",
+  "generatedAt": "2026-04-16T21:39:06+09:00",
   "weekly": {
-    "commitCount": 265,
+    "commitCount": 280,
     "byDay": [
       {
         "date": "2026-04-10",
@@ -29,25 +29,21 @@
       },
       {
         "date": "2026-04-16",
-        "count": 13
+        "count": 28
       }
     ]
   },
   "byDirectory": {
-    "scrap": 21,
+    "scrap": 20,
     "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 343
+    "other": 338
   },
   "recentCommits": [
     {
       "date": "2026-04-16",
-      "message": "reflect: 別PCセッションの振り返りをメモリに反映・reflectファイルを削除"
-    },
-    {
-      "date": "2026-04-16",
       "message": "dashboard: Claude使用量更新 (2026-04-16)"
     },
     {
@@ -56,7 +52,11 @@
     },
     {
       "date": "2026-04-16",
-      "message": "Merge branch 'main' of https://github.com/godjob/life"
+      "message": "dashboard: Claude使用量更新 (2026-04-16)"
+    },
+    {
+      "date": "2026-04-16",
+      "message": "dashboard: Claude使用量更新 (2026-04-16)"
     },
     {
       "date": "2026-04-16",
