@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-17T22:14:37+09:00",
+  "generatedAt": "2026-04-17T22:17:30+09:00",
   "weekly": {
-    "commitCount": 295,
+    "commitCount": 297,
     "byDay": [
       {
         "date": "2026-04-11",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-17",
-        "count": 35
+        "count": 37
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 321
+    "other": 323
   },
   "recentCommits": [
+    {
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
+    },
+    {
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
+    },
     {
       "date": "2026-04-17",
       "message": "読書記録: 3件追加・更新（コンテキスト・リーダーシップ、Claude Code入門、AI活用全技術）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-04-17",
       "message": "scrap: 2026-04-17 【社会人1年目のための「AIマインドセット」】AI・Claude CodeをローカルLLM（Gemma"
-    },
-    {
-      "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
-    },
-    {
-      "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
     }
   ]
 }
