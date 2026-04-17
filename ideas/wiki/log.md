@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-04-17] ingest | youtube
+- 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md), [不完全なコンテンツの取り扱い：スクラップ時点でのメタデータ充実とナレッジ品質保証](incomplete-content-handling-knowledge-quality-control.md)
+- 出典: [youtube](https://www.youtube.com/live/6eBSHbLKuN0)
+
+## [2026-04-17] ingest | Cloudflare Email Service: now in public beta. Read
+- 更新ページ: [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md), [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md), [AIメールネイティブインターフェース：既存システム連携による業務自動化の統一入口](ai-email-native-interface-system-integration.md), [製造業のメール自動化導入：現場スタッフの抵抗感排除と既存知識資産の活用](manufacturing-email-automation-adoption-resistance.md)
+- 出典: [Cloudflare Email Service: now in public ](https://blog.cloudflare.com/email-for-agents/)
+
+## [2026-04-17] ingest | youtube
+- 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md), [不完全なコンテンツの取り扱い：スクラップ時点でのメタデータ充実とナレッジ品質保証](incomplete-content-handling-knowledge-quality-control.md)
+- 出典: [youtube](https://www.youtube.com/live/6eBSHbLKuN0)
+
 ## [2026-04-16] ingest | Harnessing Claude's Intelligence | 3 Key Patterns 
 - 更新ページ: [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md), [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [仮定の再評価サイクル：ルール削減と継続的改善の運用設計](assumption-reevaluation-cycle-continuous-improvement.md)
 - 出典: [Harnessing Claude's Intelligence | 3 Key](https://claude.com/blog/harnessing-claudes-intelligence)

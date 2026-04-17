@@ -2,6 +2,9 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/17 | - | YouTube | [youtube](https://www.youtube.com/live/6eBSHbLKuN0) | YouTubeのライブストリーム動画へのリンクです。詳細な情報が本文に含まれていないため、具体的な内容は不明です。 |
+| 26/04/17 | 26/04/16 | AI, Development, Tools, Business | [Cloudflare Email Service: now in public beta. Ready for your agents](https://blog.cloudflare.com/email-for-agents/) | Cloudflareがメールネイティブ対応のEmail Serviceを公開ベータ開始。AIエージェントがメール送受信・処理を統合プラットフォームで実行できるようになった。 |
+| 26/04/17 | - | YouTube | [youtube](https://www.youtube.com/live/6eBSHbLKuN0) | YouTube Liveのストリーム配信ページですが、本文内容が提供されていないため詳細な分析ができません。 |
 | 26/04/16 | - | AI, LLM, Development, Tools | [Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps | Claude](https://claude.com/blog/harnessing-claudes-intelligence) | Claudeの進化する能力に対応しながらアプリケーションを構築するための3つのパターン：既知のツール活用、不要な処理の削減、エージェントの境界設定。 |
 | 26/04/16 | - | Career, Management, Business | [【最高の上司、最悪の上司】リーダーの評価は「印象」で決まる／何をするかより、どう見えるかが大事／「文脈」を設計せよ／「任せる」も「丸投げ」も同じこと／コンテキスト・リーダーシップ【CAREER】](https://www.youtube.com/watch?v=2NxkBvw3wok) | リーダーの評価は能力ではなく周囲の「印象」で決まり、その印象は「コンテキスト（文脈）」によって決定される。同じ行為でも文脈次第で「任せる」にも「丸投げ」にもなるため、リーダーは行動の文脈を設計・操作する能力が不可欠である。 |
 | 26/04/16 | - | AI, ClaudeCode, Productivity, Career, Management | [【生成AI】1カ月で書籍執筆 / 日本CTO協会理事・広木さんのAI活用方法 / Claude Code以降、AI時代のキャリア（グッドパッチ）](https://www.youtube.com/watch?v=hVTWCV6_ubw) | 日本CTO協会理事の広木大地氏がAIエージェントを活用して1ヶ月半で書籍執筆を完了し、パーソナルAIアシスタント「フライデー」による業務自動化を実現した事例を紹介。AI時代のキャリアと組織変革について語る。 |

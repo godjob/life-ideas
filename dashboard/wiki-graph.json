@@ -22,7 +22,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 31
+      "value": 34
     },
     {
       "id": "ai-agent-cli-automation-pattern",
@@ -34,13 +34,13 @@
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "AIエージェント設計",
-      "value": 29
+      "value": 30
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 10
+      "value": 12
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
@@ -103,6 +103,12 @@
       "value": 9
     },
     {
+      "id": "ai-email-native-interface-system-integration",
+      "label": "AIメールネイティブインターフェース：既存システム連携による業務自動化の統一入口",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "その他",
@@ -142,13 +148,13 @@
       "id": "ai-leader-values-philosophy-reliability-foundation",
       "label": "AIリーダーの価値観と哲学：システム信頼性の基盤構築",
       "group": "AI戦略・社会",
-      "value": 7
+      "value": 8
     },
     {
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "その他",
-      "value": 14
+      "value": 15
     },
     {
       "id": "ai-manager-role-transition-code-craftsman",
@@ -190,19 +196,19 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "その他",
-      "value": 10
+      "value": 11
     },
     {
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 8
+      "value": 9
     },
     {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -214,7 +220,7 @@
       "id": "aidlc-manufacturing-requirements-definition",
       "label": "AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減",
       "group": "製造業・業務DX",
-      "value": 5
+      "value": 7
     },
     {
       "id": "anthropic-courses",
@@ -238,13 +244,13 @@
       "id": "assumption-reevaluation-cycle-continuous-improvement",
       "label": "仮定の再評価サイクル：ルール削減と継続的改善の運用設計",
       "group": "その他",
-      "value": 4
+      "value": 6
     },
     {
       "id": "automated-content-distribution",
       "label": "自動コンテンツ配信：AIによるPR動画生成とSNS投稿の仕組み",
       "group": "その他",
-      "value": 8
+      "value": 10
     },
     {
       "id": "automation-efficiency-dividend-work-reduction",
@@ -262,13 +268,13 @@
       "id": "backoffice-automation-ai-cowork",
       "label": "バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化",
       "group": "ビジネス・組織",
-      "value": 7
+      "value": 8
     },
     {
       "id": "book-metadata-completion-system",
       "label": "書籍メタデータ補完システム：OpenBD→NDL→Google Booksの3段階フォールバック",
       "group": "個人OS・知識管理",
-      "value": 3
+      "value": 4
     },
     {
       "id": "branch-protection-alternatives-free-tier",
@@ -382,7 +388,7 @@
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 9
+      "value": 10
     },
     {
       "id": "cms-plugin-sandbox-security-architecture",
@@ -448,7 +454,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "その他",
-      "value": 16
+      "value": 17
     },
     {
       "id": "description-field-best-practices",
@@ -460,13 +466,13 @@
       "id": "document-format-conversion-markdown-standardization",
       "label": "ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上",
       "group": "製造業・業務DX",
-      "value": 5
+      "value": 6
     },
     {
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "その他",
-      "value": 24
+      "value": 25
     },
     {
       "id": "domain-expertise-digital-product-monetization",
@@ -547,6 +553,12 @@
       "value": 4
     },
     {
+      "id": "incomplete-content-handling-knowledge-quality-control",
+      "label": "不完全なコンテンツの取り扱い：スクラップ時点でのメタデータ充実とナレッジ品質保証",
+      "group": "その他",
+      "value": 1
+    },
+    {
       "id": "independent-coil-center-strategy",
       "label": "独立系コイルセンターの将来戦略：専門特化と価値創造の再定義",
       "group": "製造業・業務DX",
@@ -562,7 +574,7 @@
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "Claude/AI開発ツール",
-      "value": 21
+      "value": 22
     },
     {
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
@@ -616,7 +628,7 @@
       "id": "llm-integration-technical-documentation-automation",
       "label": "LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化",
       "group": "技術実装・エンジニアリング",
-      "value": 8
+      "value": 9
     },
     {
       "id": "llm-wiki-concept",
@@ -640,7 +652,7 @@
       "id": "long-running-ai-agent-design-patterns",
       "label": "長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン",
       "group": "AIエージェント設計",
-      "value": 21
+      "value": 22
     },
     {
       "id": "managed-agents-cost-optimization-gtm-strategy",
@@ -664,13 +676,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 44
+      "value": 47
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 23
+      "value": 24
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -679,10 +691,16 @@
       "value": 10
     },
     {
+      "id": "manufacturing-email-automation-adoption-resistance",
+      "label": "製造業のメール自動化導入：現場スタッフの抵抗感排除と既存知識資産の活用",
+      "group": "製造業・業務DX",
+      "value": 4
+    },
+    {
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 16
+      "value": 17
     },
     {
       "id": "mcp-skill-architecture",
@@ -700,7 +718,7 @@
       "id": "multi-agent-pipeline-error-handling-checkpoint",
       "label": "マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン",
       "group": "AIエージェント設計",
-      "value": 12
+      "value": 13
     },
     {
       "id": "multi-agent-task-dependency-management",
@@ -724,7 +742,7 @@
       "id": "onboarding-friction-design-saas-growth",
       "label": "オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用",
       "group": "ビジネス・組織",
-      "value": 4
+      "value": 5
     },
     {
       "id": "openai-anthropic-competitive-dynamics-market-shift",
@@ -760,7 +778,7 @@
       "id": "personal-knowledge-base-vector-search-integration",
       "label": "個人ナレッジベースのベクトル検索統合：会議・メール・ログの一元化とエージェント参照設計",
       "group": "個人OS・知識管理",
-      "value": 7
+      "value": 9
     },
     {
       "id": "personal-os-operating-system",
@@ -790,7 +808,7 @@
       "id": "prompt-clarity-management-feedback-loop",
       "label": "プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上",
       "group": "プロンプト・AI活用",
-      "value": 13
+      "value": 14
     },
     {
       "id": "prompt-optimization-cost-efficiency",
@@ -808,7 +826,7 @@
       "id": "qms-style-ai-prompt-governance",
       "label": "QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用",
       "group": "製造業・業務DX",
-      "value": 33
+      "value": 36
     },
     {
       "id": "quantified-self-ai-feedback-loop",
@@ -820,7 +838,7 @@
       "id": "rapid-iteration-learning-loop-operational-design",
       "label": "高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却",
       "group": "技術実装・エンジニアリング",
-      "value": 13
+      "value": 14
     },
     {
       "id": "remote-agent-session-sharing-multi-user-operations",
@@ -929,6 +947,12 @@
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
       "value": 5
+    },
+    {
+      "id": "video-content-metadata-collection-strategy",
+      "label": "動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理",
+      "group": "その他",
+      "value": 1
     },
     {
       "id": "voice-phone-ai-interface",
@@ -1188,6 +1212,14 @@
     },
     {
       "from": "ai-agent-operations",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "ai-agent-operations",
+      "to": "ai-email-native-interface-system-integration"
+    },
+    {
+      "from": "ai-agent-operations",
       "to": "ai-managed-service-operational-design"
     },
     {
@@ -1217,6 +1249,10 @@
     {
       "from": "ai-agent-operations",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-agent-operations",
+      "to": "manufacturing-email-automation-adoption-resistance"
     },
     {
       "from": "ai-agent-operations",
@@ -1713,6 +1749,54 @@
     {
       "from": "ai-democratization-low-cost-creation",
       "to": "task-delegation-automation-decision-framework"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "ai-system-monitoring-cost-visibility-tools"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "backoffice-automation-ai-cowork"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "manufacturing-email-automation-adoption-resistance"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "multi-agent-pipeline-error-handling-checkpoint"
+    },
+    {
+      "from": "ai-email-native-interface-system-integration",
+      "to": "qms-style-ai-prompt-governance"
     },
     {
       "from": "ai-engineer-practical-skills-roadmap",
@@ -2852,6 +2936,10 @@
     },
     {
       "from": "backoffice-automation-ai-cowork",
+      "to": "ai-email-native-interface-system-integration"
+    },
+    {
+      "from": "backoffice-automation-ai-cowork",
       "to": "ai-fatigue-judgment-burden-mitigation"
     },
     {
@@ -2869,6 +2957,10 @@
     {
       "from": "backoffice-automation-ai-cowork",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "backoffice-automation-ai-cowork",
+      "to": "manufacturing-email-automation-adoption-resistance"
     },
     {
       "from": "backoffice-automation-ai-cowork",
@@ -4711,6 +4803,46 @@
       "to": "wearable-device-workplace-privacy-governance"
     },
     {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "assumption-reevaluation-cycle-continuous-improvement"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "automated-content-distribution"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "book-metadata-completion-system"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "document-format-conversion-markdown-standardization"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "personal-knowledge-base-vector-search-integration"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "rapid-iteration-learning-loop-operational-design"
+    },
+    {
+      "from": "incomplete-content-handling-knowledge-quality-control",
+      "to": "video-content-metadata-collection-strategy"
+    },
+    {
       "from": "independent-coil-center-strategy",
       "to": "ai-agent-operations"
     },
@@ -5620,6 +5752,10 @@
     },
     {
       "from": "manufacturing-ai-quick-wins",
+      "to": "ai-email-native-interface-system-integration"
+    },
+    {
+      "from": "manufacturing-ai-quick-wins",
       "to": "ai-failure-log"
     },
     {
@@ -5637,6 +5773,10 @@
     {
       "from": "manufacturing-ai-quick-wins",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "manufacturing-ai-quick-wins",
+      "to": "manufacturing-email-automation-adoption-resistance"
     },
     {
       "from": "manufacturing-ai-quick-wins",
@@ -5733,6 +5873,58 @@
     {
       "from": "manufacturing-automation-cost-disruption",
       "to": "worktree-parallel-task-workflow"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "ai-email-native-interface-system-integration"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "ai-leader-values-philosophy-reliability-foundation"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "assumption-reevaluation-cycle-continuous-improvement"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "onboarding-friction-design-saas-growth"
+    },
+    {
+      "from": "manufacturing-email-automation-adoption-resistance",
+      "to": "prompt-clarity-management-feedback-loop"
     },
     {
       "from": "manufacturing-system-vulnerability-preemptive-audit",
@@ -7265,6 +7457,38 @@
     {
       "from": "unlearning-capability-ai-era-competition",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "automated-content-distribution"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "incomplete-content-handling-knowledge-quality-control"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "llm-integration-technical-documentation-automation"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "personal-knowledge-base-vector-search-integration"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "qms-style-ai-prompt-governance"
     },
     {
       "from": "voice-phone-ai-interface",
