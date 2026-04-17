@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-17T21:33:12+09:00",
+  "generatedAt": "2026-04-17T21:34:14+09:00",
   "weekly": {
-    "commitCount": 272,
+    "commitCount": 276,
     "byDay": [
       {
         "date": "2026-04-11",
@@ -29,17 +29,17 @@
       },
       {
         "date": "2026-04-17",
-        "count": 12
+        "count": 16
       }
     ]
   },
   "byDirectory": {
-    "scrap": 18,
+    "scrap": 19,
     "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 312
+    "other": 315
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
+      "message": "scrap: 2026-04-17 スクラップ処理（YouTube Live・Cloudflareブログ）"
     },
     {
       "date": "2026-04-17",
