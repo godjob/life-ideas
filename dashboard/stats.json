@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-17T01:17:22+09:00",
+  "generatedAt": "2026-04-17T21:24:39+09:00",
   "weekly": {
-    "commitCount": 259,
+    "commitCount": 268,
     "byDay": [
       {
         "date": "2026-04-11",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-04-16",
-        "count": 37
+        "count": 38
       },
       {
         "date": "2026-04-17",
-        "count": 0
+        "count": 8
       }
     ]
   },
   "byDirectory": {
-    "scrap": 17,
+    "scrap": 18,
     "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 301
+    "other": 308
   },
   "recentCommits": [
     {
-      "date": "2026-04-16",
-      "message": "scrap: 2026-04-16 スクラップ処理（YouTube5本・Xポスト2件・Claude公式ブログ）"
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
     },
     {
-      "date": "2026-04-16",
-      "message": "dashboard: Claude使用量更新 (2026-04-16)"
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
     },
     {
-      "date": "2026-04-16",
-      "message": "dashboard: Claude使用量更新 (2026-04-16)"
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
     },
     {
-      "date": "2026-04-16",
-      "message": "dashboard: Claude使用量更新 (2026-04-16)"
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
     },
     {
-      "date": "2026-04-16",
-      "message": "dashboard: Claude使用量更新 (2026-04-16)"
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
     }
   ]
 }
