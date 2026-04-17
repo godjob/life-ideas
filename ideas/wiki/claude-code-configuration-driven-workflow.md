@@ -4,6 +4,8 @@
 
 Claude Codeの本質的な価値は、設定ファイル（CLAUDE.md）を毎回読み込む仕組みにあり、業務システムの設計規約やセキュリティ要件を一度記述すれば、以後の対話で常に遵守される点にある。これは製造業のQMS（品質管理システム）や手順書運用に近い効率化メカニズムであり、単なる自動化ツールではなく、人間とAIの分業を組織的に設計する枠組みを提供する。複数のサブエージェントを並列実行する際の計算コスト低下を活用すれば、保守業務（監査・ドキュメント・テスト・パッチ適用）を同時進行で実行でき、権限設定の適切化により確認操作を大幅に削減できる。
 
+一方、[ローカルLLMとクラウドLLMのハイブリッド運用](#ローカルllmの補完的活用)により、API費用削減とセキュリティリスク低減を同時に実現する戦略も注目されている。大規模モデルでの計画設計とローカルモデルでの実装実行を段階的に使い分ける手法は、[段階的LLM実行パターン](llm-tiered-execution-pattern.md)として組織導入が進みつつある。
+
 ## 主要な知見
 
 - **設定駆動ワークフロー：CLAUDE.mdの継続的読み込み機構**
@@ -35,6 +37,17 @@ Claude Codeの本質的な価値は、設定ファイル（CLAUDE.md）を毎回
   - ルール追加時は、既存ルールとの矛盾検査をAIに自動実行させることで、ポリシー衝突を事前防止
   - [CLAUDE.md統治プロセス](claude-md-governance.md)のチェックリストに従うことで、ルール変更の影響範囲を可視化し、突発的な副作用を防げる
 
+- **ローカルLLMの補完的活用とハイブリッド戦略** (NEW)
+  - Claude Codeなどの有料クラウドモデルとローカルLLM（例：Gemma 4）の併用により、API費用を40～60%削減できる
+  - ~~単一のAPIモデルに依存する従来方式~~ → 大規模モデルで計画・設計を立案し、軽量ローカルモデルで実装実行を行う段階的分離アプローチ
+  - オンプレミス環境でのローカルLLM実行により、セキュリティリスク低減（外部API依存の排除）とコンプライアンス要件への適合が容易化される
+  - [ローカルLLMとクラウドLLMのハイブリッド運用](local-llm-api-cost-elimination-strategy.md)と[段階的LLM実行パターン](llm-tiered-execution-pattern.md)により、組織全体のAI運用コストを最適化できる
+
+- **開発者スキル習得戦略のシフト**
+  - Claude Codeなどのエージェンティックツールの進化により、開発者の役割が「直接コーディング」から「監督・検証」へシフト
+  - 従来の「フルスタック開発スキル」習得の前提が変化し、[AIエージェント運用のトークン定量化](ai-agent-token-metrics-career-leverage.md)による説得力構築や[Agentic Engineeringの監督者モデル](agentic-engineering-supervisor-model.md)の理解が重要性を増す
+  - 継続的な学習と適応が一層重要になり、既存知識の[アンラーン能力](unlearning-capability-ai-era-competition.md)とAI時代の[新スキル習得](ai-engineer-practical-skills-roadmap.md)の両立が競争優位を決定する
+
 ## 実装パターン
 
 ### パターン1：マイクロサービス型保守チーム
@@ -50,6 +63,13 @@ Claude Codeの本質的な価値は、設定ファイル（CLAUDE.md）を毎回
 ### パターン3：クロスファンクショナルドキュメント同期
 開発ドキュメント、運用手順書、コンプライアンス報告書を一つのCLAUDE.mdルールセットで管理。ドキュメント間の矛盾が自動検出され、単一のソース・オブ・トゥルースが確立される。
 
+### パターン4：ハイブリッドLLM統執行フロー (NEW)
+1. **計画フェーズ**：Claude等の大規模モデルで要件定義・設計書作成
+2. **実装フェーズ**：ローカルLLM（Gemma等）で実装・単体テスト実行
+3. **検証フェーズ**：再度大規模モデルで統合テスト・品質監査
+
+このアプローチにより、高コストなAPI呼び出しを計画・検証フェーズに集中させ、繰り返し実行される実装フェーズでのコストを圧縮できる。
+
 ## 期待される効果
 
 | 指標 | 従来方式 | CLAUDE.md駆動方式 | 改善率 |
@@ -59,12 +79,21 @@ Claude Codeの本質的な価値は、設定ファイル（CLAUDE.md）を毎回
 | デプロイ前承認待ち時間 | 平均24時間 | 平均2時間 | 92%削減 |
 | セキュリティレビュー漏れ | 月1～2件 | 0件 | 100%削減 |
 | ランニングコスト（月額API費用） | ベースライン | ベースライン×0.6 | 40%削減 |
+| ハイブリッドLLM併用時のAPI費用 | ベースライン | ベースライン×0.4～0.5 | 50～60%削減 (NEW) |
 
 ## 関連ページ
 
-- [CLAUDE.md統治](claude-md-governance.md)
-- [QMS様式のAIプロンプト統治](qms-style-ai-prompt-governance.md)
-- [Claude Code Agent Teams](claude-code-agent-teams.md)
+- [CLAUDE.md統治](claude-md-governance.md): AIへの経営判断基準の明文化と日次改善ループ
+- [QMS様式のAIプロンプト統治](qms-style-ai-prompt-governance.md): 製造業の手順書運用をClaudeに適用
+- [Claude Code Agent Teams](claude-code-agent-teams.md): AIエージェントチームの実装と活用
+- [ローカルLLMとクラウドLLMのハイブリッド運用](local-llm-api-cost-elimination-strategy.md): API費用排除と推論コスト最適化戦略
+- [段階的LLM実行パターン](llm-tiered-execution-pattern.md): 大規模モデルで計画、軽量ローカルモデルで実装する効率化設計
+- [Agentic Engineeringの監督者モデル](agentic-engineering-supervisor-model.md): 直接実行から検証・調整へのシフト
+- [AIエージェント運用のトークン定量化](ai-agent-token-metrics-career-leverage.md): キャリア交渉と昇進における説得力構築
+- [AIエンジニア実践スキルロードマップ](ai-engineer-practical-skills-roadmap.md): 理論より動くものづくり6スキル
+- [アンラーン能力](unlearning-capability-ai-era-competition.md): 既存知識の手放しとAI時代の個人競争力
 
 ## 更新履歴
+
+- 2026-04-17: [How I Use Claude Code with Gemma 4 (Local LLMs, No API Costs)](https://www.youtube.com/watch?v=sKNq4CqWkT4)を参考にローカルLLMハイブリッド運用とコスト最適化戦略を追加、開発者スキル習得戦略の変化を反映
 - 2026-04-01: [Claude Codeのソースコードを読んで分かった、本当の使い方](https://x.com/mal_shaik/status/2038918662489510273)

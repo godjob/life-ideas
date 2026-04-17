@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-04-17] ingest | How I Use Claude Code with Gemma 4 (Local LLMs, No
+- 更新ページ: [Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化](claude-code-configuration-driven-workflow.md), [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md), [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略](local-llm-api-cost-elimination-strategy.md), [段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計](llm-tiered-execution-pattern.md)
+- 出典: [How I Use Claude Code with Gemma 4 (Loca](https://www.youtube.com/watch?v=sKNq4CqWkT4)
+
+## [2026-04-17] ingest | 【社会人1年目のための「AIマインドセット」】AIはオプションではない／AIを「0→100」で使うな
+- 更新ページ: [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md), [タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク](task-delegation-automation-decision-framework.md), [AIマインドセット：人間は思考、AIは実行の役割分担モデル](ai-mindset-human-thought-ai-execution.md), [AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応](ai-tool-evaluation-monthly-refresh-cycle.md)
+- 出典: [【社会人1年目のための「AIマインドセット」】AIはオプションではない／AIを「](https://www.youtube.com/watch?v=X1GVJfZTtKg)
+
 ## [2026-04-17] ingest | youtube
 - 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md), [不完全なコンテンツの取り扱い：スクラップ時点でのメタデータ充実とナレッジ品質保証](incomplete-content-handling-knowledge-quality-control.md)
 - 出典: [youtube](https://www.youtube.com/live/6eBSHbLKuN0)
