@@ -16,13 +16,13 @@
       "id": "agentic-engineering-supervisor-model",
       "label": "Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト",
       "group": "AIエージェント設計",
-      "value": 29
+      "value": 34
     },
     {
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 34
+      "value": 35
     },
     {
       "id": "ai-agent-cli-automation-pattern",
@@ -34,19 +34,19 @@
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "AIエージェント設計",
-      "value": 30
+      "value": 31
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 12
+      "value": 13
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
       "label": "AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築",
       "group": "AIエージェント設計",
-      "value": 12
+      "value": 13
     },
     {
       "id": "ai-as-scientific-instrument-verification-loop",
@@ -70,25 +70,25 @@
       "id": "ai-book-authoring-acceleration-pattern",
       "label": "AI書籍執筆加速パターン：Claude Codeによる1ヶ月半完成メカニズムと知識資産化戦略",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "ai-budget-management-roi-optimization",
       "label": "AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化",
       "group": "技術実装・エンジニアリング",
-      "value": 15
+      "value": 17
     },
     {
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "AI戦略・社会",
-      "value": 3
+      "value": 4
     },
     {
       "id": "ai-capability-threshold-disclosure-strategy",
       "label": "AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク",
       "group": "AI戦略・社会",
-      "value": 6
+      "value": 5
     },
     {
       "id": "ai-ceo-delegation-protocol",
@@ -112,7 +112,7 @@
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "その他",
-      "value": 14
+      "value": 18
     },
     {
       "id": "ai-era-work-inversion",
@@ -136,7 +136,7 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "AI戦略・社会",
-      "value": 8
+      "value": 9
     },
     {
       "id": "ai-labor-policy-governance-framework",
@@ -154,7 +154,7 @@
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "その他",
-      "value": 15
+      "value": 17
     },
     {
       "id": "ai-manager-role-transition-code-craftsman",
@@ -163,16 +163,22 @@
       "value": 10
     },
     {
+      "id": "ai-mindset-human-thought-ai-execution",
+      "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-model-license-compliance-manufacturing",
       "label": "AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策",
       "group": "その他",
-      "value": 8
+      "value": 7
     },
     {
       "id": "ai-orchestrator-role",
       "label": "AIオーケストレーター：100倍エンジニアの役割",
       "group": "AIエージェント設計",
-      "value": 24
+      "value": 25
     },
     {
       "id": "ai-physical-world-reasoning-intuition-acquisition",
@@ -184,7 +190,7 @@
       "id": "ai-powered-web-production-flow",
       "label": "AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制",
       "group": "プロンプト・AI活用",
-      "value": 10
+      "value": 11
     },
     {
       "id": "ai-prompt-engineering-leadership-career",
@@ -196,31 +202,37 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "その他",
-      "value": 11
+      "value": 12
     },
     {
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 9
+      "value": 10
+    },
+    {
+      "id": "ai-tool-evaluation-monthly-refresh-cycle",
+      "label": "AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応",
+      "group": "その他",
+      "value": 5
     },
     {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 4
     },
     {
       "id": "aidlc-manufacturing-requirements-definition",
       "label": "AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減",
       "group": "製造業・業務DX",
-      "value": 7
+      "value": 8
     },
     {
       "id": "anthropic-courses",
@@ -268,7 +280,7 @@
       "id": "backoffice-automation-ai-cowork",
       "label": "バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化",
       "group": "ビジネス・組織",
-      "value": 8
+      "value": 9
     },
     {
       "id": "book-metadata-completion-system",
@@ -298,13 +310,13 @@
       "id": "claude-chat-claude-code-workflow",
       "label": "Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計",
       "group": "Claude/AI開発ツール",
-      "value": 6
+      "value": 7
     },
     {
       "id": "claude-code-agent-teams",
       "label": "Claude Code Agent Teams：AIエージェントチームの実装と活用",
       "group": "Claude/AI開発ツール",
-      "value": 19
+      "value": 21
     },
     {
       "id": "claude-code-configuration-driven-workflow",
@@ -340,13 +352,13 @@
       "id": "claude-long-term-memory-design",
       "label": "Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン",
       "group": "その他",
-      "value": 12
+      "value": 13
     },
     {
       "id": "claude-managed-agents-cloud-deployment",
       "label": "Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント",
       "group": "AIエージェント設計",
-      "value": 13
+      "value": 14
     },
     {
       "id": "claude-managed-agents-manufacturing-compliance",
@@ -364,13 +376,13 @@
       "id": "claude-md-auto-cultivation-hooks",
       "label": "CLAUDE.md自動育成：Hook機械化と無限ループ対策",
       "group": "Claude/AI開発ツール",
-      "value": 9
+      "value": 10
     },
     {
       "id": "claude-md-governance",
       "label": "CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ",
       "group": "Claude/AI開発ツール",
-      "value": 36
+      "value": 37
     },
     {
       "id": "claude-mythos-capability-risk-management",
@@ -388,7 +400,7 @@
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 10
+      "value": 12
     },
     {
       "id": "cms-plugin-sandbox-security-architecture",
@@ -424,7 +436,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 19
+      "value": 21
     },
     {
       "id": "custom-tool-development-ai-empowerment",
@@ -442,7 +454,7 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "健康・習慣",
-      "value": 13
+      "value": 14
     },
     {
       "id": "data-integration-visualization-manufacturing-application",
@@ -454,7 +466,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "その他",
-      "value": 17
+      "value": 19
     },
     {
       "id": "description-field-best-practices",
@@ -472,7 +484,7 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "その他",
-      "value": 25
+      "value": 26
     },
     {
       "id": "domain-expertise-digital-product-monetization",
@@ -484,7 +496,7 @@
       "id": "edge-ai-system-design-production-skills",
       "label": "エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル",
       "group": "技術実装・エンジニアリング",
-      "value": 5
+      "value": 6
     },
     {
       "id": "environment-engineering",
@@ -508,7 +520,7 @@
       "id": "gemma-llm-model-selection-manufacturing",
       "label": "Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "geopolitical-narrative-multidimensional-analysis",
@@ -631,16 +643,28 @@
       "value": 9
     },
     {
+      "id": "llm-tiered-execution-pattern",
+      "label": "段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "llm-wiki-concept",
       "label": "LLM Wiki コンセプト",
       "group": "個人OS・知識管理",
       "value": 1
     },
     {
+      "id": "local-llm-api-cost-elimination-strategy",
+      "label": "ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略",
+      "group": "技術実装・エンジニアリング",
+      "value": 3
+    },
+    {
       "id": "local-llm-deployment-architecture",
       "label": "ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用",
       "group": "技術実装・エンジニアリング",
-      "value": 15
+      "value": 17
     },
     {
       "id": "local-pglite-sensitive-data-management",
@@ -652,7 +676,7 @@
       "id": "long-running-ai-agent-design-patterns",
       "label": "長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン",
       "group": "AIエージェント設計",
-      "value": 22
+      "value": 23
     },
     {
       "id": "managed-agents-cost-optimization-gtm-strategy",
@@ -676,13 +700,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 47
+      "value": 48
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 24
+      "value": 27
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -700,7 +724,7 @@
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 17
+      "value": 19
     },
     {
       "id": "mcp-skill-architecture",
@@ -718,19 +742,19 @@
       "id": "multi-agent-pipeline-error-handling-checkpoint",
       "label": "マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン",
       "group": "AIエージェント設計",
-      "value": 13
+      "value": 14
     },
     {
       "id": "multi-agent-task-dependency-management",
       "label": "マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消",
       "group": "AIエージェント設計",
-      "value": 25
+      "value": 26
     },
     {
       "id": "multi-session-lifecycle-continuous-monitoring",
       "label": "マルチセッション管理のライフサイクル：初期設定後の継続的な検証と最適化フレームワーク",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "non-engineer-ai-tool-development",
@@ -754,7 +778,7 @@
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
       "label": "組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化",
       "group": "ビジネス・組織",
-      "value": 14
+      "value": 16
     },
     {
       "id": "organizational-dysfunction-sabotage-pattern-recognition",
@@ -772,7 +796,7 @@
       "id": "personal-ai-assistant-automation-design",
       "label": "パーソナルAIアシスタント化：フライデー型自動化エージェントの組織導入と個人生産性向上設計",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "personal-knowledge-base-vector-search-integration",
@@ -790,13 +814,13 @@
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "キャリア・働き方",
-      "value": 15
+      "value": 17
     },
     {
       "id": "preemptive-workflow-optimization-ai-migration",
       "label": "AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化",
       "group": "技術実装・エンジニアリング",
-      "value": 8
+      "value": 9
     },
     {
       "id": "progressive-disclosure-pattern",
@@ -808,7 +832,7 @@
       "id": "prompt-clarity-management-feedback-loop",
       "label": "プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上",
       "group": "プロンプト・AI活用",
-      "value": 14
+      "value": 15
     },
     {
       "id": "prompt-optimization-cost-efficiency",
@@ -820,25 +844,25 @@
       "id": "prompt-template-iteration-testing-framework",
       "label": "プロンプトテンプレートの反復検証フレームワーク：5時間の調整プロセスと組織的スケーリング",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "qms-style-ai-prompt-governance",
       "label": "QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用",
       "group": "製造業・業務DX",
-      "value": 36
+      "value": 37
     },
     {
       "id": "quantified-self-ai-feedback-loop",
       "label": "量的自己記録とAI分析の相乗効果：データ資産化と継続的改善",
       "group": "個人OS・知識管理",
-      "value": 16
+      "value": 18
     },
     {
       "id": "rapid-iteration-learning-loop-operational-design",
       "label": "高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却",
       "group": "技術実装・エンジニアリング",
-      "value": 14
+      "value": 15
     },
     {
       "id": "remote-agent-session-sharing-multi-user-operations",
@@ -850,7 +874,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 18
+      "value": 19
     },
     {
       "id": "singularity-loop-ai-self-acceleration",
@@ -880,13 +904,13 @@
       "id": "skill-system",
       "label": "Skill System：フォルダ単位のClaudeへの命令セット",
       "group": "Claude/AI開発ツール",
-      "value": 35
+      "value": 36
     },
     {
       "id": "skill-testing-strategy",
       "label": "Skillテスト戦略：トリガー・機能・パフォーマンス検証の3段階",
       "group": "Claude/AI開発ツール",
-      "value": 10
+      "value": 11
     },
     {
       "id": "sleep-priority-performance-management",
@@ -928,7 +952,7 @@
       "id": "task-delegation-automation-decision-framework",
       "label": "タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク",
       "group": "その他",
-      "value": 8
+      "value": 9
     },
     {
       "id": "time-capital-health-investment-narrative",
@@ -940,13 +964,13 @@
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 5
+      "value": 6
     },
     {
       "id": "video-content-metadata-collection-strategy",
@@ -1536,7 +1560,7 @@
     },
     {
       "from": "ai-budget-management-roi-optimization",
-      "to": "agent-harness-reliability-framework"
+      "to": "agentic-engineering-supervisor-model"
     },
     {
       "from": "ai-budget-management-roi-optimization",
@@ -1548,7 +1572,7 @@
     },
     {
       "from": "ai-budget-management-roi-optimization",
-      "to": "ai-capability-threshold-disclosure-strategy"
+      "to": "ai-engineer-practical-skills-roadmap"
     },
     {
       "from": "ai-budget-management-roi-optimization",
@@ -1560,11 +1584,23 @@
     },
     {
       "from": "ai-budget-management-roi-optimization",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "ai-budget-management-roi-optimization",
       "to": "instruction-design-three-elements"
     },
     {
       "from": "ai-budget-management-roi-optimization",
       "to": "legacy-harness-platform-api-migration-pattern"
+    },
+    {
+      "from": "ai-budget-management-roi-optimization",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "ai-budget-management-roi-optimization",
+      "to": "local-llm-api-cost-elimination-strategy"
     },
     {
       "from": "ai-budget-management-roi-optimization",
@@ -1900,7 +1936,7 @@
     },
     {
       "from": "ai-era-work-inversion",
-      "to": "ai-agent-cli-automation-pattern"
+      "to": "ai-book-authoring-acceleration-pattern"
     },
     {
       "from": "ai-era-work-inversion",
@@ -1912,11 +1948,15 @@
     },
     {
       "from": "ai-era-work-inversion",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "ai-era-work-inversion",
       "to": "ai-orchestrator-role"
     },
     {
       "from": "ai-era-work-inversion",
-      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
     },
     {
       "from": "ai-era-work-inversion",
@@ -1937,6 +1977,10 @@
     {
       "from": "ai-era-work-inversion",
       "to": "labor-money-decoupling"
+    },
+    {
+      "from": "ai-era-work-inversion",
+      "to": "personal-ai-assistant-automation-design"
     },
     {
       "from": "ai-era-work-inversion",
@@ -2263,6 +2307,50 @@
       "to": "transparency-communication-trust-foundation"
     },
     {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "claude-code-agent-teams"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "multi-agent-task-dependency-management"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "preemptive-workflow-optimization-ai-migration"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "prompt-clarity-management-feedback-loop"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "quantified-self-ai-feedback-loop"
+    },
+    {
       "from": "ai-model-license-compliance-manufacturing",
       "to": "ai-agent-operations"
     },
@@ -2585,6 +2673,58 @@
     {
       "from": "ai-system-monitoring-cost-visibility-tools",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "backoffice-automation-ai-cowork"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "pm-exponential-adaptation"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "prompt-template-iteration-testing-framework"
+    },
+    {
+      "from": "ai-tool-evaluation-monthly-refresh-cycle",
+      "to": "self-directed-learning-ai-era-survival-strategy"
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -3208,6 +3348,18 @@
     },
     {
       "from": "claude-code-configuration-driven-workflow",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "claude-code-configuration-driven-workflow",
+      "to": "ai-agent-token-metrics-career-leverage"
+    },
+    {
+      "from": "claude-code-configuration-driven-workflow",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "claude-code-configuration-driven-workflow",
       "to": "claude-code-agent-teams"
     },
     {
@@ -3216,7 +3368,19 @@
     },
     {
       "from": "claude-code-configuration-driven-workflow",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "claude-code-configuration-driven-workflow",
+      "to": "local-llm-api-cost-elimination-strategy"
+    },
+    {
+      "from": "claude-code-configuration-driven-workflow",
       "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "claude-code-configuration-driven-workflow",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "claude-code-context-window-management",
@@ -5363,6 +5527,106 @@
       "to": "skill-system"
     },
     {
+      "from": "llm-tiered-execution-pattern",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-agent-cli-automation-pattern"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-capability-evolution-design-flexibility"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-powered-web-production-flow"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "claude-code-agent-teams"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "claude-long-term-memory-design"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "claude-managed-agents-cloud-deployment"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "claude-md-auto-cultivation-hooks"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "claude-md-governance"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "local-llm-api-cost-elimination-strategy"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "multi-agent-pipeline-error-handling-checkpoint"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "multi-session-lifecycle-continuous-monitoring"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "skill-system"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "skill-testing-strategy"
+    },
+    {
       "from": "llm-wiki-concept",
       "to": "ai-orchestrator-role"
     },
@@ -5375,12 +5639,76 @@
       "to": "skill-system"
     },
     {
-      "from": "local-llm-deployment-architecture",
-      "to": "ai-agent-cli-automation-pattern"
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "ai-orchestrator-role"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "ai-system-monitoring-cost-visibility-tools"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "claude-chat-claude-code-workflow"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "gemma-llm-model-selection-manufacturing"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "local-llm-api-cost-elimination-strategy",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
     },
     {
       "from": "local-llm-deployment-architecture",
-      "to": "ai-model-license-compliance-manufacturing"
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "local-llm-deployment-architecture",
+      "to": "ai-agent-cli-automation-pattern"
     },
     {
       "from": "local-llm-deployment-architecture",
@@ -5397,6 +5725,10 @@
     {
       "from": "local-llm-deployment-architecture",
       "to": "gemma-llm-model-selection-manufacturing"
+    },
+    {
+      "from": "local-llm-deployment-architecture",
+      "to": "llm-tiered-execution-pattern"
     },
     {
       "from": "local-llm-deployment-architecture",
@@ -6624,7 +6956,15 @@
     },
     {
       "from": "prompt-clarity-management-feedback-loop",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
       "to": "ai-orchestrator-role"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
     },
     {
       "from": "prompt-clarity-management-feedback-loop",
@@ -6636,7 +6976,31 @@
     },
     {
       "from": "prompt-clarity-management-feedback-loop",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
       "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
+      "to": "pm-exponential-adaptation"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
+      "to": "quantified-self-ai-feedback-loop"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
+      "to": "rapid-iteration-learning-loop-operational-design"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
+      "to": "task-delegation-automation-decision-framework"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
+      "to": "transparency-communication-trust-foundation"
     },
     {
       "from": "prompt-optimization-cost-efficiency",
@@ -7288,7 +7652,15 @@
     },
     {
       "from": "task-delegation-automation-decision-framework",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "task-delegation-automation-decision-framework",
       "to": "ai-powered-web-production-flow"
+    },
+    {
+      "from": "task-delegation-automation-decision-framework",
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
     },
     {
       "from": "task-delegation-automation-decision-framework",
