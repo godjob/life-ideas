@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-17T21:54:12+09:00",
+  "generatedAt": "2026-04-17T22:10:02+09:00",
   "weekly": {
-    "commitCount": 290,
+    "commitCount": 293,
     "byDay": [
       {
         "date": "2026-04-11",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-17",
-        "count": 30
+        "count": 33
       }
     ]
   },
@@ -39,9 +39,21 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 328
+    "other": 320
   },
   "recentCommits": [
+    {
+      "date": "2026-04-17",
+      "message": "scrap: 2026-04-17 【社会人1年目のための「AIマインドセット」】AI・Claude CodeをローカルLLM（Gemma"
+    },
+    {
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
+    },
+    {
+      "date": "2026-04-17",
+      "message": "dashboard: Claude使用量更新 (2026-04-17)"
+    },
     {
       "date": "2026-04-17",
       "message": "dashboard: Claude使用量更新 (2026-04-17)"
@@ -49,18 +61,6 @@
     {
       "date": "2026-04-17",
       "message": "dashboard: Magazinesタブをiframeインライン表示に変更 (v1.41)"
-    },
-    {
-      "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
-    },
-    {
-      "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
-    },
-    {
-      "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
     }
   ]
 }
