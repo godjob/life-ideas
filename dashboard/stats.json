@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-04-18T00:53:05+09:00",
+  "generatedAt": "2026-04-19T00:31:24+09:00",
   "weekly": {
-    "commitCount": 291,
+    "commitCount": 252,
     "byDay": [
-      {
-        "date": "2026-04-12",
-        "count": 41
-      },
       {
         "date": "2026-04-13",
         "count": 57
@@ -29,22 +25,30 @@
       },
       {
         "date": "2026-04-18",
+        "count": 2
+      },
+      {
+        "date": "2026-04-19",
         "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 20,
+    "scrap": 16,
     "ideas": 1,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 324
+    "other": 316
   },
   "recentCommits": [
     {
-      "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
+      "date": "2026-04-18",
+      "message": "news: 2026-04-18 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-04-18",
+      "message": "朝刊: 2026-04-17 Morning Edition生成"
     },
     {
       "date": "2026-04-17",
@@ -53,10 +57,6 @@
     {
       "date": "2026-04-17",
       "message": "dashboard: Claude使用量更新 (2026-04-17)"
-    },
-    {
-      "date": "2026-04-17",
-      "message": "読書記録: 3件追加・更新（コンテキスト・リーダーシップ、Claude Code入門、AI活用全技術）"
     },
     {
       "date": "2026-04-17",
