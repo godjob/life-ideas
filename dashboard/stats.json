@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-20T00:31:27+09:00",
+  "generatedAt": "2026-04-20T21:51:53+09:00",
   "weekly": {
-    "commitCount": 197,
+    "commitCount": 205,
     "byDay": [
       {
         "date": "2026-04-14",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-04-19",
-        "count": 2
+        "count": 5
       },
       {
         "date": "2026-04-20",
-        "count": 0
+        "count": 5
       }
     ]
   },
   "byDirectory": {
-    "scrap": 15,
+    "scrap": 14,
     "ideas": 1,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 285
+    "other": 287
   },
   "recentCommits": [
     {
-      "date": "2026-04-19",
-      "message": "news: 2026-04-19 記事まとめを自動生成"
+      "date": "2026-04-20",
+      "message": "Merge branch 'main' of https://github.com/godjob/life"
     },
     {
-      "date": "2026-04-19",
-      "message": "朝刊: 2026-04-18 Morning Edition生成"
+      "date": "2026-04-20",
+      "message": "Docker導入"
     },
     {
-      "date": "2026-04-18",
-      "message": "news: 2026-04-18 記事まとめを自動生成"
+      "date": "2026-04-20",
+      "message": "dashboard: Claude使用量更新 (2026-04-20)"
     },
     {
-      "date": "2026-04-18",
-      "message": "朝刊: 2026-04-17 Morning Edition生成"
+      "date": "2026-04-20",
+      "message": "news: 2026-04-20 記事まとめを自動生成"
     },
     {
-      "date": "2026-04-17",
-      "message": "dashboard: Claude使用量更新 (2026-04-17)"
+      "date": "2026-04-20",
+      "message": "朝刊: 2026-04-19 Morning Edition生成"
     }
   ]
 }
