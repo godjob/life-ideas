@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-20T23:03:21+09:00",
+  "generatedAt": "2026-04-20T23:18:14+09:00",
   "weekly": {
-    "commitCount": 210,
+    "commitCount": 211,
     "byDay": [
       {
         "date": "2026-04-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-20",
-        "count": 10
+        "count": 11
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 292
+    "other": 293
   },
   "recentCommits": [
     {
@@ -52,11 +52,11 @@
     },
     {
       "date": "2026-04-20",
-      "message": "Docker: SSH鍵マウント追加 (~/.ssh をread-onlyでマウント)"
+      "message": "dashboard: Claude使用量更新 (2026-04-20)"
     },
     {
       "date": "2026-04-20",
-      "message": "dashboard: Claude使用量更新 (2026-04-20)"
+      "message": "Docker: SSH鍵マウント追加 (~/.ssh をread-onlyでマウント)"
     },
     {
       "date": "2026-04-20",
