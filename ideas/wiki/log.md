@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-04-20] ingest | youtube
+- 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md)
+- 出典: [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc)
+
 ## [2026-04-17] ingest | How I Use Claude Code with Gemma 4 (Local LLMs, No
 - 更新ページ: [Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化](claude-code-configuration-driven-workflow.md), [ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用](local-llm-deployment-architecture.md), [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略](local-llm-api-cost-elimination-strategy.md), [段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計](llm-tiered-execution-pattern.md)
 - 出典: [How I Use Claude Code with Gemma 4 (Loca](https://www.youtube.com/watch?v=sKNq4CqWkT4)

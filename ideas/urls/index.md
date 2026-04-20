@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/20 | - | YouTube | [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc) | 提供されたのはYouTubeの動画URLのみで、本文内容が不明であるため分析できません。 |
 | 26/04/17 | - | ClaudeCode, LLM, Development, Tools, Productivity | [How I Use Claude Code with Gemma 4 (Local LLMs, No API Costs)](https://www.youtube.com/watch?v=sKNq4CqWkT4) | Claude CodeをローカルLLM（Gemma 4）と組み合わせてAPI費用なしでコード生成を実現する方法を解説した動画。有料モデルの補完ツールとしての活用が紹介されている。 |
 | 26/04/17 | - | AI, Career, Management, Productivity, Learning | [【社会人1年目のための「AIマインドセット」】AIはオプションではない／AIを「0→100」で使うな／思考でなく、作業を任せる／月１度は評価を変える／地力を鍛える／AIはアンプ／AI力はマネジメント力](https://www.youtube.com/watch?v=X1GVJfZTtKg) | 社会人1年目向けのAIマインドセット。AIはオプションではなく、人間が思考を担いAIに作業を任せ、月1度は評価をアップデートすることが重要。 |
 | 26/04/17 | - | YouTube | [youtube](https://www.youtube.com/live/6eBSHbLKuN0) | YouTubeのライブストリーム動画へのリンクです。詳細な情報が本文に含まれていないため、具体的な内容は不明です。 |
