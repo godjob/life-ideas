@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-20T23:44:19+09:00",
+  "generatedAt": "2026-04-20T23:45:41+09:00",
   "weekly": {
-    "commitCount": 214,
+    "commitCount": 216,
     "byDay": [
       {
         "date": "2026-04-14",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-04-20",
-        "count": 14
+        "count": 16
       }
     ]
   },
   "byDirectory": {
-    "scrap": 14,
+    "scrap": 15,
     "ideas": 1,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 296
+    "other": 297
   },
   "recentCommits": [
+    {
+      "date": "2026-04-20",
+      "message": "scrap: YouTubeリンクをアーカイブ、daily/urls/wiki更新"
+    },
+    {
+      "date": "2026-04-20",
+      "message": "dashboard: Claude使用量更新 (2026-04-20)"
+    },
     {
       "date": "2026-04-20",
       "message": "dashboard: Claude使用量更新 (2026-04-20)"
@@ -49,14 +57,6 @@
     {
       "date": "2026-04-20",
       "message": "Docker: safe.directoryを/workに設定（dubious ownership対策）"
-    },
-    {
-      "date": "2026-04-20",
-      "message": "dashboard: Claude使用量更新 (2026-04-20)"
-    },
-    {
-      "date": "2026-04-20",
-      "message": "dashboard: Claude使用量更新 (2026-04-20)"
     },
     {
       "date": "2026-04-20",
