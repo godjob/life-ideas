@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-20T23:30:58+09:00",
+  "generatedAt": "2026-04-20T23:44:19+09:00",
   "weekly": {
-    "commitCount": 212,
+    "commitCount": 214,
     "byDay": [
       {
         "date": "2026-04-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-20",
-        "count": 12
+        "count": 14
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 294
+    "other": 296
   },
   "recentCommits": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-04-20",
-      "message": "dashboard: Claude使用量更新 (2026-04-20)"
+      "message": "Docker: safe.directoryを/workに設定（dubious ownership対策）"
     },
     {
       "date": "2026-04-20",
@@ -60,7 +60,7 @@
     },
     {
       "date": "2026-04-20",
-      "message": "Docker: SSH鍵マウント追加 (~/.ssh をread-onlyでマウント)"
+      "message": "dashboard: Claude使用量更新 (2026-04-20)"
     }
   ]
 }
