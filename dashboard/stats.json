@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T20:05:56+09:00",
+  "generatedAt": "2026-04-21T20:07:08+09:00",
   "weekly": {
-    "commitCount": 169,
+    "commitCount": 171,
     "byDay": [
       {
         "date": "2026-04-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-04-21",
-        "count": 4
+        "count": 6
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 295
+    "other": 297
   },
   "recentCommits": [
+    {
+      "date": "2026-04-21",
+      "message": "docker: Python依存パッケージ追加・safe.directoryをシステムレベルに移動"
+    },
+    {
+      "date": "2026-04-21",
+      "message": "dashboard: Claude使用量更新 (2026-04-21)"
+    },
     {
       "date": "2026-04-21",
       "message": "scrap: wiki・urls更新（YouTube要約反映）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-04-20",
       "message": "dashboard: Claude使用量更新 (2026-04-20)"
-    },
-    {
-      "date": "2026-04-21",
-      "message": "news: 2026-04-21 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-04-21",
-      "message": "朝刊: 2026-04-20 Morning Edition生成"
     }
   ]
 }
