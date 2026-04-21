@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T01:02:06+09:00",
+  "generatedAt": "2026-04-21T20:05:48+09:00",
   "weekly": {
-    "commitCount": 164,
+    "commitCount": 168,
     "byDay": [
       {
         "date": "2026-04-15",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-04-20",
-        "count": 20
+        "count": 21
       },
       {
         "date": "2026-04-21",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 15,
-    "ideas": 1,
+    "scrap": 14,
+    "ideas": 0,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 301
+    "other": 295
   },
   "recentCommits": [
     {
+      "date": "2026-04-21",
+      "message": "scrap: YouTubeリンクをアーカイブ、daily/urls/wiki更新"
+    },
+    {
+      "date": "2026-04-20",
+      "message": "dashboard: Claude使用量更新 (2026-04-20)"
+    },
+    {
+      "date": "2026-04-21",
+      "message": "news: 2026-04-21 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-04-21",
+      "message": "朝刊: 2026-04-20 Morning Edition生成"
+    },
+    {
       "date": "2026-04-20",
       "message": "docker: GEMINI_API_KEY を環境変数として渡すように設定"
-    },
-    {
-      "date": "2026-04-20",
-      "message": "dashboard: Claude使用量更新 (2026-04-20)"
-    },
-    {
-      "date": "2026-04-20",
-      "message": "dashboard: Claude使用量更新 (2026-04-20)"
-    },
-    {
-      "date": "2026-04-20",
-      "message": "dashboard: Claude使用量更新 (2026-04-20)"
-    },
-    {
-      "date": "2026-04-20",
-      "message": "scrap: YouTubeリンクをアーカイブ、daily/urls/wiki更新"
     }
   ]
 }
