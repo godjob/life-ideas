@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T20:05:48+09:00",
+  "generatedAt": "2026-04-21T20:05:56+09:00",
   "weekly": {
-    "commitCount": 168,
+    "commitCount": 169,
     "byDay": [
       {
         "date": "2026-04-15",
@@ -29,12 +29,12 @@
       },
       {
         "date": "2026-04-21",
-        "count": 3
+        "count": 4
       }
     ]
   },
   "byDirectory": {
-    "scrap": 14,
+    "scrap": 15,
     "ideas": 0,
     "health": 0,
     "books": 1,
@@ -42,6 +42,10 @@
     "other": 295
   },
   "recentCommits": [
+    {
+      "date": "2026-04-21",
+      "message": "scrap: wiki・urls更新（YouTube要約反映）"
+    },
     {
       "date": "2026-04-21",
       "message": "scrap: YouTubeリンクをアーカイブ、daily/urls/wiki更新"
@@ -57,10 +61,6 @@
     {
       "date": "2026-04-21",
       "message": "朝刊: 2026-04-20 Morning Edition生成"
-    },
-    {
-      "date": "2026-04-20",
-      "message": "docker: GEMINI_API_KEY を環境変数として渡すように設定"
     }
   ]
 }
