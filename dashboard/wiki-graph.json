@@ -10,7 +10,7 @@
       "id": "agent-harness-reliability-framework",
       "label": "エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤",
       "group": "AIエージェント設計",
-      "value": 38
+      "value": 39
     },
     {
       "id": "agentic-engineering-supervisor-model",
@@ -28,19 +28,19 @@
       "id": "ai-agent-cli-automation-pattern",
       "label": "AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン",
       "group": "AIエージェント設計",
-      "value": 18
+      "value": 19
     },
     {
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "AIエージェント設計",
-      "value": 31
+      "value": 32
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 13
+      "value": 14
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
@@ -112,7 +112,7 @@
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "その他",
-      "value": 18
+      "value": 17
     },
     {
       "id": "ai-era-work-inversion",
@@ -130,7 +130,7 @@
       "id": "ai-failure-log",
       "label": "AIエージェント失敗ログと修正ナレッジ",
       "group": "AI戦略・社会",
-      "value": 25
+      "value": 26
     },
     {
       "id": "ai-fatigue-judgment-burden-mitigation",
@@ -178,7 +178,7 @@
       "id": "ai-orchestrator-role",
       "label": "AIオーケストレーター：100倍エンジニアの役割",
       "group": "AIエージェント設計",
-      "value": 25
+      "value": 24
     },
     {
       "id": "ai-physical-world-reasoning-intuition-acquisition",
@@ -226,7 +226,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 4
+      "value": 3
     },
     {
       "id": "aidlc-manufacturing-requirements-definition",
@@ -268,7 +268,7 @@
       "id": "automation-efficiency-dividend-work-reduction",
       "label": "効率配当制度：自動化削減分の労働者還元と週32時間制の実装",
       "group": "ビジネス・組織",
-      "value": 9
+      "value": 10
     },
     {
       "id": "background-automation-design-competitive-advantage",
@@ -436,7 +436,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 21
+      "value": 20
     },
     {
       "id": "custom-tool-development-ai-empowerment",
@@ -466,7 +466,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "その他",
-      "value": 19
+      "value": 20
     },
     {
       "id": "description-field-best-practices",
@@ -562,7 +562,7 @@
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
       "group": "その他",
-      "value": 4
+      "value": 3
     },
     {
       "id": "incomplete-content-handling-knowledge-quality-control",
@@ -574,7 +574,7 @@
       "id": "independent-coil-center-strategy",
       "label": "独立系コイルセンターの将来戦略：専門特化と価値創造の再定義",
       "group": "製造業・業務DX",
-      "value": 3
+      "value": 4
     },
     {
       "id": "inference-era-gpu-infrastructure-strategy",
@@ -592,7 +592,7 @@
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
       "label": "日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上",
       "group": "その他",
-      "value": 11
+      "value": 12
     },
     {
       "id": "jpyc-tax-strategy",
@@ -610,7 +610,7 @@
       "id": "labor-money-decoupling",
       "label": "労働とお金の切り離し：AI自動化による収益化プロセスの構造化",
       "group": "その他",
-      "value": 14
+      "value": 13
     },
     {
       "id": "legacy-code-debt-system-capability-mismatch",
@@ -676,7 +676,7 @@
       "id": "long-running-ai-agent-design-patterns",
       "label": "長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン",
       "group": "AIエージェント設計",
-      "value": 23
+      "value": 24
     },
     {
       "id": "managed-agents-cost-optimization-gtm-strategy",
@@ -688,7 +688,7 @@
       "id": "managed-agents-interface-decoupling-design",
       "label": "Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計",
       "group": "AIエージェント設計",
-      "value": 7
+      "value": 8
     },
     {
       "id": "managed-agents-model-update-compatibility-design",
@@ -700,13 +700,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 48
+      "value": 49
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 27
+      "value": 28
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -730,7 +730,7 @@
       "id": "mcp-skill-architecture",
       "label": "MCPとSkillの役割分担：ツール連携とワークフロー設計",
       "group": "Claude/AI開発ツール",
-      "value": 8
+      "value": 9
     },
     {
       "id": "midlife-crisis-reframing-opportunity",
@@ -748,7 +748,7 @@
       "id": "multi-agent-task-dependency-management",
       "label": "マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消",
       "group": "AIエージェント設計",
-      "value": 26
+      "value": 28
     },
     {
       "id": "multi-session-lifecycle-continuous-monitoring",
@@ -778,13 +778,13 @@
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
       "label": "組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化",
       "group": "ビジネス・組織",
-      "value": 16
+      "value": 18
     },
     {
       "id": "organizational-dysfunction-sabotage-pattern-recognition",
       "label": "組織機能不全とサボタージュパターン認識：CIAマニュアルに学ぶ自己診断フレームワーク",
       "group": "ビジネス・組織",
-      "value": 5
+      "value": 6
     },
     {
       "id": "palantir-fde-user-centric-deployment",
@@ -811,10 +811,16 @@
       "value": 11
     },
     {
+      "id": "physical-ai-hardware-standardization-strategy",
+      "label": "フィジカルAイと日本の標準化戦略：米中覇権争いにおける下層インターフェース統一による競争力構築",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "キャリア・働き方",
-      "value": 17
+      "value": 16
     },
     {
       "id": "preemptive-workflow-optimization-ai-migration",
@@ -874,7 +880,13 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 19
+      "value": 18
+    },
+    {
+      "id": "seniority-employment-ai-debt-transition-strategy",
+      "label": "年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "singularity-loop-ai-self-acceleration",
@@ -922,7 +934,7 @@
       "id": "smile-curve-strategy",
       "label": "スマイルカーブの終焉と『コ』の字型社会：製造業の戦略的転換",
       "group": "ビジネス・組織",
-      "value": 6
+      "value": 7
     },
     {
       "id": "spacex-defense-infrastructure-strategy",
@@ -964,7 +976,7 @@
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "unlearning-capability-ai-era-competition",
@@ -1940,19 +1952,11 @@
     },
     {
       "from": "ai-era-work-inversion",
-      "to": "ai-engineer-practical-skills-roadmap"
-    },
-    {
-      "from": "ai-era-work-inversion",
       "to": "ai-labor-policy-governance-framework"
     },
     {
       "from": "ai-era-work-inversion",
       "to": "ai-mindset-human-thought-ai-execution"
-    },
-    {
-      "from": "ai-era-work-inversion",
-      "to": "ai-orchestrator-role"
     },
     {
       "from": "ai-era-work-inversion",
@@ -1968,15 +1972,7 @@
     },
     {
       "from": "ai-era-work-inversion",
-      "to": "humanoid-robot-labor-market-disruption"
-    },
-    {
-      "from": "ai-era-work-inversion",
       "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
-    },
-    {
-      "from": "ai-era-work-inversion",
-      "to": "labor-money-decoupling"
     },
     {
       "from": "ai-era-work-inversion",
@@ -1984,7 +1980,11 @@
     },
     {
       "from": "ai-era-work-inversion",
-      "to": "self-directed-learning-ai-era-survival-strategy"
+      "to": "physical-ai-hardware-standardization-strategy"
+    },
+    {
+      "from": "ai-era-work-inversion",
+      "to": "seniority-employment-ai-debt-transition-strategy"
     },
     {
       "from": "ai-era-work-inversion",
@@ -4916,27 +4916,11 @@
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
-      "to": "ai-adoption-resistance-mitigation"
-    },
-    {
-      "from": "humanoid-robot-labor-market-disruption",
       "to": "ai-engineer-practical-skills-roadmap"
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
       "to": "ai-security-non-engineer-governance-framework"
-    },
-    {
-      "from": "humanoid-robot-labor-market-disruption",
-      "to": "ai-unemployment-crisis-ubi-transition-strategy"
-    },
-    {
-      "from": "humanoid-robot-labor-market-disruption",
-      "to": "crystallized-intelligence-ai-era-strategy"
-    },
-    {
-      "from": "humanoid-robot-labor-market-disruption",
-      "to": "data-integration-visualization-manufacturing-application"
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
@@ -4956,11 +4940,11 @@
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
-      "to": "pm-exponential-adaptation"
+      "to": "physical-ai-hardware-standardization-strategy"
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
-      "to": "self-directed-learning-ai-era-survival-strategy"
+      "to": "seniority-employment-ai-debt-transition-strategy"
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
@@ -6020,6 +6004,10 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "ai-democratization-low-cost-creation"
     },
     {
@@ -6060,11 +6048,19 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "physical-ai-hardware-standardization-strategy"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "preemptive-workflow-optimization-ai-migration"
     },
     {
       "from": "manufacturing-ai-opportunities",
       "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "seniority-employment-ai-debt-transition-strategy"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -6827,6 +6823,62 @@
       "to": "speed-first-prototyping"
     },
     {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "ai-failure-log"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "independent-coil-center-strategy"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "managed-agents-interface-decoupling-design"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "mcp-skill-architecture"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "multi-agent-task-dependency-management"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "seniority-employment-ai-debt-transition-strategy"
+    },
+    {
+      "from": "physical-ai-hardware-standardization-strategy",
+      "to": "smile-curve-strategy"
+    },
+    {
       "from": "pm-exponential-adaptation",
       "to": "ai-orchestrator-role"
     },
@@ -7333,6 +7385,50 @@
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
       "to": "wellness-eq-capital-ai-era-competitive-advantage"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "ai-agent-cli-automation-pattern"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "automation-efficiency-dividend-work-reduction"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "multi-agent-task-dependency-management"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "organizational-dysfunction-sabotage-pattern-recognition"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "physical-ai-hardware-standardization-strategy"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "seniority-employment-ai-debt-transition-strategy",
+      "to": "transparency-communication-trust-foundation"
     },
     {
       "from": "singularity-loop-ai-self-acceleration",

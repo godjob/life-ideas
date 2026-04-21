@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-04-21] ingest | JTCはもう終わり？ │米中vs日本 フィジカルAI最前線 中島聡が注目の業界は〇〇【伝説のエンジニ
+- 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略](humanoid-robot-labor-market-disruption.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [フィジカルAIと日本の標準化戦略：米中覇権争いにおける下層インターフェース統一による競争力構築](physical-ai-hardware-standardization-strategy.md), [年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し](seniority-employment-ai-debt-transition-strategy.md)
+- 出典: [JTCはもう終わり？ │米中vs日本 フィジカルAI最前線 中島聡が注目の業界は](https://www.youtube.com/watch?v=m9WV8m_moKc)
+
+## [2026-04-21] ingest | youtube
+- 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md)
+- 出典: [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc)
+
+## [2026-04-21] ingest | youtube
+- 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md), [不完全なコンテンツの取り扱い：スクラップ時点でのメタデータ充実とナレッジ品質保証](incomplete-content-handling-knowledge-quality-control.md)
+- 出典: [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc)
+
 ## [2026-04-20] ingest | youtube
 - 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md)
 - 出典: [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc)

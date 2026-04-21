@@ -2,6 +2,9 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/04/21 | - | AI, Business, Career, Management | [JTCはもう終わり？ │米中vs日本 フィジカルAI最前線 中島聡が注目の業界は〇〇【伝説のエンジニア 中島聡 × 松尾研究所 金剛洙】](https://www.youtube.com/watch?v=m9WV8m_moKc) | 日本企業の年功序列雇用はAI時代の負債となり、フィジカルAI/ロボット分野では米中が覇権争いする中、日本はオープンなハードウェア標準化戦略で競争力を確立すべき。 |
+| 26/04/21 | - | YouTube | [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc) | 提供されたのはYouTubeの動画URLのみで、本文コンテンツが不足しているため分析不可能な状態です。 |
+| 26/04/21 | - | YouTube | [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc) | 提供されたのはYouTube動画へのリンクのみで、具体的な本文内容が不明なため、詳細な分析ができません。 |
 | 26/04/20 | - | YouTube | [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc) | 提供されたのはYouTubeの動画URLのみで、本文内容が不明であるため分析できません。 |
 | 26/04/17 | - | ClaudeCode, LLM, Development, Tools, Productivity | [How I Use Claude Code with Gemma 4 (Local LLMs, No API Costs)](https://www.youtube.com/watch?v=sKNq4CqWkT4) | Claude CodeをローカルLLM（Gemma 4）と組み合わせてAPI費用なしでコード生成を実現する方法を解説した動画。有料モデルの補完ツールとしての活用が紹介されている。 |
 | 26/04/17 | - | AI, Career, Management, Productivity, Learning | [【社会人1年目のための「AIマインドセット」】AIはオプションではない／AIを「0→100」で使うな／思考でなく、作業を任せる／月１度は評価を変える／地力を鍛える／AIはアンプ／AI力はマネジメント力](https://www.youtube.com/watch?v=X1GVJfZTtKg) | 社会人1年目向けのAIマインドセット。AIはオプションではなく、人間が思考を担いAIに作業を任せ、月1度は評価をアップデートすることが重要。 |
