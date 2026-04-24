@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-04-24T01:26:16+09:00",
+  "generatedAt": "2026-04-25T01:00:06+09:00",
   "weekly": {
     "commitCount": 38,
     "byDay": [
-      {
-        "date": "2026-04-18",
-        "count": 2
-      },
       {
         "date": "2026-04-19",
         "count": 5
@@ -29,19 +25,31 @@
       },
       {
         "date": "2026-04-24",
+        "count": 2
+      },
+      {
+        "date": "2026-04-25",
         "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 9,
+    "scrap": 8,
     "ideas": 0,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 169
+    "other": 107
   },
   "recentCommits": [
+    {
+      "date": "2026-04-24",
+      "message": "news: 2026-04-24 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-04-24",
+      "message": "朝刊: 2026-04-23 Morning Edition生成"
+    },
     {
       "date": "2026-04-23",
       "message": "news: 2026-04-23 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-04-22",
       "message": "news: 2026-04-22 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-04-22",
-      "message": "朝刊: 2026-04-21 Morning Edition生成"
-    },
-    {
-      "date": "2026-04-21",
-      "message": "docker: Python依存パッケージ追加・safe.directoryをシステムレベルに移動"
     }
   ]
 }
