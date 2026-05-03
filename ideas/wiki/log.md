@@ -1,5 +1,33 @@
 # Wiki 更新ログ
 
+## [2026-05-03] ingest | Demis Hassabis: Agents, AGI & The Next Big Scienti
+- 更新ページ: [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却](context-window-scaling-limitation-smart-extraction-architecture.md), [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md)
+- 出典: [Demis Hassabis: Agents, AGI & The Next B](https://www.youtube.com/watch?v=JNyuX1zoOgU)
+
+## [2026-05-03] ingest | 【AI完無視】アップル、「世紀の逆張り」がヤバすぎる(ティム・クック/ジョン・ターナス/スティーブ・
+- 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [Apple「世紀の逆張り」戦略：AI過剰投資回避とハードウェア重視の経営判断](apple-hardware-first-strategy-ai-inverse-bet.md), [CEO技術背景と組織実行力：エンジニア出身リーダーが実現する品質・改善文化](ceo-technical-background-operational-excellence.md)
+- 出典: [【AI完無視】アップル、「世紀の逆張り」がヤバすぎる(ティム・クック/ジョン・タ](https://www.youtube.com/watch?v=mEePkMNDqGU)
+
+## [2026-05-03] ingest | youtube
+- 更新ページ: [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md)
+- 出典: [youtube](https://www.youtube.com/watch?v=gk5rIIC19wE)
+
+## [2026-05-03] ingest | Xユーザーの米村歩@日本一残業の少ないIT企業社長さん: 「AIを使わないのは、もうサボりだと思う」
+- 更新ページ: [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md), [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化](system-development-velocity-acceleration-ai-tools.md)
+- 出典: [Xユーザーの米村歩@日本一残業の少ないIT企業社長さん: 「AIを使わないのは、](https://x.com/yonemura2006/status/2049110761822457961)
+
+## [2026-05-03] ingest | Xユーザーの尾原＠Back to obaraさん: 「AIの進化, AIx事業方向性が凝縮、Yコンで
+- 更新ページ: [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計](llm-tiered-execution-pattern.md), [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md), [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md), [AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識](ai-creativity-self-reflection-limitation-human-judgment-necessity.md)
+- 出典: [Xユーザーの尾原＠Back to obaraさん: 「AIの進化, AIx事業方](https://x.com/kazobara/status/2050389094786863532)
+
+## [2026-05-03] ingest | Xユーザーの小平勘太 | 「新しい老舗」のアトツギ4代目、地域の未来を創る、中小企業経営の理論と実践
+- 更新ページ: [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md), [非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放](non-engineer-skill-development-claude-code-democratization.md), [地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応](regional-sme-engineering-constraint-mitigation-ai-coding.md)
+- 出典: [Xユーザーの小平勘太 | 「新しい老舗」のアトツギ4代目、地域の未来を創る、中小](https://x.com/kantakobira/status/2049278406920212522)
+
+## [2026-05-03] ingest | XユーザーのMiles Deutscherさん: 「Never Hit Claude Usage L
+- 更新ページ: [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計](llm-tiered-execution-pattern.md), [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md), [Claude API レート制限最適化：段階的モデル選択によるトークン効率化ワークフロー](claude-api-rate-limit-optimization-workflow.md), [段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行](tiered-ai-model-planning-verification-execution.md)
+- 出典: [XユーザーのMiles Deutscherさん: 「Never Hit Clau](https://x.com/milesdeutscher/status/2049618781841031551)
+
 ## [2026-04-21] ingest | JTCはもう終わり？ │米中vs日本 フィジカルAI最前線 中島聡が注目の業界は〇〇【伝説のエンジニ
 - 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略](humanoid-robot-labor-market-disruption.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [フィジカルAIと日本の標準化戦略：米中覇権争いにおける下層インターフェース統一による競争力構築](physical-ai-hardware-standardization-strategy.md), [年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し](seniority-employment-ai-debt-transition-strategy.md)
 - 出典: [JTCはもう終わり？ │米中vs日本 フィジカルAI最前線 中島聡が注目の業界は](https://www.youtube.com/watch?v=m9WV8m_moKc)

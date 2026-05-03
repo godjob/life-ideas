@@ -42,6 +42,12 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **柔軟な設計による戦略的位置づけ**：ペース配分の誤り（コンテキスト不安のような過度な保守的設計）は後の改善を阻む可能性がある。長距離ランニングと同じく、エージェント設計でも柔軟性を保つことが戦略的に重要である
 
+- **AGI実現に向けたアーキテクチャの根本的限界**：Google DeepMindのCEO、デミス・ハサビスが指摘するように、~~単純なスケーリング~~ → [継続的学習、長期推論、記憶メカニズムの革新](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md)がAGI達成に必須である。これは企業システムでも重要であり、AIエージェントが数カ月単位の運用パターンを理解し、予防保全や複雑なシステムトラブルシューティングに対応するには、現在のモデルには根本的な限界があることを認識すべき
+
+- **運用データからの効率的な学習抽出**：~~大規模コンテキストウィンドウへの単純な依存~~ → [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md)により、膨大な運用ログから関連情報を効率的に検索・抽出・統合する仕組みが、システムの競争力を決定づける。大規模製造業では数年分の運用データが蓄積されており、このデータから機械的に学習するには、スマートな検索・フィルタリング・パターン認識の仕組みが不可欠である
+
+- **コンテキストウィンドウスケーリングの限界と設計転換**：ハサビスが「ダクトテープ的解決」と称する大規模コンテキストウィンドウ（100万トークン以上）への依存は、本質的な解決ではない。[コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ](context-window-scaling-limitation-smart-extraction-architecture.md)に見られるように、情報量の単純増加ではなく、システム設計段階での情報フィルタリング・優先度付け・階層的構造化が必須である。この転換により、メモリ効率と推論速度の両面で競争力が生まれる
+
 - **高度なAIの登場に伴う脆弱性管理の急務化**：Anthropicの「Claude Mythos」がコーディングやサイバーセキュリティで飛躍的な性能向上を示したことで、未検出だった27年前のバグが発見される可能性が現実となった。このため、[製造業システム脆弱性の先制監査](manufacturing-system-vulnerability-preemptive-audit.md)がかつてない重要性を帯びている
 
 - **経営者・システム管理者のセキュリティ常識の急務化**：AI開発ツールの普及に伴い、~~単なるエンジニアリング課題~~ → [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則](ai-security-non-engineer-governance-framework.md)が経営層に急務となった。「分ける（本番環境と開発環境の完全分離）」「残す（エアギャップアーキテクチャによる隔離）」「防ぐ（権限管理・監査ログ・緊急復旧手段）」という3つの対策を徹底することで、AI導入時のデータロス・踏み台化・全社規模侵害を防ぐことができる
@@ -60,101 +66,35 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **本番運用における監視とコスト可視化の必須性**：[AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md)により、本番環境でのトークン消費・API呼び出し・エラー率を継続的に追跡することで、システムの安定性を保ちながらコスト最適化を実現できる。Langfuseなどのモニタリングツール導入は、システム管理者の視点では予測可能性と管理性を確保するための必須要件
 
-- **AIリーダーの価値観がシステム信頼性を決定づける**：Google DeepMindのデミス・ハサビス氏が示したように、AI開発組織のリーダーの個人的動機や根底にある価値観（単なる技術仕様ではなく、AGIの安全な実現を人生のミッションとする哲学）が、長期的にはシステムの信頼性と責任あるエンジニアリングの文化を形成する。これは、[AIリーダーの価値観と哲学によるシステム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md)が、単なるプロセス導入よりも重要な要素であることを示唆している
-
-- **AIを科学的ツールとして継続的に検証する必要性**：~~AIは黒箱として使用~~ → [AIを科学的ツールとして捉え、継続的検証ループを組み込む](ai-as-scientific-instrument-verification-loop.md)ことで、複雑なシステム運用では現実と検証するプロセスを通じて予期しないリスクを早期に発見できる。開発者個人の知的好奇心と根底にある価値観が、長期的なイノベーションと責任あるシステム構築を左右する点から、技術者の人材育成や配置に際して価値観と哲学を検討することが重要になる
-
-## 設計の3つの柱
-
-### 1. 信頼性設計
-
-製造業の実運用では、99%の正確性でも連続運用で0.1%の誤りが蓄積すると機能不全に陥ります。
-
-- **冗重性と検証機構**：単一のAIモデルに依存せず、複数の検証ステップを組み込む
-- **フェイルセーフ設計**：エラー時の自動停止と人間への明示的なエスカレーション機構を実装
-- **入出力の形式検証**：スキーマベースの厳密な入出力検証で予期しない状態遷移を防止
-- **閾値ベースの自動停止**：信頼度スコアが一定以下の場合は即座に処理を中断
-- **権限の明示的宣言**：AIエージェントが実行できる操作を厳密に定義し、[最小権限原則](ai-agent-permission-model-least-privilege.md)に基づいた権限付与を実施
-- **先制的脆弱性監査**：AI導入前に[製造業システム脆弱性の先制監査](manufacturing-system-vulnerability-preemptive-audit.md)を実施し、既存システムのセキュリティ姿勢を高める
-- **エアギャップアーキテクチャ**：生産システムへのAI活用を検討する際は、エージェントが工場制御ネットワークに直接接続しない隔離設計により、サイバー攻撃による全社規模の侵害を防止
-- **リーダーシップの価値観による信頼性基盤**：[AIリーダーの価値観と哲学](ai-leader-values-philosophy-reliability-foundation.md)に基づき、単なるプロセス導入ではなく組織文化としての信頼性構築を推進
-
-### 2. 監視・可視化設計
-
-~~複雑な自作監視機構~~ → マネージドサービスプラットフォームの標準機能により実現
-
-- **本番環境のコスト・エラー可視化**：[Langfuse等のモニタリングツール](ai-system-monitoring-cost-visibility-tools.md)によるトークン消費・API呼び出し・エラー率の継続的追跡
-- **段階的パフォーマンス監視**：[長期連続稼働AIエージェント設計](long-running-ai-agent-design-patterns.md)に基づき、誤り率・レイテンシ・リソース利用率の時系列追跡
-- **チェックポイント機構**：[マルチエージェントパイプラインのエラーハンドリングとチェックポイント](multi-agent-pipeline-error-handling-checkpoint.md)により、複数エージェントの状態を中間保存し、障害時の復旧点を確保
-- **監査ログの一元管理**：権限管理と組み合わせた完全な監査証跡により、セキュリティインシデント時の原因調査を迅速化
-- **アラート機構**：設定した閾値超過時の自動通知で、システム管理者の判断時間を確保
-
-### 3. セキュリティ・権限管理設計
-
-~~エージェント信頼の過度な前提~~ → 分ける・残す・防ぐ3原則による多層防御
-
-- **環境分離**：本番環境と開発環境を完全に分離し、テスト用途でのセキュリティ侵害が本番に波及しない設計
-- **最小権限の原則**：[AIエージェント権限モデル](ai-agent-permission-model-least-privilege.md)に基づき、エージェントには実行に必要な最小限のAPI権限のみを付与
-- **サンドボックス実行**：[CMS プラグインサンドボックス化](cms-plugin-sandbox-security-architecture.md)の原理をAIエージェントに適用し、権限を明示的に宣言・制限
-- **緊急時復旧手段**：権限管理・監査ログ・バージョニング機構により、インシデント発生時の迅速な復旧を可能化
-- **段階的導入による検証**：~~一度に全権限付与~~ → [非エンジニア向けAIセキュリティガバナンス](ai-security-non-engineer-governance-framework.md)に基づき、段階的に権限を拡張しながら実績を検証
-- **経営層による意思決定**：セキュリティ検証フローの明文化と段階的な権限委譲を経営層が主導
-
-## 実装パターン
-
-### パターン1：既存ハーネスからの段階的移行
-
-[レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md)に基づき：
-
-1. 既存のSkill資産を棚卸し、新プラットフォーム対応の優先順位を決定
-2. 最小限の機能（ログ確認など）からManaged Agents APIへ移行開始
-3. [Claude Managed Agents](claude-managed-agents-cloud-deployment.md)の標準監視機能を段階的に活用
-4. 旧ハーネスの複雑な監視・エラーハンドリング機能を段階的に廃止
-5. 全面移行完了により、セキュリティ・監視負荷の大幅削減を実現
-
-### パターン2：多言語グローバル工場への導入
-
-[Gemma 4などの多言語・マルチモーダル対応モデル](gemma-llm-model-selection-manufacturing.md)を活用：
-
-1. 小～中規模拠点でE2B/E4Bなど軽量モデルでの検証を先行
-2. [投資対効果の明確化](ai-budget-management-roi-optimization.md)後、高性能モデル導入の判断
-3. [ライセンス・コンプライアンス](ai-model-license-compliance-manufacturing.md)を確認した上で社内全体展開
-
-### パターン3：製造システムへの安全な統合
-
-1. [先制的脆弱性監査](manufacturing-system-vulnerability-preemptive-audit.md)により既存システムの弱点を把握
-2. [エアギャップアーキテクチャ](ai-agent-permission-model-least-privilege.md)設計により生産ネットワークからの隔離
-3. [最小権限の原則](ai-agent-permission-model-least-privilege.md)に基づくAPI権限設定
-4. [Langfuseなどのツール](ai-system-monitoring-cost-visibility-tools.md)による継続的な監視
-5. 定期的な[科学的検証ループ](ai-as-scientific-instrument-verification-loop.md)による安全性確認
-
-## 経営判断フレームワーク
-
-~~単なるAI導入による業務効率化~~ → 段階的権限管理と継続的検証を前提とした導入
-
-1. **初期段階**：非本番環境での限定的な導入により、システム・組織の適応度を検証
-2. **権限管理段階**：本番環境との分離、最小権限付与、監査ログ整備を完了
-3. **本番段階**：[段階的権限委譲](ai-security-non-engineer-governance-framework.md)により、本番環境での限定的な運用開始
-4. **継続検証段階**：[コスト可視化](ai-system-monitoring-cost-visibility-tools.md)と[科学的検証](ai-as-scientific-instrument-verification-loop.md)ループを組織に埋め込み
-
-この判断フレームワークにより、効率化と安全性のバランスを取りながら、長期的に信頼性の高い自動化を実現できます。
+- **AIリーダーの価値観がシステム信頼性を決定づける**：Google DeepMindのデミス・ハサビス氏が示したように、AI開発組織のリーダーの個人的動機や根底にある価値観（単なる技術仕様ではなく、AGIの安全な実現を人生のミッションとする哲学）が、長期的にはシステム信頼性を決定づける。企業システムでも同様に、経営層やリーダーが「何のためのAI導入か」という根本的な価値観を明確にしておくことが、組織全体の信頼性文化を構築する基盤となる
 
 ## 関連ページ
 
-- [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md): マネージドサービス型提供による運用負荷削減とセキュリティ統合
-- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md): 誤り蓄積対策と制御・監視基盤の設計
-- [レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md): 既存資産の活用と段階的最適化
-- [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md): 段階導入戦略とモデル選択
-- [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md): ライセンス管理とコンプライアンス
-- [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md): CLI自律操作による業務自動化
-- [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md): 権限管理とサンドボックス実行
-- [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md): 先制的セキュリティ監査
-- [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md): リーダーシップと組織文化
-- [AIを科学的ツールとして捉え、継続的検証ループを組み込む](ai-as-scientific-instrument-verification-loop.md): 継続的検証ループの構築
-- [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md): 経営層向けセキュリティ常識と権限管理
-- [AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護](ai-agent-permission-model-least-privilege.md): 最小権限原則とエアギャップ設計
-- [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md): コスト最適化とスケーリング戦略
-- [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md): 複数エージェント間の信頼性確保
-- [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md): 長期連続運用の設計
-- [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md): インターフェース分離による柔軟性確保
-- [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md): 設
+- [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md): クラウドホスト型APIの設計思想と本番運用
+- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md): 長期運用の信頼性基盤設計
+- [レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md): 既存資産活用の移行戦略
+- [Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け](gemma-llm-model-selection-manufacturing.md): モデル選択と段階導入
+- [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md): ライセンス管理の実務
+- [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md): セキュリティの構造的対策
+- [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md): CLI自動化パターン
+- [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md): 脆弱性管理の急務化
+- [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md): リーダーシップと信頼性
+- [AIを科学的ツールとして継続的に検証するループ](ai-as-scientific-instrument-verification-loop.md): 継続的検証の仕組み
+- [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md): ガバナンス枠組み
+- [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md): マルチエージェント設計
+- [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md): 長期稼働の設計パターン
+- [Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計](managed-agents-interface-decoupling-design.md): インターフェース分離の実装
+- [システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証](legacy-code-debt-system-capability-mismatch.md): 設計債務の管理
+- [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md): AGI実現の根本的課題
+- [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md): 運用データの活用
+- [コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却](context-window-scaling-limitation-smart-extraction-architecture.md): コンテキスト設計の転換
+- [AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護](ai-agent-permission-model-least-privilege.md): 権限管理の設計思想
+- [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md): コスト最適化戦略
+- [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md): 予算管理とROI
+- [As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計](as-little-ai-as-possible-principle.md): AI活用の選別設計
+- [AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md): 本番運用の監視とコスト可視化
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md): エンジニアリングの転換
+
+## 更新履歴
+
+- 2025-05-03: [Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough](https://www.youtube.com/watch?v=JNyuX1zoOgU)を追加。継続学習・長期推論・記憶メカニズムの課題と、コンテキストウィンドウスケーリングの限界、運用データの効率的な学習抽出の重要性を反映

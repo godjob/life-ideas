@@ -2,6 +2,13 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/05/03 | - | AI, LLM, Learning | [Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough](https://www.youtube.com/watch?v=JNyuX1zoOgU) | Google DeepMindのCEO、デミス・ハサビスがAGI実現に向けた技術的課題を解説。継続学習、長期推論、記憶メカニズムの革新がAGI達成に必要だと指摘。 |
+| 26/05/03 | - | AI, Business, Management | [【AI完無視】アップル、「世紀の逆張り」がヤバすぎる(ティム・クック/ジョン・ターナス/スティーブ・ジョブズ/Apple/Google/Gemini/解説：森川潤、後藤直義）](https://www.youtube.com/watch?v=mEePkMNDqGU) | Appleが新CEOにジョン・ターナスを迎える中、AI設備投資を抑えハードウェア重視の「逆張り」戦略を展開しており、この独自路線が市場評価を維持している点を解説する動画。 |
+| 26/05/03 | - | YouTube | [youtube](https://www.youtube.com/watch?v=gk5rIIC19wE) | 提供いただいたYouTubeビデオのURLのみで、具体的な本文内容がないため、詳細な分析ができません。 |
+| 26/05/03 | - | AI, ClaudeCode, Productivity, Business, Management | [Xユーザーの米村歩@日本一残業の少ないIT企業社長さん: 「AIを使わないのは、もうサボりだと思う」 / X](https://x.com/yonemura2006/status/2049110761822457961) | IT企業経営者が、Claude Codeを活用して従来は数週間かかるシステム構築を1日で完了させた事例から、AIを使わないことはもはやサボりであると指摘。 |
+| 26/05/03 | - | AI, LLM, Business | [Xユーザーの尾原＠Back to obaraさん: 「AIの進化, AIx事業方向性が凝縮、YコンでのGemini, DeepMind デミス・ハサビス 日本語訳」 / X](https://x.com/kazobara/status/2050389094786863532) | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで、AGI実現に向けた現在のアーキテクチャの不足要素（継続的学習、長期推論、記憶）と今後の技術的課題について高解像度で解説した講演内容。 |
+| 26/05/03 | - | AI, ClaudeCode, Business, Management, Productivity | [Xユーザーの小平勘太 | 「新しい老舗」のアトツギ4代目、地域の未来を創る、中小企業経営の理論と実践を日々発信中さん: 「創業114年の会社がIT事業部全員にClaude Codeを解放したら、創造性が爆発した話」 / X](https://x.com/kantakobira/status/2049278406920212522) | 創業114年の地方中小企業がClaude Codeを全社員に提供した結果、営業やサポート職など非エンジニアまで開発に参画し、創造性が爆発的に向上した事例。 |
+| 26/05/03 | - | AI, LLM, Productivity, Tools | [XユーザーのMiles Deutscherさん: 「Never Hit Claude Usage Limits Ever Again 」 / X](https://x.com/milesdeutscher/status/2049618781841031551) | Claude APIのレート制限に頻繁に達していたユーザーが、正しい使用方法を学ぶことで3週間以上制限に達していないという体験談。安価なモデルで計画を立てた上で高級モデルを使用することが重要。 |
 | 26/04/21 | - | AI, Business, Career, Management | [JTCはもう終わり？ │米中vs日本 フィジカルAI最前線 中島聡が注目の業界は〇〇【伝説のエンジニア 中島聡 × 松尾研究所 金剛洙】](https://www.youtube.com/watch?v=m9WV8m_moKc) | 日本企業の年功序列雇用はAI時代の負債となり、フィジカルAI/ロボット分野では米中が覇権争いする中、日本はオープンなハードウェア標準化戦略で競争力を確立すべき。 |
 | 26/04/21 | - | YouTube | [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc) | 提供されたのはYouTubeの動画URLのみで、本文コンテンツが不足しているため分析不可能な状態です。 |
 | 26/04/21 | - | YouTube | [youtube](https://www.youtube.com/watch?v=m9WV8m_moKc) | 提供されたのはYouTube動画へのリンクのみで、具体的な本文内容が不明なため、詳細な分析ができません。 |

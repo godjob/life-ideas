@@ -10,7 +10,7 @@
       "id": "agent-harness-reliability-framework",
       "label": "エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤",
       "group": "AIエージェント設計",
-      "value": 39
+      "value": 38
     },
     {
       "id": "agentic-engineering-supervisor-model",
@@ -19,28 +19,40 @@
       "value": 34
     },
     {
+      "id": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "label": "AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題",
+      "group": "その他",
+      "value": 7
+    },
+    {
+      "id": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 35
+      "value": 40
     },
     {
       "id": "ai-agent-cli-automation-pattern",
       "label": "AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン",
       "group": "AIエージェント設計",
-      "value": 19
+      "value": 18
     },
     {
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "AIエージェント設計",
-      "value": 32
+      "value": 34
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 14
+      "value": 16
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
@@ -52,7 +64,7 @@
       "id": "ai-as-scientific-instrument-verification-loop",
       "label": "科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "ai-autonomous-weapons-surveillance-state-governance",
@@ -76,19 +88,19 @@
       "id": "ai-budget-management-roi-optimization",
       "label": "AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化",
       "group": "技術実装・エンジニアリング",
-      "value": 17
+      "value": 19
     },
     {
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "AI戦略・社会",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-capability-threshold-disclosure-strategy",
       "label": "AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 4
     },
     {
       "id": "ai-ceo-delegation-protocol",
@@ -97,10 +109,16 @@
       "value": 11
     },
     {
+      "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 9
+      "value": 12
     },
     {
       "id": "ai-email-native-interface-system-integration",
@@ -118,43 +136,43 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "AI戦略・社会",
-      "value": 20
+      "value": 21
     },
     {
       "id": "ai-expert-ensemble-prompting",
       "label": "AI専門家アンサンブル・プロンプティング：複数視点の合意形成分析",
       "group": "プロンプト・AI活用",
-      "value": 9
+      "value": 10
     },
     {
       "id": "ai-failure-log",
       "label": "AIエージェント失敗ログと修正ナレッジ",
       "group": "AI戦略・社会",
-      "value": 26
+      "value": 27
     },
     {
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "AI戦略・社会",
-      "value": 9
+      "value": 10
     },
     {
       "id": "ai-labor-policy-governance-framework",
       "label": "AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止",
       "group": "AI戦略・社会",
-      "value": 11
+      "value": 10
     },
     {
       "id": "ai-leader-values-philosophy-reliability-foundation",
       "label": "AIリーダーの価値観と哲学：システム信頼性の基盤構築",
       "group": "AI戦略・社会",
-      "value": 8
+      "value": 9
     },
     {
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "その他",
-      "value": 17
+      "value": 18
     },
     {
       "id": "ai-manager-role-transition-code-craftsman",
@@ -166,7 +184,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "その他",
-      "value": 4
+      "value": 7
     },
     {
       "id": "ai-model-license-compliance-manufacturing",
@@ -184,7 +202,7 @@
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 4
     },
     {
       "id": "ai-powered-web-production-flow",
@@ -202,25 +220,25 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 7
+      "value": 10
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "その他",
-      "value": 12
+      "value": 14
     },
     {
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 10
+      "value": 11
     },
     {
       "id": "ai-tool-evaluation-monthly-refresh-cycle",
       "label": "AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応",
       "group": "その他",
-      "value": 5
+      "value": 7
     },
     {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -232,13 +250,19 @@
       "id": "aidlc-manufacturing-requirements-definition",
       "label": "AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減",
       "group": "製造業・業務DX",
-      "value": 8
+      "value": 11
     },
     {
       "id": "anthropic-courses",
       "label": "Anthropic Coursesの学習体系と実装",
       "group": "プロンプト・AI活用",
       "value": 1
+    },
+    {
+      "id": "apple-hardware-first-strategy-ai-inverse-bet",
+      "label": "Apple「世紀の逆張り」戦略：AI過剰投資回避とハードウェア重視の経営判断",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "approval-workflow-simplification-competitive-advantage",
@@ -250,13 +274,13 @@
       "id": "as-little-ai-as-possible-principle",
       "label": "As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計",
       "group": "技術実装・エンジニアリング",
-      "value": 7
+      "value": 12
     },
     {
       "id": "assumption-reevaluation-cycle-continuous-improvement",
       "label": "仮定の再評価サイクル：ルール削減と継続的改善の運用設計",
       "group": "その他",
-      "value": 6
+      "value": 9
     },
     {
       "id": "automated-content-distribution",
@@ -304,13 +328,25 @@
       "id": "capability-overhang-user-activation-gap",
       "label": "Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方",
       "group": "その他",
+      "value": 5
+    },
+    {
+      "id": "ceo-technical-background-operational-excellence",
+      "label": "CEO技術背景と組織実行力：エンジニア出身リーダーが実現する品質・改善文化",
+      "group": "その他",
       "value": 4
+    },
+    {
+      "id": "claude-api-rate-limit-optimization-workflow",
+      "label": "Claude API レート制限最適化：段階的モデル選択によるトークン効率化ワークフロー",
+      "group": "その他",
+      "value": 2
     },
     {
       "id": "claude-chat-claude-code-workflow",
       "label": "Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計",
       "group": "Claude/AI開発ツール",
-      "value": 7
+      "value": 8
     },
     {
       "id": "claude-code-agent-teams",
@@ -328,13 +364,13 @@
       "id": "claude-code-context-window-management",
       "label": "Claude Code 100万トークンコンテキスト管理：セッション分割とコンテキストポリューション対策",
       "group": "Claude/AI開発ツール",
-      "value": 4
+      "value": 5
     },
     {
       "id": "claude-code-rapid-app-development-side-business",
       "label": "Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル",
       "group": "Claude/AI開発ツール",
-      "value": 4
+      "value": 8
     },
     {
       "id": "claude-code-skill-design-gotchas",
@@ -352,7 +388,7 @@
       "id": "claude-long-term-memory-design",
       "label": "Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン",
       "group": "その他",
-      "value": 13
+      "value": 14
     },
     {
       "id": "claude-managed-agents-cloud-deployment",
@@ -394,13 +430,13 @@
       "id": "claude-skill-template-library-reuse",
       "label": "Claudeスキルテンプレートの再利用と組織展開：検証済みプロンプトの標準化と採用加速",
       "group": "Claude/AI開発ツール",
-      "value": 5
+      "value": 6
     },
     {
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 12
+      "value": 13
     },
     {
       "id": "cms-plugin-sandbox-security-architecture",
@@ -417,6 +453,12 @@
     {
       "id": "context-design-leadership-impression-management",
       "label": "コンテキスト設計によるリーダーシップ：行動の文脈が評価を決める",
+      "group": "その他",
+      "value": 4
+    },
+    {
+      "id": "context-window-scaling-limitation-smart-extraction-architecture",
+      "label": "コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却",
       "group": "その他",
       "value": 4
     },
@@ -442,7 +484,7 @@
       "id": "custom-tool-development-ai-empowerment",
       "label": "カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "daily-context-ai-partnership",
@@ -460,7 +502,7 @@
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 12
+      "value": 14
     },
     {
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
@@ -484,7 +526,7 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "その他",
-      "value": 26
+      "value": 29
     },
     {
       "id": "domain-expertise-digital-product-monetization",
@@ -496,7 +538,7 @@
       "id": "edge-ai-system-design-production-skills",
       "label": "エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル",
       "group": "技術実装・エンジニアリング",
-      "value": 6
+      "value": 7
     },
     {
       "id": "environment-engineering",
@@ -508,19 +550,19 @@
       "id": "executive-time-arbitrage-asset-building-strategy",
       "label": "エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略",
       "group": "キャリア・働き方",
-      "value": 4
+      "value": 3
     },
     {
       "id": "factory-model-software-development",
       "label": "The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理",
       "group": "製造業・業務DX",
-      "value": 5
+      "value": 4
     },
     {
       "id": "gemma-llm-model-selection-manufacturing",
       "label": "Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け",
       "group": "その他",
-      "value": 5
+      "value": 7
     },
     {
       "id": "geopolitical-narrative-multidimensional-analysis",
@@ -568,7 +610,7 @@
       "id": "incomplete-content-handling-knowledge-quality-control",
       "label": "不完全なコンテンツの取り扱い：スクラップ時点でのメタデータ充実とナレッジ品質保証",
       "group": "その他",
-      "value": 1
+      "value": 2
     },
     {
       "id": "independent-coil-center-strategy",
@@ -586,7 +628,7 @@
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "Claude/AI開発ツール",
-      "value": 22
+      "value": 23
     },
     {
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
@@ -604,7 +646,7 @@
       "id": "junior-engineer-retention-ai-era-succession-planning",
       "label": "ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持",
       "group": "キャリア・働き方",
-      "value": 9
+      "value": 11
     },
     {
       "id": "labor-money-decoupling",
@@ -634,19 +676,19 @@
       "id": "llm-api-rag-deployment-fundamentals",
       "label": "現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント",
       "group": "技術実装・エンジニアリング",
-      "value": 7
+      "value": 8
     },
     {
       "id": "llm-integration-technical-documentation-automation",
       "label": "LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化",
       "group": "技術実装・エンジニアリング",
-      "value": 9
+      "value": 11
     },
     {
       "id": "llm-tiered-execution-pattern",
       "label": "段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計",
       "group": "その他",
-      "value": 4
+      "value": 7
     },
     {
       "id": "llm-wiki-concept",
@@ -658,13 +700,13 @@
       "id": "local-llm-api-cost-elimination-strategy",
       "label": "ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 3
+      "value": 2
     },
     {
       "id": "local-llm-deployment-architecture",
       "label": "ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用",
       "group": "技術実装・エンジニアリング",
-      "value": 17
+      "value": 20
     },
     {
       "id": "local-pglite-sensitive-data-management",
@@ -676,7 +718,7 @@
       "id": "long-running-ai-agent-design-patterns",
       "label": "長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン",
       "group": "AIエージェント設計",
-      "value": 24
+      "value": 26
     },
     {
       "id": "managed-agents-cost-optimization-gtm-strategy",
@@ -700,19 +742,25 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 49
+      "value": 52
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 28
+      "value": 31
     },
     {
       "id": "manufacturing-automation-cost-disruption",
       "label": "製造業自動化コストの劇的低下：経営判断能力へのシフト",
       "group": "製造業・業務DX",
-      "value": 10
+      "value": 11
+    },
+    {
+      "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
+      "group": "製造業・業務DX",
+      "value": 4
     },
     {
       "id": "manufacturing-email-automation-adoption-resistance",
@@ -724,7 +772,7 @@
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 19
+      "value": 20
     },
     {
       "id": "mcp-skill-architecture",
@@ -742,7 +790,7 @@
       "id": "multi-agent-pipeline-error-handling-checkpoint",
       "label": "マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン",
       "group": "AIエージェント設計",
-      "value": 14
+      "value": 16
     },
     {
       "id": "multi-agent-task-dependency-management",
@@ -760,7 +808,13 @@
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "その他",
-      "value": 11
+      "value": 12
+    },
+    {
+      "id": "non-engineer-skill-development-claude-code-democratization",
+      "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
+      "group": "Claude/AI開発ツール",
+      "value": 7
     },
     {
       "id": "onboarding-friction-design-saas-growth",
@@ -778,7 +832,7 @@
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
       "label": "組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化",
       "group": "ビジネス・組織",
-      "value": 18
+      "value": 22
     },
     {
       "id": "organizational-dysfunction-sabotage-pattern-recognition",
@@ -820,13 +874,13 @@
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "キャリア・働き方",
-      "value": 16
+      "value": 18
     },
     {
       "id": "preemptive-workflow-optimization-ai-migration",
       "label": "AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化",
       "group": "技術実装・エンジニアリング",
-      "value": 9
+      "value": 8
     },
     {
       "id": "progressive-disclosure-pattern",
@@ -844,7 +898,7 @@
       "id": "prompt-optimization-cost-efficiency",
       "label": "プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略",
       "group": "プロンプト・AI活用",
-      "value": 10
+      "value": 11
     },
     {
       "id": "prompt-template-iteration-testing-framework",
@@ -871,6 +925,12 @@
       "value": 15
     },
     {
+      "id": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "label": "地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応",
+      "group": "その他",
+      "value": 6
+    },
+    {
       "id": "remote-agent-session-sharing-multi-user-operations",
       "label": "リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制",
       "group": "AIエージェント設計",
@@ -880,7 +940,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 18
+      "value": 19
     },
     {
       "id": "seniority-employment-ai-debt-transition-strategy",
@@ -910,13 +970,13 @@
       "id": "skill-memory-architecture-stateful-workflow",
       "label": "Skillのメモリアーキテクチャ：SQLite/JSONによる状態管理と自己参照型ワークフロー自動化",
       "group": "Claude/AI開発ツール",
-      "value": 9
+      "value": 11
     },
     {
       "id": "skill-system",
       "label": "Skill System：フォルダ単位のClaudeへの命令セット",
       "group": "Claude/AI開発ツール",
-      "value": 36
+      "value": 34
     },
     {
       "id": "skill-testing-strategy",
@@ -934,7 +994,7 @@
       "id": "smile-curve-strategy",
       "label": "スマイルカーブの終焉と『コ』の字型社会：製造業の戦略的転換",
       "group": "ビジネス・組織",
-      "value": 7
+      "value": 8
     },
     {
       "id": "spacex-defense-infrastructure-strategy",
@@ -946,7 +1006,7 @@
       "id": "speed-first-prototyping",
       "label": "速さが命題：検討より先にプロトタイプを出す姿勢",
       "group": "技術実装・エンジニアリング",
-      "value": 15
+      "value": 16
     },
     {
       "id": "stablecoin-tax-comparison",
@@ -961,22 +1021,34 @@
       "value": 4
     },
     {
+      "id": "system-development-velocity-acceleration-ai-tools",
+      "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "task-delegation-automation-decision-framework",
       "label": "タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク",
       "group": "その他",
-      "value": 9
+      "value": 10
+    },
+    {
+      "id": "tiered-ai-model-planning-verification-execution",
+      "label": "段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行",
+      "group": "その他",
+      "value": 6
     },
     {
       "id": "time-capital-health-investment-narrative",
       "label": "時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ",
       "group": "健康・習慣",
-      "value": 11
+      "value": 10
     },
     {
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
       "group": "その他",
-      "value": 6
+      "value": 8
     },
     {
       "id": "unlearning-capability-ai-era-competition",
@@ -1012,7 +1084,7 @@
       "id": "workflow-skill-definition",
       "label": "ワークフローのSkill化：業務手順の標準化と共有",
       "group": "Claude/AI開発ツール",
-      "value": 9
+      "value": 8
     },
     {
       "id": "worktree-parallel-task-workflow",
@@ -1149,6 +1221,102 @@
     {
       "from": "agentic-engineering-supervisor-model",
       "to": "prompt-clarity-management-feedback-loop"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-failure-log"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "claude-long-term-memory-design"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "context-window-scaling-limitation-smart-extraction-architecture"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "skill-memory-architecture-stateful-workflow"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "junior-engineer-retention-ai-era-succession-planning"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "pm-exponential-adaptation"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "ai-adoption-resistance-mitigation",
@@ -1572,10 +1740,6 @@
     },
     {
       "from": "ai-budget-management-roi-optimization",
-      "to": "agentic-engineering-supervisor-model"
-    },
-    {
-      "from": "ai-budget-management-roi-optimization",
       "to": "ai-agent-operations"
     },
     {
@@ -1584,11 +1748,7 @@
     },
     {
       "from": "ai-budget-management-roi-optimization",
-      "to": "ai-engineer-practical-skills-roadmap"
-    },
-    {
-      "from": "ai-budget-management-roi-optimization",
-      "to": "claude-code-configuration-driven-workflow"
+      "to": "ai-system-monitoring-cost-visibility-tools"
     },
     {
       "from": "ai-budget-management-roi-optimization",
@@ -1636,19 +1796,19 @@
     },
     {
       "from": "ai-budget-management-roi-optimization",
-      "to": "workflow-skill-definition"
+      "to": "tiered-ai-model-planning-verification-execution"
     },
     {
       "from": "ai-capability-evolution-design-flexibility",
-      "to": "agent-harness-reliability-framework"
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
     },
     {
       "from": "ai-capability-evolution-design-flexibility",
-      "to": "agentic-engineering-supervisor-model"
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
     },
     {
       "from": "ai-capability-evolution-design-flexibility",
-      "to": "ai-capability-threshold-disclosure-strategy"
+      "to": "apple-hardware-first-strategy-ai-inverse-bet"
     },
     {
       "from": "ai-capability-evolution-design-flexibility",
@@ -1656,7 +1816,7 @@
     },
     {
       "from": "ai-capability-evolution-design-flexibility",
-      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+      "to": "ceo-technical-background-operational-excellence"
     },
     {
       "from": "ai-capability-evolution-design-flexibility",
@@ -1669,10 +1829,6 @@
     {
       "from": "ai-capability-evolution-design-flexibility",
       "to": "manufacturing-ai-opportunities"
-    },
-    {
-      "from": "ai-capability-evolution-design-flexibility",
-      "to": "organizational-ai-adoption-acceleration-topdown-directive"
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
@@ -1739,6 +1895,58 @@
       "to": "llm-wiki-concept"
     },
     {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "ai-leader-values-philosophy-reliability-foundation"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "tiered-ai-model-planning-verification-execution"
+    },
+    {
+      "from": "ai-democratization-low-cost-creation",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
       "from": "ai-democratization-low-cost-creation",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -1793,6 +2001,10 @@
     {
       "from": "ai-democratization-low-cost-creation",
       "to": "speed-first-prototyping"
+    },
+    {
+      "from": "ai-democratization-low-cost-creation",
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "ai-democratization-low-cost-creation",
@@ -2168,6 +2380,10 @@
     },
     {
       "from": "ai-managed-service-operational-design",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "ai-managed-service-operational-design",
       "to": "ai-agent-cli-automation-pattern"
     },
     {
@@ -2212,6 +2428,10 @@
     },
     {
       "from": "ai-managed-service-operational-design",
+      "to": "context-window-scaling-limitation-smart-extraction-architecture"
+    },
+    {
+      "from": "ai-managed-service-operational-design",
       "to": "gemma-llm-model-selection-manufacturing"
     },
     {
@@ -2233,6 +2453,10 @@
     {
       "from": "ai-managed-service-operational-design",
       "to": "managed-agents-interface-decoupling-design"
+    },
+    {
+      "from": "ai-managed-service-operational-design",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
     },
     {
       "from": "ai-managed-service-operational-design",
@@ -2855,6 +3079,46 @@
       "to": "speed-first-prototyping"
     },
     {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "ceo-technical-background-operational-excellence"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "junior-engineer-retention-ai-era-succession-planning"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "pm-exponential-adaptation"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "task-delegation-automation-decision-framework"
+    },
+    {
+      "from": "apple-hardware-first-strategy-ai-inverse-bet",
+      "to": "transparency-communication-trust-foundation"
+    },
+    {
       "from": "approval-workflow-simplification-competitive-advantage",
       "to": "agent-harness-reliability-framework"
     },
@@ -3144,6 +3408,10 @@
     },
     {
       "from": "capability-overhang-user-activation-gap",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
       "to": "ai-adoption-resistance-mitigation"
     },
     {
@@ -3160,15 +3428,7 @@
     },
     {
       "from": "capability-overhang-user-activation-gap",
-      "to": "long-running-ai-agent-design-patterns"
-    },
-    {
-      "from": "capability-overhang-user-activation-gap",
-      "to": "manufacturing-ai-quick-wins"
-    },
-    {
-      "from": "capability-overhang-user-activation-gap",
-      "to": "manufacturing-automation-cost-disruption"
+      "to": "non-engineer-skill-development-claude-code-democratization"
     },
     {
       "from": "capability-overhang-user-activation-gap",
@@ -3184,19 +3444,87 @@
     },
     {
       "from": "capability-overhang-user-activation-gap",
-      "to": "pm-exponential-adaptation"
-    },
-    {
-      "from": "capability-overhang-user-activation-gap",
       "to": "progressive-disclosure-pattern"
     },
     {
       "from": "capability-overhang-user-activation-gap",
-      "to": "skill-system"
+      "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
       "from": "capability-overhang-user-activation-gap",
-      "to": "strengths-leverage-task-design-productivity-multiplication"
+      "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "apple-hardware-first-strategy-ai-inverse-bet"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "smile-curve-strategy"
+    },
+    {
+      "from": "ceo-technical-background-operational-excellence",
+      "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "assumption-reevaluation-cycle-continuous-improvement"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "claude-code-configuration-driven-workflow"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "multi-agent-pipeline-error-handling-checkpoint"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "prompt-optimization-cost-efficiency"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "skill-system"
+    },
+    {
+      "from": "claude-api-rate-limit-optimization-workflow",
+      "to": "tiered-ai-model-planning-verification-execution"
     },
     {
       "from": "claude-chat-claude-code-workflow",
@@ -3428,6 +3756,10 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "claude-code-rapid-app-development-side-business",
       "to": "ai-democratization-low-cost-creation"
     },
     {
@@ -3440,15 +3772,7 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
-      "to": "ai-labor-policy-governance-framework"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
       "to": "ai-powered-web-production-flow"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
-      "to": "claude-chat-claude-code-workflow"
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
@@ -3464,10 +3788,6 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
-      "to": "executive-time-arbitrage-asset-building-strategy"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
       "to": "labor-money-decoupling"
     },
     {
@@ -3476,11 +3796,27 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "claude-code-rapid-app-development-side-business",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "claude-code-rapid-app-development-side-business",
       "to": "quantified-self-ai-feedback-loop"
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
+    },
+    {
+      "from": "claude-code-rapid-app-development-side-business",
       "to": "speed-first-prototyping"
+    },
+    {
+      "from": "claude-code-rapid-app-development-side-business",
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "claude-code-skill-design-gotchas",
@@ -4059,6 +4395,74 @@
       "to": "transparency-communication-trust-foundation"
     },
     {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "ai-as-scientific-instrument-verification-loop"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "assumption-reevaluation-cycle-continuous-improvement"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "claude-code-context-window-management"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "incomplete-content-handling-knowledge-quality-control"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "llm-api-rag-deployment-fundamentals"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "llm-integration-technical-documentation-automation"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "skill-memory-architecture-stateful-workflow"
+    },
+    {
+      "from": "context-window-scaling-limitation-smart-extraction-architecture",
+      "to": "tiered-ai-model-planning-verification-execution"
+    },
+    {
       "from": "creator-intuition-driven-design-philosophy",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -4488,7 +4892,7 @@
     },
     {
       "from": "domain-expertise-ai-boundary-design",
-      "to": "ai-agent-cli-automation-pattern"
+      "to": "ai-agent-permission-model-least-privilege"
     },
     {
       "from": "domain-expertise-ai-boundary-design",
@@ -4500,19 +4904,15 @@
     },
     {
       "from": "domain-expertise-ai-boundary-design",
-      "to": "ai-physical-world-reasoning-intuition-acquisition"
+      "to": "apple-hardware-first-strategy-ai-inverse-bet"
+    },
+    {
+      "from": "domain-expertise-ai-boundary-design",
+      "to": "ceo-technical-background-operational-excellence"
     },
     {
       "from": "domain-expertise-ai-boundary-design",
       "to": "cms-plugin-sandbox-security-architecture"
-    },
-    {
-      "from": "domain-expertise-ai-boundary-design",
-      "to": "data-integration-visualization-manufacturing-application"
-    },
-    {
-      "from": "domain-expertise-ai-boundary-design",
-      "to": "factory-model-software-development"
     },
     {
       "from": "domain-expertise-ai-boundary-design",
@@ -4529,10 +4929,6 @@
     {
       "from": "domain-expertise-ai-boundary-design",
       "to": "sleep-priority-performance-management"
-    },
-    {
-      "from": "domain-expertise-ai-boundary-design",
-      "to": "time-capital-health-investment-narrative"
     },
     {
       "from": "domain-expertise-digital-product-monetization",
@@ -5516,6 +5912,10 @@
     },
     {
       "from": "llm-tiered-execution-pattern",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
       "to": "ai-agent-cli-automation-pattern"
     },
     {
@@ -5532,6 +5932,10 @@
     },
     {
       "from": "llm-tiered-execution-pattern",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
       "to": "ai-engineer-practical-skills-roadmap"
     },
     {
@@ -5545,6 +5949,14 @@
     {
       "from": "llm-tiered-execution-pattern",
       "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "claude-api-rate-limit-optimization-workflow"
     },
     {
       "from": "llm-tiered-execution-pattern",
@@ -5572,19 +5984,11 @@
     },
     {
       "from": "llm-tiered-execution-pattern",
-      "to": "local-llm-api-cost-elimination-strategy"
+      "to": "gemma-llm-model-selection-manufacturing"
     },
     {
       "from": "llm-tiered-execution-pattern",
       "to": "local-llm-deployment-architecture"
-    },
-    {
-      "from": "llm-tiered-execution-pattern",
-      "to": "manufacturing-ai-opportunities"
-    },
-    {
-      "from": "llm-tiered-execution-pattern",
-      "to": "manufacturing-ai-quick-wins"
     },
     {
       "from": "llm-tiered-execution-pattern",
@@ -5609,6 +6013,10 @@
     {
       "from": "llm-tiered-execution-pattern",
       "to": "skill-testing-strategy"
+    },
+    {
+      "from": "llm-tiered-execution-pattern",
+      "to": "tiered-ai-model-planning-verification-execution"
     },
     {
       "from": "llm-wiki-concept",
@@ -5832,6 +6240,10 @@
     },
     {
       "from": "long-running-ai-agent-design-patterns",
+      "to": "context-window-scaling-limitation-smart-extraction-architecture"
+    },
+    {
+      "from": "long-running-ai-agent-design-patterns",
       "to": "inference-era-gpu-infrastructure-strategy"
     },
     {
@@ -5849,6 +6261,10 @@
     {
       "from": "long-running-ai-agent-design-patterns",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "long-running-ai-agent-design-patterns",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
     },
     {
       "from": "long-running-ai-agent-design-patterns",
@@ -5996,10 +6412,6 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "agent-harness-reliability-framework"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "ai-agent-operations"
     },
     {
@@ -6020,7 +6432,11 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "backoffice-automation-ai-cowork"
+      "to": "apple-hardware-first-strategy-ai-inverse-bet"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "ceo-technical-background-operational-excellence"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -6052,14 +6468,6 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "preemptive-workflow-optimization-ai-migration"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
-      "to": "qms-style-ai-prompt-governance"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "seniority-employment-ai-debt-transition-strategy"
     },
     {
@@ -6068,15 +6476,19 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "skill-system"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "smile-curve-strategy"
     },
     {
       "from": "manufacturing-ai-quick-wins",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "manufacturing-ai-quick-wins",
       "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "manufacturing-ai-quick-wins",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
     },
     {
       "from": "manufacturing-ai-quick-wins",
@@ -6112,7 +6524,11 @@
     },
     {
       "from": "manufacturing-ai-quick-wins",
-      "to": "skill-system"
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "manufacturing-ai-quick-wins",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
     },
     {
       "from": "manufacturing-automation-cost-disruption",
@@ -6201,6 +6617,54 @@
     {
       "from": "manufacturing-automation-cost-disruption",
       "to": "worktree-parallel-task-workflow"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "ai-expert-ensemble-prompting"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "context-window-scaling-limitation-smart-extraction-architecture"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "llm-integration-technical-documentation-automation"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "multi-agent-pipeline-error-handling-checkpoint"
     },
     {
       "from": "manufacturing-email-automation-adoption-resistance",
@@ -6463,6 +6927,62 @@
       "to": "speed-first-prototyping"
     },
     {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "backoffice-automation-ai-cowork"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "claude-skill-template-library-reuse"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "custom-tool-development-ai-empowerment"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "non-engineer-skill-development-claude-code-democratization",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
+    },
+    {
       "from": "onboarding-friction-design-saas-growth",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -6592,6 +7112,10 @@
     },
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "organizational-ai-adoption-acceleration-topdown-directive",
       "to": "organizational-dysfunction-sabotage-pattern-recognition"
     },
     {
@@ -6601,6 +7125,10 @@
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
       "to": "rapid-iteration-learning-loop-operational-design"
+    },
+    {
+      "from": "organizational-ai-adoption-acceleration-topdown-directive",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
     },
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
@@ -7135,6 +7663,10 @@
       "to": "skill-md-specification"
     },
     {
+      "from": "prompt-optimization-cost-efficiency",
+      "to": "tiered-ai-model-planning-verification-execution"
+    },
+    {
       "from": "prompt-template-iteration-testing-framework",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -7261,6 +7793,46 @@
     {
       "from": "rapid-iteration-learning-loop-operational-design",
       "to": "spacex-defense-infrastructure-strategy"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "capability-overhang-user-activation-gap"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "claude-chat-claude-code-workflow"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "regional-sme-engineering-constraint-mitigation-ai-coding",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
     },
     {
       "from": "remote-agent-session-sharing-multi-user-operations",
@@ -7735,6 +8307,58 @@
       "to": "task-delegation-automation-decision-framework"
     },
     {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "claude-chat-claude-code-workflow"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "pm-exponential-adaptation"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "speed-first-prototyping"
+    },
+    {
       "from": "task-delegation-automation-decision-framework",
       "to": "ai-agent-operations"
     },
@@ -7797,6 +8421,42 @@
     {
       "from": "task-delegation-automation-decision-framework",
       "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "ai-capability-evolution-design-flexibility"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "assumption-reevaluation-cycle-continuous-improvement"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "claude-api-rate-limit-optimization-workflow"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "gemma-llm-model-selection-manufacturing"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "long-running-ai-agent-design-patterns"
     },
     {
       "from": "time-capital-health-investment-narrative",
