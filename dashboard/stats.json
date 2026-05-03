@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-05-03T10:34:23+09:00",
+  "generatedAt": "2026-05-04T00:39:35+09:00",
   "weekly": {
-    "commitCount": 26,
+    "commitCount": 25,
     "byDay": [
-      {
-        "date": "2026-04-27",
-        "count": 2
-      },
       {
         "date": "2026-04-28",
         "count": 2
@@ -29,7 +25,11 @@
       },
       {
         "date": "2026-05-03",
-        "count": 14
+        "count": 15
+      },
+      {
+        "date": "2026-05-04",
+        "count": 0
       }
     ]
   },
@@ -42,6 +42,10 @@
     "other": 31
   },
   "recentCommits": [
+    {
+      "date": "2026-05-03",
+      "message": "news: 2026-05-03 記事まとめを自動生成"
+    },
     {
       "date": "2026-05-03",
       "message": "dashboard: Claude使用量更新 (2026-05-03)"
@@ -57,10 +61,6 @@
     {
       "date": "2026-05-03",
       "message": "dashboard: Claude使用量更新 (2026-05-03)"
-    },
-    {
-      "date": "2026-05-03",
-      "message": "ideas: 2026-W18 週次まとめ自動生成"
     }
   ]
 }
