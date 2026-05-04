@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-05-04] ingest | Andrej Karpathy: Software Is Changing (Again)
+- 更新ページ: [AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応](ai-tool-evaluation-monthly-refresh-cycle.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [ソフトウェアパラダイムの進化：Software 1.0→2.0→3.0の段階的移行と使い分け戦略](software-paradigm-evolution-1-0-2-0-3-0.md), [LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略](llm-infrastructure-foundation-provider-redundancy.md)
+- 出典: [Andrej Karpathy: Software Is Changing (A](https://www.youtube.com/watch?v=LCEmiRjPEtQ)
+
+## [2026-05-04] ingest | AI企業の新卒エンジニアはどんな仕事してる？コーディングよりドメイン知識？FDE新卒の「一日のスケジ
+- 更新ページ: [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化](llm-integration-technical-documentation-automation.md), [FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略](fde-engineer-domain-knowledge-priority-career-design.md), [AIワークフロー導入における顧客常駐支援型技術者モデル：実装精度と運用安定性の両立メカニズム](ai-workflow-adoption-customer-onsite-support-model.md)
+- 出典: [AI企業の新卒エンジニアはどんな仕事してる？コーディングよりドメイン知識？FDE](https://www.youtube.com/watch?v=VCadmOazof4)
+
+## [2026-05-04] ingest | 【中島聡vs未来予測】仕事が消える未来…働かない社会で人間の生きがいは残るのか？【田中渓&ReHac
+- 更新ページ: [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md), [仕事消滅社会での生きがい創出：AIが自動化した先の人間的価値と幸福設計](meaning-creation-post-work-society-ai-era.md)
+- 出典: [【中島聡vs未来予測】仕事が消える未来…働かない社会で人間の生きがいは残るのか？](https://www.youtube.com/watch?v=yzFgatvCJc8)
+
+## [2026-05-04] ingest | XユーザーのMr. Buzzoniさん: 「Top 67 Claude Skills That Tu
+- 更新ページ: [Claudeスキルテンプレートの再利用と組織展開：検証済みプロンプトの標準化と採用加速](claude-skill-template-library-reuse.md), [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md), [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md), [Claude 67コアスキル：$20サブスクリプション活用と業務プロセス標準化](claude-skill-67-core-competencies-standardization.md), [再利用可能プロセス定義によるSKILL.md：製造業の保守手順・トラブルシューティングの標準化と新人育成効率化](skill-reusable-process-definition-manufacturing-knowledge-management.md)
+- 出典: [XユーザーのMr. Buzzoniさん: 「Top 67 Claude Skil](https://x.com/polydao/status/2044317956893471081)
+
 ## [2026-05-03] ingest | Demis Hassabis: Agents, AGI & The Next Big Scienti
 - 更新ページ: [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md), [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md), [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却](context-window-scaling-limitation-smart-extraction-architecture.md), [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md)
 - 出典: [Demis Hassabis: Agents, AGI & The Next B](https://www.youtube.com/watch?v=JNyuX1zoOgU)

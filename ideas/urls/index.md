@@ -2,6 +2,11 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/05/04 | - | AI, LLM, Learning | [Andrej Karpathy — “We’re summoning ghosts, not building animals”](https://www.youtube.com/watch?v=lXUZvyajciY) | Andrej Karpathyは、現在のAIモデルは「動物」ではなく「幽霊」であり、真の汎用エージェント実現には10年以上の期間が必要だと主張しています。 |
+| 26/05/04 | - | AI, LLM, Development, Career | [Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) | Andrej Karpathyが、ソフトウェアの進化を「Software 1.0（従来のコード）→2.0（ニューラルネットワーク）→3.0（LLMプロンプト）」の3段階で分析し、LLMをOSやファブに例えながら部分自律型アプリケーションの台頭を展望する講演。 |
+| 26/05/04 | - | AI, LLM, Career, Development, Business | [AI企業の新卒エンジニアはどんな仕事してる？コーディングよりドメイン知識？FDE新卒の「一日のスケジュール」を分析／LayerX Ai Workforce／就活／就職活動](https://www.youtube.com/watch?v=VCadmOazof4) | LayerX AI Workforce事業部の新卒FDEエンジニア2名が、コーディングよりドメイン知識習得とビジネス課題解決に時間を割く、スタートアップ特有のキャリア形成について語る。 |
+| 26/05/04 | - | AI, Business, Career, Learning, Management | [【中島聡vs未来予測】仕事が消える未来…働かない社会で人間の生きがいは残るのか？【田中渓&ReHacQ】](https://www.youtube.com/watch?v=yzFgatvCJc8) | AIによるホワイトカラー職の8割置き換えが予測される中、パーソナライズ医療や戦争形態の変化、そして仕事がなくなった社会での人間の生きがい創出について中島聡氏が深掘り解説する。 |
+| 26/05/04 | - | AI, Claude, Development, Productivity, Tools | [XユーザーのMr. Buzzoniさん: 「Top 67 Claude Skills That Turn a $20 Subscription Into a Full Dev Team - (Full Links)」 / X](https://x.com/polydao/status/2044317956893471081) | Claudeの$20サブスクリプションを最大活用するための67個のスキルを紹介。SKILL.mdファイルで再利用可能なプロセス定義により、単なる自動補完ではなく開発チーム全体の機能を実現できる。 |
 | 26/05/03 | - | AI, LLM, Learning | [Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough](https://www.youtube.com/watch?v=JNyuX1zoOgU) | Google DeepMindのCEO、デミス・ハサビスがAGI実現に向けた技術的課題を解説。継続学習、長期推論、記憶メカニズムの革新がAGI達成に必要だと指摘。 |
 | 26/05/03 | - | AI, Business, Management | [【AI完無視】アップル、「世紀の逆張り」がヤバすぎる(ティム・クック/ジョン・ターナス/スティーブ・ジョブズ/Apple/Google/Gemini/解説：森川潤、後藤直義）](https://www.youtube.com/watch?v=mEePkMNDqGU) | Appleが新CEOにジョン・ターナスを迎える中、AI設備投資を抑えハードウェア重視の「逆張り」戦略を展開しており、この独自路線が市場評価を維持している点を解説する動画。 |
 | 26/05/03 | - | YouTube | [youtube](https://www.youtube.com/watch?v=gk5rIIC19wE) | 提供いただいたYouTubeビデオのURLのみで、具体的な本文内容がないため、詳細な分析ができません。 |
