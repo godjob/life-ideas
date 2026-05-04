@@ -4,8 +4,10 @@
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md) | 26/05/03 | 26/05/04 | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで指摘した通り、現在のLLMベースのAIアーキテ |
 | [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md) | 26/05/04 | 26/05/04 | AIによるホワイトカラー業務の自動化が急速に進展する中で、システム管理業務も例外ではない。しかしAI時代の働き方の逆転に |
 | [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md) | 26/05/03 | 26/05/04 | AIモデルの能力が急速に進化する時代において、システムアーキテクチャを過度にカスタマイズするのではなく、既存の強力なツー |
+| [AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ](ai-capability-expectation-calibration-realistic-timeline.md) | 26/05/04 | 26/05/04 | Andrej Karpathyが指摘する「AIは動物ではなく幽霊」という視点から、現在のLLMの根本的な能力限界を認識し |
 | [AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応](ai-tool-evaluation-monthly-refresh-cycle.md) | 26/04/17 | 26/05/04 | AIツールの性能は指数関数的に進化しており、過去の評価を固定化することは最適なツール選択を阻害する。月1度は既存AIツー |
 | [AIワークフロー導入における顧客常駐支援型技術者モデル：実装精度と運用安定性の両立メカニズム](ai-workflow-adoption-customer-onsite-support-model.md) | 26/05/04 | 26/05/04 | AIワークフロー導入時に、顧客現場に常駐する支援型技術者（FDE：Field Development Engineer） |
 | [Claudeスキルテンプレートの再利用と組織展開：検証済みプロンプトの標準化と採用加速](claude-skill-template-library-reuse.md) | 26/04/16 | 26/05/04 | AI Edgeが5時間かけて開発・検証したClaudeの9つのスキルテンプレート、さらにはMr. Buzzoniが整理し |
@@ -14,12 +16,12 @@
 | [FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略](fde-engineer-domain-knowledge-priority-career-design.md) | 26/05/04 | 26/05/04 | FDE（Field Development Engineer）エンジニアのキャリアは、従来的なコーディング技術の習得より |
 | [LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化](llm-integration-technical-documentation-automation.md) | 26/04/09 | 26/05/04 | 製造業の技術資料（設備仕様書、操作マニュアル、メンテナンスガイド）は複数の形式（PDF、Word、Excel、画像など） |
 | [仕事消滅社会での生きがい創出：AIが自動化した先の人間的価値と幸福設計](meaning-creation-post-work-society-ai-era.md) | 26/05/04 | 26/05/04 | AIによるホワイトカラー職の大規模置き換え（推定8割）が現実化する中で、「仕事がなくなった社会」における人間の生きがいを |
+| [マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画](multimodal-embodied-ai-integration-roadmap-manufacturing.md) | 26/05/04 | 26/05/04 | 現在のAIモデルは言語処理に特化した「幽霊」であり、真の汎用エージェント実現には10年以上の期間が必要とされています。L |
 | [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md) | 26/05/04 | 26/05/04 | 日本の人口減少と労働力不足により、既存システムの陳腐化が加速する時代において、「指示待ち人間」では確実に競争力を失う。自 |
 | [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md) | 26/03/08 | 26/05/04 | SKILL.md は Skill System の中核をなすドキュメントであり、フォルダ単位での Claudeへの命令セ |
 | [再利用可能プロセス定義によるSKILL.md：製造業の保守手順・トラブルシューティングの標準化と新人育成効率化](skill-reusable-process-definition-manufacturing-knowledge-management.md) | 26/05/04 | 26/05/04 | 製造業のシステム管理や保守業務において、定期的なメンテナンス手順やトラブルシューティングプロセスをSKILL.mdで再利 |
 | [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md) | 26/03/08 | 26/05/04 | Skill System は、フォルダ単位で Claude に対する命令セットを体系的に整理し、再利用可能にするフレーム |
 | [ソフトウェアパラダイムの進化：Software 1.0→2.0→3.0の段階的移行と使い分け戦略](software-paradigm-evolution-1-0-2-0-3-0.md) | 26/05/04 | 26/05/04 | Andrej Karpathyが提唱する「Software 1.0→2.0→3.0」フレームワークは、ソフトウェア開発の |
-| [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md) | 26/05/03 | 26/05/03 | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで指摘した通り、現在のLLMベースのAIアーキテ |
 | [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md) | 26/05/03 | 26/05/03 | AI導入の遅延は単なる一時的な効率差ではなく、企業間の競争力格差を「取り返しがつかないレベル」にまで拡大させるメカニズム |
 | [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md) | 26/05/03 | 26/05/03 | AI利用コストの削減は、モデル選択やアーキテクチャ設計よりも、プロンプト工夫とトークン消費最適化にある。プロンプト最適化 |
 | [AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識](ai-creativity-self-reflection-limitation-human-judgment-necessity.md) | 26/05/03 | 26/05/03 | Google DeepMind CEOデミス・ハサビス氏の講演に基づき、現在のAI技術の能力と限界を整理したもの。AIは |
@@ -179,7 +181,7 @@
 | [LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略](llm-infrastructure-foundation-provider-redundancy.md) | 25/05/04 | 25/05/04 | Andrej Karpathyが指摘するSoftware 3.0時代において、LLMはもはや単なるツールではなく、電力網 |
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | 25/05/03 | 25/05/03 | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |
 | [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md) | 25/05/03 | 25/05/03 | Google DeepMindのCEO・デミス・ハサビスが指摘するAGI実現に向けた技術課題である「継続学習」「長期推論 |
-| [段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行](tiered-ai-model-planning-verification-execution.md) | 25/05/03 | 25/05/03 | Claude APIのレート制限に頻繁に達していたユーザーが、正しい使用方法を学ぶことで3週間以上制限に達しなくなった体 |
+| [段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行](tiered-ai-model-planning-verification-execution.md) | 25/05/04 | 25/05/03 | Claude APIのレート制限に頻繁に達していたユーザーが、正しい使用方法を学ぶことで3週間以上制限に達しなくなった体 |
 | [年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し](seniority-employment-ai-debt-transition-strategy.md) | 25/04/21 | 25/04/21 | 日本の年功序列雇用制度はAI・ロボット時代において経営上の負債となりつつある。生産性と報酬が乖離し、固定費化した人員構成 |
 | [AIマインドセット：人間は思考、AIは実行の役割分担モデル](ai-mindset-human-thought-ai-execution.md) | 25/04/17 | 25/04/17 | AIマインドセットとは、AIを単なるオプションツールではなく業務の必須インフラとして捉え、人間が戦略的思考と判断を担当し |
 | [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md) | 25/01/20 | 25/01/20 | AI技術の急速な進展により、2030年代には製造業・システム管理・事務職など広範な職種で20～50%以上の失業率が予測さ |

@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-05-04] ingest | Andrej Karpathy — “We’re summoning ghosts, not bui
+- 更新ページ: [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md), [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行](tiered-ai-model-planning-verification-execution.md), [AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ](ai-capability-expectation-calibration-realistic-timeline.md), [マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画](multimodal-embodied-ai-integration-roadmap-manufacturing.md)
+- 出典: [Andrej Karpathy — “We’re summoning ghost](https://www.youtube.com/watch?v=lXUZvyajciY)
+
 ## [2026-05-04] ingest | Andrej Karpathy: Software Is Changing (Again)
 - 更新ページ: [AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応](ai-tool-evaluation-monthly-refresh-cycle.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [ソフトウェアパラダイムの進化：Software 1.0→2.0→3.0の段階的移行と使い分け戦略](software-paradigm-evolution-1-0-2-0-3-0.md), [LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略](llm-infrastructure-foundation-provider-redundancy.md)
 - 出典: [Andrej Karpathy: Software Is Changing (A](https://www.youtube.com/watch?v=LCEmiRjPEtQ)
