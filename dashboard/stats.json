@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T18:25:50+09:00",
+  "generatedAt": "2026-05-04T18:27:39+09:00",
   "weekly": {
-    "commitCount": 37,
+    "commitCount": 39,
     "byDay": [
       {
         "date": "2026-04-28",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-05-04",
-        "count": 12
+        "count": 14
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 3,
     "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 40
+    "other": 41
   },
   "recentCommits": [
+    {
+      "date": "2026-05-04",
+      "message": "scrap: 2026-05-04 Andrej Karpathyが、ソフトウェアの進・Andrej Karpathyは、現在のAIモデル"
+    },
+    {
+      "date": "2026-05-04",
+      "message": "dashboard: Claude使用量更新 (2026-05-04)"
+    },
     {
       "date": "2026-05-04",
       "message": "dashboard: Claude使用量更新 (2026-05-04)"
@@ -49,14 +57,6 @@
     {
       "date": "2026-05-04",
       "message": "scrap: YouTube4件・Xポスト1件を取り込み（2026-05-04）"
-    },
-    {
-      "date": "2026-05-04",
-      "message": "dashboard: Claude使用量更新 (2026-05-04)"
-    },
-    {
-      "date": "2026-05-04",
-      "message": "dashboard: Claude使用量更新 (2026-05-04)"
     },
     {
       "date": "2026-05-04",
