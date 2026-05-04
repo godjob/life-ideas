@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T00:39:35+09:00",
+  "generatedAt": "2026-05-04T18:25:50+09:00",
   "weekly": {
-    "commitCount": 25,
+    "commitCount": 37,
     "byDay": [
       {
         "date": "2026-04-28",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-05-04",
-        "count": 0
+        "count": 12
       }
     ]
   },
   "byDirectory": {
-    "scrap": 1,
+    "scrap": 2,
     "ideas": 1,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 31
+    "other": 40
   },
   "recentCommits": [
     {
-      "date": "2026-05-03",
-      "message": "news: 2026-05-03 記事まとめを自動生成"
+      "date": "2026-05-04",
+      "message": "dashboard: Claude使用量更新 (2026-05-04)"
     },
     {
-      "date": "2026-05-03",
-      "message": "dashboard: Claude使用量更新 (2026-05-03)"
+      "date": "2026-05-04",
+      "message": "scrap: YouTube4件・Xポスト1件を取り込み（2026-05-04）"
     },
     {
-      "date": "2026-05-03",
-      "message": "docker: IMAGE_NAME修正・マウントパスをpwdに変更"
+      "date": "2026-05-04",
+      "message": "dashboard: Claude使用量更新 (2026-05-04)"
     },
     {
-      "date": "2026-05-03",
-      "message": "dashboard: wiki-graph.json 更新（182ノード/1904エッジ）"
+      "date": "2026-05-04",
+      "message": "dashboard: Claude使用量更新 (2026-05-04)"
     },
     {
-      "date": "2026-05-03",
-      "message": "dashboard: Claude使用量更新 (2026-05-03)"
+      "date": "2026-05-04",
+      "message": "dashboard: Claude使用量更新 (2026-05-04)"
     }
   ]
 }
