@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-05T18:56:45+09:00",
+  "generatedAt": "2026-05-05T20:22:18+09:00",
   "weekly": {
-    "commitCount": 44,
+    "commitCount": 55,
     "byDay": [
       {
         "date": "2026-04-29",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-05-05",
-        "count": 7
+        "count": 18
       }
     ]
   },
@@ -39,16 +39,16 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 45
+    "other": 56
   },
   "recentCommits": [
     {
       "date": "2026-05-05",
-      "message": "dashboard: Claude使用量更新 (2026-05-05)"
+      "message": "scripts: git_scrap の LLM を Gemini Flash 優先に切り替え"
     },
     {
       "date": "2026-05-05",
-      "message": "scrap: YouTube2件を取り込み（2026-05-05）"
+      "message": "dashboard: Claude使用量更新 (2026-05-05)"
     },
     {
       "date": "2026-05-05",
