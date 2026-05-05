@@ -1,9 +1,12 @@
 # Wiki インデックス
 
-最終更新: 2026-05-04
+最終更新: 2026-05-05
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md) | 26/05/05 | 26/05/05 | Claude Codeを活用することで、プログラミングの基礎知識がなくても数日でWebアプリケーションを開発・販売できる |
+| [経営者のAIハンズオン学習と組織全体の変革加速：社長自作→全社強制導入の実装パターン](executive-ai-hands-on-learning-organizational-transformation.md) | 26/05/05 | 26/05/05 | グッドパッチの土屋社長が2ヶ月で40個のアプリケーションを自ら開発し、その経験を基に全社員200名にClaude Cod |
+| [試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム](trial-and-error-adaptive-capacity-building-long-term-asset.md) | 26/05/05 | 26/05/05 | AI時代の組織競争力は、短期的なKPI達成よりも、継続的な試行錯誤を通じた適応能力の構築にある。グッドパッチの事例のよう |
 | [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md) | 26/05/03 | 26/05/04 | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで指摘した通り、現在のLLMベースのAIアーキテ |
 | [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md) | 26/05/04 | 26/05/04 | AIによるホワイトカラー業務の自動化が急速に進展する中で、システム管理業務も例外ではない。しかしAI時代の働き方の逆転に |
 | [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md) | 26/05/03 | 26/05/04 | AIモデルの能力が急速に進化する時代において、システムアーキテクチャを過度にカスタマイズするのではなく、既存の強力なツー |
@@ -30,14 +33,12 @@
 | [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md) | 26/05/03 | 26/05/03 | Capability Overhangとは、AIモデルが持つ実際の能力と、ユーザーが実際に活用できている能力の間の深刻な |
 | [CEO技術背景と組織実行力：エンジニア出身リーダーが実現する品質・改善文化](ceo-technical-background-operational-excellence.md) | 26/05/03 | 26/05/03 | エンジニアリング出身のCEOが経営層に直結する体制は、製造現場の技術的思考を意思決定に反映させ、品質管理・プロセス改善で |
 | [Claude API レート制限最適化：段階的モデル選択によるトークン効率化ワークフロー](claude-api-rate-limit-optimization-workflow.md) | 26/05/03 | 26/05/03 | Claude APIのレート制限に頻繁に直面するユーザーの多くは、モデル選択のプロセス設計を見落としている。安価なモデル |
-| [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md) | 26/05/03 | 26/05/03 | Claude Codeを活用することで、プログラミングの基礎知識がなくても数日でWebアプリケーションを開発・販売できる |
 | [コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却](context-window-scaling-limitation-smart-extraction-architecture.md) | 26/05/03 | 26/05/03 | Google DeepMindのCEO デミス・ハサビスが指摘する「ダクトテープ的解決」とは、大規模言語モデルのコンテキ |
 | [段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計](llm-tiered-execution-pattern.md) | 26/05/03 | 26/05/03 | 段階的LLM実行パターンは、複数のLLMモデルの特性を活用して全体的なコスト効率と性能を最適化する設計手法である。大規模 |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/05/03 | 26/05/03 | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
 | [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 26/05/03 | 26/05/03 | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
 | [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md) | 26/05/03 | 26/05/03 | 製造業の現場では、AIを即座に適用できる実践的なパターンが存在します。大量の資料から構成案を自動生成する業務や、修正要望 |
 | [非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放](non-engineer-skill-development-claude-code-democratization.md) | 26/05/03 | 26/05/03 | 創業114年の地方中小企業がClaude Codeを全社員に解放したところ、営業やサポート職などの非エンジニアまでもが開 |
-| [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 26/05/03 | 26/05/03 | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchおよび創業114年の地方中小 |
 | [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md) | 26/04/08 | 26/05/03 | Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除する「Caveman」プロンプトテクニックにより、 |
 | [地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応](regional-sme-engineering-constraint-mitigation-ai-coding.md) | 26/05/03 | 26/05/03 | 地方中小企業が抱える深刻なエンジニアリソース制約は、従来はボトルネックとして機能していたが、Claude Codeなどの |
 | [システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化](system-development-velocity-acceleration-ai-tools.md) | 26/05/03 | 26/05/03 | Claude Codeなどの生成AIツールの活用により、従来は数週間かかるシステム構築が1日で完了可能になった。この劇的 |
@@ -102,7 +103,7 @@
 | [Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計](managed-agents-cost-optimization-gtm-strategy.md) | 26/04/13 | 26/04/13 | Claude Managed Agentsは複雑な自作ハーネスを一本のAPI統一でき、セキュリティとオブザーバビリティが |
 | [Wiki スキーマ定義](schema.md) | 26/04/13 | 26/04/13 | `ideas/wiki/` ディレクトリの運用ルール・ページ構造・品質基準を一元定義するスキーマ文書。 |
 | [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md) | 26/04/13 | 26/04/13 | アンラーン能力とは、既存の知識や方法論を意識的に手放し、新しい問いを立てる能力を指します。AI時代において、過去の経験や |
-| [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md) | 26/04/12 | 26/04/12 | AI導入における最大の障壁は、技術的な複雑さではなく、ユーザーの心理的抵抗感にある。特に「ターミナル（黒い画面）への恐怖 |
+| [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md) | 26/05/05 | 26/04/12 | AI導入における最大の障壁は、技術的な複雑さではなく、ユーザーの心理的抵抗感にある。特に「ターミナル（黒い画面）への恐怖 |
 | [意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証](decision-fatigue-sop-standardization-cognitive-load-reduction.md) | 26/04/12 | 26/04/12 | 意思決定疲労（Decision Fatigue）は、1日を通じた複数の判断により心理的エネルギーが消耗し、判断力が低下す |
 | [PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ](local-pglite-sensitive-data-management.md) | 26/04/12 | 26/04/12 | PGLiteはPostgreSQLのローカル環境実装であり、外部クラウドサーバーへのデータ送信を回避しながら、機密性の高 |
 | [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md) | 26/04/11 | 26/04/11 | シンギュラリティループとは、AIが自身の性能向上を自律的に加速させるメカニズムのことである。AIが改善提案を生成し、それ |
@@ -177,6 +178,7 @@
 | [MCPとSkillの役割分担：ツール連携とワークフロー設計](mcp-skill-architecture.md) | 26/04/09 | 26/03/08 | MCPとSkillは、AIエージェントが外部ツールやデータを活用する際の「接続」と「使用方法」を担当する相補的な概念です |
 | [skill-creator スキル：Skill設計・レビュー・改善の自動化](skill-creator-automation.md) | 26/03/08 | 26/03/08 | skill-creatorはClaude.aiに組み込まれた専門的なスキルで、Skillの設計・レビュー・改善提案を自動 |
 | [ワークフローのSkill化：業務手順の標準化と共有](workflow-skill-definition.md) | 26/03/08 | 26/03/08 | 日々の業務に含まれる反復的なワークフローをSkill Systemとして定義することで、個人の暗黙知を形式知に変え、チー |
+| [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 25/05/05 | 25/05/05 | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchおよび創業114年の地方中小 |
 | [Claude 67コアスキル：$20サブスクリプション活用と業務プロセス標準化](claude-skill-67-core-competencies-standardization.md) | 25/05/04 | 25/05/04 | Claudeの$20/月サブスクリプションを最大活用するための67個のコアスキルを、SKILL.mdファイルで再利用可能 |
 | [LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略](llm-infrastructure-foundation-provider-redundancy.md) | 25/05/04 | 25/05/04 | Andrej Karpathyが指摘するSoftware 3.0時代において、LLMはもはや単なるツールではなく、電力網 |
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | 25/05/03 | 25/05/03 | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |

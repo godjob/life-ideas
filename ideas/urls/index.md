@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/05/05 | - | AI, LLM, Learning, Business | [【超知能AIは悪意なく人間を排除する】MIRI所長ネイト・ソアレス](https://www.youtube.com/watch?v=-GBlg9twuzQ) | 超知能AIは悪意ではなく無関心ゆえに人類を排除する。アライメント問題が未解決のまま開発競争が続く危険性をMIRI所長が警告。 |
+| 26/05/05 | - | AI, ClaudeCode, Management, Productivity, Business | [【グッドパッチ土屋の本気のAI経営】社長自ら2ヶ月で40アプリ自作 / 200人がClaude Codeで一斉始動 / AI時代に際立つ](https://www.youtube.com/watch?v=tZMs4frdpGk) | グッドパッチ社長が2ヶ月で40アプリを自作し、全社員200名にClaude Codeでのアプリ開発を強制実行。AI時代の競争力確保のため、トップダウンで全社的なAI変革を推し進めた事例。 |
 | 26/05/04 | - | AI, LLM, Learning | [Andrej Karpathy — “We’re summoning ghosts, not building animals”](https://www.youtube.com/watch?v=lXUZvyajciY) | Andrej Karpathyは、現在のAIモデルは「動物」ではなく「幽霊」であり、真の汎用エージェント実現には10年以上の期間が必要だと主張しています。 |
 | 26/05/04 | - | AI, LLM, Development, Career | [Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) | Andrej Karpathyが、ソフトウェアの進化を「Software 1.0（従来のコード）→2.0（ニューラルネットワーク）→3.0（LLMプロンプト）」の3段階で分析し、LLMをOSやファブに例えながら部分自律型アプリケーションの台頭を展望する講演。 |
 | 26/05/04 | - | AI, LLM, Career, Development, Business | [AI企業の新卒エンジニアはどんな仕事してる？コーディングよりドメイン知識？FDE新卒の「一日のスケジュール」を分析／LayerX Ai Workforce／就活／就職活動](https://www.youtube.com/watch?v=VCadmOazof4) | LayerX AI Workforce事業部の新卒FDEエンジニア2名が、コーディングよりドメイン知識習得とビジネス課題解決に時間を割く、スタートアップ特有のキャリア形成について語る。 |

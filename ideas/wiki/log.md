@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-05-05] ingest | 【グッドパッチ土屋の本気のAI経営】社長自ら2ヶ月で40アプリ自作 / 200人がClaude Co
+- 更新ページ: [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md), [経営者のAIハンズオン学習と組織全体の変革加速：社長自作→全社強制導入の実装パターン](executive-ai-hands-on-learning-organizational-transformation.md), [試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム](trial-and-error-adaptive-capacity-building-long-term-asset.md)
+- 出典: [【グッドパッチ土屋の本気のAI経営】社長自ら2ヶ月で40アプリ自作 / 200人](https://www.youtube.com/watch?v=tZMs4frdpGk)
+
 ## [2026-05-04] ingest | Andrej Karpathy — “We’re summoning ghosts, not bui
 - 更新ページ: [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md), [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行](tiered-ai-model-planning-verification-execution.md), [AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ](ai-capability-expectation-calibration-realistic-timeline.md), [マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画](multimodal-embodied-ai-integration-roadmap-manufacturing.md)
 - 出典: [Andrej Karpathy — “We’re summoning ghost](https://www.youtube.com/watch?v=lXUZvyajciY)

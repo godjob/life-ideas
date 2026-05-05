@@ -22,19 +22,19 @@
       "id": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "label": "AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題",
       "group": "その他",
-      "value": 7
+      "value": 9
     },
     {
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
       "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
       "group": "その他",
-      "value": 5
+      "value": 9
     },
     {
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 42
+      "value": 46
     },
     {
       "id": "ai-agent-cli-automation-pattern",
@@ -52,7 +52,7 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 17
+      "value": 18
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
@@ -100,7 +100,13 @@
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 6
+    },
+    {
+      "id": "ai-capability-expectation-calibration-realistic-timeline",
+      "label": "AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ",
+      "group": "AI戦略・社会",
+      "value": 3
     },
     {
       "id": "ai-capability-threshold-disclosure-strategy",
@@ -124,7 +130,7 @@
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 13
+      "value": 12
     },
     {
       "id": "ai-email-native-interface-system-integration",
@@ -166,19 +172,19 @@
       "id": "ai-labor-policy-governance-framework",
       "label": "AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止",
       "group": "AI戦略・社会",
-      "value": 11
+      "value": 12
     },
     {
       "id": "ai-leader-values-philosophy-reliability-foundation",
       "label": "AIリーダーの価値観と哲学：システム信頼性の基盤構築",
       "group": "AI戦略・社会",
-      "value": 9
+      "value": 10
     },
     {
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "その他",
-      "value": 18
+      "value": 19
     },
     {
       "id": "ai-manager-role-transition-code-craftsman",
@@ -196,25 +202,25 @@
       "id": "ai-model-license-compliance-manufacturing",
       "label": "AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策",
       "group": "その他",
-      "value": 7
+      "value": 8
     },
     {
       "id": "ai-orchestrator-role",
       "label": "AIオーケストレーター：100倍エンジニアの役割",
       "group": "AIエージェント設計",
-      "value": 24
+      "value": 25
     },
     {
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-powered-web-production-flow",
       "label": "AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制",
       "group": "プロンプト・AI活用",
-      "value": 11
+      "value": 10
     },
     {
       "id": "ai-prompt-engineering-leadership-career",
@@ -226,19 +232,19 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 12
+      "value": 13
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "その他",
-      "value": 15
+      "value": 16
     },
     {
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 13
+      "value": 14
     },
     {
       "id": "ai-tool-evaluation-monthly-refresh-cycle",
@@ -256,7 +262,7 @@
       "id": "ai-workflow-adoption-customer-onsite-support-model",
       "label": "AIワークフロー導入における顧客常駐支援型技術者モデル：実装精度と運用安定性の両立メカニズム",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "aidlc-manufacturing-requirements-definition",
@@ -286,7 +292,7 @@
       "id": "as-little-ai-as-possible-principle",
       "label": "As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計",
       "group": "技術実装・エンジニアリング",
-      "value": 17
+      "value": 19
     },
     {
       "id": "assumption-reevaluation-cycle-continuous-improvement",
@@ -364,7 +370,7 @@
       "id": "claude-code-agent-teams",
       "label": "Claude Code Agent Teams：AIエージェントチームの実装と活用",
       "group": "Claude/AI開発ツール",
-      "value": 21
+      "value": 22
     },
     {
       "id": "claude-code-configuration-driven-workflow",
@@ -382,7 +388,7 @@
       "id": "claude-code-rapid-app-development-side-business",
       "label": "Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル",
       "group": "Claude/AI開発ツール",
-      "value": 10
+      "value": 11
     },
     {
       "id": "claude-code-skill-design-gotchas",
@@ -430,7 +436,7 @@
       "id": "claude-md-governance",
       "label": "CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ",
       "group": "Claude/AI開発ツール",
-      "value": 38
+      "value": 39
     },
     {
       "id": "claude-mythos-capability-risk-management",
@@ -478,7 +484,7 @@
       "id": "context-window-scaling-limitation-smart-extraction-architecture",
       "label": "コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "creator-intuition-driven-design-philosophy",
@@ -520,13 +526,13 @@
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 14
+      "value": 15
     },
     {
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "その他",
-      "value": 22
+      "value": 24
     },
     {
       "id": "description-field-best-practices",
@@ -544,7 +550,7 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "その他",
-      "value": 30
+      "value": 33
     },
     {
       "id": "domain-expertise-digital-product-monetization",
@@ -556,13 +562,19 @@
       "id": "edge-ai-system-design-production-skills",
       "label": "エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル",
       "group": "技術実装・エンジニアリング",
-      "value": 7
+      "value": 8
     },
     {
       "id": "environment-engineering",
       "label": "エンバイロメント・エンジニアリング：AI活動の土台づくり",
       "group": "Claude/AI開発ツール",
       "value": 17
+    },
+    {
+      "id": "executive-ai-hands-on-learning-organizational-transformation",
+      "label": "経営者のAIハンズオン学習と組織全体の変革加速：社長自作→全社強制導入の実装パターン",
+      "group": "ビジネス・組織",
+      "value": 4
     },
     {
       "id": "executive-time-arbitrage-asset-building-strategy",
@@ -628,7 +640,7 @@
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "incomplete-content-handling-knowledge-quality-control",
@@ -658,7 +670,7 @@
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
       "label": "日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上",
       "group": "その他",
-      "value": 12
+      "value": 13
     },
     {
       "id": "jpyc-tax-strategy",
@@ -670,7 +682,7 @@
       "id": "junior-engineer-retention-ai-era-succession-planning",
       "label": "ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持",
       "group": "キャリア・働き方",
-      "value": 14
+      "value": 15
     },
     {
       "id": "labor-money-decoupling",
@@ -688,7 +700,7 @@
       "id": "legacy-harness-platform-api-migration-pattern",
       "label": "レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "life-repository-evolution",
@@ -712,7 +724,7 @@
       "id": "llm-integration-technical-documentation-automation",
       "label": "LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化",
       "group": "技術実装・エンジニアリング",
-      "value": 12
+      "value": 13
     },
     {
       "id": "llm-tiered-execution-pattern",
@@ -736,7 +748,7 @@
       "id": "local-llm-deployment-architecture",
       "label": "ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用",
       "group": "技術実装・エンジニアリング",
-      "value": 23
+      "value": 24
     },
     {
       "id": "local-pglite-sensitive-data-management",
@@ -772,13 +784,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 55
+      "value": 56
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 34
+      "value": 36
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -790,13 +802,13 @@
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 4
+      "value": 6
     },
     {
       "id": "manufacturing-email-automation-adoption-resistance",
       "label": "製造業のメール自動化導入：現場スタッフの抵抗感排除と既存知識資産の活用",
       "group": "製造業・業務DX",
-      "value": 4
+      "value": 5
     },
     {
       "id": "manufacturing-system-vulnerability-preemptive-audit",
@@ -841,6 +853,12 @@
       "value": 5
     },
     {
+      "id": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "label": "マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画",
+      "group": "その他",
+      "value": 3
+    },
+    {
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "その他",
@@ -850,7 +868,7 @@
       "id": "non-engineer-skill-development-claude-code-democratization",
       "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
       "group": "Claude/AI開発ツール",
-      "value": 8
+      "value": 10
     },
     {
       "id": "onboarding-friction-design-saas-growth",
@@ -868,7 +886,7 @@
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
       "label": "組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化",
       "group": "ビジネス・組織",
-      "value": 26
+      "value": 28
     },
     {
       "id": "organizational-dysfunction-sabotage-pattern-recognition",
@@ -898,7 +916,7 @@
       "id": "personal-os-operating-system",
       "label": "人生OSの運用：PMの4つのシフトの個人適用",
       "group": "個人OS・知識管理",
-      "value": 11
+      "value": 10
     },
     {
       "id": "physical-ai-hardware-standardization-strategy",
@@ -958,13 +976,13 @@
       "id": "rapid-iteration-learning-loop-operational-design",
       "label": "高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却",
       "group": "技術実装・エンジニアリング",
-      "value": 15
+      "value": 16
     },
     {
       "id": "regional-sme-engineering-constraint-mitigation-ai-coding",
       "label": "地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "remote-agent-session-sharing-multi-user-operations",
@@ -976,7 +994,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 23
+      "value": 24
     },
     {
       "id": "seniority-employment-ai-debt-transition-strategy",
@@ -1012,13 +1030,13 @@
       "id": "skill-reusable-process-definition-manufacturing-knowledge-management",
       "label": "再利用可能プロセス定義によるSKILL.md：製造業の保守手順・トラブルシューティングの標準化と新人育成効率化",
       "group": "Claude/AI開発ツール",
-      "value": 4
+      "value": 5
     },
     {
       "id": "skill-system",
       "label": "Skill System：フォルダ単位のClaudeへの命令セット",
       "group": "Claude/AI開発ツール",
-      "value": 37
+      "value": 38
     },
     {
       "id": "skill-testing-strategy",
@@ -1036,7 +1054,7 @@
       "id": "smile-curve-strategy",
       "label": "スマイルカーブの終焉と『コ』の字型社会：製造業の戦略的転換",
       "group": "ビジネス・組織",
-      "value": 8
+      "value": 9
     },
     {
       "id": "software-paradigm-evolution-1-0-2-0-3-0",
@@ -1054,7 +1072,7 @@
       "id": "speed-first-prototyping",
       "label": "速さが命題：検討より先にプロトタイプを出す姿勢",
       "group": "技術実装・エンジニアリング",
-      "value": 16
+      "value": 15
     },
     {
       "id": "stablecoin-tax-comparison",
@@ -1072,7 +1090,7 @@
       "id": "system-development-velocity-acceleration-ai-tools",
       "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "task-delegation-automation-decision-framework",
@@ -1096,7 +1114,13 @@
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
       "group": "その他",
-      "value": 10
+      "value": 11
+    },
+    {
+      "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "unlearning-capability-ai-era-competition",
@@ -1276,6 +1300,10 @@
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-capability-expectation-calibration-realistic-timeline"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
     },
     {
@@ -1325,6 +1353,10 @@
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
@@ -1384,6 +1416,10 @@
     },
     {
       "from": "ai-adoption-resistance-mitigation",
+      "to": "executive-ai-hands-on-learning-organizational-transformation"
+    },
+    {
+      "from": "ai-adoption-resistance-mitigation",
       "to": "manufacturing-ai-quick-wins"
     },
     {
@@ -1417,6 +1453,10 @@
     {
       "from": "ai-adoption-resistance-mitigation",
       "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "ai-adoption-resistance-mitigation",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "ai-agent-cli-automation-pattern",
@@ -1989,6 +2029,62 @@
     {
       "from": "ai-capability-evolution-design-flexibility",
       "to": "software-paradigm-evolution-1-0-2-0-3-0"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "ai-capability-evolution-design-flexibility"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "ai-orchestrator-role"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "claude-code-agent-teams"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
@@ -4004,19 +4100,7 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
-      "to": "ai-democratization-low-cost-creation"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
       "to": "ai-era-work-inversion"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
-      "to": "ai-failure-log"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
-      "to": "ai-powered-web-production-flow"
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
@@ -4029,6 +4113,10 @@
     {
       "from": "claude-code-rapid-app-development-side-business",
       "to": "domain-expertise-digital-product-monetization"
+    },
+    {
+      "from": "claude-code-rapid-app-development-side-business",
+      "to": "executive-ai-hands-on-learning-organizational-transformation"
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
@@ -4056,11 +4144,11 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
-      "to": "speed-first-prototyping"
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
-      "to": "system-development-velocity-acceleration-ai-tools"
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "claude-code-skill-design-gotchas",
@@ -5381,6 +5469,46 @@
     {
       "from": "environment-engineering",
       "to": "voice-phone-ai-interface"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "executive-ai-hands-on-learning-organizational-transformation",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "executive-time-arbitrage-asset-building-strategy",
@@ -7415,6 +7543,122 @@
       "to": "qms-style-ai-prompt-governance"
     },
     {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-capability-expectation-calibration-realistic-timeline"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-labor-policy-governance-framework"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-model-license-compliance-manufacturing"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-system-monitoring-cost-visibility-tools"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-workflow-adoption-customer-onsite-support-model"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "context-window-scaling-limitation-smart-extraction-architecture"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "junior-engineer-retention-ai-era-succession-planning"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "legacy-harness-platform-api-migration-pattern"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "llm-integration-technical-documentation-automation"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "manufacturing-email-automation-adoption-resistance"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "skill-system"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "smile-curve-strategy"
+    },
+    {
       "from": "non-engineer-ai-tool-development",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -7624,6 +7868,10 @@
     },
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
+      "to": "executive-ai-hands-on-learning-organizational-transformation"
+    },
+    {
+      "from": "organizational-ai-adoption-acceleration-topdown-directive",
       "to": "manufacturing-ai-quick-wins"
     },
     {
@@ -7644,10 +7892,6 @@
     },
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
-      "to": "personal-os-operating-system"
-    },
-    {
-      "from": "organizational-ai-adoption-acceleration-topdown-directive",
       "to": "rapid-iteration-learning-loop-operational-design"
     },
     {
@@ -7657,6 +7901,10 @@
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
       "to": "skill-system"
+    },
+    {
+      "from": "organizational-ai-adoption-acceleration-topdown-directive",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "organizational-dysfunction-sabotage-pattern-recognition",
@@ -9136,6 +9384,10 @@
     },
     {
       "from": "tiered-ai-model-planning-verification-execution",
+      "to": "ai-capability-expectation-calibration-realistic-timeline"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
       "to": "aidlc-manufacturing-requirements-definition"
     },
     {
@@ -9161,6 +9413,10 @@
     {
       "from": "tiered-ai-model-planning-verification-execution",
       "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "tiered-ai-model-planning-verification-execution",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "time-capital-health-investment-narrative",
@@ -9237,6 +9493,50 @@
     {
       "from": "transparency-communication-trust-foundation",
       "to": "prompt-clarity-management-feedback-loop"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "ai-failure-log"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "ai-leader-values-philosophy-reliability-foundation"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "claude-md-governance"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "executive-ai-hands-on-learning-organizational-transformation"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "rapid-iteration-learning-loop-operational-design"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "skill-reusable-process-definition-manufacturing-knowledge-management"
     },
     {
       "from": "unlearning-capability-ai-era-competition",
