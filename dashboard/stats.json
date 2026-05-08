@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-05-08T01:44:43+09:00",
+  "generatedAt": "2026-05-09T01:09:35+09:00",
   "weekly": {
     "commitCount": 53,
     "byDay": [
-      {
-        "date": "2026-05-02",
-        "count": 2
-      },
       {
         "date": "2026-05-03",
         "count": 15
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-05-08",
+        "count": 2
+      },
+      {
+        "date": "2026-05-09",
         "count": 0
       }
     ]
@@ -43,6 +43,14 @@
   },
   "recentCommits": [
     {
+      "date": "2026-05-08",
+      "message": "news: 2026-05-08 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-05-08",
+      "message": "朝刊: 2026-05-07 Morning Edition生成"
+    },
+    {
       "date": "2026-05-07",
       "message": "news: 2026-05-07 記事まとめを自動生成"
     },
@@ -53,14 +61,6 @@
     {
       "date": "2026-05-06",
       "message": "news: 2026-05-06 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-05-06",
-      "message": "朝刊: 2026-05-05 Morning Edition生成"
-    },
-    {
-      "date": "2026-05-05",
-      "message": "scripts: git_scrap の LLM を Gemini Flash 優先に切り替え"
     }
   ]
 }
