@@ -2,6 +2,9 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/05/12 | - | AI, Business, Career, Management | [AI企業が「受託」を始めた日。エンジニア、PM、デザイナーはどうこの先生きのこるか｜深津 貴之 (fladdict)](https://note.com/fladdict/n/nd42977e5443e) | OpenAI・AnthropicがFDE派遣で直接現場に入り込む時代に、エンジニア・PM・デザイナーが職位でなく資本（人的・社会・金融）を積むことが生存戦略と説く。 |
+| 26/05/12 | - | Business, YouTube, Learning | [【宇宙ビジネス最前線】ロケット打ち上げは300回超の時代／SpaceXが変えた宇宙輸送【PIVOT SCIENCE】](https://www.youtube.com/watch?v=PIO5DzEML98) | 衛星コンステレーション・測位・地球観測の利活用から月面開発まで、宇宙ビジネスの全体像を「運ぶ・使う・支える」の3視点で解説。 |
+| 26/05/12 | - | AI, LLM, Productivity, Business, Management | [【管理部編】上場会社のバックオフィス20名が、1ヶ月でClaudeを実装した記録｜グッドパッチ](https://note.com/19831112/n/n5be18a115b2b) | 経理・法務・情シス等5部門が1ヶ月で30件のClaude活用ツールを実装。IR品質チェック94%減など定量効果とともに「AIが一次担当・人間が最終判断」の分業構造を詳述。 |
 | 26/05/05 | - | AI, LLM, Learning, Business | [【超知能AIは悪意なく人間を排除する】MIRI所長ネイト・ソアレス](https://www.youtube.com/watch?v=-GBlg9twuzQ) | 超知能AIは悪意ではなく無関心ゆえに人類を排除する。アライメント問題が未解決のまま開発競争が続く危険性をMIRI所長が警告。 |
 | 26/05/05 | - | AI, ClaudeCode, Management, Productivity, Business | [【グッドパッチ土屋の本気のAI経営】社長自ら2ヶ月で40アプリ自作 / 200人がClaude Codeで一斉始動 / AI時代に際立つ](https://www.youtube.com/watch?v=tZMs4frdpGk) | グッドパッチ社長が2ヶ月で40アプリを自作し、全社員200名にClaude Codeでのアプリ開発を強制実行。AI時代の競争力確保のため、トップダウンで全社的なAI変革を推し進めた事例。 |
 | 26/05/04 | - | AI, LLM, Learning | [Andrej Karpathy — “We’re summoning ghosts, not building animals”](https://www.youtube.com/watch?v=lXUZvyajciY) | Andrej Karpathyは、現在のAIモデルは「動物」ではなく「幽霊」であり、真の汎用エージェント実現には10年以上の期間が必要だと主張しています。 |
