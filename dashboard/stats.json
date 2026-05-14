@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-05-14T02:10:14+09:00",
+  "generatedAt": "2026-05-15T01:56:17+09:00",
   "weekly": {
     "commitCount": 14,
     "byDay": [
-      {
-        "date": "2026-05-08",
-        "count": 2
-      },
       {
         "date": "2026-05-09",
         "count": 2
@@ -29,19 +25,31 @@
       },
       {
         "date": "2026-05-14",
+        "count": 2
+      },
+      {
+        "date": "2026-05-15",
         "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 34
+    "other": 19
   },
   "recentCommits": [
+    {
+      "date": "2026-05-14",
+      "message": "news: 2026-05-14 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-05-14",
+      "message": "朝刊: 2026-05-13 Morning Edition生成"
+    },
     {
       "date": "2026-05-13",
       "message": "news: 2026-05-13 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-05-12",
       "message": "scrap: note3件アーカイブ + ideas更新 (2026-05-12)"
-    },
-    {
-      "date": "2026-05-12",
-      "message": "dashboard: Claude使用量更新 (2026-05-12)"
-    },
-    {
-      "date": "2026-05-12",
-      "message": "news: 2026-05-12 記事まとめを自動生成"
     }
   ]
 }
