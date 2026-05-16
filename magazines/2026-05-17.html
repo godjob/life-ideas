@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Edition — 2026-05-17</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+header {
+  background: #fff;
+  border-bottom: 3px solid #1a1a1a;
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+header .masthead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #1a1a1a;
+}
+header .edition-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.hn-section { margin-bottom: 4rem; }
+.story-card {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.story-title-ja {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.story-title-en {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.story-meta {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.story-meta span::before { margin-right: 0.2em; }
+.story-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.read-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.daily-section { margin-bottom: 4rem; }
+.daily-card {
+  padding: 1.75rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.daily-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.daily-card ul { padding-left: 1.25rem; }
+.daily-card li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.3rem; }
+.daily-card p { font-size: 0.9rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .story-title-ja { font-size: 1.3rem; }
+  .card-hero, .card-midnight, .card-rose, .card-terminal,
+  .card-academic, .card-bigstat, .card-teal, .card-amber,
+  .card-slate, .card-pastel { padding: 1.5rem; }
+}
+
+.card-hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.card-hero .story-num {
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  line-height: 1;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+}
+.card-hero .story-title-ja { color: #fff; }
+.card-hero .story-title-en { color: rgba(255,255,255,0.65); }
+.card-hero .story-meta { color: rgba(255,255,255,0.75); }
+.card-hero .story-summary { color: rgba(255,255,255,0.9); }
+.card-hero .read-btn { background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+.card-hero .read-btn:hover { background: rgba(255,255,255,0.35); }
+
+
+.card-midnight {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+.card-midnight .story-num { color: #39d353; }
+.card-midnight .story-title-ja { color: #e6edf3; }
+.card-midnight .story-title-en { color: #8b949e; }
+.card-midnight .story-meta { color: #8b949e; }
+.card-midnight .story-summary { color: #c9d1d9; }
+.card-midnight .read-btn { background: #39d353; color: #0d1117; border: none; font-weight: 700; }
+.card-midnight .read-btn:hover { background: #56e56a; }
+
+
+.card-rose {
+  background: #fff0f3;
+  color: #1a0a0d;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-rose::after {
+  content: "!";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e11d48;
+  opacity: 0.2;
+  font-family: 'Fraunces', serif;
+}
+.card-rose .story-num { color: #e11d48; }
+.card-rose .story-title-ja { color: #881337; }
+.card-rose .story-title-en { color: #9f1239; opacity: 0.7; }
+.card-rose .story-meta { color: #9f1239; }
+.card-rose .story-summary { color: #3f0a16; }
+.card-rose .read-btn { background: #e11d48; color: #fff; border: none; }
+.card-rose .read-btn:hover { background: #be123c; }
+
+
+.card-terminal {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-terminal .story-num { color: #569cd6; font-family: monospace; }
+.card-terminal .story-title-ja { color: #9cdcfe; font-family: monospace; }
+.card-terminal .story-title-ja::before { content: "> "; color: #4ec9b0; }
+.card-terminal .story-title-en { color: #808080; font-family: monospace; }
+.card-terminal .story-meta { color: #6a9955; font-family: monospace; }
+.card-terminal .story-summary { color: #ce9178; font-family: monospace; }
+.card-terminal .read-btn { background: #252526; color: #4ec9b0; border: 1px solid #4ec9b0; font-family: monospace; }
+.card-terminal .read-btn:hover { background: #4ec9b0; color: #1e1e1e; }
+
+
+.card-academic {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 4px;
+  border-top: 4px solid #7b2d3c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-academic .story-num { color: #7b2d3c; font-family: 'Fraunces', serif; }
+.card-academic .story-title-ja { color: #1a1a1a; }
+.card-academic .story-title-ja::first-letter {
+  font-size: 2.5em;
+  float: left;
+  margin: 0 0.05em 0 0;
+  line-height: 0.85;
+  color: #7b2d3c;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.card-academic .story-title-en { color: #5a5a5a; }
+.card-academic .story-meta { color: #7b2d3c; }
+.card-academic .story-summary { color: #333; line-height: 1.8; }
+.card-academic .read-btn { background: #7b2d3c; color: #fff; border: none; }
+.card-academic .read-btn:hover { background: #5e2230; }
+
+
+.card-bigstat {
+  background: #fafaf9;
+  color: #1c1917;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e7e5e4;
+}
+.card-bigstat .bg-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: 900;
+  color: #f5f5f4;
+  font-family: 'Fraunces', serif;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-bigstat > *:not(.bg-score) { position: relative; z-index: 1; }
+.card-bigstat .story-num { color: #78716c; }
+.card-bigstat .story-title-ja { color: #1c1917; }
+.card-bigstat .story-title-en { color: #78716c; }
+.card-bigstat .story-meta { color: #a8a29e; }
+.card-bigstat .story-summary { color: #44403c; }
+.card-bigstat .read-btn { background: #1c1917; color: #fafaf9; border: none; }
+.card-bigstat .read-btn:hover { background: #44403c; }
+
+
+.card-teal {
+  background: #e6f4f1;
+  color: #134e4a;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 5px solid #0d9488;
+}
+.card-teal .story-num { color: #0d9488; }
+.card-teal .story-title-ja { color: #134e4a; }
+.card-teal .story-title-en { color: #2d6a65; opacity: 0.8; }
+.card-teal .story-meta { color: #0f766e; }
+.card-teal .story-summary { color: #1f5c58; }
+.card-teal .read-btn { background: #0d9488; color: #fff; border: none; }
+.card-teal .read-btn:hover { background: #0f766e; }
+
+
+.card-amber {
+  background: #fffbeb;
+  color: #1c1410;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid #f59e0b;
+}
+.card-amber .story-num { color: #d97706; }
+.card-amber .story-title-ja { color: #1c1410; }
+.card-amber .story-title-en { color: #92400e; opacity: 0.75; }
+.card-amber .story-meta { color: #b45309; }
+.card-amber .story-summary { color: #44300f; }
+.card-amber .read-btn { background: #f59e0b; color: #1c1410; border: none; font-weight: 600; }
+.card-amber .read-btn:hover { background: #d97706; color: #fff; }
+
+
+.card-slate {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #facc15;
+}
+.card-slate .story-num { color: #facc15; }
+.card-slate .story-title-ja { color: #f1f5f9; }
+.card-slate .story-title-en { color: #94a3b8; }
+.card-slate .story-meta { color: #64748b; }
+.card-slate .story-summary { color: #cbd5e1; }
+.card-slate .read-btn { background: #facc15; color: #1e293b; border: none; font-weight: 700; }
+.card-slate .read-btn:hover { background: #eab308; }
+
+
+.card-pastel {
+  background: #f8f4ff;
+  color: #1e0a3c;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #ddd6fe;
+}
+.card-pastel .story-num { color: #7c3aed; }
+.card-pastel .story-title-ja { color: #1e0a3c; }
+.card-pastel .story-title-en { color: #5b21b6; opacity: 0.7; }
+.card-pastel .story-meta { color: #6d28d9; }
+.card-pastel .story-summary { color: #2e1065; }
+.card-pastel .read-btn { background: #7c3aed; color: #fff; border: none; }
+.card-pastel .read-btn:hover { background: #6d28d9; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="masthead">Morning Edition</div>
+      <div class="edition-date">2026年5月17日 &nbsp;·&nbsp; Hacker News Daily Digest</div>
+    </div>
+  </header>
+
+  <section class="hn-section">
+    <div class="container">
+      <h2 class="section-heading">Hacker News — 本日のピック</h2>
+      
+  <div class="story-card card-hero">
+    
+    <span class="story-num">01</span>
+    <div class="story-title-ja">今、AI精神病にかかっている企業が丸ごと存在すると私は信じている</div>
+    <div class="story-title-en">I believe there are entire companies right now under AI psychosis</div>
+    <div class="story-meta">
+      <span>▲ 1825</span>
+      <span>💬 1024</span>
+      <span>by reasonableklout</span>
+    </div>
+    <div class="story-summary">このツイートは、AI技術への過度な期待や誤解によって、企業全体が非合理的な判断を下している状況を「AI精神病」と表現し、その危険性について警鐘を鳴らしています。AIブームの中で冷静な視点を持つことの重要性を訴えている内容と推測されます。</div>
+    <a class="read-btn" href="https://twitter.com/mitchellh/status/2055380239711457578" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48153379" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-midnight">
+    
+    <span class="story-num">02</span>
+    <div class="story-title-ja">プロジェクト・グーテンベルク – 常に進化し続けている</div>
+    <div class="story-title-en">Project Gutenberg – keeps getting better</div>
+    <div class="story-meta">
+      <span>▲ 1136</span>
+      <span>💬 269</span>
+      <span>by JSeiko</span>
+    </div>
+    <div class="story-summary">プロジェクト・グーテンベルクは、著作権が切れた書籍をデジタル化し、無料で公開している電子図書館プロジェクトです。この記事は、そのプロジェクトが継続的に改善され、より良いサービスを提供し続けていることを示唆しており、その活動の進捗や成果について触れていると推測されます。</div>
+    <a class="read-btn" href="https://www.gutenberg.org/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48150431" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-rose">
+    
+    <span class="story-num">03</span>
+    <div class="story-title-ja">パブリッシャーがオンラインゲームを終了させるのを阻止する法案がカリフォルニアで前進</div>
+    <div class="story-title-en">Bill to block publishers from killing online games advances in California</div>
+    <div class="story-meta">
+      <span>▲ 562</span>
+      <span>💬 389</span>
+      <span>by Lihh27</span>
+    </div>
+    <div class="story-summary">カリフォルニア州で、オンラインゲームのパブリッシャーがサービスを終了する際に、プレイヤーがゲームをプレイし続けられるようにするための法案が進展しているというニュースです。これにより、購入したゲームが突然プレイできなくなる事態を防ぎ、消費者の権利を保護しようとする動きが背景にあると考えられます。</div>
+    <a class="read-btn" href="https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48152994" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-terminal">
+    
+    <span class="story-num">04</span>
+    <div class="story-title-ja">BunのRustによる書き換え：「コードベースが基本的なmiriチェックに失敗し、安全なRustで未定義動作を許容する」</div>
+    <div class="story-title-en">Bun Rust rewrite: "codebase fails basic miri checks, allows for UB in safe rust"</div>
+    <div class="story-meta">
+      <span>▲ 461</span>
+      <span>💬 331</span>
+      <span>by ndiddy</span>
+    </div>
+    <div class="story-summary">JavaScriptランタイム「Bun」のRustによる書き換え版において、メモリ安全性ツール「miri」の基本的なチェックに失敗し、安全なRustコード内で未定義動作（UB）が発生する可能性があるという問題報告です。これは、Rustの主要な利点であるメモリ安全性が損なわれる可能性を示唆しており、深刻なバグとして議論されていると推測されます。</div>
+    <a class="read-btn" href="https://github.com/oven-sh/bun/issues/30719" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48150900" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-academic">
+    
+    <span class="story-num">05</span>
+    <div class="story-title-ja">Pixel 10向けのゼロクリックエクスプロイトチェーン</div>
+    <div class="story-title-en">A 0-click exploit chain for the Pixel 10</div>
+    <div class="story-meta">
+      <span>▲ 428</span>
+      <span>💬 226</span>
+      <span>by happyhardcore</span>
+    </div>
+    <div class="story-summary">Googleのセキュリティ研究チームProject Zeroが、Pixel 10スマートフォンに対するゼロクリックエクスプロイトチェーンを発見したという報告です。これは、ユーザーが何も操作することなくデバイスが侵害される可能性のある、非常に危険な脆弱性であり、詳細な技術的分析と対策について解説されていると予想されます。</div>
+    <a class="read-btn" href="https://projectzero.google/2026/05/pixel-10-exploit.html" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48148460" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-bigstat">
+    <div class="bg-score">375</div>
+    <span class="story-num">06</span>
+    <div class="story-title-ja">Tailwindからの脱却と、CSSの構造化の学習</div>
+    <div class="story-title-en">Moving away from Tailwind, and learning to structure my CSS</div>
+    <div class="story-meta">
+      <span>▲ 375</span>
+      <span>💬 242</span>
+      <span>by mpweiher</span>
+    </div>
+    <div class="story-summary">このブログ記事は、CSSフレームワークであるTailwind CSSの使用をやめ、より構造化された方法で自身のCSSを記述することに焦点を当てた内容です。Tailwindの利便性と引き換えに失われがちなCSSの基本的な構造化スキルや、長期的なメンテナンス性について考察していると考えられます。</div>
+    <a class="read-btn" href="https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48158400" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-teal">
+    
+    <span class="story-num">07</span>
+    <div class="story-title-ja">最先端AIがオープンCTF形式を破壊した</div>
+    <div class="story-title-en">Frontier AI has broken the open CTF format</div>
+    <div class="story-meta">
+      <span>▲ 321</span>
+      <span>💬 289</span>
+      <span>by frays</span>
+    </div>
+    <div class="story-summary">このブログ記事は、最先端のAI技術の進化が、Capture The Flag（CTF）というセキュリティ競技のオープンな形式に大きな影響を与え、従来のCTFが機能しなくなっていると主張しています。AIが自動的に脆弱性を発見・悪用できるようになり、人間の参加者が太刀打ちできなくなることで、競技としてのCTFのあり方が問われていると推測されます。</div>
+    <a class="read-btn" href="https://kabir.au/blog/the-ctf-scene-is-dead" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48157559" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-amber">
+    
+    <span class="story-num">08</span>
+    <div class="story-title-ja">DeepSeek-V4-FlashがLLMのステアリングを再び面白くする</div>
+    <div class="story-title-en">DeepSeek-V4-Flash means LLM steering is interesting again</div>
+    <div class="story-meta">
+      <span>▲ 188</span>
+      <span>💬 65</span>
+      <span>by Brajeshwar</span>
+    </div>
+    <div class="story-summary">DeepSeek-V4-Flashという新しい大規模言語モデル（LLM）の登場により、LLMの「ステアリング」（モデルの振る舞いや出力を特定の方向に誘導する技術）が再び注目を集めているという内容です。このモデルが、より効果的または新しい方法でステアリングを可能にする特性を持っている可能性があり、LLMの制御技術に関する新たな進展について議論されていると推測されます。</div>
+    <a class="read-btn" href="https://www.seangoedecke.com/steering-vectors/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48160807" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-slate">
+    
+    <span class="story-num">09</span>
+    <div class="story-title-ja">Zulip財団</div>
+    <div class="story-title-en">The Zulip Foundation</div>
+    <div class="story-meta">
+      <span>▲ 295</span>
+      <span>💬 78</span>
+      <span>by boramalper</span>
+    </div>
+    <div class="story-summary">このブログ記事は、オープンソースのグループチャットツールであるZulipが「Zulip財団」を設立したことを発表するものです。財団の設立は、プロジェクトの持続可能性、コミュニティの成長、そしてオープンソースとしてのミッションを強化することを目的としていると考えられます。</div>
+    <a class="read-btn" href="https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48152168" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-pastel">
+    
+    <span class="story-num">10</span>
+    <div class="story-title-ja">P2Pメスの主な特徴は、その量が非常に多いことである（2021年）</div>
+    <div class="story-title-en">The main thing about P2P meth is that there's so much of it (2021)</div>
+    <div class="story-meta">
+      <span>▲ 183</span>
+      <span>💬 220</span>
+      <span>by tomjakubowski</span>
+    </div>
+    <div class="story-summary">この記事は、P2P（個人間取引）で流通するメタンフェタミン（メス）の供給量が非常に多いという現象に焦点を当てています。2021年の記事であることから、当時の薬物市場におけるP2P取引の動向や、その供給過多が社会に与える影響について分析していると推測されます。</div>
+    <a class="read-btn" href="https://dynomight.net/p2p-meth/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48155324" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
