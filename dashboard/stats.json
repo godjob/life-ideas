@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-20T02:34:20+09:00",
+  "generatedAt": "2026-05-20T19:34:10+09:00",
   "weekly": {
-    "commitCount": 12,
+    "commitCount": 19,
     "byDay": [
       {
         "date": "2026-05-14",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-05-20",
-        "count": 0
+        "count": 7
       }
     ]
   },
   "byDirectory": {
-    "scrap": 1,
+    "scrap": 2,
     "ideas": 0,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 19
+    "other": 24
   },
   "recentCommits": [
     {
-      "date": "2026-05-19",
-      "message": "news: 2026-05-19 記事まとめを自動生成"
+      "date": "2026-05-20",
+      "message": "scrap: YouTube動画4件をアーカイブ — AI/半導体/ClaudeCode/GoogleIO"
     },
     {
-      "date": "2026-05-19",
-      "message": "朝刊: 2026-05-18 Morning Edition生成"
+      "date": "2026-05-20",
+      "message": "dashboard: Claude使用量更新 (2026-05-20)"
     },
     {
-      "date": "2026-05-18",
-      "message": "news: 2026-05-18 記事まとめを自動生成"
+      "date": "2026-05-20",
+      "message": "dashboard: Claude使用量更新 (2026-05-20)"
     },
     {
-      "date": "2026-05-18",
-      "message": "朝刊: 2026-05-17 Morning Edition生成"
+      "date": "2026-05-20",
+      "message": "dashboard: Claude使用量更新 (2026-05-20)"
     },
     {
-      "date": "2026-05-17",
-      "message": "news: 2026-05-17 記事まとめを自動生成"
+      "date": "2026-05-20",
+      "message": "dashboard: Claude使用量更新 (2026-05-20)"
     }
   ]
 }
