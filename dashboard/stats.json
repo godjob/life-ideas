@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-20T19:34:10+09:00",
+  "generatedAt": "2026-05-20T20:11:28+09:00",
   "weekly": {
-    "commitCount": 19,
+    "commitCount": 22,
     "byDay": [
       {
         "date": "2026-05-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-05-20",
-        "count": 7
+        "count": 10
       }
     ]
   },
@@ -37,26 +37,26 @@
     "scrap": 2,
     "ideas": 0,
     "health": 0,
-    "books": 0,
+    "books": 1,
     "portfolio": 0,
-    "other": 24
+    "other": 26
   },
   "recentCommits": [
     {
       "date": "2026-05-20",
+      "message": "読書記録: 2件追加・更新（勝間式金持ち読書法・コンテキストリーダーシップ）"
+    },
+    {
+      "date": "2026-05-20",
+      "message": "dashboard: Claude使用量更新 (2026-05-20)"
+    },
+    {
+      "date": "2026-05-20",
+      "message": "dashboard: Claude使用量更新 (2026-05-20)"
+    },
+    {
+      "date": "2026-05-20",
       "message": "scrap: YouTube動画4件をアーカイブ — AI/半導体/ClaudeCode/GoogleIO"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "dashboard: Claude使用量更新 (2026-05-20)"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "dashboard: Claude使用量更新 (2026-05-20)"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "dashboard: Claude使用量更新 (2026-05-20)"
     },
     {
       "date": "2026-05-20",
