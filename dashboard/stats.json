@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-05-20T20:11:28+09:00",
+  "generatedAt": "2026-05-21T02:50:01+09:00",
   "weekly": {
-    "commitCount": 22,
+    "commitCount": 21,
     "byDay": [
-      {
-        "date": "2026-05-14",
-        "count": 2
-      },
       {
         "date": "2026-05-15",
         "count": 2
@@ -29,7 +25,11 @@
       },
       {
         "date": "2026-05-20",
-        "count": 10
+        "count": 11
+      },
+      {
+        "date": "2026-05-21",
+        "count": 0
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 26
+    "other": 27
   },
   "recentCommits": [
+    {
+      "date": "2026-05-20",
+      "message": "fix: import_kindle.py headless自動判定（macOS常にheadless=False、Docker無DISPLAYでTrue）"
+    },
     {
       "date": "2026-05-20",
       "message": "読書記録: 2件追加・更新（勝間式金持ち読書法・コンテキストリーダーシップ）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-05-20",
       "message": "scrap: YouTube動画4件をアーカイブ — AI/半導体/ClaudeCode/GoogleIO"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "dashboard: Claude使用量更新 (2026-05-20)"
     }
   ]
 }
