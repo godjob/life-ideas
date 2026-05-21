@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-05-21T02:50:01+09:00",
+  "generatedAt": "2026-05-22T02:26:57+09:00",
   "weekly": {
     "commitCount": 21,
     "byDay": [
-      {
-        "date": "2026-05-15",
-        "count": 2
-      },
       {
         "date": "2026-05-16",
         "count": 2
@@ -29,19 +25,31 @@
       },
       {
         "date": "2026-05-21",
+        "count": 2
+      },
+      {
+        "date": "2026-05-22",
         "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 27
+    "other": 26
   },
   "recentCommits": [
+    {
+      "date": "2026-05-21",
+      "message": "news: 2026-05-21 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-05-21",
+      "message": "朝刊: 2026-05-20 Morning Edition生成"
+    },
     {
       "date": "2026-05-20",
       "message": "fix: import_kindle.py headless自動判定（macOS常にheadless=False、Docker無DISPLAYでTrue）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-05-20",
       "message": "dashboard: Claude使用量更新 (2026-05-20)"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "dashboard: Claude使用量更新 (2026-05-20)"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "scrap: YouTube動画4件をアーカイブ — AI/半導体/ClaudeCode/GoogleIO"
     }
   ]
 }
