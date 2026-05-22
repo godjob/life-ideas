@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-05-22T02:26:57+09:00",
+  "generatedAt": "2026-05-23T02:02:58+09:00",
   "weekly": {
     "commitCount": 21,
     "byDay": [
-      {
-        "date": "2026-05-16",
-        "count": 2
-      },
       {
         "date": "2026-05-17",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-05-22",
+        "count": 2
+      },
+      {
+        "date": "2026-05-23",
         "count": 0
       }
     ]
@@ -43,6 +43,14 @@
   },
   "recentCommits": [
     {
+      "date": "2026-05-22",
+      "message": "news: 2026-05-22 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-05-22",
+      "message": "朝刊: 2026-05-21 Morning Edition生成"
+    },
+    {
       "date": "2026-05-21",
       "message": "news: 2026-05-21 記事まとめを自動生成"
     },
@@ -53,14 +61,6 @@
     {
       "date": "2026-05-20",
       "message": "fix: import_kindle.py headless自動判定（macOS常にheadless=False、Docker無DISPLAYでTrue）"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "読書記録: 2件追加・更新（勝間式金持ち読書法・コンテキストリーダーシップ）"
-    },
-    {
-      "date": "2026-05-20",
-      "message": "dashboard: Claude使用量更新 (2026-05-20)"
     }
   ]
 }
