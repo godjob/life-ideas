@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-31T00:59:31+09:00",
+  "generatedAt": "2026-05-31T21:43:23+09:00",
   "weekly": {
-    "commitCount": 12,
+    "commitCount": 17,
     "byDay": [
       {
         "date": "2026-05-25",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-05-31",
-        "count": 0
+        "count": 5
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 18
+    "other": 21
   },
   "recentCommits": [
     {
-      "date": "2026-05-30",
-      "message": "news: 2026-05-30 記事まとめを自動生成"
+      "date": "2026-05-31",
+      "message": "dashboard: Claude使用量更新 (2026-05-31)"
     },
     {
-      "date": "2026-05-30",
-      "message": "朝刊: 2026-05-29 Morning Edition生成"
+      "date": "2026-05-31",
+      "message": "dashboard: Claude使用量更新 (2026-05-31)"
     },
     {
-      "date": "2026-05-29",
-      "message": "news: 2026-05-29 記事まとめを自動生成"
+      "date": "2026-05-31",
+      "message": "dashboard: Claude使用量更新 (2026-05-31)"
     },
     {
-      "date": "2026-05-29",
-      "message": "朝刊: 2026-05-28 Morning Edition生成"
+      "date": "2026-05-31",
+      "message": "news: 2026-05-31 記事まとめを自動生成"
     },
     {
-      "date": "2026-05-28",
-      "message": "news: 2026-05-28 記事まとめを自動生成"
+      "date": "2026-05-31",
+      "message": "朝刊: 2026-05-30 Morning Edition生成"
     }
   ]
 }
