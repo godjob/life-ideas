@@ -127,6 +127,9 @@
 | 26/03/10 | - | AI, ClaudeCode, Productivity, Management, YouTube | [Claude Codeで「仮想会社」を構築・経営する方法](https://www.youtube.com/watch?v=cfoE_8Llde0) | AI社員を各部署に配置した組織としてClaude Codeを活用、CEO視点で秘書・PM・リサーチ・マーケを自動化 |
 | 26/03/10 | - | AI, ClaudeCode, Development, Tools | [Code Review for Claude Code](https://claude.com/blog/code-review) | PRごとにマルチエージェントが深いコードレビューを実施、速さより深さを重視するAnthropicの新機能 |
 | 26/04/15 | - | YouTube, Productivity, Business, Learning | [累計200億再生を「狙って」作った男：関ミナティ氏の動画哲学](https://www.youtube.com/watch?v=2G1vmemQ1P8) | 内なるワクワクを起点に世界的トレンドを設計した関ミナティ氏の哲学。「心で決め、頭は候補を出すだけ」の意思決定と、クリエイターを巻き込む仕組みで広告費50億円相当の効果を生み出す |
+| 26/05/31 | - | AI, LLM, Business, YouTube | [AIはAIに管理させる？天才のAIエージェント活用法│自動で選別＆動画作成](https://www.youtube.com/watch?v=H0JfyY-MYFA) | 清水亮×深津貴之がAIエージェントがエージェントを監視・管理する組織設計と自動化戦略を解説 |
+| 26/05/31 | - | AI, Business, YouTube, LLM | [【禁断の本音Q&A】日本のAI出資は桁が1つ足りない!? AIバブルの崩壊はいつ？](https://www.youtube.com/watch?v=87IpjA5BoZQ) | 清水亮×深津貴之のオフレコトーク。日本のAI投資の規模感の問題とバブル崩壊タイミングを分析 |
+| 26/05/31 | - | Business, Development, Learning, YouTube | [【宇宙で次に伸びる分野は？】JAXA宇宙戦略基金・1兆円の政府支援](https://www.youtube.com/watch?v=Pcrj8LTWB54) | JAXA宇宙戦略基金と民間ロケット・生命維持技術の最前線。宙畑編集長が宇宙ビジネスの展望を解説 |
 | 26/05/20 | - | AI, LLM, Business, YouTube | [「日本は情けない！」米中AIスタートアップ最新事情│AI時代の行く末はユートピアか？ディストピアか？](https://www.youtube.com/watch?v=D_M--6UTdHM) | 中島聡×梶谷健人が語る米中AI競争・日本の遅れ・AIへの過度依存リスクとセキュリティ脅威 |
 | 26/05/20 | - | AI, Business, YouTube, LLM | [「純利益48倍」キオクシア驚異の決算│AIエージェントがメモリを爆食いする](https://www.youtube.com/watch?v=7ebphej0Vk0) | AIエージェント普及でNANDフラッシュ需要急増・NVIDIA一強時代の終わりとCPU再評価を解説 |
 | 26/05/20 | - | AI, ClaudeCode, Development, YouTube | [Code with Claude London 2026: Opening Keynote](https://www.youtube.com/watch?v=6amLO7I9xdg) | Anthropicイベントのキーノート。Claude Managed AgentsのSelf-hosted SandboxesとMCP Tunnelsをデモ |
