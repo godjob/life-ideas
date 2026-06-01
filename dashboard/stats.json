@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-06-01T01:00:23+09:00",
+  "generatedAt": "2026-06-02T04:52:30+09:00",
   "weekly": {
     "commitCount": 18,
     "byDay": [
-      {
-        "date": "2026-05-26",
-        "count": 2
-      },
       {
         "date": "2026-05-27",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-06-01",
+        "count": 2
+      },
+      {
+        "date": "2026-06-02",
         "count": 0
       }
     ]
@@ -43,16 +43,16 @@
   },
   "recentCommits": [
     {
+      "date": "2026-06-01",
+      "message": "news: 2026-06-01 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-06-01",
+      "message": "朝刊: 2026-05-31 Morning Edition生成"
+    },
+    {
       "date": "2026-05-31",
       "message": "scrap: YouTube動画3件・コロナ後遺症嗅覚回復メモをアーカイブ"
-    },
-    {
-      "date": "2026-05-31",
-      "message": "dashboard: Claude使用量更新 (2026-05-31)"
-    },
-    {
-      "date": "2026-05-31",
-      "message": "dashboard: Claude使用量更新 (2026-05-31)"
     },
     {
       "date": "2026-05-31",
