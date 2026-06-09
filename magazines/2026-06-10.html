@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Edition — 2026-06-10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+header {
+  background: #fff;
+  border-bottom: 3px solid #1a1a1a;
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+header .masthead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #1a1a1a;
+}
+header .edition-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.hn-section { margin-bottom: 4rem; }
+.story-card {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.story-title-ja {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.story-title-en {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.story-meta {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.story-meta span::before { margin-right: 0.2em; }
+.story-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.read-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.daily-section { margin-bottom: 4rem; }
+.daily-card {
+  padding: 1.75rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.daily-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.daily-card ul { padding-left: 1.25rem; }
+.daily-card li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.3rem; }
+.daily-card p { font-size: 0.9rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .story-title-ja { font-size: 1.3rem; }
+  .card-hero, .card-midnight, .card-rose, .card-terminal,
+  .card-academic, .card-bigstat, .card-teal, .card-amber,
+  .card-slate, .card-pastel { padding: 1.5rem; }
+}
+
+.card-hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.card-hero .story-num {
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  line-height: 1;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+}
+.card-hero .story-title-ja { color: #fff; }
+.card-hero .story-title-en { color: rgba(255,255,255,0.65); }
+.card-hero .story-meta { color: rgba(255,255,255,0.75); }
+.card-hero .story-summary { color: rgba(255,255,255,0.9); }
+.card-hero .read-btn { background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+.card-hero .read-btn:hover { background: rgba(255,255,255,0.35); }
+
+
+.card-midnight {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+.card-midnight .story-num { color: #39d353; }
+.card-midnight .story-title-ja { color: #e6edf3; }
+.card-midnight .story-title-en { color: #8b949e; }
+.card-midnight .story-meta { color: #8b949e; }
+.card-midnight .story-summary { color: #c9d1d9; }
+.card-midnight .read-btn { background: #39d353; color: #0d1117; border: none; font-weight: 700; }
+.card-midnight .read-btn:hover { background: #56e56a; }
+
+
+.card-rose {
+  background: #fff0f3;
+  color: #1a0a0d;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-rose::after {
+  content: "!";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e11d48;
+  opacity: 0.2;
+  font-family: 'Fraunces', serif;
+}
+.card-rose .story-num { color: #e11d48; }
+.card-rose .story-title-ja { color: #881337; }
+.card-rose .story-title-en { color: #9f1239; opacity: 0.7; }
+.card-rose .story-meta { color: #9f1239; }
+.card-rose .story-summary { color: #3f0a16; }
+.card-rose .read-btn { background: #e11d48; color: #fff; border: none; }
+.card-rose .read-btn:hover { background: #be123c; }
+
+
+.card-terminal {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-terminal .story-num { color: #569cd6; font-family: monospace; }
+.card-terminal .story-title-ja { color: #9cdcfe; font-family: monospace; }
+.card-terminal .story-title-ja::before { content: "> "; color: #4ec9b0; }
+.card-terminal .story-title-en { color: #808080; font-family: monospace; }
+.card-terminal .story-meta { color: #6a9955; font-family: monospace; }
+.card-terminal .story-summary { color: #ce9178; font-family: monospace; }
+.card-terminal .read-btn { background: #252526; color: #4ec9b0; border: 1px solid #4ec9b0; font-family: monospace; }
+.card-terminal .read-btn:hover { background: #4ec9b0; color: #1e1e1e; }
+
+
+.card-academic {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 4px;
+  border-top: 4px solid #7b2d3c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-academic .story-num { color: #7b2d3c; font-family: 'Fraunces', serif; }
+.card-academic .story-title-ja { color: #1a1a1a; }
+.card-academic .story-title-ja::first-letter {
+  font-size: 2.5em;
+  float: left;
+  margin: 0 0.05em 0 0;
+  line-height: 0.85;
+  color: #7b2d3c;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.card-academic .story-title-en { color: #5a5a5a; }
+.card-academic .story-meta { color: #7b2d3c; }
+.card-academic .story-summary { color: #333; line-height: 1.8; }
+.card-academic .read-btn { background: #7b2d3c; color: #fff; border: none; }
+.card-academic .read-btn:hover { background: #5e2230; }
+
+
+.card-bigstat {
+  background: #fafaf9;
+  color: #1c1917;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e7e5e4;
+}
+.card-bigstat .bg-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: 900;
+  color: #f5f5f4;
+  font-family: 'Fraunces', serif;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-bigstat > *:not(.bg-score) { position: relative; z-index: 1; }
+.card-bigstat .story-num { color: #78716c; }
+.card-bigstat .story-title-ja { color: #1c1917; }
+.card-bigstat .story-title-en { color: #78716c; }
+.card-bigstat .story-meta { color: #a8a29e; }
+.card-bigstat .story-summary { color: #44403c; }
+.card-bigstat .read-btn { background: #1c1917; color: #fafaf9; border: none; }
+.card-bigstat .read-btn:hover { background: #44403c; }
+
+
+.card-teal {
+  background: #e6f4f1;
+  color: #134e4a;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 5px solid #0d9488;
+}
+.card-teal .story-num { color: #0d9488; }
+.card-teal .story-title-ja { color: #134e4a; }
+.card-teal .story-title-en { color: #2d6a65; opacity: 0.8; }
+.card-teal .story-meta { color: #0f766e; }
+.card-teal .story-summary { color: #1f5c58; }
+.card-teal .read-btn { background: #0d9488; color: #fff; border: none; }
+.card-teal .read-btn:hover { background: #0f766e; }
+
+
+.card-amber {
+  background: #fffbeb;
+  color: #1c1410;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid #f59e0b;
+}
+.card-amber .story-num { color: #d97706; }
+.card-amber .story-title-ja { color: #1c1410; }
+.card-amber .story-title-en { color: #92400e; opacity: 0.75; }
+.card-amber .story-meta { color: #b45309; }
+.card-amber .story-summary { color: #44300f; }
+.card-amber .read-btn { background: #f59e0b; color: #1c1410; border: none; font-weight: 600; }
+.card-amber .read-btn:hover { background: #d97706; color: #fff; }
+
+
+.card-slate {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #facc15;
+}
+.card-slate .story-num { color: #facc15; }
+.card-slate .story-title-ja { color: #f1f5f9; }
+.card-slate .story-title-en { color: #94a3b8; }
+.card-slate .story-meta { color: #64748b; }
+.card-slate .story-summary { color: #cbd5e1; }
+.card-slate .read-btn { background: #facc15; color: #1e293b; border: none; font-weight: 700; }
+.card-slate .read-btn:hover { background: #eab308; }
+
+
+.card-pastel {
+  background: #f8f4ff;
+  color: #1e0a3c;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #ddd6fe;
+}
+.card-pastel .story-num { color: #7c3aed; }
+.card-pastel .story-title-ja { color: #1e0a3c; }
+.card-pastel .story-title-en { color: #5b21b6; opacity: 0.7; }
+.card-pastel .story-meta { color: #6d28d9; }
+.card-pastel .story-summary { color: #2e1065; }
+.card-pastel .read-btn { background: #7c3aed; color: #fff; border: none; }
+.card-pastel .read-btn:hover { background: #6d28d9; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="masthead">Morning Edition</div>
+      <div class="edition-date">2026年6月10日 &nbsp;·&nbsp; Hacker News Daily Digest</div>
+    </div>
+  </header>
+
+  <section class="hn-section">
+    <div class="container">
+      <h2 class="section-heading">Hacker News — 本日のピック</h2>
+      
+  <div class="story-card card-hero">
+    
+    <span class="story-num">01</span>
+    <div class="story-title-ja">クロード・フェイブル 5</div>
+    <div class="story-title-en">Claude Fable 5</div>
+    <div class="story-meta">
+      <span>▲ 1593</span>
+      <span>💬 1268</span>
+      <span>by Philpax</span>
+    </div>
+    <div class="story-summary">Anthropicの公式ニュースページから、AIモデル「Claude」の新しいバージョン「Fable 5」に関する発表と詳細が掲載されていると推測されます。このアップデートは、Claudeの機能や性能に関する重要な進展を示すものと考えられます。</div>
+    <a class="read-btn" href="https://www.anthropic.com/news/claude-fable-5-mythos-5" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48463808" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-midnight">
+    
+    <span class="story-num">02</span>
+    <div class="story-title-ja">マイクロソフトのオープンソースツールがハッキングされ、AI開発者のパスワードが盗まれる</div>
+    <div class="story-title-en">Microsoft's open source tools were hacked to steal passwords of AI developers</div>
+    <div class="story-meta">
+      <span>▲ 521</span>
+      <span>💬 176</span>
+      <span>by raffael_de</span>
+    </div>
+    <div class="story-summary">TechCrunchの記事によると、マイクロソフトが提供するオープンソースツールがサイバー攻撃を受け、AI開発者のパスワードが盗まれた重大なセキュリティ侵害が発生したようです。この事件は、AI開発環境におけるセキュリティの脆弱性と、その対策の重要性を浮き彫りにしています。</div>
+    <a class="read-btn" href="https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48457830" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-rose">
+    
+    <span class="story-num">03</span>
+    <div class="story-title-ja">AppleがGoogle Geminiモデルを基盤とした新しいAIアーキテクチャを発表</div>
+    <div class="story-title-en">Apple reveals new AI architecture built around Google Gemini models</div>
+    <div class="story-meta">
+      <span>▲ 707</span>
+      <span>💬 549</span>
+      <span>by unclefuzzy</span>
+    </div>
+    <div class="story-summary">MacRumorsの記事は、AppleがGoogleのGeminiモデルを核とする新しいAIアーキテクチャを発表したことを報じています。これは、Appleが自社のAI戦略において、Googleの先進的なAI技術を統合する方向性を示していることを意味し、今後のApple製品におけるAI機能の進化に大きな影響を与えるでしょう。</div>
+    <a class="read-btn" href="https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48450142" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-terminal">
+    
+    <span class="story-num">04</span>
+    <div class="story-title-ja">1993年のようにグラフィックを作る</div>
+    <div class="story-title-en">Making Graphics Like it's 1993</div>
+    <div class="story-meta">
+      <span>▲ 733</span>
+      <span>💬 121</span>
+      <span>by sklopec</span>
+    </div>
+    <div class="story-summary">このブログ記事は、1993年当時のコンピュータグラフィックスの技術やスタイルを再現することに焦点を当てているようです。レトロな3Dグラフィックの制作プロセスや技術的な挑戦について解説し、過去のコンピューティングの美学を探求する内容と推測されます。</div>
+    <a class="read-btn" href="https://staniks.github.io/articles/catlantean-3d-blog-1/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48459294" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-academic">
+    
+    <span class="story-num">05</span>
+    <div class="story-title-ja">OpenCV 5が登場：コンピュータビジョンにおける数年ぶりの大躍進</div>
+    <div class="story-title-en">OpenCV 5 Is Here: The Biggest Leap in Years for Computer Vision</div>
+    <div class="story-meta">
+      <span>▲ 666</span>
+      <span>💬 118</span>
+      <span>by ternaus</span>
+    </div>
+    <div class="story-summary">OpenCVの公式ページによると、コンピュータビジョンライブラリのメジャーアップデートであるOpenCV 5がリリースされたことを報じています。これは、コンピュータビジョン分野における長年の進化の中で最も大きな飛躍の一つであり、新しい機能や性能向上に関する詳細が提供されていると予想されます。</div>
+    <a class="read-btn" href="https://opencv.org/opencv-5/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48421858" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-bigstat">
+    <div class="bg-score">437</div>
+    <span class="story-num">06</span>
+    <div class="story-title-ja">AIロックスター開発者の後始末</div>
+    <div class="story-title-en">Cleaning up after AI rockstar developers</div>
+    <div class="story-meta">
+      <span>▲ 437</span>
+      <span>💬 319</span>
+      <span>by BrunoBernardino</span>
+    </div>
+    <div class="story-summary">このブログ記事は、「ロックスター開発者」と呼ばれるような、自己中心的で問題を起こしやすいAI開発者の行動とその結果について論じているようです。彼らが残したコードやプロジェクトの「後始末」の必要性、そしてチーム開発における協調性の重要性について考察していると推測されます。</div>
+    <a class="read-btn" href="https://www.codingwithjesse.com/blog/rockstar-developers/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48458586" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-teal">
+    
+    <span class="story-num">07</span>
+    <div class="story-title-ja">AIが従業員を代替すると考えるCEOは単に悪いCEOである</div>
+    <div class="story-title-en">CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs</div>
+    <div class="story-meta">
+      <span>▲ 298</span>
+      <span>💬 125</span>
+      <span>by speckx</span>
+    </div>
+    <div class="story-summary">Techdirtの記事は、AIが従業員を完全に置き換えると考えているCEOの経営姿勢を批判しています。AIを単なるコスト削減ツールとして捉えるのではなく、人間の能力を補完し、生産性を向上させるためのツールとして活用することの重要性を強調していると考えられます。</div>
+    <a class="read-btn" href="https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48465675" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-amber">
+    
+    <span class="story-num">08</span>
+    <div class="story-title-ja">FCCが通信事業者に全顧客のID取得を義務付け、使い捨て携帯電話を廃止しようとしている</div>
+    <div class="story-title-en">FCC wants to kill burner phones by forcing telecoms to get all customers' IDs</div>
+    <div class="story-meta">
+      <span>▲ 395</span>
+      <span>💬 243</span>
+      <span>by berlianta</span>
+    </div>
+    <div class="story-summary">404 Mediaの記事によると、米連邦通信委員会（FCC）が、すべての通信事業者に対し顧客の身元確認を義務付けることで、匿名性の高い「使い捨て携帯電話（バーナーフォン）」の利用を阻止しようとしているようです。これは、プライバシーと法執行のバランスに関する議論を巻き起こす可能性のある規制強化の動きと見られます。</div>
+    <a class="read-btn" href="https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48462308" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-slate">
+    
+    <span class="story-num">09</span>
+    <div class="story-title-ja">GPT-2：公開するには危険すぎる（2019年）</div>
+    <div class="story-title-en">GPT-2: Too Dangerous To Release (2019)</div>
+    <div class="story-meta">
+      <span>▲ 245</span>
+      <span>💬 95</span>
+      <span>by AbuAssar</span>
+    </div>
+    <div class="story-summary">このブログ記事は、2019年にOpenAIがGPT-2モデルの完全版公開を一時的に見送った際の議論を振り返っています。その強力なテキスト生成能力が悪用される可能性から「危険すぎる」と判断された経緯や、AIの倫理的・社会的な影響について考察している内容と推測されます。</div>
+    <a class="read-btn" href="https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48465269" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-pastel">
+    
+    <span class="story-num">10</span>
+    <div class="story-title-ja">Apple、免除申請が却下されEUでのSiri展開を見送り</div>
+    <div class="story-title-en">Apple decided not to roll out Siri in EU after denied request for exemption</div>
+    <div class="story-meta">
+      <span>▲ 334</span>
+      <span>💬 561</span>
+      <span>by flanged</span>
+    </div>
+    <div class="story-summary">ロイターの記事によると、AppleはEUの規制に準拠するための免除申請が却下されたため、EU域内でのSiriの展開を見送ることを決定したようです。これは、EUの厳格なデジタル市場法（DMA）などの規制が、大手テクノロジー企業のサービス展開に大きな影響を与えている現状を示しています。</div>
+    <a class="read-btn" href="https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48463024" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
