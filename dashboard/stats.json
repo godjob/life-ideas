@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-11T18:54:02+09:00",
+  "generatedAt": "2026-06-11T19:08:39+09:00",
   "weekly": {
-    "commitCount": 20,
+    "commitCount": 23,
     "byDay": [
       {
         "date": "2026-06-05",
@@ -29,34 +29,34 @@
       },
       {
         "date": "2026-06-11",
-        "count": 8
+        "count": 11
       }
     ]
   },
   "byDirectory": {
     "scrap": 0,
     "ideas": 0,
-    "health": 1,
+    "health": 2,
     "books": 0,
     "portfolio": 0,
-    "other": 25
+    "other": 27
   },
   "recentCommits": [
     {
       "date": "2026-06-11",
+      "message": "ランニング記録更新: 20件追加（〜2026-05-30）"
+    },
+    {
+      "date": "2026-06-11",
+      "message": "dashboard: Claude使用量更新 (2026-06-11)"
+    },
+    {
+      "date": "2026-06-11",
+      "message": "dashboard: Claude使用量更新 (2026-06-11)"
+    },
+    {
+      "date": "2026-06-11",
       "message": "health: デュタステリド0.5mg服用開始を記録（2026-06-10〜）"
-    },
-    {
-      "date": "2026-06-11",
-      "message": "dashboard: Claude使用量更新 (2026-06-11)"
-    },
-    {
-      "date": "2026-06-11",
-      "message": "dashboard: Claude使用量更新 (2026-06-11)"
-    },
-    {
-      "date": "2026-06-11",
-      "message": "dashboard: Claude使用量更新 (2026-06-11)"
     },
     {
       "date": "2026-06-11",
