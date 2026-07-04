@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-04T12:11:31+09:00",
+  "generatedAt": "2026-07-04T12:14:38+09:00",
   "weekly": {
-    "commitCount": 34,
+    "commitCount": 36,
     "byDay": [
       {
         "date": "2026-06-28",
@@ -29,30 +29,30 @@
       },
       {
         "date": "2026-07-04",
-        "count": 22
+        "count": 24
       }
     ]
   },
   "byDirectory": {
-    "scrap": 0,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 38
+    "other": 39
   },
   "recentCommits": [
     {
       "date": "2026-07-04",
+      "message": "scrap: 2026-07-04 XユーザーのThariqさん 「A Field G・youtube・_tmp_yt_2_youtubeほか1件"
+    },
+    {
+      "date": "2026-07-04",
+      "message": "dashboard: Claude使用量更新 (2026-07-04)"
+    },
+    {
+      "date": "2026-07-04",
       "message": "git books: 自動commit&pushで1コマンド完結に"
-    },
-    {
-      "date": "2026-07-04",
-      "message": "dashboard: Claude使用量更新 (2026-07-04)"
-    },
-    {
-      "date": "2026-07-04",
-      "message": "dashboard: Claude使用量更新 (2026-07-04)"
     },
     {
       "date": "2026-07-04",
