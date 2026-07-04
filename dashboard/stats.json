@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-04T01:19:46+09:00",
+  "generatedAt": "2026-07-04T12:00:22+09:00",
   "weekly": {
-    "commitCount": 12,
+    "commitCount": 27,
     "byDay": [
       {
         "date": "2026-06-28",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-04",
-        "count": 0
+        "count": 15
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 18
+    "other": 32
   },
   "recentCommits": [
     {
-      "date": "2026-07-03",
-      "message": "news: 2026-07-03 記事まとめを自動生成"
+      "date": "2026-07-04",
+      "message": "dashboard: Claude使用量更新 (2026-07-04)"
     },
     {
-      "date": "2026-07-03",
-      "message": "朝刊: 2026-07-02 Morning Edition生成"
+      "date": "2026-07-04",
+      "message": "git books: セッション切れ時に対話ログインへ自動フォールスルー"
     },
     {
-      "date": "2026-07-02",
-      "message": "news: 2026-07-02 記事まとめを自動生成"
+      "date": "2026-07-04",
+      "message": "dashboard: Claude使用量更新 (2026-07-04)"
     },
     {
-      "date": "2026-07-02",
-      "message": "朝刊: 2026-07-01 Morning Edition生成"
+      "date": "2026-07-04",
+      "message": "dashboard: Claude使用量更新 (2026-07-04)"
     },
     {
-      "date": "2026-07-01",
-      "message": "news: 2026-07-01 記事まとめを自動生成"
+      "date": "2026-07-04",
+      "message": "dashboard: Claude使用量更新 (2026-07-04)"
     }
   ]
 }
