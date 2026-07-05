@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-07-05T00:55:34+09:00",
+  "generatedAt": "2026-07-06T01:01:09+09:00",
   "weekly": {
     "commitCount": 35,
     "byDay": [
-      {
-        "date": "2026-06-29",
-        "count": 2
-      },
       {
         "date": "2026-06-30",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-07-05",
+        "count": 2
+      },
+      {
+        "date": "2026-07-06",
         "count": 0
       }
     ]
@@ -43,20 +43,20 @@
   },
   "recentCommits": [
     {
+      "date": "2026-07-05",
+      "message": "news: 2026-07-05 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-07-05",
+      "message": "朝刊: 2026-07-04 Morning Edition生成"
+    },
+    {
       "date": "2026-07-04",
       "message": "news: 2026-07-04 記事まとめを自動生成"
     },
     {
       "date": "2026-07-04",
       "message": "scrap: 2026-07-04 XユーザーのThariqさん 「A Field G・youtube・_tmp_yt_2_youtubeほか1件"
-    },
-    {
-      "date": "2026-07-04",
-      "message": "dashboard: Claude使用量更新 (2026-07-04)"
-    },
-    {
-      "date": "2026-07-04",
-      "message": "git books: 自動commit&pushで1コマンド完結に"
     },
     {
       "date": "2026-07-04",
