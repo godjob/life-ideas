@@ -1,9 +1,9 @@
 {
   "model": "Fable 5",
-  "fiveHourPercent": 73,
+  "fiveHourPercent": 78,
   "fiveHourResetAt": "2026-07-07T00:50:00+09:00",
   "sevenDayPercent": 16,
   "sevenDayResetAt": "2026-07-11T10:00:00+09:00",
   "usagePercent": 16,
-  "updatedAt": "2026-07-06T22:40:43+09:00"
+  "updatedAt": "2026-07-06T23:29:48+09:00"
 }

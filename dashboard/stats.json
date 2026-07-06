@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-06T22:41:36+09:00",
+  "generatedAt": "2026-07-06T23:30:23+09:00",
   "weekly": {
-    "commitCount": 95,
+    "commitCount": 102,
     "byDay": [
       {
         "date": "2026-06-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-06",
-        "count": 57
+        "count": 64
       }
     ]
   },
@@ -37,14 +37,14 @@
     "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 3,
+    "books": 4,
     "portfolio": 0,
-    "other": 95
+    "other": 101
   },
   "recentCommits": [
     {
       "date": "2026-07-06",
-      "message": "読書記録: 破損行103件復元 + メタデータ補完22件 + 検索ロジック強化"
+      "message": "読書記録: 出版社・出版年月28冊を登録（Google検索調査・承認済み）"
     },
     {
       "date": "2026-07-06",
