@@ -6,7 +6,7 @@
 | 出版社 | 幻冬舎 |
 | 出版年月 | 2017-05 |
 | ISBN | 9784344031159 |
- 2018-07-29 |
+| 最終ハイライト日 | 2018-07-29 |
 | ハイライト数 | 7 |
 | 評価 |  |
 | Kindle | [Amazonで開く](https://www.amazon.co.jp/s?k=%E5%A4%9A%E5%8B%95%E5%8A%9B%20%28NewsPicks%20Book%29&i=digital-text) |

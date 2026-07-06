@@ -6,7 +6,7 @@
 | 出版社 | 幻冬舎 |
 | 出版年月 | 2018-07 |
 | ISBN | 9784344033177 |
- 2019-03-15 |
+| 最終ハイライト日 | 2019-03-15 |
 | ハイライト数 | 28 |
 | 評価 |  |
 | Kindle | [Amazonで開く](https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E4%BA%BA%E3%81%AB%E3%81%AA%E3%82%8C%EF%BC%81%E3%80%80%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%A5%B4%E9%9A%B7%E8%A7%A3%E6%94%BE%E5%AE%A3%E8%A8%80%20%28NewsPicks%20Book%29&i=digital-text) |
