@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-06T21:32:51+09:00",
+  "generatedAt": "2026-07-06T22:00:49+09:00",
   "weekly": {
-    "commitCount": 68,
+    "commitCount": 77,
     "byDay": [
       {
         "date": "2026-06-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-06",
-        "count": 30
+        "count": 39
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 70
+    "other": 79
   },
   "recentCommits": [
     {
       "date": "2026-07-06",
-      "message": "wiki・ideasバックフィル: 5月〜7月のgit scrap反映漏れ14件を補完"
+      "message": "scripts: import_kindleの紙の本登録をGemini優先方式に改修"
     },
     {
       "date": "2026-07-06",
