@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-06T01:01:09+09:00",
+  "generatedAt": "2026-07-06T21:32:51+09:00",
   "weekly": {
-    "commitCount": 35,
+    "commitCount": 68,
     "byDay": [
       {
         "date": "2026-06-30",
@@ -21,7 +21,7 @@
       },
       {
         "date": "2026-07-04",
-        "count": 25
+        "count": 28
       },
       {
         "date": "2026-07-05",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-06",
-        "count": 0
+        "count": 30
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 39
+    "other": 70
   },
   "recentCommits": [
     {
-      "date": "2026-07-05",
-      "message": "news: 2026-07-05 記事まとめを自動生成"
+      "date": "2026-07-06",
+      "message": "wiki・ideasバックフィル: 5月〜7月のgit scrap反映漏れ14件を補完"
     },
     {
-      "date": "2026-07-05",
-      "message": "朝刊: 2026-07-04 Morning Edition生成"
+      "date": "2026-07-06",
+      "message": "dashboard: Claude使用量更新 (2026-07-06)"
     },
     {
-      "date": "2026-07-04",
-      "message": "news: 2026-07-04 記事まとめを自動生成"
+      "date": "2026-07-06",
+      "message": "dashboard: Claude使用量更新 (2026-07-06)"
     },
     {
-      "date": "2026-07-04",
-      "message": "scrap: 2026-07-04 XユーザーのThariqさん 「A Field G・youtube・_tmp_yt_2_youtubeほか1件"
+      "date": "2026-07-06",
+      "message": "dashboard: Claude使用量更新 (2026-07-06)"
     },
     {
-      "date": "2026-07-04",
-      "message": "dashboard: Claude使用量更新 (2026-07-04)"
+      "date": "2026-07-06",
+      "message": "dashboard: Claude使用量更新 (2026-07-06)"
     }
   ]
 }
