@@ -1,5 +1,61 @@
 # Wiki 更新ログ
 
+## [2026-07-04] ingest | 生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claude Code × G
+- 更新ページ: [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [非エンジニア部門におけるGitHub導入：情報共有と生産性向上](github-non-engineer-adoption.md), [組織的AI知識資産管理：議事録自動生成とドキュメント整理](organizational-ai-knowledge-asset-management.md)
+- 出典: [生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claud](https://goodpatch.com/blog/2026-06-github)
+
+## [2026-07-04] ingest | XユーザーのThariqさん: 「A Field Guide to Fable: Finding Y
+- 更新ページ: [Claude Fable 5：自律的な思考・設計パートナーとしてのAI開発](claude-fable-5-autonomous-development.md), [AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識](ai-creativity-self-reflection-limitation-human-judgment-necessity.md), [科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見](ai-as-scientific-instrument-verification-loop.md), [AIとの対話における未知の領域特定戦略：マップとテリトリーの概念](ai-unknowns-identification-strategy.md), [AIによる暗黙の前提・未知の課題発見：対話型顕在化プロセス](ai-implicit-assumption-discovery.md)
+- 出典: [XユーザーのThariqさん: 「A Field Guide to Fable:](https://x.com/trq212/status/2073100352921215386)
+
+## [2026-07-04] ingest | 【あなたの努力は“24時間働くAI”に代替される】深津貴之「AIと戦うな“上司”になれ」／無限に働く
+- 更新ページ: [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [AI時代のメタスキル：学び方・情報収集・AI活用能力](meta-skills-ai-era.md), [無限に働く部下としてのAI：活用と管理の原則](ai-as-infinite-subordinate-management.md)
+- 出典: [【あなたの努力は“24時間働くAI”に代替される】深津貴之「AIと戦うな“上司”](https://www.youtube.com/watch?v=SBXNuqWLI9E)
+
+## [2026-07-04] ingest | 【Claudeが自分で爆速開発→「Fable 5」誕生】アンソロピック幹部「寝て起きたらAIが仕事完
+- 更新ページ: [Anthropic Coursesの学習体系と実装](anthropic-courses.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [Claude Mythos：高性能化とサンドボックス脱出リスク、経営判断基準の実装](claude-mythos-capability-risk-management.md), [Claude Fable 5：自律的な思考・設計パートナーとしてのAI開発](claude-fable-5-autonomous-development.md), [AIによる自己開発と開発プロセスの劇的加速](ai-self-improvement-development-acceleration.md)
+- 出典: [【Claudeが自分で爆速開発→「Fable 5」誕生】アンソロピック幹部「寝て](https://www.youtube.com/watch?v=t6Zmu-pBZlE)
+
+## [2026-05-31] ingest | 【禁断の本音Q&A】日本のAI出資は桁が1つ足りない!? AIバブルの崩壊はいつ？ ― 天才プログラ
+- 更新ページ: [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md), [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md), [日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応](ai-investment-scale-japan-vs-global.md)
+- 出典: [【禁断の本音Q&A】日本のAI出資は桁が1つ足りない!? AIバブルの崩壊はいつ](https://www.youtube.com/watch?v=87IpjA5BoZQ)
+
+## [2026-05-31] ingest | 【宇宙で次に伸びる分野は？】JAXA宇宙戦略基金・1兆円の政府支援 ／水再生や空気循環 生命維持のテ
+- 更新ページ: [宇宙経済とビジネスモデル：衛星コンステレーション・通信・地球観測](space-economy-business-model.md), [スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替](spacex-defense-infrastructure-strategy.md), [衛星コンステレーションとインターネットインフラ：Starlinkによる通信革命](satellite-constellation-internet-infrastructure.md), [宇宙生命維持技術：水再生・空気循環の地球応用とビジネスチャンス](space-life-support-technology.md), [JAXA宇宙戦略基金：1兆円政府支援による宇宙ビジネス民間参入加速](jaxa-space-strategy-fund.md)
+- 出典: [【宇宙で次に伸びる分野は？】JAXA宇宙戦略基金・1兆円の政府支援 ／水再生や空](https://www.youtube.com/watch?v=Pcrj8LTWB54)
+
+## [2026-05-31] ingest | AIはAIに管理させる？天才のAIエージェント活用法│自動で選別＆動画作成│エージェントがエージェン
+- 更新ページ: [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md), [AIエージェント組織のガバナンスと人間による選別基準設計](ai-agent-governance-human-criteria.md), [AIコンテンツ生成パイプラインの差別化戦略](ai-content-pipeline-differentiation.md)
+- 出典: [AIはAIに管理させる？天才のAIエージェント活用法│自動で選別＆動画作成│エー](https://www.youtube.com/watch?v=H0JfyY-MYFA)
+
+## [2026-05-20] ingest | 【「純利益48倍」キオクシア驚異の決算】AIエージェントが“メモリ”を爆食いする／2倍の値上げでも売
+- 更新ページ: [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md), [AI Everywhere: デバイスレベルAI統合のロードマップ](ai-everywhere-device-integration.md), [NANDフラッシュメモリ市場：AI需要による高騰と需給変化](nand-flash-memory-market-ai-demand.md), [NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント](nvidia-dominance-shift-cpu-revaluation.md)
+- 出典: [【「純利益48倍」キオクシア驚異の決算】AIエージェントが“メモリ”を爆食いする](https://www.youtube.com/watch?v=7ebphej0Vk0)
+
+## [2026-05-20] ingest | 「日本は情けない！」米中AIスタートアップ最新事情│AI時代の行く末はユートピアか？ディストピアか？
+- 更新ページ: [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md), [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md), [AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感](ai-human-coexistence-risk-management.md), [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md)
+- 出典: [「日本は情けない！」米中AIスタートアップ最新事情│AI時代の行く末はユートピア](https://www.youtube.com/watch?v=D_M--6UTdHM)
+
+## [2026-05-20] ingest | Google I/O '26 Keynote
+- 更新ページ: [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md), [AIマインドセット：人間は思考、AIは実行の役割分担モデル](ai-mindset-human-thought-ai-execution.md), [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [AI Everywhere: デバイスレベルAI統合のロードマップ](ai-everywhere-device-integration.md), [AI First戦略：エンタープライズ領域への深い統合と10年の進化](ai-first-strategy-enterprise-adoption.md)
+- 出典: [Google I/O '26 Keynote](https://www.youtube.com/watch?v=wYSncx9zLIU)
+
+## [2026-05-20] ingest | Code with Claude London 2026: Opening Keynote
+- 更新ページ: [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md), [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保](ai-system-monitoring-cost-visibility-tools.md), [Claude Managed Agents：Self-hosted SandboxesとMCP Tunnels](claude-managed-agents-self-hosted-sandboxes.md)
+- 出典: [Code with Claude London 2026: Opening Ke](https://www.youtube.com/watch?v=6amLO7I9xdg)
+
+## [2026-05-12] ingest | 【管理部編】上場会社のバックオフィス20名が、1ヶ月でClaudeを実装した記録｜グッドパッチ　執行
+- 更新ページ: [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md), [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理](ai-governance-human-oversight-framework.md), [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md)
+- 出典: [【管理部編】上場会社のバックオフィス20名が、1ヶ月でClaudeを実装した記録](https://note.com/19831112/n/n5be18a115b2b)
+
+## [2026-05-12] ingest | AI企業が「受託」を始めた日。エンジニア、PM、デザイナーはどうこの先生きのこるか｜深津 貴之 (f
+- 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md), [FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略](fde-engineer-domain-knowledge-priority-career-design.md), [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md), [AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大](ai-model-provider-vertical-integration.md)
+- 出典: [AI企業が「受託」を始めた日。エンジニア、PM、デザイナーはどうこの先生きのこる](https://note.com/fladdict/n/nd42977e5443e)
+
+## [2026-05-12] ingest | 【宇宙ビジネス最前線】ロケット打ち上げは300回超の時代／急増する衛星／SpaceXが変えた宇宙輸送
+- 更新ページ: [スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替](spacex-defense-infrastructure-strategy.md), [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md), [宇宙経済とビジネスモデル：衛星コンステレーション・通信・地球観測](space-economy-business-model.md), [衛星コンステレーションとインターネットインフラ：Starlinkによる通信革命](satellite-constellation-internet-infrastructure.md)
+- 出典: [【宇宙ビジネス最前線】ロケット打ち上げは300回超の時代／急増する衛星／Spac](https://www.youtube.com/watch?v=PIO5DzEML98)
+
 ## [2026-05-05] ingest | 【グッドパッチ土屋の本気のAI経営】社長自ら2ヶ月で40アプリ自作 / 200人がClaude Co
 - 更新ページ: [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md), [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md), [経営者のAIハンズオン学習と組織全体の変革加速：社長自作→全社強制導入の実装パターン](executive-ai-hands-on-learning-organizational-transformation.md), [試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム](trial-and-error-adaptive-capacity-building-long-term-asset.md)
 - 出典: [【グッドパッチ土屋の本気のAI経営】社長自ら2ヶ月で40アプリ自作 / 200人](https://www.youtube.com/watch?v=tZMs4frdpGk)

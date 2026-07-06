@@ -2,6 +2,10 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/07/04 | - | AI, ClaudeCode, GitHub, Productivity, Management | [生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claude Code × GitHub」で組織運営をした結果｜Goodpatch Blog グッドパッチブログ](https://goodpatch.com/blog/2026-06-github) | Goodpatchのサービスデザイナーチームが、個人の生成AI活用から組織全体の生産性向上を目指し、Claude CodeとGitHubを中心とした組織運営を試行した結果について報告する。 |
+| 26/07/04 | - | AI, LLM, Productivity, Learning, Development | [XユーザーのThariqさん: 「A Field Guide to Fable: Finding Your Unknowns」 / X](https://x.com/trq212/status/2073100352921215386) | ThariqさんはClaude Fable 5との協働を通じて、「マップはテリトリーではない」という教訓を再認識し、AIとの対話における「未知の領域（unknowns）」を特定し、対処することの重要性を説いています。 |
+| 26/07/04 | - | AI, Career, Management, Learning, Productivity | [【あなたの努力は“24時間働くAI”に代替される】深津貴之「AIと戦うな“上司”になれ」／無限に働く部下をどう使いこなす／Geminiの“父”も指摘「AI時代は“学び方”を学べ」【1on1 Tech】](https://www.youtube.com/watch?v=SBXNuqWLI9E) | ギルドワークスCEOの深津貴之氏が、AIが労働を代替する時代において、従来の努力ではなく「メタスキル」の習得とAIを「無限に働く部下」として使いこなす重要性を説きます。 |
+| 26/07/04 | - | AI, ClaudeCode, LLM, Productivity, Development | [【Claudeが自分で爆速開発→「Fable 5」誕生】アンソロピック幹部「寝て起きたらAIが仕事完了」新型モデル“月イチ発表”の裏側／ミュトス級は「ざっくり指示」で意図を理解【1on1 Tech】](https://www.youtube.com/watch?v=t6Zmu-pBZlE) | Anthropicが「思考・設計パートナー」へと進化した新AIモデル「Claude Fable 5」と「Mythos 5」を発表。AIが開発プロセスを劇的に加速させ、漠然とした指示でも意図を理解し、複雑なタスクを自律的に実行可能になる。 |
 | 26/05/12 | - | AI, Business, Career, Management | [AI企業が「受託」を始めた日。エンジニア、PM、デザイナーはどうこの先生きのこるか｜深津 貴之 (fladdict)](https://note.com/fladdict/n/nd42977e5443e) | OpenAI・AnthropicがFDE派遣で直接現場に入り込む時代に、エンジニア・PM・デザイナーが職位でなく資本（人的・社会・金融）を積むことが生存戦略と説く。 |
 | 26/05/12 | - | Business, YouTube, Learning | [【宇宙ビジネス最前線】ロケット打ち上げは300回超の時代／SpaceXが変えた宇宙輸送【PIVOT SCIENCE】](https://www.youtube.com/watch?v=PIO5DzEML98) | 衛星コンステレーション・測位・地球観測の利活用から月面開発まで、宇宙ビジネスの全体像を「運ぶ・使う・支える」の3視点で解説。 |
 | 26/05/12 | - | AI, LLM, Productivity, Business, Management | [【管理部編】上場会社のバックオフィス20名が、1ヶ月でClaudeを実装した記録｜グッドパッチ](https://note.com/19831112/n/n5be18a115b2b) | 経理・法務・情シス等5部門が1ヶ月で30件のClaude活用ツールを実装。IR品質チェック94%減など定量効果とともに「AIが一次担当・人間が最終判断」の分業構造を詳述。 |

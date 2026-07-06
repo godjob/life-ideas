@@ -20,13 +20,13 @@ AIによるホワイトカラー業務の自動化が急速に進展する中で
 
 ### 3. 宇宙サイバー脅威への対応能力
 
-- GPS無効化、ドローン遮断、通信衛星の一時的な破壊といった宇宙サイバー電磁波攻撃は、従来のサイバーセキュリティ対策では対応不可
+- ~~GPS無効化、ドローン遮断、通信衛星の一時的な破壊といった宇宙サイバー電磁波攻撃は、従来のサイバーセキュリティ対策では対応不可~~ → GPS無効化、ドローン遮断、通信衛星の一時的な破壊といった宇宙サイバー攻撃（電磁波攻撃を含む）は、従来のサイバーセキュリティ対策では対応不可であり、衛星コンステレーションによる通信・測位・地球観測の利活用が高度化する中で、その脆弱性への対策は喫緊の課題。
 - 製造業システムの冗長性・自己修復機構の設計が、[製造業システム脆弱性の先制監査](manufacturing-system-vulnerability-preemptive-audit.md)の中核課題として台頭
 - レーザー防御技術、地上波通信網の切り替え、エアギャップ設計の組み合わせが、経営戦略レベルでの重要度が急増
 
 ### 4. システム管理者のキャリア転換
 
-- AI時代の雇用転換期において、現場経験を持つシステム管理者が「国語力と戦略的思考」を磨くことで、[『AIが提案する最適化案を人間的・倫理的に評価する役割』](ai-creativity-self-reflection-limitation-human-judgment-necessity.md)への転職が有望
+- AI時代の雇用転換期において、現場経験を持つシステム管理者が「国語力と戦略的思考」を磨くことで、[AIの『創造性』『自己内省』限界と人間判断の必須性](ai-creativity-self-reflection-limitation-human-judgment-necessity.md)への転職が有望
 - [結晶性知能とAI時代](crystallized-intelligence-ai-era-strategy.md)における40代以降の競争力設計において、システム管理経験は組織のデジタル安全保障を判断できる希有な資産に変異
 - 運動時間（ランニング等）による創造的思考の醸成が、AIの提案をフィルタリングし、人間的な価値判断を行うための認知基盤を強化
 
@@ -96,14 +96,14 @@ AIによるホワイトカラー業務の自動化が急速に進展する中で
 
 ### 宇宙サイバー脅威への対応設計
 
-2024年以降、新しい脅威領域が浮上している：
+2024年以降、新しい脅威領域が浮上している。宇宙市場は約100兆円規模に達し、その8割が商業部門で構成される[宇宙経済とビジネスモデル](space-economy-business-model.md)が、私たちの生活インフラに深く組み込まれることで、脅威のインパクトも増大している。
 
 **脅威の構図：**
-- 衛星インターネット（Starlink等）を媒介とした、EMP（電磁パルス）攻撃
-- GPS信号無効化による、自動運転・ドローン・建機の一斉停止
-- 衛星通信網の破壊に伴う、通信機能の喪失
+- 衛星インターネット（Starlink等）を媒介とした、EMP（電磁パルス）攻撃やサイバー攻撃
+- GPS信号無効化による、自動運転・ドローン・建機の一斉停止。衛星測位データは電力需給バランスや証券取引時刻同期など、生活インフラに直結している
+- 衛星通信網の破壊に伴う、通信機能の喪失。世界30億人が高速インターネット未接続である現状において、[衛星コンステレーションとインターネットインフラ](satellite-constellation-internet-infrastructure.md)は巨大なビジネス機会であると同時に、社会インフラとしての脆弱性を内包する
 
-[スペースXの防衛インフラ転換](spacex-defense-infrastructure-strategy.md)で指摘されるように、民間衛星インフラが国家安全保障の枢要になる一方で、同時に攻撃対象化する。
+[スペースXの防衛インフラ転換](spacex-defense-infrastructure-strategy.md)で指摘されるように、民間衛星インフラが国家安全保障の枢要になる一方で、同時に攻撃対象化する。ロケット打ち上げ数が年間300回を超える時代になり、衛星の利用が急増する中で、これらの脅威への対策はこれまで以上に重要となっている。
 
 **製造業システムの対応戦略：**
 
@@ -115,7 +115,7 @@ AIによるホワイトカラー業務の自動化が急速に進展する中で
 
 2. **レーザー防御技術の研究着手**
    - 衛星からのEMP波に対する建屋全体のシールド化は現実的でないため、衛星の軌道を変更するレーザー防衛システムの検討が開始
-   - [日本の標準化戦略](physical-ai-hardware-standardization-strategy.md)として、独立系企業による下層インターフェース標準化による国家間競争優位の確保
+   - [フィジカルAイと日本の標準化戦略](physical-ai-hardware-standardization-strategy.md)として、独立系企業による下層インターフェース標準化による国家間競争優位の確保
 
 3. **エアギャップ化と手動運用の併行**
    - 完全なエアギャップは現実的でないため、[AIサンドボックス隔離アーキテクチャ](ai-sandboxing-isolation-architecture-manufacturing.md)の応用により、AIによる自動化と人間による検証の境界を明確化
@@ -142,7 +142,7 @@ AI時代のシステム管理者に求められるスキルセットは、根本
 
 3. **創造的思考の醸成**
    - [日次習慣ルーチン設計](daily-habit-routine-design-productivity-multiplication.md)により、ランニング等の運動時間を確保し、散歩思考による創造的インサイト生成
-   - [意思決定疲労とSOP標準化](decision-fatigue-sop-standardization-cognitive-load-reduction.md)に従い、定型的な判断をSOP化して認知負荷を削減し、複雑な戦略判断へ脳容量を割き当て
+   - [意思決定疲労とSOP標準化](decision-fatigue-sop-standardization-cognitive-load-reduction.md)に従い、定型的な判断をSOP化して認知負荷を削減し、複雑な戦略判断へ脳容量を割当て
 
 **キャリア転換の具体例：**
 
@@ -154,7 +154,7 @@ AI時代のシステム管理者に求められるスキルセットは、根本
 ↓
 宇宙サイバー脅威対応が経営課題化する段階で、「国防インフラ戦略アドバイザー」という、独占的なポジションを確立。
 
-このパスは、[自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md)と、[AI時代の労働政策ガバナンス](ai-labor-policy-governance-framework.md)による雇用セーフティネット強化の組み合わせによってのみ実現可能である。
+このパスは、[AI時代の個人生存戦略](self-directed-learning-ai-era-survival-strategy.md)と、[AI時代の労働政策ガバナンス](ai-labor-policy-governance-framework.md)による雇用セーフティネット強化の組み合わせによってのみ実現可能である。
 
 ### 組織戦略：差別化の優先度付け
 
@@ -174,27 +174,30 @@ AI時代のシステム管理者に求められるスキルセットは、根本
 
 - [AI時代の働き方の逆転](ai-era-work-inversion.md): 長時間労働からの解放と自動化による価値創造
 - [段階的LLM実行パターン](llm-tiered-execution-pattern.md): 大規模モデルで計画、軽量ローカルモデルで実装する効率化設計
-- [ローカルLLMデプロイメント・アーキテクチャ](local-llm-deployment-architecture.md): Ollama・OpenClawによるオンプレミスAI運用
-- [クラウド非依存AI戦略](cloud-independence-ai-cost-security-strategy.md): オンプレミス実行によるセキュリティ・コスト最適化
-- [AIサンドボックス隔離アーキテクチャ](ai-sandboxing-isolation-architecture-manufacturing.md): 製造業システムの自力脱出防止と運用プロセス設計
 - [長期連続稼働AIエージェント設計](long-running-ai-agent-design-patterns.md): 1ヶ月以上の自律運用と推論最適化パターン
-- [エージェントハーネス](agent-harness-reliability-framework.md): 長期連続運用における誤り蓄積対策と制御・監視基盤
-- [結晶性知能とAI時代](crystallized-intelligence-ai-era-strategy.md): 経験価値の再構築と40代からのキャリア戦略
-- [AIが提案する最適化案を人間的・倫理的に評価する役割](ai-creativity-self-reflection-limitation-human-judgment-necessity.md): AIの『創造性』『自己内省』限界と人間判断の必須性
-- [日次習慣ルーチン設計](daily-habit-routine-design-productivity-multiplication.md): 『心の渋滞』排除による生産性倍増と10年継続の仕組み
-- [スペースXの防衛インフラ転換](spacex-defense-infrastructure-strategy.md): 民間衛星インフラの地政学的価値と国家基盤代替
-- [PGLiteローカル環境による機密データ管理](local-pglite-sensitive-data-management.md): 製造業における外部依存排除と組織内セキュリティ
+- [ローカルLLMデプロイメント・アーキテクチャ](local-llm-deployment-architecture.md): Ollama・OpenClawによるオンプレミスAI運用
+- [クラウド非依存AI戦略](cloud-independence-ai-cost-security-strategy.md): オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減
+- [AIサンドボックス隔離アーキテクチャ](ai-sandboxing-isolation-architecture-manufacturing.md): 製造業システムの自力脱出防止と運用プロセス設計
 - [製造業システム脆弱性の先制監査](manufacturing-system-vulnerability-preemptive-audit.md): AIによる未検出バグ発見時代の予防的セキュリティ体系
-- [ローカルLLMとクラウドLLMのハイブリッド運用](local-llm-api-cost-elimination-strategy.md): API費用排除と推論コスト最適化戦略
-- [個人ナレッジベースのベクトル検索統合](personal-knowledge-base-vector-search-integration.md): 会議・メール・ログの一元化とエージェント参照設計
+- [AIの『創造性』『自己内省』限界と人間判断の必須性](ai-creativity-self-reflection-limitation-human-judgment-necessity.md): 問題解決優位性の認識
+- [結晶性知能とAI時代](crystallized-intelligence-ai-era-strategy.md): 経験価値の再構築と40代からのキャリア戦略
+- [AIエージェントのCLI自律操作](ai-agent-cli-automation-pattern.md): ログ確認・定期メンテナンスの自動化パターン
 - [AIエージェント運用のトークン定量化](ai-agent-token-metrics-career-leverage.md): キャリア交渉と昇進における説得力構築
-- [意思決定疲労とSOP標準化](decision-fatigue-sop-standardization-cognitive-load-reduction.md): ルーチン化による心理的負荷削減と品質保証
+- [個人ナレッジベースのベクトル検索統合](personal-knowledge-base-vector-search-integration.md): 会議・メール・ログの一元化とエージェント参照設計
+- [エージェントハーネス](agent-harness-reliability-framework.md): 長期連続運用における誤り蓄積対策と制御・監視基盤
+- [ローカルLLMとクラウドLLMのハイブリッド運用](local-llm-api-cost-elimination-strategy.md): API費用排除と推論コスト最適化戦略
+- [PGLiteローカル環境による機密データ管理](local-pglite-sensitive-data-management.md): 製造業における外部依存排除と組織内セキュリティ
+- [宇宙経済とビジネスモデル](space-economy-business-model.md): 衛星コンステレーション・通信・地球観測
+- [衛星コンステレーションとインターネットインフラ](satellite-constellation-internet-infrastructure.md): Starlinkによる通信革命
+- [スペースXの防衛インフラ転換](spacex-defense-infrastructure-strategy.md): 民間衛星インフラの地政学的価値と国家基盤代替
+- [フィジカルAイと日本の標準化戦略](physical-ai-hardware-standardization-strategy.md): 米中覇権争いにおける下層インターフェース統一による競争力構築
 - [アンラーン能力](unlearning-capability-ai-era-competition.md): 既存知識の手放しとAI時代の個人競争力
-- [自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md): AI時代の個人生存戦略
-- [AI導入遅延による生産性格差](ai-adoption-productivity-gap-competitive-disadvantage.md): 早期採用と非採用の取り返しがつかない競争劣位化メカニズム
+- [日次習慣ルーチン設計](daily-habit-routine-design-productivity-multiplication.md): 『心の渋滞』排除による生産性倍増と10年継続の仕組み
+- [意思決定疲労とSOP標準化](decision-fatigue-sop-standardization-cognitive-load-reduction.md): ルーチン化による心理的負荷削減と品質保証
+- [AI時代の個人生存戦略](self-directed-learning-ai-era-survival-strategy.md): 自己学習とIT新スキル習得による競争力確保
 - [AI時代の労働政策ガバナンス](ai-labor-policy-governance-framework.md): 民主的意思決定と規制キャプチャ防止
-- [仕事消滅社会での生きがい創出](meaning-creation-post-work-society-ai-era.md): AIが自動化した先の人間的価値と幸福設計
+- [AI導入遅延による生産性格差](ai-adoption-productivity-gap-competitive-disadvantage.md): 早期採用と非採用の取り返しがつかない競争劣位化メカニズム
 
 ## 更新履歴
-
 - 2026-05-04: [【中島聡vs未来予測】仕事が消える未来…働かない社会で人間の生きがいは残るのか？【田中渓&ReHacQ】](https://www.youtube.com/watch?v=yzFgatvCJc8)
+- 2026-05-12: [【宇宙ビジネス最前線】ロケット打ち上げは300回超の時代／急増する衛星／SpaceXが変えた宇宙輸送／通信・測位・地球観測の衛星利活用／宙畑編集長・中村友弥氏【PIVOT SCIENCE】](https://www.youtube.com/watch?v=PIO5DzEML98)
