@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-06T22:00:49+09:00",
+  "generatedAt": "2026-07-06T22:10:00+09:00",
   "weekly": {
-    "commitCount": 77,
+    "commitCount": 79,
     "byDay": [
       {
         "date": "2026-06-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-06",
-        "count": 39
+        "count": 41
       }
     ]
   },
@@ -37,22 +37,22 @@
     "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 1,
+    "books": 2,
     "portfolio": 0,
-    "other": 79
+    "other": 80
   },
   "recentCommits": [
     {
       "date": "2026-07-06",
+      "message": "読書記録: 1件追加・更新"
+    },
+    {
+      "date": "2026-07-06",
+      "message": "dashboard: Claude使用量更新 (2026-07-06)"
+    },
+    {
+      "date": "2026-07-06",
       "message": "scripts: import_kindleの紙の本登録をGemini優先方式に改修"
-    },
-    {
-      "date": "2026-07-06",
-      "message": "dashboard: Claude使用量更新 (2026-07-06)"
-    },
-    {
-      "date": "2026-07-06",
-      "message": "dashboard: Claude使用量更新 (2026-07-06)"
     },
     {
       "date": "2026-07-06",
