@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-07T02:35:45+09:00",
+  "generatedAt": "2026-07-07T18:36:37+09:00",
   "weekly": {
-    "commitCount": 100,
+    "commitCount": 112,
     "byDay": [
       {
         "date": "2026-07-01",
@@ -25,11 +25,11 @@
       },
       {
         "date": "2026-07-06",
-        "count": 64
+        "count": 68
       },
       {
         "date": "2026-07-07",
-        "count": 0
+        "count": 8
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 101
+    "other": 111
   },
   "recentCommits": [
     {
-      "date": "2026-07-06",
-      "message": "読書記録: 出版社・出版年月28冊を登録（Google検索調査・承認済み）"
+      "date": "2026-07-07",
+      "message": "scripts: wiki更新履歴の消失を恒久修正（LLM生成から機械追記へ）"
     },
     {
-      "date": "2026-07-06",
-      "message": "dashboard: Claude使用量更新 (2026-07-06)"
+      "date": "2026-07-07",
+      "message": "dashboard: Claude使用量更新 (2026-07-07)"
     },
     {
-      "date": "2026-07-06",
-      "message": "dashboard: Claude使用量更新 (2026-07-06)"
+      "date": "2026-07-07",
+      "message": "dashboard: Claude使用量更新 (2026-07-07)"
     },
     {
-      "date": "2026-07-06",
-      "message": "dashboard: Claude使用量更新 (2026-07-06)"
+      "date": "2026-07-07",
+      "message": "dashboard: Claude使用量更新 (2026-07-07)"
     },
     {
-      "date": "2026-07-06",
-      "message": "dashboard: Claude使用量更新 (2026-07-06)"
+      "date": "2026-07-07",
+      "message": "dashboard: Claude使用量更新 (2026-07-07)"
     }
   ]
 }
