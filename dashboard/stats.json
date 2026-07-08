@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-07-08T02:06:36+09:00",
+  "generatedAt": "2026-07-09T01:25:27+09:00",
   "weekly": {
     "commitCount": 110,
     "byDay": [
-      {
-        "date": "2026-07-02",
-        "count": 2
-      },
       {
         "date": "2026-07-03",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-07-08",
+        "count": 2
+      },
+      {
+        "date": "2026-07-09",
         "count": 0
       }
     ]
@@ -43,16 +43,16 @@
   },
   "recentCommits": [
     {
+      "date": "2026-07-08",
+      "message": "news: 2026-07-08 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-07-08",
+      "message": "朝刊: 2026-07-07 Morning Edition生成"
+    },
+    {
       "date": "2026-07-07",
       "message": "scripts: wiki更新履歴の消失を恒久修正（LLM生成から機械追記へ）"
-    },
-    {
-      "date": "2026-07-07",
-      "message": "dashboard: Claude使用量更新 (2026-07-07)"
-    },
-    {
-      "date": "2026-07-07",
-      "message": "dashboard: Claude使用量更新 (2026-07-07)"
     },
     {
       "date": "2026-07-07",
