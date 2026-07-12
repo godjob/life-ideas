@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T22:36:50+09:00",
+  "generatedAt": "2026-07-12T22:53:41+09:00",
   "weekly": {
-    "commitCount": 103,
+    "commitCount": 109,
     "byDay": [
       {
         "date": "2026-07-06",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-07-12",
-        "count": 17
+        "count": 23
       }
     ]
   },
   "byDirectory": {
     "scrap": 2,
     "ideas": 1,
-    "health": 2,
-    "books": 4,
+    "health": 4,
+    "books": 5,
     "portfolio": 0,
-    "other": 124
+    "other": 127
   },
   "recentCommits": [
     {
       "date": "2026-07-12",
-      "message": "analysis.md: 分析エントリ追記マーカーを先頭エントリ直上に移動（実運用と一致させる）"
+      "message": "ランニング分析更新: ADIZERO Japan 9全面移行（6/7・MAGIC SPEED 4廃棄）を反映"
     },
     {
       "date": "2026-07-12",
@@ -60,7 +60,7 @@
     },
     {
       "date": "2026-07-12",
-      "message": "dashboard: Claude使用量更新 (2026-07-12)"
+      "message": "CLAUDE.md: ランニング分析追記の手順3をマーカー移動後の実態に合わせて修正"
     }
   ]
 }
