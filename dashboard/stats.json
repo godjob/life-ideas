@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T00:46:40+09:00",
+  "generatedAt": "2026-07-12T22:30:54+09:00",
   "weekly": {
-    "commitCount": 84,
+    "commitCount": 96,
     "byDay": [
       {
         "date": "2026-07-06",
@@ -9,7 +9,7 @@
       },
       {
         "date": "2026-07-07",
-        "count": 8
+        "count": 10
       },
       {
         "date": "2026-07-08",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-07-12",
-        "count": 0
+        "count": 10
       }
     ]
   },
   "byDirectory": {
-    "scrap": 1,
-    "ideas": 0,
-    "health": 0,
+    "scrap": 2,
+    "ideas": 1,
+    "health": 1,
     "books": 4,
     "portfolio": 0,
-    "other": 111
+    "other": 118
   },
   "recentCommits": [
     {
-      "date": "2026-07-11",
-      "message": "news: 2026-07-11 記事まとめを自動生成"
+      "date": "2026-07-12",
+      "message": "dashboard: wiki-graph.json更新（git scrap 2026-07-12分）"
     },
     {
-      "date": "2026-07-11",
-      "message": "朝刊: 2026-07-10 Morning Edition生成"
+      "date": "2026-07-12",
+      "message": "dashboard: Claude使用量更新 (2026-07-12)"
     },
     {
-      "date": "2026-07-10",
-      "message": "news: 2026-07-10 記事まとめを自動生成"
+      "date": "2026-07-12",
+      "message": "dashboard: Claude使用量更新 (2026-07-12)"
     },
     {
-      "date": "2026-07-10",
-      "message": "朝刊: 2026-07-09 Morning Edition生成"
+      "date": "2026-07-12",
+      "message": "ideas: 2026-W28 週次まとめ自動生成"
     },
     {
-      "date": "2026-07-09",
-      "message": "news: 2026-07-09 記事まとめを自動生成"
+      "date": "2026-07-12",
+      "message": "scrap: 2026-07-12 【山口周】人的資本を“哲学”する | 正解のない時・会社はもう1人で作れる？ 元LINEヤフー会長が語・【しごでき対談】人生もキャリアも40代から面白くな"
     }
   ]
 }
