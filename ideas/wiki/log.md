@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-07-12] ingest | 【しごでき対談】人生もキャリアも40代から面白くなる／疲れる前に休める人が強い／集中力の使い方で仕事
+- 更新ページ: [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性](sleep-priority-performance-management.md), [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md)
+- 出典: [【しごでき対談】人生もキャリアも40代から面白くなる／疲れる前に休める人が強い／](https://www.youtube.com/watch?v=zdR1hfnvap8)
+
+## [2026-07-12] ingest | 会社はもう1人で作れる？ 元LINEヤフー会長が語るAI起業のリアル
+- 更新ページ: [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md), [AIソロプレナーシップ：個人の能力拡張と起業への影響](ai-solo-entrepreneurship-impact.md), [AIソロプレナー時代における製造業の変革と内製化](manufacturing-in-ai-solo-era.md)
+- 出典: [会社はもう1人で作れる？ 元LINEヤフー会長が語るAI起業のリアル](https://www.youtube.com/watch?v=Hn2YCOjDtYw)
+
+## [2026-07-12] ingest | 【山口周】人的資本を“哲学”する | 正解のない時代に、私たちが問い続けるべきこと
+- 更新ページ: [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md), [AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識](ai-creativity-self-reflection-limitation-human-judgment-necessity.md), [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md), [人的資本の哲学：AI時代の問い直しと本質的価値](human-capital-philosophy-ai-era.md), [当たり前の問い直し：継続的改善と哲学的な視点](rethinking-defaults-continuous-improvement.md)
+- 出典: [【山口周】人的資本を“哲学”する | 正解のない時代に、私たちが問い続けるべきこ](https://www.youtube.com/watch?v=TfQKjxlFkvM)
+
 ## [2026-07-04] ingest | 生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claude Code × G
 - 更新ページ: [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [非エンジニア部門におけるGitHub導入：情報共有と生産性向上](github-non-engineer-adoption.md), [組織的AI知識資産管理：議事録自動生成とドキュメント整理](organizational-ai-knowledge-asset-management.md)
 - 出典: [生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claud](https://goodpatch.com/blog/2026-06-github)

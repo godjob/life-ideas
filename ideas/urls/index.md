@@ -2,6 +2,9 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/07/12 | - | Productivity, Career, Management, Learning, YouTube | [【しごでき対談】人生もキャリアも40代から面白くなる／疲れる前に休める人が強い／集中力の使い方で仕事は変わる【池田貴将×西原亮】](https://www.youtube.com/watch?v=zdR1hfnvap8) | 池田貴将氏と西原亮氏の対談で、40代以降のキャリアと人生を豊かにするための習慣と思考法を深掘り。体力、気力、精神力を高める具体的なアプローチと脳科学に基づいた自己改善のヒントが満載です。 |
+| 26/07/12 | - | AI, Business, Career, Management, YouTube | [会社はもう1人で作れる？ 元LINEヤフー会長が語るAI起業のリアル](https://www.youtube.com/watch?v=Hn2YCOjDtYw) | 元LINEヤフー会長の川邊健太郎氏がAIソロプレナーとしての新たな挑戦を語り、AIが個人の能力を飛躍的に拡張し、1人でも巨大な組織を動かせる可能性について論じています。 |
+| 26/07/12 | - | Business, Management, Learning, Career, YouTube | [【山口周】人的資本を“哲学”する | 正解のない時代に、私たちが問い続けるべきこと](https://www.youtube.com/watch?v=TfQKjxlFkvM) | 山口周氏が人的資本経営の本質について、「当たり前を問い直す」という哲学的な視点から深く掘り下げています。AI時代に求められる新たな人的資本の形や、正解のない問いに向き合うことの重要性を強調し、日本の人事慣行や社会の価値観の再考を促します。 |
 | 26/07/04 | - | AI, ClaudeCode, GitHub, Productivity, Management | [生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claude Code × GitHub」で組織運営をした結果｜Goodpatch Blog グッドパッチブログ](https://goodpatch.com/blog/2026-06-github) | Goodpatchのサービスデザイナーチームが、個人の生成AI活用から組織全体の生産性向上を目指し、Claude CodeとGitHubを中心とした組織運営を試行した結果について報告する。 |
 | 26/07/04 | - | AI, LLM, Productivity, Learning, Development | [XユーザーのThariqさん: 「A Field Guide to Fable: Finding Your Unknowns」 / X](https://x.com/trq212/status/2073100352921215386) | ThariqさんはClaude Fable 5との協働を通じて、「マップはテリトリーではない」という教訓を再認識し、AIとの対話における「未知の領域（unknowns）」を特定し、対処することの重要性を説いています。 |
 | 26/07/04 | - | AI, Career, Management, Learning, Productivity | [【あなたの努力は“24時間働くAI”に代替される】深津貴之「AIと戦うな“上司”になれ」／無限に働く部下をどう使いこなす／Geminiの“父”も指摘「AI時代は“学び方”を学べ」【1on1 Tech】](https://www.youtube.com/watch?v=SBXNuqWLI9E) | ギルドワークスCEOの深津貴之氏が、AIが労働を代替する時代において、従来の努力ではなく「メタスキル」の習得とAIを「無限に働く部下」として使いこなす重要性を説きます。 |
