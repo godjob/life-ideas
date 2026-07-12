@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T22:32:47+09:00",
+  "generatedAt": "2026-07-12T22:36:50+09:00",
   "weekly": {
-    "commitCount": 98,
+    "commitCount": 103,
     "byDay": [
       {
         "date": "2026-07-06",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-12",
-        "count": 12
+        "count": 17
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 2,
     "books": 4,
     "portfolio": 0,
-    "other": 119
+    "other": 124
   },
   "recentCommits": [
     {
       "date": "2026-07-12",
-      "message": "ランニング分析追記: 2026年6月〜7月中旬 夏季ロング走シフト分析"
+      "message": "analysis.md: 分析エントリ追記マーカーを先頭エントリ直上に移動（実運用と一致させる）"
     },
     {
       "date": "2026-07-12",
@@ -52,7 +52,7 @@
     },
     {
       "date": "2026-07-12",
-      "message": "dashboard: wiki-graph.json更新（git scrap 2026-07-12分）"
+      "message": "dashboard: Claude使用量更新 (2026-07-12)"
     },
     {
       "date": "2026-07-12",
