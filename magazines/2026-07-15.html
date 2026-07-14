@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Edition — 2026-07-15</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+header {
+  background: #fff;
+  border-bottom: 3px solid #1a1a1a;
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+header .masthead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #1a1a1a;
+}
+header .edition-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.hn-section { margin-bottom: 4rem; }
+.story-card {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.story-title-ja {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.story-title-en {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.story-meta {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.story-meta span::before { margin-right: 0.2em; }
+.story-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.read-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.daily-section { margin-bottom: 4rem; }
+.daily-card {
+  padding: 1.75rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.daily-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.daily-card ul { padding-left: 1.25rem; }
+.daily-card li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.3rem; }
+.daily-card p { font-size: 0.9rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .story-title-ja { font-size: 1.3rem; }
+  .card-hero, .card-midnight, .card-rose, .card-terminal,
+  .card-academic, .card-bigstat, .card-teal, .card-amber,
+  .card-slate, .card-pastel { padding: 1.5rem; }
+}
+
+.card-hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.card-hero .story-num {
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  line-height: 1;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+}
+.card-hero .story-title-ja { color: #fff; }
+.card-hero .story-title-en { color: rgba(255,255,255,0.65); }
+.card-hero .story-meta { color: rgba(255,255,255,0.75); }
+.card-hero .story-summary { color: rgba(255,255,255,0.9); }
+.card-hero .read-btn { background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+.card-hero .read-btn:hover { background: rgba(255,255,255,0.35); }
+
+
+.card-midnight {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+.card-midnight .story-num { color: #39d353; }
+.card-midnight .story-title-ja { color: #e6edf3; }
+.card-midnight .story-title-en { color: #8b949e; }
+.card-midnight .story-meta { color: #8b949e; }
+.card-midnight .story-summary { color: #c9d1d9; }
+.card-midnight .read-btn { background: #39d353; color: #0d1117; border: none; font-weight: 700; }
+.card-midnight .read-btn:hover { background: #56e56a; }
+
+
+.card-rose {
+  background: #fff0f3;
+  color: #1a0a0d;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-rose::after {
+  content: "!";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e11d48;
+  opacity: 0.2;
+  font-family: 'Fraunces', serif;
+}
+.card-rose .story-num { color: #e11d48; }
+.card-rose .story-title-ja { color: #881337; }
+.card-rose .story-title-en { color: #9f1239; opacity: 0.7; }
+.card-rose .story-meta { color: #9f1239; }
+.card-rose .story-summary { color: #3f0a16; }
+.card-rose .read-btn { background: #e11d48; color: #fff; border: none; }
+.card-rose .read-btn:hover { background: #be123c; }
+
+
+.card-terminal {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-terminal .story-num { color: #569cd6; font-family: monospace; }
+.card-terminal .story-title-ja { color: #9cdcfe; font-family: monospace; }
+.card-terminal .story-title-ja::before { content: "> "; color: #4ec9b0; }
+.card-terminal .story-title-en { color: #808080; font-family: monospace; }
+.card-terminal .story-meta { color: #6a9955; font-family: monospace; }
+.card-terminal .story-summary { color: #ce9178; font-family: monospace; }
+.card-terminal .read-btn { background: #252526; color: #4ec9b0; border: 1px solid #4ec9b0; font-family: monospace; }
+.card-terminal .read-btn:hover { background: #4ec9b0; color: #1e1e1e; }
+
+
+.card-academic {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 4px;
+  border-top: 4px solid #7b2d3c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-academic .story-num { color: #7b2d3c; font-family: 'Fraunces', serif; }
+.card-academic .story-title-ja { color: #1a1a1a; }
+.card-academic .story-title-ja::first-letter {
+  font-size: 2.5em;
+  float: left;
+  margin: 0 0.05em 0 0;
+  line-height: 0.85;
+  color: #7b2d3c;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.card-academic .story-title-en { color: #5a5a5a; }
+.card-academic .story-meta { color: #7b2d3c; }
+.card-academic .story-summary { color: #333; line-height: 1.8; }
+.card-academic .read-btn { background: #7b2d3c; color: #fff; border: none; }
+.card-academic .read-btn:hover { background: #5e2230; }
+
+
+.card-bigstat {
+  background: #fafaf9;
+  color: #1c1917;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e7e5e4;
+}
+.card-bigstat .bg-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: 900;
+  color: #f5f5f4;
+  font-family: 'Fraunces', serif;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-bigstat > *:not(.bg-score) { position: relative; z-index: 1; }
+.card-bigstat .story-num { color: #78716c; }
+.card-bigstat .story-title-ja { color: #1c1917; }
+.card-bigstat .story-title-en { color: #78716c; }
+.card-bigstat .story-meta { color: #a8a29e; }
+.card-bigstat .story-summary { color: #44403c; }
+.card-bigstat .read-btn { background: #1c1917; color: #fafaf9; border: none; }
+.card-bigstat .read-btn:hover { background: #44403c; }
+
+
+.card-teal {
+  background: #e6f4f1;
+  color: #134e4a;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 5px solid #0d9488;
+}
+.card-teal .story-num { color: #0d9488; }
+.card-teal .story-title-ja { color: #134e4a; }
+.card-teal .story-title-en { color: #2d6a65; opacity: 0.8; }
+.card-teal .story-meta { color: #0f766e; }
+.card-teal .story-summary { color: #1f5c58; }
+.card-teal .read-btn { background: #0d9488; color: #fff; border: none; }
+.card-teal .read-btn:hover { background: #0f766e; }
+
+
+.card-amber {
+  background: #fffbeb;
+  color: #1c1410;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid #f59e0b;
+}
+.card-amber .story-num { color: #d97706; }
+.card-amber .story-title-ja { color: #1c1410; }
+.card-amber .story-title-en { color: #92400e; opacity: 0.75; }
+.card-amber .story-meta { color: #b45309; }
+.card-amber .story-summary { color: #44300f; }
+.card-amber .read-btn { background: #f59e0b; color: #1c1410; border: none; font-weight: 600; }
+.card-amber .read-btn:hover { background: #d97706; color: #fff; }
+
+
+.card-slate {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #facc15;
+}
+.card-slate .story-num { color: #facc15; }
+.card-slate .story-title-ja { color: #f1f5f9; }
+.card-slate .story-title-en { color: #94a3b8; }
+.card-slate .story-meta { color: #64748b; }
+.card-slate .story-summary { color: #cbd5e1; }
+.card-slate .read-btn { background: #facc15; color: #1e293b; border: none; font-weight: 700; }
+.card-slate .read-btn:hover { background: #eab308; }
+
+
+.card-pastel {
+  background: #f8f4ff;
+  color: #1e0a3c;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #ddd6fe;
+}
+.card-pastel .story-num { color: #7c3aed; }
+.card-pastel .story-title-ja { color: #1e0a3c; }
+.card-pastel .story-title-en { color: #5b21b6; opacity: 0.7; }
+.card-pastel .story-meta { color: #6d28d9; }
+.card-pastel .story-summary { color: #2e1065; }
+.card-pastel .read-btn { background: #7c3aed; color: #fff; border: none; }
+.card-pastel .read-btn:hover { background: #6d28d9; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="masthead">Morning Edition</div>
+      <div class="edition-date">2026年7月15日 &nbsp;·&nbsp; Hacker News Daily Digest</div>
+    </div>
+  </header>
+
+  <section class="hn-section">
+    <div class="container">
+      <h2 class="section-heading">Hacker News — 本日のピック</h2>
+      
+  <div class="story-card card-hero">
+    
+    <span class="story-num">01</span>
+    <div class="story-title-ja">あなたの「アプリ」はウェブページで十分だったのに（だから私が直してあげた）</div>
+    <div class="story-title-en">Your 'app' could have been a webpage (so I fixed it for you)</div>
+    <div class="story-meta">
+      <span>▲ 665</span>
+      <span>💬 416</span>
+      <span>by MrVandemar</span>
+    </div>
+    <div class="story-summary">この記事は、本来ウェブページで実現できたはずの機能が、不必要にネイティブアプリとして開発されている現状に疑問を投げかけています。筆者は、そのようなアプリをウェブページとして再構築することで、よりシンプルでアクセスしやすい解決策を提案しているようです。</div>
+    <a class="read-btn" href="https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48869989" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-midnight">
+    
+    <span class="story-num">02</span>
+    <div class="story-title-ja">Claudeが「load-bearing」と言うのをやめさせる方法</div>
+    <div class="story-title-en">How to stop Claude from saying load-bearing</div>
+    <div class="story-meta">
+      <span>▲ 395</span>
+      <span>💬 450</span>
+      <span>by shintoist</span>
+    </div>
+    <div class="story-summary">この記事は、AIアシスタントのClaudeが特定のフレーズ「load-bearing」（構造上重要、基幹となる、といった意味）を頻繁に使う傾向があることに対処する方法について解説しています。ユーザーがAIとの対話において、望ましくない言葉遣いを抑制するための具体的なテクニックやプロンプトの工夫が紹介されていると推測されます。</div>
+    <a class="read-btn" href="https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48905248" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-rose">
+    
+    <span class="story-num">03</span>
+    <div class="story-title-ja">欧州の「年齢認証」アプリが、全員にAndroidまたはiOSの使用を強制している問題</div>
+    <div class="story-title-en">European "age verification" "app" forcing everyone to use Android or iOS</div>
+    <div class="story-meta">
+      <span>▲ 462</span>
+      <span>💬 316</span>
+      <span>by roundabout-host</span>
+    </div>
+    <div class="story-summary">欧州で導入される年齢認証アプリが、AndroidまたはiOSデバイスの利用を必須としていることに対する議論を扱っています。これは、特定のプラットフォームへの依存を強制し、デジタルデバイドやプライバシー、アクセシビリティに関する懸念を引き起こす可能性がある問題として議論されているようです。</div>
+    <a class="read-btn" href="https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48903777" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-terminal">
+    
+    <span class="story-num">04</span>
+    <div class="story-title-ja">私たちは思考の多くをAIに任せすぎているのか？</div>
+    <div class="story-title-en">Are we offloading too much of our thinking to AI?</div>
+    <div class="story-meta">
+      <span>▲ 343</span>
+      <span>💬 334</span>
+      <span>by yenniejun111</span>
+    </div>
+    <div class="story-summary">この記事は、人間がAIに思考プロセスを過度に依存することの是非について考察しています。AIの利便性が高まる一方で、批判的思考力や問題解決能力といった人間の認知能力が低下する可能性について警鐘を鳴らし、AIとの健全な共存のあり方を問いかけていると考えられます。</div>
+    <a class="read-btn" href="https://www.artfish.ai/p/offloading-thinking-to-ai" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48908178" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-academic">
+    
+    <span class="story-num">05</span>
+    <div class="story-title-ja">Bonsai 27B: スマートフォンで動作する27Bクラスのモデル</div>
+    <div class="story-title-en">Bonsai 27B: A 27B-Class model that runs on a phone</div>
+    <div class="story-meta">
+      <span>▲ 331</span>
+      <span>💬 116</span>
+      <span>by xenova</span>
+    </div>
+    <div class="story-summary">この記事は、PrismMLが開発した「Bonsai 27B」という、270億パラメータ規模のAIモデルがスマートフォン上で動作するという画期的な技術について報じています。これにより、高性能なAIがエッジデバイスで利用可能になり、プライバシー保護やオフラインでの利用など、新たな可能性が開かれることを示唆しています。</div>
+    <a class="read-btn" href="https://prismml.com/news/bonsai-27b" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48910545" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-bigstat">
+    <div class="bg-score">405</div>
+    <span class="story-num">06</span>
+    <div class="story-title-ja">Codexがサブエージェントのプロンプトの暗号化を開始</div>
+    <div class="story-title-en">Codex starts encrypting sub-agent prompts</div>
+    <div class="story-meta">
+      <span>▲ 405</span>
+      <span>💬 238</span>
+      <span>by embedding-shape</span>
+    </div>
+    <div class="story-summary">OpenAIのCodexが、サブエージェントに送られるプロンプトの暗号化を開始したことに関する情報です。これは、AIエージェント間の通信におけるセキュリティとプライバシーを強化するための措置であり、機密性の高い情報が扱われるAIシステムにおいて重要な進展と考えられます。</div>
+    <a class="read-btn" href="https://github.com/openai/codex/issues/28058" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48905028" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-teal">
+    
+    <span class="story-num">07</span>
+    <div class="story-title-ja">オーストラリアの電力小売業者は、日中に3時間の無料電力提供を義務付けられる</div>
+    <div class="story-title-en">Australian energy retailers must offer three hours of free daytime electricity</div>
+    <div class="story-meta">
+      <span>▲ 261</span>
+      <span>💬 335</span>
+      <span>by i2oc</span>
+    </div>
+    <div class="story-summary">オーストラリアで、電力小売業者が日中に3時間の無料電力を提供することが義務付けられるという新しい制度について解説しています。この記事では、この制度がどのように機能し、消費者や電力市場にどのような影響を与えるのか、その詳細が説明されていると推測されます。</div>
+    <a class="read-btn" href="https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48902320" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-amber">
+    
+    <span class="story-num">08</span>
+    <div class="story-title-ja">Linuxにおける入力遅延の測定：X11対Wayland、VRR、そしてDXVK</div>
+    <div class="story-title-en">Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK</div>
+    <div class="story-meta">
+      <span>▲ 331</span>
+      <span>💬 206</span>
+      <span>by hoechst</span>
+    </div>
+    <div class="story-summary">この記事は、Linux環境における入力遅延（インプットラグ）の測定方法と、X11とWaylandという異なるディスプレイサーバープロトコル間での比較、さらにVRR（可変リフレッシュレート）やDXVK（DirectXからVulkanへの変換レイヤー）が遅延に与える影響について詳細に分析しています。特にゲーマーや低遅延を求めるユーザーにとって重要な情報を提供する内容と考えられます。</div>
+    <a class="read-btn" href="https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48909424" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-slate">
+    
+    <span class="story-num">09</span>
+    <div class="story-title-ja">S&PグローバルがOracleの信用格付けをBBBからBBB-に引き下げ</div>
+    <div class="story-title-en">S&P Global has lowered Oracle’s creditworthiness from BBB to BBB-</div>
+    <div class="story-meta">
+      <span>▲ 301</span>
+      <span>💬 299</span>
+      <span>by gepeto42</span>
+    </div>
+    <div class="story-summary">格付け会社S&Pグローバルが、Oracleの信用格付けをBBBからBBB-に引き下げたことを報じる記事です。この格下げは、Oracleの財務状況や将来性に対する懸念を示唆しており、ジャンク債レベルの一歩手前という評価は、投資家にとって重要な情報となります。</div>
+    <a class="read-btn" href="https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48909768" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-pastel">
+    
+    <span class="story-num">10</span>
+    <div class="story-title-ja">塔は高くそびえ続ける</div>
+    <div class="story-title-en">The Tower Keeps Rising</div>
+    <div class="story-meta">
+      <span>▲ 291</span>
+      <span>💬 143</span>
+      <span>by cdrnsf</span>
+    </div>
+    <div class="story-summary">このタイトルとURLからは具体的な内容を推測しにくいですが、ブログ記事のタイトルとしては比喩的な表現である可能性が高いです。何らかのプロジェクト、技術、あるいは個人的な取り組みが継続的に発展・成長している様子を「塔がそびえ続ける」と表現していると解釈できます。</div>
+    <a class="read-btn" href="https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=48909785" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
