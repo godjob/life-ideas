@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-07-15T01:08:35+09:00",
+  "generatedAt": "2026-07-16T01:14:05+09:00",
   "weekly": {
     "commitCount": 39,
     "byDay": [
-      {
-        "date": "2026-07-09",
-        "count": 2
-      },
       {
         "date": "2026-07-10",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-07-15",
+        "count": 2
+      },
+      {
+        "date": "2026-07-16",
         "count": 0
       }
     ]
@@ -37,11 +37,19 @@
     "scrap": 1,
     "ideas": 1,
     "health": 4,
-    "books": 4,
+    "books": 1,
     "portfolio": 0,
-    "other": 112
+    "other": 50
   },
   "recentCommits": [
+    {
+      "date": "2026-07-15",
+      "message": "news: 2026-07-15 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-07-15",
+      "message": "朝刊: 2026-07-14 Morning Edition生成"
+    },
     {
       "date": "2026-07-14",
       "message": "news: 2026-07-14 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-07-13",
       "message": "news: 2026-07-13 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-07-13",
-      "message": "朝刊: 2026-07-12 Morning Edition生成"
-    },
-    {
-      "date": "2026-07-12",
-      "message": "news収集cronを04:07 UTCに変更（schedule遅延を見込み14時前後の更新に調整・0分混雑回避）"
     }
   ]
 }
