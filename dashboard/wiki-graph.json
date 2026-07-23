@@ -22,7 +22,13 @@
       "id": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "label": "AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題",
       "group": "その他",
-      "value": 9
+      "value": 10
+    },
+    {
+      "id": "agi-societal-impact-responsible-development",
+      "label": "AGIの社会的影響と責任ある開発",
+      "group": "その他",
+      "value": 3
     },
     {
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
@@ -34,7 +40,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 50
+      "value": 51
     },
     {
       "id": "ai-agent-cli-automation-pattern",
@@ -46,13 +52,13 @@
       "id": "ai-agent-governance-human-criteria",
       "label": "AIエージェント組織のガバナンスと人間による選別基準設計",
       "group": "AIエージェント設計",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "AIエージェント設計",
-      "value": 40
+      "value": 41
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
@@ -82,7 +88,7 @@
       "id": "ai-automation-system-admin-differentiation-strategy",
       "label": "システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-autonomous-weapons-surveillance-state-governance",
@@ -118,7 +124,7 @@
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "AI戦略・社会",
-      "value": 6
+      "value": 7
     },
     {
       "id": "ai-capability-expectation-calibration-realistic-timeline",
@@ -133,10 +139,22 @@
       "value": 4
     },
     {
+      "id": "ai-career",
+      "label": "AGIの社会的影響と責任ある開発",
+      "group": "その他",
+      "value": 1
+    },
+    {
       "id": "ai-ceo-delegation-protocol",
       "label": "AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化",
       "group": "AI戦略・社会",
       "value": 11
+    },
+    {
+      "id": "ai-coaching-personalization-wearable-integration",
+      "label": "AIコーチングの個別化とウェアラブル連携",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "ai-content-pipeline-differentiation",
@@ -160,7 +178,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 14
+      "value": 15
     },
     {
       "id": "ai-email-native-interface-system-integration",
@@ -172,13 +190,13 @@
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "その他",
-      "value": 18
+      "value": 19
     },
     {
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "AI戦略・社会",
-      "value": 29
+      "value": 30
     },
     {
       "id": "ai-everywhere-device-integration",
@@ -214,7 +232,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "その他",
-      "value": 6
+      "value": 8
     },
     {
       "id": "ai-human-coexistence-risk-management",
@@ -232,13 +250,13 @@
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 7
+      "value": 9
     },
     {
       "id": "ai-labor-policy-governance-framework",
@@ -268,7 +286,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "その他",
-      "value": 15
+      "value": 14
     },
     {
       "id": "ai-model-license-compliance-manufacturing",
@@ -287,6 +305,12 @@
       "label": "AIオーケストレーター：100倍エンジニアの役割",
       "group": "AIエージェント設計",
       "value": 29
+    },
+    {
+      "id": "ai-personal-branding-influencer-strategy",
+      "label": "AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現",
+      "group": "その他",
+      "value": 2
     },
     {
       "id": "ai-physical-world-reasoning-intuition-acquisition",
@@ -310,7 +334,7 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 15
+      "value": 16
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
@@ -346,7 +370,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 9
+      "value": 10
     },
     {
       "id": "ai-unknowns-identification-strategy",
@@ -358,7 +382,7 @@
       "id": "ai-workflow-adoption-customer-onsite-support-model",
       "label": "AIワークフロー導入における顧客常駐支援型技術者モデル：実装精度と運用安定性の両立メカニズム",
       "group": "その他",
-      "value": 9
+      "value": 10
     },
     {
       "id": "aidlc-manufacturing-requirements-definition",
@@ -586,7 +610,7 @@
       "id": "context-design-leadership-impression-management",
       "label": "コンテキスト設計によるリーダーシップ：行動の文脈が評価を決める",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "context-window-scaling-limitation-smart-extraction-architecture",
@@ -616,7 +640,7 @@
       "id": "custom-tool-development-ai-empowerment",
       "label": "カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン",
       "group": "その他",
-      "value": 6
+      "value": 9
     },
     {
       "id": "daily-context-ai-partnership",
@@ -916,13 +940,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 62
+      "value": 63
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 35
+      "value": 34
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -970,7 +994,7 @@
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "その他",
-      "value": 7
+      "value": 8
     },
     {
       "id": "midlife-crisis-reframing-opportunity",
@@ -1042,7 +1066,7 @@
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
       "label": "組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化",
       "group": "ビジネス・組織",
-      "value": 31
+      "value": 32
     },
     {
       "id": "organizational-ai-knowledge-asset-management",
@@ -1090,7 +1114,7 @@
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "キャリア・働き方",
-      "value": 20
+      "value": 21
     },
     {
       "id": "preemptive-workflow-optimization-ai-migration",
@@ -1121,6 +1145,12 @@
       "label": "プロンプトテンプレートの反復検証フレームワーク：5時間の調整プロセスと組織的スケーリング",
       "group": "その他",
       "value": 6
+    },
+    {
+      "id": "pushed-person-strategy-ai-era",
+      "label": "AI時代の『推される人』戦略：プロダクト均質化と差別化",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "qms-style-ai-prompt-governance",
@@ -1168,7 +1198,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 30
+      "value": 32
     },
     {
       "id": "seniority-employment-ai-debt-transition-strategy",
@@ -1180,7 +1210,7 @@
       "id": "singularity-loop-ai-self-acceleration",
       "label": "シンギュラリティループ：AIが自律的に進化を加速させるメカニズム",
       "group": "AI戦略・社会",
-      "value": 7
+      "value": 9
     },
     {
       "id": "skill-creator-automation",
@@ -1300,7 +1330,7 @@
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
       "group": "その他",
-      "value": 11
+      "value": 13
     },
     {
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
@@ -1330,7 +1360,7 @@
       "id": "wearable-device-workplace-privacy-governance",
       "label": "ウェアラブルデバイスと職場監視：プライバシー・データガバナンスの倫理的枠組み",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "wellness-eq-capital-ai-era-competitive-advantage",
@@ -1482,6 +1512,10 @@
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "agi-societal-impact-responsible-development"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "ai-agent-operations"
     },
     {
@@ -1490,15 +1524,15 @@
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "ai-failure-log"
-    },
-    {
-      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
-      "to": "ai-mindset-human-thought-ai-execution"
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
@@ -1534,10 +1568,6 @@
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
-      "to": "manufacturing-ai-quick-wins"
-    },
-    {
-      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
     },
     {
@@ -1549,6 +1579,54 @@
       "to": "skill-memory-architecture-stateful-workflow"
     },
     {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "pm-exponential-adaptation"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "singularity-loop-ai-self-acceleration"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "agi-societal-impact-responsible-development"
+    },
+    {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -1558,7 +1636,15 @@
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "ai-human-coexistence-risk-management"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "ai-investment-scale-japan-vs-global"
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
@@ -2489,6 +2575,42 @@
       "to": "singularity-loop-ai-self-acceleration"
     },
     {
+      "from": "ai-career",
+      "to": "ai-agent-governance-human-criteria"
+    },
+    {
+      "from": "ai-career",
+      "to": "ai-capability-evolution-design-flexibility"
+    },
+    {
+      "from": "ai-career",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "ai-career",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-career",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "ai-career",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-career",
+      "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "ai-career",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "ai-career",
+      "to": "singularity-loop-ai-self-acceleration"
+    },
+    {
       "from": "ai-ceo-delegation-protocol",
       "to": "ai-board-decision-making"
     },
@@ -2503,6 +2625,22 @@
     {
       "from": "ai-ceo-delegation-protocol",
       "to": "llm-wiki-concept"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "agi-societal-impact-responsible-development"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "ai-automation-system-admin-differentiation-strategy"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "wearable-device-workplace-privacy-governance"
     },
     {
       "from": "ai-content-pipeline-differentiation",
@@ -3673,6 +3811,26 @@
       "to": "prompt-clarity-management-feedback-loop"
     },
     {
+      "from": "ai-personal-branding-influencer-strategy",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
+      "to": "context-design-leadership-impression-management"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
+      "to": "custom-tool-development-ai-empowerment"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
+      "to": "pushed-person-strategy-ai-era"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
+      "to": "transparency-communication-trust-foundation"
+    },
+    {
       "from": "ai-physical-world-reasoning-intuition-acquisition",
       "to": "agent-harness-reliability-framework"
     },
@@ -3966,6 +4124,10 @@
     },
     {
       "from": "ai-solo-entrepreneurship-impact",
+      "to": "ai-personal-branding-influencer-strategy"
+    },
+    {
+      "from": "ai-solo-entrepreneurship-impact",
       "to": "claude-code-rapid-app-development-side-business"
     },
     {
@@ -3983,6 +4145,10 @@
     {
       "from": "ai-solo-entrepreneurship-impact",
       "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "ai-solo-entrepreneurship-impact",
+      "to": "pushed-person-strategy-ai-era"
     },
     {
       "from": "ai-solo-entrepreneurship-impact",
@@ -8590,6 +8756,10 @@
     },
     {
       "from": "meta-skills-ai-era",
+      "to": "pushed-person-strategy-ai-era"
+    },
+    {
+      "from": "meta-skills-ai-era",
       "to": "quantified-self-ai-feedback-loop"
     },
     {
@@ -9286,6 +9456,10 @@
     },
     {
       "from": "personal-ai-assistant-automation-design",
+      "to": "custom-tool-development-ai-empowerment"
+    },
+    {
+      "from": "personal-ai-assistant-automation-design",
       "to": "daily-habit-routine-design-productivity-multiplication"
     },
     {
@@ -9295,6 +9469,10 @@
     {
       "from": "personal-ai-assistant-automation-design",
       "to": "preemptive-workflow-optimization-ai-migration"
+    },
+    {
+      "from": "personal-ai-assistant-automation-design",
+      "to": "pushed-person-strategy-ai-era"
     },
     {
       "from": "personal-ai-assistant-automation-design",
@@ -9751,6 +9929,30 @@
     {
       "from": "prompt-template-iteration-testing-framework",
       "to": "workflow-skill-definition"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "ai-personal-branding-influencer-strategy"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "ai-workflow-adoption-customer-onsite-support-model"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "custom-tool-development-ai-empowerment"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "transparency-communication-trust-foundation"
     },
     {
       "from": "qms-style-ai-prompt-governance",

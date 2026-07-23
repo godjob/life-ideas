@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/07/23 | - | AI, Business, Career, Management, YouTube | [「AI時代は、推される奴が勝つ」DMM亀山会長と川邊が語る、令和の伸びるビジネスパーソン戦略とは？](https://www.youtube.com/watch?v=Z_OF1ffx6PU) | DMM亀山会長と元ヤフー社長の川邊氏が、AI時代におけるビジネスパーソンの成功戦略を対談。プロダクトやアウトプットが均質化する中で、「推される存在」であることの重要性を説き、川邊氏自身のYouTube戦略やAI活用事例も紹介しています。 |
+| 26/07/23 | - | AI, LLM, Business, Development | [XユーザーのDemis Hassabisさん: 「A Framework for Frontier AI and the Dawning of a New Age」 / X](https://x.com/demishassabis/status/2076957440109625718) | Demis Hassabis氏が、汎用人工知能（AGI）が数年以内に到来し、人類に新たな時代をもたらすと述べ、その影響の大きさと責任ある開発の重要性を強調しています。 |
 | 26/07/12 | - | Productivity, Career, Management, Learning, YouTube | [【しごでき対談】人生もキャリアも40代から面白くなる／疲れる前に休める人が強い／集中力の使い方で仕事は変わる【池田貴将×西原亮】](https://www.youtube.com/watch?v=zdR1hfnvap8) | 池田貴将氏と西原亮氏の対談で、40代以降のキャリアと人生を豊かにするための習慣と思考法を深掘り。体力、気力、精神力を高める具体的なアプローチと脳科学に基づいた自己改善のヒントが満載です。 |
 | 26/07/12 | - | AI, Business, Career, Management, YouTube | [会社はもう1人で作れる？ 元LINEヤフー会長が語るAI起業のリアル](https://www.youtube.com/watch?v=Hn2YCOjDtYw) | 元LINEヤフー会長の川邊健太郎氏がAIソロプレナーとしての新たな挑戦を語り、AIが個人の能力を飛躍的に拡張し、1人でも巨大な組織を動かせる可能性について論じています。 |
 | 26/07/12 | - | Business, Management, Learning, Career, YouTube | [【山口周】人的資本を“哲学”する | 正解のない時代に、私たちが問い続けるべきこと](https://www.youtube.com/watch?v=TfQKjxlFkvM) | 山口周氏が人的資本経営の本質について、「当たり前を問い直す」という哲学的な視点から深く掘り下げています。AI時代に求められる新たな人的資本の形や、正解のない問いに向き合うことの重要性を強調し、日本の人事慣行や社会の価値観の再考を促します。 |

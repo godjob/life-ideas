@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-07-23] ingest | 「AI時代は、推される奴が勝つ」DMM亀山会長と川邊が語る、令和の伸びるビジネスパーソン戦略とは？
+- 更新ページ: [AIソロプレナーシップ：個人の能力拡張と起業への影響](ai-solo-entrepreneurship-impact.md), [AI時代のメタスキル：学び方・情報収集・AI活用能力](meta-skills-ai-era.md), [パーソナルAIアシスタント化：フライデー型自動化エージェントの組織導入と個人生産性向上設計](personal-ai-assistant-automation-design.md), [AI時代の『推される人』戦略：プロダクト均質化と差別化](pushed-person-strategy-ai-era.md), [AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現](ai-personal-branding-influencer-strategy.md)
+- 出典: [「AI時代は、推される奴が勝つ」DMM亀山会長と川邊が語る、令和の伸びるビジネス](https://www.youtube.com/watch?v=Z_OF1ffx6PU)
+
+## [2026-07-23] ingest | XユーザーのDemis Hassabisさん: 「A Framework for Frontier 
+- 更新ページ: [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md), [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [AGIの社会的影響と責任ある開発](ai-career.md), [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md), [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md)
+- 出典: [XユーザーのDemis Hassabisさん: 「A Framework for](https://x.com/demishassabis/status/2076957440109625718)
+
 ## [2026-07-12] ingest | 【しごでき対談】人生もキャリアも40代から面白くなる／疲れる前に休める人が強い／集中力の使い方で仕事
 - 更新ページ: [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性](sleep-priority-performance-management.md), [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md)
 - 出典: [【しごでき対談】人生もキャリアも40代から面白くなる／疲れる前に休める人が強い／](https://www.youtube.com/watch?v=zdR1hfnvap8)
