@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-23T01:15:35+09:00",
+  "generatedAt": "2026-07-23T23:08:01+09:00",
   "weekly": {
-    "commitCount": 12,
+    "commitCount": 19,
     "byDay": [
       {
         "date": "2026-07-17",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-07-23",
-        "count": 0
+        "count": 7
       }
     ]
   },
   "byDirectory": {
-    "scrap": 0,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 18
+    "other": 22
   },
   "recentCommits": [
     {
-      "date": "2026-07-22",
-      "message": "news: 2026-07-22 記事まとめを自動生成"
+      "date": "2026-07-23",
+      "message": "wiki-graph更新"
     },
     {
-      "date": "2026-07-22",
-      "message": "朝刊: 2026-07-21 Morning Edition生成"
+      "date": "2026-07-23",
+      "message": "scrap: 2026-07-23 XユーザーのDemis Hassabisさん: 「・「AI時代は、推される奴が勝つ」DMM亀山会長と川"
     },
     {
-      "date": "2026-07-21",
-      "message": "news: 2026-07-21 記事まとめを自動生成"
+      "date": "2026-07-23",
+      "message": "dashboard: Claude使用量更新 (2026-07-23)"
     },
     {
-      "date": "2026-07-21",
-      "message": "朝刊: 2026-07-20 Morning Edition生成"
+      "date": "2026-07-23",
+      "message": "dashboard: Claude使用量更新 (2026-07-23)"
     },
     {
-      "date": "2026-07-20",
-      "message": "news: 2026-07-20 記事まとめを自動生成"
+      "date": "2026-07-23",
+      "message": "dashboard: Claude使用量更新 (2026-07-23)"
     }
   ]
 }
