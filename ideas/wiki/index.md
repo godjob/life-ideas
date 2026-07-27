@@ -1,9 +1,13 @@
 # Wiki インデックス
 
-最終更新: 2026-07-23
+最終更新: 2026-07-27
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md) | 26/07/27 | 26/07/27 | AI技術の急速な発展に伴い、世界中でAI人材の獲得競争が激化しています。特に中国発の高性能AIモデルの登場は、この競争に |
+| [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md) | 26/05/20 | 26/07/27 | AI技術が国際競争の鍵となる現代において、日本は米中両大国との間でAI開発競争に直面している。現状認識として、日本はAI |
+| [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md) | 26/07/27 | 26/07/27 | 中国のMoonshot AIが開発した「Kimi K3」は、AnthropicのClaude Fable 5やOpenA |
+| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/07/27 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md) | 26/05/03 | 26/07/23 | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで指摘した通り、現在のLLMベースのAIアーキテ |
 | [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md) | 26/07/23 | 26/07/23 | 汎用人工知能（AGI）の到来は、人類社会に未曾有の変革をもたらす可能性を秘めています。このページでは、AGIがもたらす広 |
 | [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md) | 26/05/03 | 26/07/23 | AI導入の遅延は単なる一時的な効率差ではなく、企業間の競争力格差を「取り返しがつかないレベル」にまで拡大させるメカニズム |
@@ -43,7 +47,6 @@
 | [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md) | 26/05/31 | 26/05/31 | AIバブルの崩壊が懸念される中、企業や個人がAIエコシステムで生き残り、持続的な成長を遂げるための戦略について解説します |
 | [AIコンテンツ生成パイプラインの差別化戦略](ai-content-pipeline-differentiation.md) | 26/05/31 | 26/05/31 | AIを活用したコンテンツ生成が普及する中で、単にコンテンツを量産するだけでなく、その品質、効率性、そして継続的な改善をい |
 | [日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応](ai-investment-scale-japan-vs-global.md) | 26/05/31 | 26/05/31 | 日本におけるAI投資は、米国や中国と比較して現状1桁少ないという深刻な課題を抱えています。この状況は、国家レベルだけでな |
-| [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md) | 26/05/20 | 26/05/31 | AI技術が国際競争の鍵となる現代において、日本は米中両大国との間でAI開発競争に直面している。現状認識として、日本はAI |
 | [JAXA宇宙戦略基金：1兆円政府支援による宇宙ビジネス民間参入加速](jaxa-space-strategy-fund.md) | 26/05/31 | 26/05/31 | JAXA（宇宙航空研究開発機構）が主導する「宇宙戦略基金」は、政府が提供する1兆円規模の支援を背景に、宇宙ビジネスへの民 |
 | [マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン](multi-agent-pipeline-error-handling-checkpoint.md) | 26/05/31 | 26/05/31 | 複数のエージェントが連携するパイプラインシステムでは、任意のステップでの失敗が全体の信頼性を損なう。本ページでは、Cla |
 | [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md) | 26/03/15 | 26/05/31 | AIへの指示出しプロセスは、マネジメントスキルの「筋トレ」になる。人間チームは曖昧な指示を忖度してくれるため問題が隠れる |
@@ -67,7 +70,6 @@
 | [AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大](ai-model-provider-vertical-integration.md) | 26/05/12 | 26/05/12 | AIモデルプロバイダーが、単にAPIを提供するだけでなく、顧客企業に現場派遣エンジニア（FDE: Field Deplo |
 | [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md) | 26/04/07 | 26/05/12 | マネーフォワードが2026年7月から提供開始予定の『AI Cowork』は、経理・労務・法務といったバックオフィス業務を |
 | [FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略](fde-engineer-domain-knowledge-priority-career-design.md) | 26/05/04 | 26/05/12 | FDE（Field Development Engineer）エンジニアのキャリアは、従来的なコーディング技術の習得より |
-| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/05/12 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 25/05/05 | 26/05/12 | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchおよび創業114年の地方中小 |
 | [宇宙経済とビジネスモデル：衛星コンステレーション・通信・地球観測](space-economy-business-model.md) | 26/05/31 | 26/05/12 | 宇宙経済は、ロケット打ち上げコストの劇的な低下と小型衛星技術の発展により、急速に商業化が進んでいます。特に、衛星コンステ |
 | [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md) | 26/05/05 | 26/05/05 | Claude Codeを活用することで、プログラミングの基礎知識がなくても数日でWebアプリケーションを開発・販売できる |

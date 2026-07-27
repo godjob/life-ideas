@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-07-27] ingest | 【「Claude Fable 5」「GPT‑5.6」に性能で肉薄】「Kimi K3」開発者は「AI研
+- 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md), [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md)
+- 出典: [【「Claude Fable 5」「GPT‑5.6」に性能で肉薄】「Kimi K](https://www.youtube.com/watch?v=L5LATULmdJo)
+
 ## [2026-07-23] ingest | 「AI時代は、推される奴が勝つ」DMM亀山会長と川邊が語る、令和の伸びるビジネスパーソン戦略とは？
 - 更新ページ: [AIソロプレナーシップ：個人の能力拡張と起業への影響](ai-solo-entrepreneurship-impact.md), [AI時代のメタスキル：学び方・情報収集・AI活用能力](meta-skills-ai-era.md), [パーソナルAIアシスタント化：フライデー型自動化エージェントの組織導入と個人生産性向上設計](personal-ai-assistant-automation-design.md), [AI時代の『推される人』戦略：プロダクト均質化と差別化](pushed-person-strategy-ai-era.md), [AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現](ai-personal-branding-influencer-strategy.md)
 - 出典: [「AI時代は、推される奴が勝つ」DMM亀山会長と川邊が語る、令和の伸びるビジネス](https://www.youtube.com/watch?v=Z_OF1ffx6PU)

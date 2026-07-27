@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/07/27 | 26/07/27 | AI, LLM, Business, YouTube | [【「Claude Fable 5」「GPT‑5.6」に性能で肉薄】「Kimi K3」開発者は「AI研究で世界一」今井翔太／Gemini 4匂わせは焦りの表れ／GPT暴走は規制の代償【AI QUEST】](https://www.youtube.com/watch?v=L5LATULmdJo) | 中国のMoonshot AIが発表した新AIモデル「Kimi K3」は、Claude Fable 5やGPT-5.6に匹敵する性能を持ち、その開発者であるYang Zhilin氏が「AI研究で世界一」と評されるほど卓越した人物であることが明らかになりました。 |
 | 26/07/23 | - | AI, Business, Career, Management, YouTube | [「AI時代は、推される奴が勝つ」DMM亀山会長と川邊が語る、令和の伸びるビジネスパーソン戦略とは？](https://www.youtube.com/watch?v=Z_OF1ffx6PU) | DMM亀山会長と元ヤフー社長の川邊氏が、AI時代におけるビジネスパーソンの成功戦略を対談。プロダクトやアウトプットが均質化する中で、「推される存在」であることの重要性を説き、川邊氏自身のYouTube戦略やAI活用事例も紹介しています。 |
 | 26/07/23 | - | AI, LLM, Business, Development | [XユーザーのDemis Hassabisさん: 「A Framework for Frontier AI and the Dawning of a New Age」 / X](https://x.com/demishassabis/status/2076957440109625718) | Demis Hassabis氏が、汎用人工知能（AGI）が数年以内に到来し、人類に新たな時代をもたらすと述べ、その影響の大きさと責任ある開発の重要性を強調しています。 |
 | 26/07/12 | - | Productivity, Career, Management, Learning, YouTube | [【しごでき対談】人生もキャリアも40代から面白くなる／疲れる前に休める人が強い／集中力の使い方で仕事は変わる【池田貴将×西原亮】](https://www.youtube.com/watch?v=zdR1hfnvap8) | 池田貴将氏と西原亮氏の対談で、40代以降のキャリアと人生を豊かにするための習慣と思考法を深掘り。体力、気力、精神力を高める具体的なアプローチと脳科学に基づいた自己改善のヒントが満載です。 |

@@ -34,7 +34,7 @@
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
       "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
       "group": "その他",
-      "value": 18
+      "value": 20
     },
     {
       "id": "ai-adoption-resistance-mitigation",
@@ -148,7 +148,7 @@
       "id": "ai-ceo-delegation-protocol",
       "label": "AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化",
       "group": "AI戦略・社会",
-      "value": 11
+      "value": 10
     },
     {
       "id": "ai-coaching-personalization-wearable-integration",
@@ -190,7 +190,7 @@
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "その他",
-      "value": 19
+      "value": 21
     },
     {
       "id": "ai-era-work-inversion",
@@ -361,10 +361,16 @@
       "value": 14
     },
     {
+      "id": "ai-talent-global-competition-manufacturing",
+      "label": "AI人材のグローバル競争と製造業への影響",
+      "group": "その他",
+      "value": 3
+    },
+    {
       "id": "ai-tool-evaluation-monthly-refresh-cycle",
       "label": "AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応",
       "group": "その他",
-      "value": 10
+      "value": 11
     },
     {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -724,13 +730,13 @@
       "id": "fde-engineer-domain-knowledge-priority-career-design",
       "label": "FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略",
       "group": "その他",
-      "value": 7
+      "value": 6
     },
     {
       "id": "gemma-llm-model-selection-manufacturing",
       "label": "Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け",
       "group": "その他",
-      "value": 8
+      "value": 7
     },
     {
       "id": "geopolitical-narrative-multidimensional-analysis",
@@ -814,7 +820,7 @@
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
@@ -839,6 +845,12 @@
       "label": "ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持",
       "group": "キャリア・働き方",
       "value": 15
+    },
+    {
+      "id": "kimi-k3-moonshot-ai-model-comparison",
+      "label": "Kimi K3とMoonshot AI：AIモデル性能比較と市場影響",
+      "group": "その他",
+      "value": 3
     },
     {
       "id": "labor-money-decoupling",
@@ -874,7 +886,7 @@
       "id": "llm-infrastructure-foundation-provider-redundancy",
       "label": "LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "llm-integration-technical-documentation-automation",
@@ -928,7 +940,7 @@
       "id": "managed-agents-interface-decoupling-design",
       "label": "Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計",
       "group": "AIエージェント設計",
-      "value": 8
+      "value": 7
     },
     {
       "id": "managed-agents-model-update-compatibility-design",
@@ -940,7 +952,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 63
+      "value": 65
     },
     {
       "id": "manufacturing-ai-quick-wins",
@@ -958,7 +970,7 @@
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 7
+      "value": 8
     },
     {
       "id": "manufacturing-email-automation-adoption-resistance",
@@ -1060,7 +1072,7 @@
       "id": "openai-anthropic-competitive-dynamics-market-shift",
       "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
@@ -1084,7 +1096,7 @@
       "id": "palantir-fde-user-centric-deployment",
       "label": "パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功",
       "group": "ビジネス・組織",
-      "value": 8
+      "value": 7
     },
     {
       "id": "personal-ai-assistant-automation-design",
@@ -1174,7 +1186,7 @@
       "id": "regional-sme-engineering-constraint-mitigation-ai-coding",
       "label": "地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応",
       "group": "その他",
-      "value": 7
+      "value": 8
     },
     {
       "id": "remote-agent-session-sharing-multi-user-operations",
@@ -4211,6 +4223,30 @@
       "to": "prompt-optimization-cost-efficiency"
     },
     {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
+    },
+    {
       "from": "ai-tool-evaluation-monthly-refresh-cycle",
       "to": "agent-harness-reliability-framework"
     },
@@ -7188,11 +7224,19 @@
     },
     {
       "from": "japan-ai-strategy-global-competition",
+      "to": "ai-talent-global-competition-manufacturing"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
       "to": "ai-tool-evaluation-monthly-refresh-cycle"
     },
     {
       "from": "japan-ai-strategy-global-competition",
       "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
     },
     {
       "from": "japan-ai-strategy-global-competition",
@@ -7357,6 +7401,38 @@
     {
       "from": "junior-engineer-retention-ai-era-succession-planning",
       "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "ai-talent-global-competition-manufacturing"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
     },
     {
       "from": "labor-money-decoupling",
@@ -9180,10 +9256,6 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "ai-ceo-delegation-protocol"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-democratization-low-cost-creation"
     },
     {
@@ -9197,6 +9269,10 @@
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-talent-global-competition-manufacturing"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -9216,23 +9292,11 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "fde-engineer-domain-knowledge-priority-career-design"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "gemma-llm-model-selection-manufacturing"
+      "to": "kimi-k3-moonshot-ai-model-comparison"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "managed-agents-cost-optimization-gtm-strategy"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "managed-agents-interface-decoupling-design"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "palantir-fde-user-centric-deployment"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
