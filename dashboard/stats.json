@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27T00:56:13+09:00",
+  "generatedAt": "2026-07-27T21:08:59+09:00",
   "weekly": {
-    "commitCount": 19,
+    "commitCount": 26,
     "byDay": [
       {
         "date": "2026-07-21",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-27",
-        "count": 0
+        "count": 7
       }
     ]
   },
@@ -37,30 +37,30 @@
     "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 1,
+    "books": 2,
     "portfolio": 0,
-    "other": 23
+    "other": 27
   },
   "recentCommits": [
     {
-      "date": "2026-07-26",
-      "message": "news: 2026-07-26 記事まとめを自動生成"
+      "date": "2026-07-27",
+      "message": "scrap整理: YouTube要約1件をアーカイブ（Kimi K3・AI開発競争）"
     },
     {
-      "date": "2026-07-26",
-      "message": "朝刊: 2026-07-25 Morning Edition生成"
+      "date": "2026-07-27",
+      "message": "dashboard: Claude使用量更新 (2026-07-27)"
     },
     {
-      "date": "2026-07-25",
-      "message": "news: 2026-07-25 記事まとめを自動生成"
+      "date": "2026-07-27",
+      "message": "dashboard: Claude使用量更新 (2026-07-27)"
     },
     {
-      "date": "2026-07-25",
-      "message": "朝刊: 2026-07-24 Morning Edition生成"
+      "date": "2026-07-27",
+      "message": "dashboard: Claude使用量更新 (2026-07-27)"
     },
     {
-      "date": "2026-07-24",
-      "message": "news: 2026-07-24 記事まとめを自動生成"
+      "date": "2026-07-27",
+      "message": "読書記録: 1件追加・更新"
     }
   ]
 }
