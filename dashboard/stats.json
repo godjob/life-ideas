@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-27T21:08:59+09:00",
+  "generatedAt": "2026-07-27T21:19:39+09:00",
   "weekly": {
-    "commitCount": 26,
+    "commitCount": 28,
     "byDay": [
       {
         "date": "2026-07-21",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-07-27",
-        "count": 7
+        "count": 9
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 2,
     "portfolio": 0,
-    "other": 27
+    "other": 29
   },
   "recentCommits": [
+    {
+      "date": "2026-07-27",
+      "message": "dashboard: Claude使用量更新 (2026-07-27)"
+    },
+    {
+      "date": "2026-07-27",
+      "message": "git_scrap: コミットメッセージの日本語判定を切り詰め後の文字列に修正"
+    },
     {
       "date": "2026-07-27",
       "message": "scrap整理: YouTube要約1件をアーカイブ（Kimi K3・AI開発競争）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-07-27",
       "message": "dashboard: Claude使用量更新 (2026-07-27)"
-    },
-    {
-      "date": "2026-07-27",
-      "message": "dashboard: Claude使用量更新 (2026-07-27)"
-    },
-    {
-      "date": "2026-07-27",
-      "message": "読書記録: 1件追加・更新"
     }
   ]
 }
