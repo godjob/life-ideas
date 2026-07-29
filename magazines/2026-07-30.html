@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Edition — 2026-07-30</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+header {
+  background: #fff;
+  border-bottom: 3px solid #1a1a1a;
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+header .masthead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #1a1a1a;
+}
+header .edition-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.hn-section { margin-bottom: 4rem; }
+.story-card {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.story-title-ja {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.story-title-en {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.story-meta {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.story-meta span::before { margin-right: 0.2em; }
+.story-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.read-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.daily-section { margin-bottom: 4rem; }
+.daily-card {
+  padding: 1.75rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.daily-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.daily-card ul { padding-left: 1.25rem; }
+.daily-card li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.3rem; }
+.daily-card p { font-size: 0.9rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .story-title-ja { font-size: 1.3rem; }
+  .card-hero, .card-midnight, .card-rose, .card-terminal,
+  .card-academic, .card-bigstat, .card-teal, .card-amber,
+  .card-slate, .card-pastel { padding: 1.5rem; }
+}
+
+.card-hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.card-hero .story-num {
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  line-height: 1;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+}
+.card-hero .story-title-ja { color: #fff; }
+.card-hero .story-title-en { color: rgba(255,255,255,0.65); }
+.card-hero .story-meta { color: rgba(255,255,255,0.75); }
+.card-hero .story-summary { color: rgba(255,255,255,0.9); }
+.card-hero .read-btn { background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+.card-hero .read-btn:hover { background: rgba(255,255,255,0.35); }
+
+
+.card-midnight {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+.card-midnight .story-num { color: #39d353; }
+.card-midnight .story-title-ja { color: #e6edf3; }
+.card-midnight .story-title-en { color: #8b949e; }
+.card-midnight .story-meta { color: #8b949e; }
+.card-midnight .story-summary { color: #c9d1d9; }
+.card-midnight .read-btn { background: #39d353; color: #0d1117; border: none; font-weight: 700; }
+.card-midnight .read-btn:hover { background: #56e56a; }
+
+
+.card-rose {
+  background: #fff0f3;
+  color: #1a0a0d;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-rose::after {
+  content: "!";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e11d48;
+  opacity: 0.2;
+  font-family: 'Fraunces', serif;
+}
+.card-rose .story-num { color: #e11d48; }
+.card-rose .story-title-ja { color: #881337; }
+.card-rose .story-title-en { color: #9f1239; opacity: 0.7; }
+.card-rose .story-meta { color: #9f1239; }
+.card-rose .story-summary { color: #3f0a16; }
+.card-rose .read-btn { background: #e11d48; color: #fff; border: none; }
+.card-rose .read-btn:hover { background: #be123c; }
+
+
+.card-terminal {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-terminal .story-num { color: #569cd6; font-family: monospace; }
+.card-terminal .story-title-ja { color: #9cdcfe; font-family: monospace; }
+.card-terminal .story-title-ja::before { content: "> "; color: #4ec9b0; }
+.card-terminal .story-title-en { color: #808080; font-family: monospace; }
+.card-terminal .story-meta { color: #6a9955; font-family: monospace; }
+.card-terminal .story-summary { color: #ce9178; font-family: monospace; }
+.card-terminal .read-btn { background: #252526; color: #4ec9b0; border: 1px solid #4ec9b0; font-family: monospace; }
+.card-terminal .read-btn:hover { background: #4ec9b0; color: #1e1e1e; }
+
+
+.card-academic {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 4px;
+  border-top: 4px solid #7b2d3c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-academic .story-num { color: #7b2d3c; font-family: 'Fraunces', serif; }
+.card-academic .story-title-ja { color: #1a1a1a; }
+.card-academic .story-title-ja::first-letter {
+  font-size: 2.5em;
+  float: left;
+  margin: 0 0.05em 0 0;
+  line-height: 0.85;
+  color: #7b2d3c;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.card-academic .story-title-en { color: #5a5a5a; }
+.card-academic .story-meta { color: #7b2d3c; }
+.card-academic .story-summary { color: #333; line-height: 1.8; }
+.card-academic .read-btn { background: #7b2d3c; color: #fff; border: none; }
+.card-academic .read-btn:hover { background: #5e2230; }
+
+
+.card-bigstat {
+  background: #fafaf9;
+  color: #1c1917;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e7e5e4;
+}
+.card-bigstat .bg-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: 900;
+  color: #f5f5f4;
+  font-family: 'Fraunces', serif;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-bigstat > *:not(.bg-score) { position: relative; z-index: 1; }
+.card-bigstat .story-num { color: #78716c; }
+.card-bigstat .story-title-ja { color: #1c1917; }
+.card-bigstat .story-title-en { color: #78716c; }
+.card-bigstat .story-meta { color: #a8a29e; }
+.card-bigstat .story-summary { color: #44403c; }
+.card-bigstat .read-btn { background: #1c1917; color: #fafaf9; border: none; }
+.card-bigstat .read-btn:hover { background: #44403c; }
+
+
+.card-teal {
+  background: #e6f4f1;
+  color: #134e4a;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 5px solid #0d9488;
+}
+.card-teal .story-num { color: #0d9488; }
+.card-teal .story-title-ja { color: #134e4a; }
+.card-teal .story-title-en { color: #2d6a65; opacity: 0.8; }
+.card-teal .story-meta { color: #0f766e; }
+.card-teal .story-summary { color: #1f5c58; }
+.card-teal .read-btn { background: #0d9488; color: #fff; border: none; }
+.card-teal .read-btn:hover { background: #0f766e; }
+
+
+.card-amber {
+  background: #fffbeb;
+  color: #1c1410;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid #f59e0b;
+}
+.card-amber .story-num { color: #d97706; }
+.card-amber .story-title-ja { color: #1c1410; }
+.card-amber .story-title-en { color: #92400e; opacity: 0.75; }
+.card-amber .story-meta { color: #b45309; }
+.card-amber .story-summary { color: #44300f; }
+.card-amber .read-btn { background: #f59e0b; color: #1c1410; border: none; font-weight: 600; }
+.card-amber .read-btn:hover { background: #d97706; color: #fff; }
+
+
+.card-slate {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #facc15;
+}
+.card-slate .story-num { color: #facc15; }
+.card-slate .story-title-ja { color: #f1f5f9; }
+.card-slate .story-title-en { color: #94a3b8; }
+.card-slate .story-meta { color: #64748b; }
+.card-slate .story-summary { color: #cbd5e1; }
+.card-slate .read-btn { background: #facc15; color: #1e293b; border: none; font-weight: 700; }
+.card-slate .read-btn:hover { background: #eab308; }
+
+
+.card-pastel {
+  background: #f8f4ff;
+  color: #1e0a3c;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #ddd6fe;
+}
+.card-pastel .story-num { color: #7c3aed; }
+.card-pastel .story-title-ja { color: #1e0a3c; }
+.card-pastel .story-title-en { color: #5b21b6; opacity: 0.7; }
+.card-pastel .story-meta { color: #6d28d9; }
+.card-pastel .story-summary { color: #2e1065; }
+.card-pastel .read-btn { background: #7c3aed; color: #fff; border: none; }
+.card-pastel .read-btn:hover { background: #6d28d9; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="masthead">Morning Edition</div>
+      <div class="edition-date">2026年7月30日 &nbsp;·&nbsp; Hacker News Daily Digest</div>
+    </div>
+  </header>
+
+  <section class="hn-section">
+    <div class="container">
+      <h2 class="section-heading">Hacker News — 本日のピック</h2>
+      
+  <div class="story-card card-hero">
+    
+    <span class="story-num">01</span>
+    <div class="story-title-ja">KOReader</div>
+    <div class="story-title-en">KOReader</div>
+    <div class="story-meta">
+      <span>▲ 639</span>
+      <span>💬 205</span>
+      <span>by Cider9986</span>
+    </div>
+    <div class="story-summary">KOReaderは、Kobo、Kindle、PocketBookなどの電子書籍リーダー向けに設計されたオープンソースのファームウェアである。PDFやDJVUを含む多様なフォーマットに対応し、高度な読書体験とカスタマイズ可能な機能を提供する。デバイスの標準ファームウェアよりも柔軟な操作を可能にする。</div>
+    <a class="read-btn" href="https://koreader.rocks/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49095865" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-midnight">
+    
+    <span class="story-num">02</span>
+    <div class="story-title-ja">HNで紹介: どんなMシリーズMacでも2GB RAMでGemma 4 26Bを動かすオープンソースエンジン</div>
+    <div class="story-title-en">Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac</div>
+    <div class="story-meta">
+      <span>▲ 592</span>
+      <span>💬 208</span>
+      <span>by gitpusher42</span>
+    </div>
+    <div class="story-summary">このプロジェクトは、Apple Mシリーズチップを搭載したMacで、わずか2GBのRAMという限られたリソースでGoogleのGemma 4 26Bモデルを実行できるオープンソースエンジン「Turbo Fieldfare」を紹介している。これにより、高性能なAIモデルをより多くのデバイスで手軽に利用できるようになる。GitHubリポジトリで詳細な情報と実装が公開されている。</div>
+    <a class="read-btn" href="https://github.com/drumih/turbo-fieldfare" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49098510" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-rose">
+    
+    <span class="story-num">03</span>
+    <div class="story-title-ja">脱獄Kindle向けのTailscale活用術</div>
+    <div class="story-title-en">More Tailscale tricks for your jailbroken Kindle</div>
+    <div class="story-meta">
+      <span>▲ 385</span>
+      <span>💬 108</span>
+      <span>by Error6571</span>
+    </div>
+    <div class="story-summary">この記事は、ジェイルブレイク（脱獄）したKindleデバイスでTailscaleをさらに活用するための具体的な方法を解説している。Kindleをプロキシとして利用したり、TUNモードでネットワーク接続を強化したりするテクニックが紹介されており、Kindleのネットワーク機能を拡張し、より柔軟な利用を可能にする。</div>
+    <a class="read-btn" href="https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49093569" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-terminal">
+    
+    <span class="story-num">04</span>
+    <div class="story-title-ja">スーパーロジカル</div>
+    <div class="story-title-en">Superlogical</div>
+    <div class="story-meta">
+      <span>▲ 458</span>
+      <span>💬 289</span>
+      <span>by yan</span>
+    </div>
+    <div class="story-summary">Superlogicalは、AIを活用したデータ分析プラットフォームを提供し、企業の成長を加速させることを目指している。ウェブサイトからは、顧客獲得、収益最適化、顧客維持といった主要なビジネス指標を改善するためのソリューションを提供していることが伺える。データに基づいた意思決定を支援し、企業の競争力向上に貢献する。</div>
+    <a class="read-btn" href="https://www.superlogical.com/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49098965" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-academic">
+    
+    <span class="story-num">05</span>
+    <div class="story-title-ja">文書を介して伝播するAIワームがCopilot for Wordを通じて自己増殖する可能性</div>
+    <div class="story-title-en">Document-borne AI worms can self-propagate through Copilot for Word</div>
+    <div class="story-meta">
+      <span>▲ 321</span>
+      <span>💬 244</span>
+      <span>by Canopy9560</span>
+    </div>
+    <div class="story-summary">この記事は、Microsoft WordのCopilotのようなAIアシスタントを悪用し、文書を通じて自己増殖するAIワームの潜在的な脅威について警告している。悪意のあるプロンプトやデータが埋め込まれた文書がAIによって処理されることで、セキュリティ上の脆弱性が生じ、情報漏洩やシステム侵害につながる可能性があることを示唆している。AIの普及に伴う新たなセキュリティリスクについて深く考察している。</div>
+    <a class="read-btn" href="https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49096188" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-bigstat">
+    <div class="bg-score">391</div>
+    <span class="story-num">06</span>
+    <div class="story-title-ja">デモシーンのユーザーインターフェース</div>
+    <div class="story-title-en">User Interfaces of the Demo Scene</div>
+    <div class="story-meta">
+      <span>▲ 391</span>
+      <span>💬 68</span>
+      <span>by zdw</span>
+    </div>
+    <div class="story-summary">この記事は、デモシーンにおけるユーザーインターフェース（UI）の進化と多様性に焦点を当てている。デモシーンとは、プログラミング、グラフィック、音楽のスキルを競い合うサブカルチャーであり、その中で生み出されたユニークなUIデザインやインタラクションの歴史と特徴を紹介している。クリエイティブな表現としてのUIデザインの側面を深く掘り下げている。</div>
+    <a class="read-btn" href="https://www.datagubbe.se/scenegui/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49093434" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-teal">
+    
+    <span class="story-num">07</span>
+    <div class="story-title-ja">物理AIにおけるGPT-5.6とClaude Fable 5の性能比較：どちらが優れているか？</div>
+    <div class="story-title-en">GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?</div>
+    <div class="story-meta">
+      <span>▲ 83</span>
+      <span>💬 18</span>
+      <span>by mbauman</span>
+    </div>
+    <div class="story-summary">この記事は、物理AIのタスクにおいて、OpenAIのGPT-5.6とAnthropicのClaude Fable 5という二つの最先端AIモデルの性能を比較評価している。シミュレーションやロボティクスといった物理世界での応用における各モデルの強みと弱みを分析し、どちらがより優れたパフォーマンスを発揮するかを検証する。フロンティアモデルの能力を実世界の問題解決に適用する際の洞察を提供する。</div>
+    <a class="read-btn" href="https://juliahub.com/blog/frontier-models-physical-ai-evaluation" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49098388" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-amber">
+    
+    <span class="story-num">08</span>
+    <div class="story-title-ja">Claude：全モデルでエラー率が上昇</div>
+    <div class="story-title-en">Claude: Elevated errors across all models</div>
+    <div class="story-meta">
+      <span>▲ 243</span>
+      <span>💬 217</span>
+      <span>by gregsadetsky</span>
+    </div>
+    <div class="story-summary">この記事は、AnthropicのAIモデル「Claude」において、全モデルでエラー率が上昇しているというシステム障害の報告である。URLはClaudeの公式ステータスページを指しており、サービスの中断やパフォーマンス低下に関する情報が提供されている。ユーザーは、このインシデントによりClaudeの利用に影響を受ける可能性がある。</div>
+    <a class="read-btn" href="https://status.claude.com/incidents/q2kg8n613kr3" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49102150" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-slate">
+    
+    <span class="story-num">09</span>
+    <div class="story-title-ja">Kimi K3-256k</div>
+    <div class="story-title-en">Kimi K3-256k</div>
+    <div class="story-meta">
+      <span>▲ 289</span>
+      <span>💬 87</span>
+      <span>by monneyboi</span>
+    </div>
+    <div class="story-summary">Kimi K3-256kは、Kimiが提供する大規模言語モデルの一つであり、特に256kという非常に長いコンテキストウィンドウを持つことが特徴である。このモデルは、大量の情報を一度に処理できるため、長文の要約、コード生成、複雑な文書分析などのタスクに強みを発揮する。開発者向けドキュメントで詳細な情報が提供されている。</div>
+    <a class="read-btn" href="https://www.kimi.com/code/docs/en/kimi-code/models" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49101852" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-pastel">
+    
+    <span class="story-num">10</span>
+    <div class="story-title-ja">AIのトップスタートアップは研究成果をほとんど公開していない</div>
+    <div class="story-title-en">AI's top startups are barely publishing their research</div>
+    <div class="story-meta">
+      <span>▲ 79</span>
+      <span>💬 57</span>
+      <span>by YeGoblynQueenne</span>
+    </div>
+    <div class="story-summary">この記事は、AI分野の主要なスタートアップ企業が、その研究成果や技術的な詳細をほとんど公開していない現状について指摘している。競争が激化するAI業界において、企業が知的財産を保護し、優位性を保つために研究の公開を控える傾向があることを示唆している。これにより、AI研究の透明性やオープンな知識共有が阻害される可能性について議論している。</div>
+    <a class="read-btn" href="https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49103285" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
