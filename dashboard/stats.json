@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T10:00:17+09:00",
+  "generatedAt": "2026-08-02T19:08:27+09:00",
   "weekly": {
-    "commitCount": 30,
+    "commitCount": 33,
     "byDay": [
       {
         "date": "2026-07-27",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-08-02",
-        "count": 11
+        "count": 14
       }
     ]
   },
@@ -39,9 +39,21 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 32
+    "other": 34
   },
   "recentCommits": [
+    {
+      "date": "2026-08-02",
+      "message": "dashboard: Claude使用量更新 (2026-08-02)"
+    },
+    {
+      "date": "2026-08-02",
+      "message": "dashboard: Claude使用量更新 (2026-08-02)"
+    },
+    {
+      "date": "2026-08-02",
+      "message": "news: 2026-08-02 記事まとめを自動生成"
+    },
     {
       "date": "2026-08-02",
       "message": "wiki: 知識グラフ更新（239ノード / 2594エッジ）"
@@ -49,18 +61,6 @@
     {
       "date": "2026-08-02",
       "message": "ideas: 2026-W31 週次まとめ自動生成"
-    },
-    {
-      "date": "2026-08-02",
-      "message": "scrap: 2026-08-02 XユーザーのSatya Nadellaさん: 「F・Kimiの創業者ヤン・ジリン氏がGTC 2026で・【Kimi K3ショックで米国AIが分裂】NVIDほか2件"
-    },
-    {
-      "date": "2026-08-02",
-      "message": "dashboard: Claude使用量更新 (2026-08-02)"
-    },
-    {
-      "date": "2026-08-02",
-      "message": "dashboard: Claude使用量更新 (2026-08-02)"
     }
   ]
 }
