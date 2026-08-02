@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-08-02T20:20:36+09:00",
+  "generatedAt": "2026-08-03T00:54:54+09:00",
   "weekly": {
-    "commitCount": 45,
+    "commitCount": 36,
     "byDay": [
-      {
-        "date": "2026-07-27",
-        "count": 9
-      },
       {
         "date": "2026-07-28",
         "count": 2
@@ -30,6 +26,10 @@
       {
         "date": "2026-08-02",
         "count": 26
+      },
+      {
+        "date": "2026-08-03",
+        "count": 0
       }
     ]
   },
