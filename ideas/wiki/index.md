@@ -1,13 +1,29 @@
 # Wiki インデックス
 
-最終更新: 2026-07-27
+最終更新: 2026-08-02
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [AIによるビジネス変革加速：広告代理店における少人数・高成長モデル](ai-accelerated-business-transformation-agency.md) | 26/08/02 | 26/08/02 | AI導入によって、少人数体制ながらも高い成長率と収益性を実現する広告代理店のビジネスモデルを解説する。クリエイティブ制作 |
+| [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md) | 26/04/17 | 26/08/02 | 製造業、特にコイルセンターなどの素材加工業における検品・在庫管理・受発注プロセスは、いまだ電話・ファックス・スプレッドシ |
+| [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md) | 26/05/12 | 26/08/02 | AIの導入は単なる業務の効率化に留まらず、AI時代の働き方の逆転をもたらし、AIマインドセット：人間は思考、AIは実行の |
+| [AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出](ai-ecosystem-orchestration-strategy.md) | 26/08/02 | 26/08/02 | AIエコシステムオーケストレーション戦略は、単一のAIモデルに依存せず、複数のフロンティアAIモデル（OpenAI, A |
+| [AI First戦略：エンタープライズ領域への深い統合と10年の進化](ai-first-strategy-enterprise-adoption.md) | 26/05/20 | 26/08/02 | Googleの「AI First」戦略は、過去10年にわたり、同社の製品群とエンタープライズソリューションの核となってき |
+| [AIフロンティア技術の普及と制御：エコシステム戦略](ai-frontier-diffusion-control.md) | 26/08/02 | 26/08/02 | AIのフロンティア技術を社会全体に普及させ、その便益を最大化するためには、技術の「普及（Diffusion）」と「制御（ |
+| [AIモデル規制と地政学：国家戦略と企業の立ち位置](ai-model-regulation-geopolitics.md) | 26/08/02 | 26/08/02 | AI技術の急速な進化は、国家間の競争と企業の戦略に大きな影響を与えています。特に、オープンモデルとクローズドモデルのどち |
+| [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md) | 26/03/08 | 26/08/02 | 「100倍エンジニア」とは、従来の「コードを書く人」ではなく「AIエージェントを指揮する人」へと進化したエンジニアのモデ |
+| [中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢](china-ai-semiconductor-geopolitics.md) | 26/08/02 | 26/08/02 | 中国のAIおよび半導体産業が急速な発展を遂げており、特に高性能AIモデル「Kimi K3」の登場と大手半導体メーカー「C |
+| [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 26/05/20 | 26/08/02 | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
+| [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md) | 26/07/27 | 26/08/02 | 中国のMoonshot AIが開発した「Kimi K3」は、AnthropicのClaude Fable 5やOpenA |
+| [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/05/03 | 26/08/02 | NVIDIA GTC 2026でのOpenClawおよびKimi創業者ヤン・ジリン氏の事例に見られるように、AIエージェ |
+| [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 26/05/03 | 26/08/02 | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
+| [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md) | 25/05/03 | 26/08/02 | Google DeepMindのCEO・デミス・ハサビスが指摘するAGI実現に向けた技術課題である「継続学習」「長期推論 |
+| [製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策](manufacturing-on-premise-ai-adoption.md) | 26/08/02 | 26/08/02 | 製造業においてAIを導入する際、機密性の高い企業データを扱うため、情報漏洩リスクの管理が最重要課題となる。近年登場したオ |
+| [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 26/03/16 | 26/08/02 | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |
+| [オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク](open-vs-closed-ai-model-strategy.md) | 26/08/02 | 26/08/02 | AI技術の急速な進化と普及に伴い、企業はAIモデルの導入において、オープンモデルとクローズドモデルのどちらを選択すべきか |
+| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/08/02 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md) | 26/07/27 | 26/07/27 | AI技術の急速な発展に伴い、世界中でAI人材の獲得競争が激化しています。特に中国発の高性能AIモデルの登場は、この競争に |
 | [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md) | 26/05/20 | 26/07/27 | AI技術が国際競争の鍵となる現代において、日本は米中両大国との間でAI開発競争に直面している。現状認識として、日本はAI |
-| [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md) | 26/07/27 | 26/07/27 | 中国のMoonshot AIが開発した「Kimi K3」は、AnthropicのClaude Fable 5やOpenA |
-| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/07/27 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md) | 26/05/03 | 26/07/23 | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで指摘した通り、現在のLLMベースのAIアーキテ |
 | [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md) | 26/07/23 | 26/07/23 | 汎用人工知能（AGI）の到来は、人類社会に未曾有の変革をもたらす可能性を秘めています。このページでは、AGIがもたらす広 |
 | [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md) | 26/05/03 | 26/07/23 | AI導入の遅延は単なる一時的な効率差ではなく、企業間の競争力格差を「取り返しがつかないレベル」にまで拡大させるメカニズム |
@@ -22,7 +38,6 @@
 | [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md) | 26/05/03 | 26/07/12 | 生成AIの真価は単なるコスト削減ではなく、誰もが低コストでコンテンツやビジネスを創出できる「民主化」にある。AIが創造的 |
 | [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md) | 26/04/21 | 26/07/12 | AIエージェントが頭脳労働を代行できる時代では、「勤勉に長時間働く」ことはAIを使いこなせていない証拠となる可能性がある |
 | [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md) | 26/04/14 | 26/07/12 | AI導入時におけるシステムの信頼性と安全性は、技術仕様だけでなく、開発リーダーの個人的動機・価値観・根底にある哲学に大き |
-| [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md) | 26/03/08 | 26/07/12 | 「100倍エンジニア」とは、従来の「コードを書く人」ではなく「AIエージェントを指揮する人」へと進化したエンジニアのモデ |
 | [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md) | 26/07/12 | 26/07/12 | ブックデザイナー井上新八氏が定義する「心の渋滞」は、毎日の意思決定の積み重ねによって生じる心理的疲労であり、この状態では |
 | [人的資本の哲学：AI時代の問い直しと本質的価値](human-capital-philosophy-ai-era.md) | 26/07/12 | 26/07/12 | AIが社会のあらゆる側面に浸透する現代において、「人的資本」の概念は根本的な問い直しを迫られています。本ページでは、山口 |
 | [AIソロプレナー時代における製造業の変革と内製化](manufacturing-in-ai-solo-era.md) | 26/07/12 | 26/07/12 | AI技術の進化は、個人の能力を飛躍的に拡張し、一人でも大規模なプロジェクトや事業を推進できる「AIソロプレナー」という新 |
@@ -31,7 +46,6 @@
 | [睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性](sleep-priority-performance-management.md) | 26/04/04 | 26/07/12 | 製造業のシステム管理など、夜間対応や長時間労働が常態化しやすい業界では、脳のパフォーマンス低下が重大な障害につながるリス |
 | [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md) | 26/04/13 | 26/07/12 | アンラーン能力とは、既存の知識や方法論を意識的に手放し、新しい問いを立てる能力を指します。AI時代において、過去の経験や |
 | [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md) | 26/04/12 | 26/07/04 | AI導入における最大の障壁は、技術的な複雑さではなく、ユーザーの心理的抵抗感にある。特に「ターミナル（黒い画面）への恐怖 |
-| [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md) | 26/04/17 | 26/07/04 | 製造業、特にコイルセンターなどの素材加工業における検品・在庫管理・受発注プロセスは、いまだ電話・ファックス・スプレッドシ |
 | [無限に働く部下としてのAI：活用と管理の原則](ai-as-infinite-subordinate-management.md) | 26/07/04 | 26/07/04 | AIを「無限に働く部下」として捉え、その活用と管理の原則を説く概念。AIが定型業務やデータ分析を代替する時代において、人 |
 | [AIによる暗黙の前提・未知の課題発見：対話型顕在化プロセス](ai-implicit-assumption-discovery.md) | 26/07/04 | 26/07/04 | AIとの協働において、人間が無意識に持つ「暗黙の前提（未知の既知）」や、まだ認識されていない「未知の課題（未知の未知）」 |
 | [AIによる自己開発と開発プロセスの劇的加速](ai-self-improvement-development-acceleration.md) | 26/07/04 | 26/07/04 | AI、特にAnthropicの最新モデル「Claude Fable 5」は、自律的に思考し、設計し、開発プロセスを劇的に |
@@ -55,7 +69,6 @@
 | [スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替](spacex-defense-infrastructure-strategy.md) | 26/04/06 | 26/05/31 | スペースXが2兆ドル企業評価に達する本質は、ロケット製造企業から防衛インフラ企業への転換にある。ウクライナ戦争でスターリ |
 | [AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避](ai-capability-evolution-design-flexibility.md) | 26/05/03 | 26/05/20 | AIモデルの能力が急速に進化する時代において、システムアーキテクチャを過度にカスタマイズするのではなく、既存の強力なツー |
 | [AI Everywhere: デバイスレベルAI統合のロードマップ](ai-everywhere-device-integration.md) | 26/05/20 | 26/05/20 | 「AI Everywhere」は、Googleが提唱するAIのデバイスレベルへの深い統合戦略であり、AI First戦略 |
-| [AI First戦略：エンタープライズ領域への深い統合と10年の進化](ai-first-strategy-enterprise-adoption.md) | 26/05/20 | 26/05/20 | Googleの「AI First」戦略は、過去10年にわたり、同社の製品群とエンタープライズソリューションの核となってき |
 | [AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感](ai-human-coexistence-risk-management.md) | 26/05/20 | 26/05/20 | AI技術の進化は、私たちの生活やビジネスにおいて不可避な存在となりつつあります。しかし、その恩恵を享受する一方で、AIへ |
 | [AIマインドセット：人間は思考、AIは実行の役割分担モデル](ai-mindset-human-thought-ai-execution.md) | 25/04/17 | 26/05/20 | AIマインドセットとは、AIを単なるオプションツールではなく業務の必須インフラとして捉え、人間が戦略的思考と判断を担当し |
 | [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md) | 26/04/14 | 26/05/20 | AI開発ツール（バイブコーディング、OpenCraw、Coworkなど）の普及により、非エンジニアも含む全社的なセキュリ |
@@ -64,7 +77,6 @@
 | [NANDフラッシュメモリ市場：AI需要による高騰と需給変化](nand-flash-memory-market-ai-demand.md) | 26/05/20 | 26/05/20 | AIエージェントの急速な普及がNANDフラッシュメモリ市場に劇的な変化をもたらしています。これにより需要が爆発的に増加し |
 | [NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント](nvidia-dominance-shift-cpu-revaluation.md) | 26/05/20 | 26/05/20 | AIエージェントの普及に伴い、半導体業界ではNVIDIAのGPU一強体制に変化の兆しが見られます。特に、電力効率の課題が |
 | [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md) | 26/05/04 | 26/05/12 | AIによるホワイトカラー業務の自動化が急速に進展する中で、システム管理業務も例外ではない。しかしAI時代の働き方の逆転に |
-| [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md) | 26/05/12 | 26/05/12 | AIの導入は単なる業務の効率化に留まらず、AI時代の働き方の逆転をもたらし、AIマインドセット：人間は思考、AIは実行の |
 | [AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理](ai-governance-human-oversight-framework.md) | 26/05/12 | 26/05/12 | AIの企業導入が加速する中で、上場会社においては、その活用による効率化と同時に、厳格なガバナンスとリスク管理が不可欠とな |
 | [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md) | 26/05/12 | 26/05/12 | AI技術の進化、特に大手AIモデル企業が直接顧客企業の現場に入り込み、FDE（現場派遣エンジニア）として受託業務を開始す |
 | [AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大](ai-model-provider-vertical-integration.md) | 26/05/12 | 26/05/12 | AIモデルプロバイダーが、単にAPIを提供するだけでなく、顧客企業に現場派遣エンジニア（FDE: Field Deplo |
@@ -96,8 +108,6 @@
 | [Claude API レート制限最適化：段階的モデル選択によるトークン効率化ワークフロー](claude-api-rate-limit-optimization-workflow.md) | 26/05/03 | 26/05/03 | Claude APIのレート制限に頻繁に直面するユーザーの多くは、モデル選択のプロセス設計を見落としている。安価なモデル |
 | [コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却](context-window-scaling-limitation-smart-extraction-architecture.md) | 26/05/03 | 26/05/03 | Google DeepMindのCEO デミス・ハサビスが指摘する「ダクトテープ的解決」とは、大規模言語モデルのコンテキ |
 | [段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計](llm-tiered-execution-pattern.md) | 26/05/03 | 26/05/03 | 段階的LLM実行パターンは、複数のLLMモデルの特性を活用して全体的なコスト効率と性能を最適化する設計手法である。大規模 |
-| [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/05/03 | 26/05/03 | NVIDIA GTC 2026でのOpenClawの事例に見られるように、AIエージェントは1ヶ月以上の連続稼働能力を持 |
-| [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 26/05/03 | 26/05/03 | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
 | [製造業のAI即日適用パターン：資料処理と修正要望の自動化](manufacturing-ai-quick-wins.md) | 26/05/03 | 26/05/03 | 製造業の現場では、AIを即座に適用できる実践的なパターンが存在します。大量の資料から構成案を自動生成する業務や、修正要望 |
 | [非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放](non-engineer-skill-development-claude-code-democratization.md) | 26/05/03 | 26/05/03 | 創業114年の地方中小企業がClaude Codeを全社員に解放したところ、営業やサポート職などの非エンジニアまでもが開 |
 | [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md) | 26/04/08 | 26/05/03 | Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除する「Caveman」プロンプトテクニックにより、 |
@@ -147,7 +157,6 @@
 | [プロンプトエンジニアリングのコモディティ化と差別化要因としてのシステムアーキテクチャ設計](commodity-prompt-engineering-vs-architecture-differentiation.md) | 26/04/13 | 26/04/13 | 2026年以降のAIエンジニアに求められるスキルの中心は、プロンプトエンジニアリングから**システムアーキテクチャ設計* |
 | [エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル](edge-ai-system-design-production-skills.md) | 26/04/13 | 26/04/13 | 2026年のAIエンジニアに求められるコアスキルは、プロンプトエンジニアリングではなく、エッジデバイス上でのAI推論シス |
 | [エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略](executive-time-arbitrage-asset-building-strategy.md) | 26/04/13 | 26/04/13 | 世界のエリートが高い時給を得ていながら「暇人」である理由は、年収を資産価値に転換する時間裁定戦略を実行しているためである |
-| [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 26/05/20 | 26/04/13 | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
 | [レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化](legacy-harness-platform-api-migration-pattern.md) | 26/04/13 | 26/04/13 | 複雑な自作ハーネスをプラットフォーム型APIに統一することで、セキュリティ・オブザーバビリティ・運用負荷の大幅な簡素化が |
 | [現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md) | 26/04/13 | 26/04/13 | 機械学習理論よりも「実際に動くものを作る6つのスキル」に集中することが、AIエンジニアとしての最短成長経路である。LLM |
 | [LLM Wiki コンセプト](llm-wiki-concept.md) | 26/03/08 | 26/04/13 | Andrej Karpathyが提唱する「LLMをWikiの維持者として使う」知識管理パターン。 |
@@ -199,7 +208,6 @@
 | [Gitワークツリーによる並列タスク処理：3-5並列作業の生産性最大化](worktree-parallel-task-workflow.md) | 26/03/20 | 26/03/20 | Git worktreeは単一リポジトリから複数の独立したワーキングディレクトリを同時に作成できる機能で、3-5程度の並 |
 | [descriptionフィールドの最適化：トリガー条件と機能説明の書き方](description-field-best-practices.md) | 26/03/08 | 26/03/18 | descriptionフィールドは、AIエージェントが自動的に適切なSkillを選択・実行するための最も重要なメタデータ |
 | [Skillのメモリアーキテクチャ：SQLite/JSONによる状態管理と自己参照型ワークフロー自動化](skill-memory-architecture-stateful-workflow.md) | 26/03/18 | 26/03/18 | Skillが単なるマークダウンファイルではなく、スクリプト・アセット・データを含むフォルダ全体として機能する際、SQLi |
-| [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 26/03/16 | 26/03/16 | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |
 | [税務会計領域のAI活用：仕訳自動化と除外ルール設計の実例](accounting-ai-domain-application.md) | 26/03/15 | 26/03/15 | 税務会計の現場でAIを活用する際、最も重要なのは「何を自動化すべきか」「何を人間が確認すべきか」の境界線を引くことである |
 | [AI取締役会による意思決定：複数モデルの意見統合と人間判断](ai-board-decision-making.md) | 26/03/15 | 26/03/15 | 重要な経営判断を1つのAIモデルに依存するのではなく、複数の異なるAIモデル（Claude、OpenAI、Geminiな |
 | [AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化](ai-ceo-delegation-protocol.md) | 26/03/15 | 26/03/15 | AIを単なる「作業実行者」として指示する関係から、経営方針を明文化して「判断を委任する」関係へと転換するプロトコルである |
@@ -224,7 +232,6 @@
 | [Claude 67コアスキル：$20サブスクリプション活用と業務プロセス標準化](claude-skill-67-core-competencies-standardization.md) | 25/05/04 | 25/05/04 | Claudeの$20/月サブスクリプションを最大活用するための67個のコアスキルを、SKILL.mdファイルで再利用可能 |
 | [LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略](llm-infrastructure-foundation-provider-redundancy.md) | 25/05/04 | 25/05/04 | Andrej Karpathyが指摘するSoftware 3.0時代において、LLMはもはや単なるツールではなく、電力網 |
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | 25/05/03 | 25/05/03 | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |
-| [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md) | 25/05/03 | 25/05/03 | Google DeepMindのCEO・デミス・ハサビスが指摘するAGI実現に向けた技術課題である「継続学習」「長期推論 |
 | [段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行](tiered-ai-model-planning-verification-execution.md) | 25/05/04 | 25/05/03 | Claude APIのレート制限に頻繁に達していたユーザーが、正しい使用方法を学ぶことで3週間以上制限に達しなくなった体 |
 | [年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し](seniority-employment-ai-debt-transition-strategy.md) | 25/04/21 | 25/04/21 | 日本の年功序列雇用制度はAI・ロボット時代において経営上の負債となりつつある。生産性と報酬が乖離し、固定費化した人員構成 |
 | [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md) | - | - | AIエージェントがCLI経由でシステムを自律操作し、ログ確認や定期メンテナンスなどのルーティン作業を自動化するパターンで |

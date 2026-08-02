@@ -10,7 +10,7 @@
       "id": "agent-harness-reliability-framework",
       "label": "エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤",
       "group": "AIエージェント設計",
-      "value": 39
+      "value": 42
     },
     {
       "id": "agentic-engineering-supervisor-model",
@@ -27,6 +27,12 @@
     {
       "id": "agi-societal-impact-responsible-development",
       "label": "AGIの社会的影響と責任ある開発",
+      "group": "その他",
+      "value": 3
+    },
+    {
+      "id": "ai-accelerated-business-transformation-agency",
+      "label": "AIによるビジネス変革加速：広告代理店における少人数・高成長モデル",
       "group": "その他",
       "value": 3
     },
@@ -64,7 +70,7 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 19
+      "value": 18
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
@@ -76,7 +82,7 @@
       "id": "ai-as-infinite-subordinate-management",
       "label": "無限に働く部下としてのAI：活用と管理の原則",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-as-scientific-instrument-verification-loop",
@@ -124,7 +130,7 @@
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "AI戦略・社会",
-      "value": 7
+      "value": 8
     },
     {
       "id": "ai-capability-expectation-calibration-realistic-timeline",
@@ -166,19 +172,25 @@
       "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
       "group": "その他",
-      "value": 12
+      "value": 13
     },
     {
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 15
+      "value": 16
     },
     {
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 15
+      "value": 16
+    },
+    {
+      "id": "ai-ecosystem-orchestration-strategy",
+      "label": "AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出",
+      "group": "その他",
+      "value": 5
     },
     {
       "id": "ai-email-native-interface-system-integration",
@@ -196,7 +208,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "AI戦略・社会",
-      "value": 30
+      "value": 31
     },
     {
       "id": "ai-everywhere-device-integration",
@@ -220,7 +232,7 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "AI戦略・社会",
-      "value": 13
+      "value": 15
     },
     {
       "id": "ai-first-strategy-enterprise-adoption",
@@ -229,10 +241,16 @@
       "value": 5
     },
     {
+      "id": "ai-frontier-diffusion-control",
+      "label": "AIフロンティア技術の普及と制御：エコシステム戦略",
+      "group": "その他",
+      "value": 3
+    },
+    {
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "その他",
-      "value": 8
+      "value": 12
     },
     {
       "id": "ai-human-coexistence-risk-management",
@@ -250,7 +268,7 @@
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-labor-market-shift-capital-strategy",
@@ -292,13 +310,19 @@
       "id": "ai-model-license-compliance-manufacturing",
       "label": "AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策",
       "group": "その他",
-      "value": 8
+      "value": 9
     },
     {
       "id": "ai-model-provider-vertical-integration",
       "label": "AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大",
       "group": "その他",
       "value": 4
+    },
+    {
+      "id": "ai-model-regulation-geopolitics",
+      "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
+      "group": "その他",
+      "value": 5
     },
     {
       "id": "ai-orchestrator-role",
@@ -334,19 +358,19 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 16
+      "value": 17
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "その他",
-      "value": 17
+      "value": 18
     },
     {
       "id": "ai-self-improvement-development-acceleration",
       "label": "AIによる自己開発と開発プロセスの劇的加速",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-solo-entrepreneurship-impact",
@@ -358,7 +382,7 @@
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 14
+      "value": 15
     },
     {
       "id": "ai-talent-global-competition-manufacturing",
@@ -394,7 +418,7 @@
       "id": "aidlc-manufacturing-requirements-definition",
       "label": "AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減",
       "group": "製造業・業務DX",
-      "value": 14
+      "value": 15
     },
     {
       "id": "anthropic-courses",
@@ -481,6 +505,12 @@
       "value": 4
     },
     {
+      "id": "china-ai-semiconductor-geopolitics",
+      "label": "中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "claude-api-rate-limit-optimization-workflow",
       "label": "Claude API レート制限最適化：段階的モデル選択によるトークン効率化ワークフロー",
       "group": "その他",
@@ -502,13 +532,13 @@
       "id": "claude-code-configuration-driven-workflow",
       "label": "Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化",
       "group": "Claude/AI開発ツール",
-      "value": 16
+      "value": 17
     },
     {
       "id": "claude-code-context-window-management",
       "label": "Claude Code 100万トークンコンテキスト管理：セッション分割とコンテキストポリューション対策",
       "group": "Claude/AI開発ツール",
-      "value": 5
+      "value": 6
     },
     {
       "id": "claude-code-rapid-app-development-side-business",
@@ -598,7 +628,7 @@
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 16
+      "value": 18
     },
     {
       "id": "cms-plugin-sandbox-security-architecture",
@@ -664,13 +694,13 @@
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 17
+      "value": 16
     },
     {
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "その他",
-      "value": 25
+      "value": 26
     },
     {
       "id": "description-field-best-practices",
@@ -736,13 +766,13 @@
       "id": "gemma-llm-model-selection-manufacturing",
       "label": "Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け",
       "group": "その他",
-      "value": 7
+      "value": 8
     },
     {
       "id": "geopolitical-narrative-multidimensional-analysis",
       "label": "地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 6
     },
     {
       "id": "git-hooks-security-defense",
@@ -772,7 +802,7 @@
       "id": "harness-engineering-autonomous-development",
       "label": "ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン",
       "group": "Claude/AI開発ツール",
-      "value": 9
+      "value": 11
     },
     {
       "id": "hook-design-patterns-ai-workflow",
@@ -820,7 +850,7 @@
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
       "group": "その他",
-      "value": 6
+      "value": 8
     },
     {
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
@@ -850,7 +880,7 @@
       "id": "kimi-k3-moonshot-ai-model-comparison",
       "label": "Kimi K3とMoonshot AI：AIモデル性能比較と市場影響",
       "group": "その他",
-      "value": 3
+      "value": 9
     },
     {
       "id": "labor-money-decoupling",
@@ -886,7 +916,7 @@
       "id": "llm-infrastructure-foundation-provider-redundancy",
       "label": "LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略",
       "group": "その他",
-      "value": 7
+      "value": 11
     },
     {
       "id": "llm-integration-technical-documentation-automation",
@@ -910,7 +940,7 @@
       "id": "local-llm-api-cost-elimination-strategy",
       "label": "ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 7
+      "value": 8
     },
     {
       "id": "local-llm-deployment-architecture",
@@ -952,25 +982,25 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 65
+      "value": 68
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 34
+      "value": 35
     },
     {
       "id": "manufacturing-automation-cost-disruption",
       "label": "製造業自動化コストの劇的低下：経営判断能力へのシフト",
       "group": "製造業・業務DX",
-      "value": 12
+      "value": 13
     },
     {
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 8
+      "value": 9
     },
     {
       "id": "manufacturing-email-automation-adoption-resistance",
@@ -982,7 +1012,13 @@
       "id": "manufacturing-in-ai-solo-era",
       "label": "AIソロプレナー時代における製造業の変革と内製化",
       "group": "製造業・業務DX",
-      "value": 2
+      "value": 3
+    },
+    {
+      "id": "manufacturing-on-premise-ai-adoption",
+      "label": "製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策",
+      "group": "製造業・業務DX",
+      "value": 4
     },
     {
       "id": "manufacturing-system-vulnerability-preemptive-audit",
@@ -1018,13 +1054,13 @@
       "id": "multi-agent-pipeline-error-handling-checkpoint",
       "label": "マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン",
       "group": "AIエージェント設計",
-      "value": 18
+      "value": 19
     },
     {
       "id": "multi-agent-task-dependency-management",
       "label": "マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消",
       "group": "AIエージェント設計",
-      "value": 29
+      "value": 30
     },
     {
       "id": "multi-session-lifecycle-continuous-monitoring",
@@ -1036,13 +1072,13 @@
       "id": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "label": "マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画",
       "group": "その他",
-      "value": 3
+      "value": 5
     },
     {
       "id": "nand-flash-memory-market-ai-demand",
       "label": "NANDフラッシュメモリ市場：AI需要による高騰と需給変化",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "non-engineer-ai-tool-development",
@@ -1054,13 +1090,13 @@
       "id": "non-engineer-skill-development-claude-code-democratization",
       "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
       "group": "Claude/AI開発ツール",
-      "value": 13
+      "value": 14
     },
     {
       "id": "nvidia-dominance-shift-cpu-revaluation",
       "label": "NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント",
       "group": "その他",
-      "value": 3
+      "value": 6
     },
     {
       "id": "onboarding-friction-design-saas-growth",
@@ -1069,10 +1105,16 @@
       "value": 6
     },
     {
+      "id": "open-vs-closed-ai-model-strategy",
+      "label": "オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク",
+      "group": "その他",
+      "value": 7
+    },
+    {
       "id": "openai-anthropic-competitive-dynamics-market-shift",
       "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
       "group": "その他",
-      "value": 6
+      "value": 9
     },
     {
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
@@ -1252,7 +1294,7 @@
       "id": "skill-system",
       "label": "Skill System：フォルダ単位のClaudeへの命令セット",
       "group": "Claude/AI開発ツール",
-      "value": 38
+      "value": 39
     },
     {
       "id": "skill-testing-strategy",
@@ -1318,7 +1360,7 @@
       "id": "system-development-velocity-acceleration-ai-tools",
       "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
       "group": "その他",
-      "value": 8
+      "value": 10
     },
     {
       "id": "task-delegation-automation-decision-framework",
@@ -1635,6 +1677,30 @@
       "to": "singularity-loop-ai-self-acceleration"
     },
     {
+      "from": "ai-accelerated-business-transformation-agency",
+      "to": "ai-as-infinite-subordinate-management"
+    },
+    {
+      "from": "ai-accelerated-business-transformation-agency",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "ai-accelerated-business-transformation-agency",
+      "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "ai-accelerated-business-transformation-agency",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "ai-accelerated-business-transformation-agency",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "ai-accelerated-business-transformation-agency",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "agi-societal-impact-responsible-development"
     },
@@ -1849,6 +1915,10 @@
     {
       "from": "ai-agent-operations",
       "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "ai-agent-operations",
+      "to": "ai-accelerated-business-transformation-agency"
     },
     {
       "from": "ai-agent-operations",
@@ -2832,6 +2902,10 @@
     },
     {
       "from": "ai-driven-workflow-reengineering",
+      "to": "ai-accelerated-business-transformation-agency"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
     },
     {
@@ -2872,11 +2946,23 @@
     },
     {
       "from": "ai-driven-workflow-reengineering",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
       "to": "domain-expertise-ai-boundary-design"
     },
     {
       "from": "ai-driven-workflow-reengineering",
       "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
+      "to": "manufacturing-in-ai-solo-era"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "ai-driven-workflow-reengineering",
@@ -2893,6 +2979,38 @@
     {
       "from": "ai-driven-workflow-reengineering",
       "to": "workflow-skill-definition"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "ai-frontier-diffusion-control"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "open-vs-closed-ai-model-strategy"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
+      "from": "ai-ecosystem-orchestration-strategy",
+      "to": "skill-system"
     },
     {
       "from": "ai-email-native-interface-system-integration",
@@ -3244,6 +3362,10 @@
     },
     {
       "from": "ai-first-strategy-enterprise-adoption",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "ai-first-strategy-enterprise-adoption",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
     },
     {
@@ -3260,7 +3382,15 @@
     },
     {
       "from": "ai-first-strategy-enterprise-adoption",
+      "to": "ai-ecosystem-orchestration-strategy"
+    },
+    {
+      "from": "ai-first-strategy-enterprise-adoption",
       "to": "ai-everywhere-device-integration"
+    },
+    {
+      "from": "ai-first-strategy-enterprise-adoption",
+      "to": "ai-frontier-diffusion-control"
     },
     {
       "from": "ai-first-strategy-enterprise-adoption",
@@ -3281,6 +3411,34 @@
     {
       "from": "ai-first-strategy-enterprise-adoption",
       "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
+      "from": "ai-frontier-diffusion-control",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "ai-frontier-diffusion-control",
+      "to": "ai-capability-evolution-design-flexibility"
+    },
+    {
+      "from": "ai-frontier-diffusion-control",
+      "to": "ai-ecosystem-orchestration-strategy"
+    },
+    {
+      "from": "ai-frontier-diffusion-control",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-frontier-diffusion-control",
+      "to": "ai-workflow-adoption-customer-onsite-support-model"
+    },
+    {
+      "from": "ai-frontier-diffusion-control",
+      "to": "harness-engineering-autonomous-development"
+    },
+    {
+      "from": "ai-frontier-diffusion-control",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
     },
     {
       "from": "ai-governance-human-oversight-framework",
@@ -3783,6 +3941,50 @@
       "to": "self-directed-learning-ai-era-survival-strategy"
     },
     {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "ai-model-license-compliance-manufacturing"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "open-vs-closed-ai-model-strategy"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
       "from": "ai-orchestrator-role",
       "to": "agentic-engineering-supervisor-model"
     },
@@ -3792,7 +3994,15 @@
     },
     {
       "from": "ai-orchestrator-role",
+      "to": "ai-ecosystem-orchestration-strategy"
+    },
+    {
+      "from": "ai-orchestrator-role",
       "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "ai-orchestrator-role",
+      "to": "ai-frontier-diffusion-control"
     },
     {
       "from": "ai-orchestrator-role",
@@ -4941,6 +5151,34 @@
     {
       "from": "ceo-technical-background-operational-excellence",
       "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "ai-self-improvement-development-acceleration"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "nand-flash-memory-market-ai-demand"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "open-vs-closed-ai-model-strategy"
     },
     {
       "from": "claude-api-rate-limit-optimization-workflow",
@@ -6784,6 +7022,10 @@
     },
     {
       "from": "geopolitical-narrative-multidimensional-analysis",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "geopolitical-narrative-multidimensional-analysis",
       "to": "automation-efficiency-dividend-work-reduction"
     },
     {
@@ -6808,7 +7050,15 @@
     },
     {
       "from": "geopolitical-narrative-multidimensional-analysis",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "geopolitical-narrative-multidimensional-analysis",
       "to": "midlife-crisis-reframing-opportunity"
+    },
+    {
+      "from": "geopolitical-narrative-multidimensional-analysis",
+      "to": "open-vs-closed-ai-model-strategy"
     },
     {
       "from": "geopolitical-narrative-multidimensional-analysis",
@@ -7420,6 +7670,10 @@
     },
     {
       "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
       "to": "llm-infrastructure-foundation-provider-redundancy"
     },
     {
@@ -7432,7 +7686,19 @@
     },
     {
       "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "open-vs-closed-ai-model-strategy"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
       "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
+      "from": "kimi-k3-moonshot-ai-model-comparison",
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "labor-money-decoupling",
@@ -8136,10 +8402,6 @@
     },
     {
       "from": "long-running-ai-agent-design-patterns",
-      "to": "local-llm-deployment-architecture"
-    },
-    {
-      "from": "long-running-ai-agent-design-patterns",
       "to": "managed-agents-interface-decoupling-design"
     },
     {
@@ -8157,6 +8419,10 @@
     {
       "from": "long-running-ai-agent-design-patterns",
       "to": "multi-session-lifecycle-continuous-monitoring"
+    },
+    {
+      "from": "long-running-ai-agent-design-patterns",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
     },
     {
       "from": "managed-agents-cost-optimization-gtm-strategy",
@@ -8300,11 +8566,11 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "ai-agent-operations"
+      "to": "ai-accelerated-business-transformation-agency"
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "ai-agent-permission-model-least-privilege"
+      "to": "ai-agent-operations"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -8332,10 +8598,6 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "data-integration-visualization-manufacturing-application"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "government-energy-policy-monitoring"
     },
     {
@@ -8349,6 +8611,10 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "multi-agent-task-dependency-management"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -8532,6 +8798,10 @@
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "llm-integration-technical-documentation-automation"
     },
     {
@@ -8553,6 +8823,10 @@
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "multi-agent-pipeline-error-handling-checkpoint"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "multi-agent-task-dependency-management"
     },
     {
       "from": "manufacturing-email-automation-adoption-resistance",
@@ -8637,6 +8911,54 @@
     {
       "from": "manufacturing-in-ai-solo-era",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "claude-code-configuration-driven-workflow"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "geopolitical-narrative-multidimensional-analysis"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "open-vs-closed-ai-model-strategy"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "manufacturing-system-vulnerability-preemptive-audit",
@@ -8908,7 +9230,43 @@
     },
     {
       "from": "multi-agent-task-dependency-management",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "ai-system-monitoring-cost-visibility-tools"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
       "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "claude-code-agent-teams"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "claude-code-context-window-management"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "harness-engineering-autonomous-development"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "multi-agent-task-dependency-management",
+      "to": "multi-agent-pipeline-error-handling-checkpoint"
     },
     {
       "from": "multi-session-lifecycle-continuous-monitoring",
@@ -9251,12 +9609,80 @@
       "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "ai-ecosystem-orchestration-strategy"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "aidlc-manufacturing-requirements-definition"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "gemma-llm-model-selection-manufacturing"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "local-llm-api-cost-elimination-strategy"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-budget-management-roi-optimization"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-ecosystem-orchestration-strategy"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-governance-human-oversight-framework"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -9268,7 +9694,7 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "ai-security-non-engineer-governance-framework"
+      "to": "ai-model-regulation-geopolitics"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -9276,15 +9702,7 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "ai-workflow-adoption-customer-onsite-support-model"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "as-little-ai-as-possible-principle"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "claude-code-agent-teams"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -9297,6 +9715,10 @@
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "managed-agents-cost-optimization-gtm-strategy"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "open-vs-closed-ai-model-strategy"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",

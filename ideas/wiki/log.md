@@ -1,5 +1,25 @@
 # Wiki 更新ログ
 
+## [2026-08-02] ingest | 「10秒」で作ったLP売上1.5億!?｜AI導入後、少人数×10倍速で事業が進む広告代理店に密着
+- 更新ページ: [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AIによるビジネス変革加速：広告代理店における少人数・高成長モデル](ai-accelerated-business-transformation-agency.md)
+- 出典: [「10秒」で作ったLP売上1.5億!?｜AI導入後、少人数×10倍速で事業が進む](https://youtu.be/M_7dsc8Naig?si=nc6OtFxQbThu9oZ)
+
+## [2026-08-02] ingest | 【ハイテク株直撃】中国AIショック Kimi K3が変えるAI勢力図／アメリカの最新モデルに追いつい
+- 更新ページ: [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md), [オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク](open-vs-closed-ai-model-strategy.md), [AIモデル規制と地政学：国家戦略と企業の立ち位置](ai-model-regulation-geopolitics.md), [中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢](china-ai-semiconductor-geopolitics.md), [製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策](manufacturing-on-premise-ai-adoption.md)
+- 出典: [【ハイテク株直撃】中国AIショック Kimi K3が変えるAI勢力図／アメリカの](https://youtu.be/JdJpuUDv8dU?si=A-TivYq_KMGXkxc_)
+
+## [2026-08-02] ingest | 【Kimi K3ショックで米国AIが分裂】NVIDIA CEO「オープンモデル禁止するな」OpenA
+- 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出](ai-ecosystem-orchestration-strategy.md), [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md), [オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク](open-vs-closed-ai-model-strategy.md), [AIモデル規制と地政学：国家戦略と企業の立ち位置](ai-model-regulation-geopolitics.md)
+- 出典: [【Kimi K3ショックで米国AIが分裂】NVIDIA CEO「オープンモデル禁](https://youtu.be/HyoYUiVO4k?si=GwAP5FWrAVsyMF1)
+
+## [2026-08-02] ingest | Kimi Founder Yang Zhilin's full GTC 2026 keynote
+- 更新ページ: [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md), [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md), [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md)
+- 出典: [Kimi Founder Yang Zhilin's full GTC 2026](https://www.youtube.com/watch?v=5CkCW1P-g88)
+
+## [2026-08-02] ingest | XユーザーのSatya Nadellaさん: 「Frontier Diffusion & Contr
+- 更新ページ: [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md), [AI First戦略：エンタープライズ領域への深い統合と10年の進化](ai-first-strategy-enterprise-adoption.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AIフロンティア技術の普及と制御：エコシステム戦略](ai-frontier-diffusion-control.md), [AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出](ai-ecosystem-orchestration-strategy.md)
+- 出典: [XユーザーのSatya Nadellaさん: 「Frontier Diffusi](https://x.com/satyanadella/status/2080329851127669104)
+
 ## [2026-07-27] ingest | 【「Claude Fable 5」「GPT‑5.6」に性能で肉薄】「Kimi K3」開発者は「AI研
 - 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md), [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md)
 - 出典: [【「Claude Fable 5」「GPT‑5.6」に性能で肉薄】「Kimi K](https://www.youtube.com/watch?v=L5LATULmdJo)
