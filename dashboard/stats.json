@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T19:41:38+09:00",
+  "generatedAt": "2026-08-02T20:20:36+09:00",
   "weekly": {
-    "commitCount": 38,
+    "commitCount": 45,
     "byDay": [
       {
         "date": "2026-07-27",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-08-02",
-        "count": 19
+        "count": 26
       }
     ]
   },
   "byDirectory": {
     "scrap": 1,
     "ideas": 1,
-    "health": 0,
+    "health": 1,
     "books": 1,
     "portfolio": 0,
-    "other": 39
+    "other": 45
   },
   "recentCommits": [
     {
       "date": "2026-08-02",
-      "message": "CLAUDE.md: git scrap の全フロー共通の前後処理を追加"
+      "message": "health: HYROX参戦検討メモとトレーニング計画を追加"
     },
     {
       "date": "2026-08-02",
