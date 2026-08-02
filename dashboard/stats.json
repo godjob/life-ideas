@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T19:08:27+09:00",
+  "generatedAt": "2026-08-02T19:41:38+09:00",
   "weekly": {
-    "commitCount": 33,
+    "commitCount": 38,
     "byDay": [
       {
         "date": "2026-07-27",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-08-02",
-        "count": 14
+        "count": 19
       }
     ]
   },
@@ -39,11 +39,19 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 34
+    "other": 39
   },
   "recentCommits": [
     {
       "date": "2026-08-02",
+      "message": "CLAUDE.md: git scrap の全フロー共通の前後処理を追加"
+    },
+    {
+      "date": "2026-08-02",
+      "message": "dashboard: Claude使用量更新 (2026-08-02)"
+    },
+    {
+      "date": "2026-08-02",
       "message": "dashboard: Claude使用量更新 (2026-08-02)"
     },
     {
@@ -52,15 +60,7 @@
     },
     {
       "date": "2026-08-02",
-      "message": "news: 2026-08-02 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-08-02",
-      "message": "wiki: 知識グラフ更新（239ノード / 2594エッジ）"
-    },
-    {
-      "date": "2026-08-02",
-      "message": "ideas: 2026-W31 週次まとめ自動生成"
+      "message": "dashboard: Claude使用量更新 (2026-08-02)"
     }
   ]
 }
