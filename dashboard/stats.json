@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-08-05T01:46:58+09:00",
+  "generatedAt": "2026-08-06T01:26:53+09:00",
   "weekly": {
     "commitCount": 36,
     "byDay": [
-      {
-        "date": "2026-07-30",
-        "count": 2
-      },
       {
         "date": "2026-07-31",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-08-05",
+        "count": 2
+      },
+      {
+        "date": "2026-08-06",
         "count": 0
       }
     ]
@@ -37,11 +37,19 @@
     "scrap": 1,
     "ideas": 1,
     "health": 1,
-    "books": 1,
+    "books": 0,
     "portfolio": 0,
-    "other": 45
+    "other": 39
   },
   "recentCommits": [
+    {
+      "date": "2026-08-05",
+      "message": "news: 2026-08-05 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-08-05",
+      "message": "朝刊: 2026-08-04 Morning Edition生成"
+    },
     {
       "date": "2026-08-04",
       "message": "news: 2026-08-04 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-08-03",
       "message": "news: 2026-08-03 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-08-03",
-      "message": "朝刊: 2026-08-02 Morning Edition生成"
-    },
-    {
-      "date": "2026-08-02",
-      "message": "health: HYROX参戦検討メモとトレーニング計画を追加"
     }
   ]
 }
