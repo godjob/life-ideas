@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-12T20:19:51+09:00",
+  "generatedAt": "2026-08-12T21:17:11+09:00",
   "weekly": {
-    "commitCount": 26,
+    "commitCount": 34,
     "byDay": [
       {
         "date": "2026-08-06",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-08-12",
-        "count": 14
+        "count": 22
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 28
+    "other": 36
   },
   "recentCommits": [
     {
       "date": "2026-08-12",
-      "message": "CLAUDE.md: git scrap にYouTubeクリップ変換ルールを追加"
+      "message": "docker-run.sh: --update オプションを追加（イメージ再ビルドでClaude Code更新）"
     },
     {
       "date": "2026-08-12",
