@@ -17,8 +17,11 @@
 | [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md) | 26/05/05 | 26/08/12 | Claude Codeを活用することで、プログラミングの基礎知識がなくても数日でWebアプリケーションを開発・販売できる |
 | [デジタル赤字と国家安全保障リスク](digital-deficit-national-security-risk.md) | 26/08/12 | 26/08/12 | デジタル赤字は、AIモデルや基幹システムの海外依存により、国家が計算能力とそれに伴う知的資産の蓄積を失うことで発生します |
 | [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md) | 26/05/03 | 26/08/12 | AIの価値は「技術的な優秀さ」ではなく「実務的な正しさ」にある。現場の専門知識を持つ人間が「何を自動化すべきか」「何を人 |
+| [イノベーションと生産性が国家競争力に与える影響](innovation-productivity-national-competitiveness.md) | 26/08/12 | 26/08/12 | イノベーションと生産性の向上は、国家が「中進国の罠」を回避し、持続的な経済成長と国際競争力を確立するために不可欠な要素で |
 | [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md) | 26/05/20 | 26/08/12 | AI技術が国際競争の鍵となる現代において、日本は米中両大国との間でAI開発競争に直面している。現状認識として、日本はAI |
 | [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md) | 26/08/12 | 26/08/12 | 日本の人口減少と労働力不足による社会システム機能不全が加速する中で、既存インフラの効率化と高度な維持管理スキルの価値が飛 |
+| [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 26/05/03 | 26/08/12 | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
+| [中進国の罠と製造業戦略](middle-income-trap-manufacturing-strategy.md) | 26/08/12 | 26/08/12 | 中進国の罠とは、発展途上国が一定の経済成長を達成した後、先進国へ移行できずに停滞してしまう現象を指します。この罠から脱却 |
 | [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md) | 26/04/08 | 26/08/12 | エンジニアリングスキルがなくても、AIとの協働によってツール開発を実現し、継続的に改善していくことは可能です。このページ |
 | [プロンプトエンジニアリングの製造業応用](prompt-engineering-manufacturing-application.md) | 26/08/12 | 26/08/12 | プロンプトエンジニアリングは、AIに対する適切な指示出しを通じて、目的とするシステムやツールを構築する技術です。プログラ |
 | [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md) | 26/04/13 | 26/08/12 | アンラーン能力とは、既存の知識や方法論を意識的に手放し、新しい問いを立てる能力を指します。AI時代において、過去の経験や |
@@ -33,7 +36,6 @@
 | [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 26/05/20 | 26/08/02 | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
 | [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md) | 26/07/27 | 26/08/02 | 中国のMoonshot AIが開発した「Kimi K3」は、AnthropicのClaude Fable 5やOpenA |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/05/03 | 26/08/02 | NVIDIA GTC 2026でのOpenClawおよびKimi創業者ヤン・ジリン氏の事例に見られるように、AIエージェ |
-| [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md) | 26/05/03 | 26/08/02 | 製造業のAI活用はまだ黎明期であり、特にコイルセンターのような素材加工業をはじめとした中堅・中小製造企業には大きな機会が |
 | [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md) | 25/05/03 | 26/08/02 | Google DeepMindのCEO・デミス・ハサビスが指摘するAGI実現に向けた技術課題である「継続学習」「長期推論 |
 | [製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策](manufacturing-on-premise-ai-adoption.md) | 26/08/02 | 26/08/02 | 製造業においてAIを導入する際、機密性の高い企業データを扱うため、情報漏洩リスクの管理が最重要課題となる。近年登場したオ |
 | [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 26/03/16 | 26/08/02 | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |

@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-08-12] ingest | 【なぜ大半の中進国は先進国になれないか？】ピカピカの首都に日本人は騙される／中進国の罠／グローバル製
+- 更新ページ: [先進国の再定義：計算能力とエネルギー生産力](advanced-nation-redefinition-energy-calculation.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [中進国の罠と製造業戦略](middle-income-trap-manufacturing-strategy.md), [イノベーションと生産性が国家競争力に与える影響](innovation-productivity-national-competitiveness.md)
+- 出典: [【なぜ大半の中進国は先進国になれないか？】ピカピカの首都に日本人は騙される／中進](https://www.youtube.com/watch?v=-_dOEy6eZlI)
+
 ## [2026-08-12] ingest | 「コードは一行も書いていない」　アイドルの宮本佳林さん、AIで配信システムを丸ごと構築　“技術ブログ
 - 更新ページ: [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md), [プログラミング経験なしのAIによるシステム構築](ai-assisted-system-building-non-programmers.md), [プロンプトエンジニアリングの製造業応用](prompt-engineering-manufacturing-application.md)
 - 出典: [「コードは一行も書いていない」　アイドルの宮本佳林さん、AIで配信システムを丸ご](https://www.itmedia.co.jp/news/article/2608/03/2000000362/)

@@ -10,7 +10,7 @@
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
       "group": "その他",
-      "value": 4
+      "value": 6
     },
     {
       "id": "agent-harness-reliability-framework",
@@ -40,13 +40,13 @@
       "id": "ai-accelerated-business-transformation-agency",
       "label": "AIによるビジネス変革加速：広告代理店における少人数・高成長モデル",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
       "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
       "group": "その他",
-      "value": 20
+      "value": 22
     },
     {
       "id": "ai-adoption-resistance-mitigation",
@@ -208,7 +208,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 18
+      "value": 19
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
@@ -232,7 +232,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "AI戦略・社会",
-      "value": 30
+      "value": 32
     },
     {
       "id": "ai-everywhere-device-integration",
@@ -274,7 +274,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "その他",
-      "value": 12
+      "value": 13
     },
     {
       "id": "ai-human-coexistence-risk-management",
@@ -877,6 +877,12 @@
       "value": 10
     },
     {
+      "id": "innovation-productivity-national-competitiveness",
+      "label": "イノベーションと生産性が国家競争力に与える影響",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "Claude/AI開発ツール",
@@ -1018,7 +1024,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 69
+      "value": 71
     },
     {
       "id": "manufacturing-ai-quick-wins",
@@ -1079,6 +1085,12 @@
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "その他",
       "value": 9
+    },
+    {
+      "id": "middle-income-trap-manufacturing-strategy",
+      "label": "中進国の罠と製造業戦略",
+      "group": "製造業・業務DX",
+      "value": 4
     },
     {
       "id": "midlife-crisis-reframing-opportunity",
@@ -1354,7 +1366,7 @@
       "id": "smile-curve-strategy",
       "label": "スマイルカーブの終焉と『コ』の字型社会：製造業の戦略的転換",
       "group": "ビジネス・組織",
-      "value": 10
+      "value": 11
     },
     {
       "id": "software-paradigm-evolution-1-0-2-0-3-0",
@@ -1396,7 +1408,7 @@
       "id": "strengths-leverage-task-design-productivity-multiplication",
       "label": "強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "system-development-velocity-acceleration-ai-tools",
@@ -1528,6 +1540,10 @@
     },
     {
       "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
       "to": "japan-ai-strategy-global-competition"
     },
     {
@@ -1537,6 +1553,10 @@
     {
       "from": "advanced-nation-redefinition-energy-calculation",
       "to": "labor-money-decoupling"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "middle-income-trap-manufacturing-strategy"
     },
     {
       "from": "advanced-nation-redefinition-energy-calculation",
@@ -7715,6 +7735,34 @@
       "to": "openai-anthropic-competitive-dynamics-market-shift"
     },
     {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "ai-accelerated-business-transformation-agency"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "middle-income-trap-manufacturing-strategy"
+    },
+    {
       "from": "instruction-design-three-elements",
       "to": "claude-md-governance"
     },
@@ -7780,6 +7828,10 @@
     },
     {
       "from": "japan-ai-strategy-global-competition",
+      "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
       "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
     },
     {
@@ -7789,6 +7841,10 @@
     {
       "from": "japan-ai-strategy-global-competition",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
+      "to": "middle-income-trap-manufacturing-strategy"
     },
     {
       "from": "japan-ai-strategy-global-competition",
@@ -8908,11 +8964,19 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "labor-money-decoupling"
     },
     {
       "from": "manufacturing-ai-opportunities",
       "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "middle-income-trap-manufacturing-strategy"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -9473,6 +9537,38 @@
     {
       "from": "meta-skills-ai-era",
       "to": "unlearning-capability-ai-era-competition"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "smile-curve-strategy"
+    },
+    {
+      "from": "middle-income-trap-manufacturing-strategy",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
       "from": "midlife-crisis-reframing-opportunity",
