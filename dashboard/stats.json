@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-12T18:15:32+09:00",
+  "generatedAt": "2026-08-12T18:43:55+09:00",
   "weekly": {
-    "commitCount": 18,
+    "commitCount": 20,
     "byDay": [
       {
         "date": "2026-08-06",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-08-12",
-        "count": 6
+        "count": 8
       }
     ]
   },
   "byDirectory": {
-    "scrap": 0,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 21
+    "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-08-12",
+      "message": "wiki: 知識グラフ更新（246ノード / 2671エッジ）"
+    },
+    {
+      "date": "2026-08-12",
+      "message": "scrap: 2026-08-12 【「AIは使う側次第」で仕事を10倍効率化できる】・【日本は先進国から転落するのか？】先進国の新定義／・【AIエージェントブーム後の世界。一流は頭をこう使ほか1件"
+    },
     {
       "date": "2026-08-12",
       "message": "読書記録: 1件追加・更新"
@@ -53,14 +61,6 @@
     {
       "date": "2026-08-12",
       "message": "dashboard: Claude使用量更新 (2026-08-12)"
-    },
-    {
-      "date": "2026-08-12",
-      "message": "dashboard: Claude使用量更新 (2026-08-12)"
-    },
-    {
-      "date": "2026-08-12",
-      "message": "news: 2026-08-12 記事まとめを自動生成"
     }
   ]
 }
