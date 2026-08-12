@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-08-12] ingest | 【日本は先進国から転落するのか？】先進国の新定義／値札が二重に／日本より欧州が危ない／制度or資本×
+- 更新ページ: [先進国の再定義：計算能力とエネルギー生産力](advanced-nation-redefinition-energy-calculation.md), [デジタル赤字と国家安全保障リスク](digital-deficit-national-security-risk.md), [イノベーションと生産性が国家競争力に与える影響](innovation-productivity-national-competitiveness.md), [日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス](japan-ai-robot-social-implementation.md), [エネルギー政策とイノベーションへの規制の影響：欧州の事例から学ぶ](energy-policy-innovation-regulation-impact.md)
+- 出典: [【日本は先進国から転落するのか？】先進国の新定義／値札が二重に／日本より欧州が危](https://www.youtube.com/watch?v=On7Y8iJBF3c)
+
 ## [2026-08-12] ingest | 【なぜ大半の中進国は先進国になれないか？】ピカピカの首都に日本人は騙される／中進国の罠／グローバル製
 - 更新ページ: [先進国の再定義：計算能力とエネルギー生産力](advanced-nation-redefinition-energy-calculation.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [中進国の罠と製造業戦略](middle-income-trap-manufacturing-strategy.md), [イノベーションと生産性が国家競争力に与える影響](innovation-productivity-national-competitiveness.md)
 - 出典: [【なぜ大半の中進国は先進国になれないか？】ピカピカの首都に日本人は騙される／中進](https://www.youtube.com/watch?v=-_dOEy6eZlI)

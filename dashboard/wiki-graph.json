@@ -10,7 +10,7 @@
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "agent-harness-reliability-framework",
@@ -52,7 +52,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 52
+      "value": 53
     },
     {
       "id": "ai-agent-cli-automation-pattern",
@@ -208,7 +208,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 19
+      "value": 20
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
@@ -292,7 +292,7 @@
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
       "group": "その他",
-      "value": 7
+      "value": 9
     },
     {
       "id": "ai-labor-market-shift-capital-strategy",
@@ -304,7 +304,7 @@
       "id": "ai-labor-policy-governance-framework",
       "label": "AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止",
       "group": "AI戦略・社会",
-      "value": 12
+      "value": 13
     },
     {
       "id": "ai-leader-values-philosophy-reliability-foundation",
@@ -364,7 +364,7 @@
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AI戦略・社会",
-      "value": 6
+      "value": 7
     },
     {
       "id": "ai-powered-web-production-flow",
@@ -430,7 +430,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 11
+      "value": 12
     },
     {
       "id": "ai-unknowns-identification-strategy",
@@ -658,7 +658,7 @@
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 19
+      "value": 20
     },
     {
       "id": "cms-plugin-sandbox-security-architecture",
@@ -742,7 +742,7 @@
       "id": "digital-deficit-national-security-risk",
       "label": "デジタル赤字と国家安全保障リスク",
       "group": "その他",
-      "value": 4
+      "value": 7
     },
     {
       "id": "document-format-conversion-markdown-standardization",
@@ -767,6 +767,12 @@
       "label": "エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル",
       "group": "技術実装・エンジニアリング",
       "value": 11
+    },
+    {
+      "id": "energy-policy-innovation-regulation-impact",
+      "label": "エネルギー政策とイノベーションへの規制の影響：欧州の事例から学ぶ",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "environment-engineering",
@@ -832,7 +838,7 @@
       "id": "government-energy-policy-monitoring",
       "label": "政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡",
       "group": "ビジネス・組織",
-      "value": 4
+      "value": 6
     },
     {
       "id": "harness-engineering-autonomous-development",
@@ -856,7 +862,7 @@
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "incomplete-content-handling-knowledge-quality-control",
@@ -880,7 +886,7 @@
       "id": "innovation-productivity-national-competitiveness",
       "label": "イノベーションと生産性が国家競争力に与える影響",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "instruction-design-three-elements",
@@ -889,16 +895,22 @@
       "value": 25
     },
     {
+      "id": "japan-ai-robot-social-implementation",
+      "label": "日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス",
+      "group": "その他",
+      "value": 3
+    },
+    {
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
       "group": "その他",
-      "value": 10
+      "value": 11
     },
     {
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
       "label": "日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上",
       "group": "その他",
-      "value": 15
+      "value": 16
     },
     {
       "id": "jaxa-space-strategy-fund",
@@ -1024,13 +1036,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 71
+      "value": 72
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 36
+      "value": 37
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -1060,7 +1072,7 @@
       "id": "manufacturing-on-premise-ai-adoption",
       "label": "製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策",
       "group": "製造業・業務DX",
-      "value": 4
+      "value": 5
     },
     {
       "id": "manufacturing-system-vulnerability-preemptive-audit",
@@ -1532,6 +1544,10 @@
     },
     {
       "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "energy-policy-innovation-regulation-impact"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
       "to": "government-energy-policy-monitoring"
     },
     {
@@ -1541,6 +1557,10 @@
     {
       "from": "advanced-nation-redefinition-energy-calculation",
       "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "japan-ai-robot-social-implementation"
     },
     {
       "from": "advanced-nation-redefinition-energy-calculation",
@@ -6916,6 +6936,14 @@
     },
     {
       "from": "digital-deficit-national-security-risk",
+      "to": "energy-policy-innovation-regulation-impact"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "japan-ai-robot-social-implementation"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
       "to": "japan-ai-strategy-global-competition"
     },
     {
@@ -7121,6 +7149,26 @@
     {
       "from": "edge-ai-system-design-production-skills",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "energy-policy-innovation-regulation-impact",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "energy-policy-innovation-regulation-impact",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "energy-policy-innovation-regulation-impact",
+      "to": "digital-deficit-national-security-risk"
+    },
+    {
+      "from": "energy-policy-innovation-regulation-impact",
+      "to": "government-energy-policy-monitoring"
+    },
+    {
+      "from": "energy-policy-innovation-regulation-impact",
+      "to": "innovation-productivity-national-competitiveness"
     },
     {
       "from": "environment-engineering",
@@ -7756,6 +7804,22 @@
     },
     {
       "from": "innovation-productivity-national-competitiveness",
+      "to": "digital-deficit-national-security-risk"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "energy-policy-innovation-regulation-impact"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "japan-ai-robot-social-implementation"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "innovation-productivity-national-competitiveness",
       "to": "manufacturing-ai-opportunities"
     },
     {
@@ -7785,6 +7849,66 @@
     {
       "from": "instruction-design-three-elements",
       "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "ai-labor-policy-governance-framework"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "digital-deficit-national-security-risk"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "energy-policy-innovation-regulation-impact"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "government-energy-policy-monitoring"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "manufacturing-on-premise-ai-adoption"
     },
     {
       "from": "japan-ai-strategy-global-competition",
