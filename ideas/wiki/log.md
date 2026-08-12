@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-08-12] ingest | 「コードは一行も書いていない」　アイドルの宮本佳林さん、AIで配信システムを丸ごと構築　“技術ブログ
+- 更新ページ: [AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト](ai-democratization-low-cost-creation.md), [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル](claude-code-rapid-app-development-side-business.md), [プログラミング経験なしのAIによるシステム構築](ai-assisted-system-building-non-programmers.md), [プロンプトエンジニアリングの製造業応用](prompt-engineering-manufacturing-application.md)
+- 出典: [「コードは一行も書いていない」　アイドルの宮本佳林さん、AIで配信システムを丸ご](https://www.itmedia.co.jp/news/article/2608/03/2000000362/)
+
+## [2026-08-12] ingest | 【AIエージェントブーム後の世界。一流は頭をこう使う】専門知識がより重要に／生産性とスピードの価値は
+- 更新ページ: [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md), [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md), [AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造](ai-era-work-inversion.md), [AIエージェント時代における品質と深い洞察：人間の役割と専門知識の価値](ai-agent-quality-deep-insight-human-role.md), [AI生成コンテンツにおける品質と量の価値：水増し長文の無意味化](ai-content-quality-vs-quantity-value.md)
+- 出典: [【AIエージェントブーム後の世界。一流は頭をこう使う】専門知識がより重要に／生産](https://www.youtube.com/watch?v=YWtlT2GviQY)
+
+## [2026-08-12] ingest | 【日本は先進国から転落するのか？】先進国の新定義／値札が二重に／日本より欧州が危ない／制度or資本×
+- 更新ページ: [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md), [AIモデル規制と地政学：国家戦略と企業の立ち位置](ai-model-regulation-geopolitics.md), [先進国の再定義：計算能力とエネルギー生産力](advanced-nation-redefinition-energy-calculation.md), [デジタル赤字と国家安全保障リスク](digital-deficit-national-security-risk.md)
+- 出典: [【日本は先進国から転落するのか？】先進国の新定義／値札が二重に／日本より欧州が危](https://www.youtube.com/watch?v=On7Y8iJBF3c)
+
+## [2026-08-12] ingest | 【「AIは使う側次第」で仕事を10倍効率化できる】AI回答を「無条件に受け入れるな」／読解に手を抜か
+- 更新ページ: [無限に働く部下としてのAI：活用と管理の原則](ai-as-infinite-subordinate-management.md), [AIマインドセット：人間は思考、AIは実行の役割分担モデル](ai-mindset-human-thought-ai-execution.md), [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md), [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md)
+- 出典: [【「AIは使う側次第」で仕事を10倍効率化できる】AI回答を「無条件に受け入れる](https://www.youtube.com/watch?v=WMbWfy4VEUY)
+
 ## [2026-08-02] ingest | 「10秒」で作ったLP売上1.5億!?｜AI導入後、少人数×10倍速で事業が進む広告代理店に密着
 - 更新ページ: [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AIによるビジネス変革加速：広告代理店における少人数・高成長モデル](ai-accelerated-business-transformation-agency.md)
 - 出典: [「10秒」で作ったLP売上1.5億!?｜AI導入後、少人数×10倍速で事業が進む](https://youtu.be/M_7dsc8Naig?si=nc6OtFxQbThu9oZ)

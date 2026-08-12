@@ -7,6 +7,12 @@
       "value": 2
     },
     {
+      "id": "advanced-nation-redefinition-energy-calculation",
+      "label": "先進国の再定義：計算能力とエネルギー生産力",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "agent-harness-reliability-framework",
       "label": "エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤",
       "group": "AIエージェント設計",
@@ -46,7 +52,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 51
+      "value": 52
     },
     {
       "id": "ai-agent-cli-automation-pattern",
@@ -58,7 +64,7 @@
       "id": "ai-agent-governance-human-criteria",
       "label": "AIエージェント組織のガバナンスと人間による選別基準設計",
       "group": "AIエージェント設計",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-agent-operations",
@@ -70,7 +76,13 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 18
+      "value": 19
+    },
+    {
+      "id": "ai-agent-quality-deep-insight-human-role",
+      "label": "AIエージェント時代における品質と深い洞察：人間の役割と専門知識の価値",
+      "group": "AIエージェント設計",
+      "value": 4
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
@@ -89,6 +101,12 @@
       "label": "科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見",
       "group": "その他",
       "value": 8
+    },
+    {
+      "id": "ai-assisted-system-building-non-programmers",
+      "label": "プログラミング経験なしのAIによるシステム構築",
+      "group": "その他",
+      "value": 3
     },
     {
       "id": "ai-automation-system-admin-differentiation-strategy",
@@ -160,7 +178,7 @@
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-content-pipeline-differentiation",
@@ -169,22 +187,28 @@
       "value": 3
     },
     {
+      "id": "ai-content-quality-vs-quantity-value",
+      "label": "AI生成コンテンツにおける品質と量の価値：水増し長文の無意味化",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
       "group": "その他",
-      "value": 13
+      "value": 15
     },
     {
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 16
+      "value": 17
     },
     {
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 16
+      "value": 18
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
@@ -208,13 +232,13 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "AI戦略・社会",
-      "value": 31
+      "value": 30
     },
     {
       "id": "ai-everywhere-device-integration",
       "label": "AI Everywhere: デバイスレベルAI統合のロードマップ",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-expert-ensemble-prompting",
@@ -232,13 +256,13 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "AI戦略・社会",
-      "value": 15
+      "value": 17
     },
     {
       "id": "ai-first-strategy-enterprise-adoption",
       "label": "AI First戦略：エンタープライズ領域への深い統合と10年の進化",
       "group": "その他",
-      "value": 5
+      "value": 4
     },
     {
       "id": "ai-frontier-diffusion-control",
@@ -268,13 +292,13 @@
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 9
+      "value": 11
     },
     {
       "id": "ai-labor-policy-governance-framework",
@@ -304,7 +328,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "その他",
-      "value": 14
+      "value": 16
     },
     {
       "id": "ai-model-license-compliance-manufacturing",
@@ -322,7 +346,7 @@
       "id": "ai-model-regulation-geopolitics",
       "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
       "group": "その他",
-      "value": 5
+      "value": 7
     },
     {
       "id": "ai-orchestrator-role",
@@ -352,13 +376,13 @@
       "id": "ai-prompt-engineering-leadership-career",
       "label": "AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略",
       "group": "プロンプト・AI活用",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 17
+      "value": 18
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
@@ -370,7 +394,7 @@
       "id": "ai-self-improvement-development-acceleration",
       "label": "AIによる自己開発と開発プロセスの劇的加速",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "ai-solo-entrepreneurship-impact",
@@ -388,7 +412,7 @@
       "id": "ai-talent-global-competition-manufacturing",
       "label": "AI人材のグローバル競争と製造業への影響",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "ai-tool-evaluation-monthly-refresh-cycle",
@@ -397,10 +421,16 @@
       "value": 11
     },
     {
+      "id": "ai-understanding-resolution-human-value",
+      "label": "AI時代の理解力・解像度と人間が磨くべき価値",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 10
+      "value": 11
     },
     {
       "id": "ai-unknowns-identification-strategy",
@@ -436,7 +466,7 @@
       "id": "approval-workflow-simplification-competitive-advantage",
       "label": "承認フロー簡素化と権限委譲設計：複雑さ排除による組織の自己防御メカニズム",
       "group": "ビジネス・組織",
-      "value": 14
+      "value": 15
     },
     {
       "id": "as-little-ai-as-possible-principle",
@@ -532,7 +562,7 @@
       "id": "claude-code-configuration-driven-workflow",
       "label": "Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化",
       "group": "Claude/AI開発ツール",
-      "value": 17
+      "value": 16
     },
     {
       "id": "claude-code-context-window-management",
@@ -544,7 +574,7 @@
       "id": "claude-code-rapid-app-development-side-business",
       "label": "Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル",
       "group": "Claude/AI開発ツール",
-      "value": 12
+      "value": 13
     },
     {
       "id": "claude-code-skill-design-gotchas",
@@ -628,7 +658,7 @@
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 18
+      "value": 19
     },
     {
       "id": "cms-plugin-sandbox-security-architecture",
@@ -658,7 +688,7 @@
       "id": "creator-intuition-driven-design-philosophy",
       "label": "クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "crypto-asset-tax-guideline",
@@ -670,7 +700,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 22
+      "value": 23
     },
     {
       "id": "custom-tool-development-ai-empowerment",
@@ -688,13 +718,13 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "健康・習慣",
-      "value": 21
+      "value": 20
     },
     {
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 16
+      "value": 17
     },
     {
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
@@ -709,6 +739,12 @@
       "value": 7
     },
     {
+      "id": "digital-deficit-national-security-risk",
+      "label": "デジタル赤字と国家安全保障リスク",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "document-format-conversion-markdown-standardization",
       "label": "ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上",
       "group": "製造業・業務DX",
@@ -718,7 +754,7 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "その他",
-      "value": 35
+      "value": 36
     },
     {
       "id": "domain-expertise-digital-product-monetization",
@@ -730,7 +766,7 @@
       "id": "edge-ai-system-design-production-skills",
       "label": "エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル",
       "group": "技術実装・エンジニアリング",
-      "value": 9
+      "value": 11
     },
     {
       "id": "environment-engineering",
@@ -796,7 +832,7 @@
       "id": "government-energy-policy-monitoring",
       "label": "政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡",
       "group": "ビジネス・組織",
-      "value": 3
+      "value": 4
     },
     {
       "id": "harness-engineering-autonomous-development",
@@ -838,25 +874,25 @@
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
       "group": "資産・投資",
-      "value": 9
+      "value": 10
     },
     {
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "Claude/AI開発ツール",
-      "value": 24
+      "value": 25
     },
     {
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
       "group": "その他",
-      "value": 8
+      "value": 10
     },
     {
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
       "label": "日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上",
       "group": "その他",
-      "value": 13
+      "value": 15
     },
     {
       "id": "jaxa-space-strategy-fund",
@@ -886,7 +922,7 @@
       "id": "labor-money-decoupling",
       "label": "労働とお金の切り離し：AI自動化による収益化プロセスの構造化",
       "group": "その他",
-      "value": 15
+      "value": 16
     },
     {
       "id": "legacy-code-debt-system-capability-mismatch",
@@ -982,13 +1018,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 68
+      "value": 69
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 35
+      "value": 36
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -1042,7 +1078,7 @@
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "その他",
-      "value": 8
+      "value": 9
     },
     {
       "id": "midlife-crisis-reframing-opportunity",
@@ -1078,13 +1114,13 @@
       "id": "nand-flash-memory-market-ai-demand",
       "label": "NANDフラッシュメモリ市場：AI需要による高騰と需給変化",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "その他",
-      "value": 14
+      "value": 17
     },
     {
       "id": "non-engineer-skill-development-claude-code-democratization",
@@ -1186,19 +1222,25 @@
       "id": "prompt-clarity-management-feedback-loop",
       "label": "プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上",
       "group": "プロンプト・AI活用",
-      "value": 15
+      "value": 16
+    },
+    {
+      "id": "prompt-engineering-manufacturing-application",
+      "label": "プロンプトエンジニアリングの製造業応用",
+      "group": "製造業・業務DX",
+      "value": 4
     },
     {
       "id": "prompt-optimization-cost-efficiency",
       "label": "プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略",
       "group": "プロンプト・AI活用",
-      "value": 12
+      "value": 13
     },
     {
       "id": "prompt-template-iteration-testing-framework",
       "label": "プロンプトテンプレートの反復検証フレームワーク：5時間の調整プロセスと組織的スケーリング",
       "group": "その他",
-      "value": 6
+      "value": 5
     },
     {
       "id": "pushed-person-strategy-ai-era",
@@ -1210,13 +1252,13 @@
       "id": "qms-style-ai-prompt-governance",
       "label": "QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用",
       "group": "製造業・業務DX",
-      "value": 38
+      "value": 39
     },
     {
       "id": "quantified-self-ai-feedback-loop",
       "label": "量的自己記録とAI分析の相乗効果：データ資産化と継続的改善",
       "group": "個人OS・知識管理",
-      "value": 21
+      "value": 20
     },
     {
       "id": "rapid-iteration-learning-loop-operational-design",
@@ -1240,7 +1282,7 @@
       "id": "rethinking-defaults-continuous-improvement",
       "label": "当たり前の問い直し：継続的改善と哲学的な視点",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "satellite-constellation-internet-infrastructure",
@@ -1252,7 +1294,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 32
+      "value": 33
     },
     {
       "id": "seniority-employment-ai-debt-transition-strategy",
@@ -1264,7 +1306,7 @@
       "id": "singularity-loop-ai-self-acceleration",
       "label": "シンギュラリティループ：AIが自律的に進化を加速させるメカニズム",
       "group": "AI戦略・社会",
-      "value": 9
+      "value": 10
     },
     {
       "id": "skill-creator-automation",
@@ -1324,7 +1366,7 @@
       "id": "space-economy-business-model",
       "label": "宇宙経済とビジネスモデル：衛星コンステレーション・通信・地球観測",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "space-life-support-technology",
@@ -1336,7 +1378,7 @@
       "id": "spacex-defense-infrastructure-strategy",
       "label": "スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替",
       "group": "ビジネス・組織",
-      "value": 9
+      "value": 10
     },
     {
       "id": "speed-first-prototyping",
@@ -1360,13 +1402,13 @@
       "id": "system-development-velocity-acceleration-ai-tools",
       "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
       "group": "その他",
-      "value": 10
+      "value": 11
     },
     {
       "id": "task-delegation-automation-decision-framework",
       "label": "タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク",
       "group": "その他",
-      "value": 12
+      "value": 11
     },
     {
       "id": "tiered-ai-model-planning-verification-execution",
@@ -1396,7 +1438,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 12
+      "value": 13
     },
     {
       "id": "video-content-metadata-collection-strategy",
@@ -1420,7 +1462,7 @@
       "id": "wellness-eq-capital-ai-era-competitive-advantage",
       "label": "ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位",
       "group": "健康・習慣",
-      "value": 14
+      "value": 13
     },
     {
       "id": "workflow-skill-definition",
@@ -1451,6 +1493,78 @@
     {
       "from": "accounting-ai-domain-application",
       "to": "quantified-self-ai-feedback-loop"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "approval-workflow-simplification-competitive-advantage"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "digital-deficit-national-security-risk"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "government-energy-policy-monitoring"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "labor-money-decoupling"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "nand-flash-memory-market-ai-demand"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "rethinking-defaults-continuous-improvement"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "singularity-loop-ai-self-acceleration"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "space-economy-business-model"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "spacex-defense-infrastructure-strategy"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "agent-harness-reliability-framework",
@@ -2033,6 +2147,38 @@
       "to": "organizational-ai-adoption-acceleration-topdown-directive"
     },
     {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "ai-content-quality-vs-quantity-value"
+    },
+    {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-agent-quality-deep-insight-human-role",
+      "to": "non-engineer-ai-tool-development"
+    },
+    {
       "from": "ai-agent-token-metrics-career-leverage",
       "to": "ai-agent-operations"
     },
@@ -2071,6 +2217,14 @@
     {
       "from": "ai-as-infinite-subordinate-management",
       "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "ai-as-infinite-subordinate-management",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "ai-as-infinite-subordinate-management",
+      "to": "ai-understanding-resolution-human-value"
     },
     {
       "from": "ai-as-infinite-subordinate-management",
@@ -2155,6 +2309,38 @@
     {
       "from": "ai-as-scientific-instrument-verification-loop",
       "to": "multi-agent-task-dependency-management"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "ai-self-improvement-development-acceleration"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "prompt-clarity-management-feedback-loop"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "prompt-engineering-manufacturing-application"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
@@ -2765,6 +2951,30 @@
       "to": "organizational-dysfunction-sabotage-pattern-recognition"
     },
     {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "ai-agent-governance-human-criteria"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "ai-agent-quality-deep-insight-human-role"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
       "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "to": "agent-harness-reliability-framework"
     },
@@ -2842,7 +3052,7 @@
     },
     {
       "from": "ai-democratization-low-cost-creation",
-      "to": "ai-era-work-inversion"
+      "to": "ai-assisted-system-building-non-programmers"
     },
     {
       "from": "ai-democratization-low-cost-creation",
@@ -2870,10 +3080,6 @@
     },
     {
       "from": "ai-democratization-low-cost-creation",
-      "to": "domain-expertise-ai-boundary-design"
-    },
-    {
-      "from": "ai-democratization-low-cost-creation",
       "to": "domain-expertise-digital-product-monetization"
     },
     {
@@ -2890,15 +3096,11 @@
     },
     {
       "from": "ai-democratization-low-cost-creation",
-      "to": "prompt-template-iteration-testing-framework"
+      "to": "prompt-engineering-manufacturing-application"
     },
     {
       "from": "ai-democratization-low-cost-creation",
       "to": "system-development-velocity-acceleration-ai-tools"
-    },
-    {
-      "from": "ai-democratization-low-cost-creation",
-      "to": "task-delegation-automation-decision-framework"
     },
     {
       "from": "ai-driven-workflow-reengineering",
@@ -3162,6 +3364,10 @@
     },
     {
       "from": "ai-era-work-inversion",
+      "to": "ai-agent-quality-deep-insight-human-role"
+    },
+    {
+      "from": "ai-era-work-inversion",
       "to": "ai-as-infinite-subordinate-management"
     },
     {
@@ -3171,6 +3377,10 @@
     {
       "from": "ai-era-work-inversion",
       "to": "ai-book-authoring-acceleration-pattern"
+    },
+    {
+      "from": "ai-era-work-inversion",
+      "to": "ai-content-quality-vs-quantity-value"
     },
     {
       "from": "ai-era-work-inversion",
@@ -3235,10 +3445,6 @@
     {
       "from": "ai-era-work-inversion",
       "to": "sleep-priority-performance-management"
-    },
-    {
-      "from": "ai-era-work-inversion",
-      "to": "wellness-eq-capital-ai-era-competitive-advantage"
     },
     {
       "from": "ai-everywhere-device-integration",
@@ -3842,10 +4048,6 @@
     },
     {
       "from": "ai-mindset-human-thought-ai-execution",
-      "to": "ai-first-strategy-enterprise-adoption"
-    },
-    {
-      "from": "ai-mindset-human-thought-ai-execution",
       "to": "ai-tool-evaluation-monthly-refresh-cycle"
     },
     {
@@ -3942,6 +4144,10 @@
     },
     {
       "from": "ai-model-regulation-geopolitics",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
       "to": "ai-governance-human-oversight-framework"
     },
     {
@@ -3951,6 +4157,10 @@
     {
       "from": "ai-model-regulation-geopolitics",
       "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "digital-deficit-national-security-risk"
     },
     {
       "from": "ai-model-regulation-geopolitics",
@@ -4523,6 +4733,50 @@
     {
       "from": "ai-tool-evaluation-monthly-refresh-cycle",
       "to": "software-paradigm-evolution-1-0-2-0-3-0"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-agent-quality-deep-insight-human-role"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-content-quality-vs-quantity-value"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-everywhere-device-integration"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "creator-intuition-driven-design-philosophy"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "crystallized-intelligence-ai-era-strategy"
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -5454,15 +5708,7 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
-      "to": "ai-era-work-inversion"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
-      "to": "claude-code-configuration-driven-workflow"
-    },
-    {
-      "from": "claude-code-rapid-app-development-side-business",
-      "to": "daily-habit-routine-design-productivity-multiplication"
+      "to": "ai-assisted-system-building-non-programmers"
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
@@ -5490,7 +5736,7 @@
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
-      "to": "quantified-self-ai-feedback-loop"
+      "to": "prompt-engineering-manufacturing-application"
     },
     {
       "from": "claude-code-rapid-app-development-side-business",
@@ -6625,6 +6871,38 @@
       "to": "skill-system"
     },
     {
+      "from": "digital-deficit-national-security-risk",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "ai-talent-global-competition-manufacturing"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
       "from": "document-format-conversion-markdown-standardization",
       "to": "book-metadata-completion-system"
     },
@@ -6690,7 +6968,15 @@
     },
     {
       "from": "domain-expertise-ai-boundary-design",
+      "to": "ai-agent-quality-deep-insight-human-role"
+    },
+    {
+      "from": "domain-expertise-ai-boundary-design",
       "to": "ai-as-scientific-instrument-verification-loop"
+    },
+    {
+      "from": "domain-expertise-ai-boundary-design",
+      "to": "ai-content-quality-vs-quantity-value"
     },
     {
       "from": "domain-expertise-ai-boundary-design",
@@ -7454,6 +7740,10 @@
     },
     {
       "from": "japan-ai-strategy-global-competition",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
     },
     {
@@ -7482,7 +7772,15 @@
     },
     {
       "from": "japan-ai-strategy-global-competition",
+      "to": "digital-deficit-national-security-risk"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
       "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
+      "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
     },
     {
       "from": "japan-ai-strategy-global-competition",
@@ -7495,6 +7793,10 @@
     {
       "from": "japan-ai-strategy-global-competition",
       "to": "unlearning-capability-ai-era-competition"
+    },
+    {
+      "from": "japan-demographic-crisis-infrastructure-maintenance-strategy",
+      "to": "advanced-nation-redefinition-energy-calculation"
     },
     {
       "from": "japan-demographic-crisis-infrastructure-maintenance-strategy",
@@ -7527,6 +7829,10 @@
     {
       "from": "japan-demographic-crisis-infrastructure-maintenance-strategy",
       "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "japan-demographic-crisis-infrastructure-maintenance-strategy",
+      "to": "digital-deficit-national-security-risk"
     },
     {
       "from": "japan-demographic-crisis-infrastructure-maintenance-strategy",
@@ -9490,6 +9796,10 @@
     },
     {
       "from": "non-engineer-ai-tool-development",
+      "to": "prompt-engineering-manufacturing-application"
+    },
+    {
+      "from": "non-engineer-ai-tool-development",
       "to": "skill-system"
     },
     {
@@ -10287,6 +10597,42 @@
     {
       "from": "prompt-clarity-management-feedback-loop",
       "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "ai-assisted-system-building-non-programmers"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "ai-prompt-engineering-leadership-career"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "prompt-optimization-cost-efficiency"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "qms-style-ai-prompt-governance"
     },
     {
       "from": "prompt-optimization-cost-efficiency",
@@ -11647,6 +11993,10 @@
     {
       "from": "unlearning-capability-ai-era-competition",
       "to": "ai-failure-log"
+    },
+    {
+      "from": "unlearning-capability-ai-era-competition",
+      "to": "ai-understanding-resolution-human-value"
     },
     {
       "from": "unlearning-capability-ai-era-competition",
