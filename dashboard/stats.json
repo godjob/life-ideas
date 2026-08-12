@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-12T21:17:11+09:00",
+  "generatedAt": "2026-08-12T21:52:22+09:00",
   "weekly": {
-    "commitCount": 34,
+    "commitCount": 37,
     "byDay": [
       {
         "date": "2026-08-06",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-08-12",
-        "count": 22
+        "count": 25
       }
     ]
   },
@@ -39,24 +39,24 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 36
+    "other": 39
   },
   "recentCommits": [
     {
       "date": "2026-08-12",
+      "message": "Dockerfile: Claude Code のインストールを最終層に移動して --update を高速化"
+    },
+    {
+      "date": "2026-08-12",
+      "message": "dashboard: Claude使用量更新 (2026-08-12)"
+    },
+    {
+      "date": "2026-08-12",
+      "message": "dashboard: Claude使用量更新 (2026-08-12)"
+    },
+    {
+      "date": "2026-08-12",
       "message": "docker-run.sh: --update オプションを追加（イメージ再ビルドでClaude Code更新）"
-    },
-    {
-      "date": "2026-08-12",
-      "message": "dashboard: Claude使用量更新 (2026-08-12)"
-    },
-    {
-      "date": "2026-08-12",
-      "message": "dashboard: Claude使用量更新 (2026-08-12)"
-    },
-    {
-      "date": "2026-08-12",
-      "message": "dashboard: Claude使用量更新 (2026-08-12)"
     },
     {
       "date": "2026-08-12",
