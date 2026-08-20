@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-20T00:22:32+09:00",
+  "generatedAt": "2026-08-20T21:49:54+09:00",
   "weekly": {
-    "commitCount": 12,
+    "commitCount": 18,
     "byDay": [
       {
         "date": "2026-08-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-08-20",
-        "count": 0
+        "count": 6
       }
     ]
   },
@@ -37,30 +37,30 @@
     "scrap": 3,
     "ideas": 0,
     "health": 0,
-    "books": 1,
+    "books": 2,
     "portfolio": 0,
-    "other": 44
+    "other": 47
   },
   "recentCommits": [
     {
-      "date": "2026-08-19",
-      "message": "news: 2026-08-19 記事まとめを自動生成"
+      "date": "2026-08-20",
+      "message": "読書記録: 1件追加・更新"
     },
     {
-      "date": "2026-08-19",
-      "message": "朝刊: 2026-08-18 Morning Edition生成"
+      "date": "2026-08-20",
+      "message": "dashboard: Claude使用量更新 (2026-08-20)"
     },
     {
-      "date": "2026-08-18",
-      "message": "news: 2026-08-18 記事まとめを自動生成"
+      "date": "2026-08-20",
+      "message": "dashboard: Claude使用量更新 (2026-08-20)"
     },
     {
-      "date": "2026-08-18",
-      "message": "朝刊: 2026-08-17 Morning Edition生成"
+      "date": "2026-08-20",
+      "message": "dashboard: Claude使用量更新 (2026-08-20)"
     },
     {
-      "date": "2026-08-17",
-      "message": "news: 2026-08-17 記事まとめを自動生成"
+      "date": "2026-08-20",
+      "message": "news: 2026-08-20 記事まとめを自動生成"
     }
   ]
 }
