@@ -3,10 +3,13 @@
 ## 概要
 AIエージェントが自律的に連携・監視し合う「エージェント組織」は、人間組織と同様のガバナンス原則で設計可能です。特に、大量のコンテンツ生成をAIに任せる場合、人間は「選別基準の設計」という高次元のタスクに注力し、AIの出力品質と倫理性を確保することが重要です。
 
+AIエージェントの導入にあたっては、ローカル環境での一時的な流行に惑わされず、セキュリティ、ガバナンス、そして運用負荷の観点から、~~クラウドベースの集中管理型ソリューションを検討すべきです。~~ [AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ](ai-agent-boom-end-human-core-strength.md)を深く理解し、その根本原理と長期的な運用持続性を考慮した設計が不可欠です。
+
 ## 主要な知見
 - AIエージェントが別のエージェントを監視・管理する「エージェント組織」は、[マルチエージェントパイプラインのエラーハンドリングとチェックポイント](multi-agent-pipeline-error-handling-checkpoint.md)や[マルチエージェントのタスク依存関係管理](multi-agent-task-dependency-management.md)といった概念を含め、人間の組織設計と同じ原則が適用できます。これにより、[AIマネージドサービス設計](ai-managed-service-operational-design.md)の信頼性とスケーラビリティが向上します。
 - 大量コンテンツ生成はAIに任せ、人間は「選別基準の設計」に注力するのが現時点の最適分担です。この「選別基準の設計」は、[AIガバナンスと人間監視フレームワーク](ai-governance-human-oversight-framework.md)の中核をなし、[AIの『創造性』『自己内省』限界と人間判断の必須性](ai-creativity-self-reflection-limitation-human-judgment-necessity.md)を補完します。
-- パイプライン設計こそが差別化要因であり、ツールの使い方より「どう繋ぐか」が重要です。これは[AIコンテンツ生成パイプラインの差別化戦略](ai-content-pipeline-differentiation.md)や[commodity-prompt-engineering-vs-architecture-differentiation](commodity-prompt-engineering-vs-architecture-differentiation.md)の核心であり、[AI前提の業務フロー再設計](ai-driven-workflow-reengineering.md)において競争優位性を確立します。
+- パイプライン設計こそが差別化要因であり、ツールの使い方より「どう繋ぐか」が重要です。これは[AIコンテンツ生成パイプラインの差別化戦略](ai-content-pipeline-differentiation.md)や[プロンプトエンジニアリングのコモディティ化と差別化要因としてのシステムアーキテクチャ設計](commodity-prompt-engineering-vs-architecture-differentiation.md)の核心であり、[AI前提の業務フロー再設計](ai-driven-workflow-reengineering.md)において競争優位性を確立します。
+- AIエージェントの導入と運用においては、AIを「並列で回す」という表面的な利用ではなく、その根本原理を深く理解し、インプットに時間をかける「本体力」が長期的なキャリア形成に不可欠です。特に、[SREエージェントによるインシデント自動化：製造業への応用](sre-agent-incident-automation-manufacturing.md)のように、インシデント対応のような定型化された高負荷作業にAIソリューションを適用することで、専門エンジニアの負荷軽減と、より高度な問題解決への集中を促すことが可能になります。
 
 ## 関連ページ
 - [AIエージェントの運用展開](ai-agent-operations.md): 検品・在庫管理・受発注の自動化におけるエージェント組織の適用例。
@@ -15,6 +18,9 @@ AIエージェントが自律的に連携・監視し合う「エージェント
 - [AIマネージドサービス設計](ai-managed-service-operational-design.md): AIエージェントの組織設計における信頼性、監視、ロールバック機能の優先順位付けについて説明。
 - [マルチエージェントパイプラインのエラーハンドリングとチェックポイント](multi-agent-pipeline-error-handling-checkpoint.md): エージェント組織の信頼性を高めるための具体的な設計パターン。
 - [マルチエージェントのタスク依存関係管理](multi-agent-task-dependency-management.md): 複数のAIエージェントが連携する際のタスク管理と競合解消について解説。
+- [AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ](ai-agent-boom-end-human-core-strength.md): AIエージェントの長期的な導入戦略における運用負荷、セキュリティ、ガバナンスの重要性を解説。
+- [SREエージェントによるインシデント自動化：製造業への応用](sre-agent-incident-automation-manufacturing.md): SREエージェントがインシデント対応を自動化する具体的な事例と製造業への応用可能性を説明。
 
 ## 更新履歴
 - 2026-05-31: [AIはAIに管理させる？天才のAIエージェント活用法│自動で選別＆動画作成│エー](https://www.youtube.com/watch?v=H0JfyY-MYFA)
+- 2026-08-20: [【牛尾剛が断言】コーディングAIエージェントブームは終わった /「並列で回す人」](https://www.youtube.com/watch?v=btXfJGRJ9Tk)

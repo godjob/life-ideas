@@ -55,6 +55,12 @@
       "value": 53
     },
     {
+      "id": "ai-agent-boom-end-human-core-strength",
+      "label": "AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ",
+      "group": "AIエージェント設計",
+      "value": 3
+    },
+    {
       "id": "ai-agent-cli-automation-pattern",
       "label": "AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン",
       "group": "AIエージェント設計",
@@ -64,13 +70,13 @@
       "id": "ai-agent-governance-human-criteria",
       "label": "AIエージェント組織のガバナンスと人間による選別基準設計",
       "group": "AIエージェント設計",
-      "value": 6
+      "value": 7
     },
     {
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "AIエージェント設計",
-      "value": 41
+      "value": 43
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
@@ -94,13 +100,13 @@
       "id": "ai-as-infinite-subordinate-management",
       "label": "無限に働く部下としてのAI：活用と管理の原則",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "ai-as-scientific-instrument-verification-loop",
       "label": "科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見",
       "group": "その他",
-      "value": 8
+      "value": 9
     },
     {
       "id": "ai-assisted-system-building-non-programmers",
@@ -112,7 +118,7 @@
       "id": "ai-automation-system-admin-differentiation-strategy",
       "label": "システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応",
       "group": "その他",
-      "value": 6
+      "value": 8
     },
     {
       "id": "ai-autonomous-weapons-surveillance-state-governance",
@@ -208,7 +214,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 20
+      "value": 21
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
@@ -256,7 +262,7 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "AI戦略・社会",
-      "value": 17
+      "value": 19
     },
     {
       "id": "ai-first-strategy-enterprise-adoption",
@@ -274,13 +280,19 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "その他",
-      "value": 13
+      "value": 14
     },
     {
       "id": "ai-human-coexistence-risk-management",
       "label": "AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感",
       "group": "その他",
       "value": 5
+    },
+    {
+      "id": "ai-hyper-performer-mindset",
+      "label": "AIハイパフォーマーの思考法とマインドセット",
+      "group": "その他",
+      "value": 3
     },
     {
       "id": "ai-implicit-assumption-discovery",
@@ -328,7 +340,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "その他",
-      "value": 16
+      "value": 17
     },
     {
       "id": "ai-model-license-compliance-manufacturing",
@@ -382,7 +394,7 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 18
+      "value": 19
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
@@ -424,7 +436,7 @@
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -610,7 +622,7 @@
       "id": "claude-managed-agents-manufacturing-compliance",
       "label": "Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理",
       "group": "AIエージェント設計",
-      "value": 18
+      "value": 19
     },
     {
       "id": "claude-managed-agents-self-hosted-sandboxes",
@@ -778,7 +790,7 @@
       "id": "environment-engineering",
       "label": "エンバイロメント・エンジニアリング：AI活動の土台づくり",
       "group": "Claude/AI開発ツール",
-      "value": 18
+      "value": 19
     },
     {
       "id": "executive-ai-hands-on-learning-organizational-transformation",
@@ -1036,13 +1048,13 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 72
+      "value": 73
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 37
+      "value": 38
     },
     {
       "id": "manufacturing-automation-cost-disruption",
@@ -1054,7 +1066,7 @@
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 9
+      "value": 10
     },
     {
       "id": "manufacturing-email-automation-adoption-resistance",
@@ -1072,7 +1084,7 @@
       "id": "manufacturing-on-premise-ai-adoption",
       "label": "製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策",
       "group": "製造業・業務DX",
-      "value": 5
+      "value": 6
     },
     {
       "id": "manufacturing-system-vulnerability-preemptive-audit",
@@ -1096,7 +1108,7 @@
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "その他",
-      "value": 9
+      "value": 14
     },
     {
       "id": "middle-income-trap-manufacturing-strategy",
@@ -1109,6 +1121,12 @@
       "label": "中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計",
       "group": "キャリア・働き方",
       "value": 12
+    },
+    {
+      "id": "missing-link-ai-productivity-gap",
+      "label": "AI生産性向上のミッシングリンク：個の効率化から組織変革へ",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "multi-agent-pipeline-error-handling-checkpoint",
@@ -1411,6 +1429,12 @@
       "value": 14
     },
     {
+      "id": "sre-agent-incident-automation-manufacturing",
+      "label": "SREエージェントによるインシデント自動化：製造業への応用",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "stablecoin-tax-comparison",
       "label": "ステーブルコイン税務比較：JPYC vs USDT日本における法的扱いの違い",
       "group": "資産・投資",
@@ -1462,7 +1486,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 13
+      "value": 16
     },
     {
       "id": "video-content-metadata-collection-strategy",
@@ -1991,6 +2015,34 @@
       "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
+      "from": "ai-agent-boom-end-human-core-strength",
+      "to": "ai-agent-governance-human-criteria"
+    },
+    {
+      "from": "ai-agent-boom-end-human-core-strength",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "ai-agent-boom-end-human-core-strength",
+      "to": "ai-automation-system-admin-differentiation-strategy"
+    },
+    {
+      "from": "ai-agent-boom-end-human-core-strength",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-agent-boom-end-human-core-strength",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-agent-boom-end-human-core-strength",
+      "to": "sre-agent-incident-automation-manufacturing"
+    },
+    {
+      "from": "ai-agent-boom-end-human-core-strength",
+      "to": "unlearning-capability-ai-era-competition"
+    },
+    {
       "from": "ai-agent-cli-automation-pattern",
       "to": "agent-harness-reliability-framework"
     },
@@ -2032,6 +2084,10 @@
     },
     {
       "from": "ai-agent-governance-human-criteria",
+      "to": "ai-agent-boom-end-human-core-strength"
+    },
+    {
+      "from": "ai-agent-governance-human-criteria",
       "to": "ai-agent-operations"
     },
     {
@@ -2065,6 +2121,10 @@
     {
       "from": "ai-agent-governance-human-criteria",
       "to": "multi-agent-task-dependency-management"
+    },
+    {
+      "from": "ai-agent-governance-human-criteria",
+      "to": "sre-agent-incident-automation-manufacturing"
     },
     {
       "from": "ai-agent-operations",
@@ -2252,6 +2312,10 @@
     },
     {
       "from": "ai-as-infinite-subordinate-management",
+      "to": "ai-agent-boom-end-human-core-strength"
+    },
+    {
+      "from": "ai-as-infinite-subordinate-management",
       "to": "ai-driven-workflow-reengineering"
     },
     {
@@ -2285,6 +2349,10 @@
     {
       "from": "ai-as-infinite-subordinate-management",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "ai-as-infinite-subordinate-management",
+      "to": "sre-agent-incident-automation-manufacturing"
     },
     {
       "from": "ai-as-infinite-subordinate-management",
@@ -2388,7 +2456,7 @@
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
-      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+      "to": "ai-agent-boom-end-human-core-strength"
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
@@ -2477,6 +2545,10 @@
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "spacex-defense-infrastructure-strategy"
+    },
+    {
+      "from": "ai-automation-system-admin-differentiation-strategy",
+      "to": "sre-agent-incident-automation-manufacturing"
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
@@ -3204,6 +3276,14 @@
     },
     {
       "from": "ai-driven-workflow-reengineering",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
+      "to": "missing-link-ai-productivity-gap"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
       "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
@@ -3741,6 +3821,34 @@
     {
       "from": "ai-human-coexistence-risk-management",
       "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "ai-as-infinite-subordinate-management"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "environment-engineering"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "missing-link-ai-productivity-gap"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "ai-implicit-assumption-discovery",
@@ -9636,6 +9744,10 @@
     },
     {
       "from": "meta-skills-ai-era",
+      "to": "ai-hyper-performer-mindset"
+    },
+    {
+      "from": "meta-skills-ai-era",
       "to": "ai-investment-scale-japan-vs-global"
     },
     {
@@ -9645,6 +9757,10 @@
     {
       "from": "meta-skills-ai-era",
       "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "meta-skills-ai-era",
+      "to": "missing-link-ai-productivity-gap"
     },
     {
       "from": "meta-skills-ai-era",
@@ -9717,6 +9833,34 @@
     {
       "from": "midlife-crisis-reframing-opportunity",
       "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "missing-link-ai-productivity-gap",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "missing-link-ai-productivity-gap",
+      "to": "ai-as-scientific-instrument-verification-loop"
+    },
+    {
+      "from": "missing-link-ai-productivity-gap",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "missing-link-ai-productivity-gap",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "missing-link-ai-productivity-gap",
+      "to": "ai-hyper-performer-mindset"
+    },
+    {
+      "from": "missing-link-ai-productivity-gap",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "missing-link-ai-productivity-gap",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "multi-agent-pipeline-error-handling-checkpoint",
@@ -11867,6 +12011,42 @@
       "to": "spacex-defense-infrastructure-strategy"
     },
     {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "ai-automation-system-admin-differentiation-strategy"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "claude-managed-agents-manufacturing-compliance"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "sre-agent-incident-automation-manufacturing",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
       "from": "stablecoin-tax-comparison",
       "to": "btc-jpyc-asset-allocation"
     },
@@ -12216,6 +12396,10 @@
     },
     {
       "from": "unlearning-capability-ai-era-competition",
+      "to": "ai-hyper-performer-mindset"
+    },
+    {
+      "from": "unlearning-capability-ai-era-competition",
       "to": "ai-understanding-resolution-human-value"
     },
     {
@@ -12244,7 +12428,15 @@
     },
     {
       "from": "unlearning-capability-ai-era-competition",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "unlearning-capability-ai-era-competition",
       "to": "midlife-crisis-reframing-opportunity"
+    },
+    {
+      "from": "unlearning-capability-ai-era-competition",
+      "to": "missing-link-ai-productivity-gap"
     },
     {
       "from": "unlearning-capability-ai-era-competition",

@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-08-20] ingest | 【牛尾剛が断言】コーディングAIエージェントブームは終わった /「並列で回す人」は伸びない/AI時代
+- 更新ページ: [AIエージェント組織のガバナンスと人間による選別基準設計](ai-agent-governance-human-criteria.md), [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md), [無限に働く部下としてのAI：活用と管理の原則](ai-as-infinite-subordinate-management.md), [AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ](ai-agent-boom-end-human-core-strength.md), [SREエージェントによるインシデント自動化：製造業への応用](sre-agent-incident-automation-manufacturing.md)
+- 出典: [【牛尾剛が断言】コーディングAIエージェントブームは終わった /「並列で回す人」](https://www.youtube.com/watch?v=btXfJGRJ9Tk)
+
+## [2026-08-20] ingest | 【AI時代に活躍する人・没落する人】AIハイパフォーマーが持つべき思考法／「素直でいいやつ」の価値が
+- 更新ページ: [AI時代のメタスキル：学び方・情報収集・AI活用能力](meta-skills-ai-era.md), [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md), [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md), [AIハイパフォーマーの思考法とマインドセット](ai-hyper-performer-mindset.md), [AI生産性向上のミッシングリンク：個の効率化から組織変革へ](missing-link-ai-productivity-gap.md)
+- 出典: [【AI時代に活躍する人・没落する人】AIハイパフォーマーが持つべき思考法／「素直](https://www.youtube.com/watch?v=k8z_iH6EKRA)
+
 ## [2026-08-12] ingest | 【日本は先進国から転落するのか？】先進国の新定義／値札が二重に／日本より欧州が危ない／制度or資本×
 - 更新ページ: [先進国の再定義：計算能力とエネルギー生産力](advanced-nation-redefinition-energy-calculation.md), [デジタル赤字と国家安全保障リスク](digital-deficit-national-security-risk.md), [イノベーションと生産性が国家競争力に与える影響](innovation-productivity-national-competitiveness.md), [日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス](japan-ai-robot-social-implementation.md), [エネルギー政策とイノベーションへの規制の影響：欧州の事例から学ぶ](energy-policy-innovation-regulation-impact.md)
 - 出典: [【日本は先進国から転落するのか？】先進国の新定義／値札が二重に／日本より欧州が危](https://www.youtube.com/watch?v=On7Y8iJBF3c)
