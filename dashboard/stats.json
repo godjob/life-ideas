@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-20T21:49:54+09:00",
+  "generatedAt": "2026-08-20T21:52:04+09:00",
   "weekly": {
-    "commitCount": 18,
+    "commitCount": 20,
     "byDay": [
       {
         "date": "2026-08-14",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-08-20",
-        "count": 6
+        "count": 8
       }
     ]
   },
   "byDirectory": {
-    "scrap": 3,
+    "scrap": 4,
     "ideas": 0,
     "health": 0,
     "books": 2,
     "portfolio": 0,
-    "other": 47
+    "other": 48
   },
   "recentCommits": [
+    {
+      "date": "2026-08-20",
+      "message": "wiki: 知識グラフ更新（254ノード / 2762エッジ）"
+    },
+    {
+      "date": "2026-08-20",
+      "message": "scrap: 2026-08-20 【AI時代に活躍する人・没落する人】AIハイパフォ・【牛尾剛が断言】コーディングAIエージェントブーム"
+    },
     {
       "date": "2026-08-20",
       "message": "読書記録: 1件追加・更新"
@@ -53,14 +61,6 @@
     {
       "date": "2026-08-20",
       "message": "dashboard: Claude使用量更新 (2026-08-20)"
-    },
-    {
-      "date": "2026-08-20",
-      "message": "dashboard: Claude使用量更新 (2026-08-20)"
-    },
-    {
-      "date": "2026-08-20",
-      "message": "news: 2026-08-20 記事まとめを自動生成"
     }
   ]
 }
