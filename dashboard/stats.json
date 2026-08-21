@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-08-21T00:25:42+09:00",
+  "generatedAt": "2026-08-22T00:24:45+09:00",
   "weekly": {
     "commitCount": 18,
     "byDay": [
-      {
-        "date": "2026-08-15",
-        "count": 2
-      },
       {
         "date": "2026-08-16",
         "count": 2
@@ -29,19 +25,31 @@
       },
       {
         "date": "2026-08-21",
+        "count": 2
+      },
+      {
+        "date": "2026-08-22",
         "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 2,
+    "books": 1,
     "portfolio": 0,
-    "other": 48
+    "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-08-21",
+      "message": "news: 2026-08-21 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-08-21",
+      "message": "朝刊: 2026-08-20 Morning Edition生成"
+    },
     {
       "date": "2026-08-20",
       "message": "wiki: 知識グラフ更新（254ノード / 2762エッジ）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-08-20",
       "message": "読書記録: 1件追加・更新"
-    },
-    {
-      "date": "2026-08-20",
-      "message": "dashboard: Claude使用量更新 (2026-08-20)"
-    },
-    {
-      "date": "2026-08-20",
-      "message": "dashboard: Claude使用量更新 (2026-08-20)"
     }
   ]
 }
