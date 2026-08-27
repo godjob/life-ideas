@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Edition — 2026-08-27</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+header {
+  background: #fff;
+  border-bottom: 3px solid #1a1a1a;
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+header .masthead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #1a1a1a;
+}
+header .edition-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.hn-section { margin-bottom: 4rem; }
+.story-card {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.story-title-ja {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.story-title-en {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.story-meta {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.story-meta span::before { margin-right: 0.2em; }
+.story-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.read-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.daily-section { margin-bottom: 4rem; }
+.daily-card {
+  padding: 1.75rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.daily-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.daily-card ul { padding-left: 1.25rem; }
+.daily-card li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.3rem; }
+.daily-card p { font-size: 0.9rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .story-title-ja { font-size: 1.3rem; }
+  .card-hero, .card-midnight, .card-rose, .card-terminal,
+  .card-academic, .card-bigstat, .card-teal, .card-amber,
+  .card-slate, .card-pastel { padding: 1.5rem; }
+}
+
+.card-hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.card-hero .story-num {
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  line-height: 1;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+}
+.card-hero .story-title-ja { color: #fff; }
+.card-hero .story-title-en { color: rgba(255,255,255,0.65); }
+.card-hero .story-meta { color: rgba(255,255,255,0.75); }
+.card-hero .story-summary { color: rgba(255,255,255,0.9); }
+.card-hero .read-btn { background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+.card-hero .read-btn:hover { background: rgba(255,255,255,0.35); }
+
+
+.card-midnight {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+.card-midnight .story-num { color: #39d353; }
+.card-midnight .story-title-ja { color: #e6edf3; }
+.card-midnight .story-title-en { color: #8b949e; }
+.card-midnight .story-meta { color: #8b949e; }
+.card-midnight .story-summary { color: #c9d1d9; }
+.card-midnight .read-btn { background: #39d353; color: #0d1117; border: none; font-weight: 700; }
+.card-midnight .read-btn:hover { background: #56e56a; }
+
+
+.card-rose {
+  background: #fff0f3;
+  color: #1a0a0d;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-rose::after {
+  content: "!";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e11d48;
+  opacity: 0.2;
+  font-family: 'Fraunces', serif;
+}
+.card-rose .story-num { color: #e11d48; }
+.card-rose .story-title-ja { color: #881337; }
+.card-rose .story-title-en { color: #9f1239; opacity: 0.7; }
+.card-rose .story-meta { color: #9f1239; }
+.card-rose .story-summary { color: #3f0a16; }
+.card-rose .read-btn { background: #e11d48; color: #fff; border: none; }
+.card-rose .read-btn:hover { background: #be123c; }
+
+
+.card-terminal {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-terminal .story-num { color: #569cd6; font-family: monospace; }
+.card-terminal .story-title-ja { color: #9cdcfe; font-family: monospace; }
+.card-terminal .story-title-ja::before { content: "> "; color: #4ec9b0; }
+.card-terminal .story-title-en { color: #808080; font-family: monospace; }
+.card-terminal .story-meta { color: #6a9955; font-family: monospace; }
+.card-terminal .story-summary { color: #ce9178; font-family: monospace; }
+.card-terminal .read-btn { background: #252526; color: #4ec9b0; border: 1px solid #4ec9b0; font-family: monospace; }
+.card-terminal .read-btn:hover { background: #4ec9b0; color: #1e1e1e; }
+
+
+.card-academic {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 4px;
+  border-top: 4px solid #7b2d3c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-academic .story-num { color: #7b2d3c; font-family: 'Fraunces', serif; }
+.card-academic .story-title-ja { color: #1a1a1a; }
+.card-academic .story-title-ja::first-letter {
+  font-size: 2.5em;
+  float: left;
+  margin: 0 0.05em 0 0;
+  line-height: 0.85;
+  color: #7b2d3c;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.card-academic .story-title-en { color: #5a5a5a; }
+.card-academic .story-meta { color: #7b2d3c; }
+.card-academic .story-summary { color: #333; line-height: 1.8; }
+.card-academic .read-btn { background: #7b2d3c; color: #fff; border: none; }
+.card-academic .read-btn:hover { background: #5e2230; }
+
+
+.card-bigstat {
+  background: #fafaf9;
+  color: #1c1917;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e7e5e4;
+}
+.card-bigstat .bg-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: 900;
+  color: #f5f5f4;
+  font-family: 'Fraunces', serif;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-bigstat > *:not(.bg-score) { position: relative; z-index: 1; }
+.card-bigstat .story-num { color: #78716c; }
+.card-bigstat .story-title-ja { color: #1c1917; }
+.card-bigstat .story-title-en { color: #78716c; }
+.card-bigstat .story-meta { color: #a8a29e; }
+.card-bigstat .story-summary { color: #44403c; }
+.card-bigstat .read-btn { background: #1c1917; color: #fafaf9; border: none; }
+.card-bigstat .read-btn:hover { background: #44403c; }
+
+
+.card-teal {
+  background: #e6f4f1;
+  color: #134e4a;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 5px solid #0d9488;
+}
+.card-teal .story-num { color: #0d9488; }
+.card-teal .story-title-ja { color: #134e4a; }
+.card-teal .story-title-en { color: #2d6a65; opacity: 0.8; }
+.card-teal .story-meta { color: #0f766e; }
+.card-teal .story-summary { color: #1f5c58; }
+.card-teal .read-btn { background: #0d9488; color: #fff; border: none; }
+.card-teal .read-btn:hover { background: #0f766e; }
+
+
+.card-amber {
+  background: #fffbeb;
+  color: #1c1410;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid #f59e0b;
+}
+.card-amber .story-num { color: #d97706; }
+.card-amber .story-title-ja { color: #1c1410; }
+.card-amber .story-title-en { color: #92400e; opacity: 0.75; }
+.card-amber .story-meta { color: #b45309; }
+.card-amber .story-summary { color: #44300f; }
+.card-amber .read-btn { background: #f59e0b; color: #1c1410; border: none; font-weight: 600; }
+.card-amber .read-btn:hover { background: #d97706; color: #fff; }
+
+
+.card-slate {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #facc15;
+}
+.card-slate .story-num { color: #facc15; }
+.card-slate .story-title-ja { color: #f1f5f9; }
+.card-slate .story-title-en { color: #94a3b8; }
+.card-slate .story-meta { color: #64748b; }
+.card-slate .story-summary { color: #cbd5e1; }
+.card-slate .read-btn { background: #facc15; color: #1e293b; border: none; font-weight: 700; }
+.card-slate .read-btn:hover { background: #eab308; }
+
+
+.card-pastel {
+  background: #f8f4ff;
+  color: #1e0a3c;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #ddd6fe;
+}
+.card-pastel .story-num { color: #7c3aed; }
+.card-pastel .story-title-ja { color: #1e0a3c; }
+.card-pastel .story-title-en { color: #5b21b6; opacity: 0.7; }
+.card-pastel .story-meta { color: #6d28d9; }
+.card-pastel .story-summary { color: #2e1065; }
+.card-pastel .read-btn { background: #7c3aed; color: #fff; border: none; }
+.card-pastel .read-btn:hover { background: #6d28d9; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="masthead">Morning Edition</div>
+      <div class="edition-date">2026年8月27日 &nbsp;·&nbsp; Hacker News Daily Digest</div>
+    </div>
+  </header>
+
+  <section class="hn-section">
+    <div class="container">
+      <h2 class="section-heading">Hacker News — 本日のピック</h2>
+      
+  <div class="story-card card-hero">
+    
+    <span class="story-num">01</span>
+    <div class="story-title-ja">AWSがDuckLabsを買収</div>
+    <div class="story-title-en">AWS Acquires DuckLabs</div>
+    <div class="story-meta">
+      <span>▲ 986</span>
+      <span>💬 292</span>
+      <span>by onderkalaci</span>
+    </div>
+    <div class="story-summary">AWSがDuckLabsを買収したというニュースです。DuckLabsのウェブサイトのニュース記事によると、同社はAWSに加わることになり、今後のサービス展開や統合に注目が集まります。</div>
+    <a class="read-btn" href="https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49448321" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-midnight">
+    
+    <span class="story-num">02</span>
+    <div class="story-title-ja">GLM-5.3-Flash</div>
+    <div class="story-title-en">GLM-5.3-Flash</div>
+    <div class="story-meta">
+      <span>▲ 907</span>
+      <span>💬 453</span>
+      <span>by Philpax</span>
+    </div>
+    <div class="story-summary">z.aiのブログ記事で紹介されている「GLM-5.3-Flash」は、おそらく新しいAIモデルまたはその高速版に関する発表です。高性能な言語モデルの進化や特徴について解説されていると推測されます。</div>
+    <a class="read-btn" href="https://z.ai/blog/glm-5.3-flash" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49449507" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-rose">
+    
+    <span class="story-num">03</span>
+    <div class="story-title-ja">Qwen3.8-Flash-Next</div>
+    <div class="story-title-en">Qwen3.8-Flash-Next</div>
+    <div class="story-meta">
+      <span>▲ 635</span>
+      <span>💬 206</span>
+      <span>by tosh</span>
+    </div>
+    <div class="story-summary">Qwen.aiのブログ記事で発表された「Qwen3.8-Flash-Next」は、Qwenシリーズの最新AIモデル、特に高速処理に特化したバージョンと見られます。次世代の機能や改善点について詳細が提供されている可能性が高いです。</div>
+    <a class="read-btn" href="https://qwen.ai/blog?id=qwen3.8-flash-next" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49448210" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-terminal">
+    
+    <span class="story-num">04</span>
+    <div class="story-title-ja">ティム・カリー氏が死去</div>
+    <div class="story-title-en">Tim Curry has died</div>
+    <div class="story-meta">
+      <span>▲ 601</span>
+      <span>💬 197</span>
+      <span>by mykowebhn</span>
+    </div>
+    <div class="story-summary">俳優のティム・カリー氏が亡くなったという訃報です。ガーディアン紙の記事によると、『ロッキー・ホラー・ショー』やスティーヴン・キングの『IT』などで知られる伝説的な俳優の功績が振り返られるでしょう。</div>
+    <a class="read-btn" href="https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49451448" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-academic">
+    
+    <span class="story-num">05</span>
+    <div class="story-title-ja">Tailcat – Tailscaleのデータプレーン上で動作するnetcatのようなツール</div>
+    <div class="story-title-en">Tailcat – Like netcat, but over Tailscale’s data plane</div>
+    <div class="story-meta">
+      <span>▲ 494</span>
+      <span>💬 92</span>
+      <span>by nderjung</span>
+    </div>
+    <div class="story-summary">Tailcatは、netcatと同様の機能を持つネットワークツールですが、Tailscaleのセキュアなデータプレーン上で動作する点が特徴です。GitHubリポジトリで公開されており、Tailscaleユーザーが安全かつ簡単にネットワーク接続を確立するためのユーティリティとして開発されたと推測されます。</div>
+    <a class="read-btn" href="https://github.com/tailscale/tailcat" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49452990" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-bigstat">
+    <div class="bg-score">484</div>
+    <span class="story-num">06</span>
+    <div class="story-title-ja">Meta、ソーシャルメディアが子供に与える害を巡り170億ドルの和解に達する</div>
+    <div class="story-title-en">Meta reaches $17B settlement over social media harms to children</div>
+    <div class="story-meta">
+      <span>▲ 484</span>
+      <span>💬 462</span>
+      <span>by bhouston</span>
+    </div>
+    <div class="story-summary">Metaが、ソーシャルメディアが子供に与える悪影響に関する訴訟で、米国の州と170億ドル規模の和解に合意したというニュースです。ロイターの記事によると、これは子供たちの精神衛生への懸念が高まる中、テクノロジー企業に対する責任追及の一環として注目されます。</div>
+    <a class="read-btn" href="https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49448819" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-teal">
+    
+    <span class="story-num">07</span>
+    <div class="story-title-ja">RAGはあなたが思うよりシンプル</div>
+    <div class="story-title-en">RAG Is Simpler Than You Think</div>
+    <div class="story-meta">
+      <span>▲ 437</span>
+      <span>💬 179</span>
+      <span>by j0selit0</span>
+    </div>
+    <div class="story-summary">RAG（Retrieval-Augmented Generation）技術が、一般に考えられているよりも複雑ではないことを主張する記事です。Lighthouse Newsletterで公開されており、RAGの基本的な概念や実装の容易さについて解説し、その導入を促す内容と推測されます。</div>
+    <a class="read-btn" href="https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49445727" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-amber">
+    
+    <span class="story-num">08</span>
+    <div class="story-title-ja">CEOがAIのために開発者を解雇。開発者たちはオープンソースのAI CEOを開発</div>
+    <div class="story-title-en">CEO fired developers to make room for AI. Developers create open source AI CEO</div>
+    <div class="story-meta">
+      <span>▲ 79</span>
+      <span>💬 38</span>
+      <span>by GrumpySciGuy</span>
+    </div>
+    <div class="story-summary">AI導入のために開発者を解雇したCEOへの皮肉を込めた、開発者コミュニティによるプロジェクトです。GitHubリポジトリで公開されている「OpenExecutive」は、解雇された開発者たちが、自律的に意思決定を行うオープンソースのAI CEOを開発したという、風刺的かつ技術的な取り組みと見られます。</div>
+    <a class="read-btn" href="https://github.com/SenteLabsAI/OpenExecutive" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49458418" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-slate">
+    
+    <span class="story-num">09</span>
+    <div class="story-title-ja">Nebula Sans</div>
+    <div class="story-title-en">Nebula Sans</div>
+    <div class="story-meta">
+      <span>▲ 356</span>
+      <span>💬 132</span>
+      <span>by GavinAnderegg</span>
+    </div>
+    <div class="story-summary">「Nebula Sans」は、専用ウェブサイトから推測されるに、新しいフォントまたはフォントファミリーの発表です。サンセリフ体であり、デザインやタイポグラフィに関心のあるユーザー向けに、その特徴や利用方法が紹介されているでしょう。</div>
+    <a class="read-btn" href="https://www.nebulasans.com" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49450448" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-pastel">
+    
+    <span class="story-num">10</span>
+    <div class="story-title-ja">Twitter Viewer – アカウントなしでTwitterを閲覧</div>
+    <div class="story-title-en">Twitter Viewer – View Twitter Without Account</div>
+    <div class="story-meta">
+      <span>▲ 333</span>
+      <span>💬 167</span>
+      <span>by motownphilly</span>
+    </div>
+    <div class="story-summary">Twitterアカウントを持っていなくても、Twitterのコンテンツを閲覧できるウェブサービスです。専用サイト「twitterwebviewer.com」で提供されており、ログインせずにツイートやプロフィールを閲覧したいユーザー向けのツールとして機能します。</div>
+    <a class="read-btn" href="https://twitterwebviewer.com/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49449576" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
