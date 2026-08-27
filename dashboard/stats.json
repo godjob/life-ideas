@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T22:13:57+09:00",
+  "generatedAt": "2026-08-27T22:14:53+09:00",
   "weekly": {
-    "commitCount": 17,
+    "commitCount": 19,
     "byDay": [
       {
         "date": "2026-08-21",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-08-27",
-        "count": 5
+        "count": 7
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 24
+    "other": 26
   },
   "recentCommits": [
+    {
+      "date": "2026-08-27",
+      "message": "wiki: 拡張子なしファイル修正と誤置換リンク復旧（258ノード / 2796エッジ）"
+    },
+    {
+      "date": "2026-08-27",
+      "message": "dashboard: Claude使用量更新 (2026-08-27)"
+    },
     {
       "date": "2026-08-27",
       "message": "scrap: 2026-08-27 【ノウハウ全公開】エコノミスト唐鎌大輔／「サクッと・リーダーシップを「行為論」で語るな／「率先する」上・月3万円のAI社員、どこまで働く？｜バックオフィス"
@@ -53,14 +61,6 @@
     {
       "date": "2026-08-27",
       "message": "dashboard: Claude使用量更新 (2026-08-27)"
-    },
-    {
-      "date": "2026-08-27",
-      "message": "dashboard: Claude使用量更新 (2026-08-27)"
-    },
-    {
-      "date": "2026-08-27",
-      "message": "朝刊: 2026-08-27 Morning Edition生成"
     }
   ]
 }
