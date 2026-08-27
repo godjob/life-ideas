@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-08-27] ingest | 月3万円のAI社員、どこまで働く？｜バックオフィス・採用・記事制作まで｜その仕組みも解説！
+- 更新ページ: [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AI社員のROI最大化：月額コストと生み出す価値の最適設計](ai-staff-roi-maximization)
+- 出典: [月3万円のAI社員、どこまで働く？｜バックオフィス・採用・記事制作まで｜その仕組](https://www.youtube.com/watch?v=7DzIoArs-pE)
+
+## [2026-08-27] ingest | リーダーシップを「行為論」で語るな／「率先する」上司が組織を弱くする／結婚も子育ても「文脈がすべて」
+- 更新ページ: [コンテキスト設計によるリーダーシップ：行動の文脈が評価を決める](context-design-leadership-impression-management.md), [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md), [透明性とコミュニケーション：判断背景の共有による信頼醸成](transparency-communication-trust-foundation.md), [関係性の質とリーダーシップ理論](relationship-quality-leadership-theory.md)
+- 出典: [リーダーシップを「行為論」で語るな／「率先する」上司が組織を弱くする／結婚も子育](https://www.youtube.com/watch?v=t2mxEavqpJI)
+
+## [2026-08-27] ingest | 【ノウハウ全公開】エコノミスト唐鎌大輔／「サクッと分かる」系は無意味／大事なのは凡事徹底／意見が常に
+- 更新ページ: [AIハイパフォーマーの思考法とマインドセット](ai-hyper-performer-mindset.md), [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [専門家としての長期的なキャリア戦略：凡事徹底と継続学習](professional-longevity-expert-development-strategy.md), [情報処理効率化とAI統合：一次情報重視と大量情報要約術](information-processing-efficiency-ai-integration.md)
+- 出典: [【ノウハウ全公開】エコノミスト唐鎌大輔／「サクッと分かる」系は無意味／大事なのは](https://www.youtube.com/watch?v=fA8oOKnU65Y)
+
 ## [2026-08-20] ingest | 【牛尾剛が断言】コーディングAIエージェントブームは終わった /「並列で回す人」は伸びない/AI時代
 - 更新ページ: [AIエージェント組織のガバナンスと人間による選別基準設計](ai-agent-governance-human-criteria.md), [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md), [無限に働く部下としてのAI：活用と管理の原則](ai-as-infinite-subordinate-management.md), [AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ](ai-agent-boom-end-human-core-strength.md), [SREエージェントによるインシデント自動化：製造業への応用](sre-agent-incident-automation-manufacturing.md)
 - 出典: [【牛尾剛が断言】コーディングAIエージェントブームは終わった /「並列で回す人」](https://www.youtube.com/watch?v=btXfJGRJ9Tk)
