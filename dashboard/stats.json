@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-08-29T08:47:11+09:00",
+  "generatedAt": "2026-08-30T03:04:16+09:00",
   "weekly": {
     "commitCount": 24,
     "byDay": [
-      {
-        "date": "2026-08-23",
-        "count": 2
-      },
       {
         "date": "2026-08-24",
         "count": 2
@@ -29,19 +25,31 @@
       },
       {
         "date": "2026-08-29",
-        "count": 1
+        "count": 3
+      },
+      {
+        "date": "2026-08-30",
+        "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 2,
+    "books": 1,
     "portfolio": 0,
-    "other": 31
+    "other": 28
   },
   "recentCommits": [
+    {
+      "date": "2026-08-29",
+      "message": "news: 2026-08-29 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-08-29",
+      "message": "朝刊: 2026-08-29 Morning Edition生成"
+    },
     {
       "date": "2026-08-29",
       "message": "news: 2026-08-29 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-08-28",
       "message": "news: 2026-08-28 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-08-27",
-      "message": "読書記録: 2件追加・更新"
-    },
-    {
-      "date": "2026-08-27",
-      "message": "fix: wiki slugの正規化とlintの自己リンク誤置換を修正"
     }
   ]
 }
