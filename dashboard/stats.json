@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-03T20:45:16+09:00",
+  "generatedAt": "2026-09-03T21:24:50+09:00",
   "weekly": {
-    "commitCount": 22,
+    "commitCount": 25,
     "byDay": [
       {
         "date": "2026-08-28",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-09-03",
-        "count": 9
+        "count": 12
       }
     ]
   },
   "byDirectory": {
     "scrap": 2,
-    "ideas": 0,
+    "ideas": 1,
     "health": 0,
     "books": 2,
     "portfolio": 0,
-    "other": 33
+    "other": 35
   },
   "recentCommits": [
     {
       "date": "2026-09-03",
-      "message": "読書記録: 2件追加・更新"
+      "message": "ideas: URLリストの重複エントリを削除（index 7件・月別詳細 6件）"
     },
     {
       "date": "2026-09-03",
@@ -52,11 +52,11 @@
     },
     {
       "date": "2026-09-03",
-      "message": "wiki: 知識グラフ更新（263ノード / 2843エッジ）"
+      "message": "dashboard: Claude使用量更新 (2026-09-03)"
     },
     {
       "date": "2026-09-03",
-      "message": "scrap: 2026-09-03 SoftBank World 2026 孫正義 特・【日本は金融緩和を卒業する？】「貯金は正義」の時代・リーダーシップを「行為論」で語るな／「率先する」上ほか1件"
+      "message": "読書記録: 2件追加・更新"
     },
     {
       "date": "2026-09-03",
