@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-03T21:24:50+09:00",
+  "generatedAt": "2026-09-03T21:27:39+09:00",
   "weekly": {
-    "commitCount": 25,
+    "commitCount": 27,
     "byDay": [
       {
         "date": "2026-08-28",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-09-03",
-        "count": 12
+        "count": 14
       }
     ]
   },
   "byDirectory": {
     "scrap": 2,
-    "ideas": 1,
+    "ideas": 2,
     "health": 0,
     "books": 2,
     "portfolio": 0,
-    "other": 35
+    "other": 36
   },
   "recentCommits": [
+    {
+      "date": "2026-09-03",
+      "message": "ideas: URLリストのタイトル内パイプをエスケープし、git_scrap.py に再発防止を追加"
+    },
+    {
+      "date": "2026-09-03",
+      "message": "dashboard: Claude使用量更新 (2026-09-03)"
+    },
     {
       "date": "2026-09-03",
       "message": "ideas: URLリストの重複エントリを削除（index 7件・月別詳細 6件）"
@@ -49,14 +57,6 @@
     {
       "date": "2026-09-03",
       "message": "dashboard: Claude使用量更新 (2026-09-03)"
-    },
-    {
-      "date": "2026-09-03",
-      "message": "dashboard: Claude使用量更新 (2026-09-03)"
-    },
-    {
-      "date": "2026-09-03",
-      "message": "読書記録: 2件追加・更新"
     },
     {
       "date": "2026-09-03",
