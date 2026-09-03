@@ -10,7 +10,7 @@
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
       "group": "その他",
-      "value": 7
+      "value": 9
     },
     {
       "id": "agent-harness-reliability-framework",
@@ -52,7 +52,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 55
+      "value": 54
     },
     {
       "id": "ai-agent-boom-end-human-core-strength",
@@ -82,7 +82,7 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 19
+      "value": 20
     },
     {
       "id": "ai-agent-quality-deep-insight-human-role",
@@ -118,7 +118,7 @@
       "id": "ai-automation-system-admin-differentiation-strategy",
       "label": "システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応",
       "group": "その他",
-      "value": 8
+      "value": 9
     },
     {
       "id": "ai-autonomous-weapons-surveillance-state-governance",
@@ -148,13 +148,13 @@
       "id": "ai-budget-management-roi-optimization",
       "label": "AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化",
       "group": "技術実装・エンジニアリング",
-      "value": 23
+      "value": 25
     },
     {
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "AI戦略・社会",
-      "value": 8
+      "value": 9
     },
     {
       "id": "ai-capability-expectation-calibration-realistic-timeline",
@@ -184,7 +184,7 @@
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
       "group": "その他",
-      "value": 5
+      "value": 4
     },
     {
       "id": "ai-content-pipeline-differentiation",
@@ -205,16 +205,22 @@
       "value": 15
     },
     {
+      "id": "ai-data-center-energy-demand-strategy",
+      "label": "AIデータセンターとエネルギー需要：電力消費量増大への対応戦略",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 17
+      "value": 18
     },
     {
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 22
+      "value": 25
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
@@ -232,7 +238,7 @@
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "その他",
-      "value": 21
+      "value": 22
     },
     {
       "id": "ai-era-work-inversion",
@@ -304,7 +310,7 @@
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
       "group": "その他",
-      "value": 9
+      "value": 11
     },
     {
       "id": "ai-labor-market-shift-capital-strategy",
@@ -316,7 +322,7 @@
       "id": "ai-labor-policy-governance-framework",
       "label": "AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止",
       "group": "AI戦略・社会",
-      "value": 13
+      "value": 12
     },
     {
       "id": "ai-leader-values-philosophy-reliability-foundation",
@@ -400,7 +406,7 @@
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "その他",
-      "value": 18
+      "value": 19
     },
     {
       "id": "ai-self-improvement-development-acceleration",
@@ -416,7 +422,7 @@
     },
     {
       "id": "ai-staff-roi-maximization",
-      "label": "ai-staff-roi-maximization",
+      "label": "AI社員のROI最大化：月額コストと生み出す価値の最適設計",
       "group": "その他",
       "value": 3
     },
@@ -436,7 +442,7 @@
       "id": "ai-tool-evaluation-monthly-refresh-cycle",
       "label": "AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応",
       "group": "その他",
-      "value": 11
+      "value": 10
     },
     {
       "id": "ai-understanding-resolution-human-value",
@@ -448,13 +454,13 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 12
+      "value": 13
     },
     {
       "id": "ai-unknowns-identification-strategy",
       "label": "AIとの対話における未知の領域特定戦略：マップとテリトリーの概念",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-workflow-adoption-customer-onsite-support-model",
@@ -491,6 +497,12 @@
       "label": "As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計",
       "group": "技術実装・エンジニアリング",
       "value": 18
+    },
+    {
+      "id": "asi-economy-societal-transformation",
+      "label": "ASIエコノミーと社会変革：2040年を見据えた未来予測",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "assumption-reevaluation-cycle-continuous-improvement",
@@ -538,7 +550,7 @@
       "id": "btc-jpyc-asset-allocation",
       "label": "BTC vs JPYC：円安時代の資産配分戦略",
       "group": "資産・投資",
-      "value": 3
+      "value": 4
     },
     {
       "id": "capability-overhang-user-activation-gap",
@@ -790,7 +802,7 @@
       "id": "energy-policy-innovation-regulation-impact",
       "label": "エネルギー政策とイノベーションへの規制の影響：欧州の事例から学ぶ",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "environment-engineering",
@@ -853,6 +865,12 @@
       "value": 4
     },
     {
+      "id": "global-capital-flow-fx-risk-diversification",
+      "label": "グローバル資金フロー変化：為替・金利リスクとアセット分散戦略",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "government-energy-policy-monitoring",
       "label": "政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡",
       "group": "ビジネス・組織",
@@ -898,7 +916,7 @@
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
       "group": "資産・投資",
-      "value": 10
+      "value": 11
     },
     {
       "id": "information-processing-efficiency-ai-integration",
@@ -922,7 +940,7 @@
       "id": "japan-ai-robot-social-implementation",
       "label": "日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "japan-ai-strategy-global-competition",
@@ -935,6 +953,12 @@
       "label": "日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上",
       "group": "その他",
       "value": 16
+    },
+    {
+      "id": "japan-monetary-policy-paradigm-shift",
+      "label": "日本の金融政策パラダイムシフト：金利・円高・ドル離れの影響分析",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "jaxa-space-strategy-fund",
@@ -952,7 +976,7 @@
       "id": "junior-engineer-retention-ai-era-succession-planning",
       "label": "ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持",
       "group": "キャリア・働き方",
-      "value": 14
+      "value": 13
     },
     {
       "id": "kimi-k3-moonshot-ai-model-comparison",
@@ -1060,7 +1084,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 73
+      "value": 75
     },
     {
       "id": "manufacturing-ai-quick-wins",
@@ -1090,7 +1114,7 @@
       "id": "manufacturing-in-ai-solo-era",
       "label": "AIソロプレナー時代における製造業の変革と内製化",
       "group": "製造業・業務DX",
-      "value": 3
+      "value": 4
     },
     {
       "id": "manufacturing-on-premise-ai-adoption",
@@ -1120,7 +1144,7 @@
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "その他",
-      "value": 15
+      "value": 17
     },
     {
       "id": "middle-income-trap-manufacturing-strategy",
@@ -1168,7 +1192,7 @@
       "id": "nand-flash-memory-market-ai-demand",
       "label": "NANDフラッシュメモリ市場：AI需要による高騰と需給変化",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "non-engineer-ai-tool-development",
@@ -1267,6 +1291,12 @@
       "value": 9
     },
     {
+      "id": "process-ax-ai-reconstruction-strategy",
+      "label": "プロセスAX：AIによる経営再構築戦略",
+      "group": "その他",
+      "value": 3
+    },
+    {
       "id": "professional-longevity-expert-development-strategy",
       "label": "専門家としての長期的なキャリア戦略：凡事徹底と継続学習",
       "group": "その他",
@@ -1360,7 +1390,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 33
+      "value": 35
     },
     {
       "id": "seniority-employment-ai-debt-transition-strategy",
@@ -1462,7 +1492,7 @@
       "id": "stablecoin-tax-comparison",
       "label": "ステーブルコイン税務比較：JPYC vs USDT日本における法的扱いの違い",
       "group": "資産・投資",
-      "value": 3
+      "value": 4
     },
     {
       "id": "strengths-leverage-task-design-productivity-multiplication",
@@ -1492,7 +1522,7 @@
       "id": "time-capital-health-investment-narrative",
       "label": "時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ",
       "group": "健康・習慣",
-      "value": 10
+      "value": 11
     },
     {
       "id": "transparency-communication-trust-foundation",
@@ -1504,13 +1534,13 @@
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
       "group": "その他",
-      "value": 6
+      "value": 7
     },
     {
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 16
+      "value": 17
     },
     {
       "id": "video-content-metadata-collection-strategy",
@@ -1916,7 +1946,11 @@
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
-      "to": "ai-coaching-personalization-wearable-integration"
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "ai-driven-workflow-reengineering"
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
@@ -1928,7 +1962,7 @@
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
-      "to": "ai-tool-evaluation-monthly-refresh-cycle"
+      "to": "asi-economy-societal-transformation"
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
@@ -1941,10 +1975,6 @@
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "github-non-engineer-adoption"
-    },
-    {
-      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
-      "to": "junior-engineer-retention-ai-era-succession-planning"
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
@@ -1964,7 +1994,19 @@
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "process-ax-ai-reconstruction-strategy"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "ai-adoption-resistance-mitigation",
@@ -2768,6 +2810,14 @@
     },
     {
       "from": "ai-budget-management-roi-optimization",
+      "to": "ai-automation-system-admin-differentiation-strategy"
+    },
+    {
+      "from": "ai-budget-management-roi-optimization",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "ai-budget-management-roi-optimization",
       "to": "ai-staff-roi-maximization"
     },
     {
@@ -2805,6 +2855,10 @@
     {
       "from": "ai-budget-management-roi-optimization",
       "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "ai-budget-management-roi-optimization",
+      "to": "process-ax-ai-reconstruction-strategy"
     },
     {
       "from": "ai-budget-management-roi-optimization",
@@ -3175,6 +3229,34 @@
       "to": "tiered-ai-model-planning-verification-execution"
     },
     {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "ai-capability-evolution-design-flexibility"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "asi-economy-societal-transformation"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "energy-policy-innovation-regulation-impact"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "nand-flash-memory-market-ai-demand"
+    },
+    {
       "from": "ai-democratization-low-cost-creation",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
     },
@@ -3317,6 +3399,10 @@
     {
       "from": "ai-driven-workflow-reengineering",
       "to": "preemptive-workflow-optimization-ai-migration"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
+      "to": "process-ax-ai-reconstruction-strategy"
     },
     {
       "from": "ai-driven-workflow-reengineering",
@@ -3916,7 +4002,15 @@
     },
     {
       "from": "ai-investment-scale-japan-vs-global",
+      "to": "global-capital-flow-fx-risk-diversification"
+    },
+    {
+      "from": "ai-investment-scale-japan-vs-global",
       "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "ai-investment-scale-japan-vs-global",
+      "to": "japan-monetary-policy-paradigm-shift"
     },
     {
       "from": "ai-investment-scale-japan-vs-global",
@@ -4996,10 +5090,6 @@
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
-      "to": "ai-adoption-resistance-mitigation"
-    },
-    {
-      "from": "ai-unemployment-crisis-ubi-transition-strategy",
       "to": "ai-as-infinite-subordinate-management"
     },
     {
@@ -5016,6 +5106,10 @@
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "ai-unemployment-crisis-ubi-transition-strategy",
       "to": "ai-investment-scale-japan-vs-global"
     },
     {
@@ -5024,15 +5118,15 @@
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
-      "to": "ai-labor-policy-governance-framework"
-    },
-    {
-      "from": "ai-unemployment-crisis-ubi-transition-strategy",
       "to": "ai-model-provider-vertical-integration"
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
       "to": "ai-orchestrator-role"
+    },
+    {
+      "from": "ai-unemployment-crisis-ubi-transition-strategy",
+      "to": "asi-economy-societal-transformation"
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -5335,6 +5429,30 @@
       "to": "qms-style-ai-prompt-governance"
     },
     {
+      "from": "asi-economy-societal-transformation",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "asi-economy-societal-transformation",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "asi-economy-societal-transformation",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "asi-economy-societal-transformation",
+      "to": "manufacturing-in-ai-solo-era"
+    },
+    {
+      "from": "asi-economy-societal-transformation",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "asi-economy-societal-transformation",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
       "from": "assumption-reevaluation-cycle-continuous-improvement",
       "to": "agent-harness-reliability-framework"
     },
@@ -5537,6 +5655,14 @@
     {
       "from": "btc-jpyc-asset-allocation",
       "to": "crypto-asset-tax-guideline"
+    },
+    {
+      "from": "btc-jpyc-asset-allocation",
+      "to": "global-capital-flow-fx-risk-diversification"
+    },
+    {
+      "from": "btc-jpyc-asset-allocation",
+      "to": "japan-monetary-policy-paradigm-shift"
     },
     {
       "from": "btc-jpyc-asset-allocation",
@@ -7671,6 +7797,30 @@
       "to": "organizational-ai-knowledge-asset-management"
     },
     {
+      "from": "global-capital-flow-fx-risk-diversification",
+      "to": "btc-jpyc-asset-allocation"
+    },
+    {
+      "from": "global-capital-flow-fx-risk-diversification",
+      "to": "japan-monetary-policy-paradigm-shift"
+    },
+    {
+      "from": "global-capital-flow-fx-risk-diversification",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "global-capital-flow-fx-risk-diversification",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "global-capital-flow-fx-risk-diversification",
+      "to": "stablecoin-tax-comparison"
+    },
+    {
+      "from": "global-capital-flow-fx-risk-diversification",
+      "to": "time-capital-health-investment-narrative"
+    },
+    {
       "from": "government-energy-policy-monitoring",
       "to": "ai-agent-operations"
     },
@@ -8243,6 +8393,26 @@
       "to": "sleep-priority-performance-management"
     },
     {
+      "from": "japan-monetary-policy-paradigm-shift",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "japan-monetary-policy-paradigm-shift",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "japan-monetary-policy-paradigm-shift",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "japan-monetary-policy-paradigm-shift",
+      "to": "global-capital-flow-fx-risk-diversification"
+    },
+    {
+      "from": "japan-monetary-policy-paradigm-shift",
+      "to": "japan-ai-robot-social-implementation"
+    },
+    {
       "from": "jaxa-space-strategy-fund",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
     },
@@ -8277,6 +8447,14 @@
     {
       "from": "jpyc-tax-strategy",
       "to": "crypto-asset-tax-guideline"
+    },
+    {
+      "from": "jpyc-tax-strategy",
+      "to": "global-capital-flow-fx-risk-diversification"
+    },
+    {
+      "from": "jpyc-tax-strategy",
+      "to": "japan-monetary-policy-paradigm-shift"
     },
     {
       "from": "jpyc-tax-strategy",
@@ -11011,6 +11189,30 @@
       "to": "qms-style-ai-prompt-governance"
     },
     {
+      "from": "process-ax-ai-reconstruction-strategy",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "process-ax-ai-reconstruction-strategy",
+      "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "process-ax-ai-reconstruction-strategy",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "process-ax-ai-reconstruction-strategy",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "process-ax-ai-reconstruction-strategy",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "process-ax-ai-reconstruction-strategy",
+      "to": "ai-unknowns-identification-strategy"
+    },
+    {
       "from": "professional-longevity-expert-development-strategy",
       "to": "ai-book-authoring-acceleration-pattern"
     },
@@ -11668,11 +11870,27 @@
     },
     {
       "from": "singularity-loop-ai-self-acceleration",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
       "to": "ai-labor-policy-governance-framework"
     },
     {
       "from": "singularity-loop-ai-self-acceleration",
       "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
+      "to": "asi-economy-societal-transformation"
     },
     {
       "from": "singularity-loop-ai-self-acceleration",

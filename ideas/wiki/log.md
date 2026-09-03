@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-09-03] ingest | 年1000万のSaaS解約を起点に、AIで経営を再構築｜150名規模のコーチング企業に密着
+- 更新ページ: [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md), [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [プロセスAX：AIによる経営再構築戦略](process-ax-ai-reconstruction-strategy.md)
+- 出典: [年1000万のSaaS解約を起点に、AIで経営を再構築｜150名規模のコーチング](https://www.youtube.com/watch?v=VY4gbugOucg)
+
+## [2026-09-03] ingest | リーダーシップを「行為論」で語るな／「率先する」上司が組織を弱くする／結婚も子育ても「文脈がすべて」
+- 更新ページ: [関係性の質とリーダーシップ理論](relationship-quality-leadership-theory.md), [コンテキスト設計によるリーダーシップ：行動の文脈が評価を決める](context-design-leadership-impression-management.md), [AIリーダーの価値観と哲学：システム信頼性の基盤構築](ai-leader-values-philosophy-reliability-foundation.md)
+- 出典: [リーダーシップを「行為論」で語るな／「率先する」上司が組織を弱くする／結婚も子育](https://www.youtube.com/watch?v=t2mxEavqpJI)
+
+## [2026-09-03] ingest | 【日本は金融緩和を卒業する？】「貯金は正義」の時代は終わり／「ドル離れ」の果てに米株急落と超円高か／
+- 更新ページ: [JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い](jpyc-tax-strategy.md), [BTC vs JPYC：円安時代の資産配分戦略](btc-jpyc-asset-allocation.md), [日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応](ai-investment-scale-japan-vs-global.md), [日本の金融政策パラダイムシフト：金利・円高・ドル離れの影響分析](japan-monetary-policy-paradigm-shift.md), [グローバル資金フロー変化：為替・金利リスクとアセット分散戦略](global-capital-flow-fx-risk-diversification.md)
+- 出典: [【日本は金融緩和を卒業する？】「貯金は正義」の時代は終わり／「ドル離れ」の果てに](https://www.youtube.com/watch?v=IAtHQMqGB78)
+
+## [2026-09-03] ingest | SoftBank World 2026 孫正義 特別講演
+- 更新ページ: [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md), [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略](ai-unemployment-crisis-ubi-transition-strategy.md), [ASIエコノミーと社会変革：2040年を見据えた未来予測](asi-economy-societal-transformation.md), [AIデータセンターとエネルギー需要：電力消費量増大への対応戦略](ai-data-center-energy-demand-strategy.md)
+- 出典: [SoftBank World 2026 孫正義 特別講演](https://www.youtube.com/watch?v=dTO-tYqZOZg)
+
 ## [2026-08-27] ingest | 月3万円のAI社員、どこまで働く？｜バックオフィス・採用・記事制作まで｜その仕組みも解説！
 - 更新ページ: [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md), [バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化](backoffice-automation-ai-cowork.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AI社員のROI最大化：月額コストと生み出す価値の最適設計](ai-staff-roi-maximization)
 - 出典: [月3万円のAI社員、どこまで働く？｜バックオフィス・採用・記事制作まで｜その仕組](https://www.youtube.com/watch?v=7DzIoArs-pE)
