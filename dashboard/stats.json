@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-09-04T03:15:26+09:00",
+  "generatedAt": "2026-09-05T02:56:19+09:00",
   "weekly": {
-    "commitCount": 25,
+    "commitCount": 24,
     "byDay": [
-      {
-        "date": "2026-08-29",
-        "count": 3
-      },
       {
         "date": "2026-08-30",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-09-04",
+        "count": 2
+      },
+      {
+        "date": "2026-09-05",
         "count": 0
       }
     ]
@@ -43,6 +43,14 @@
   },
   "recentCommits": [
     {
+      "date": "2026-09-04",
+      "message": "news: 2026-09-04 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-09-04",
+      "message": "朝刊: 2026-09-03 Morning Edition生成"
+    },
+    {
       "date": "2026-09-03",
       "message": "ideas: URLリストのタイトル内パイプをエスケープし、git_scrap.py に再発防止を追加"
     },
@@ -53,14 +61,6 @@
     {
       "date": "2026-09-03",
       "message": "ideas: URLリストの重複エントリを削除（index 7件・月別詳細 6件）"
-    },
-    {
-      "date": "2026-09-03",
-      "message": "dashboard: Claude使用量更新 (2026-09-03)"
-    },
-    {
-      "date": "2026-09-03",
-      "message": "dashboard: Claude使用量更新 (2026-09-03)"
     }
   ]
 }
