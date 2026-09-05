@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T14:33:27+09:00",
+  "generatedAt": "2026-09-05T17:20:32+09:00",
   "weekly": {
-    "commitCount": 49,
+    "commitCount": 53,
     "byDay": [
       {
         "date": "2026-08-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-05",
-        "count": 21
+        "count": 25
       }
     ]
   },
@@ -37,30 +37,30 @@
     "scrap": 3,
     "ideas": 2,
     "health": 3,
-    "books": 2,
+    "books": 3,
     "portfolio": 0,
-    "other": 56
+    "other": 59
   },
   "recentCommits": [
     {
       "date": "2026-09-05",
+      "message": "読書記録: 1件追加・更新"
+    },
+    {
+      "date": "2026-09-05",
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+    },
+    {
+      "date": "2026-09-05",
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+    },
+    {
+      "date": "2026-09-05",
+      "message": "news: 2026-09-05 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-09-05",
       "message": "import_running: 既存ログとマージする方式に変更（記録消失バグの根本修正）"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     }
   ]
 }
