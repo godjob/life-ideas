@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T14:17:12+09:00",
+  "generatedAt": "2026-09-05T14:21:10+09:00",
   "weekly": {
-    "commitCount": 34,
+    "commitCount": 40,
     "byDay": [
       {
         "date": "2026-08-30",
@@ -29,26 +29,22 @@
       },
       {
         "date": "2026-09-05",
-        "count": 6
+        "count": 12
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 2,
-    "health": 1,
+    "health": 3,
     "books": 2,
     "portfolio": 0,
-    "other": 43
+    "other": 47
   },
   "recentCommits": [
     {
       "date": "2026-09-05",
-      "message": "scrap: 2026-09-05 【「GPT‑6 Astra」は「4」以来の大転換】"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "ランニング記録更新: import_running.py実行"
+      "message": "ランニング分析: 猛暑期の走り込みと涼期への移行（2026年7月下旬〜9月上旬）"
     },
     {
       "date": "2026-09-05",
@@ -56,7 +52,11 @@
     },
     {
       "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+      "message": "wiki: 知識グラフ更新（265ノード / 2863エッジ）"
+    },
+    {
+      "date": "2026-09-05",
+      "message": "ランニング記録復旧: CSV欠落月（2026-03〜07）の28件を再構成"
     },
     {
       "date": "2026-09-05",
