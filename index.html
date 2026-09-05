@@ -347,6 +347,7 @@
   <button class="tab-btn" onclick="switchTab('wiki', this)">Wiki</button>
   <button class="tab-btn" onclick="switchTab('magazines', this)">📰 Magazines</button>
   <button class="tab-btn" onclick="switchTab('action', this)">Action</button>
+  <button class="tab-btn" onclick="switchTab('running', this)">🏃 Running</button>
   <button class="tab-btn" onclick="switchTab('dashboard', this)">Dashboard</button>
 </div>
 
@@ -387,7 +388,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.41';
+  const VERSION = 'v1.42';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -398,7 +399,7 @@
   let currentSearchQuery = '';
   const contentCache = new Map();
   const isMobile = () => window.innerWidth <= 768;
-  const SINGLE_FILE_TABS = ['urls', 'health'];
+  const SINGLE_FILE_TABS = ['urls', 'health', 'running'];
   const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action', 'wiki'];
   const DATE_FILTER_TABS = ['daily', 'news'];
 
@@ -652,6 +653,22 @@
     return text;
   }
 
+  // Markdown内の相対画像パスを解決する。
+  // 本文は raw.githubusercontent から取得しているため、相対srcのままだと
+  // ダッシュボード自身のURL基準で解決されて404になる。
+  function resolveRelativeImages(rootEl, mdPath) {
+    const baseDir = mdPath.includes('/') ? mdPath.slice(0, mdPath.lastIndexOf('/')) : '';
+    rootEl.querySelectorAll('img').forEach(img => {
+      const src = img.getAttribute('src') || '';
+      if (!src || /^(https?:)?\/\//.test(src) || src.startsWith('data:')) return;
+      const clean = src.replace(/^\.\//, '');
+      img.src = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${baseDir}/${clean}`;
+      img.loading = 'lazy';
+      img.style.maxWidth = '100%';
+      img.style.height = 'auto';
+    });
+  }
+
   function formatLabel(dir, name) {
     const base = name.replace('.md', '');
     if (dir === 'daily') {
@@ -788,6 +805,13 @@
     if (dir === 'health') {
       listEl.innerHTML = '<div class="file-item active">健康管理プラン</div>';
       openFile('health/supplement-health-plan.md', listEl.firstChild);
+      return;
+    }
+
+    // Runningタブ: 単一ファイル表示（build_running_public.py が生成）
+    if (dir === 'running') {
+      listEl.innerHTML = '<div class="file-item active">ランニング記録</div>';
+      openFile('ideas/running/index.md', listEl.firstChild);
       return;
     }
 
@@ -1196,6 +1220,7 @@
     let rendered = marked.parse(text);
     if (currentTab === 'news') rendered = renderNewsContent(rendered);
     contentEl.innerHTML = `<div class="markdown-body">${rendered}</div>`;
+    resolveRelativeImages(contentEl, path);
     makeExternalLinksNewTab(contentEl);
     if (currentTab === 'wiki') makeWikiLinksInternal(contentEl);
     if (currentSearchQuery) highlightText(contentEl, currentSearchQuery);
