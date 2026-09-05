@@ -64,13 +64,13 @@
       "id": "ai-agent-cli-automation-pattern",
       "label": "AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン",
       "group": "AIエージェント設計",
-      "value": 22
+      "value": 23
     },
     {
       "id": "ai-agent-governance-human-criteria",
       "label": "AIエージェント組織のガバナンスと人間による選別基準設計",
       "group": "AIエージェント設計",
-      "value": 7
+      "value": 8
     },
     {
       "id": "ai-agent-operations",
@@ -106,13 +106,13 @@
       "id": "ai-as-scientific-instrument-verification-loop",
       "label": "科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見",
       "group": "その他",
-      "value": 9
+      "value": 10
     },
     {
       "id": "ai-assisted-system-building-non-programmers",
       "label": "プログラミング経験なしのAIによるシステム構築",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "ai-automation-system-admin-differentiation-strategy",
@@ -166,7 +166,7 @@
       "id": "ai-capability-threshold-disclosure-strategy",
       "label": "AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク",
       "group": "AI戦略・社会",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-career",
@@ -202,7 +202,7 @@
       "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
       "group": "その他",
-      "value": 15
+      "value": 17
     },
     {
       "id": "ai-data-center-energy-demand-strategy",
@@ -220,7 +220,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 25
+      "value": 27
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
@@ -262,7 +262,7 @@
       "id": "ai-failure-log",
       "label": "AIエージェント失敗ログと修正ナレッジ",
       "group": "AI戦略・社会",
-      "value": 27
+      "value": 26
     },
     {
       "id": "ai-fatigue-judgment-burden-mitigation",
@@ -280,13 +280,13 @@
       "id": "ai-frontier-diffusion-control",
       "label": "AIフロンティア技術の普及と制御：エコシステム戦略",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "その他",
-      "value": 14
+      "value": 15
     },
     {
       "id": "ai-human-coexistence-risk-management",
@@ -334,7 +334,7 @@
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "その他",
-      "value": 21
+      "value": 22
     },
     {
       "id": "ai-manager-role-transition-code-craftsman",
@@ -400,13 +400,13 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "その他",
-      "value": 19
+      "value": 22
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "その他",
-      "value": 19
+      "value": 20
     },
     {
       "id": "ai-self-improvement-development-acceleration",
@@ -442,7 +442,13 @@
       "id": "ai-tool-evaluation-monthly-refresh-cycle",
       "label": "AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応",
       "group": "その他",
-      "value": 10
+      "value": 9
+    },
+    {
+      "id": "ai-transparent-reasoning-governance",
+      "label": "AI推論の透明性確保とガバナンス",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "ai-understanding-resolution-human-value",
@@ -532,7 +538,7 @@
       "id": "backoffice-automation-ai-cowork",
       "label": "バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化",
       "group": "ビジネス・組織",
-      "value": 11
+      "value": 12
     },
     {
       "id": "book-metadata-completion-system",
@@ -877,6 +883,12 @@
       "value": 6
     },
     {
+      "id": "gpt-x-astra-capabilities",
+      "label": "GPT-X Astraの能力：推論・PC操作・未知環境適応",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "harness-engineering-autonomous-development",
       "label": "ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン",
       "group": "Claude/AI開発ツール",
@@ -922,7 +934,7 @@
       "id": "information-processing-efficiency-ai-integration",
       "label": "情報処理効率化とAI統合：一次情報重視と大量情報要約術",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "innovation-productivity-national-competitiveness",
@@ -982,7 +994,7 @@
       "id": "kimi-k3-moonshot-ai-model-comparison",
       "label": "Kimi K3とMoonshot AI：AIモデル性能比較と市場影響",
       "group": "その他",
-      "value": 9
+      "value": 8
     },
     {
       "id": "labor-money-decoupling",
@@ -1024,7 +1036,7 @@
       "id": "llm-integration-technical-documentation-automation",
       "label": "LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化",
       "group": "技術実装・エンジニアリング",
-      "value": 15
+      "value": 14
     },
     {
       "id": "llm-tiered-execution-pattern",
@@ -1126,7 +1138,7 @@
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 22
+      "value": 21
     },
     {
       "id": "mcp-skill-architecture",
@@ -1168,13 +1180,13 @@
       "id": "multi-agent-pipeline-error-handling-checkpoint",
       "label": "マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン",
       "group": "AIエージェント設計",
-      "value": 19
+      "value": 18
     },
     {
       "id": "multi-agent-task-dependency-management",
       "label": "マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消",
       "group": "AIエージェント設計",
-      "value": 30
+      "value": 29
     },
     {
       "id": "multi-session-lifecycle-continuous-monitoring",
@@ -1342,7 +1354,7 @@
       "id": "qms-style-ai-prompt-governance",
       "label": "QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用",
       "group": "製造業・業務DX",
-      "value": 38
+      "value": 39
     },
     {
       "id": "quantified-self-ai-feedback-loop",
@@ -1818,15 +1830,11 @@
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
-      "to": "ai-failure-log"
-    },
-    {
-      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "ai-sandboxing-isolation-architecture-manufacturing"
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
-      "to": "ai-tool-evaluation-monthly-refresh-cycle"
+      "to": "ai-transparent-reasoning-governance"
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
@@ -1843,6 +1851,10 @@
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "to": "context-window-scaling-limitation-smart-extraction-architecture"
+    },
+    {
+      "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
+      "to": "gpt-x-astra-capabilities"
     },
     {
       "from": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
@@ -2126,11 +2138,23 @@
     },
     {
       "from": "ai-agent-cli-automation-pattern",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-agent-cli-automation-pattern",
+      "to": "ai-transparent-reasoning-governance"
+    },
+    {
+      "from": "ai-agent-cli-automation-pattern",
       "to": "cms-plugin-sandbox-security-architecture"
     },
     {
       "from": "ai-agent-cli-automation-pattern",
       "to": "daily-context-ai-partnership"
+    },
+    {
+      "from": "ai-agent-cli-automation-pattern",
+      "to": "gpt-x-astra-capabilities"
     },
     {
       "from": "ai-agent-cli-automation-pattern",
@@ -5045,6 +5069,58 @@
       "to": "software-paradigm-evolution-1-0-2-0-3-0"
     },
     {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-agent-cli-automation-pattern"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-agent-governance-human-criteria"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-as-scientific-instrument-verification-loop"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "backoffice-automation-ai-cowork"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "gpt-x-astra-capabilities"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-transparent-reasoning-governance",
+      "to": "qms-style-ai-prompt-governance"
+    },
+    {
       "from": "ai-understanding-resolution-human-value",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -7833,6 +7909,38 @@
       "to": "skill-system"
     },
     {
+      "from": "gpt-x-astra-capabilities",
+      "to": "ai-assisted-system-building-non-programmers"
+    },
+    {
+      "from": "gpt-x-astra-capabilities",
+      "to": "ai-capability-threshold-disclosure-strategy"
+    },
+    {
+      "from": "gpt-x-astra-capabilities",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "gpt-x-astra-capabilities",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "gpt-x-astra-capabilities",
+      "to": "ai-frontier-diffusion-control"
+    },
+    {
+      "from": "gpt-x-astra-capabilities",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "gpt-x-astra-capabilities",
+      "to": "ai-transparent-reasoning-governance"
+    },
+    {
+      "from": "gpt-x-astra-capabilities",
+      "to": "information-processing-efficiency-ai-integration"
+    },
+    {
       "from": "harness-engineering-autonomous-development",
       "to": "agent-harness-reliability-framework"
     },
@@ -9690,6 +9798,10 @@
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "ai-transparent-reasoning-governance"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "as-little-ai-as-possible-principle"
     },
     {
@@ -9702,11 +9814,7 @@
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "kimi-k3-moonshot-ai-model-comparison"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "llm-integration-technical-documentation-automation"
+      "to": "gpt-x-astra-capabilities"
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
@@ -9715,22 +9823,6 @@
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "long-running-ai-agent-design-patterns"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "manufacturing-ai-opportunities"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "manufacturing-system-vulnerability-preemptive-audit"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "multi-agent-pipeline-error-handling-checkpoint"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "multi-agent-task-dependency-management"
     },
     {
       "from": "manufacturing-email-automation-adoption-resistance",
