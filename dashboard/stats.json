@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T14:21:10+09:00",
+  "generatedAt": "2026-09-05T14:33:27+09:00",
   "weekly": {
-    "commitCount": 40,
+    "commitCount": 49,
     "byDay": [
       {
         "date": "2026-08-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-05",
-        "count": 12
+        "count": 21
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 3,
     "books": 2,
     "portfolio": 0,
-    "other": 47
+    "other": 56
   },
   "recentCommits": [
     {
       "date": "2026-09-05",
-      "message": "ランニング分析: 猛暑期の走り込みと涼期への移行（2026年7月下旬〜9月上旬）"
+      "message": "import_running: 既存ログとマージする方式に変更（記録消失バグの根本修正）"
     },
     {
       "date": "2026-09-05",
@@ -52,11 +52,11 @@
     },
     {
       "date": "2026-09-05",
-      "message": "wiki: 知識グラフ更新（265ノード / 2863エッジ）"
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     },
     {
       "date": "2026-09-05",
-      "message": "ランニング記録復旧: CSV欠落月（2026-03〜07）の28件を再構成"
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     },
     {
       "date": "2026-09-05",
