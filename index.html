@@ -131,6 +131,24 @@
     .markdown-body th { background: #1a1a2e; color: #fff; padding: 8px 12px; text-align: left; }
     .markdown-body td { padding: 8px 12px; border-bottom: 1px solid #eee; }
     .markdown-body tr:hover td { background: #f9f9f9; }
+    /* 折りたたみセクション（月別テーブルなど。既定で閉じている） */
+    .markdown-body details {
+      border: 1px solid #e2e2e8; border-radius: 6px;
+      margin: 8px 0; background: #fafafc;
+    }
+    .markdown-body details[open] { background: #fff; }
+    .markdown-body summary {
+      cursor: pointer; padding: 10px 14px; font-size: 0.9rem;
+      color: #1a1a2e; list-style: none; user-select: none;
+    }
+    .markdown-body summary::-webkit-details-marker { display: none; }
+    .markdown-body summary::before {
+      content: '▸'; display: inline-block; margin-right: 8px;
+      color: #e94560; transition: transform 0.15s;
+    }
+    .markdown-body details[open] > summary::before { transform: rotate(90deg); }
+    .markdown-body summary:hover { background: #f0f0f5; border-radius: 6px; }
+    .markdown-body details > table { margin: 0 0 12px; }
     .markdown-body code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 0.85em; }
     .markdown-body pre { background: #1a1a2e; color: #e0e0e0; padding: 16px; border-radius: 6px; overflow-x: auto; margin: 12px 0; }
     .markdown-body pre code { background: none; padding: 0; color: inherit; }
@@ -388,7 +406,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.42';
+  const VERSION = 'v1.43';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
