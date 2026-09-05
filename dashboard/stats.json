@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T17:34:07+09:00",
+  "generatedAt": "2026-09-05T17:39:10+09:00",
   "weekly": {
-    "commitCount": 55,
+    "commitCount": 58,
     "byDay": [
       {
         "date": "2026-08-30",
@@ -29,34 +29,34 @@
       },
       {
         "date": "2026-09-05",
-        "count": 27
+        "count": 30
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 2,
-    "health": 4,
+    "health": 5,
     "books": 3,
     "portfolio": 0,
-    "other": 60
+    "other": 62
   },
   "recentCommits": [
     {
       "date": "2026-09-05",
+      "message": "import_running: index.md の集計をランニング/ウォーキングで分ける"
+    },
+    {
+      "date": "2026-09-05",
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+    },
+    {
+      "date": "2026-09-05",
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+    },
+    {
+      "date": "2026-09-05",
       "message": "CLAUDE.md: ランニング取り込みフローのコミット記述を実装に合わせる"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "読書記録: 1件追加・更新"
-    },
-    {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     },
     {
       "date": "2026-09-05",
