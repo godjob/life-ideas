@@ -1,9 +1,14 @@
 # Wiki インデックス
 
-最終更新: 2026-09-03
+最終更新: 2026-09-05
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md) | 26/05/03 | 26/09/05 | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで指摘した通り、現在のLLMベースのAIアーキテ |
+| [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md) | 26/09/05 | 26/09/05 | AIエージェントがCLI経由でシステムを自律操作し、ログ確認や定期メンテナンスなどのルーティン作業を自動化するパターンで |
+| [AI推論の透明性確保とガバナンス](ai-transparent-reasoning-governance.md) | 26/09/05 | 26/09/05 | AI、特にGPT-6 Astraのような高度なモデルの登場は、その飛躍的な推論能力と自律的なPC操作エージェント機能によ |
+| [GPT-X Astraの能力：推論・PC操作・未知環境適応](gpt-x-astra-capabilities.md) | 26/09/05 | 26/09/05 | OpenAIが発表した「GPT-6 Astra」は、従来のAIモデルから大きく飛躍した能力を持つ。特に、未知の環境への適 |
+| [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md) | 25/05/03 | 26/09/05 | Google DeepMindのCEO・デミス・ハサビスが指摘するAGI実現に向けた技術課題である「継続学習」「長期推論 |
 | [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md) | 26/05/03 | 26/09/03 | AI導入の遅延は単なる一時的な効率差ではなく、企業間の競争力格差を「取り返しがつかないレベル」にまで拡大させるメカニズム |
 | [AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化](ai-budget-management-roi-optimization.md) | 26/05/03 | 26/09/03 | AI利用コストの削減は、モデル選択やアーキテクチャ設計よりも、プロンプト工夫とトークン消費最適化にある。プロンプト最適化 |
 | [AIデータセンターとエネルギー需要：電力消費量増大への対応戦略](ai-data-center-energy-demand-strategy.md) | 26/09/03 | 26/09/03 | AI技術の急速な発展、特にASI（アーティフィシャルスーパーインテリジェンス）エコノミーの到来は、データセンターの電力消 |
@@ -67,13 +72,11 @@
 | [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 26/05/20 | 26/08/02 | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
 | [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md) | 26/07/27 | 26/08/02 | 中国のMoonshot AIが開発した「Kimi K3」は、AnthropicのClaude Fable 5やOpenA |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/05/03 | 26/08/02 | NVIDIA GTC 2026でのOpenClawおよびKimi創業者ヤン・ジリン氏の事例に見られるように、AIエージェ |
-| [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md) | 25/05/03 | 26/08/02 | Google DeepMindのCEO・デミス・ハサビスが指摘するAGI実現に向けた技術課題である「継続学習」「長期推論 |
 | [製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策](manufacturing-on-premise-ai-adoption.md) | 26/08/02 | 26/08/02 | 製造業においてAIを導入する際、機密性の高い企業データを扱うため、情報漏洩リスクの管理が最重要課題となる。近年登場したオ |
 | [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 26/03/16 | 26/08/02 | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |
 | [オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク](open-vs-closed-ai-model-strategy.md) | 26/08/02 | 26/08/02 | AI技術の急速な進化と普及に伴い、企業はAIモデルの導入において、オープンモデルとクローズドモデルのどちらを選択すべきか |
 | [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/08/02 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md) | 26/07/27 | 26/07/27 | AI技術の急速な発展に伴い、世界中でAI人材の獲得競争が激化しています。特に中国発の高性能AIモデルの登場は、この競争に |
-| [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md) | 26/05/03 | 26/07/23 | Google DeepMind CEOデミス・ハサビス氏がYコンビネータで指摘した通り、現在のLLMベースのAIアーキテ |
 | [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md) | 26/07/23 | 26/07/23 | 汎用人工知能（AGI）の到来は、人類社会に未曾有の変革をもたらす可能性を秘めています。このページでは、AGIがもたらす広 |
 | [AGIの社会的影響と責任ある開発](ai-career.md) | 26/07/23 | 26/07/23 | 汎用人工知能（AGI）の到来は、人類社会に前例のない変革をもたらす可能性を秘めており、その影響の大きさと責任ある開発の重 |
 | [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md) | 26/07/23 | 26/07/23 | AI、特に汎用人工知能（AGI）の進化は、個人の健康管理やパフォーマンス向上に革新をもたらし、ウェアラブルデバイスと職場 |
@@ -259,7 +262,6 @@
 | [AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先](ai-managed-service-operational-design.md) | 25/05/03 | 25/05/03 | AIエージェントは短期タスクでは高い性能を発揮しますが、製造業などの長時間連続運用環境では誤りが蓄積して致命的な障害とな |
 | [段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行](tiered-ai-model-planning-verification-execution.md) | 25/05/04 | 25/05/03 | Claude APIのレート制限に頻繁に達していたユーザーが、正しい使用方法を学ぶことで3週間以上制限に達しなくなった体 |
 | [年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し](seniority-employment-ai-debt-transition-strategy.md) | 25/04/21 | 25/04/21 | 日本の年功序列雇用制度はAI・ロボット時代において経営上の負債となりつつある。生産性と報酬が乖離し、固定費化した人員構成 |
-| [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md) | - | - | AIエージェントがCLI経由でシステムを自律操作し、ログ確認や定期メンテナンスなどのルーティン作業を自動化するパターンで |
 | [AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略](ai-fatigue-judgment-burden-mitigation.md) | - | - | AI時代のシステム管理では、自動化ツールの効率性に依存しながらも、生成結果の妥当性を判断する責任が人間に集中し、「AI疲 |
 | [AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策](ai-model-license-compliance-manufacturing.md) | - | - | AI モデルの導入決定時には、機能性や性能だけでなく、ライセンス条件が法務リスク と導入スケジュール に直結する。特に製 |
 | [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md) | - | - | AIが物理世界での試行錯誤を通じて、人間には得られない複雑性の直感を獲得する段階に入った。この進化により、AIは単なる計 |
