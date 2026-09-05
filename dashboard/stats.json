@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T17:54:49+09:00",
+  "generatedAt": "2026-09-05T18:02:45+09:00",
   "weekly": {
-    "commitCount": 68,
+    "commitCount": 74,
     "byDay": [
       {
         "date": "2026-08-30",
@@ -29,26 +29,26 @@
       },
       {
         "date": "2026-09-05",
-        "count": 40
+        "count": 46
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 2,
-    "health": 6,
+    "health": 7,
     "books": 3,
     "portfolio": 0,
-    "other": 71
+    "other": 76
   },
   "recentCommits": [
     {
       "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+      "message": "ランニング公開ページ: 分析を先頭に並べ替え、月別テーブルを折りたたみに"
     },
     {
       "date": "2026-09-05",
-      "message": "ランニング記録をideas/で公開（Runningタブ追加）"
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     },
     {
       "date": "2026-09-05",
