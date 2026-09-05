@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T02:56:19+09:00",
+  "generatedAt": "2026-09-05T14:17:12+09:00",
   "weekly": {
-    "commitCount": 24,
+    "commitCount": 34,
     "byDay": [
       {
         "date": "2026-08-30",
@@ -21,7 +21,7 @@
       },
       {
         "date": "2026-09-03",
-        "count": 14
+        "count": 18
       },
       {
         "date": "2026-09-04",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-09-05",
-        "count": 0
+        "count": 6
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 3,
     "ideas": 2,
-    "health": 0,
+    "health": 1,
     "books": 2,
     "portfolio": 0,
-    "other": 36
+    "other": 43
   },
   "recentCommits": [
     {
-      "date": "2026-09-04",
-      "message": "news: 2026-09-04 記事まとめを自動生成"
+      "date": "2026-09-05",
+      "message": "scrap: 2026-09-05 【「GPT‑6 Astra」は「4」以来の大転換】"
     },
     {
-      "date": "2026-09-04",
-      "message": "朝刊: 2026-09-03 Morning Edition生成"
+      "date": "2026-09-05",
+      "message": "ランニング記録更新: import_running.py実行"
     },
     {
-      "date": "2026-09-03",
-      "message": "ideas: URLリストのタイトル内パイプをエスケープし、git_scrap.py に再発防止を追加"
+      "date": "2026-09-05",
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     },
     {
-      "date": "2026-09-03",
-      "message": "dashboard: Claude使用量更新 (2026-09-03)"
+      "date": "2026-09-05",
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     },
     {
-      "date": "2026-09-03",
-      "message": "ideas: URLリストの重複エントリを削除（index 7件・月別詳細 6件）"
+      "date": "2026-09-05",
+      "message": "dashboard: Claude使用量更新 (2026-09-05)"
     }
   ]
 }
