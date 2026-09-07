@@ -361,6 +361,7 @@
   <button class="tab-btn" onclick="switchTab('urls', this)">URLs</button>
   <button class="tab-btn" onclick="switchTab('news', this)">記事</button>
   <button class="tab-btn" onclick="switchTab('health', this)">Health</button>
+  <button class="tab-btn" onclick="switchTab('vitals', this)">📊 Vitals</button>
   <button class="tab-btn" onclick="switchTab('books', this)">Books</button>
   <button class="tab-btn" onclick="switchTab('wiki', this)">Wiki</button>
   <button class="tab-btn" onclick="switchTab('magazines', this)">📰 Magazines</button>
@@ -406,7 +407,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.43';
+  const VERSION = 'v1.44';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -417,7 +418,7 @@
   let currentSearchQuery = '';
   const contentCache = new Map();
   const isMobile = () => window.innerWidth <= 768;
-  const SINGLE_FILE_TABS = ['urls', 'health', 'running'];
+  const SINGLE_FILE_TABS = ['urls', 'health', 'vitals', 'running'];
   const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action', 'wiki'];
   const DATE_FILTER_TABS = ['daily', 'news'];
 
@@ -823,6 +824,13 @@
     if (dir === 'health') {
       listEl.innerHTML = '<div class="file-item active">健康管理プラン</div>';
       openFile('health/supplement-health-plan.md', listEl.firstChild);
+      return;
+    }
+
+    // Vitalsタブ: 単一ファイル表示（build_vitals_public.py が生成）
+    if (dir === 'vitals') {
+      listEl.innerHTML = '<div class="file-item active">ヘルスケア記録</div>';
+      openFile('ideas/vitals/index.md', listEl.firstChild);
       return;
     }
 
