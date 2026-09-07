@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-07T02:26:00+09:00",
+  "generatedAt": "2026-09-07T21:19:06+09:00",
   "weekly": {
-    "commitCount": 72,
+    "commitCount": 89,
     "byDay": [
       {
         "date": "2026-09-01",
@@ -21,7 +21,7 @@
       },
       {
         "date": "2026-09-05",
-        "count": 46
+        "count": 50
       },
       {
         "date": "2026-09-06",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-07",
-        "count": 0
+        "count": 13
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 7,
     "books": 2,
     "portfolio": 0,
-    "other": 65
+    "other": 80
   },
   "recentCommits": [
     {
-      "date": "2026-09-06",
-      "message": "news: 2026-09-06 記事まとめを自動生成"
+      "date": "2026-09-07",
+      "message": "健康データ取り込み: iPhoneヘルスケア用スクリプト2本を追加"
     },
     {
-      "date": "2026-09-06",
-      "message": "朝刊: 2026-09-05 Morning Edition生成"
+      "date": "2026-09-07",
+      "message": "dashboard: Claude使用量更新 (2026-09-07)"
     },
     {
-      "date": "2026-09-05",
-      "message": "ランニング公開ページ: 分析を先頭に並べ替え、月別テーブルを折りたたみに"
+      "date": "2026-09-07",
+      "message": "dashboard: Claude使用量更新 (2026-09-07)"
     },
     {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+      "date": "2026-09-07",
+      "message": "dashboard: Claude使用量更新 (2026-09-07)"
     },
     {
-      "date": "2026-09-05",
-      "message": "dashboard: Claude使用量更新 (2026-09-05)"
+      "date": "2026-09-07",
+      "message": "dashboard: Claude使用量更新 (2026-09-07)"
     }
   ]
 }
