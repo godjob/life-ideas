@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-07T22:37:00+09:00",
+  "generatedAt": "2026-09-07T23:42:20+09:00",
   "weekly": {
-    "commitCount": 101,
+    "commitCount": 111,
     "byDay": [
       {
         "date": "2026-09-01",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-07",
-        "count": 25
+        "count": 35
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 7,
     "books": 2,
     "portfolio": 0,
-    "other": 92
+    "other": 102
   },
   "recentCommits": [
     {
       "date": "2026-09-07",
-      "message": "健康データ取り込み: 第1段階を確実に埋まる12指標に組み替え"
+      "message": "ヘルスケア記録の公開: 📊 Vitals タブを新設"
     },
     {
       "date": "2026-09-07",
