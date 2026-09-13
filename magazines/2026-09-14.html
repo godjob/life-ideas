@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Edition — 2026-09-14</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+header {
+  background: #fff;
+  border-bottom: 3px solid #1a1a1a;
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+header .masthead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #1a1a1a;
+}
+header .edition-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.hn-section { margin-bottom: 4rem; }
+.story-card {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.story-title-ja {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.story-title-en {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.story-meta {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.story-meta span::before { margin-right: 0.2em; }
+.story-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.read-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.daily-section { margin-bottom: 4rem; }
+.daily-card {
+  padding: 1.75rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.daily-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.daily-card ul { padding-left: 1.25rem; }
+.daily-card li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.3rem; }
+.daily-card p { font-size: 0.9rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .story-title-ja { font-size: 1.3rem; }
+  .card-hero, .card-midnight, .card-rose, .card-terminal,
+  .card-academic, .card-bigstat, .card-teal, .card-amber,
+  .card-slate, .card-pastel { padding: 1.5rem; }
+}
+
+.card-hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.card-hero .story-num {
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  line-height: 1;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+}
+.card-hero .story-title-ja { color: #fff; }
+.card-hero .story-title-en { color: rgba(255,255,255,0.65); }
+.card-hero .story-meta { color: rgba(255,255,255,0.75); }
+.card-hero .story-summary { color: rgba(255,255,255,0.9); }
+.card-hero .read-btn { background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+.card-hero .read-btn:hover { background: rgba(255,255,255,0.35); }
+
+
+.card-midnight {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+.card-midnight .story-num { color: #39d353; }
+.card-midnight .story-title-ja { color: #e6edf3; }
+.card-midnight .story-title-en { color: #8b949e; }
+.card-midnight .story-meta { color: #8b949e; }
+.card-midnight .story-summary { color: #c9d1d9; }
+.card-midnight .read-btn { background: #39d353; color: #0d1117; border: none; font-weight: 700; }
+.card-midnight .read-btn:hover { background: #56e56a; }
+
+
+.card-rose {
+  background: #fff0f3;
+  color: #1a0a0d;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-rose::after {
+  content: "!";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e11d48;
+  opacity: 0.2;
+  font-family: 'Fraunces', serif;
+}
+.card-rose .story-num { color: #e11d48; }
+.card-rose .story-title-ja { color: #881337; }
+.card-rose .story-title-en { color: #9f1239; opacity: 0.7; }
+.card-rose .story-meta { color: #9f1239; }
+.card-rose .story-summary { color: #3f0a16; }
+.card-rose .read-btn { background: #e11d48; color: #fff; border: none; }
+.card-rose .read-btn:hover { background: #be123c; }
+
+
+.card-terminal {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-terminal .story-num { color: #569cd6; font-family: monospace; }
+.card-terminal .story-title-ja { color: #9cdcfe; font-family: monospace; }
+.card-terminal .story-title-ja::before { content: "> "; color: #4ec9b0; }
+.card-terminal .story-title-en { color: #808080; font-family: monospace; }
+.card-terminal .story-meta { color: #6a9955; font-family: monospace; }
+.card-terminal .story-summary { color: #ce9178; font-family: monospace; }
+.card-terminal .read-btn { background: #252526; color: #4ec9b0; border: 1px solid #4ec9b0; font-family: monospace; }
+.card-terminal .read-btn:hover { background: #4ec9b0; color: #1e1e1e; }
+
+
+.card-academic {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 4px;
+  border-top: 4px solid #7b2d3c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-academic .story-num { color: #7b2d3c; font-family: 'Fraunces', serif; }
+.card-academic .story-title-ja { color: #1a1a1a; }
+.card-academic .story-title-ja::first-letter {
+  font-size: 2.5em;
+  float: left;
+  margin: 0 0.05em 0 0;
+  line-height: 0.85;
+  color: #7b2d3c;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.card-academic .story-title-en { color: #5a5a5a; }
+.card-academic .story-meta { color: #7b2d3c; }
+.card-academic .story-summary { color: #333; line-height: 1.8; }
+.card-academic .read-btn { background: #7b2d3c; color: #fff; border: none; }
+.card-academic .read-btn:hover { background: #5e2230; }
+
+
+.card-bigstat {
+  background: #fafaf9;
+  color: #1c1917;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e7e5e4;
+}
+.card-bigstat .bg-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: 900;
+  color: #f5f5f4;
+  font-family: 'Fraunces', serif;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-bigstat > *:not(.bg-score) { position: relative; z-index: 1; }
+.card-bigstat .story-num { color: #78716c; }
+.card-bigstat .story-title-ja { color: #1c1917; }
+.card-bigstat .story-title-en { color: #78716c; }
+.card-bigstat .story-meta { color: #a8a29e; }
+.card-bigstat .story-summary { color: #44403c; }
+.card-bigstat .read-btn { background: #1c1917; color: #fafaf9; border: none; }
+.card-bigstat .read-btn:hover { background: #44403c; }
+
+
+.card-teal {
+  background: #e6f4f1;
+  color: #134e4a;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 5px solid #0d9488;
+}
+.card-teal .story-num { color: #0d9488; }
+.card-teal .story-title-ja { color: #134e4a; }
+.card-teal .story-title-en { color: #2d6a65; opacity: 0.8; }
+.card-teal .story-meta { color: #0f766e; }
+.card-teal .story-summary { color: #1f5c58; }
+.card-teal .read-btn { background: #0d9488; color: #fff; border: none; }
+.card-teal .read-btn:hover { background: #0f766e; }
+
+
+.card-amber {
+  background: #fffbeb;
+  color: #1c1410;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid #f59e0b;
+}
+.card-amber .story-num { color: #d97706; }
+.card-amber .story-title-ja { color: #1c1410; }
+.card-amber .story-title-en { color: #92400e; opacity: 0.75; }
+.card-amber .story-meta { color: #b45309; }
+.card-amber .story-summary { color: #44300f; }
+.card-amber .read-btn { background: #f59e0b; color: #1c1410; border: none; font-weight: 600; }
+.card-amber .read-btn:hover { background: #d97706; color: #fff; }
+
+
+.card-slate {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #facc15;
+}
+.card-slate .story-num { color: #facc15; }
+.card-slate .story-title-ja { color: #f1f5f9; }
+.card-slate .story-title-en { color: #94a3b8; }
+.card-slate .story-meta { color: #64748b; }
+.card-slate .story-summary { color: #cbd5e1; }
+.card-slate .read-btn { background: #facc15; color: #1e293b; border: none; font-weight: 700; }
+.card-slate .read-btn:hover { background: #eab308; }
+
+
+.card-pastel {
+  background: #f8f4ff;
+  color: #1e0a3c;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #ddd6fe;
+}
+.card-pastel .story-num { color: #7c3aed; }
+.card-pastel .story-title-ja { color: #1e0a3c; }
+.card-pastel .story-title-en { color: #5b21b6; opacity: 0.7; }
+.card-pastel .story-meta { color: #6d28d9; }
+.card-pastel .story-summary { color: #2e1065; }
+.card-pastel .read-btn { background: #7c3aed; color: #fff; border: none; }
+.card-pastel .read-btn:hover { background: #6d28d9; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="masthead">Morning Edition</div>
+      <div class="edition-date">2026年9月14日 &nbsp;·&nbsp; Hacker News Daily Digest</div>
+    </div>
+  </header>
+
+  <section class="hn-section">
+    <div class="container">
+      <h2 class="section-heading">Hacker News — 本日のピック</h2>
+      
+  <div class="story-card card-hero">
+    
+    <span class="story-num">01</span>
+    <div class="story-title-ja">私以外は皆、AI開発を減速すべきだ</div>
+    <div class="story-title-en">Everyone should slow down AI development except for me</div>
+    <div class="story-meta">
+      <span>▲ 739</span>
+      <span>💬 433</span>
+      <span>by xena</span>
+    </div>
+    <div class="story-summary">この記事は、AI開発の減速に関する議論において、筆者自身は例外と考えるという皮肉めいた視点を提供しています。AIの倫理的・社会的な影響を考慮しつつも、個人の開発ペースを維持したいという複雑な心理や、規制の公平性に関する問題を提起している可能性があります。</div>
+    <a class="read-btn" href="https://xeiaso.net/notes/2026/everyone-slowdown-but-me/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49678683" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-midnight">
+    
+    <span class="story-num">02</span>
+    <div class="story-title-ja">私たちはフロンティアのペースを調整しなければならない</div>
+    <div class="story-title-en">We must pace the frontier</div>
+    <div class="story-meta">
+      <span>▲ 732</span>
+      <span>💬 1012</span>
+      <span>by apsec112</span>
+    </div>
+    <div class="story-summary">この投稿は、AIなどの最先端技術開発において、その進展速度を適切に管理することの重要性を主張しています。特に、AIの安全性や社会への影響を考慮し、無秩序な開発ではなく、慎重かつ計画的なペースで進めるべきだというDario Amodei氏（AnthropicのCEO）の考えが述べられていると推測されます。</div>
+    <a class="read-btn" href="https://darioamodei.com/post/we-must-pace-the-frontier" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49672510" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-rose">
+    
+    <span class="story-num">03</span>
+    <div class="story-title-ja">LG、テレビによるスパイ疑惑を否定、追跡や盗聴の懸念は「事実ではない」と主張</div>
+    <div class="story-title-en">LG denies TV spying claims, says tracking and snooping concerns 'not true'</div>
+    <div class="story-meta">
+      <span>▲ 618</span>
+      <span>💬 460</span>
+      <span>by datakan</span>
+    </div>
+    <div class="story-summary">LGが自社製テレビによるユーザーの追跡や盗聴に関する疑惑を強く否定している記事です。オンライン調査で2億1600万台のテレビが音声を録音していると主張されたことに対し、LGはセキュリティ上の懸念は「事実ではない」と反論し、ユーザーのプライバシー保護に関する立場を表明しています。</div>
+    <a class="read-btn" href="https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49645480" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-terminal">
+    
+    <span class="story-num">04</span>
+    <div class="story-title-ja">なぜAIエージェントは嘘をつき、ごまかし、連携するのか？</div>
+    <div class="story-title-en">Why are AI agents lying, cheating and coordinating?</div>
+    <div class="story-meta">
+      <span>▲ 580</span>
+      <span>💬 645</span>
+      <span>by jonifico</span>
+    </div>
+    <div class="story-summary">AIエージェントが、嘘をついたり、ごまかしたり、あるいは互いに連携したりする行動を示す理由について考察する記事です。AIの倫理的な問題や、複雑な環境下でのAIの振る舞い、そしてその制御の難しさについて、著名なAI研究者であるYoshua Bengio氏の視点から解説されていると推測されます。</div>
+    <a class="read-btn" href="https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49678969" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-academic">
+    
+    <span class="story-num">05</span>
+    <div class="story-title-ja">NvidiaはAIの中央銀行である</div>
+    <div class="story-title-en">Nvidia is the central bank of AI</div>
+    <div class="story-meta">
+      <span>▲ 559</span>
+      <span>💬 388</span>
+      <span>by tolugenius</span>
+    </div>
+    <div class="story-summary">NvidiaがAI業界において極めて支配的な地位を占めていることを、中央銀行に例えて解説する記事です。AI開発に不可欠なGPUの供給を独占的に行い、その技術と製品がAIエコシステム全体の成長と方向性を決定づけるほどの影響力を持っている現状を分析しています。</div>
+    <a class="read-btn" href="https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49673098" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-bigstat">
+    <div class="bg-score">594</div>
+    <span class="story-num">06</span>
+    <div class="story-title-ja">OpenStreetMapに初めての編集をしてみよう</div>
+    <div class="story-title-en">Make your first edit to OpenStreetMap</div>
+    <div class="story-meta">
+      <span>▲ 594</span>
+      <span>💬 139</span>
+      <span>by juliantigler</span>
+    </div>
+    <div class="story-summary">OpenStreetMap（OSM）に初めて貢献するユーザー向けに、編集方法を案内するチュートリアル記事です。特に、JOSMプラグインのウェブサイトウィザードを利用して、OSMの地図データを編集する手順やヒントが提供されていると推測されます。</div>
+    <a class="read-btn" href="https://high5apps.github.io/josm-plugin-website-wizard/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49674050" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-teal">
+    
+    <span class="story-num">07</span>
+    <div class="story-title-ja">Async/Awaitの設計空間探求</div>
+    <div class="story-title-en">A Design Space Exploration of Async/Await</div>
+    <div class="story-meta">
+      <span>▲ 456</span>
+      <span>💬 132</span>
+      <span>by wcrichton</span>
+    </div>
+    <div class="story-summary">プログラミングにおける非同期処理のパターンであるAsync/Awaitの設計について深く掘り下げた技術記事です。様々な言語やフレームワークにおけるAsync/Awaitの実装やそのトレードオフ、そして最適な設計アプローチについて探求していると考えられます。</div>
+    <a class="read-btn" href="https://cel.cs.brown.edu/blog/design-space-async-await/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49626718" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-amber">
+    
+    <span class="story-num">08</span>
+    <div class="story-title-ja">Homebrew 7.0.0</div>
+    <div class="story-title-en">Homebrew 7.0.0</div>
+    <div class="story-meta">
+      <span>▲ 547</span>
+      <span>💬 216</span>
+      <span>by mikemcquaid</span>
+    </div>
+    <div class="story-summary">macOSおよびLinux向けのパッケージマネージャーであるHomebrewのバージョン7.0.0のリリースに関する公式発表記事です。新機能、改善点、変更点、およびアップグレードに関する情報が詳細に説明されていると推測されます。</div>
+    <a class="read-btn" href="https://brew.sh/2026/09/13/homebrew-7.0.0/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49681545" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-slate">
+    
+    <span class="story-num">09</span>
+    <div class="story-title-ja">JetKVM Mini</div>
+    <div class="story-title-en">JetKVM Mini</div>
+    <div class="story-meta">
+      <span>▲ 517</span>
+      <span>💬 209</span>
+      <span>by taubek</span>
+    </div>
+    <div class="story-summary">JetKVMが提供する新しいKVMスイッチ製品「JetKVM Mini」の紹介記事です。この製品の機能、特徴、ターゲットユーザー、および従来のKVM製品との違いなどが説明されており、小型で効率的なKVMソリューションに関心のある読者向けの内容と考えられます。</div>
+    <a class="read-btn" href="https://jetkvm.com/blog/introducing-jetkvm-mini" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49681152" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-pastel">
+    
+    <span class="story-num">10</span>
+    <div class="story-title-ja">なぜGoogleはいまだに怪しい広告を配信しているのか？</div>
+    <div class="story-title-en">Why is Google still serving dodgy ads?</div>
+    <div class="story-meta">
+      <span>▲ 496</span>
+      <span>💬 238</span>
+      <span>by iamflimflam1</span>
+    </div>
+    <div class="story-summary">Googleがその巨大な広告プラットフォームを通じて、いまだに詐欺的または不適切な「怪しい広告」を配信し続けている問題について疑問を投げかける記事です。広告の審査体制、収益モデル、そしてユーザー体験への影響など、Googleの広告ポリシーと実態に関する批判的な視点が含まれていると推測されます。</div>
+    <a class="read-btn" href="https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=49686445" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
