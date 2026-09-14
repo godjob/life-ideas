@@ -511,7 +511,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.47';
+  const VERSION = 'v1.48';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -778,6 +778,38 @@
     // 既に同じ語で絞り込み中ならハイライトを付けて描画
     setTimeout(updateWikiTagChips, 0);
     return wrap;
+  }
+
+  // 更新ログ（log.md）を index.md と同じテーブル形式に変換する。
+  // log.md は git scrap が `## [日付] ingest | タイトル` ＋ 箇条書きで追記するため、
+  // そのまま描画すると h2 が157個並んで読みにくい。ファイル形式は変えずビューアで畳む
+  function renderWikiLogAsTable(text) {
+    const entryRe = /^## \[(\d{4})-(\d{2})-(\d{2})\] ([^|\n]*)\|?([^\n]*)$/;
+    const esc = c => c.replace(/\|/g, '\\|').trim();
+    const rows = [];
+    let cur = null;
+    for (const line of text.split(/\r?\n/)) {
+      const m = line.match(entryRe);
+      if (m) {
+        cur = { date: `${m[1].slice(2)}/${m[2]}/${m[3]}`, kind: m[4].trim(), title: m[5].trim(), pages: '', source: '' };
+        rows.push(cur);
+        continue;
+      }
+      if (!cur) continue;
+      const pm = line.match(/^- 更新ページ:\s*(.*)$/);
+      if (pm) { cur.pages = pm[1].trim(); continue; }
+      const sm = line.match(/^- 出典:\s*(.*)$/);
+      if (sm) { cur.source = sm[1].trim(); continue; }
+    }
+    if (!rows.length) return text;   // 想定外の形式ならそのまま描画
+    const h1 = (text.match(/^#\s+(.+)$/m) || [])[1] || 'Wiki 更新ログ';
+    let md = `# ${h1}\n\n全 ${rows.length} 件（新しい順）\n\n| 日付 | 出典 | 更新ページ |\n|------|------|----------|\n`;
+    for (const r of rows) {
+      // 出典リンクが無い（init 等）場合はタイトルを表示
+      const source = r.source || r.title || r.kind;
+      md += `| ${r.date} | ${esc(source)} | ${esc(r.pages)} |\n`;
+    }
+    return md;
   }
 
   // 本文から「## 関連ページ」セクションを切り出す（表示はチップに置き換えるため本文からは除去）。
@@ -1937,6 +1969,7 @@
       const rs = extractWikiRelatedSection(text);
       text = rs.body;
       wikiSectionLinks = rs.links;
+      if (wikiSlug === 'log') text = renderWikiLogAsTable(text);
     }
 
     let rendered = marked.parse(text);
