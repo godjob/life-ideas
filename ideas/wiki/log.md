@@ -1,5 +1,29 @@
 # Wiki 更新ログ
 
+## [2026-09-14] ingest | 【テスラのEV開発は全部「サイバーキャブ」への布石だった】“完全無人”実現のためAI・クルマ・アプリ
+- 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md), [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md), [テスラ サイバーキャブ：完全無人自動運転と垂直統合戦略](tesla-cybercab-vertical-integration-strategy.md), [E2E AIモデルの製造業応用：データ学習による物理現象理解と自動化](e2e-ai-model-manufacturing-application.md)
+- 出典: [【テスラのEV開発は全部「サイバーキャブ」への布石だった】“完全無人”実現のため](https://www.youtube.com/watch?v=iwvSw9mEoh4)
+
+## [2026-09-14] ingest | 【Substackとは何か】欧米での大ヒットと日本での可能性／アテンションエコノミー・SNS疲れ／質
+- 更新ページ: [AI生成コンテンツにおける品質と量の価値：水増し長文の無意味化](ai-content-quality-vs-quantity-value.md), [AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現](ai-personal-branding-influencer-strategy.md), [ドメイン専門知識のデジタル商品化：本業スキルの受動収入転換と自動販売機型ビジネス](domain-expertise-digital-product-monetization.md), [クオリティエコノミー：信頼に基づく情報価値とプラットフォーム戦略](quality-economy-trust-based-information.md), [クリエイターエコノミーの収益化戦略：サブスクリプションとコミュニティ](creator-economy-monetization-strategy.md)
+- 出典: [【Substackとは何か】欧米での大ヒットと日本での可能性／アテンションエコノ](https://www.youtube.com/watch?v=RQ6-qcdAo2U)
+
+## [2026-09-14] ingest | 【NISA貧乏よ、いつまで貯める？】 貯蓄は「喜びの先送り」／「記憶の配当」が人生を充実させる／老後
+- 更新ページ: [エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略](executive-time-arbitrage-asset-building-strategy.md), [時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ](time-capital-health-investment-narrative.md), [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [DIE WITH ZEROの哲学：人生の最適化と記憶の配当](die-with-zero-philosophy-life-optimization.md), [記憶の配当：経験への投資戦略と人生の充実](memory-dividend-experiential-investment-strategy.md)
+- 出典: [【NISA貧乏よ、いつまで貯める？】 貯蓄は「喜びの先送り」／「記憶の配当」が人](https://www.youtube.com/watch?v=9_GduDd_VCA)
+
+## [2026-09-14] ingest | 【AI駆動開発】300人をリモートで率いるCTOに聞く／AI時代に重宝されるエンジニアの条件／開発サ
+- 更新ページ: [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md), [AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル](ai-engineer-practical-skills-roadmap.md), [システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化](system-development-velocity-acceleration-ai-tools.md), [AI駆動開発：CTOに聞くエンジニアの未来と開発サイクル変革](ai-driven-development-cto-perspective.md)
+- 出典: [【AI駆動開発】300人をリモートで率いるCTOに聞く／AI時代に重宝されるエン](https://www.youtube.com/watch?v=IRMP2vYgano)
+
+## [2026-09-14] ingest | 【AI×因果推論で“あなたに効く”治療法がわかる】京都大学大学院教授・井上浩輔／“もしも”を科学的に
+- 更新ページ: [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md), [科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見](ai-as-scientific-instrument-verification-loop.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [因果推論AIによる個別化医療：ハイベネフィットアプローチと適用](causal-inference-ai-personalized-medicine.md), [製造業における因果推論：設備故障・品質問題の真因特定とAI活用](causal-inference-manufacturing-process-improvement.md)
+- 出典: [【AI×因果推論で“あなたに効く”治療法がわかる】京都大学大学院教授・井上浩輔／](https://www.youtube.com/watch?v=R_L3enb-6K0)
+
+## [2026-09-14] ingest | Dan Koe「新年の抱負はほとんど無意味」長文要約
+- 更新ページ: [AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計](ai-adoption-resistance-mitigation.md), [AIハイパフォーマーの思考法とマインドセット](ai-hyper-performer-mindset.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md), [アイデンティティ変革による習慣形成：AI時代の自己再定義](identity-transformation-habit-formation-ai-era.md)
+- 出典: [Dan Koe「新年の抱負はほとんど無意味」長文要約](https://x.com/thedankoe/status/2010751592346030461?s=46&t=zdgVF5rr7h6fY4jW-FB-JA)
+
 ## [2026-09-05] ingest | 【「GPT‑6 Astra」は「4」以来の大転換】Claude Fable圧倒の数学能力「推論は極ま
 - 更新ページ: [AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題](agi-architecture-limitation-continuous-learning-long-horizon-reasoning.md), [AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン](ai-agent-cli-automation-pattern.md), [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md), [GPT-X Astraの能力：推論・PC操作・未知環境適応](gpt-x-astra-capabilities.md), [AI推論の透明性確保とガバナンス](ai-transparent-reasoning-governance.md)
 - 出典: [【「GPT‑6 Astra」は「4」以来の大転換】Claude Fable圧倒の](https://www.youtube.com/watch?v=vykuO5N2Ez4)

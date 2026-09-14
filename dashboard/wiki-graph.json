@@ -40,19 +40,19 @@
       "id": "ai-accelerated-business-transformation-agency",
       "label": "AIによるビジネス変革加速：広告代理店における少人数・高成長モデル",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
       "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
       "group": "その他",
-      "value": 22
+      "value": 23
     },
     {
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "その他",
-      "value": 54
+      "value": 53
     },
     {
       "id": "ai-agent-boom-end-human-core-strength",
@@ -76,7 +76,7 @@
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "AIエージェント設計",
-      "value": 44
+      "value": 43
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
@@ -106,7 +106,7 @@
       "id": "ai-as-scientific-instrument-verification-loop",
       "label": "科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見",
       "group": "その他",
-      "value": 10
+      "value": 12
     },
     {
       "id": "ai-assisted-system-building-non-programmers",
@@ -148,7 +148,7 @@
       "id": "ai-budget-management-roi-optimization",
       "label": "AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化",
       "group": "技術実装・エンジニアリング",
-      "value": 25
+      "value": 26
     },
     {
       "id": "ai-capability-evolution-design-flexibility",
@@ -184,7 +184,7 @@
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-content-pipeline-differentiation",
@@ -196,13 +196,13 @@
       "id": "ai-content-quality-vs-quantity-value",
       "label": "AI生成コンテンツにおける品質と量の価値：水増し長文の無意味化",
       "group": "その他",
-      "value": 4
+      "value": 6
     },
     {
       "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
       "group": "その他",
-      "value": 17
+      "value": 18
     },
     {
       "id": "ai-data-center-energy-demand-strategy",
@@ -217,10 +217,16 @@
       "value": 18
     },
     {
+      "id": "ai-driven-development-cto-perspective",
+      "label": "AI駆動開発：CTOに聞くエンジニアの未来と開発サイクル変革",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "その他",
-      "value": 27
+      "value": 29
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
@@ -238,13 +244,13 @@
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "その他",
-      "value": 22
+      "value": 23
     },
     {
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "AI戦略・社会",
-      "value": 32
+      "value": 36
     },
     {
       "id": "ai-everywhere-device-integration",
@@ -298,13 +304,13 @@
       "id": "ai-hyper-performer-mindset",
       "label": "AIハイパフォーマーの思考法とマインドセット",
       "group": "その他",
-      "value": 4
+      "value": 6
     },
     {
       "id": "ai-implicit-assumption-discovery",
       "label": "AIによる暗黙の前提・未知の課題発見：対話型顕在化プロセス",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-investment-scale-japan-vs-global",
@@ -316,7 +322,7 @@
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 11
+      "value": 12
     },
     {
       "id": "ai-labor-policy-governance-framework",
@@ -334,7 +340,7 @@
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "その他",
-      "value": 22
+      "value": 23
     },
     {
       "id": "ai-manager-role-transition-code-craftsman",
@@ -346,7 +352,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "その他",
-      "value": 17
+      "value": 18
     },
     {
       "id": "ai-model-license-compliance-manufacturing",
@@ -358,7 +364,7 @@
       "id": "ai-model-provider-vertical-integration",
       "label": "AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-model-regulation-geopolitics",
@@ -376,13 +382,13 @@
       "id": "ai-personal-branding-influencer-strategy",
       "label": "AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現",
       "group": "その他",
-      "value": 2
+      "value": 3
     },
     {
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AI戦略・社会",
-      "value": 7
+      "value": 8
     },
     {
       "id": "ai-powered-web-production-flow",
@@ -448,19 +454,19 @@
       "id": "ai-transparent-reasoning-governance",
       "label": "AI推論の透明性確保とガバナンス",
       "group": "その他",
-      "value": 4
+      "value": 5
     },
     {
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
       "group": "その他",
-      "value": 6
+      "value": 8
     },
     {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 13
+      "value": 14
     },
     {
       "id": "ai-unknowns-identification-strategy",
@@ -502,7 +508,7 @@
       "id": "as-little-ai-as-possible-principle",
       "label": "As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計",
       "group": "技術実装・エンジニアリング",
-      "value": 18
+      "value": 17
     },
     {
       "id": "asi-economy-societal-transformation",
@@ -532,7 +538,7 @@
       "id": "background-automation-design-competitive-advantage",
       "label": "バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略",
       "group": "ビジネス・組織",
-      "value": 11
+      "value": 10
     },
     {
       "id": "backoffice-automation-ai-cowork",
@@ -565,6 +571,18 @@
       "value": 5
     },
     {
+      "id": "causal-inference-ai-personalized-medicine",
+      "label": "因果推論AIによる個別化医療：ハイベネフィットアプローチと適用",
+      "group": "その他",
+      "value": 3
+    },
+    {
+      "id": "causal-inference-manufacturing-process-improvement",
+      "label": "製造業における因果推論：設備故障・品質問題の真因特定とAI活用",
+      "group": "製造業・業務DX",
+      "value": 5
+    },
+    {
       "id": "ceo-technical-background-operational-excellence",
       "label": "CEO技術背景と組織実行力：エンジニア出身リーダーが実現する品質・改善文化",
       "group": "その他",
@@ -592,13 +610,13 @@
       "id": "claude-code-agent-teams",
       "label": "Claude Code Agent Teams：AIエージェントチームの実装と活用",
       "group": "Claude/AI開発ツール",
-      "value": 21
+      "value": 20
     },
     {
       "id": "claude-code-configuration-driven-workflow",
       "label": "Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化",
       "group": "Claude/AI開発ツール",
-      "value": 16
+      "value": 15
     },
     {
       "id": "claude-code-context-window-management",
@@ -721,6 +739,12 @@
       "value": 5
     },
     {
+      "id": "creator-economy-monetization-strategy",
+      "label": "クリエイターエコノミーの収益化戦略：サブスクリプションとコミュニティ",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "creator-intuition-driven-design-philosophy",
       "label": "クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合",
       "group": "その他",
@@ -736,13 +760,13 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 24
+      "value": 26
     },
     {
       "id": "custom-tool-development-ai-empowerment",
       "label": "カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン",
       "group": "その他",
-      "value": 9
+      "value": 8
     },
     {
       "id": "daily-context-ai-partnership",
@@ -754,7 +778,7 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "健康・習慣",
-      "value": 22
+      "value": 23
     },
     {
       "id": "data-integration-visualization-manufacturing-application",
@@ -775,6 +799,12 @@
       "value": 7
     },
     {
+      "id": "die-with-zero-philosophy-life-optimization",
+      "label": "DIE WITH ZEROの哲学：人生の最適化と記憶の配当",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "digital-deficit-national-security-risk",
       "label": "デジタル赤字と国家安全保障リスク",
       "group": "その他",
@@ -790,13 +820,19 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "その他",
-      "value": 35
+      "value": 34
     },
     {
       "id": "domain-expertise-digital-product-monetization",
       "label": "ドメイン専門知識のデジタル商品化：本業スキルの受動収入転換と自動販売機型ビジネス",
       "group": "その他",
-      "value": 6
+      "value": 8
+    },
+    {
+      "id": "e2e-ai-model-manufacturing-application",
+      "label": "E2E AIモデルの製造業応用：データ学習による物理現象理解と自動化",
+      "group": "製造業・業務DX",
+      "value": 4
     },
     {
       "id": "edge-ai-system-design-production-skills",
@@ -814,7 +850,7 @@
       "id": "environment-engineering",
       "label": "エンバイロメント・エンジニアリング：AI活動の土台づくり",
       "group": "Claude/AI開発ツール",
-      "value": 19
+      "value": 18
     },
     {
       "id": "executive-ai-hands-on-learning-organizational-transformation",
@@ -904,13 +940,19 @@
       "id": "human-capital-philosophy-ai-era",
       "label": "人的資本の哲学：AI時代の問い直しと本質的価値",
       "group": "その他",
-      "value": 4
+      "value": 6
     },
     {
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
       "group": "その他",
       "value": 6
+    },
+    {
+      "id": "identity-transformation-habit-formation-ai-era",
+      "label": "アイデンティティ変革による習慣形成：AI時代の自己再定義",
+      "group": "その他",
+      "value": 3
     },
     {
       "id": "incomplete-content-handling-knowledge-quality-control",
@@ -934,7 +976,7 @@
       "id": "information-processing-efficiency-ai-integration",
       "label": "情報処理効率化とAI統合：一次情報重視と大量情報要約術",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "innovation-productivity-national-competitiveness",
@@ -1030,13 +1072,13 @@
       "id": "llm-infrastructure-foundation-provider-redundancy",
       "label": "LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略",
       "group": "その他",
-      "value": 11
+      "value": 10
     },
     {
       "id": "llm-integration-technical-documentation-automation",
       "label": "LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化",
       "group": "技術実装・エンジニアリング",
-      "value": 14
+      "value": 15
     },
     {
       "id": "llm-tiered-execution-pattern",
@@ -1072,7 +1114,7 @@
       "id": "long-running-ai-agent-design-patterns",
       "label": "長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン",
       "group": "AIエージェント設計",
-      "value": 27
+      "value": 26
     },
     {
       "id": "managed-agents-cost-optimization-gtm-strategy",
@@ -1096,7 +1138,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 75
+      "value": 78
     },
     {
       "id": "manufacturing-ai-quick-wins",
@@ -1114,7 +1156,7 @@
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 10
+      "value": 12
     },
     {
       "id": "manufacturing-email-automation-adoption-resistance",
@@ -1132,7 +1174,7 @@
       "id": "manufacturing-on-premise-ai-adoption",
       "label": "製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策",
       "group": "製造業・業務DX",
-      "value": 6
+      "value": 8
     },
     {
       "id": "manufacturing-system-vulnerability-preemptive-audit",
@@ -1153,10 +1195,16 @@
       "value": 4
     },
     {
+      "id": "memory-dividend-experiential-investment-strategy",
+      "label": "記憶の配当：経験への投資戦略と人生の充実",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "その他",
-      "value": 17
+      "value": 21
     },
     {
       "id": "middle-income-trap-manufacturing-strategy",
@@ -1168,7 +1216,7 @@
       "id": "midlife-crisis-reframing-opportunity",
       "label": "中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計",
       "group": "キャリア・働き方",
-      "value": 12
+      "value": 14
     },
     {
       "id": "missing-link-ai-productivity-gap",
@@ -1198,7 +1246,7 @@
       "id": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "label": "マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画",
       "group": "その他",
-      "value": 5
+      "value": 6
     },
     {
       "id": "nand-flash-memory-market-ai-demand",
@@ -1210,13 +1258,13 @@
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "その他",
-      "value": 18
+      "value": 17
     },
     {
       "id": "non-engineer-skill-development-claude-code-democratization",
       "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
       "group": "Claude/AI開発ツール",
-      "value": 14
+      "value": 15
     },
     {
       "id": "nvidia-dominance-shift-cpu-revaluation",
@@ -1252,7 +1300,7 @@
       "id": "organizational-ai-knowledge-asset-management",
       "label": "組織的AI知識資産管理：議事録自動生成とドキュメント整理",
       "group": "ビジネス・組織",
-      "value": 4
+      "value": 5
     },
     {
       "id": "organizational-dysfunction-sabotage-pattern-recognition",
@@ -1306,7 +1354,7 @@
       "id": "process-ax-ai-reconstruction-strategy",
       "label": "プロセスAX：AIによる経営再構築戦略",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "professional-longevity-expert-development-strategy",
@@ -1357,6 +1405,12 @@
       "value": 39
     },
     {
+      "id": "quality-economy-trust-based-information",
+      "label": "クオリティエコノミー：信頼に基づく情報価値とプラットフォーム戦略",
+      "group": "その他",
+      "value": 4
+    },
+    {
       "id": "quantified-self-ai-feedback-loop",
       "label": "量的自己記録とAI分析の相乗効果：データ資産化と継続的改善",
       "group": "個人OS・知識管理",
@@ -1378,7 +1432,7 @@
       "id": "relationship-quality-leadership-theory",
       "label": "関係性の質とリーダーシップ理論",
       "group": "その他",
-      "value": 3
+      "value": 4
     },
     {
       "id": "remote-agent-session-sharing-multi-user-operations",
@@ -1402,7 +1456,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 35
+      "value": 36
     },
     {
       "id": "seniority-employment-ai-debt-transition-strategy",
@@ -1516,13 +1570,19 @@
       "id": "system-development-velocity-acceleration-ai-tools",
       "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
       "group": "その他",
-      "value": 11
+      "value": 12
     },
     {
       "id": "task-delegation-automation-decision-framework",
       "label": "タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク",
       "group": "その他",
       "value": 11
+    },
+    {
+      "id": "tesla-cybercab-vertical-integration-strategy",
+      "label": "テスラ サイバーキャブ：完全無人自動運転と垂直統合戦略",
+      "group": "その他",
+      "value": 4
     },
     {
       "id": "tiered-ai-model-planning-verification-execution",
@@ -1534,13 +1594,13 @@
       "id": "time-capital-health-investment-narrative",
       "label": "時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ",
       "group": "健康・習慣",
-      "value": 11
+      "value": 13
     },
     {
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
       "group": "その他",
-      "value": 14
+      "value": 15
     },
     {
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
@@ -1552,7 +1612,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 17
+      "value": 18
     },
     {
       "id": "video-content-metadata-collection-strategy",
@@ -2054,6 +2114,10 @@
     },
     {
       "from": "ai-adoption-resistance-mitigation",
+      "to": "identity-transformation-habit-formation-ai-era"
+    },
+    {
+      "from": "ai-adoption-resistance-mitigation",
       "to": "manufacturing-ai-quick-wins"
     },
     {
@@ -2483,6 +2547,14 @@
     {
       "from": "ai-as-scientific-instrument-verification-loop",
       "to": "ai-unknowns-identification-strategy"
+    },
+    {
+      "from": "ai-as-scientific-instrument-verification-loop",
+      "to": "causal-inference-ai-personalized-medicine"
+    },
+    {
+      "from": "ai-as-scientific-instrument-verification-loop",
+      "to": "causal-inference-manufacturing-process-improvement"
     },
     {
       "from": "ai-as-scientific-instrument-verification-loop",
@@ -3118,6 +3190,14 @@
     },
     {
       "from": "ai-coaching-personalization-wearable-integration",
+      "to": "causal-inference-ai-personalized-medicine"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
       "to": "wearable-device-workplace-privacy-governance"
     },
     {
@@ -3182,7 +3262,19 @@
     },
     {
       "from": "ai-content-quality-vs-quantity-value",
+      "to": "creator-economy-monetization-strategy"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
       "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "domain-expertise-digital-product-monetization"
+    },
+    {
+      "from": "ai-content-quality-vs-quantity-value",
+      "to": "quality-economy-trust-based-information"
     },
     {
       "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
@@ -3341,6 +3433,30 @@
       "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
+      "from": "ai-driven-development-cto-perspective",
+      "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "ai-driven-development-cto-perspective",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "ai-driven-development-cto-perspective",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-driven-development-cto-perspective",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-driven-development-cto-perspective",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "ai-driven-development-cto-perspective",
+      "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
       "from": "ai-driven-workflow-reengineering",
       "to": "ai-accelerated-business-transformation-agency"
     },
@@ -3394,6 +3510,10 @@
     },
     {
       "from": "ai-driven-workflow-reengineering",
+      "to": "e2e-ai-model-manufacturing-application"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
       "to": "manufacturing-automation-cost-disruption"
     },
     {
@@ -3427,6 +3547,10 @@
     {
       "from": "ai-driven-workflow-reengineering",
       "to": "process-ax-ai-reconstruction-strategy"
+    },
+    {
+      "from": "ai-driven-workflow-reengineering",
+      "to": "tesla-cybercab-vertical-integration-strategy"
     },
     {
       "from": "ai-driven-workflow-reengineering",
@@ -3526,6 +3650,10 @@
     },
     {
       "from": "ai-engineer-practical-skills-roadmap",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "ai-engineer-practical-skills-roadmap",
       "to": "ai-manager-role-transition-code-craftsman"
     },
     {
@@ -3542,23 +3670,11 @@
     },
     {
       "from": "ai-engineer-practical-skills-roadmap",
-      "to": "claude-code-agent-teams"
-    },
-    {
-      "from": "ai-engineer-practical-skills-roadmap",
-      "to": "claude-code-configuration-driven-workflow"
-    },
-    {
-      "from": "ai-engineer-practical-skills-roadmap",
       "to": "cloud-independence-ai-cost-security-strategy"
     },
     {
       "from": "ai-engineer-practical-skills-roadmap",
       "to": "commodity-prompt-engineering-vs-architecture-differentiation"
-    },
-    {
-      "from": "ai-engineer-practical-skills-roadmap",
-      "to": "domain-expertise-ai-boundary-design"
     },
     {
       "from": "ai-engineer-practical-skills-roadmap",
@@ -3579,14 +3695,6 @@
     {
       "from": "ai-engineer-practical-skills-roadmap",
       "to": "local-llm-deployment-architecture"
-    },
-    {
-      "from": "ai-engineer-practical-skills-roadmap",
-      "to": "manufacturing-ai-opportunities"
-    },
-    {
-      "from": "ai-engineer-practical-skills-roadmap",
-      "to": "manufacturing-ai-quick-wins"
     },
     {
       "from": "ai-engineer-practical-skills-roadmap",
@@ -3967,6 +4075,10 @@
     {
       "from": "ai-hyper-performer-mindset",
       "to": "environment-engineering"
+    },
+    {
+      "from": "ai-hyper-performer-mindset",
+      "to": "identity-transformation-habit-formation-ai-era"
     },
     {
       "from": "ai-hyper-performer-mindset",
@@ -4494,6 +4606,10 @@
     },
     {
       "from": "ai-orchestrator-role",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "ai-orchestrator-role",
       "to": "ai-ecosystem-orchestration-strategy"
     },
     {
@@ -4542,11 +4658,19 @@
     },
     {
       "from": "ai-personal-branding-influencer-strategy",
+      "to": "creator-economy-monetization-strategy"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
       "to": "custom-tool-development-ai-empowerment"
     },
     {
       "from": "ai-personal-branding-influencer-strategy",
       "to": "pushed-person-strategy-ai-era"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
+      "to": "quality-economy-trust-based-information"
     },
     {
       "from": "ai-personal-branding-influencer-strategy",
@@ -5797,6 +5921,66 @@
       "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
+      "from": "causal-inference-ai-personalized-medicine",
+      "to": "ai-as-scientific-instrument-verification-loop"
+    },
+    {
+      "from": "causal-inference-ai-personalized-medicine",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "causal-inference-ai-personalized-medicine",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "causal-inference-ai-personalized-medicine",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "ai-accelerated-business-transformation-agency"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "ai-as-scientific-instrument-verification-loop"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "ai-transparent-reasoning-governance"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "causal-inference-ai-personalized-medicine"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "causal-inference-manufacturing-process-improvement",
+      "to": "process-ax-ai-reconstruction-strategy"
+    },
+    {
       "from": "ceo-technical-background-operational-excellence",
       "to": "ai-sandboxing-isolation-architecture-manufacturing"
     },
@@ -6965,6 +7149,38 @@
       "to": "tiered-ai-model-planning-verification-execution"
     },
     {
+      "from": "creator-economy-monetization-strategy",
+      "to": "ai-content-quality-vs-quantity-value"
+    },
+    {
+      "from": "creator-economy-monetization-strategy",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "creator-economy-monetization-strategy",
+      "to": "ai-personal-branding-influencer-strategy"
+    },
+    {
+      "from": "creator-economy-monetization-strategy",
+      "to": "domain-expertise-digital-product-monetization"
+    },
+    {
+      "from": "creator-economy-monetization-strategy",
+      "to": "information-processing-efficiency-ai-integration"
+    },
+    {
+      "from": "creator-economy-monetization-strategy",
+      "to": "quality-economy-trust-based-information"
+    },
+    {
+      "from": "creator-economy-monetization-strategy",
+      "to": "relationship-quality-leadership-theory"
+    },
+    {
+      "from": "creator-economy-monetization-strategy",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
       "from": "creator-intuition-driven-design-philosophy",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -7030,6 +7246,10 @@
     },
     {
       "from": "crystallized-intelligence-ai-era-strategy",
+      "to": "die-with-zero-philosophy-life-optimization"
+    },
+    {
+      "from": "crystallized-intelligence-ai-era-strategy",
       "to": "geopolitical-narrative-multidimensional-analysis"
     },
     {
@@ -7051,6 +7271,10 @@
     {
       "from": "crystallized-intelligence-ai-era-strategy",
       "to": "meaning-creation-post-work-society-ai-era"
+    },
+    {
+      "from": "crystallized-intelligence-ai-era-strategy",
+      "to": "memory-dividend-experiential-investment-strategy"
     },
     {
       "from": "crystallized-intelligence-ai-era-strategy",
@@ -7293,6 +7517,30 @@
       "to": "skill-system"
     },
     {
+      "from": "die-with-zero-philosophy-life-optimization",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "die-with-zero-philosophy-life-optimization",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "die-with-zero-philosophy-life-optimization",
+      "to": "human-capital-philosophy-ai-era"
+    },
+    {
+      "from": "die-with-zero-philosophy-life-optimization",
+      "to": "memory-dividend-experiential-investment-strategy"
+    },
+    {
+      "from": "die-with-zero-philosophy-life-optimization",
+      "to": "midlife-crisis-reframing-opportunity"
+    },
+    {
+      "from": "die-with-zero-philosophy-life-optimization",
+      "to": "time-capital-health-investment-narrative"
+    },
+    {
       "from": "digital-deficit-national-security-risk",
       "to": "advanced-nation-redefinition-energy-calculation"
     },
@@ -7462,6 +7710,10 @@
     },
     {
       "from": "domain-expertise-digital-product-monetization",
+      "to": "creator-economy-monetization-strategy"
+    },
+    {
+      "from": "domain-expertise-digital-product-monetization",
       "to": "domain-expertise-ai-boundary-design"
     },
     {
@@ -7482,11 +7734,47 @@
     },
     {
       "from": "domain-expertise-digital-product-monetization",
+      "to": "quality-economy-trust-based-information"
+    },
+    {
+      "from": "domain-expertise-digital-product-monetization",
       "to": "task-delegation-automation-decision-framework"
     },
     {
       "from": "domain-expertise-digital-product-monetization",
       "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "llm-integration-technical-documentation-automation"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
+    },
+    {
+      "from": "e2e-ai-model-manufacturing-application",
+      "to": "tesla-cybercab-vertical-integration-strategy"
     },
     {
       "from": "edge-ai-system-design-production-skills",
@@ -7642,11 +7930,19 @@
     },
     {
       "from": "executive-time-arbitrage-asset-building-strategy",
+      "to": "die-with-zero-philosophy-life-optimization"
+    },
+    {
+      "from": "executive-time-arbitrage-asset-building-strategy",
       "to": "environment-engineering"
     },
     {
       "from": "executive-time-arbitrage-asset-building-strategy",
       "to": "labor-money-decoupling"
+    },
+    {
+      "from": "executive-time-arbitrage-asset-building-strategy",
+      "to": "memory-dividend-experiential-investment-strategy"
     },
     {
       "from": "executive-time-arbitrage-asset-building-strategy",
@@ -8115,6 +8411,34 @@
     {
       "from": "humanoid-robot-labor-market-disruption",
       "to": "wearable-device-workplace-privacy-governance"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "ai-hyper-performer-mindset"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "ai-implicit-assumption-discovery"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "midlife-crisis-reframing-opportunity"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "incomplete-content-handling-knowledge-quality-control",
@@ -9554,10 +9878,6 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "ai-adoption-resistance-mitigation"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "ai-agent-operations"
     },
     {
@@ -9586,11 +9906,15 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "ceo-technical-background-operational-excellence"
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "custom-tool-development-ai-empowerment"
+      "to": "e2e-ai-model-manufacturing-application"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -9630,10 +9954,6 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "non-engineer-ai-tool-development"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "physical-ai-hardware-standardization-strategy"
     },
     {
@@ -9643,6 +9963,10 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "smile-curve-strategy"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "tesla-cybercab-vertical-integration-strategy"
     },
     {
       "from": "manufacturing-ai-quick-wins",
@@ -9790,19 +10114,11 @@
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "ai-agent-operations"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "ai-expert-ensemble-prompting"
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "ai-transparent-reasoning-governance"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "as-little-ai-as-possible-principle"
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
@@ -9814,6 +10130,10 @@
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "e2e-ai-model-manufacturing-application"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "gpt-x-astra-capabilities"
     },
     {
@@ -9822,7 +10142,7 @@
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "long-running-ai-agent-design-patterns"
+      "to": "tesla-cybercab-vertical-integration-strategy"
     },
     {
       "from": "manufacturing-email-automation-adoption-resistance",
@@ -10127,6 +10447,30 @@
     {
       "from": "meaning-creation-post-work-society-ai-era",
       "to": "wellness-eq-capital-ai-era-competitive-advantage"
+    },
+    {
+      "from": "memory-dividend-experiential-investment-strategy",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "memory-dividend-experiential-investment-strategy",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "memory-dividend-experiential-investment-strategy",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "memory-dividend-experiential-investment-strategy",
+      "to": "die-with-zero-philosophy-life-optimization"
+    },
+    {
+      "from": "memory-dividend-experiential-investment-strategy",
+      "to": "human-capital-philosophy-ai-era"
+    },
+    {
+      "from": "memory-dividend-experiential-investment-strategy",
+      "to": "time-capital-health-investment-narrative"
     },
     {
       "from": "meta-skills-ai-era",
@@ -11609,6 +11953,26 @@
       "to": "claude-md-auto-cultivation-hooks"
     },
     {
+      "from": "quality-economy-trust-based-information",
+      "to": "ai-content-quality-vs-quantity-value"
+    },
+    {
+      "from": "quality-economy-trust-based-information",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "quality-economy-trust-based-information",
+      "to": "creator-economy-monetization-strategy"
+    },
+    {
+      "from": "quality-economy-trust-based-information",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "quality-economy-trust-based-information",
+      "to": "organizational-ai-knowledge-asset-management"
+    },
+    {
       "from": "quantified-self-ai-feedback-loop",
       "to": "ai-agent-token-metrics-career-leverage"
     },
@@ -11858,23 +12222,15 @@
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
-      "to": "background-automation-design-competitive-advantage"
-    },
-    {
-      "from": "self-directed-learning-ai-era-survival-strategy",
-      "to": "data-integration-visualization-manufacturing-application"
-    },
-    {
-      "from": "self-directed-learning-ai-era-survival-strategy",
-      "to": "environment-engineering"
-    },
-    {
-      "from": "self-directed-learning-ai-era-survival-strategy",
       "to": "executive-time-arbitrage-asset-building-strategy"
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
       "to": "geopolitical-narrative-multidimensional-analysis"
+    },
+    {
+      "from": "self-directed-learning-ai-era-survival-strategy",
+      "to": "identity-transformation-habit-formation-ai-era"
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
@@ -11886,11 +12242,11 @@
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
-      "to": "llm-infrastructure-foundation-provider-redundancy"
+      "to": "manufacturing-ai-opportunities"
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
-      "to": "manufacturing-ai-opportunities"
+      "to": "meta-skills-ai-era"
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
@@ -12574,7 +12930,23 @@
     },
     {
       "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-hyper-performer-mindset"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
       "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
     },
     {
       "from": "system-development-velocity-acceleration-ai-tools",
@@ -12611,6 +12983,10 @@
     {
       "from": "system-development-velocity-acceleration-ai-tools",
       "to": "speed-first-prototyping"
+    },
+    {
+      "from": "system-development-velocity-acceleration-ai-tools",
+      "to": "transparency-communication-trust-foundation"
     },
     {
       "from": "task-delegation-automation-decision-framework",
@@ -12677,6 +13053,38 @@
       "to": "time-capital-health-investment-narrative"
     },
     {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "ai-model-provider-vertical-integration"
+    },
+    {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "e2e-ai-model-manufacturing-application"
+    },
+    {
+      "from": "tesla-cybercab-vertical-integration-strategy",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
       "from": "tiered-ai-model-planning-verification-execution",
       "to": "ai-budget-management-roi-optimization"
     },
@@ -12730,7 +13138,15 @@
     },
     {
       "from": "time-capital-health-investment-narrative",
+      "to": "die-with-zero-philosophy-life-optimization"
+    },
+    {
+      "from": "time-capital-health-investment-narrative",
       "to": "executive-time-arbitrage-asset-building-strategy"
+    },
+    {
+      "from": "time-capital-health-investment-narrative",
+      "to": "memory-dividend-experiential-investment-strategy"
     },
     {
       "from": "time-capital-health-investment-narrative",
