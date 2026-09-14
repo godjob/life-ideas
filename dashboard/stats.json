@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T20:44:57+09:00",
+  "generatedAt": "2026-09-14T21:16:19+09:00",
   "weekly": {
-    "commitCount": 40,
+    "commitCount": 47,
     "byDay": [
       {
         "date": "2026-09-08",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-14",
-        "count": 28
+        "count": 35
       }
     ]
   },
@@ -39,20 +39,20 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 80
+    "other": 87
   },
   "recentCommits": [
     {
       "date": "2026-09-14",
-      "message": "wiki: 全275ページに category/tags の front matter を付与（バックフィル）"
+      "message": "dashboard: Wiki の検索欄を統一・✖クリア・タグのトグル解除・パンくず Wiki でインデックスへ v1.46"
     },
     {
       "date": "2026-09-14",
-      "message": "wiki: front matter（category/tags）分類パイプラインを追加"
+      "message": "dashboard: Claude使用量更新 (2026-09-14)"
     },
     {
       "date": "2026-09-14",
-      "message": "dashboard: Wiki タブのナビ改善（戻る/進む・カテゴリ別サイドバー・タグ/関連チップ）v1.45"
+      "message": "dashboard: Claude使用量更新 (2026-09-14)"
     },
     {
       "date": "2026-09-14",
