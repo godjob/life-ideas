@@ -183,6 +183,12 @@
       font-size: 0.78rem; padding-bottom: 12px; border-bottom: 1px dashed #e5e5ea;
     }
     .wiki-meta-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    /* 記事下部の関連・被リンク（markdown-body 内・更新履歴の直前） */
+    .wiki-related {
+      display: flex; flex-direction: column; gap: 8px; font-size: 0.78rem;
+      margin: 28px 0 20px; padding: 14px 0 16px; border-top: 1px dashed #e5e5ea; border-bottom: 1px dashed #e5e5ea;
+    }
+    .wiki-related .wiki-meta-label { font-weight: 600; color: #666; }
     .wiki-meta-label { color: #888; white-space: nowrap; margin-right: 2px; }
     .wiki-chip {
       display: inline-block; padding: 2px 10px; border-radius: 999px;
@@ -505,7 +511,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.46';
+  const VERSION = 'v1.47';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -741,24 +747,13 @@
   }
 
   // 記事メタ（カテゴリ・タグ・関連・被リンク）。表示するものが無ければ null
+  // 先頭メタ（カテゴリ・タグ）。関連・被リンクは buildWikiRelated() で記事下部に出す
   function buildWikiMeta(slug, meta) {
     const node = wikiNodeMap[slug];
     const category = meta.category || (node && node.group) || null;
     const tags = (Array.isArray(meta.tags) && meta.tags.length) ? meta.tags
       : (node && Array.isArray(node.tags) ? node.tags : []);
-    const related = [], backlinks = [];
-    if (wikiGraphCache) {
-      const seenR = new Set(), seenB = new Set();
-      for (const e of wikiGraphCache.edges) {
-        if (e.from === slug && e.to !== slug && !seenR.has(e.to) && wikiNodeMap[e.to] && related.length < 5) {
-          seenR.add(e.to); related.push(e.to);
-        }
-        if (e.to === slug && e.from !== slug && !seenB.has(e.from) && wikiNodeMap[e.from] && backlinks.length < 5) {
-          seenB.add(e.from); backlinks.push(e.from);
-        }
-      }
-    }
-    if (!category && !tags.length && !related.length && !backlinks.length) return null;
+    if (!category && !tags.length) return null;
 
     const wrap = document.createElement('div');
     wrap.className = 'wiki-meta';
@@ -779,28 +774,77 @@
       chip.addEventListener('click', () => setWikiFilter(t, { toggle: true }));
       row1.appendChild(chip);
     });
-    if (row1.childNodes.length) wrap.appendChild(row1);
+    wrap.appendChild(row1);
     // 既に同じ語で絞り込み中ならハイライトを付けて描画
     setTimeout(updateWikiTagChips, 0);
+    return wrap;
+  }
 
-    const addLinkRow = (labelText, slugs) => {
-      if (!slugs.length) return;
+  // 本文から「## 関連ページ」セクションを切り出す（表示はチップに置き換えるため本文からは除去）。
+  // 戻り値: { body: セクションを除いた本文, links: [{slug, desc}]（記載順）}
+  // .md ファイル自体は変更しない（graph の edges の元データであり git scrap の必須セクションでもある）
+  function extractWikiRelatedSection(text) {
+    const m = text.match(/\n## 関連ページ[ \t]*\r?\n([\s\S]*?)(?=\r?\n## |\s*$)/);
+    if (!m) return { body: text, links: [] };
+    const links = [];
+    const seen = new Set();
+    const re = /\[([^\]]+)\]\(([a-z0-9][a-z0-9-]*)\.md\)[ \t]*[:：]?[ \t]*([^\n]*)/g;
+    let lm;
+    while ((lm = re.exec(m[1])) !== null) {
+      const slug = lm[2];
+      if (seen.has(slug)) continue;
+      seen.add(slug);
+      links.push({ slug, desc: (lm[3] || '').trim() });
+    }
+    return { body: text.slice(0, m.index) + text.slice(m.index + m[0].length), links };
+  }
+
+  // 記事下部の関連・被リンクブロック。関連 = 「## 関連ページ」の記載（順序・一言説明を保持）∪ 本文中の内部リンク（graph の edges）
+  // 件数上限は設けない（先頭5件だけだと本文の関連ページ節と件数が食い違うため）
+  function buildWikiRelated(slug, sectionLinks) {
+    const related = [];
+    const seenR = new Set([slug]);
+    (sectionLinks || []).forEach(l => {
+      if (!seenR.has(l.slug) && (wikiNodeMap[l.slug] || wikiTitleMap[l.slug + '.md'])) {
+        seenR.add(l.slug); related.push({ slug: l.slug, desc: l.desc });
+      }
+    });
+    const backlinks = [];
+    if (wikiGraphCache) {
+      const seenB = new Set([slug]);
+      for (const e of wikiGraphCache.edges) {
+        if (e.from === slug && !seenR.has(e.to) && wikiNodeMap[e.to]) {
+          seenR.add(e.to); related.push({ slug: e.to, desc: '' });
+        }
+        if (e.to === slug && !seenB.has(e.from) && wikiNodeMap[e.from]) {
+          seenB.add(e.from); backlinks.push({ slug: e.from, desc: '' });
+        }
+      }
+      const labelOf = x => (wikiNodeMap[x.slug] && wikiNodeMap[x.slug].label) || x.slug;
+      backlinks.sort((a, b) => labelOf(a).localeCompare(labelOf(b), 'ja'));
+    }
+    if (!related.length && !backlinks.length) return null;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'wiki-related';
+    const addLinkRow = (labelText, items) => {
+      if (!items.length) return;
       const row = document.createElement('div');
       row.className = 'wiki-meta-row';
       const label = document.createElement('span');
-      label.className = 'wiki-meta-label'; label.textContent = labelText;
+      label.className = 'wiki-meta-label'; label.textContent = `${labelText} (${items.length})`;
       row.appendChild(label);
-      slugs.forEach(s => {
+      items.forEach(it => {
         const chip = document.createElement('span');
         chip.className = 'wiki-chip link';
-        chip.textContent = (wikiNodeMap[s] && wikiNodeMap[s].label) || wikiTitleMap[s + '.md'] || s;
-        chip.title = chip.textContent;
-        chip.addEventListener('click', () => openWikiSlug(s));
+        chip.textContent = (wikiNodeMap[it.slug] && wikiNodeMap[it.slug].label) || wikiTitleMap[it.slug + '.md'] || it.slug;
+        chip.title = it.desc || chip.textContent;
+        chip.addEventListener('click', () => openWikiSlug(it.slug));
         row.appendChild(chip);
       });
       wrap.appendChild(row);
     };
-    addLinkRow('🔗 関連', related);
+    addLinkRow('🔗 関連ページ', related);
     addLinkRow('↩ 被リンク', backlinks);
     return wrap;
   }
@@ -1884,10 +1928,15 @@
 
     // Wiki: front matter（category / tags）を本文から除去してから描画
     let wikiMeta = {};
+    let wikiSectionLinks = [];
     if (isWiki) {
       const fm = splitFrontMatter(text);
       text = fm.body;
       wikiMeta = fm.meta;
+      // 「## 関連ページ」は下部の関連チップに置き換えるので本文からは外す
+      const rs = extractWikiRelatedSection(text);
+      text = rs.body;
+      wikiSectionLinks = rs.links;
     }
 
     let rendered = marked.parse(text);
@@ -1913,6 +1962,15 @@
       const body = document.createElement('div');
       body.className = 'markdown-body';
       body.innerHTML = rendered;
+      if (!isSpecial) {
+        // 関連・被リンクは記事下部（「## 更新履歴」の直前。無ければ末尾）
+        let relEl = null;
+        try { relEl = buildWikiRelated(wikiSlug, wikiSectionLinks); } catch (e) { relEl = null; }
+        if (relEl) {
+          const historyH2 = [...body.querySelectorAll('h2')].find(h => h.textContent.trim() === '更新履歴');
+          if (historyH2) body.insertBefore(relEl, historyH2); else body.appendChild(relEl);
+        }
+      }
       wrap.appendChild(body);
       contentEl.appendChild(wrap);
       updateWikiToolbar();
