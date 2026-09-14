@@ -1,3 +1,8 @@
+---
+category: 技術実装・エンジニアリング
+tags: [Git hooks, セキュリティ防御, 多層防御, GitHub Free, 権限管理]
+---
+
 # GitHub Free プライベートリポジトリのBranch Protection代替：pre-push hook活用
 
 ## 概要

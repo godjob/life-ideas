@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Skill System, プロンプト設計, 自動化, エージェント設計, メタデータ]
+---
+
 # descriptionフィールドの最適化：トリガー条件と機能説明の書き方
 
 ## 概要

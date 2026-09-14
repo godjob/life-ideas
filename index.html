@@ -99,7 +99,7 @@
     .layout { display: flex; flex: 1; min-height: 0; }
 
     .file-list {
-      width: 240px; min-width: 240px; background: #fff;
+      width: 280px; min-width: 280px; background: #fff;
       border-right: 1px solid #e0e0e0; overflow-y: auto;
       padding: 8px 0; flex-shrink: 0;
     }
@@ -111,6 +111,87 @@
     .file-item:hover { background: #f0f4ff; color: #333; }
     .file-item.active { background: #f0f4ff; border-left-color: #e94560; color: #1a1a2e; font-weight: 600; }
     .file-item.empty { color: #aaa; cursor: default; font-style: italic; padding: 16px; white-space: normal; }
+
+    /* サイドバー幅のドラッグハンドル（PCのみ） */
+    .sidebar-resizer {
+      width: 6px; flex-shrink: 0; cursor: col-resize;
+      background: transparent; transition: background 0.15s;
+    }
+    .sidebar-resizer:hover, .sidebar-resizer.dragging { background: #e94560; }
+
+    /* ===== Wikiタブ: サイドバー ===== */
+    /* 日本語タイトルを2行まで折り返す（他タブは nowrap のまま） */
+    .file-list.wiki .file-item {
+      white-space: normal; display: -webkit-box; -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; overflow: hidden; line-height: 1.35;
+      padding: 8px 14px;
+    }
+    .wiki-filter {
+      display: block; width: calc(100% - 16px); margin: 0 8px 6px;
+      padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px;
+      font-size: 0.82rem; color: #333; box-sizing: border-box; background: #fff;
+    }
+    .wiki-filter:focus { outline: none; border-color: #e94560; }
+    #file-list details.wiki-group { margin-top: 2px; }
+    #file-list details.wiki-group > summary {
+      display: flex; align-items: center; gap: 6px;
+      padding: 6px 12px; font-size: 0.75rem; font-weight: 600; color: #1a1a2e;
+      background: #f5f6fa; cursor: pointer; list-style: none; user-select: none;
+      position: sticky; top: 0; z-index: 1; border-bottom: 1px solid #eceef3;
+    }
+    #file-list details.wiki-group > summary::-webkit-details-marker { display: none; }
+    #file-list details.wiki-group > summary::before {
+      content: '▸'; color: #e94560; display: inline-block; transition: transform 0.15s; flex-shrink: 0;
+    }
+    #file-list details.wiki-group[open] > summary::before { transform: rotate(90deg); }
+    #file-list details.wiki-group > summary:hover { background: #eef0f6; }
+    .wiki-group-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+    .wiki-group-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .wiki-group-count { color: #999; font-weight: normal; flex-shrink: 0; }
+    #file-list .filtered-out { display: none !important; }
+
+    /* ===== Wikiタブ: 記事上部ツールバー・メタ情報 ===== */
+    .wiki-toolbar {
+      position: sticky; top: 0; z-index: 5;
+      display: flex; align-items: center; gap: 8px;
+      padding: 8px 32px; background: rgba(255,255,255,0.96);
+      border-bottom: 1px solid #eee; font-size: 0.82rem;
+      backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+    }
+    .wiki-nav-btn {
+      background: #fff; border: 1px solid #ccc; border-radius: 4px;
+      padding: 4px 10px; font-size: 0.8rem; cursor: pointer; color: #555;
+      white-space: nowrap; flex-shrink: 0; transition: all 0.15s;
+    }
+    .wiki-nav-btn:disabled { opacity: 0.3; cursor: default; }
+    .wiki-nav-btn:not(:disabled):hover { border-color: #e94560; color: #e94560; }
+    .wiki-crumb {
+      color: #888; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      margin-left: 4px;
+    }
+    .wiki-crumb-sep { margin: 0 6px; color: #bbb; }
+    .wiki-crumb-cat { color: #1a1a2e; font-weight: 600; cursor: pointer; }
+    .wiki-crumb-cat:hover { color: #e94560; text-decoration: underline; }
+    .wiki-body-wrap { padding: 32px; }
+    .wiki-meta {
+      max-width: 800px; margin: 0 auto 16px; display: flex; flex-direction: column; gap: 6px;
+      font-size: 0.78rem; padding-bottom: 12px; border-bottom: 1px dashed #e5e5ea;
+    }
+    .wiki-meta-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .wiki-meta-label { color: #888; white-space: nowrap; margin-right: 2px; }
+    .wiki-chip {
+      display: inline-block; padding: 2px 10px; border-radius: 999px;
+      background: #f0f2f5; color: #444; border: 1px solid #e0e0e0; line-height: 1.5;
+      max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .wiki-chip.cat { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+    .wiki-chip.tag { cursor: pointer; }
+    .wiki-chip.tag:hover { border-color: #e94560; color: #e94560; }
+    .wiki-chip.link {
+      cursor: pointer; background: #fff; color: #e94560; border-color: #f3c1cb; max-width: 280px;
+    }
+    .wiki-chip.link:hover { background: #fff0f3; }
+    /* ================================= */
 
     .content-area {
       flex: 1; overflow-y: auto; padding: 32px;
@@ -285,6 +366,10 @@
         overflow-x: hidden;
         overscroll-behavior: contain;
       }
+      .sidebar-resizer { display: none; }
+      .wiki-toolbar { padding: 6px 12px; gap: 6px; }
+      .wiki-nav-btn { padding: 3px 7px; font-size: 0.75rem; }
+      .wiki-body-wrap { padding: 16px; }
       .tab-btn { padding: 10px 12px; font-size: 0.82rem; }
       .scroll-top { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1rem; }
       .urls-table { font-size: 0.78rem; table-layout: auto; }
@@ -394,6 +479,7 @@
   <div class="file-list" id="file-list">
     <div class="file-item empty">読み込み中...</div>
   </div>
+  <div class="sidebar-resizer" id="sidebar-resizer" title="ドラッグで幅を変更"></div>
   <div class="content-area" id="content-area">
     <div class="placeholder">
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ddd" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
@@ -407,7 +493,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.44';
+  const VERSION = 'v1.45';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -422,8 +508,45 @@
   const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action', 'wiki'];
   const DATE_FILTER_TABS = ['daily', 'news'];
 
-  // Wiki タイトルマップ（slug → 日本語タイトル）
+  // Wiki タイトルマップ（slug.md → 日本語タイトル）
   let wikiTitleMap = {};
+  // Wiki 更新日マップ（slug.md → 'yy/mm/dd'。ideas/wiki/index.md の3列目）
+  let wikiUpdatedMap = {};
+  // wiki-graph.json のキャッシュ（1回だけ fetch。renderWikiGraph / メタ表示 / サイドバー分類で共用）
+  let wikiGraphCache = null;
+  let wikiGraphPromise = null;
+  let wikiNodeMap = {};          // slug → node
+  // Wiki ハッシュルーティング用の履歴状態
+  let wikiHistoryIdx = 0;        // 現在の history.state.idx
+  let wikiHistoryMax = 0;        // 進める最大 idx
+  let wikiPopstateDepth = 0;     // >0 のあいだは popstate 起因の遷移（pushState しない）
+  let wikiScrollByIdx = {};      // idx → content-area の scrollTop（同一セッション内の戻る/進む用）
+  let wikiCurrentPath = null;    // 現在表示中の wiki ページのパス
+  let wikiFilterActive = false;  // サイドバー絞り込み中（グループ開閉状態を保存しない）
+  const wikiProgrammaticOpen = new WeakSet();  // プログラムで open を変えた <details>（次の toggle を保存しない）
+  const WIKI_GROUP_KEY = 'wiki-group-open';
+  const WIKI_GRAPH_SLUG = '_graph';
+  // 固定カテゴリ（表示順。最後に「その他」）
+  const WIKI_CATEGORIES = [
+    'Claude/AI開発ツール', 'AIエージェント設計', '製造業・業務DX', 'AI戦略・社会',
+    '技術実装・エンジニアリング', 'ビジネス・組織', 'キャリア・働き方', 'プロンプト・AI活用',
+    '個人OS・知識管理', '資産・投資', '健康・習慣', 'その他',
+  ];
+  // カテゴリ色マップ（グラフ・カテゴリチップ・グループ見出しで共用）
+  const WIKI_COLOR_MAP = {
+    'Claude/AI開発ツール':        { background: '#3b82f6', border: '#1d4ed8' },
+    'AIエージェント設計':          { background: '#06b6d4', border: '#0e7490' },
+    '製造業・業務DX':              { background: '#f97316', border: '#c2410c' },
+    'AI戦略・社会':                { background: '#8b5cf6', border: '#6d28d9' },
+    '技術実装・エンジニアリング':   { background: '#10b981', border: '#047857' },
+    'ビジネス・組織':              { background: '#eab308', border: '#a16207' },
+    'キャリア・働き方':            { background: '#ec4899', border: '#be185d' },
+    'プロンプト・AI活用':          { background: '#ef4444', border: '#b91c1c' },
+    '個人OS・知識管理':            { background: '#a16207', border: '#78350f' },
+    '資産・投資':                  { background: '#ca8a04', border: '#92400e' },
+    '健康・習慣':                  { background: '#84cc16', border: '#4d7c0f' },
+    'その他':                      { background: '#9ca3af', border: '#6b7280' },
+  };
 
   // URLsタブ専用ステート
   let urlsData = [];
@@ -486,38 +609,416 @@
     });
   }
 
+  // ===== Wiki タブ: 共通ユーティリティ =====
+
+  // wiki-graph.json を1回だけ fetch してキャッシュする
+  async function loadWikiGraph() {
+    if (wikiGraphCache) return wikiGraphCache;
+    if (wikiGraphPromise) return wikiGraphPromise;
+    wikiGraphPromise = (async () => {
+      const resp = await fetch('dashboard/wiki-graph.json?t=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+      data.nodes = Array.isArray(data.nodes) ? data.nodes : [];
+      data.edges = Array.isArray(data.edges) ? data.edges : [];
+      wikiNodeMap = {};
+      data.nodes.forEach(n => { wikiNodeMap[n.id] = n; });
+      wikiGraphCache = data;
+      return data;
+    })().catch(e => { wikiGraphPromise = null; throw e; });
+    return wikiGraphPromise;
+  }
+
+  function wikiSlugFromPath(path) {
+    return path.replace(/^ideas\/wiki\//, '').replace(/\.md$/, '');
+  }
+  function wikiSlugFromHash() {
+    const m = location.hash.match(/^#wiki\/(.+)$/);
+    if (!m) return null;
+    try { return decodeURIComponent(m[1]); } catch (e) { return m[1]; }
+  }
+
+  // front matter（--- category/tags ---）を本文から分離する。無いページはそのまま返す
+  function splitFrontMatter(text) {
+    const m = text.match(/^---[ \t]*\r?\n([\s\S]*?)\r?\n---[ \t]*(?:\r?\n|$)/);
+    if (!m) return { body: text, meta: {} };
+    const meta = {};
+    for (const line of m[1].split(/\r?\n/)) {
+      const kv = line.match(/^([\w-]+):\s*(.*)$/);
+      if (!kv) continue;
+      let v = kv[2].trim();
+      if (kv[1] === 'tags') {
+        v = v.replace(/^\[/, '').replace(/\]$/, '').split(',')
+          .map(s => s.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
+      } else {
+        v = v.replace(/^["']|["']$/g, '');
+      }
+      meta[kv[1]] = v;
+    }
+    return { body: text.slice(m[0].length), meta };
+  }
+
+  // 現在のエントリに scrollTop を保存し、新しいページを history に積む（popstate 中は何もしない）
+  function wikiRecordNavigation(slug, prevScroll) {
+    if (wikiPopstateDepth > 0) return;
+    const cur = history.state && history.state.wiki ? history.state : null;
+    const url = location.pathname + location.search + '#wiki/' + encodeURIComponent(slug);
+    try {
+      if (cur && cur.slug === slug) {
+        // 同じページの再表示（サイドバー再クリック・リロード直後）: エントリを増やさない
+        wikiHistoryIdx = cur.idx | 0;
+        wikiHistoryMax = Math.max(wikiHistoryMax, wikiHistoryIdx);
+        if (location.hash !== '#wiki/' + encodeURIComponent(slug)) history.replaceState(cur, '', url);
+      } else if (cur) {
+        const curIdx = cur.idx | 0;
+        history.replaceState({ ...cur, scrollTop: prevScroll }, '');
+        wikiScrollByIdx[curIdx] = prevScroll;
+        const idx = curIdx + 1;
+        history.pushState({ wiki: true, slug, idx, scrollTop: 0 }, '', url);
+        wikiHistoryIdx = idx;
+        wikiHistoryMax = idx;   // 進む側のエントリは pushState で消える
+        wikiScrollByIdx[idx] = 0;
+      } else {
+        // Wiki タブで最初に開いたページ: 現在のエントリを idx=0 として置き換える
+        history.replaceState({ wiki: true, slug, idx: 0, scrollTop: 0 }, '', url);
+        wikiHistoryIdx = 0;
+        wikiHistoryMax = 0;
+        wikiScrollByIdx = {};
+      }
+    } catch (e) { /* file:// 等で history が使えなくても本文表示は続ける */ }
+    updateWikiToolbar();
+  }
+
+  function updateWikiToolbar() {
+    const back = document.getElementById('wiki-back');
+    const fwd = document.getElementById('wiki-fwd');
+    if (back) back.disabled = wikiHistoryIdx <= 0;
+    if (fwd) fwd.disabled = wikiHistoryIdx >= wikiHistoryMax;
+  }
+
+  // 記事上部の固定ツールバー（戻る／進む＋パンくず）
+  function buildWikiToolbar(category) {
+    const bar = document.createElement('div');
+    bar.className = 'wiki-toolbar';
+    const back = document.createElement('button');
+    back.className = 'wiki-nav-btn'; back.id = 'wiki-back'; back.textContent = '← 戻る';
+    back.title = '前のページへ';
+    back.addEventListener('click', () => { if (wikiHistoryIdx > 0) history.back(); });
+    const fwd = document.createElement('button');
+    fwd.className = 'wiki-nav-btn'; fwd.id = 'wiki-fwd'; fwd.textContent = '進む →';
+    fwd.title = '次のページへ';
+    fwd.addEventListener('click', () => { if (wikiHistoryIdx < wikiHistoryMax) history.forward(); });
+    const crumb = document.createElement('span');
+    crumb.className = 'wiki-crumb';
+    crumb.textContent = 'Wiki';
+    if (category) {
+      const sep = document.createElement('span');
+      sep.className = 'wiki-crumb-sep'; sep.textContent = '›';
+      const cat = document.createElement('span');
+      cat.className = 'wiki-crumb-cat'; cat.textContent = category;
+      cat.title = 'サイドバーでこのカテゴリを表示';
+      cat.addEventListener('click', () => revealWikiGroup(category));
+      crumb.appendChild(sep); crumb.appendChild(cat);
+    }
+    bar.appendChild(back); bar.appendChild(fwd); bar.appendChild(crumb);
+    return bar;
+  }
+
+  // 記事メタ（カテゴリ・タグ・関連・被リンク）。表示するものが無ければ null
+  function buildWikiMeta(slug, meta) {
+    const node = wikiNodeMap[slug];
+    const category = meta.category || (node && node.group) || null;
+    const tags = (Array.isArray(meta.tags) && meta.tags.length) ? meta.tags
+      : (node && Array.isArray(node.tags) ? node.tags : []);
+    const related = [], backlinks = [];
+    if (wikiGraphCache) {
+      const seenR = new Set(), seenB = new Set();
+      for (const e of wikiGraphCache.edges) {
+        if (e.from === slug && e.to !== slug && !seenR.has(e.to) && wikiNodeMap[e.to] && related.length < 5) {
+          seenR.add(e.to); related.push(e.to);
+        }
+        if (e.to === slug && e.from !== slug && !seenB.has(e.from) && wikiNodeMap[e.from] && backlinks.length < 5) {
+          seenB.add(e.from); backlinks.push(e.from);
+        }
+      }
+    }
+    if (!category && !tags.length && !related.length && !backlinks.length) return null;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'wiki-meta';
+    const row1 = document.createElement('div');
+    row1.className = 'wiki-meta-row';
+    if (category) {
+      const chip = document.createElement('span');
+      chip.className = 'wiki-chip cat'; chip.textContent = category;
+      const color = WIKI_COLOR_MAP[category];
+      if (color) { chip.style.background = color.background; chip.style.borderColor = color.border; }
+      row1.appendChild(chip);
+    }
+    tags.forEach(t => {
+      const chip = document.createElement('span');
+      chip.className = 'wiki-chip tag'; chip.textContent = '#' + t;
+      chip.title = 'このタグで絞り込む';
+      chip.addEventListener('click', () => setWikiFilter(t));
+      row1.appendChild(chip);
+    });
+    if (row1.childNodes.length) wrap.appendChild(row1);
+
+    const addLinkRow = (labelText, slugs) => {
+      if (!slugs.length) return;
+      const row = document.createElement('div');
+      row.className = 'wiki-meta-row';
+      const label = document.createElement('span');
+      label.className = 'wiki-meta-label'; label.textContent = labelText;
+      row.appendChild(label);
+      slugs.forEach(s => {
+        const chip = document.createElement('span');
+        chip.className = 'wiki-chip link';
+        chip.textContent = (wikiNodeMap[s] && wikiNodeMap[s].label) || wikiTitleMap[s + '.md'] || s;
+        chip.title = chip.textContent;
+        chip.addEventListener('click', () => openWikiSlug(s));
+        row.appendChild(chip);
+      });
+      wrap.appendChild(row);
+    };
+    addLinkRow('🔗 関連', related);
+    addLinkRow('↩ 被リンク', backlinks);
+    return wrap;
+  }
+
+  // Wiki 内遷移の共通入口（サイドバー・記事内リンク・メタチップ・グラフ・popstate）
+  async function openWikiSlug(slug) {
+    const listEl = document.getElementById('file-list');
+    if (slug === WIKI_GRAPH_SLUG) {
+      document.querySelectorAll('#file-list .file-item').forEach(i => i.classList.remove('active'));
+      const graphItem = document.getElementById('wiki-graph-item');
+      if (graphItem) graphItem.classList.add('active');
+      await renderWikiGraph();
+      return;
+    }
+    const path = `ideas/wiki/${slug}.md`;
+    const item = [...listEl.querySelectorAll('.file-item')].find(el => el.dataset.path === path) || null;
+    const idx = allFiles.findIndex(f => f.path === path);
+    if (idx >= 0) {
+      currentFileIndex = idx;
+      updateMobileNav(allFiles, idx);
+    }
+    if (item) {
+      const group = item.closest('details.wiki-group');
+      if (group && !group.open) { wikiProgrammaticOpen.add(group); group.open = true; }
+      item.scrollIntoView({ block: 'nearest' });
+    }
+    await openFile(path, item);
+  }
+
+  // サイドバーの該当カテゴリを開いてスクロール（パンくずクリック）
+  function revealWikiGroup(category) {
+    const group = [...document.querySelectorAll('#file-list details.wiki-group')]
+      .find(d => d.dataset.group === category);
+    if (!group) return;
+    if (!group.open) { wikiProgrammaticOpen.add(group); group.open = true; }
+    group.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+
+  function loadWikiGroupState() {
+    try { return JSON.parse(localStorage.getItem(WIKI_GROUP_KEY) || '{}') || {}; }
+    catch (e) { return {}; }
+  }
+  function saveWikiGroupState(category, open) {
+    const state = loadWikiGroupState();
+    state[category] = open;
+    try { localStorage.setItem(WIKI_GROUP_KEY, JSON.stringify(state)); } catch (e) { /* 保存不可でも動作は続ける */ }
+  }
+
+  // 絞り込み欄（タイトル部分一致 or タグ部分一致・大文字小文字無視）
+  function applyWikiFilter(query) {
+    const q = (query || '').trim().toLowerCase();
+    wikiFilterActive = !!q;
+    const listEl = document.getElementById('file-list');
+    listEl.querySelectorAll('.file-item[data-path]').forEach(item => {
+      const hit = !q
+        || item.textContent.toLowerCase().includes(q)
+        || (item.dataset.tags || '').toLowerCase().includes(q);
+      item.classList.toggle('filtered-out', !hit);
+    });
+    const saved = loadWikiGroupState();
+    listEl.querySelectorAll('details.wiki-group').forEach(d => {
+      const visible = d.querySelectorAll('.file-item[data-path]:not(.filtered-out)').length;
+      d.classList.toggle('filtered-out', !!q && visible === 0);
+      const shouldOpen = q ? true : saved[d.dataset.group] !== false;
+      if (d.open !== shouldOpen) { wikiProgrammaticOpen.add(d); d.open = shouldOpen; }
+    });
+  }
+  function setWikiFilter(value) {
+    const listEl = document.getElementById('file-list');
+    let input = listEl.querySelector('.wiki-filter');
+    if (!input) {
+      // 検索結果（フラット表示）中はグループ表示に戻してから絞り込む
+      renderWikiSidebar(listEl);
+      input = listEl.querySelector('.wiki-filter');
+      if (!input) return;
+    }
+    input.value = value;
+    applyWikiFilter(value);
+    listEl.scrollTop = 0;
+  }
+
+  // Wiki タブのサイドバー（絞り込み欄・グラフ・index/log・カテゴリ別グループ）を構築する
+  function renderWikiSidebar(listEl) {
+    listEl.innerHTML = '';
+    const onSelect = (path, item, idx) => {
+      currentFileIndex = idx;
+      updateMobileNav(allFiles, currentFileIndex);
+      document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      openFile(path, item);
+    };
+
+    const filter = document.createElement('input');
+    filter.type = 'search'; filter.className = 'wiki-filter';
+    filter.placeholder = 'タイトル・タグで絞り込み';
+    filter.addEventListener('input', () => applyWikiFilter(filter.value));
+    listEl.appendChild(filter);
+
+    const graphItem = document.createElement('div');
+    graphItem.className = 'file-item'; graphItem.id = 'wiki-graph-item';
+    graphItem.style.cssText = 'display:flex;align-items:center;gap:6px;';
+    graphItem.innerHTML = '<span>🕸</span><span>グラフ</span>';
+    graphItem.addEventListener('click', () => openWikiSlug(WIKI_GRAPH_SLUG));
+    listEl.appendChild(graphItem);
+    const sep = document.createElement('div');
+    sep.style.cssText = 'height:1px;background:#e0e0e0;margin:4px 8px;';
+    listEl.appendChild(sep);
+
+    const counts = {};
+    allFiles.forEach(f => { if (f.group) counts[f.group] = (counts[f.group] || 0) + 1; });
+    const openState = loadWikiGroupState();
+    let curGroup = null, curDetails = null;
+    allFiles.forEach((file, i) => {
+      const item = createFileItem(file, 'wiki', i, onSelect);
+      if (Array.isArray(file.tags) && file.tags.length) item.dataset.tags = file.tags.join(',');
+      if (wikiUpdatedMap[file.name]) item.title += `\n更新: ${wikiUpdatedMap[file.name]}`;
+      if (wikiCurrentPath === file.path) item.classList.add('active');
+      if (!file.group) { listEl.appendChild(item); return; }
+      if (file.group !== curGroup) {
+        curGroup = file.group;
+        curDetails = createWikiGroup(curGroup, counts[curGroup], openState[curGroup] !== false);
+        listEl.appendChild(curDetails);
+      }
+      curDetails.appendChild(item);
+    });
+  }
+
+  // カテゴリグループ <details class="wiki-group">。開閉はユーザー操作時のみ localStorage に保存
+  function createWikiGroup(category, count, open) {
+    const details = document.createElement('details');
+    details.className = 'wiki-group';
+    details.dataset.group = category;
+    const summary = document.createElement('summary');
+    const dot = document.createElement('span');
+    dot.className = 'wiki-group-dot';
+    dot.style.background = (WIKI_COLOR_MAP[category] || WIKI_COLOR_MAP['その他']).background;
+    const name = document.createElement('span');
+    name.className = 'wiki-group-name'; name.textContent = category; name.title = category;
+    const cnt = document.createElement('span');
+    cnt.className = 'wiki-group-count'; cnt.textContent = `(${count})`;
+    summary.appendChild(dot); summary.appendChild(name); summary.appendChild(cnt);
+    details.appendChild(summary);
+    // open 属性の付与でも toggle が発火する（仕様）ため、初期値の反映は「プログラム操作」として1回読み飛ばす
+    if (open) { wikiProgrammaticOpen.add(details); details.open = true; }
+    details.addEventListener('toggle', () => {
+      if (wikiProgrammaticOpen.has(details)) { wikiProgrammaticOpen.delete(details); return; }
+      if (wikiFilterActive) return;
+      saveWikiGroupState(category, details.open);
+    });
+    return details;
+  }
+
+  // ブラウザの戻る／進む（スワイプバック含む）
+  window.addEventListener('popstate', async e => {
+    const slug = wikiSlugFromHash();
+    if (!slug) return;
+    if (currentTab !== 'wiki') {
+      // 他タブ表示中に #wiki/<slug> のエントリへ戻った場合は URL どおり Wiki タブを開く
+      // （switchTab の初期表示が hash のスラッグを拾う）
+      switchTab('wiki', document.querySelector(`.tab-btn[onclick*="'wiki'"]`));
+      return;
+    }
+    const st = e.state && e.state.wiki ? e.state : null;
+    const targetIdx = st ? (st.idx | 0) : 0;
+    const saved = (wikiScrollByIdx[targetIdx] != null) ? wikiScrollByIdx[targetIdx]
+      : (st && typeof st.scrollTop === 'number' ? st.scrollTop : 0);
+    const contentEl = document.getElementById('content-area');
+    wikiScrollByIdx[wikiHistoryIdx] = contentEl.scrollTop;
+    wikiHistoryIdx = targetIdx;
+    wikiHistoryMax = Math.max(wikiHistoryMax, targetIdx);
+    wikiPopstateDepth++;
+    try { await openWikiSlug(slug); }
+    catch (err) { /* 表示失敗しても履歴状態は更新済み */ }
+    finally { wikiPopstateDepth--; }
+    if (slug !== WIKI_GRAPH_SLUG) {
+      contentEl.scrollTop = saved;
+      requestAnimationFrame(() => { contentEl.scrollTop = saved; });
+    }
+    updateWikiToolbar();
+  });
+
+  // サイドバー幅のドラッグ変更（PCのみ。localStorage に保存）
+  (function initSidebarResizer() {
+    const listEl = document.getElementById('file-list');
+    const handle = document.getElementById('sidebar-resizer');
+    if (!handle) return;
+    const MIN_W = 180, MAX_W = 520;
+    let curW = 0;
+    const apply = w => { curW = w; listEl.style.width = w + 'px'; listEl.style.minWidth = w + 'px'; };
+    let saved = NaN;
+    try { saved = parseInt(localStorage.getItem('sidebarWidth'), 10); } catch (e) { /* noop */ }
+    if (saved >= MIN_W && saved <= MAX_W) apply(saved);
+    let dragging = false, startX = 0, startW = 0;
+    handle.addEventListener('mousedown', e => {
+      dragging = true; startX = e.clientX; startW = listEl.getBoundingClientRect().width;
+      handle.classList.add('dragging');
+      document.body.style.userSelect = 'none';
+      document.body.style.cursor = 'col-resize';
+      e.preventDefault();
+    });
+    document.addEventListener('mousemove', e => {
+      if (!dragging) return;
+      apply(Math.min(MAX_W, Math.max(MIN_W, startW + e.clientX - startX)));
+    });
+    document.addEventListener('mouseup', () => {
+      if (!dragging) return;
+      dragging = false;
+      handle.classList.remove('dragging');
+      document.body.style.userSelect = '';
+      document.body.style.cursor = '';
+      try { localStorage.setItem('sidebarWidth', String(Math.round(curW))); }
+      catch (e) { /* noop */ }
+    });
+  })();
+  // ==========================================
+
   async function renderWikiGraph() {
     const contentEl = document.getElementById('content-area');
+    if (currentTab === 'wiki') wikiRecordNavigation(WIKI_GRAPH_SLUG, contentEl.scrollTop);
+    wikiCurrentPath = null;
+    contentEl.style.padding = '0';
     contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">グラフを読み込み中...</div>';
 
     let graphData;
     try {
-      const resp = await fetch('dashboard/wiki-graph.json?t=' + Date.now());
-      if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      graphData = await resp.json();
+      graphData = await loadWikiGraph();
     } catch(e) {
       contentEl.innerHTML = '<div style="padding:32px;color:#e94560;text-align:center;">wiki-graph.json が見つかりません。<br>git scrap を実行してグラフを生成してください。</div>';
       return;
     }
 
-    // カテゴリ色マップ
-    const COLOR_MAP = {
-      'Claude/AI開発ツール':        { background: '#3b82f6', border: '#1d4ed8' },
-      'AIエージェント設計':          { background: '#06b6d4', border: '#0e7490' },
-      '製造業・業務DX':              { background: '#f97316', border: '#c2410c' },
-      'AI戦略・社会':                { background: '#8b5cf6', border: '#6d28d9' },
-      '技術実装・エンジニアリング':   { background: '#10b981', border: '#047857' },
-      'ビジネス・組織':              { background: '#eab308', border: '#a16207' },
-      'キャリア・働き方':            { background: '#ec4899', border: '#be185d' },
-      'プロンプト・AI活用':          { background: '#ef4444', border: '#b91c1c' },
-      '個人OS・知識管理':            { background: '#a16207', border: '#78350f' },
-      '資産・投資':                  { background: '#ca8a04', border: '#92400e' },
-      '健康・習慣':                  { background: '#84cc16', border: '#4d7c0f' },
-      'その他':                      { background: '#9ca3af', border: '#6b7280' },
-    };
+    const COLOR_MAP = WIKI_COLOR_MAP;
 
     // コンテナ構築
     contentEl.innerHTML = '';
+    contentEl.appendChild(buildWikiToolbar(null));
+    updateWikiToolbar();
 
     // 凡例
     const legend = document.createElement('div');
@@ -532,7 +1033,7 @@
 
     // グラフコンテナ
     const container = document.createElement('div');
-    container.style.cssText = 'width:100%;height:calc(100vh - 180px);';
+    container.style.cssText = 'width:100%;height:calc(100vh - 220px);';
     contentEl.appendChild(container);
 
     // Vis.js データ
@@ -612,21 +1113,10 @@
       });
     }
 
-    // ノードクリックでwikiページを開く
+    // ノードクリックでwikiページを開く（サイドバー同期・履歴登録は openWikiSlug が行う）
     network.on('click', params => {
       if (params.nodes.length === 0) return;
-      const slug = params.nodes[0];
-      const path = `ideas/wiki/${slug}.md`;
-      // 左メニューのfile-itemからpathに対応するアイテムを探してクリック
-      const items = document.querySelectorAll('#file-list .file-item');
-      for (const item of items) {
-        if (item.dataset && item.dataset.path === path) {
-          item.click();
-          return;
-        }
-      }
-      // file-itemが見つからない場合はopenFileを直接呼ぶ
-      openFile(path, null);
+      openWikiSlug(params.nodes[0]);
     });
   }
 
@@ -634,22 +1124,16 @@
     container.querySelectorAll('a[href]').forEach(a => {
       const href = a.getAttribute('href');
       if (!href || !href.endsWith('.md') || href.startsWith('http')) return;
-      const slug = href.split('/').pop();
+      const slugMd = href.split('/').pop();
       // リンクテキストがスラッグ（英数字・ハイフン形式）の場合は日本語タイトルに置換
       const linkText = a.textContent.trim();
-      if (/^[a-z0-9-]+\.md$/.test(linkText) && wikiTitleMap[slug]) {
-        a.textContent = wikiTitleMap[slug];
+      if (/^[a-z0-9-]+\.md$/.test(linkText) && wikiTitleMap[slugMd]) {
+        a.textContent = wikiTitleMap[slugMd];
       }
       a.addEventListener('click', e => {
         e.preventDefault();
-        const path = `ideas/wiki/${slug}`;
-        // サイドバーの該当アイテムをアクティブにする
-        const item = [...document.querySelectorAll('.file-item')]
-          .find(el => el.dataset.path === path);
-        openFile(path, item || null);
-        if (item) {
-          item.scrollIntoView({ block: 'nearest' });
-        }
+        // サイドバーの同期・history への登録は openWikiSlug → openFile が行う
+        openWikiSlug(slugMd.replace(/\.md$/, ''));
       });
     });
   }
@@ -721,24 +1205,28 @@
     return base;
   }
 
+  function createFileItem(file, dir, i, onSelect) {
+    const item = document.createElement('div');
+    item.className = 'file-item';
+    const label = formatLabel(dir, file.name);
+    if (file.matchCount != null) {
+      item.innerHTML = `<span>${label}</span><span style="font-size:0.75rem;background:#f59e0b;color:#1a1a2e;border-radius:10px;padding:1px 7px;margin-left:auto;flex-shrink:0;">${file.matchCount}</span>`;
+      item.style.display = 'flex';
+      item.style.alignItems = 'center';
+      item.style.gap = '6px';
+    } else {
+      item.textContent = label;
+    }
+    item.title = file.name.replace('.md', '');
+    item.dataset.path = file.path;
+    item.onclick = () => onSelect(file.path, item, i);
+    return item;
+  }
+
   function buildItems(files, dir, container, onSelect) {
     container.innerHTML = '';
     files.forEach((file, i) => {
-      const item = document.createElement('div');
-      item.className = 'file-item';
-      const label = formatLabel(dir, file.name);
-      if (file.matchCount != null) {
-        item.innerHTML = `<span>${label}</span><span style="font-size:0.75rem;background:#f59e0b;color:#1a1a2e;border-radius:10px;padding:1px 7px;margin-left:auto;flex-shrink:0;">${file.matchCount}</span>`;
-        item.style.display = 'flex';
-        item.style.alignItems = 'center';
-        item.style.gap = '6px';
-      } else {
-        item.textContent = label;
-      }
-      item.title = file.name.replace('.md', '');
-      item.dataset.path = file.path;
-      item.onclick = () => onSelect(file.path, item, i);
-      container.appendChild(item);
+      container.appendChild(createFileItem(file, dir, i, onSelect));
     });
   }
 
@@ -751,9 +1239,25 @@
     nav.classList.add('visible');
 
     const select = document.getElementById('mobile-select');
-    select.innerHTML = files.map((f, i) =>
-      `<option value="${i}"${i === idx ? ' selected' : ''}>${formatLabel(currentTab, f.name)}</option>`
-    ).join('');
+    if (currentTab === 'wiki') {
+      // Wiki: カテゴリごとに <optgroup> でまとめる（files の並び順はそのまま。value は index）
+      let html = '', openGroup = null;
+      files.forEach((f, i) => {
+        const g = f.group || null;
+        if (g !== openGroup) {
+          if (openGroup) html += '</optgroup>';
+          if (g) html += `<optgroup label="${escapeHtml(g)}">`;
+          openGroup = g;
+        }
+        html += `<option value="${i}"${i === idx ? ' selected' : ''}>${escapeHtml(formatLabel('wiki', f.name))}</option>`;
+      });
+      if (openGroup) html += '</optgroup>';
+      select.innerHTML = html;
+    } else {
+      select.innerHTML = files.map((f, i) =>
+        `<option value="${i}"${i === idx ? ' selected' : ''}>${formatLabel(currentTab, f.name)}</option>`
+      ).join('');
+    }
 
     const prevBtn = document.getElementById('nav-prev');
     const nextBtn = document.getElementById('nav-next');
@@ -771,8 +1275,10 @@
     currentFileIndex = newIdx;
     const file = allFiles[newIdx];
     updateMobileNav(allFiles, currentFileIndex);
-    document.querySelectorAll('#file-list .file-item').forEach((item, i) => {
-      item.classList.toggle('active', i === newIdx);
+    // index ではなく data-path 一致で active を切り替える
+    // （Wiki タブはグラフ項目・グループ化により DOM 順と allFiles の index が一致しないため）
+    document.querySelectorAll('#file-list .file-item').forEach(item => {
+      item.classList.toggle('active', item.dataset.path === file.path);
     });
     openFile(file.path, null);
   }
@@ -790,6 +1296,16 @@
     lastScrollY = 0;
     currentSearchQuery = '';
     localStorage.setItem('lastTab', dir);
+
+    // Wiki 以外のタブでは hash を付けない（Wiki のハッシュルーティング状態も破棄）
+    if (dir !== 'wiki') {
+      wikiHistoryIdx = 0; wikiHistoryMax = 0; wikiScrollByIdx = {}; wikiCurrentPath = null;
+      if (location.hash) {
+        try { history.replaceState(null, '', location.pathname + location.search); } catch (e) { /* noop */ }
+      }
+    }
+    wikiFilterActive = false;
+    document.getElementById('file-list').classList.toggle('wiki', dir === 'wiki');
 
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     if (btn) btn.classList.add('active');
@@ -863,29 +1379,72 @@
     }
 
     if (dir === 'wiki') {
-      // index.md からタイトルマップを構築
+      // index.md からタイトルマップ・更新日マップを構築
       try {
         const idxContent = await fetchContent('ideas/wiki/index.md');
         wikiTitleMap = {};
+        wikiUpdatedMap = {};
         // テーブルの1列目（タイトル列）のリンクのみ取得。
-        // 「| [タイトル](slug.md) |」の行パターンに限定し、
+        // 「| [タイトル](slug.md) | 登録日 | 更新日 | 概要 |」の行パターンに限定し、
         // 概要列に混入した短いリンクテキストによる上書きを防ぐ。
         for (const line of idxContent.split('\n')) {
           const m = line.match(/^\|\s*\[([^\]]+)\]\(([^)]+\.md)\)/);
-          if (m) wikiTitleMap[m[2]] = m[1];
+          if (!m) continue;
+          wikiTitleMap[m[2]] = m[1];
+          // 残りの列: ['', ' 登録日 ', ' 更新日 ', ' 概要 ', ...]
+          const cols = line.slice(m[0].length).split('|');
+          const updated = (cols[2] || '').trim();
+          if (/^\d{2}\/\d{2}\/\d{2}$/.test(updated)) wikiUpdatedMap[m[2]] = updated;
         }
       } catch(e) { /* タイトルマップ取得失敗時はスラッグ表示にフォールバック */ }
-      // index.md → log.md → 残りをアルファベット順
+      // グラフ（カテゴリ・タグ）。取得失敗時は全ページ「その他」扱い
+      try { await loadWikiGraph(); } catch(e) { /* グラフ無しでも一覧は出す */ }
+      files.forEach(f => {
+        const slug = f.name.replace(/\.md$/, '');
+        const node = wikiNodeMap[slug];
+        if (f.name === 'index.md' || f.name === 'log.md') {
+          f.group = null;
+        } else {
+          f.group = (node && WIKI_CATEGORIES.includes(node.group)) ? node.group : 'その他';
+        }
+        f.tags = (node && Array.isArray(node.tags)) ? node.tags : [];
+      });
+      // index.md → log.md → カテゴリ順 → 更新日の新しい順 → タイトル順
+      // （allFiles の並び ＝ サイドバーの DOM 出現順。navigateFile / モバイル select が対応付けに使う）
       const order = {'index.md': 0, 'log.md': 1};
+      const catOrder = {};
+      WIKI_CATEGORIES.forEach((c, i) => { catOrder[c] = i; });
       files.sort((a, b) => {
         const oa = order[a.name] ?? 2, ob = order[b.name] ?? 2;
         if (oa !== ob) return oa - ob;
-        return a.name > b.name ? 1 : -1;
+        const ca = catOrder[a.group] ?? 99, cb = catOrder[b.group] ?? 99;
+        if (ca !== cb) return ca - cb;
+        const ua = wikiUpdatedMap[a.name] || '', ub = wikiUpdatedMap[b.name] || '';
+        if (ua !== ub) return ua < ub ? 1 : -1;   // 'yy/mm/dd' は文字列比較で時系列順
+        const ta = formatLabel('wiki', a.name), tb = formatLabel('wiki', b.name);
+        return ta.localeCompare(tb, 'ja');
       });
     } else {
       files.sort((a, b) => b.name > a.name ? 1 : -1);
     }
     allFiles = files;
+
+    if (dir === 'wiki') {
+      renderWikiSidebar(listEl);
+      currentFileIndex = 0;
+      updateMobileNav(files, 0);
+      // 初期表示: location.hash が #wiki/<slug> ならそのページ、無ければ index.md
+      const initSlug = wikiSlugFromHash();
+      const items = [...listEl.querySelectorAll('.file-item')];
+      const findItem = slug => items.find(el => el.dataset.path === `ideas/wiki/${slug}.md`) || null;
+      if (initSlug === WIKI_GRAPH_SLUG) {
+        openWikiSlug(WIKI_GRAPH_SLUG);
+      } else {
+        const target = (initSlug && findItem(initSlug)) || findItem('index') || items.find(el => el.dataset.path);
+        if (target) target.click();
+      }
+      return;
+    }
 
     buildItems(files, dir, listEl, (path, item, idx) => {
       currentFileIndex = idx;
@@ -895,27 +1454,9 @@
       openFile(path, item);
     });
 
-    // wikiタブの場合: グラフアイテムを先頭に追加
-    if (dir === 'wiki') {
-      const graphItem = document.createElement('div');
-      graphItem.className = 'file-item';
-      graphItem.style.cssText = 'display:flex;align-items:center;gap:6px;';
-      graphItem.innerHTML = '<span>🕸</span><span>グラフ</span>';
-      graphItem.addEventListener('click', () => {
-        document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
-        graphItem.classList.add('active');
-        renderWikiGraph();
-      });
-      listEl.insertBefore(graphItem, listEl.firstChild);
-      // セパレーター
-      const sep = document.createElement('div');
-      sep.style.cssText = 'height:1px;background:#e0e0e0;margin:4px 8px;';
-      listEl.insertBefore(sep, listEl.children[1]);
-    }
-
     currentFileIndex = 0;
     updateMobileNav(files, 0);
-    listEl.children[dir === 'wiki' ? 2 : 0].click();
+    listEl.children[0].click();
   }
 
   function renderFileList(files) {
@@ -924,6 +1465,16 @@
       listEl.innerHTML = '<div class="file-item empty">該当なし</div>';
       document.getElementById('mobile-nav').classList.remove('visible');
       document.getElementById('content-area').innerHTML = '<div class="placeholder"><p>検索結果がありません</p></div>';
+      return;
+    }
+    // Wiki タブで全件表示に戻す（resetSearch）ときはカテゴリ別グループ表示を再構築する。
+    // 検索結果（doSearch のコピー配列）は従来どおりフラット表示
+    if (currentTab === 'wiki' && files === allFiles) {
+      renderWikiSidebar(listEl);
+      currentFileIndex = 0;
+      updateMobileNav(files, 0);
+      const first = [...listEl.querySelectorAll('.file-item')].find(el => el.dataset.path);
+      if (first) first.click();
       return;
     }
     buildItems(files, currentTab, listEl, (path, item, idx) => {
@@ -983,7 +1534,9 @@
     }
 
     document.getElementById('search-count').textContent = `${filtered.length}件`;
-    renderFileList(filtered);
+    // 条件が空なら allFiles そのものを渡す（Wiki タブはカテゴリ別グループ表示を維持する）
+    const noFilter = !textQuery && !(DATE_FILTER_TABS.includes(dir) && (dateFrom || dateTo));
+    renderFileList(noFilter ? allFiles : filtered);
   }
 
   function resetSearch() {
@@ -1228,6 +1781,16 @@
   async function openFile(path, itemEl) {
     const contentEl = document.getElementById('content-area');
 
+    // Wiki タブ: 遷移前に現在エントリの scrollTop を保存し、新ページを history に積む
+    const isWiki = currentTab === 'wiki' && path.startsWith('ideas/wiki/');
+    const wikiSlug = isWiki ? wikiSlugFromPath(path) : null;
+    if (isWiki) {
+      wikiRecordNavigation(wikiSlug, contentEl.scrollTop);
+      wikiCurrentPath = path;
+    }
+    // Wiki はツールバーを content-area の最上部に sticky で貼るため padding を内側の wrap に移す
+    contentEl.style.padding = isWiki ? '0' : '';
+
     if (itemEl) {
       document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
       itemEl.classList.add('active');
@@ -1243,9 +1806,43 @@
       return;
     }
 
+    // Wiki: front matter（category / tags）を本文から除去してから描画
+    let wikiMeta = {};
+    if (isWiki) {
+      const fm = splitFrontMatter(text);
+      text = fm.body;
+      wikiMeta = fm.meta;
+    }
+
     let rendered = marked.parse(text);
     if (currentTab === 'news') rendered = renderNewsContent(rendered);
-    contentEl.innerHTML = `<div class="markdown-body">${rendered}</div>`;
+    if (isWiki) {
+      const isSpecial = wikiSlug === 'index' || wikiSlug === 'log';
+      // メタ表示に graph が要る。未取得なら試み、失敗しても本文表示は続ける
+      if (!wikiGraphCache) { try { await loadWikiGraph(); } catch (e) { /* メタ無しで表示 */ } }
+      const node = wikiNodeMap[wikiSlug];
+      const fileEntry = allFiles.find(f => f.path === path);
+      // カテゴリ: front matter → graph の group → サイドバーの分類（graph に無いページは「その他」）
+      const category = isSpecial ? null
+        : (wikiMeta.category || (node && node.group) || (fileEntry && fileEntry.group) || null);
+      contentEl.innerHTML = '';
+      contentEl.appendChild(buildWikiToolbar(category));
+      const wrap = document.createElement('div');
+      wrap.className = 'wiki-body-wrap';
+      if (!isSpecial) {
+        let metaEl = null;
+        try { metaEl = buildWikiMeta(wikiSlug, { ...wikiMeta, category }); } catch (e) { metaEl = null; }
+        if (metaEl) wrap.appendChild(metaEl);
+      }
+      const body = document.createElement('div');
+      body.className = 'markdown-body';
+      body.innerHTML = rendered;
+      wrap.appendChild(body);
+      contentEl.appendChild(wrap);
+      updateWikiToolbar();
+    } else {
+      contentEl.innerHTML = `<div class="markdown-body">${rendered}</div>`;
+    }
     resolveRelativeImages(contentEl, path);
     makeExternalLinksNewTab(contentEl);
     if (currentTab === 'wiki') makeWikiLinksInternal(contentEl);
@@ -1328,6 +1925,8 @@
     const el = document.getElementById('content-area');
     const scrollTop = el.scrollTop;
     document.getElementById('scroll-top').classList.toggle('visible', scrollTop > 300);
+    // Wiki: 戻る/進むでスクロール位置を復元するため現在エントリの位置を記憶
+    if (currentTab === 'wiki') wikiScrollByIdx[wikiHistoryIdx] = scrollTop;
 
     if (isMobile()) {
       const maxScroll = el.scrollHeight - el.clientHeight;
@@ -1520,8 +2119,8 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  // 初期表示（最後のタブを復元）
-  const savedTab = localStorage.getItem('lastTab') || 'daily';
+  // 初期表示（最後のタブを復元。URL が #wiki/<slug> なら保存タブに関係なく Wiki を開く）
+  const savedTab = wikiSlugFromHash() ? 'wiki' : (localStorage.getItem('lastTab') || 'daily');
   const tabBtn = document.querySelector(`.tab-btn[onclick*="'${savedTab}'"]`);
   switchTab(savedTab, tabBtn);
 </script>

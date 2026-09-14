@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Hook設計, SessionEnd, PreCompact, PreToolUse, 運用自動化]
+---
+
 # Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法
 
 ## 概要

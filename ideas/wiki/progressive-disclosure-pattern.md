@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Skill System, トークン効率化, システム設計, AIアーキテクチャ, プロンプト設計]
+---
+
 # Progressive Disclosure パターン：段階的情報開示による効率化
 
 ## 概要

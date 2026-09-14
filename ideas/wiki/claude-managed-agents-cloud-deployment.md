@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [クラウドデプロイ, 運用自動化, インフラ管理]
+---
+
 # Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント
 
 ## 概要

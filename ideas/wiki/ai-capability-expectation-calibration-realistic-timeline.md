@@ -1,4 +1,8 @@
-```markdown
+---
+category: AI戦略・社会
+tags: [AI導入, AGI, 時間軸, 期待値調整, ロードマップ]
+---
+
 # AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ
 
 ## 概要
@@ -141,4 +145,3 @@ Karpathyの「10年以上」という見通しは、単なる推測ではなく�
 ## 更新履歴
 
 - 2026-05-04: [Andrej Karpathy — "We're summoning ghosts, not building animals"](https://www.youtube.com/watch?v=lXUZvyajciY) をソースに初版作成
-```

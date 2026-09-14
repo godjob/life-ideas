@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [長期記憶, CLAUDE.md, 自動化, システム設計, ナレッジベース]
+---
+
 # Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン
 
 ## 概要

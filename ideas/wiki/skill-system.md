@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Skill System, プロンプト設計, 自動化, ナレッジベース, 業務効率化]
+---
+
 # Skill System：フォルダ単位のClaudeへの命令セット
 
 ## 概要

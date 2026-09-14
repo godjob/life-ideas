@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Skill System, 状態管理, SQLite, 自己参照型ワークフロー, メモリ層]
+---
+
 # Skillのメモリアーキテクチャ：SQLite/JSONによる状態管理と自己参照型ワークフロー自動化
 
 ## 概要

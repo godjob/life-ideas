@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Claude Chat, Claude Code, プロンプト最適化, ワークフロー設計, コスト効率化]
+---
+
 # Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計
 
 ## 概要

@@ -1,3 +1,8 @@
+---
+category: AIエージェント設計
+tags: [ハーネスエンジニアリング, 自動改善ループ, Planner, Generator, Evaluator]
+---
+
 # ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン
 
 ## 概要

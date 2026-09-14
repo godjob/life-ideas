@@ -1,3 +1,8 @@
+---
+category: 個人OS・知識管理
+tags: [ライフシステム, 知識管理, 自動化, 自己定量化, AI協働]
+---
+
 # lifeリポジトリの進化：GitHubからMarkdown + Claude Codeへ
 
 ## 概要

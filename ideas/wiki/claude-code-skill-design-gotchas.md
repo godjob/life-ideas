@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [スキル設計, Gotchas, プロンプトテンプレート, Claude Code, 信頼性確保]
+---
+
 # Claude Code Skill設計の落とし穴：Gotchasセクションの重要性と失敗から学ぶ設計知見
 
 ## 概要

@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [CLAUDE.md, Hook, 自動化, 継続的改善, 長期記憶]
+---
+
 # CLAUDE.md自動育成：Hook機械化と無限ループ対策
 
 ## 概要

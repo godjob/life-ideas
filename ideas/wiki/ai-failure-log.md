@@ -1,3 +1,8 @@
+---
+category: AIエージェント設計
+tags: [失敗ログ, プロンプト改善, 高速反復, Skill System, CLAUDE.md]
+---
+
 # AIエージェント失敗ログと修正ナレッジ
 
 ## 概要

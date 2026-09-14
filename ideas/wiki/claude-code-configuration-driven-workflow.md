@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [CLAUDE.md, 自動化, 保守業務, コスト最適化, 権限管理]
+---
+
 # Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化
 
 ## 概要

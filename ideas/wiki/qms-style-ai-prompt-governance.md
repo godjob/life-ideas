@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [QMS, CLAUDE.md, プロンプト統治, 権限管理, 並列実行]
+---
+
 # QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用
 
 ## 概要

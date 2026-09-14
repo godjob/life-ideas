@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Skill開発, 自動レビュー, 品質管理, 継続的改善]
+---
+
 # skill-creator スキル：Skill設計・レビュー・改善の自動化
 
 ## 概要

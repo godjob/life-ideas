@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [MCP Tunnels, オンプレミスAI, セキュリティ]
+---
+
 # Claude Managed Agents：Self-hosted SandboxesとMCP Tunnels
 
 ## 概要

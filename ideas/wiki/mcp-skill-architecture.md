@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [MCP, Skill System, ワークフロー自動化, ツール連携, ドキュメント変換]
+---
+
 # MCPとSkillの役割分担：ツール連携とワークフロー設計
 
 ## 概要

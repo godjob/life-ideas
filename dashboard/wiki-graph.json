@@ -3,1652 +3,3563 @@
     {
       "id": "accounting-ai-domain-application",
       "label": "税務会計領域のAI活用：仕訳自動化と除外ルール設計の実例",
-      "group": "資産・投資",
-      "value": 3
+      "group": "ビジネス・組織",
+      "value": 3,
+      "tags": [
+        "税務会計",
+        "自動仕訳",
+        "業務削減",
+        "ROI",
+        "ドメイン知識"
+      ]
     },
     {
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
-      "group": "その他",
-      "value": 9
+      "group": "AI戦略・社会",
+      "value": 9,
+      "tags": [
+        "国家安全保障",
+        "デジタル赤字",
+        "計算能力",
+        "エネルギー生産力",
+        "国際競争力"
+      ]
     },
     {
       "id": "agent-harness-reliability-framework",
       "label": "エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤",
       "group": "AIエージェント設計",
-      "value": 42
+      "value": 42,
+      "tags": [
+        "誤り蓄積対策",
+        "信頼性確保",
+        "運用監視",
+        "長期連続運用"
+      ]
     },
     {
       "id": "agentic-engineering-supervisor-model",
       "label": "Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト",
       "group": "AIエージェント設計",
-      "value": 36
+      "value": 36,
+      "tags": [
+        "監督者モデル",
+        "ハーネスエンジニアリング",
+        "検証プロセス",
+        "自律開発",
+        "品質保証"
+      ]
     },
     {
       "id": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "label": "AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題",
-      "group": "その他",
-      "value": 10
+      "group": "AIエージェント設計",
+      "value": 10,
+      "tags": [
+        "AGI",
+        "継続学習",
+        "長期推論",
+        "記憶能力",
+        "AIアーキテクチャ"
+      ]
     },
     {
       "id": "agi-societal-impact-responsible-development",
       "label": "AGIの社会的影響と責任ある開発",
-      "group": "その他",
-      "value": 3
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "AGI",
+        "社会的影響",
+        "責任ある開発",
+        "労働市場",
+        "キャリアパス"
+      ]
     },
     {
       "id": "ai-accelerated-business-transformation-agency",
       "label": "AIによるビジネス変革加速：広告代理店における少人数・高成長モデル",
-      "group": "その他",
-      "value": 5
+      "group": "ビジネス・組織",
+      "value": 5,
+      "tags": [
+        "AI導入",
+        "組織変革",
+        "生産性向上",
+        "ビジネスモデル",
+        "広告代理店"
+      ]
     },
     {
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
       "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
-      "group": "その他",
-      "value": 23
+      "group": "AI戦略・社会",
+      "value": 23,
+      "tags": [
+        "AI導入遅延",
+        "生産性格差",
+        "競争劣位化",
+        "ASIエコノミー",
+        "組織変革"
+      ]
     },
     {
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
-      "group": "その他",
-      "value": 53
+      "group": "ビジネス・組織",
+      "value": 53,
+      "tags": [
+        "AI導入",
+        "組織変革",
+        "心理的障壁",
+        "成功体験",
+        "リーダーシップ"
+      ]
     },
     {
       "id": "ai-agent-boom-end-human-core-strength",
       "label": "AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ",
-      "group": "AIエージェント設計",
-      "value": 3
+      "group": "キャリア・働き方",
+      "value": 3,
+      "tags": [
+        "運用負荷",
+        "セキュリティ",
+        "ガバナンス",
+        "キャリア形成",
+        "アンラーン"
+      ]
     },
     {
       "id": "ai-agent-cli-automation-pattern",
       "label": "AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン",
       "group": "AIエージェント設計",
-      "value": 23
+      "value": 23,
+      "tags": [
+        "運用自動化",
+        "システム管理",
+        "セキュリティ",
+        "権限管理",
+        "継続的改善"
+      ]
     },
     {
       "id": "ai-agent-governance-human-criteria",
       "label": "AIエージェント組織のガバナンスと人間による選別基準設計",
       "group": "AIエージェント設計",
-      "value": 8
+      "value": 8,
+      "tags": [
+        "ガバナンス",
+        "組織設計",
+        "選別基準",
+        "運用負荷",
+        "パイプライン"
+      ]
     },
     {
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
-      "group": "AIエージェント設計",
-      "value": 43
+      "group": "製造業・業務DX",
+      "value": 43,
+      "tags": [
+        "運用自動化",
+        "サプライチェーン",
+        "品質管理",
+        "在庫管理",
+        "AI導入"
+      ]
     },
     {
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 20
+      "value": 20,
+      "tags": [
+        "最小権限原則",
+        "エアギャップ",
+        "セキュリティ",
+        "権限管理",
+        "監査ログ"
+      ]
     },
     {
       "id": "ai-agent-quality-deep-insight-human-role",
       "label": "AIエージェント時代における品質と深い洞察：人間の役割と専門知識の価値",
-      "group": "AIエージェント設計",
-      "value": 4
+      "group": "キャリア・働き方",
+      "value": 4,
+      "tags": [
+        "ドメイン知識",
+        "価値創造",
+        "AI活用",
+        "メタスキル",
+        "業務フロー再設計"
+      ]
     },
     {
       "id": "ai-agent-token-metrics-career-leverage",
       "label": "AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築",
-      "group": "AIエージェント設計",
-      "value": 14
+      "group": "キャリア・働き方",
+      "value": 14,
+      "tags": [
+        "AIエージェント運用",
+        "定量評価",
+        "昇進交渉",
+        "コスト削減",
+        "トークン最適化"
+      ]
     },
     {
       "id": "ai-as-infinite-subordinate-management",
       "label": "無限に働く部下としてのAI：活用と管理の原則",
-      "group": "その他",
-      "value": 7
+      "group": "キャリア・働き方",
+      "value": 7,
+      "tags": [
+        "AI活用",
+        "メタスキル",
+        "生産性向上",
+        "自己学習",
+        "業務効率化"
+      ]
     },
     {
       "id": "ai-as-scientific-instrument-verification-loop",
       "label": "科学的ツールとしてのAI：継続的検証ループと予期リスク早期発見",
-      "group": "その他",
-      "value": 12
+      "group": "AIエージェント設計",
+      "value": 12,
+      "tags": [
+        "信頼性確保",
+        "リスク管理",
+        "継続的改善",
+        "因果推論",
+        "ガバナンス"
+      ]
     },
     {
       "id": "ai-assisted-system-building-non-programmers",
       "label": "プログラミング経験なしのAIによるシステム構築",
-      "group": "その他",
-      "value": 4
+      "group": "プロンプト・AI活用",
+      "value": 4,
+      "tags": [
+        "非エンジニア",
+        "システム開発",
+        "プロンプト設計",
+        "業務自動化",
+        "DX"
+      ]
     },
     {
       "id": "ai-automation-system-admin-differentiation-strategy",
       "label": "システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応",
-      "group": "その他",
-      "value": 9
+      "group": "AI戦略・社会",
+      "value": 9,
+      "tags": [
+        "システム管理",
+        "自動化",
+        "差別化戦略",
+        "セキュリティ",
+        "宇宙サイバー脅威"
+      ]
     },
     {
       "id": "ai-autonomous-weapons-surveillance-state-governance",
       "label": "自律兵器と監視社会化：AI軍事転用とシステム監視の民主的ガバナンス枠組み",
       "group": "AI戦略・社会",
-      "value": 3
+      "value": 3,
+      "tags": [
+        "自律兵器",
+        "監視社会",
+        "民主的ガバナンス",
+        "国際条約",
+        "労働市場"
+      ]
     },
     {
       "id": "ai-board-decision-making",
       "label": "AI取締役会による意思決定：複数モデルの意見統合と人間判断",
-      "group": "AI戦略・社会",
-      "value": 6
+      "group": "ビジネス・組織",
+      "value": 6,
+      "tags": [
+        "意思決定",
+        "経営判断",
+        "AI導入",
+        "組織変革",
+        "マルチモデル"
+      ]
     },
     {
       "id": "ai-book-authoring-acceleration-pattern",
       "label": "AI書籍執筆加速パターン：Claude Codeによる1ヶ月半完成メカニズムと知識資産化戦略",
-      "group": "その他",
-      "value": 5
+      "group": "AIエージェント設計",
+      "value": 5,
+      "tags": [
+        "執筆自動化",
+        "知識資産化",
+        "並列実行",
+        "品質検証",
+        "AI監督者"
+      ]
     },
     {
       "id": "ai-bubble-sustainability-strategy",
       "label": "AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "AIバブル",
+        "本質的価値",
+        "持続可能性",
+        "生産性格差",
+        "個人生存戦略"
+      ]
     },
     {
       "id": "ai-budget-management-roi-optimization",
       "label": "AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化",
       "group": "技術実装・エンジニアリング",
-      "value": 26
+      "value": 26,
+      "tags": [
+        "コスト最適化",
+        "プロンプト最適化",
+        "ハイブリッド運用",
+        "モデル選択",
+        "運用効率化"
+      ]
     },
     {
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
-      "group": "AI戦略・社会",
-      "value": 9
+      "group": "ビジネス・組織",
+      "value": 9,
+      "tags": [
+        "AI導入",
+        "ビジネス戦略",
+        "システム設計",
+        "経営判断",
+        "組織変革"
+      ]
     },
     {
       "id": "ai-capability-expectation-calibration-realistic-timeline",
       "label": "AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ",
       "group": "AI戦略・社会",
-      "value": 3
+      "value": 3,
+      "tags": [
+        "AI導入",
+        "AGI",
+        "時間軸",
+        "期待値調整",
+        "ロードマップ"
+      ]
     },
     {
       "id": "ai-capability-threshold-disclosure-strategy",
       "label": "AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク",
       "group": "AI戦略・社会",
-      "value": 5
+      "value": 5,
+      "tags": [
+        "リスク管理",
+        "ガバナンス",
+        "セキュリティ",
+        "AI導入",
+        "信頼性確保"
+      ]
     },
     {
       "id": "ai-career",
       "label": "AGIの社会的影響と責任ある開発",
-      "group": "その他",
-      "value": 1
+      "group": "AI戦略・社会",
+      "value": 1,
+      "tags": [
+        "AGI",
+        "社会的影響",
+        "倫理",
+        "ガバナンス",
+        "労働市場"
+      ]
     },
     {
       "id": "ai-ceo-delegation-protocol",
       "label": "AI CEO委任プロトコル：経営方針記述による判断委任とルール資産化",
-      "group": "AI戦略・社会",
-      "value": 10
+      "group": "ビジネス・組織",
+      "value": 10,
+      "tags": [
+        "AIガバナンス",
+        "意思決定",
+        "組織変革",
+        "継続的改善",
+        "ルール資産"
+      ]
     },
     {
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
-      "group": "その他",
-      "value": 5
+      "group": "健康・習慣",
+      "value": 5,
+      "tags": [
+        "AIコーチング",
+        "ウェアラブル",
+        "因果推論",
+        "パフォーマンス向上",
+        "健康管理"
+      ]
     },
     {
       "id": "ai-content-pipeline-differentiation",
       "label": "AIコンテンツ生成パイプラインの差別化戦略",
-      "group": "その他",
-      "value": 4
+      "group": "AIエージェント設計",
+      "value": 4,
+      "tags": [
+        "コンテンツ生成",
+        "差別化戦略",
+        "ハーネスエンジニアリング",
+        "システムアーキテクチャ",
+        "LLMインフラ"
+      ]
     },
     {
       "id": "ai-content-quality-vs-quantity-value",
       "label": "AI生成コンテンツにおける品質と量の価値：水増し長文の無意味化",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "AIコンテンツ",
+        "品質価値",
+        "情報洪水",
+        "ドメイン専門知識",
+        "クオリティエコノミー"
+      ]
     },
     {
       "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
-      "group": "その他",
-      "value": 18
+      "group": "AIエージェント設計",
+      "value": 18,
+      "tags": [
+        "AGI",
+        "創造性",
+        "自己内省",
+        "問題解決",
+        "長期推論"
+      ]
     },
     {
       "id": "ai-data-center-energy-demand-strategy",
       "label": "AIデータセンターとエネルギー需要：電力消費量増大への対応戦略",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "ASIエコノミー",
+        "電力消費量",
+        "データセンター",
+        "エネルギー政策",
+        "GPUインフラ"
+      ]
     },
     {
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 18
+      "value": 18,
+      "tags": [
+        "AI民主化",
+        "ソロプレナーシップ",
+        "生産性格差",
+        "イノベーション",
+        "競争戦略"
+      ]
     },
     {
       "id": "ai-driven-development-cto-perspective",
       "label": "AI駆動開発：CTOに聞くエンジニアの未来と開発サイクル変革",
-      "group": "その他",
-      "value": 4
+      "group": "キャリア・働き方",
+      "value": 4,
+      "tags": [
+        "AI駆動開発",
+        "エンジニアの役割",
+        "開発サイクル",
+        "スキルシフト",
+        "創造性"
+      ]
     },
     {
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
-      "group": "その他",
-      "value": 29
+      "group": "ビジネス・組織",
+      "value": 29,
+      "tags": [
+        "業務フロー再設計",
+        "組織変革",
+        "AI導入",
+        "ビジネスモデル変革",
+        "生産性向上"
+      ]
     },
     {
       "id": "ai-ecosystem-orchestration-strategy",
       "label": "AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "AIエコシステム",
+        "複数モデル",
+        "ビジネス戦略",
+        "価値創造",
+        "ガバナンス"
+      ]
     },
     {
       "id": "ai-email-native-interface-system-integration",
       "label": "AIメールネイティブインターフェース：既存システム連携による業務自動化の統一入口",
-      "group": "その他",
-      "value": 4
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "メールネイティブ",
+        "レガシーシステム連携",
+        "業務自動化",
+        "導入障壁",
+        "工場DX"
+      ]
     },
     {
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
-      "group": "その他",
-      "value": 23
+      "group": "キャリア・働き方",
+      "value": 23,
+      "tags": [
+        "AIスキル",
+        "学習ロードマップ",
+        "実装経験",
+        "職能シフト",
+        "エッジAI"
+      ]
     },
     {
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
-      "group": "AI戦略・社会",
-      "value": 36
+      "group": "キャリア・働き方",
+      "value": 36,
+      "tags": [
+        "AI時代の働き方",
+        "自動化",
+        "長時間労働",
+        "生産性向上",
+        "メタスキル"
+      ]
     },
     {
       "id": "ai-everywhere-device-integration",
       "label": "AI Everywhere: デバイスレベルAI統合のロードマップ",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "エッジAI",
+        "AIエージェント",
+        "半導体市場",
+        "デバイス統合",
+        "NANDフラッシュ"
+      ]
     },
     {
       "id": "ai-expert-ensemble-prompting",
       "label": "AI専門家アンサンブル・プロンプティング：複数視点の合意形成分析",
       "group": "プロンプト・AI活用",
-      "value": 9
+      "value": 9,
+      "tags": [
+        "アンサンブルプロンプト",
+        "合意形成",
+        "複数視点",
+        "意思決定",
+        "専門家ペルソナ"
+      ]
     },
     {
       "id": "ai-failure-log",
       "label": "AIエージェント失敗ログと修正ナレッジ",
-      "group": "AI戦略・社会",
-      "value": 26
+      "group": "AIエージェント設計",
+      "value": 26,
+      "tags": [
+        "失敗ログ",
+        "プロンプト改善",
+        "高速反復",
+        "Skill System",
+        "CLAUDE.md"
+      ]
     },
     {
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
-      "group": "AI戦略・社会",
-      "value": 19
+      "group": "ビジネス・組織",
+      "value": 19,
+      "tags": [
+        "AI疲れ",
+        "判断負荷",
+        "組織設計",
+        "人材育成",
+        "オンボーディング"
+      ]
     },
     {
       "id": "ai-first-strategy-enterprise-adoption",
       "label": "AI First戦略：エンタープライズ領域への深い統合と10年の進化",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "AI導入",
+        "ビジネス戦略",
+        "組織変革",
+        "競争優位性",
+        "エコシステム"
+      ]
     },
     {
       "id": "ai-frontier-diffusion-control",
       "label": "AIフロンティア技術の普及と制御：エコシステム戦略",
-      "group": "その他",
-      "value": 4
+      "group": "AIエージェント設計",
+      "value": 4,
+      "tags": [
+        "AIエコシステム",
+        "ハーネスエンジニアリング",
+        "ユーザー中心設計",
+        "信頼性確保",
+        "AIガバナンス"
+      ]
     },
     {
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
-      "group": "その他",
-      "value": 15
+      "group": "ビジネス・組織",
+      "value": 15,
+      "tags": [
+        "AIガバナンス",
+        "リスク管理",
+        "業務フロー再設計",
+        "組織変革",
+        "AI導入"
+      ]
     },
     {
       "id": "ai-human-coexistence-risk-management",
       "label": "AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "AI依存",
+        "セキュリティリスク",
+        "制御リスク",
+        "国際競争力",
+        "適切な距離感"
+      ]
     },
     {
       "id": "ai-hyper-performer-mindset",
       "label": "AIハイパフォーマーの思考法とマインドセット",
-      "group": "その他",
-      "value": 6
+      "group": "キャリア・働き方",
+      "value": 6,
+      "tags": [
+        "AIハイパフォーマー",
+        "メタスキル",
+        "アイデンティティ変革",
+        "凡事徹底",
+        "情報処理効率化"
+      ]
     },
     {
       "id": "ai-implicit-assumption-discovery",
       "label": "AIによる暗黙の前提・未知の課題発見：対話型顕在化プロセス",
-      "group": "その他",
-      "value": 5
+      "group": "プロンプト・AI活用",
+      "value": 5,
+      "tags": [
+        "暗黙の前提",
+        "未知の課題",
+        "対話型AI",
+        "業務改善",
+        "イノベーション"
+      ]
     },
     {
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
-      "group": "その他",
-      "value": 11
+      "group": "AI戦略・社会",
+      "value": 11,
+      "tags": [
+        "AI投資",
+        "国際比較",
+        "金融政策",
+        "資産運用",
+        "生産性格差"
+      ]
     },
     {
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 12
+      "value": 12,
+      "tags": [
+        "労働市場",
+        "資本戦略",
+        "垂直統合",
+        "キャリア戦略",
+        "ドメイン知識"
+      ]
     },
     {
       "id": "ai-labor-policy-governance-framework",
       "label": "AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止",
       "group": "AI戦略・社会",
-      "value": 12
+      "value": 12,
+      "tags": [
+        "AIガバナンス",
+        "規制キャプチャ",
+        "労働政策",
+        "民主的意思決定",
+        "効率配当制度"
+      ]
     },
     {
       "id": "ai-leader-values-philosophy-reliability-foundation",
       "label": "AIリーダーの価値観と哲学：システム信頼性の基盤構築",
-      "group": "AI戦略・社会",
-      "value": 14
+      "group": "ビジネス・組織",
+      "value": 14,
+      "tags": [
+        "リーダーシップ",
+        "信頼性確保",
+        "組織変革",
+        "AIガバナンス",
+        "意思決定"
+      ]
     },
     {
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
-      "group": "その他",
-      "value": 23
+      "group": "AIエージェント設計",
+      "value": 23,
+      "tags": [
+        "信頼性確保",
+        "マネージドサービス",
+        "セキュリティ",
+        "運用自動化",
+        "リスク管理"
+      ]
     },
     {
       "id": "ai-manager-role-transition-code-craftsman",
       "label": "コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計",
       "group": "キャリア・働き方",
-      "value": 11
+      "value": 11,
+      "tags": [
+        "AIマネジャー",
+        "キャリア転換",
+        "ハーネスエンジニアリング",
+        "コンテキスト設計",
+        "市場価値"
+      ]
     },
     {
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
-      "group": "その他",
-      "value": 18
+      "group": "キャリア・働き方",
+      "value": 18,
+      "tags": [
+        "AIマインドセット",
+        "思考と実行",
+        "月次評価",
+        "地力育成",
+        "AI活用"
+      ]
     },
     {
       "id": "ai-model-license-compliance-manufacturing",
       "label": "AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策",
-      "group": "その他",
-      "value": 10
+      "group": "技術実装・エンジニアリング",
+      "value": 10,
+      "tags": [
+        "AIライセンス",
+        "コンプライアンス",
+        "ローカルLLM",
+        "Gemma",
+        "コスト見積もり"
+      ]
     },
     {
       "id": "ai-model-provider-vertical-integration",
       "label": "AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "垂直統合",
+        "ビジネス戦略",
+        "労働市場",
+        "キャリア戦略",
+        "AI導入"
+      ]
     },
     {
       "id": "ai-model-regulation-geopolitics",
       "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
-      "group": "その他",
-      "value": 7
+      "group": "AI戦略・社会",
+      "value": 7,
+      "tags": [
+        "AIモデル規制",
+        "地政学リスク",
+        "国家戦略",
+        "経済安全保障",
+        "オープンソースAI"
+      ]
     },
     {
       "id": "ai-orchestrator-role",
       "label": "AIオーケストレーター：100倍エンジニアの役割",
-      "group": "AIエージェント設計",
-      "value": 29
+      "group": "キャリア・働き方",
+      "value": 29,
+      "tags": [
+        "AIオーケストレーター",
+        "100倍エンジニア",
+        "AIソロプレナー",
+        "生産性向上",
+        "マネジメントスキル"
+      ]
     },
     {
       "id": "ai-personal-branding-influencer-strategy",
       "label": "AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現",
-      "group": "その他",
-      "value": 3
+      "group": "キャリア・働き方",
+      "value": 3,
+      "tags": [
+        "パーソナルブランディング",
+        "インフルエンサー戦略",
+        "自己表現",
+        "アテンションエコノミー",
+        "信頼醸成"
+      ]
     },
     {
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
-      "group": "AI戦略・社会",
-      "value": 8
+      "group": "AIエージェント設計",
+      "value": 8,
+      "tags": [
+        "複雑性直感",
+        "物理世界AI",
+        "シンギュラリティループ",
+        "権限管理",
+        "判断透明性"
+      ]
     },
     {
       "id": "ai-powered-web-production-flow",
       "label": "AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制",
-      "group": "プロンプト・AI活用",
-      "value": 10
+      "group": "技術実装・エンジニアリング",
+      "value": 10,
+      "tags": [
+        "Web制作",
+        "AI駆動開発",
+        "開発フロー",
+        "プロトタイピング",
+        "非エンジニア"
+      ]
     },
     {
       "id": "ai-prompt-engineering-leadership-career",
       "label": "AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略",
-      "group": "プロンプト・AI活用",
-      "value": 6
+      "group": "キャリア・働き方",
+      "value": 6,
+      "tags": [
+        "指示設計",
+        "AIリーダーシップ",
+        "ドメイン知識",
+        "キャリア転換",
+        "組織変革"
+      ]
     },
     {
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
-      "group": "その他",
-      "value": 22
+      "group": "製造業・業務DX",
+      "value": 22,
+      "tags": [
+        "セキュリティ",
+        "リスク管理",
+        "AIガバナンス",
+        "システム設計",
+        "権限管理"
+      ]
     },
     {
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
-      "group": "その他",
-      "value": 20
+      "group": "ビジネス・組織",
+      "value": 20,
+      "tags": [
+        "AIガバナンス",
+        "セキュリティ",
+        "リスク管理",
+        "経営判断",
+        "権限管理"
+      ]
     },
     {
       "id": "ai-self-improvement-development-acceleration",
       "label": "AIによる自己開発と開発プロセスの劇的加速",
-      "group": "その他",
-      "value": 6
+      "group": "AIエージェント設計",
+      "value": 6,
+      "tags": [
+        "AI駆動開発",
+        "自律開発",
+        "開発プロセス",
+        "非エンジニア",
+        "シンギュラリティループ"
+      ]
     },
     {
       "id": "ai-solo-entrepreneurship-impact",
       "label": "AIソロプレナーシップ：個人の能力拡張と起業への影響",
-      "group": "その他",
-      "value": 4
+      "group": "キャリア・働き方",
+      "value": 4,
+      "tags": [
+        "AIソロプレナー",
+        "起業",
+        "能力拡張",
+        "パーソナルブランディング",
+        "非エンジニア"
+      ]
     },
     {
       "id": "ai-staff-roi-maximization",
       "label": "AI社員のROI最大化：月額コストと生み出す価値の最適設計",
-      "group": "その他",
-      "value": 3
+      "group": "ビジネス・組織",
+      "value": 3,
+      "tags": [
+        "ROI最大化",
+        "AI社員",
+        "業務効率化",
+        "コスト削減",
+        "バックオフィス自動化"
+      ]
     },
     {
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 14
+      "value": 14,
+      "tags": [
+        "AIモニタリング",
+        "コスト可視化",
+        "Langfuse",
+        "本番運用",
+        "LLM"
+      ]
     },
     {
       "id": "ai-talent-global-competition-manufacturing",
       "label": "AI人材のグローバル競争と製造業への影響",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "AI人材",
+        "グローバル競争",
+        "製造業",
+        "国際競争力",
+        "労働市場"
+      ]
     },
     {
       "id": "ai-tool-evaluation-monthly-refresh-cycle",
       "label": "AI評価の月次リフレッシュサイクル：指数関数的進化への継続的対応",
-      "group": "その他",
-      "value": 9
+      "group": "キャリア・働き方",
+      "value": 9,
+      "tags": [
+        "AI評価",
+        "継続的改善",
+        "業務効率化",
+        "意思決定",
+        "個人OS"
+      ]
     },
     {
       "id": "ai-transparent-reasoning-governance",
       "label": "AI推論の透明性確保とガバナンス",
-      "group": "その他",
-      "value": 5
+      "group": "AIエージェント設計",
+      "value": 5,
+      "tags": [
+        "AIガバナンス",
+        "透明性",
+        "説明責任",
+        "リスク管理",
+        "信頼性確保"
+      ]
     },
     {
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
-      "group": "その他",
-      "value": 8
+      "group": "キャリア・働き方",
+      "value": 8,
+      "tags": [
+        "理解力",
+        "解像度",
+        "ドメイン知識",
+        "結晶性知能",
+        "人間判断"
+      ]
     },
     {
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 14
+      "value": 14,
+      "tags": [
+        "AI失業危機",
+        "ベーシックインカム",
+        "労働市場",
+        "経済構造転換",
+        "人型ロボット"
+      ]
     },
     {
       "id": "ai-unknowns-identification-strategy",
       "label": "AIとの対話における未知の領域特定戦略：マップとテリトリーの概念",
-      "group": "その他",
-      "value": 5
+      "group": "プロンプト・AI活用",
+      "value": 5,
+      "tags": [
+        "未知の未知",
+        "マップとテリトリー",
+        "前提の疑念",
+        "対話型顕在化",
+        "業務改善"
+      ]
     },
     {
       "id": "ai-workflow-adoption-customer-onsite-support-model",
       "label": "AIワークフロー導入における顧客常駐支援型技術者モデル：実装精度と運用安定性の両立メカニズム",
-      "group": "その他",
-      "value": 10
+      "group": "ビジネス・組織",
+      "value": 10,
+      "tags": [
+        "AI導入",
+        "組織変革",
+        "ドメイン知識",
+        "継続的改善",
+        "FDE"
+      ]
     },
     {
       "id": "aidlc-manufacturing-requirements-definition",
       "label": "AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減",
       "group": "製造業・業務DX",
-      "value": 15
+      "value": 15,
+      "tags": [
+        "要件定義",
+        "AIDLC",
+        "マルチエージェント",
+        "多言語対応",
+        "実装工数削減"
+      ]
     },
     {
       "id": "anthropic-courses",
       "label": "Anthropic Coursesの学習体系と実装",
-      "group": "プロンプト・AI活用",
-      "value": 1
+      "group": "Claude/AI開発ツール",
+      "value": 1,
+      "tags": [
+        "Skill System",
+        "Fable 5",
+        "AIオーケストレーター",
+        "プロトタイピング"
+      ]
     },
     {
       "id": "apple-hardware-first-strategy-ai-inverse-bet",
       "label": "Apple「世紀の逆張り」戦略：AI過剰投資回避とハードウェア重視の経営判断",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "経営判断",
+        "差別化戦略",
+        "AI投資",
+        "ハードウェア",
+        "組織設計"
+      ]
     },
     {
       "id": "approval-workflow-simplification-competitive-advantage",
       "label": "承認フロー簡素化と権限委譲設計：複雑さ排除による組織の自己防御メカニズム",
       "group": "ビジネス・組織",
-      "value": 15
+      "value": 15,
+      "tags": [
+        "承認フロー",
+        "権限委譲",
+        "組織改革",
+        "業務簡素化",
+        "大企業病"
+      ]
     },
     {
       "id": "as-little-ai-as-possible-principle",
       "label": "As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計",
       "group": "技術実装・エンジニアリング",
-      "value": 17
+      "value": 17,
+      "tags": [
+        "システム設計",
+        "AI導入",
+        "コスト最適化",
+        "信頼性確保",
+        "継続的改善"
+      ]
     },
     {
       "id": "asi-economy-societal-transformation",
       "label": "ASIエコノミーと社会変革：2040年を見据えた未来予測",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "ASIエコノミー",
+        "社会変革",
+        "未来予測",
+        "エネルギー需要",
+        "労働市場"
+      ]
     },
     {
       "id": "assumption-reevaluation-cycle-continuous-improvement",
       "label": "仮定の再評価サイクル：ルール削減と継続的改善の運用設計",
-      "group": "その他",
-      "value": 17
+      "group": "ビジネス・組織",
+      "value": 17,
+      "tags": [
+        "継続的改善",
+        "組織変革",
+        "ルール削減",
+        "システム運用",
+        "技術債務"
+      ]
     },
     {
       "id": "automated-content-distribution",
       "label": "自動コンテンツ配信：AIによるPR動画生成とSNS投稿の仕組み",
-      "group": "その他",
-      "value": 10
+      "group": "技術実装・エンジニアリング",
+      "value": 10,
+      "tags": [
+        "自動化",
+        "運用自動化",
+        "プロトタイピング",
+        "システム設計",
+        "コンテンツ生成"
+      ]
     },
     {
       "id": "automation-efficiency-dividend-work-reduction",
       "label": "効率配当制度：自動化削減分の労働者還元と週32時間制の実装",
-      "group": "ビジネス・組織",
-      "value": 11
+      "group": "AI戦略・社会",
+      "value": 11,
+      "tags": [
+        "週32時間制",
+        "労働者還元",
+        "自動化",
+        "働き方改革",
+        "離職防止"
+      ]
     },
     {
       "id": "background-automation-design-competitive-advantage",
       "label": "バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略",
-      "group": "ビジネス・組織",
-      "value": 10
+      "group": "キャリア・働き方",
+      "value": 10,
+      "tags": [
+        "自動化設計",
+        "生産性向上",
+        "キャリア転換",
+        "バックグラウンド思考",
+        "AIエージェント活用"
+      ]
     },
     {
       "id": "backoffice-automation-ai-cowork",
       "label": "バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化",
       "group": "ビジネス・組織",
-      "value": 12
+      "value": 12,
+      "tags": [
+        "バックオフィス自動化",
+        "AI導入",
+        "業務標準化",
+        "AI Cowork",
+        "属人化軽減"
+      ]
     },
     {
       "id": "book-metadata-completion-system",
       "label": "書籍メタデータ補完システム：OpenBD→NDL→Google Booksの3段階フォールバック",
-      "group": "個人OS・知識管理",
-      "value": 4
+      "group": "技術実装・エンジニアリング",
+      "value": 4,
+      "tags": [
+        "メタデータ",
+        "API連携",
+        "フォールバック",
+        "データ統合",
+        "システム設計"
+      ]
     },
     {
       "id": "branch-protection-alternatives-free-tier",
       "label": "GitHub Free プライベートリポジトリのBranch Protection代替：pre-push hook活用",
-      "group": "その他",
-      "value": 1
+      "group": "技術実装・エンジニアリング",
+      "value": 1,
+      "tags": [
+        "Git hooks",
+        "セキュリティ防御",
+        "多層防御",
+        "GitHub Free",
+        "権限管理"
+      ]
     },
     {
       "id": "btc-jpyc-asset-allocation",
       "label": "BTC vs JPYC：円安時代の資産配分戦略",
       "group": "資産・投資",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "暗号資産",
+        "ステーブルコイン",
+        "資産配分",
+        "リスク管理",
+        "円安ヘッジ"
+      ]
     },
     {
       "id": "capability-overhang-user-activation-gap",
       "label": "Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方",
-      "group": "その他",
-      "value": 5
+      "group": "ビジネス・組織",
+      "value": 5,
+      "tags": [
+        "AI導入",
+        "組織変革",
+        "生産性向上",
+        "ビジネス戦略",
+        "AI活用"
+      ]
     },
     {
       "id": "causal-inference-ai-personalized-medicine",
       "label": "因果推論AIによる個別化医療：ハイベネフィットアプローチと適用",
-      "group": "その他",
-      "value": 3
+      "group": "健康・習慣",
+      "value": 3,
+      "tags": [
+        "個別化医療",
+        "因果推論",
+        "AI活用",
+        "医療AI"
+      ]
     },
     {
       "id": "causal-inference-manufacturing-process-improvement",
       "label": "製造業における因果推論：設備故障・品質問題の真因特定とAI活用",
       "group": "製造業・業務DX",
-      "value": 5
+      "value": 5,
+      "tags": [
+        "因果推論",
+        "設備故障",
+        "品質問題",
+        "データ統合",
+        "プロセス改善"
+      ]
     },
     {
       "id": "ceo-technical-background-operational-excellence",
       "label": "CEO技術背景と組織実行力：エンジニア出身リーダーが実現する品質・改善文化",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "経営判断",
+        "リーダーシップ",
+        "品質管理",
+        "組織変革",
+        "製造業"
+      ]
     },
     {
       "id": "china-ai-semiconductor-geopolitics",
       "label": "中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "地政学リスク",
+        "国際競争力",
+        "AIエコシステム",
+        "半導体市場",
+        "サプライチェーン"
+      ]
     },
     {
       "id": "claude-api-rate-limit-optimization-workflow",
       "label": "Claude API レート制限最適化：段階的モデル選択によるトークン効率化ワークフロー",
-      "group": "その他",
-      "value": 3
+      "group": "技術実装・エンジニアリング",
+      "value": 3,
+      "tags": [
+        "コスト最適化",
+        "APIレート制限",
+        "モデル選択",
+        "ワークフロー",
+        "プロンプト設計"
+      ]
     },
     {
       "id": "claude-chat-claude-code-workflow",
       "label": "Claude ChatとClaude Codeの役割分担：効率的なワークフロー設計",
       "group": "Claude/AI開発ツール",
-      "value": 8
+      "value": 8,
+      "tags": [
+        "Claude Chat",
+        "Claude Code",
+        "プロンプト最適化",
+        "ワークフロー設計",
+        "コスト効率化"
+      ]
     },
     {
       "id": "claude-code-agent-teams",
       "label": "Claude Code Agent Teams：AIエージェントチームの実装と活用",
-      "group": "Claude/AI開発ツール",
-      "value": 20
+      "group": "AIエージェント設計",
+      "value": 20,
+      "tags": [
+        "マルチエージェント",
+        "ハーネスエンジニアリング",
+        "自動化",
+        "意思決定",
+        "運用効率化"
+      ]
     },
     {
       "id": "claude-code-configuration-driven-workflow",
       "label": "Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化",
       "group": "Claude/AI開発ツール",
-      "value": 15
+      "value": 15,
+      "tags": [
+        "CLAUDE.md",
+        "自動化",
+        "保守業務",
+        "コスト最適化",
+        "権限管理"
+      ]
     },
     {
       "id": "claude-code-context-window-management",
       "label": "Claude Code 100万トークンコンテキスト管理：セッション分割とコンテキストポリューション対策",
       "group": "Claude/AI開発ツール",
-      "value": 7
+      "value": 7,
+      "tags": [
+        "コンテキスト管理",
+        "マルチエージェント",
+        "システム設計",
+        "信頼性確保",
+        "継続的改善"
+      ]
     },
     {
       "id": "claude-code-rapid-app-development-side-business",
       "label": "Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル",
-      "group": "Claude/AI開発ツール",
-      "value": 13
+      "group": "ビジネス・組織",
+      "value": 13,
+      "tags": [
+        "AI導入",
+        "非エンジニア",
+        "副業化",
+        "組織変革",
+        "生産性向上"
+      ]
     },
     {
       "id": "claude-code-skill-design-gotchas",
       "label": "Claude Code Skill設計の落とし穴：Gotchasセクションの重要性と失敗から学ぶ設計知見",
       "group": "Claude/AI開発ツール",
-      "value": 5
+      "value": 5,
+      "tags": [
+        "スキル設計",
+        "Gotchas",
+        "プロンプトテンプレート",
+        "Claude Code",
+        "信頼性確保"
+      ]
     },
     {
       "id": "claude-code-virtual-company",
       "label": "Claude Codeを仮想会社として運営する：組織シミュレーションと自動化",
-      "group": "Claude/AI開発ツール",
-      "value": 11
+      "group": "ビジネス・組織",
+      "value": 11,
+      "tags": [
+        "仮想会社",
+        "自動化経営",
+        "AIマネジメント",
+        "組織シミュレーション",
+        "副業化"
+      ]
     },
     {
       "id": "claude-fable-5-autonomous-development",
       "label": "Claude Fable 5：自律的な思考・設計パートナーとしてのAI開発",
-      "group": "その他",
-      "value": 4
+      "group": "Claude/AI開発ツール",
+      "value": 4,
+      "tags": [
+        "自律エージェント",
+        "開発プロセス",
+        "未知の領域",
+        "思考パートナー"
+      ]
     },
     {
       "id": "claude-long-term-memory-design",
       "label": "Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン",
-      "group": "その他",
-      "value": 14
+      "group": "Claude/AI開発ツール",
+      "value": 14,
+      "tags": [
+        "長期記憶",
+        "CLAUDE.md",
+        "自動化",
+        "システム設計",
+        "ナレッジベース"
+      ]
     },
     {
       "id": "claude-managed-agents-cloud-deployment",
       "label": "Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント",
-      "group": "AIエージェント設計",
-      "value": 15
+      "group": "Claude/AI開発ツール",
+      "value": 15,
+      "tags": [
+        "クラウドデプロイ",
+        "運用自動化",
+        "インフラ管理"
+      ]
     },
     {
       "id": "claude-managed-agents-manufacturing-compliance",
       "label": "Claude Managed Agents の製造業応用：長時間実行・トレーサビリティ・権限一元管理",
-      "group": "AIエージェント設計",
-      "value": 19
+      "group": "製造業・業務DX",
+      "value": 19,
+      "tags": [
+        "システム監視",
+        "トレーサビリティ",
+        "権限管理",
+        "長時間実行",
+        "コンプライアンス"
+      ]
     },
     {
       "id": "claude-managed-agents-self-hosted-sandboxes",
       "label": "Claude Managed Agents：Self-hosted SandboxesとMCP Tunnels",
-      "group": "AIエージェント設計",
-      "value": 3
+      "group": "Claude/AI開発ツール",
+      "value": 3,
+      "tags": [
+        "MCP Tunnels",
+        "オンプレミスAI",
+        "セキュリティ"
+      ]
     },
     {
       "id": "claude-managed-agents-session-resilience",
       "label": "Claude Managed Agents セッション再接続と永続エージェント設計：Session ID再接続・イベント二重取得による長期運用",
-      "group": "AIエージェント設計",
-      "value": 8
+      "group": "Claude/AI開発ツール",
+      "value": 8,
+      "tags": [
+        "永続エージェント",
+        "セッション管理",
+        "イベント二重取得",
+        "運用自動化",
+        "コンテキスト管理"
+      ]
     },
     {
       "id": "claude-md-auto-cultivation-hooks",
       "label": "CLAUDE.md自動育成：Hook機械化と無限ループ対策",
       "group": "Claude/AI開発ツール",
-      "value": 10
+      "value": 10,
+      "tags": [
+        "CLAUDE.md",
+        "Hook",
+        "自動化",
+        "継続的改善",
+        "長期記憶"
+      ]
     },
     {
       "id": "claude-md-governance",
       "label": "CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ",
       "group": "Claude/AI開発ツール",
-      "value": 37
+      "value": 37,
+      "tags": [
+        "CLAUDE.md",
+        "運用フレームワーク",
+        "経営判断",
+        "日次改善",
+        "自動化"
+      ]
     },
     {
       "id": "claude-mythos-capability-risk-management",
       "label": "Claude Mythos：高性能化とサンドボックス脱出リスク、経営判断基準の実装",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "セキュリティ",
+        "リスク管理",
+        "経営判断",
+        "サンドボックス",
+        "AIガバナンス"
+      ]
     },
     {
       "id": "claude-skill-67-core-competencies-standardization",
       "label": "Claude 67コアスキル：$20サブスクリプション活用と業務プロセス標準化",
-      "group": "Claude/AI開発ツール",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "業務プロセス",
+        "標準化",
+        "新人育成",
+        "コスト効率",
+        "Claude活用"
+      ]
     },
     {
       "id": "claude-skill-template-library-reuse",
       "label": "Claudeスキルテンプレートの再利用と組織展開：検証済みプロンプトの標準化と採用加速",
       "group": "Claude/AI開発ツール",
-      "value": 7
+      "value": 7,
+      "tags": [
+        "スキルテンプレート",
+        "プロンプト標準化",
+        "組織展開",
+        "業務ナレッジ",
+        "SKILL.md"
+      ]
     },
     {
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 20
+      "value": 20,
+      "tags": [
+        "オンプレミスAI",
+        "コスト最適化",
+        "セキュリティ",
+        "製造業DX",
+        "GPUインフラ"
+      ]
     },
     {
       "id": "cms-plugin-sandbox-security-architecture",
       "label": "CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策",
-      "group": "その他",
-      "value": 8
+      "group": "技術実装・エンジニアリング",
+      "value": 8,
+      "tags": [
+        "サンドボックス",
+        "権限管理",
+        "セキュリティ",
+        "CMS",
+        "プラグイン"
+      ]
     },
     {
       "id": "commodity-prompt-engineering-vs-architecture-differentiation",
       "label": "プロンプトエンジニアリングのコモディティ化と差別化要因としてのシステムアーキテクチャ設計",
-      "group": "技術実装・エンジニアリング",
-      "value": 7
+      "group": "キャリア・働き方",
+      "value": 7,
+      "tags": [
+        "システムアーキテクチャ",
+        "エッジAI",
+        "実装スキル",
+        "差別化戦略",
+        "本番環境"
+      ]
     },
     {
       "id": "context-design-leadership-impression-management",
       "label": "コンテキスト設計によるリーダーシップ：行動の文脈が評価を決める",
-      "group": "その他",
-      "value": 7
+      "group": "ビジネス・組織",
+      "value": 7,
+      "tags": [
+        "リーダーシップ",
+        "印象管理",
+        "コンテキスト",
+        "組織変革",
+        "信頼醸成"
+      ]
     },
     {
       "id": "context-window-scaling-limitation-smart-extraction-architecture",
       "label": "コンテキストウィンドウスケーリングの限界と賢い抽出・統合アーキテクチャ：ダクトテープ的解決からの脱却",
-      "group": "その他",
-      "value": 5
+      "group": "AIエージェント設計",
+      "value": 5,
+      "tags": [
+        "AGI",
+        "コンテキスト管理",
+        "継続学習",
+        "AIアーキテクチャ",
+        "データ統合"
+      ]
     },
     {
       "id": "creator-economy-monetization-strategy",
       "label": "クリエイターエコノミーの収益化戦略：サブスクリプションとコミュニティ",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "クリエイターエコノミー",
+        "収益化戦略",
+        "サブスクリプション",
+        "コミュニティ",
+        "クオリティエコノミー"
+      ]
     },
     {
       "id": "creator-intuition-driven-design-philosophy",
       "label": "クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合",
-      "group": "その他",
-      "value": 6
+      "group": "ビジネス・組織",
+      "value": 6,
+      "tags": [
+        "直感駆動",
+        "フィードバックループ",
+        "強み活用",
+        "ユーザー心理",
+        "キャリア戦略"
+      ]
     },
     {
       "id": "crypto-asset-tax-guideline",
       "label": "暗号資産税務ガイドラインの整備状況と対策",
       "group": "資産・投資",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "暗号資産税務",
+        "ステーブルコイン",
+        "税務ガイドライン",
+        "リスク管理",
+        "記録管理"
+      ]
     },
     {
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 26
+      "value": 26,
+      "tags": [
+        "結晶性知能",
+        "AI時代のキャリア",
+        "中年期の戦略",
+        "経験価値再構築",
+        "プロンプト指示設計"
+      ]
     },
     {
       "id": "custom-tool-development-ai-empowerment",
       "label": "カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン",
-      "group": "その他",
-      "value": 8
+      "group": "ビジネス・組織",
+      "value": 8,
+      "tags": [
+        "ニッチ市場",
+        "カスタムツール",
+        "内製化",
+        "AI民主化",
+        "サービス創出"
+      ]
     },
     {
       "id": "daily-context-ai-partnership",
       "label": "日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化",
-      "group": "個人OS・知識管理",
-      "value": 4
+      "group": "Claude/AI開発ツール",
+      "value": 4,
+      "tags": [
+        "CLAUDE.md",
+        "コンテキスト管理",
+        "長期記憶",
+        "音声インターフェース",
+        "生産性向上"
+      ]
     },
     {
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
-      "group": "健康・習慣",
-      "value": 23
+      "group": "キャリア・働き方",
+      "value": 23,
+      "tags": [
+        "習慣化",
+        "生産性向上",
+        "意思決定疲労",
+        "自己投資",
+        "アンラーン"
+      ]
     },
     {
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 17
+      "value": 17,
+      "tags": [
+        "データ統合",
+        "サプライチェーン",
+        "設備監視",
+        "品質管理",
+        "意思決定"
+      ]
     },
     {
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
-      "group": "その他",
-      "value": 26
+      "group": "ビジネス・組織",
+      "value": 26,
+      "tags": [
+        "意思決定疲労",
+        "SOP標準化",
+        "ルーチン化",
+        "品質保証",
+        "認知的負荷"
+      ]
     },
     {
       "id": "description-field-best-practices",
       "label": "descriptionフィールドの最適化：トリガー条件と機能説明の書き方",
       "group": "Claude/AI開発ツール",
-      "value": 7
+      "value": 7,
+      "tags": [
+        "Skill System",
+        "プロンプト設計",
+        "自動化",
+        "エージェント設計",
+        "メタデータ"
+      ]
     },
     {
       "id": "die-with-zero-philosophy-life-optimization",
       "label": "DIE WITH ZEROの哲学：人生の最適化と記憶の配当",
-      "group": "その他",
-      "value": 4
+      "group": "キャリア・働き方",
+      "value": 4,
+      "tags": [
+        "人生設計",
+        "自己投資",
+        "記憶の配当",
+        "時間活用",
+        "経験価値"
+      ]
     },
     {
       "id": "digital-deficit-national-security-risk",
       "label": "デジタル赤字と国家安全保障リスク",
-      "group": "その他",
-      "value": 7
+      "group": "AI戦略・社会",
+      "value": 7,
+      "tags": [
+        "デジタル赤字",
+        "国家安全保障",
+        "計算能力",
+        "国際競争力",
+        "海外依存"
+      ]
     },
     {
       "id": "document-format-conversion-markdown-standardization",
       "label": "ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上",
       "group": "製造業・業務DX",
-      "value": 6
+      "value": 6,
+      "tags": [
+        "ドキュメント変換",
+        "Markdown標準化",
+        "ナレッジベース",
+        "MCPサーバー",
+        "AI分析効率化"
+      ]
     },
     {
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
-      "group": "その他",
-      "value": 34
+      "group": "AIエージェント設計",
+      "value": 34,
+      "tags": [
+        "ドメイン知識",
+        "境界設計",
+        "信頼性確保",
+        "運用自動化",
+        "リーダーシップ"
+      ]
     },
     {
       "id": "domain-expertise-digital-product-monetization",
       "label": "ドメイン専門知識のデジタル商品化：本業スキルの受動収入転換と自動販売機型ビジネス",
-      "group": "その他",
-      "value": 8
+      "group": "キャリア・働き方",
+      "value": 8,
+      "tags": [
+        "ドメイン知識",
+        "デジタル商品",
+        "受動収入",
+        "副業",
+        "自動販売機型ビジネス"
+      ]
     },
     {
       "id": "e2e-ai-model-manufacturing-application",
       "label": "E2E AIモデルの製造業応用：データ学習による物理現象理解と自動化",
       "group": "製造業・業務DX",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "E2E AI",
+        "自動運転",
+        "物理現象学習",
+        "生産プロセス最適化",
+        "データ学習"
+      ]
     },
     {
       "id": "edge-ai-system-design-production-skills",
       "label": "エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル",
       "group": "技術実装・エンジニアリング",
-      "value": 11
+      "value": 11,
+      "tags": [
+        "エッジAI",
+        "メモリ最適化",
+        "ハードウェア制約",
+        "モデル量子化",
+        "システム設計"
+      ]
     },
     {
       "id": "energy-policy-innovation-regulation-impact",
       "label": "エネルギー政策とイノベーションへの規制の影響：欧州の事例から学ぶ",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "エネルギー政策",
+        "イノベーション",
+        "国際競争力",
+        "規制",
+        "経済安全保障"
+      ]
     },
     {
       "id": "environment-engineering",
       "label": "エンバイロメント・エンジニアリング：AI活動の土台づくり",
-      "group": "Claude/AI開発ツール",
-      "value": 18
+      "group": "技術実装・エンジニアリング",
+      "value": 18,
+      "tags": [
+        "AIインフラ",
+        "環境構築",
+        "開発プロセス自動化",
+        "マルチモーダル",
+        "組織変革"
+      ]
     },
     {
       "id": "executive-ai-hands-on-learning-organizational-transformation",
       "label": "経営者のAIハンズオン学習と組織全体の変革加速：社長自作→全社強制導入の実装パターン",
       "group": "ビジネス・組織",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "組織変革",
+        "リーダーシップ",
+        "AI導入",
+        "非エンジニア",
+        "生産性向上"
+      ]
     },
     {
       "id": "executive-time-arbitrage-asset-building-strategy",
       "label": "エグゼクティブの時間裁定と資産構築：年収から資産価値への転換戦略",
       "group": "キャリア・働き方",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "資産価値",
+        "時間裁定",
+        "自己投資",
+        "記憶の配当"
+      ]
     },
     {
       "id": "factory-model-software-development",
       "label": "The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理",
-      "group": "製造業・業務DX",
-      "value": 4
+      "group": "技術実装・エンジニアリング",
+      "value": 4,
+      "tags": [
+        "ソフトウェア開発",
+        "品質保証",
+        "CI/CD",
+        "自動化",
+        "生産性向上"
+      ]
     },
     {
       "id": "fde-engineer-domain-knowledge-priority-career-design",
       "label": "FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略",
-      "group": "その他",
-      "value": 6
+      "group": "キャリア・働き方",
+      "value": 6,
+      "tags": [
+        "ドメイン知識",
+        "FDE",
+        "専門化戦略",
+        "課題解決",
+        "キャリア形成"
+      ]
     },
     {
       "id": "gemma-llm-model-selection-manufacturing",
       "label": "Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け",
-      "group": "その他",
-      "value": 9
+      "group": "製造業・業務DX",
+      "value": 9,
+      "tags": [
+        "Gemma",
+        "LLM導入",
+        "ローカルデプロイ",
+        "GPUインフラ",
+        "多言語対応"
+      ]
     },
     {
       "id": "geopolitical-narrative-multidimensional-analysis",
       "label": "地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法",
       "group": "AI戦略・社会",
-      "value": 6
+      "value": 6,
+      "tags": [
+        "地政学",
+        "ナラティブ",
+        "アンラーン",
+        "5次元分析",
+        "エリート学習"
+      ]
     },
     {
       "id": "git-hooks-security-defense",
       "label": "Git Hooksセキュリティ防御：権限スキップ時の多層防御設計",
-      "group": "その他",
-      "value": 6
+      "group": "技術実装・エンジニアリング",
+      "value": 6,
+      "tags": [
+        "Git Hooks",
+        "セキュリティ防御",
+        "権限管理",
+        "多層防御",
+        "開発フロー"
+      ]
     },
     {
       "id": "github-life-management",
       "label": "GitHubで人生を管理する：lifeリポジトリの運用と実践",
       "group": "個人OS・知識管理",
-      "value": 11
+      "value": 11,
+      "tags": [
+        "GitHub活用",
+        "タスク管理",
+        "ライフログ",
+        "自己管理",
+        "ワークフロー"
+      ]
     },
     {
       "id": "github-non-engineer-adoption",
       "label": "非エンジニア部門におけるGitHub導入：情報共有と生産性向上",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "組織変革",
+        "AI導入",
+        "生産性向上",
+        "非エンジニア",
+        "情報共有"
+      ]
     },
     {
       "id": "global-capital-flow-fx-risk-diversification",
       "label": "グローバル資金フロー変化：為替・金利リスクとアセット分散戦略",
-      "group": "その他",
-      "value": 4
+      "group": "資産・投資",
+      "value": 4,
+      "tags": [
+        "金融政策",
+        "為替リスク",
+        "資産配分",
+        "ドル離れ",
+        "グローバル資金"
+      ]
     },
     {
       "id": "government-energy-policy-monitoring",
       "label": "政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡",
-      "group": "ビジネス・組織",
-      "value": 6
+      "group": "技術実装・エンジニアリング",
+      "value": 6,
+      "tags": [
+        "情報収集自動化",
+        "政策モニタリング",
+        "データ品質管理",
+        "時系列分析",
+        "政府情報"
+      ]
     },
     {
       "id": "gpt-x-astra-capabilities",
       "label": "GPT-X Astraの能力：推論・PC操作・未知環境適応",
-      "group": "その他",
-      "value": 4
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "AI導入",
+        "業務効率化",
+        "生産性向上",
+        "自動化",
+        "ガバナンス"
+      ]
     },
     {
       "id": "harness-engineering-autonomous-development",
       "label": "ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン",
-      "group": "Claude/AI開発ツール",
-      "value": 11
+      "group": "AIエージェント設計",
+      "value": 11,
+      "tags": [
+        "ハーネスエンジニアリング",
+        "自動改善ループ",
+        "Planner",
+        "Generator",
+        "Evaluator"
+      ]
     },
     {
       "id": "hook-design-patterns-ai-workflow",
       "label": "Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法",
       "group": "Claude/AI開発ツール",
-      "value": 5
+      "value": 5,
+      "tags": [
+        "Hook設計",
+        "SessionEnd",
+        "PreCompact",
+        "PreToolUse",
+        "運用自動化"
+      ]
     },
     {
       "id": "human-capital-philosophy-ai-era",
       "label": "人的資本の哲学：AI時代の問い直しと本質的価値",
-      "group": "その他",
-      "value": 6
+      "group": "キャリア・働き方",
+      "value": 6,
+      "tags": [
+        "人的資本",
+        "哲学",
+        "アンラーン",
+        "ウェルネス",
+        "意思決定"
+      ]
     },
     {
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "労働市場",
+        "自動化",
+        "キャリア転換",
+        "プライバシー",
+        "国際競争力"
+      ]
     },
     {
       "id": "identity-transformation-habit-formation-ai-era",
       "label": "アイデンティティ変革による習慣形成：AI時代の自己再定義",
-      "group": "その他",
-      "value": 3
+      "group": "キャリア・働き方",
+      "value": 3,
+      "tags": [
+        "アイデンティティ変革",
+        "習慣形成",
+        "自己再発明",
+        "マインドセット",
+        "アンラーン"
+      ]
     },
     {
       "id": "incomplete-content-handling-knowledge-quality-control",
       "label": "不完全なコンテンツの取り扱い：スクラップ時点でのメタデータ充実とナレッジ品質保証",
-      "group": "その他",
-      "value": 2
+      "group": "個人OS・知識管理",
+      "value": 2,
+      "tags": [
+        "メタデータ",
+        "ナレッジ品質",
+        "AI補完",
+        "スクラップ",
+        "情報管理"
+      ]
     },
     {
       "id": "independent-coil-center-strategy",
       "label": "独立系コイルセンターの将来戦略：専門特化と価値創造の再定義",
       "group": "製造業・業務DX",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "コイルセンター",
+        "専門特化",
+        "価値創造",
+        "デジタル化",
+        "業務標準化"
+      ]
     },
     {
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
-      "group": "資産・投資",
-      "value": 11
+      "group": "AI戦略・社会",
+      "value": 11,
+      "tags": [
+        "GPUインフラ",
+        "ベンダーロックイン",
+        "推論時代",
+        "半導体市場",
+        "マルチベンダー戦略"
+      ]
     },
     {
       "id": "information-processing-efficiency-ai-integration",
       "label": "情報処理効率化とAI統合：一次情報重視と大量情報要約術",
-      "group": "その他",
-      "value": 6
+      "group": "キャリア・働き方",
+      "value": 6,
+      "tags": [
+        "一次情報",
+        "情報処理",
+        "継続学習",
+        "AI活用",
+        "専門性構築"
+      ]
     },
     {
       "id": "innovation-productivity-national-competitiveness",
       "label": "イノベーションと生産性が国家競争力に与える影響",
-      "group": "その他",
-      "value": 5
+      "group": "AI戦略・社会",
+      "value": 5,
+      "tags": [
+        "国家競争力",
+        "イノベーション",
+        "生産性格差",
+        "製造業戦略",
+        "デジタル赤字"
+      ]
     },
     {
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
-      "group": "Claude/AI開発ツール",
-      "value": 26
+      "group": "プロンプト・AI活用",
+      "value": 26,
+      "tags": [
+        "指示設計",
+        "プロンプト設計",
+        "AI活用",
+        "マネジメント",
+        "業務効率化"
+      ]
     },
     {
       "id": "japan-ai-robot-social-implementation",
       "label": "日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "高齢化社会",
+        "労働力不足",
+        "社会実装",
+        "国際競争力",
+        "デジタル赤字"
+      ]
     },
     {
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
-      "group": "その他",
-      "value": 11
+      "group": "AI戦略・社会",
+      "value": 11,
+      "tags": [
+        "国際競争力",
+        "デジタル赤字",
+        "計算能力",
+        "エネルギー生産力",
+        "製造業AI"
+      ]
     },
     {
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
       "label": "日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上",
-      "group": "その他",
-      "value": 16
+      "group": "AI戦略・社会",
+      "value": 16,
+      "tags": [
+        "人口減少",
+        "重要インフラ",
+        "システム管理",
+        "労働力不足",
+        "組織設計"
+      ]
     },
     {
       "id": "japan-monetary-policy-paradigm-shift",
       "label": "日本の金融政策パラダイムシフト：金利・円高・ドル離れの影響分析",
-      "group": "その他",
-      "value": 4
+      "group": "資産・投資",
+      "value": 4,
+      "tags": [
+        "金融政策",
+        "金利上昇",
+        "円高",
+        "ドル離れ",
+        "資産運用"
+      ]
     },
     {
       "id": "jaxa-space-strategy-fund",
       "label": "JAXA宇宙戦略基金：1兆円政府支援による宇宙ビジネス民間参入加速",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "宇宙ビジネス",
+        "国際競争力",
+        "ビジネス戦略",
+        "イノベーション",
+        "地政学リスク"
+      ]
     },
     {
       "id": "jpyc-tax-strategy",
       "label": "JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い",
       "group": "資産・投資",
-      "value": 2
+      "value": 2,
+      "tags": [
+        "JPYC",
+        "暗号資産税務",
+        "電子決済手段",
+        "ステーブルコイン",
+        "金融政策"
+      ]
     },
     {
       "id": "junior-engineer-retention-ai-era-succession-planning",
       "label": "ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持",
-      "group": "キャリア・働き方",
-      "value": 13
+      "group": "ビジネス・組織",
+      "value": 13,
+      "tags": [
+        "世代継承",
+        "若手育成",
+        "判断負荷",
+        "レガシーシステム",
+        "多様性"
+      ]
     },
     {
       "id": "kimi-k3-moonshot-ai-model-comparison",
       "label": "Kimi K3とMoonshot AI：AIモデル性能比較と市場影響",
-      "group": "その他",
-      "value": 8
+      "group": "AI戦略・社会",
+      "value": 8,
+      "tags": [
+        "国際競争力",
+        "AI人材",
+        "オンプレミスAI",
+        "地政学リスク",
+        "オープンモデル"
+      ]
     },
     {
       "id": "labor-money-decoupling",
       "label": "労働とお金の切り離し：AI自動化による収益化プロセスの構造化",
-      "group": "その他",
-      "value": 16
+      "group": "AI戦略・社会",
+      "value": 16,
+      "tags": [
+        "労働市場",
+        "自動化",
+        "ビジネスモデル",
+        "収益化",
+        "副業"
+      ]
     },
     {
       "id": "legacy-code-debt-system-capability-mismatch",
       "label": "システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証",
-      "group": "製造業・業務DX",
-      "value": 6
+      "group": "技術実装・エンジニアリング",
+      "value": 6,
+      "tags": [
+        "システム設計",
+        "継続的改善",
+        "コスト最適化",
+        "運用自動化",
+        "組織変革"
+      ]
     },
     {
       "id": "legacy-harness-platform-api-migration-pattern",
       "label": "レガシーハーネスからプラットフォームAPI移行パターン：既存資産活用と段階的最適化",
-      "group": "その他",
-      "value": 5
+      "group": "技術実装・エンジニアリング",
+      "value": 5,
+      "tags": [
+        "システム移行",
+        "コスト最適化",
+        "運用自動化",
+        "API統合",
+        "ハーネスエンジニアリング"
+      ]
     },
     {
       "id": "life-repository-evolution",
       "label": "lifeリポジトリの進化：GitHubからMarkdown + Claude Codeへ",
       "group": "個人OS・知識管理",
-      "value": 2
+      "value": 2,
+      "tags": [
+        "ライフシステム",
+        "知識管理",
+        "自動化",
+        "自己定量化",
+        "AI協働"
+      ]
     },
     {
       "id": "llm-api-rag-deployment-fundamentals",
       "label": "現代AIエンジニアのコア6スキル：LLM API・プロンプト・ツールコール・RAG・デプロイメント",
       "group": "技術実装・エンジニアリング",
-      "value": 8
+      "value": 8,
+      "tags": [
+        "LLM API",
+        "RAG",
+        "ツールコール",
+        "デプロイメント",
+        "コスト最適化"
+      ]
     },
     {
       "id": "llm-infrastructure-foundation-provider-redundancy",
       "label": "LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略",
-      "group": "その他",
-      "value": 10
+      "group": "技術実装・エンジニアリング",
+      "value": 10,
+      "tags": [
+        "冗長化",
+        "フェイルオーバー",
+        "BCP",
+        "マルチプロバイダー",
+        "システム信頼性"
+      ]
     },
     {
       "id": "llm-integration-technical-documentation-automation",
       "label": "LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化",
-      "group": "技術実装・エンジニアリング",
-      "value": 15
+      "group": "製造業・業務DX",
+      "value": 15,
+      "tags": [
+        "設備保全",
+        "デジタル化",
+        "メンテナンス",
+        "ナレッジ化",
+        "文書管理"
+      ]
     },
     {
       "id": "llm-tiered-execution-pattern",
       "label": "段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計",
-      "group": "その他",
-      "value": 10
+      "group": "技術実装・エンジニアリング",
+      "value": 10,
+      "tags": [
+        "LLM運用",
+        "コスト最適化",
+        "ローカルLLM",
+        "大規模モデル",
+        "システム設計"
+      ]
     },
     {
       "id": "llm-wiki-concept",
       "label": "LLM Wiki コンセプト",
       "group": "個人OS・知識管理",
-      "value": 2
+      "value": 2,
+      "tags": [
+        "LLM Wiki",
+        "知識ベース",
+        "自動化",
+        "相互参照",
+        "Skill System"
+      ]
     },
     {
       "id": "local-llm-api-cost-elimination-strategy",
       "label": "ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 9
+      "value": 9,
+      "tags": [
+        "ハイブリッドLLM",
+        "ローカルLLM",
+        "APIコスト",
+        "セキュリティ",
+        "システム設計"
+      ]
     },
     {
       "id": "local-llm-deployment-architecture",
       "label": "ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用",
       "group": "技術実装・エンジニアリング",
-      "value": 24
+      "value": 24,
+      "tags": [
+        "ローカルLLM",
+        "オンプレミスAI",
+        "エッジAI",
+        "システム設計",
+        "コスト最適化"
+      ]
     },
     {
       "id": "local-pglite-sensitive-data-management",
       "label": "PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ",
       "group": "技術実装・エンジニアリング",
-      "value": 8
+      "value": 8,
+      "tags": [
+        "PGLite",
+        "ローカルDB",
+        "ベクトル検索",
+        "データ管理",
+        "オンプレミスAI"
+      ]
     },
     {
       "id": "long-running-ai-agent-design-patterns",
       "label": "長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン",
       "group": "AIエージェント設計",
-      "value": 26
+      "value": 26,
+      "tags": [
+        "長期連続稼働",
+        "推論最適化",
+        "エラー蓄積対策",
+        "運用自動化",
+        "永続エージェント"
+      ]
     },
     {
       "id": "managed-agents-cost-optimization-gtm-strategy",
       "label": "Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計",
       "group": "AIエージェント設計",
-      "value": 6
+      "value": 6,
+      "tags": [
+        "コスト最適化",
+        "GTM戦略",
+        "運用負荷削減",
+        "段階的スケーリング"
+      ]
     },
     {
       "id": "managed-agents-interface-decoupling-design",
       "label": "Managed Agentsのインターフェース分離設計：モデル改善による前提無効化への耐性設計",
       "group": "AIエージェント設計",
-      "value": 7
+      "value": 7,
+      "tags": [
+        "システム設計",
+        "信頼性確保",
+        "インターフェース設計",
+        "継続的改善",
+        "コンテキスト管理"
+      ]
     },
     {
       "id": "managed-agents-model-update-compatibility-design",
       "label": "Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー",
       "group": "AIエージェント設計",
-      "value": 7
+      "value": 7,
+      "tags": [
+        "モデル互換性",
+        "抽象化レイヤー",
+        "長期運用",
+        "運用負荷軽減",
+        "システム設計"
+      ]
     },
     {
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 78
+      "value": 78,
+      "tags": [
+        "デジタル変革",
+        "自動化",
+        "サプライチェーン",
+        "ROI最大化",
+        "品質管理"
+      ]
     },
     {
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 40
+      "value": 40,
+      "tags": [
+        "AI導入",
+        "自動化",
+        "業務効率化",
+        "非エンジニア",
+        "生産性向上"
+      ]
     },
     {
       "id": "manufacturing-automation-cost-disruption",
       "label": "製造業自動化コストの劇的低下：経営判断能力へのシフト",
       "group": "製造業・業務DX",
-      "value": 13
+      "value": 13,
+      "tags": [
+        "自動化コスト",
+        "サプライチェーン最適化",
+        "人型ロボット",
+        "推論時代",
+        "労働力不足"
+      ]
     },
     {
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 12
+      "value": 12,
+      "tags": [
+        "継続学習",
+        "長期推論",
+        "記憶メカニズム",
+        "運用ログ",
+        "垂直統合"
+      ]
     },
     {
       "id": "manufacturing-email-automation-adoption-resistance",
       "label": "製造業のメール自動化導入：現場スタッフの抵抗感排除と既存知識資産の活用",
       "group": "製造業・業務DX",
-      "value": 5
+      "value": 5,
+      "tags": [
+        "メール自動化",
+        "抵抗感排除",
+        "知識資産活用",
+        "レガシーシステム",
+        "段階的導入"
+      ]
     },
     {
       "id": "manufacturing-in-ai-solo-era",
       "label": "AIソロプレナー時代における製造業の変革と内製化",
       "group": "製造業・業務DX",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "AIソロプレナー",
+        "内製化",
+        "カスタムツール",
+        "業務フロー再設計",
+        "働き方変革"
+      ]
     },
     {
       "id": "manufacturing-on-premise-ai-adoption",
       "label": "製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策",
       "group": "製造業・業務DX",
-      "value": 8
+      "value": 8,
+      "tags": [
+        "オンプレミスAI",
+        "情報漏洩対策",
+        "オープンウェイトモデル",
+        "セキュリティガバナンス",
+        "システム管理者"
+      ]
     },
     {
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 21
+      "value": 21,
+      "tags": [
+        "セキュリティ監査",
+        "リスク管理",
+        "AIガバナンス",
+        "レガシーシステム",
+        "先制防御"
+      ]
     },
     {
       "id": "mcp-skill-architecture",
       "label": "MCPとSkillの役割分担：ツール連携とワークフロー設計",
       "group": "Claude/AI開発ツール",
-      "value": 9
+      "value": 9,
+      "tags": [
+        "MCP",
+        "Skill System",
+        "ワークフロー自動化",
+        "ツール連携",
+        "ドキュメント変換"
+      ]
     },
     {
       "id": "meaning-creation-post-work-society-ai-era",
       "label": "仕事消滅社会での生きがい創出：AIが自動化した先の人間的価値と幸福設計",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "生きがい",
+        "人間的価値",
+        "幸福設計",
+        "労働市場",
+        "ウェルネス"
+      ]
     },
     {
       "id": "memory-dividend-experiential-investment-strategy",
       "label": "記憶の配当：経験への投資戦略と人生の充実",
-      "group": "その他",
-      "value": 4
+      "group": "キャリア・働き方",
+      "value": 4,
+      "tags": [
+        "自己投資",
+        "人生設計",
+        "経験価値",
+        "時間管理",
+        "幸福感"
+      ]
     },
     {
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
-      "group": "その他",
-      "value": 21
+      "group": "キャリア・働き方",
+      "value": 21,
+      "tags": [
+        "メタスキル",
+        "学び方",
+        "情報収集",
+        "AI活用",
+        "アンラーン"
+      ]
     },
     {
       "id": "middle-income-trap-manufacturing-strategy",
       "label": "中進国の罠と製造業戦略",
-      "group": "製造業・業務DX",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "中進国の罠",
+        "製造業戦略",
+        "国家競争力",
+        "イノベーション",
+        "生産性格差"
+      ]
     },
     {
       "id": "midlife-crisis-reframing-opportunity",
       "label": "中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計",
       "group": "キャリア・働き方",
-      "value": 14
+      "value": 14,
+      "tags": [
+        "中年期の危機",
+        "ナラティブ再構築",
+        "時間管理",
+        "習慣設計",
+        "結晶性知能"
+      ]
     },
     {
       "id": "missing-link-ai-productivity-gap",
       "label": "AI生産性向上のミッシングリンク：個の効率化から組織変革へ",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "組織変革",
+        "生産性向上",
+        "AI導入",
+        "業務フロー再設計",
+        "意思決定"
+      ]
     },
     {
       "id": "multi-agent-pipeline-error-handling-checkpoint",
       "label": "マルチエージェントパイプラインのエラーハンドリングとチェックポイント：信頼性高い自動化の実装パターン",
       "group": "AIエージェント設計",
-      "value": 18
+      "value": 18,
+      "tags": [
+        "自動化",
+        "信頼性確保",
+        "運用自動化",
+        "マルチエージェント",
+        "システム設計"
+      ]
     },
     {
       "id": "multi-agent-task-dependency-management",
       "label": "マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消",
       "group": "AIエージェント設計",
-      "value": 29
+      "value": 29,
+      "tags": [
+        "マルチエージェント",
+        "製造業DX",
+        "タスク管理",
+        "依存関係",
+        "競合解消"
+      ]
     },
     {
       "id": "multi-session-lifecycle-continuous-monitoring",
       "label": "マルチセッション管理のライフサイクル：初期設定後の継続的な検証と最適化フレームワーク",
-      "group": "その他",
-      "value": 5
+      "group": "Claude/AI開発ツール",
+      "value": 5,
+      "tags": [
+        "コンテキスト管理",
+        "マルチセッション",
+        "継続的改善",
+        "運用自動化",
+        "システム設計"
+      ]
     },
     {
       "id": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "label": "マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "マルチモダリティ",
+        "具現化AI",
+        "ロボット統合",
+        "ロードマップ"
+      ]
     },
     {
       "id": "nand-flash-memory-market-ai-demand",
       "label": "NANDフラッシュメモリ市場：AI需要による高騰と需給変化",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "NANDフラッシュ",
+        "半導体市場",
+        "GPUインフラ",
+        "AIエージェント",
+        "国際競争力"
+      ]
     },
     {
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
-      "group": "その他",
-      "value": 17
+      "group": "プロンプト・AI活用",
+      "value": 17,
+      "tags": [
+        "非エンジニア",
+        "ツール開発",
+        "AI導入",
+        "プロトタイピング",
+        "継続的改善"
+      ]
     },
     {
       "id": "non-engineer-skill-development-claude-code-democratization",
       "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
-      "group": "Claude/AI開発ツール",
-      "value": 15
+      "group": "ビジネス・組織",
+      "value": 15,
+      "tags": [
+        "組織変革",
+        "AI導入",
+        "非エンジニア",
+        "創造性解放",
+        "地方中小企業"
+      ]
     },
     {
       "id": "nvidia-dominance-shift-cpu-revaluation",
       "label": "NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "半導体市場",
+        "GPUインフラ",
+        "電力効率",
+        "NANDフラッシュメモリ",
+        "国際競争力"
+      ]
     },
     {
       "id": "onboarding-friction-design-saas-growth",
       "label": "オンボーディング摩擦設計：SaaS成長戦略における『正しい摩擦』の活用",
       "group": "ビジネス・組織",
-      "value": 6
+      "value": 6,
+      "tags": [
+        "オンボーディング",
+        "ユーザー体験",
+        "SaaS成長",
+        "学習プロセス",
+        "摩擦設計"
+      ]
     },
     {
       "id": "open-vs-closed-ai-model-strategy",
       "label": "オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク",
-      "group": "その他",
-      "value": 7
+      "group": "AI戦略・社会",
+      "value": 7,
+      "tags": [
+        "オープンAIモデル",
+        "クローズドAIモデル",
+        "AIモデル選定",
+        "地政学リスク",
+        "AIガバナンス"
+      ]
     },
     {
       "id": "openai-anthropic-competitive-dynamics-market-shift",
       "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
-      "group": "その他",
-      "value": 9
+      "group": "ビジネス・組織",
+      "value": 9,
+      "tags": [
+        "ビジネス戦略",
+        "AI導入",
+        "国際競争力",
+        "経営判断",
+        "垂直統合"
+      ]
     },
     {
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
       "label": "組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化",
       "group": "ビジネス・組織",
-      "value": 33
+      "value": 33,
+      "tags": [
+        "組織変革",
+        "AI導入",
+        "リーダーシップ",
+        "非エンジニア",
+        "業務フロー再設計"
+      ]
     },
     {
       "id": "organizational-ai-knowledge-asset-management",
       "label": "組織的AI知識資産管理：議事録自動生成とドキュメント整理",
       "group": "ビジネス・組織",
-      "value": 5
+      "value": 5,
+      "tags": [
+        "知識資産管理",
+        "議事録自動生成",
+        "ドキュメント整理",
+        "情報共有",
+        "非エンジニア部門"
+      ]
     },
     {
       "id": "organizational-dysfunction-sabotage-pattern-recognition",
       "label": "組織機能不全とサボタージュパターン認識：CIAマニュアルに学ぶ自己診断フレームワーク",
       "group": "ビジネス・組織",
-      "value": 9
+      "value": 9,
+      "tags": [
+        "組織変革",
+        "意思決定",
+        "ガバナンス",
+        "業務効率化",
+        "権限管理"
+      ]
     },
     {
       "id": "palantir-fde-user-centric-deployment",
       "label": "パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功",
       "group": "ビジネス・組織",
-      "value": 7
+      "value": 7,
+      "tags": [
+        "FDE戦略",
+        "ユーザー共創",
+        "現場密着型",
+        "組織学習",
+        "ドメイン知識"
+      ]
     },
     {
       "id": "personal-ai-assistant-automation-design",
       "label": "パーソナルAIアシスタント化：フライデー型自動化エージェントの組織導入と個人生産性向上設計",
-      "group": "その他",
-      "value": 7
+      "group": "ビジネス・組織",
+      "value": 7,
+      "tags": [
+        "パーソナルAI",
+        "自動化エージェント",
+        "個人生産性",
+        "組織導入",
+        "業務削減"
+      ]
     },
     {
       "id": "personal-knowledge-base-vector-search-integration",
       "label": "個人ナレッジベースのベクトル検索統合：会議・メール・ログの一元化とエージェント参照設計",
       "group": "個人OS・知識管理",
-      "value": 11
+      "value": 11,
+      "tags": [
+        "ベクトル検索",
+        "ナレッジベース",
+        "PGLite",
+        "AIエージェント",
+        "長期記憶"
+      ]
     },
     {
       "id": "personal-os-operating-system",
       "label": "人生OSの運用：PMの4つのシフトの個人適用",
-      "group": "個人OS・知識管理",
-      "value": 10
+      "group": "キャリア・働き方",
+      "value": 10,
+      "tags": [
+        "自己改善",
+        "人生設計",
+        "プロダクトマネジメント",
+        "時間管理",
+        "継続学習"
+      ]
     },
     {
       "id": "physical-ai-hardware-standardization-strategy",
       "label": "フィジカルAイと日本の標準化戦略：米中覇権争いにおける下層インターフェース統一による競争力構築",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "フィジカルAI",
+        "標準化戦略",
+        "米中覇権",
+        "製造業DX",
+        "年功序列"
+      ]
     },
     {
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
-      "group": "キャリア・働き方",
-      "value": 21
+      "group": "ビジネス・組織",
+      "value": 21,
+      "tags": [
+        "プロダクトマネジメント",
+        "学習駆動",
+        "組織変革",
+        "継続的改善"
+      ]
     },
     {
       "id": "preemptive-workflow-optimization-ai-migration",
       "label": "AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化",
-      "group": "技術実装・エンジニアリング",
-      "value": 9
+      "group": "ビジネス・組織",
+      "value": 9,
+      "tags": [
+        "AI導入",
+        "業務フロー再設計",
+        "組織変革",
+        "業務効率化",
+        "権限委譲"
+      ]
     },
     {
       "id": "process-ax-ai-reconstruction-strategy",
       "label": "プロセスAX：AIによる経営再構築戦略",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "組織変革",
+        "AI導入",
+        "コスト最適化",
+        "業務フロー再設計",
+        "ビジネス戦略"
+      ]
     },
     {
       "id": "professional-longevity-expert-development-strategy",
       "label": "専門家としての長期的なキャリア戦略：凡事徹底と継続学習",
-      "group": "その他",
-      "value": 4
+      "group": "キャリア・働き方",
+      "value": 4,
+      "tags": [
+        "継続学習",
+        "凡事徹底",
+        "専門性構築",
+        "情報収集",
+        "自己投資"
+      ]
     },
     {
       "id": "progressive-disclosure-pattern",
       "label": "Progressive Disclosure パターン：段階的情報開示による効率化",
       "group": "Claude/AI開発ツール",
-      "value": 11
+      "value": 11,
+      "tags": [
+        "Skill System",
+        "トークン効率化",
+        "システム設計",
+        "AIアーキテクチャ",
+        "プロンプト設計"
+      ]
     },
     {
       "id": "prompt-clarity-management-feedback-loop",
       "label": "プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上",
       "group": "プロンプト・AI活用",
-      "value": 16
+      "value": 16,
+      "tags": [
+        "プロンプト設計",
+        "指示設計",
+        "フィードバックループ",
+        "マネジメントスキル",
+        "CLAUDE.md"
+      ]
     },
     {
       "id": "prompt-engineering-manufacturing-application",
       "label": "プロンプトエンジニアリングの製造業応用",
       "group": "製造業・業務DX",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "業務自動化",
+        "非エンジニア開発",
+        "エッジAI",
+        "データ可視化"
+      ]
     },
     {
       "id": "prompt-optimization-cost-efficiency",
       "label": "プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略",
-      "group": "プロンプト・AI活用",
-      "value": 13
+      "group": "技術実装・エンジニアリング",
+      "value": 13,
+      "tags": [
+        "プロンプト最適化",
+        "トークン削減",
+        "コスト削減",
+        "API利用効率",
+        "Cavemanテクニック"
+      ]
     },
     {
       "id": "prompt-template-iteration-testing-framework",
       "label": "プロンプトテンプレートの反復検証フレームワーク：5時間の調整プロセスと組織的スケーリング",
-      "group": "その他",
-      "value": 5
+      "group": "プロンプト・AI活用",
+      "value": 5,
+      "tags": [
+        "プロンプト検証",
+        "テンプレート化",
+        "組織的スケーリング",
+        "品質保証",
+        "スキル開発"
+      ]
     },
     {
       "id": "pushed-person-strategy-ai-era",
       "label": "AI時代の『推される人』戦略：プロダクト均質化と差別化",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "差別化戦略",
+        "パーソナルブランディング",
+        "コミュニケーション戦略",
+        "AI導入",
+        "価値創造"
+      ]
     },
     {
       "id": "qms-style-ai-prompt-governance",
       "label": "QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用",
-      "group": "製造業・業務DX",
-      "value": 39
+      "group": "Claude/AI開発ツール",
+      "value": 39,
+      "tags": [
+        "QMS",
+        "CLAUDE.md",
+        "プロンプト統治",
+        "権限管理",
+        "並列実行"
+      ]
     },
     {
       "id": "quality-economy-trust-based-information",
       "label": "クオリティエコノミー：信頼に基づく情報価値とプラットフォーム戦略",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "クリエイターエコノミー",
+        "情報価値",
+        "プラットフォーム戦略",
+        "信頼性",
+        "AI時代の競争力"
+      ]
     },
     {
       "id": "quantified-self-ai-feedback-loop",
       "label": "量的自己記録とAI分析の相乗効果：データ資産化と継続的改善",
       "group": "個人OS・知識管理",
-      "value": 19
+      "value": 19,
+      "tags": [
+        "量的自己記録",
+        "AI分析",
+        "継続的改善",
+        "プロンプト設計",
+        "データ資産化"
+      ]
     },
     {
       "id": "rapid-iteration-learning-loop-operational-design",
       "label": "高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却",
-      "group": "技術実装・エンジニアリング",
-      "value": 15
+      "group": "ビジネス・組織",
+      "value": 15,
+      "tags": [
+        "組織変革",
+        "高速学習",
+        "リスク管理",
+        "ビジネス戦略",
+        "リーダーシップ"
+      ]
     },
     {
       "id": "regional-sme-engineering-constraint-mitigation-ai-coding",
       "label": "地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応",
-      "group": "その他",
-      "value": 8
+      "group": "ビジネス・組織",
+      "value": 8,
+      "tags": [
+        "地方企業",
+        "AI導入",
+        "組織変革",
+        "非エンジニア",
+        "生産性向上"
+      ]
     },
     {
       "id": "relationship-quality-leadership-theory",
       "label": "関係性の質とリーダーシップ理論",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "リーダーシップ",
+        "関係性の質",
+        "組織運営",
+        "AI導入",
+        "コミュニケーション"
+      ]
     },
     {
       "id": "remote-agent-session-sharing-multi-user-operations",
       "label": "リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制",
-      "group": "AIエージェント設計",
-      "value": 8
+      "group": "Claude/AI開発ツール",
+      "value": 8,
+      "tags": [
+        "セッション共有",
+        "権限管理",
+        "リモート実行",
+        "監査ログ",
+        "複数拠点"
+      ]
     },
     {
       "id": "rethinking-defaults-continuous-improvement",
       "label": "当たり前の問い直し：継続的改善と哲学的な視点",
-      "group": "その他",
-      "value": 6
+      "group": "ビジネス・組織",
+      "value": 6,
+      "tags": [
+        "継続的改善",
+        "哲学",
+        "組織変革",
+        "意思決定",
+        "アンラーン"
+      ]
     },
     {
       "id": "satellite-constellation-internet-infrastructure",
       "label": "衛星コンステレーションとインターネットインフラ：Starlinkによる通信革命",
-      "group": "その他",
-      "value": 3
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "宇宙ビジネス",
+        "衛星通信",
+        "デジタルデバイド",
+        "国際競争力",
+        "地政学リスク"
+      ]
     },
     {
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 36
+      "value": 36,
+      "tags": [
+        "自己学習",
+        "継続学習",
+        "アンラーン",
+        "メタスキル",
+        "アイデンティティ変革"
+      ]
     },
     {
       "id": "seniority-employment-ai-debt-transition-strategy",
       "label": "年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し",
-      "group": "その他",
-      "value": 5
+      "group": "ビジネス・組織",
+      "value": 5,
+      "tags": [
+        "組織変革",
+        "人事評価",
+        "年功序列",
+        "成果主義",
+        "AI導入"
+      ]
     },
     {
       "id": "singularity-loop-ai-self-acceleration",
       "label": "シンギュラリティループ：AIが自律的に進化を加速させるメカニズム",
       "group": "AI戦略・社会",
-      "value": 9
+      "value": 9,
+      "tags": [
+        "シンギュラリティ",
+        "ASIエコノミー",
+        "自律的進化",
+        "AIガバナンス",
+        "製造業変革"
+      ]
     },
     {
       "id": "skill-creator-automation",
       "label": "skill-creator スキル：Skill設計・レビュー・改善の自動化",
       "group": "Claude/AI開発ツール",
-      "value": 3
+      "value": 3,
+      "tags": [
+        "Skill開発",
+        "自動レビュー",
+        "品質管理",
+        "継続的改善"
+      ]
     },
     {
       "id": "skill-md-specification",
       "label": "SKILL.md仕様：ファイル命名ルールとフォルダ構造",
       "group": "Claude/AI開発ツール",
-      "value": 17
+      "value": 17,
+      "tags": [
+        "スキル定義",
+        "ファイル構造",
+        "命名規則",
+        "ドキュメント化",
+        "自動化"
+      ]
     },
     {
       "id": "skill-memory-architecture-stateful-workflow",
       "label": "Skillのメモリアーキテクチャ：SQLite/JSONによる状態管理と自己参照型ワークフロー自動化",
       "group": "Claude/AI開発ツール",
-      "value": 14
+      "value": 14,
+      "tags": [
+        "Skill System",
+        "状態管理",
+        "SQLite",
+        "自己参照型ワークフロー",
+        "メモリ層"
+      ]
     },
     {
       "id": "skill-reusable-process-definition-manufacturing-knowledge-management",
       "label": "再利用可能プロセス定義によるSKILL.md：製造業の保守手順・トラブルシューティングの標準化と新人育成効率化",
-      "group": "Claude/AI開発ツール",
-      "value": 5
+      "group": "製造業・業務DX",
+      "value": 5,
+      "tags": [
+        "保守業務",
+        "ナレッジ標準化",
+        "新人育成",
+        "品質管理システム",
+        "Claude Code"
+      ]
     },
     {
       "id": "skill-system",
       "label": "Skill System：フォルダ単位のClaudeへの命令セット",
       "group": "Claude/AI開発ツール",
-      "value": 39
+      "value": 39,
+      "tags": [
+        "Skill System",
+        "プロンプト設計",
+        "自動化",
+        "ナレッジベース",
+        "業務効率化"
+      ]
     },
     {
       "id": "skill-testing-strategy",
       "label": "Skillテスト戦略：トリガー・機能・パフォーマンス検証の3段階",
       "group": "Claude/AI開発ツール",
-      "value": 14
+      "value": 14,
+      "tags": [
+        "Skillテスト",
+        "品質保証",
+        "自動テスト",
+        "パフォーマンス測定",
+        "Skill開発"
+      ]
     },
     {
       "id": "sleep-priority-performance-management",
       "label": "睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性",
-      "group": "健康・習慣",
-      "value": 20
+      "group": "キャリア・働き方",
+      "value": 20,
+      "tags": [
+        "睡眠",
+        "脳認知能力",
+        "コンディション管理",
+        "時間管理",
+        "ウェルネス"
+      ]
     },
     {
       "id": "smile-curve-strategy",
       "label": "スマイルカーブの終焉と『コ』の字型社会：製造業の戦略的転換",
-      "group": "ビジネス・組織",
-      "value": 11
+      "group": "製造業・業務DX",
+      "value": 11,
+      "tags": [
+        "スマイルカーブ",
+        "コ字型社会",
+        "価値創造",
+        "垂直統合",
+        "生産性向上"
+      ]
     },
     {
       "id": "software-paradigm-evolution-1-0-2-0-3-0",
       "label": "ソフトウェアパラダイムの進化：Software 1.0→2.0→3.0の段階的移行と使い分け戦略",
-      "group": "その他",
-      "value": 4
+      "group": "技術実装・エンジニアリング",
+      "value": 4,
+      "tags": [
+        "ソフトウェアパラダイム",
+        "LLM基盤",
+        "冗長化",
+        "継続学習",
+        "運用戦略"
+      ]
     },
     {
       "id": "space-economy-business-model",
       "label": "宇宙経済とビジネスモデル：衛星コンステレーション・通信・地球観測",
-      "group": "その他",
-      "value": 6
+      "group": "AI戦略・社会",
+      "value": 6,
+      "tags": [
+        "宇宙ビジネス",
+        "衛星コンステレーション",
+        "データ経済",
+        "国家安全保障",
+        "産業変革"
+      ]
     },
     {
       "id": "space-life-support-technology",
       "label": "宇宙生命維持技術：水再生・空気循環の地球応用とビジネスチャンス",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "宇宙ビジネス",
+        "資源再生",
+        "閉鎖系環境",
+        "イノベーション",
+        "政府支援"
+      ]
     },
     {
       "id": "spacex-defense-infrastructure-strategy",
       "label": "スペースXの防衛インフラ転換：民間衛星インフラの地政学的価値と国家基盤代替",
-      "group": "ビジネス・組織",
-      "value": 10
+      "group": "AI戦略・社会",
+      "value": 10,
+      "tags": [
+        "宇宙ビジネス",
+        "地政学リスク",
+        "防衛インフラ",
+        "垂直統合",
+        "イノベーション"
+      ]
     },
     {
       "id": "speed-first-prototyping",
       "label": "速さが命題：検討より先にプロトタイプを出す姿勢",
-      "group": "技術実装・エンジニアリング",
-      "value": 13
+      "group": "ビジネス・組織",
+      "value": 13,
+      "tags": [
+        "組織変革",
+        "プロトタイピング",
+        "高速反復学習",
+        "AI導入",
+        "失敗からの学習"
+      ]
     },
     {
       "id": "sre-agent-incident-automation-manufacturing",
       "label": "SREエージェントによるインシデント自動化：製造業への応用",
-      "group": "その他",
-      "value": 4
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "SRE",
+        "インシデント自動化",
+        "AIエージェント",
+        "システム管理",
+        "セキュリティ"
+      ]
     },
     {
       "id": "stablecoin-tax-comparison",
       "label": "ステーブルコイン税務比較：JPYC vs USDT日本における法的扱いの違い",
       "group": "資産・投資",
-      "value": 4
+      "value": 4,
+      "tags": [
+        "ステーブルコイン",
+        "税務",
+        "暗号資産",
+        "電子決済手段",
+        "JPYC"
+      ]
     },
     {
       "id": "strengths-leverage-task-design-productivity-multiplication",
       "label": "強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化",
-      "group": "その他",
-      "value": 5
+      "group": "ビジネス・組織",
+      "value": 5,
+      "tags": [
+        "強み活用",
+        "タスク設計",
+        "組織効率化",
+        "生産性向上",
+        "心理的フロー"
+      ]
     },
     {
       "id": "system-development-velocity-acceleration-ai-tools",
       "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
-      "group": "その他",
-      "value": 12
+      "group": "ビジネス・組織",
+      "value": 12,
+      "tags": [
+        "組織変革",
+        "AI導入",
+        "生産性格差",
+        "業務効率化",
+        "意思決定"
+      ]
     },
     {
       "id": "task-delegation-automation-decision-framework",
       "label": "タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク",
-      "group": "その他",
-      "value": 11
+      "group": "キャリア・働き方",
+      "value": 11,
+      "tags": [
+        "自己投資",
+        "時間管理",
+        "生産性向上",
+        "業務自動化",
+        "意思決定"
+      ]
     },
     {
       "id": "tesla-cybercab-vertical-integration-strategy",
       "label": "テスラ サイバーキャブ：完全無人自動運転と垂直統合戦略",
-      "group": "その他",
-      "value": 4
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "自動運転",
+        "垂直統合",
+        "ビジネスモデル",
+        "AI戦略",
+        "データ駆動"
+      ]
     },
     {
       "id": "tiered-ai-model-planning-verification-execution",
       "label": "段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行",
-      "group": "その他",
-      "value": 6
+      "group": "技術実装・エンジニアリング",
+      "value": 6,
+      "tags": [
+        "コスト最適化",
+        "API利用",
+        "モデル選択",
+        "ワークフロー",
+        "AI導入"
+      ]
     },
     {
       "id": "time-capital-health-investment-narrative",
       "label": "時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ",
-      "group": "健康・習慣",
-      "value": 13
+      "group": "キャリア・働き方",
+      "value": 13,
+      "tags": [
+        "自己投資",
+        "ウェルネス",
+        "時間管理",
+        "脳パフォーマンス",
+        "キャリア戦略"
+      ]
     },
     {
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
-      "group": "その他",
-      "value": 15
+      "group": "ビジネス・組織",
+      "value": 15,
+      "tags": [
+        "リーダーシップ",
+        "信頼醸成",
+        "意思決定",
+        "組織変革",
+        "コンテキスト管理"
+      ]
     },
     {
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
-      "group": "その他",
-      "value": 7
+      "group": "ビジネス・組織",
+      "value": 7,
+      "tags": [
+        "組織変革",
+        "AI導入",
+        "リーダーシップ",
+        "継続学習",
+        "生産性格差"
+      ]
     },
     {
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 18
+      "value": 18,
+      "tags": [
+        "アンラーン",
+        "継続学習",
+        "メタスキル",
+        "価値創造",
+        "組織変革"
+      ]
     },
     {
       "id": "video-content-metadata-collection-strategy",
       "label": "動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理",
-      "group": "その他",
-      "value": 1
+      "group": "個人OS・知識管理",
+      "value": 1,
+      "tags": [
+        "YouTube",
+        "メタデータ",
+        "情報収集",
+        "ナレッジベース",
+        "業務効率化"
+      ]
     },
     {
       "id": "voice-phone-ai-interface",
       "label": "声と電話によるAIインターフェース：直感的なチェックインと生活統合",
-      "group": "プロンプト・AI活用",
-      "value": 5
+      "group": "Claude/AI開発ツール",
+      "value": 5,
+      "tags": [
+        "音声インターフェース",
+        "電話連携",
+        "コンテキスト統合",
+        "タスク自動化",
+        "アクセシビリティ"
+      ]
     },
     {
       "id": "wearable-device-workplace-privacy-governance",
       "label": "ウェアラブルデバイスと職場監視：プライバシー・データガバナンスの倫理的枠組み",
-      "group": "その他",
-      "value": 4
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "職場監視",
+        "プライバシー",
+        "データガバナンス",
+        "労働者信頼",
+        "倫理的課題"
+      ]
     },
     {
       "id": "wellness-eq-capital-ai-era-competitive-advantage",
       "label": "ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位",
-      "group": "健康・習慣",
-      "value": 13
+      "group": "キャリア・働き方",
+      "value": 13,
+      "tags": [
+        "ウェルネス",
+        "信頼構築",
+        "EQ経済",
+        "生きがい資産",
+        "AI失業"
+      ]
     },
     {
       "id": "workflow-skill-definition",
       "label": "ワークフローのSkill化：業務手順の標準化と共有",
       "group": "Claude/AI開発ツール",
-      "value": 8
+      "value": 8,
+      "tags": [
+        "Skill System",
+        "ワークフロー",
+        "業務標準化",
+        "ナレッジ共有",
+        "形式知化"
+      ]
     },
     {
       "id": "worktree-parallel-task-workflow",
       "label": "Gitワークツリーによる並列タスク処理：3-5並列作業の生産性最大化",
       "group": "Claude/AI開発ツール",
-      "value": 2
+      "value": 2,
+      "tags": [
+        "Git worktree",
+        "並列タスク",
+        "開発フロー",
+        "コンテキスト管理",
+        "環境最適化"
+      ]
     }
   ],
   "edges": [

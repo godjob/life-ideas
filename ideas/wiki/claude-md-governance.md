@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [CLAUDE.md, 運用フレームワーク, 経営判断, 日次改善, 自動化]
+---
+
 # CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ
 
 ## 概要

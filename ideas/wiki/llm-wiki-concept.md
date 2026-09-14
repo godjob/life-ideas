@@ -1,3 +1,8 @@
+---
+category: 個人OS・知識管理
+tags: [LLM Wiki, 知識ベース, 自動化, 相互参照, Skill System]
+---
+
 # LLM Wiki コンセプト
 
 ## 概要

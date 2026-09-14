@@ -1,3 +1,8 @@
+---
+category: Claude/AI開発ツール
+tags: [Skill System, Fable 5, AIオーケストレーター, プロトタイピング]
+---
+
 # Anthropic Coursesの学習体系と実装
 
 ## 概要
