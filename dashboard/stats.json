@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T21:16:19+09:00",
+  "generatedAt": "2026-09-14T21:29:12+09:00",
   "weekly": {
-    "commitCount": 47,
+    "commitCount": 53,
     "byDay": [
       {
         "date": "2026-09-08",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-14",
-        "count": 35
+        "count": 41
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 87
+    "other": 93
   },
   "recentCommits": [
     {
       "date": "2026-09-14",
-      "message": "dashboard: Wiki の検索欄を統一・✖クリア・タグのトグル解除・パンくず Wiki でインデックスへ v1.46"
+      "message": "dashboard: Wiki の関連・被リンクを記事下部に移動し全件表示、本文の「関連ページ」節は表示から除去 v1.47"
     },
     {
       "date": "2026-09-14",
