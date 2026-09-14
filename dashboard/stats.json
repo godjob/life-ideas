@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T19:23:53+09:00",
+  "generatedAt": "2026-09-14T19:58:56+09:00",
   "weekly": {
-    "commitCount": 19,
+    "commitCount": 23,
     "byDay": [
       {
         "date": "2026-09-08",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-14",
-        "count": 7
+        "count": 11
       }
     ]
   },
@@ -39,28 +39,28 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 59
+    "other": 63
   },
   "recentCommits": [
     {
       "date": "2026-09-14",
+      "message": "wiki: manufacturing-ai-opportunities に「主要な知見」セクションを追加"
+    },
+    {
+      "date": "2026-09-14",
+      "message": "dashboard: Claude使用量更新 (2026-09-14)"
+    },
+    {
+      "date": "2026-09-14",
+      "message": "dashboard: Claude使用量更新 (2026-09-14)"
+    },
+    {
+      "date": "2026-09-14",
+      "message": "dashboard: Claude使用量更新 (2026-09-14)"
+    },
+    {
+      "date": "2026-09-14",
       "message": "wiki: 知識グラフ更新（275ノード / 2952エッジ）"
-    },
-    {
-      "date": "2026-09-14",
-      "message": "scrap: 2026-09-14 Dan Koe「新年の抱負はほとんど無意味」長文要・【AI×因果推論で“あなたに効く”治療法がわかる】・【AI駆動開発】300人をリモートで率いるCTOにほか3件"
-    },
-    {
-      "date": "2026-09-14",
-      "message": "dashboard: Claude使用量更新 (2026-09-14)"
-    },
-    {
-      "date": "2026-09-14",
-      "message": "dashboard: Claude使用量更新 (2026-09-14)"
-    },
-    {
-      "date": "2026-09-14",
-      "message": "dashboard: Claude使用量更新 (2026-09-14)"
     }
   ]
 }
