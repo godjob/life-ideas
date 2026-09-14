@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-09-14T21:39:46+09:00",
+  "generatedAt": "2026-09-15T04:41:35+09:00",
   "weekly": {
-    "commitCount": 56,
+    "commitCount": 55,
     "byDay": [
-      {
-        "date": "2026-09-08",
-        "count": 2
-      },
       {
         "date": "2026-09-09",
         "count": 2
@@ -29,7 +25,11 @@
       },
       {
         "date": "2026-09-14",
-        "count": 44
+        "count": 45
+      },
+      {
+        "date": "2026-09-15",
+        "count": 0
       }
     ]
   },
@@ -37,11 +37,15 @@
     "scrap": 1,
     "ideas": 0,
     "health": 0,
-    "books": 0,
+    "books": 1,
     "portfolio": 0,
     "other": 96
   },
   "recentCommits": [
+    {
+      "date": "2026-09-14",
+      "message": "読書記録: 1件追加・更新"
+    },
     {
       "date": "2026-09-14",
       "message": "dashboard: Wiki 更新ログを index と同じテーブル形式で表示 v1.48"
@@ -57,10 +61,6 @@
     {
       "date": "2026-09-14",
       "message": "dashboard: Wiki の関連・被リンクを記事下部に移動し全件表示、本文の「関連ページ」節は表示から除去 v1.47"
-    },
-    {
-      "date": "2026-09-14",
-      "message": "dashboard: Claude使用量更新 (2026-09-14)"
     }
   ]
 }
