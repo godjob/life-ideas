@@ -56,12 +56,23 @@
       font-size: 0.82rem; color: #333; background: #fff;
     }
     .search-date span { color: #888; font-size: 0.85rem; }
+    /* 検索欄＋右端の ✖（テキストがある時だけ表示） */
+    .search-field { position: relative; flex: 1; min-width: 120px; max-width: 280px; display: flex; }
     .search-text-input {
-      flex: 1; min-width: 120px; max-width: 280px;
-      border: 1px solid #ccc; border-radius: 4px; padding: 4px 8px;
+      width: 100%; box-sizing: border-box;
+      border: 1px solid #ccc; border-radius: 4px; padding: 4px 26px 4px 8px;
       font-size: 0.85rem; color: #333;
     }
     .search-text-input:focus { outline: none; border-color: #e94560; }
+    .search-clear {
+      position: absolute; right: 2px; top: 50%; transform: translateY(-50%);
+      display: none; width: 22px; height: 22px; line-height: 22px; text-align: center;
+      border: none; background: none; color: #999; font-size: 1rem; cursor: pointer; padding: 0;
+      border-radius: 50%;
+    }
+    .search-clear:hover { color: #e94560; background: #fde8ec; }
+    .search-field.has-text .search-clear { display: block; }
+    .search-reset-btn.hidden { display: none; }
     .search-btn {
       background: #e94560; color: #fff; border: none; border-radius: 4px;
       padding: 5px 14px; font-size: 0.82rem; cursor: pointer;
@@ -126,12 +137,6 @@
       -webkit-box-orient: vertical; overflow: hidden; line-height: 1.35;
       padding: 8px 14px;
     }
-    .wiki-filter {
-      display: block; width: calc(100% - 16px); margin: 0 8px 6px;
-      padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px;
-      font-size: 0.82rem; color: #333; box-sizing: border-box; background: #fff;
-    }
-    .wiki-filter:focus { outline: none; border-color: #e94560; }
     #file-list details.wiki-group { margin-top: 2px; }
     #file-list details.wiki-group > summary {
       display: flex; align-items: center; gap: 6px;
@@ -187,6 +192,10 @@
     .wiki-chip.cat { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
     .wiki-chip.tag { cursor: pointer; }
     .wiki-chip.tag:hover { border-color: #e94560; color: #e94560; }
+    .wiki-chip.tag.active { background: #e94560; border-color: #e94560; color: #fff; }
+    .wiki-chip.tag.active:hover { background: #c73652; }
+    .wiki-crumb-root { cursor: pointer; }
+    .wiki-crumb-root:hover { color: #e94560; text-decoration: underline; }
     .wiki-chip.link {
       cursor: pointer; background: #fff; color: #e94560; border-color: #f3c1cb; max-width: 280px;
     }
@@ -462,9 +471,12 @@
     <span>〜</span>
     <input type="date" id="date-to" title="終了日">
   </div>
-  <input type="text" id="search-text" class="search-text-input" placeholder="キーワード検索..." onkeydown="if(event.key==='Enter')doSearch()">
+  <div class="search-field" id="search-field">
+    <input type="text" id="search-text" class="search-text-input" placeholder="キーワード検索..." onkeydown="if(event.key==='Enter')doSearch()">
+    <button class="search-clear" id="search-clear" onclick="clearSearchText()" title="クリア" aria-label="検索キーワードをクリア">✕</button>
+  </div>
   <button class="search-btn" onclick="doSearch()">検索</button>
-  <button class="search-reset-btn" onclick="resetSearch()">リセット</button>
+  <button class="search-reset-btn" id="search-reset-btn" onclick="resetSearch()">リセット</button>
   <span id="search-count" class="search-count"></span>
 </div>
 
@@ -493,7 +505,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.45';
+  const VERSION = 'v1.46';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -710,7 +722,11 @@
     fwd.addEventListener('click', () => { if (wikiHistoryIdx < wikiHistoryMax) history.forward(); });
     const crumb = document.createElement('span');
     crumb.className = 'wiki-crumb';
-    crumb.textContent = 'Wiki';
+    const root = document.createElement('span');
+    root.className = 'wiki-crumb-root'; root.textContent = 'Wiki';
+    root.title = 'Wiki インデックスへ';
+    root.addEventListener('click', () => openWikiSlug('index'));
+    crumb.appendChild(root);
     if (category) {
       const sep = document.createElement('span');
       sep.className = 'wiki-crumb-sep'; sep.textContent = '›';
@@ -758,11 +774,14 @@
     tags.forEach(t => {
       const chip = document.createElement('span');
       chip.className = 'wiki-chip tag'; chip.textContent = '#' + t;
+      chip.dataset.tag = t;
       chip.title = 'このタグで絞り込む';
-      chip.addEventListener('click', () => setWikiFilter(t));
+      chip.addEventListener('click', () => setWikiFilter(t, { toggle: true }));
       row1.appendChild(chip);
     });
     if (row1.childNodes.length) wrap.appendChild(row1);
+    // 既に同じ語で絞り込み中ならハイライトを付けて描画
+    setTimeout(updateWikiTagChips, 0);
 
     const addLinkRow = (labelText, slugs) => {
       if (!slugs.length) return;
@@ -848,18 +867,41 @@
       const shouldOpen = q ? true : saved[d.dataset.group] !== false;
       if (d.open !== shouldOpen) { wikiProgrammaticOpen.add(d); d.open = shouldOpen; }
     });
-  }
-  function setWikiFilter(value) {
-    const listEl = document.getElementById('file-list');
-    let input = listEl.querySelector('.wiki-filter');
-    if (!input) {
-      // 検索結果（フラット表示）中はグループ表示に戻してから絞り込む
-      renderWikiSidebar(listEl);
-      input = listEl.querySelector('.wiki-filter');
-      if (!input) return;
+    // モバイルの <select> も同じ条件で絞り込む（サイドバーは非表示のため）
+    const select = document.getElementById('mobile-select');
+    if (select && currentTab === 'wiki') {
+      [...select.options].forEach(opt => {
+        const f = allFiles[parseInt(opt.value, 10)];
+        const hit = !q || opt.textContent.toLowerCase().includes(q)
+          || (f && Array.isArray(f.tags) && f.tags.join(',').toLowerCase().includes(q));
+        opt.hidden = !hit;
+      });
     }
-    input.value = value;
-    applyWikiFilter(value);
+    updateWikiTagChips();
+  }
+  // 記事メタのタグチップ: 現在の絞り込み語と一致するものをハイライト
+  function updateWikiTagChips() {
+    const q = (document.getElementById('search-text').value || '').trim().toLowerCase();
+    document.querySelectorAll('.wiki-chip.tag').forEach(chip => {
+      const tag = (chip.dataset.tag || '').toLowerCase();
+      chip.classList.toggle('active', !!q && tag === q);
+      chip.title = chip.classList.contains('active') ? '絞り込みを解除' : 'このタグで絞り込む';
+    });
+  }
+  // 絞り込み語を設定する（検索欄と共用）。同じ語を再指定したら解除（タグチップのトグル用）
+  function setWikiFilter(value, { toggle = false } = {}) {
+    const listEl = document.getElementById('file-list');
+    const input = document.getElementById('search-text');
+    const next = (toggle && input.value.trim().toLowerCase() === String(value).trim().toLowerCase()) ? '' : value;
+    if (input.value !== next) input.value = next;
+    updateSearchClearButton();
+    // 本文検索の結果（フラット表示）中はグループ表示に戻してから絞り込む
+    if (!listEl.querySelector('details.wiki-group')) {
+      currentSearchQuery = '';
+      document.getElementById('search-count').textContent = '';
+      renderWikiSidebar(listEl);
+    }
+    applyWikiFilter(next);
     listEl.scrollTop = 0;
   }
 
@@ -874,12 +916,7 @@
       openFile(path, item);
     };
 
-    const filter = document.createElement('input');
-    filter.type = 'search'; filter.className = 'wiki-filter';
-    filter.placeholder = 'タイトル・タグで絞り込み';
-    filter.addEventListener('input', () => applyWikiFilter(filter.value));
-    listEl.appendChild(filter);
-
+    // 絞り込み欄は上部の検索欄（#search-text）と共用（Wiki タブでは入力のたびに即時絞り込み）
     const graphItem = document.createElement('div');
     graphItem.className = 'file-item'; graphItem.id = 'wiki-graph-item';
     graphItem.style.cssText = 'display:flex;align-items:center;gap:6px;';
@@ -1320,6 +1357,12 @@
     } else {
       searchBar.classList.add('hidden');
     }
+    // Wiki タブは検索欄が「即時絞り込み（Enter で本文検索）」を兼ねる。リセットは ✖ で代替
+    const searchText = document.getElementById('search-text');
+    searchText.value = '';
+    searchText.placeholder = dir === 'wiki' ? 'タイトル・タグで絞り込み（Enterで本文検索）' : 'キーワード検索...';
+    document.getElementById('search-reset-btn').classList.toggle('hidden', dir === 'wiki');
+    updateSearchClearButton();
     document.getElementById('search-count').textContent = '';
     document.getElementById('mobile-nav').classList.remove('visible');
 
@@ -1471,6 +1514,13 @@
     // 検索結果（doSearch のコピー配列）は従来どおりフラット表示
     if (currentTab === 'wiki' && files === allFiles) {
       renderWikiSidebar(listEl);
+      // 表示中のページがあればそのまま維持する（インデックスへ飛ばさない）
+      const keepIdx = wikiCurrentPath ? files.findIndex(f => f.path === wikiCurrentPath) : -1;
+      if (keepIdx >= 0) {
+        currentFileIndex = keepIdx;
+        updateMobileNav(files, keepIdx);
+        return;
+      }
       currentFileIndex = 0;
       updateMobileNav(files, 0);
       const first = [...listEl.querySelectorAll('.file-item')].find(el => el.dataset.path);
@@ -1545,8 +1595,34 @@
     document.getElementById('date-to').value = '';
     document.getElementById('search-text').value = '';
     document.getElementById('search-count').textContent = '';
+    updateSearchClearButton();
+    wikiFilterActive = false;
     renderFileList(allFiles);
+    if (currentTab === 'wiki') applyWikiFilter('');
   }
+
+  // 検索欄の ✖: キーワードだけを消す（日付条件は維持）。Wiki は即時絞り込みも解除
+  function clearSearchText() {
+    const input = document.getElementById('search-text');
+    input.value = '';
+    updateSearchClearButton();
+    if (currentTab === 'wiki') {
+      setWikiFilter('');
+    } else {
+      doSearch();
+    }
+    input.focus();
+  }
+  function updateSearchClearButton() {
+    const field = document.getElementById('search-field');
+    const input = document.getElementById('search-text');
+    if (field && input) field.classList.toggle('has-text', input.value.length > 0);
+  }
+  document.getElementById('search-text').addEventListener('input', () => {
+    updateSearchClearButton();
+    // Wiki タブ: 入力のたびにサイドバーをタイトル・タグで即時絞り込み（Enter で本文検索）
+    if (currentTab === 'wiki') setWikiFilter(document.getElementById('search-text').value);
+  });
 
   // ===== URLsタブ専用処理 =====
 
