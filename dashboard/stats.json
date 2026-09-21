@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T19:43:57+09:00",
+  "generatedAt": "2026-09-21T19:45:54+09:00",
   "weekly": {
-    "commitCount": 22,
+    "commitCount": 24,
     "byDay": [
       {
         "date": "2026-09-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-21",
-        "count": 10
+        "count": 12
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 2,
     "portfolio": 0,
-    "other": 65
+    "other": 67
   },
   "recentCommits": [
+    {
+      "date": "2026-09-21",
+      "message": "statusline: リベース・マージ進行中は claude-usage.json を書き込まない"
+    },
+    {
+      "date": "2026-09-21",
+      "message": "dashboard: Claude使用量更新 (2026-09-21)"
+    },
     {
       "date": "2026-09-21",
       "message": "dashboard: Claude使用量更新 (2026-09-21)"
@@ -53,14 +61,6 @@
     {
       "date": "2026-09-21",
       "message": "news: 2026-09-21 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "読書記録: 2件追加・更新"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "wiki: 知識グラフ更新（280ノード / 3010エッジ）"
     }
   ]
 }
