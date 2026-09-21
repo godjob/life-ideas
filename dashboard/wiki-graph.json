@@ -68,7 +68,7 @@
       "id": "agi-societal-impact-responsible-development",
       "label": "AGIの社会的影響と責任ある開発",
       "group": "AI戦略・社会",
-      "value": 3,
+      "value": 4,
       "tags": [
         "AGI",
         "社会的影響",
@@ -81,7 +81,7 @@
       "id": "ai-accelerated-business-transformation-agency",
       "label": "AIによるビジネス変革加速：広告代理店における少人数・高成長モデル",
       "group": "ビジネス・組織",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AI導入",
         "組織変革",
@@ -94,7 +94,7 @@
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
       "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
       "group": "AI戦略・社会",
-      "value": 23,
+      "value": 24,
       "tags": [
         "AI導入遅延",
         "生産性格差",
@@ -117,10 +117,23 @@
       ]
     },
     {
+      "id": "ai-age-human-adaptability-strategy",
+      "label": "AI時代の人間適応戦略：落合陽一の提言",
+      "group": "キャリア・働き方",
+      "value": 3,
+      "tags": [
+        "AI適応",
+        "探求行動",
+        "デジタルネイチャー",
+        "結晶性知能",
+        "生きがい創出"
+      ]
+    },
+    {
       "id": "ai-agent-boom-end-human-core-strength",
       "label": "AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ",
       "group": "キャリア・働き方",
-      "value": 3,
+      "value": 4,
       "tags": [
         "運用負荷",
         "セキュリティ",
@@ -159,7 +172,7 @@
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "製造業・業務DX",
-      "value": 43,
+      "value": 44,
       "tags": [
         "運用自動化",
         "サプライチェーン",
@@ -172,7 +185,7 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 20,
+      "value": 21,
       "tags": [
         "最小権限原則",
         "エアギャップ",
@@ -211,7 +224,7 @@
       "id": "ai-as-infinite-subordinate-management",
       "label": "無限に働く部下としてのAI：活用と管理の原則",
       "group": "キャリア・働き方",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AI活用",
         "メタスキル",
@@ -250,7 +263,7 @@
       "id": "ai-automation-system-admin-differentiation-strategy",
       "label": "システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応",
       "group": "AI戦略・社会",
-      "value": 9,
+      "value": 10,
       "tags": [
         "システム管理",
         "自動化",
@@ -393,7 +406,7 @@
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
       "group": "健康・習慣",
-      "value": 5,
+      "value": 7,
       "tags": [
         "AIコーチング",
         "ウェアラブル",
@@ -432,7 +445,7 @@
       "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
       "group": "AIエージェント設計",
-      "value": 18,
+      "value": 19,
       "tags": [
         "AGI",
         "創造性",
@@ -458,7 +471,7 @@
       "id": "ai-democratization-low-cost-creation",
       "label": "AI民主化による低コスト創出：コスト削減から創造力解放へのパラダイムシフト",
       "group": "AI戦略・社会",
-      "value": 18,
+      "value": 17,
       "tags": [
         "AI民主化",
         "ソロプレナーシップ",
@@ -471,7 +484,7 @@
       "id": "ai-driven-development-cto-perspective",
       "label": "AI駆動開発：CTOに聞くエンジニアの未来と開発サイクル変革",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "AI駆動開発",
         "エンジニアの役割",
@@ -497,7 +510,7 @@
       "id": "ai-ecosystem-orchestration-strategy",
       "label": "AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AIエコシステム",
         "複数モデル",
@@ -536,7 +549,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "キャリア・働き方",
-      "value": 36,
+      "value": 37,
       "tags": [
         "AI時代の働き方",
         "自動化",
@@ -556,6 +569,19 @@
         "半導体市場",
         "デバイス統合",
         "NANDフラッシュ"
+      ]
+    },
+    {
+      "id": "ai-existential-risk-governance",
+      "label": "AIの存亡リスクとガバナンス：開発競争と国際規制",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "AIガバナンス",
+        "リスク管理",
+        "超知能",
+        "国際規制",
+        "地政学リスク"
       ]
     },
     {
@@ -588,7 +614,7 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "ビジネス・組織",
-      "value": 19,
+      "value": 21,
       "tags": [
         "AI疲れ",
         "判断負荷",
@@ -627,7 +653,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 15,
+      "value": 16,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -640,7 +666,7 @@
       "id": "ai-human-coexistence-risk-management",
       "label": "AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 7,
       "tags": [
         "AI依存",
         "セキュリティリスク",
@@ -731,7 +757,7 @@
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "AIエージェント設計",
-      "value": 23,
+      "value": 24,
       "tags": [
         "信頼性確保",
         "マネージドサービス",
@@ -780,6 +806,19 @@
       ]
     },
     {
+      "id": "ai-model-orchestration-judgment-generation",
+      "label": "AIモデルオーケストレーション：判定モデルと生成モデルの組み合わせ戦略",
+      "group": "ビジネス・組織",
+      "value": 4,
+      "tags": [
+        "AIモデル連携",
+        "業務効率化",
+        "意思決定",
+        "AI導入",
+        "システム設計"
+      ]
+    },
+    {
       "id": "ai-model-provider-vertical-integration",
       "label": "AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大",
       "group": "AI戦略・社会",
@@ -796,7 +835,7 @@
       "id": "ai-model-regulation-geopolitics",
       "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AIモデル規制",
         "地政学リスク",
@@ -874,7 +913,7 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "製造業・業務DX",
-      "value": 22,
+      "value": 24,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -939,7 +978,7 @@
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 14,
+      "value": 15,
       "tags": [
         "AIモニタリング",
         "コスト可視化",
@@ -991,7 +1030,7 @@
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
       "group": "キャリア・働き方",
-      "value": 8,
+      "value": 9,
       "tags": [
         "理解力",
         "解像度",
@@ -1004,7 +1043,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 14,
+      "value": 16,
       "tags": [
         "AI失業危機",
         "ベーシックインカム",
@@ -1094,7 +1133,7 @@
       "id": "as-little-ai-as-possible-principle",
       "label": "As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計",
       "group": "技術実装・エンジニアリング",
-      "value": 17,
+      "value": 18,
       "tags": [
         "システム設計",
         "AI導入",
@@ -1107,7 +1146,7 @@
       "id": "asi-economy-societal-transformation",
       "label": "ASIエコノミーと社会変革：2040年を見据えた未来予測",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "ASIエコノミー",
         "社会変革",
@@ -1249,7 +1288,7 @@
       "id": "causal-inference-manufacturing-process-improvement",
       "label": "製造業における因果推論：設備故障・品質問題の真因特定とAI活用",
       "group": "製造業・業務DX",
-      "value": 5,
+      "value": 6,
       "tags": [
         "因果推論",
         "設備故障",
@@ -1634,7 +1673,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 26,
+      "value": 28,
       "tags": [
         "結晶性知能",
         "AI時代のキャリア",
@@ -1686,7 +1725,7 @@
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 17,
+      "value": 18,
       "tags": [
         "データ統合",
         "サプライチェーン",
@@ -2215,6 +2254,19 @@
       ]
     },
     {
+      "id": "judgment-ai-model-manufacturing-application",
+      "label": "判定特化型AIモデルの製造業応用：品質検査と異常検知",
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "品質検査",
+        "異常検知",
+        "リアルタイム処理",
+        "確信度",
+        "業務効率化"
+      ]
+    },
+    {
       "id": "junior-engineer-retention-ai-era-succession-planning",
       "label": "ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持",
       "group": "ビジネス・組織",
@@ -2244,7 +2296,7 @@
       "id": "labor-money-decoupling",
       "label": "労働とお金の切り離し：AI自動化による収益化プロセスの構造化",
       "group": "AI戦略・社会",
-      "value": 16,
+      "value": 15,
       "tags": [
         "労働市場",
         "自動化",
@@ -2464,7 +2516,7 @@
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 40,
+      "value": 41,
       "tags": [
         "AI導入",
         "自動化",
@@ -2490,7 +2542,7 @@
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 12,
+      "value": 13,
       "tags": [
         "継続学習",
         "長期推論",
@@ -2552,6 +2604,19 @@
       ]
     },
     {
+      "id": "matagi-drive-ai-era-value-discovery",
+      "label": "マタギドライヴ：AI時代の価値発見と人間性",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "価値発見",
+        "狩猟採集",
+        "人間性",
+        "知能の価値",
+        "創造性"
+      ]
+    },
+    {
       "id": "mcp-skill-architecture",
       "label": "MCPとSkillの役割分担：ツール連携とワークフロー設計",
       "group": "Claude/AI開発ツール",
@@ -2568,7 +2633,7 @@
       "id": "meaning-creation-post-work-society-ai-era",
       "label": "仕事消滅社会での生きがい創出：AIが自動化した先の人間的価値と幸福設計",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 6,
       "tags": [
         "生きがい",
         "人間的価値",
@@ -2581,7 +2646,7 @@
       "id": "memory-dividend-experiential-investment-strategy",
       "label": "記憶の配当：経験への投資戦略と人生の充実",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "自己投資",
         "人生設計",
@@ -2594,7 +2659,7 @@
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "キャリア・働き方",
-      "value": 21,
+      "value": 22,
       "tags": [
         "メタスキル",
         "学び方",
@@ -2620,7 +2685,7 @@
       "id": "midlife-crisis-reframing-opportunity",
       "label": "中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計",
       "group": "キャリア・働き方",
-      "value": 14,
+      "value": 15,
       "tags": [
         "中年期の危機",
         "ナラティブ再構築",
@@ -2633,7 +2698,7 @@
       "id": "missing-link-ai-productivity-gap",
       "label": "AI生産性向上のミッシングリンク：個の効率化から組織変革へ",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 5,
       "tags": [
         "組織変革",
         "生産性向上",
@@ -2788,7 +2853,7 @@
       "id": "organizational-ai-adoption-acceleration-topdown-directive",
       "label": "組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化",
       "group": "ビジネス・組織",
-      "value": 33,
+      "value": 32,
       "tags": [
         "組織変革",
         "AI導入",
@@ -2892,7 +2957,7 @@
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "ビジネス・組織",
-      "value": 21,
+      "value": 20,
       "tags": [
         "プロダクトマネジメント",
         "学習駆動",
@@ -2917,7 +2982,7 @@
       "id": "process-ax-ai-reconstruction-strategy",
       "label": "プロセスAX：AIによる経営再構築戦略",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 3,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3020,7 +3085,7 @@
       "id": "qms-style-ai-prompt-governance",
       "label": "QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用",
       "group": "Claude/AI開発ツール",
-      "value": 39,
+      "value": 40,
       "tags": [
         "QMS",
         "CLAUDE.md",
@@ -3163,7 +3228,7 @@
       "id": "singularity-loop-ai-self-acceleration",
       "label": "シンギュラリティループ：AIが自律的に進化を加速させるメカニズム",
       "group": "AI戦略・社会",
-      "value": 9,
+      "value": 10,
       "tags": [
         "シンギュラリティ",
         "ASIエコノミー",
@@ -3474,7 +3539,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 18,
+      "value": 20,
       "tags": [
         "アンラーン",
         "継続学習",
@@ -3526,7 +3591,7 @@
       "id": "wellness-eq-capital-ai-era-competitive-advantage",
       "label": "ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位",
       "group": "キャリア・働き方",
-      "value": 13,
+      "value": 14,
       "tags": [
         "ウェルネス",
         "信頼構築",
@@ -3861,11 +3926,19 @@
     },
     {
       "from": "agi-societal-impact-responsible-development",
+      "to": "ai-existential-risk-governance"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
       "to": "ai-governance-human-oversight-framework"
     },
     {
       "from": "agi-societal-impact-responsible-development",
       "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
     },
     {
       "from": "agi-societal-impact-responsible-development",
@@ -3925,6 +3998,10 @@
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "ai-bubble-sustainability-strategy"
     },
     {
@@ -3961,6 +4038,10 @@
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
+      "to": "missing-link-ai-productivity-gap"
+    },
+    {
+      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "non-engineer-skill-development-claude-code-democratization"
     },
     {
@@ -3970,14 +4051,6 @@
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "organizational-ai-knowledge-asset-management"
-    },
-    {
-      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
-      "to": "pm-exponential-adaptation"
-    },
-    {
-      "from": "ai-adoption-productivity-gap-competitive-disadvantage",
-      "to": "process-ax-ai-reconstruction-strategy"
     },
     {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
@@ -4066,6 +4139,50 @@
     {
       "from": "ai-adoption-resistance-mitigation",
       "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-as-infinite-subordinate-management"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-automation-system-admin-differentiation-strategy"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-human-coexistence-risk-management"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "meaning-creation-post-work-society-ai-era"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "midlife-crisis-reframing-opportunity"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "ai-agent-boom-end-human-core-strength",
@@ -4213,6 +4330,10 @@
     },
     {
       "from": "ai-agent-operations",
+      "to": "ai-model-orchestration-judgment-generation"
+    },
+    {
+      "from": "ai-agent-operations",
       "to": "ai-self-improvement-development-acceleration"
     },
     {
@@ -4241,11 +4362,11 @@
     },
     {
       "from": "ai-agent-operations",
-      "to": "long-running-ai-agent-design-patterns"
+      "to": "judgment-ai-model-manufacturing-application"
     },
     {
       "from": "ai-agent-operations",
-      "to": "manufacturing-ai-opportunities"
+      "to": "long-running-ai-agent-design-patterns"
     },
     {
       "from": "ai-agent-operations",
@@ -5249,6 +5370,10 @@
     },
     {
       "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
+      "to": "matagi-drive-ai-era-value-discovery"
+    },
+    {
+      "from": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "to": "rethinking-defaults-continuous-improvement"
     },
     {
@@ -5752,6 +5877,38 @@
       "to": "personal-ai-assistant-automation-design"
     },
     {
+      "from": "ai-existential-risk-governance",
+      "to": "agi-societal-impact-responsible-development"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-human-coexistence-risk-management"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "asi-economy-societal-transformation"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "singularity-loop-ai-self-acceleration"
+    },
+    {
       "from": "ai-expert-ensemble-prompting",
       "to": "ai-board-decision-making"
     },
@@ -5946,6 +6103,10 @@
     {
       "from": "ai-human-coexistence-risk-management",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "ai-human-coexistence-risk-management",
+      "to": "ai-existential-risk-governance"
     },
     {
       "from": "ai-human-coexistence-risk-management",
@@ -6428,6 +6589,30 @@
       "to": "manufacturing-system-vulnerability-preemptive-audit"
     },
     {
+      "from": "ai-model-orchestration-judgment-generation",
+      "to": "ai-accelerated-business-transformation-agency"
+    },
+    {
+      "from": "ai-model-orchestration-judgment-generation",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "ai-model-orchestration-judgment-generation",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "ai-model-orchestration-judgment-generation",
+      "to": "ai-ecosystem-orchestration-strategy"
+    },
+    {
+      "from": "ai-model-orchestration-judgment-generation",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "ai-model-orchestration-judgment-generation",
+      "to": "judgment-ai-model-manufacturing-application"
+    },
+    {
       "from": "ai-model-provider-vertical-integration",
       "to": "ai-era-work-inversion"
     },
@@ -6458,6 +6643,10 @@
     {
       "from": "ai-model-regulation-geopolitics",
       "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "ai-model-regulation-geopolitics",
+      "to": "ai-existential-risk-governance"
     },
     {
       "from": "ai-model-regulation-geopolitics",
@@ -7198,6 +7387,10 @@
     {
       "from": "ai-understanding-resolution-human-value",
       "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "matagi-drive-ai-era-value-discovery"
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -9457,6 +9650,10 @@
     },
     {
       "from": "digital-deficit-national-security-risk",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "digital-deficit-national-security-risk",
       "to": "ai-labor-market-shift-capital-strategy"
     },
     {
@@ -10808,6 +11005,50 @@
       "to": "stablecoin-tax-comparison"
     },
     {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "ai-model-orchestration-judgment-generation"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "ai-system-monitoring-cost-visibility-tools"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "judgment-ai-model-manufacturing-application",
+      "to": "qms-style-ai-prompt-governance"
+    },
+    {
       "from": "junior-engineer-retention-ai-era-succession-planning",
       "to": "ai-fatigue-judgment-burden-mitigation"
     },
@@ -11793,15 +12034,15 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "ai-democratization-low-cost-creation"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "ai-era-work-inversion"
     },
     {
       "from": "manufacturing-ai-opportunities",
       "to": "ai-model-license-compliance-manufacturing"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "ai-model-orchestration-judgment-generation"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -11838,6 +12079,10 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "judgment-ai-model-manufacturing-application"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12232,6 +12477,50 @@
       "to": "manufacturing-ai-quick-wins"
     },
     {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "ai-agent-boom-end-human-core-strength"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "meaning-creation-post-work-society-ai-era"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "memory-dividend-experiential-investment-strategy"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "unlearning-capability-ai-era-competition"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "wellness-eq-capital-ai-era-competitive-advantage"
+    },
+    {
       "from": "mcp-skill-architecture",
       "to": "claude-chat-claude-code-workflow"
     },
@@ -12313,15 +12602,11 @@
     },
     {
       "from": "meaning-creation-post-work-society-ai-era",
-      "to": "labor-money-decoupling"
+      "to": "matagi-drive-ai-era-value-discovery"
     },
     {
       "from": "meaning-creation-post-work-society-ai-era",
       "to": "midlife-crisis-reframing-opportunity"
-    },
-    {
-      "from": "meaning-creation-post-work-society-ai-era",
-      "to": "organizational-ai-adoption-acceleration-topdown-directive"
     },
     {
       "from": "meaning-creation-post-work-society-ai-era",
@@ -12458,6 +12743,10 @@
     {
       "from": "middle-income-trap-manufacturing-strategy",
       "to": "strengths-leverage-task-design-productivity-multiplication"
+    },
+    {
+      "from": "midlife-crisis-reframing-opportunity",
+      "to": "ai-age-human-adaptability-strategy"
     },
     {
       "from": "midlife-crisis-reframing-opportunity",
@@ -13505,6 +13794,10 @@
     },
     {
       "from": "preemptive-workflow-optimization-ai-migration",
+      "to": "ai-model-orchestration-judgment-generation"
+    },
+    {
+      "from": "preemptive-workflow-optimization-ai-migration",
       "to": "approval-workflow-simplification-competitive-advantage"
     },
     {
@@ -13526,6 +13819,10 @@
     {
       "from": "preemptive-workflow-optimization-ai-migration",
       "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "preemptive-workflow-optimization-ai-migration",
+      "to": "judgment-ai-model-manufacturing-application"
     },
     {
       "from": "preemptive-workflow-optimization-ai-migration",

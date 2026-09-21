@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-09-21] ingest | 【AI時代を中年はどう生きるか：落合陽一】雑多な行動力／AI適応している人は2割／生産性200倍／デ
+- 更新ページ: [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md), [デジタル赤字と国家安全保障リスク](digital-deficit-national-security-risk.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [【AI時代を中年はどう生きるか：落合陽一】雑多な行動力／AI適応している人は2割](https://www.youtube.com/watch?v=FGpJ3uqXGcw)
+
+## [2026-09-21] ingest | 【徹底解説：マタギドライヴ（落合陽一）】自然とは何か？／知能はほぼゼロ価値に／能力の再分配／AIには
+- 更新ページ: [AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識](ai-creativity-self-reflection-limitation-human-judgment-necessity.md), [仕事消滅社会での生きがい創出：AIが自動化した先の人間的価値と幸福設計](meaning-creation-post-work-society-ai-era.md), [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md), [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md)
+- 出典: [【徹底解説：マタギドライヴ（落合陽一）】自然とは何か？／知能はほぼゼロ価値に／能](https://www.youtube.com/watch?v=vargxyYc76c)
+
+## [2026-09-21] ingest | 【AIで人類滅亡】研究者らが本気で警鐘？でも開発競争の中でブレーキできるの？規制は必要？研究者＆深津
+- 更新ページ: [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md), [AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感](ai-human-coexistence-risk-management.md), [AIモデル規制と地政学：国家戦略と企業の立ち位置](ai-model-regulation-geopolitics.md), [AIの存亡リスクとガバナンス：開発競争と国際規制](ai-existential-risk-governance.md)
+- 出典: [【AIで人類滅亡】研究者らが本気で警鐘？でも開発競争の中でブレーキできるの？規制](https://www.youtube.com/watch?v=JJQMWiOvhzI)
+
+## [2026-09-21] ingest | 【Jev 事例10本】「判定だけの AI」で爆速AI体験が実現！日本と海外の事例！ゲームチェンジャー
+- 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AI導入前の先制的業務フロー最適化：スムーズな移行設計と運用ナレッジ標準化](preemptive-workflow-optimization-ai-migration.md), [判定特化型AIモデルの製造業応用：品質検査と異常検知](judgment-ai-model-manufacturing-application.md), [AIモデルオーケストレーション：判定モデルと生成モデルの組み合わせ戦略](ai-model-orchestration-judgment-generation.md)
+- 出典: [【Jev 事例10本】「判定だけの AI」で爆速AI体験が実現！日本と海外の事例](https://www.youtube.com/watch?v=zrW_i8eYPlw)
+
 ## [2026-09-14] ingest | 【テスラのEV開発は全部「サイバーキャブ」への布石だった】“完全無人”実現のためAI・クルマ・アプリ
 - 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md), [AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト](ai-driven-workflow-reengineering.md), [テスラ サイバーキャブ：完全無人自動運転と垂直統合戦略](tesla-cybercab-vertical-integration-strategy.md), [E2E AIモデルの製造業応用：データ学習による物理現象理解と自動化](e2e-ai-model-manufacturing-application.md)
 - 出典: [【テスラのEV開発は全部「サイバーキャブ」への布石だった】“完全無人”実現のため](https://www.youtube.com/watch?v=iwvSw9mEoh4)
