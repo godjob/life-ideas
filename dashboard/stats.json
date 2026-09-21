@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T18:09:00+09:00",
+  "generatedAt": "2026-09-21T19:43:57+09:00",
   "weekly": {
-    "commitCount": 18,
+    "commitCount": 22,
     "byDay": [
       {
         "date": "2026-09-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-21",
-        "count": 6
+        "count": 10
       }
     ]
   },
@@ -37,30 +37,30 @@
     "scrap": 2,
     "ideas": 0,
     "health": 0,
-    "books": 1,
+    "books": 2,
     "portfolio": 0,
-    "other": 62
+    "other": 65
   },
   "recentCommits": [
     {
       "date": "2026-09-21",
+      "message": "dashboard: Claude使用量更新 (2026-09-21)"
+    },
+    {
+      "date": "2026-09-21",
+      "message": "git scrap: wiki-graph.json を scrap コミットに含める・共通前処理に --autostash を採用"
+    },
+    {
+      "date": "2026-09-21",
+      "message": "news: 2026-09-21 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-09-21",
+      "message": "読書記録: 2件追加・更新"
+    },
+    {
+      "date": "2026-09-21",
       "message": "wiki: 知識グラフ更新（280ノード / 3010エッジ）"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "scrap: 2026-09-21 【Jev 事例10本】「判定だけの AI」で爆速A・【AIで人類滅亡】研究者らが本気で警鐘？でも開発競・【徹底解説：マタギドライヴ（落合陽一）】自然とは何ほか1件"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "dashboard: Claude使用量更新 (2026-09-21)"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "dashboard: Claude使用量更新 (2026-09-21)"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "dashboard: Claude使用量更新 (2026-09-21)"
     }
   ]
 }
