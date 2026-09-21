@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T02:49:17+09:00",
+  "generatedAt": "2026-09-21T18:08:49+09:00",
   "weekly": {
-    "commitCount": 12,
+    "commitCount": 17,
     "byDay": [
       {
         "date": "2026-09-15",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-09-21",
-        "count": 0
+        "count": 5
       }
     ]
   },
   "byDirectory": {
-    "scrap": 1,
+    "scrap": 2,
     "ideas": 0,
     "health": 0,
     "books": 1,
     "portfolio": 0,
-    "other": 59
+    "other": 61
   },
   "recentCommits": [
     {
-      "date": "2026-09-20",
-      "message": "news: 2026-09-20 記事まとめを自動生成"
+      "date": "2026-09-21",
+      "message": "scrap: 2026-09-21 【Jev 事例10本】「判定だけの AI」で爆速A・【AIで人類滅亡】研究者らが本気で警鐘？でも開発競・【徹底解説：マタギドライヴ（落合陽一）】自然とは何ほか1件"
     },
     {
-      "date": "2026-09-20",
-      "message": "朝刊: 2026-09-19 Morning Edition生成"
+      "date": "2026-09-21",
+      "message": "dashboard: Claude使用量更新 (2026-09-21)"
     },
     {
-      "date": "2026-09-19",
-      "message": "news: 2026-09-19 記事まとめを自動生成"
+      "date": "2026-09-21",
+      "message": "dashboard: Claude使用量更新 (2026-09-21)"
     },
     {
-      "date": "2026-09-19",
-      "message": "朝刊: 2026-09-18 Morning Edition生成"
+      "date": "2026-09-21",
+      "message": "dashboard: Claude使用量更新 (2026-09-21)"
     },
     {
-      "date": "2026-09-18",
-      "message": "news: 2026-09-18 記事まとめを自動生成"
+      "date": "2026-09-21",
+      "message": "朝刊: 2026-09-20 Morning Edition生成"
     }
   ]
 }
