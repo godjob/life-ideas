@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-09-22T04:49:02+09:00",
+  "generatedAt": "2026-09-23T03:25:50+09:00",
   "weekly": {
     "commitCount": 22,
     "byDay": [
-      {
-        "date": "2026-09-16",
-        "count": 2
-      },
       {
         "date": "2026-09-17",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-09-22",
+        "count": 2
+      },
+      {
+        "date": "2026-09-23",
         "count": 0
       }
     ]
@@ -43,6 +43,14 @@
   },
   "recentCommits": [
     {
+      "date": "2026-09-22",
+      "message": "news: 2026-09-22 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-09-22",
+      "message": "朝刊: 2026-09-22 Morning Edition生成"
+    },
+    {
       "date": "2026-09-21",
       "message": "statusline: リベース・マージ進行中は claude-usage.json を書き込まない"
     },
@@ -53,14 +61,6 @@
     {
       "date": "2026-09-21",
       "message": "dashboard: Claude使用量更新 (2026-09-21)"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "git scrap: wiki-graph.json を scrap コミットに含める・共通前処理に --autostash を採用"
-    },
-    {
-      "date": "2026-09-21",
-      "message": "news: 2026-09-21 記事まとめを自動生成"
     }
   ]
 }
