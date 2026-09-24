@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-09-24] ingest | 【電話対応AIが問題を解決】OpenAI会長が仕掛ける“コールセンター革命”／チャットボットとは次元
+- 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [声と電話によるAIインターフェース：直感的なチェックインと生活統合](voice-phone-ai-interface.md), [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [AIコールセンター自動化：高顧客満足度とハーネスエンジニアリングによる精度向上](ai-call-center-automation.md), [Siera AIエージェントの製造業応用：ヘルプデスク・設備トラブル対応・業務完結](siera-ai-agent-manufacturing-application.md)
+- 出典: [【電話対応AIが問題を解決】OpenAI会長が仕掛ける“コールセンター革命”／チ](https://www.youtube.com/watch?v=q4WkxfqEcpo)
+
+## [2026-09-24] ingest | 【AGIは死語である。電力が足りない】サンフランシスコの大復活／ハイパースケーラーの支配構造／ゲイツ
+- 更新ページ: [先進国の再定義：計算能力とエネルギー生産力](advanced-nation-redefinition-energy-calculation.md), [AIデータセンターとエネルギー需要：電力消費量増大への対応戦略](ai-data-center-energy-demand-strategy.md), [AIの存亡リスクとガバナンス：開発競争と国際規制](ai-existential-risk-governance.md), [AIブームの地政学的影響とエネルギー制約](ai-boom-geopolitical-implications-energy-constraint.md)
+- 出典: [【AGIは死語である。電力が足りない】サンフランシスコの大復活／ハイパースケーラ](https://www.youtube.com/watch?v=RcghaLgWXZA)
+
+## [2026-09-24] ingest | 「就活は飽きるまでやれ」落合陽一が22歳に戻たら就活をどう攻略する？アプリ制作は消滅、ハードを持つ会
+- 更新ページ: [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略](fde-engineer-domain-knowledge-priority-career-design.md), [AIによる破壊的変化とハードウェア優位性](ai-disruption-hardware-advantage.md), [AI時代の就職活動戦略：飽きるまでやり抜く「核」の育成](job-hunting-strategy-ai-era.md)
+- 出典: [「就活は飽きるまでやれ」落合陽一が22歳に戻たら就活をどう攻略する？アプリ制作は](https://www.youtube.com/watch?v=UhJianqSRhE)
+
 ## [2026-09-21] ingest | 【AI時代を中年はどう生きるか：落合陽一】雑多な行動力／AI適応している人は2割／生産性200倍／デ
 - 更新ページ: [AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム](ai-adoption-productivity-gap-competitive-disadvantage.md), [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md), [デジタル赤字と国家安全保障リスク](digital-deficit-national-security-risk.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
 - 出典: [【AI時代を中年はどう生きるか：落合陽一】雑多な行動力／AI適応している人は2割](https://www.youtube.com/watch?v=FGpJ3uqXGcw)

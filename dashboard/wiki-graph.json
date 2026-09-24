@@ -17,7 +17,7 @@
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
       "group": "AI戦略・社会",
-      "value": 9,
+      "value": 11,
       "tags": [
         "国家安全保障",
         "デジタル赤字",
@@ -30,7 +30,7 @@
       "id": "agent-harness-reliability-framework",
       "label": "エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤",
       "group": "AIエージェント設計",
-      "value": 42,
+      "value": 43,
       "tags": [
         "誤り蓄積対策",
         "信頼性確保",
@@ -120,7 +120,7 @@
       "id": "ai-age-human-adaptability-strategy",
       "label": "AI時代の人間適応戦略：落合陽一の提言",
       "group": "キャリア・働き方",
-      "value": 3,
+      "value": 6,
       "tags": [
         "AI適応",
         "探求行動",
@@ -172,7 +172,7 @@
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "製造業・業務DX",
-      "value": 44,
+      "value": 46,
       "tags": [
         "運用自動化",
         "サプライチェーン",
@@ -263,7 +263,7 @@
       "id": "ai-automation-system-admin-differentiation-strategy",
       "label": "システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応",
       "group": "AI戦略・社会",
-      "value": 10,
+      "value": 11,
       "tags": [
         "システム管理",
         "自動化",
@@ -312,6 +312,19 @@
       ]
     },
     {
+      "id": "ai-boom-geopolitical-implications-energy-constraint",
+      "label": "AIブームの地政学的影響とエネルギー制約",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "地政学リスク",
+        "エネルギー問題",
+        "国際競争力",
+        "GPUインフラ",
+        "AIガバナンス"
+      ]
+    },
+    {
       "id": "ai-bubble-sustainability-strategy",
       "label": "AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件",
       "group": "AI戦略・社会",
@@ -338,6 +351,18 @@
       ]
     },
     {
+      "id": "ai-call-center-automation",
+      "label": "AIコールセンター自動化：高顧客満足度とハーネスエンジニアリングによる精度向上",
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "AIコールセンター",
+        "ハーネスエンジニアリング",
+        "顧客満足度",
+        "業務完結"
+      ]
+    },
+    {
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "ビジネス・組織",
@@ -354,7 +379,7 @@
       "id": "ai-capability-expectation-calibration-realistic-timeline",
       "label": "AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ",
       "group": "AI戦略・社会",
-      "value": 3,
+      "value": 5,
       "tags": [
         "AI導入",
         "AGI",
@@ -458,7 +483,7 @@
       "id": "ai-data-center-energy-demand-strategy",
       "label": "AIデータセンターとエネルギー需要：電力消費量増大への対応戦略",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 7,
       "tags": [
         "ASIエコノミー",
         "電力消費量",
@@ -481,6 +506,19 @@
       ]
     },
     {
+      "id": "ai-disruption-hardware-advantage",
+      "label": "AIによる破壊的変化とハードウェア優位性",
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "ハードウェア優位性",
+        "産業構造変化",
+        "労働市場",
+        "ビジネス戦略",
+        "アンラーン"
+      ]
+    },
+    {
       "id": "ai-driven-development-cto-perspective",
       "label": "AI駆動開発：CTOに聞くエンジニアの未来と開発サイクル変革",
       "group": "キャリア・働き方",
@@ -497,7 +535,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "ビジネス・組織",
-      "value": 29,
+      "value": 30,
       "tags": [
         "業務フロー再設計",
         "組織変革",
@@ -549,7 +587,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "キャリア・働き方",
-      "value": 37,
+      "value": 38,
       "tags": [
         "AI時代の働き方",
         "自動化",
@@ -575,7 +613,7 @@
       "id": "ai-existential-risk-governance",
       "label": "AIの存亡リスクとガバナンス：開発競争と国際規制",
       "group": "AI戦略・社会",
-      "value": 3,
+      "value": 4,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -614,7 +652,7 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "ビジネス・組織",
-      "value": 21,
+      "value": 22,
       "tags": [
         "AI疲れ",
         "判断負荷",
@@ -653,7 +691,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 16,
+      "value": 17,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -705,7 +743,7 @@
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
       "group": "AI戦略・社会",
-      "value": 11,
+      "value": 12,
       "tags": [
         "AI投資",
         "国際比較",
@@ -718,7 +756,7 @@
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 12,
+      "value": 13,
       "tags": [
         "労働市場",
         "資本戦略",
@@ -913,7 +951,7 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "製造業・業務DX",
-      "value": 24,
+      "value": 25,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -991,7 +1029,7 @@
       "id": "ai-talent-global-competition-manufacturing",
       "label": "AI人材のグローバル競争と製造業への影響",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "AI人材",
         "グローバル競争",
@@ -1043,7 +1081,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 16,
+      "value": 17,
       "tags": [
         "AI失業危機",
         "ベーシックインカム",
@@ -1107,7 +1145,7 @@
       "id": "apple-hardware-first-strategy-ai-inverse-bet",
       "label": "Apple「世紀の逆張り」戦略：AI過剰投資回避とハードウェア重視の経営判断",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 5,
       "tags": [
         "経営判断",
         "差別化戦略",
@@ -1276,7 +1314,7 @@
       "id": "causal-inference-ai-personalized-medicine",
       "label": "因果推論AIによる個別化医療：ハイベネフィットアプローチと適用",
       "group": "健康・習慣",
-      "value": 3,
+      "value": 4,
       "tags": [
         "個別化医療",
         "因果推論",
@@ -1288,7 +1326,7 @@
       "id": "causal-inference-manufacturing-process-improvement",
       "label": "製造業における因果推論：設備故障・品質問題の真因特定とAI活用",
       "group": "製造業・業務DX",
-      "value": 6,
+      "value": 7,
       "tags": [
         "因果推論",
         "設備故障",
@@ -1314,7 +1352,7 @@
       "id": "china-ai-semiconductor-geopolitics",
       "label": "中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "地政学リスク",
         "国際競争力",
@@ -1673,7 +1711,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 28,
+      "value": 29,
       "tags": [
         "結晶性知能",
         "AI時代のキャリア",
@@ -1699,7 +1737,7 @@
       "id": "daily-context-ai-partnership",
       "label": "日常開発文脈とAIパートナーシップ：開発環境と生活の地続き化",
       "group": "Claude/AI開発ツール",
-      "value": 4,
+      "value": 5,
       "tags": [
         "CLAUDE.md",
         "コンテキスト管理",
@@ -2010,7 +2048,7 @@
       "id": "government-energy-policy-monitoring",
       "label": "政府エネルギー政策モニタリング：経産省プレスリリースと資源エネルギー庁情報の自動追跡",
       "group": "技術実装・エンジニアリング",
-      "value": 6,
+      "value": 7,
       "tags": [
         "情報収集自動化",
         "政策モニタリング",
@@ -2036,7 +2074,7 @@
       "id": "harness-engineering-autonomous-development",
       "label": "ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン",
       "group": "AIエージェント設計",
-      "value": 11,
+      "value": 14,
       "tags": [
         "ハーネスエンジニアリング",
         "自動改善ループ",
@@ -2127,7 +2165,7 @@
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
       "group": "AI戦略・社会",
-      "value": 11,
+      "value": 12,
       "tags": [
         "GPUインフラ",
         "ベンダーロックイン",
@@ -2241,6 +2279,19 @@
       ]
     },
     {
+      "id": "job-hunting-strategy-ai-era",
+      "label": "AI時代の就職活動戦略：飽きるまでやり抜く「核」の育成",
+      "group": "キャリア・働き方",
+      "value": 4,
+      "tags": [
+        "キャリア戦略",
+        "継続学習",
+        "アンラーン",
+        "ドメイン知識",
+        "自己投資"
+      ]
+    },
+    {
       "id": "jpyc-tax-strategy",
       "label": "JPYC活用による税務最適化戦略：電子決済手段の特性と暗号資産との違い",
       "group": "資産・投資",
@@ -2296,7 +2347,7 @@
       "id": "labor-money-decoupling",
       "label": "労働とお金の切り離し：AI自動化による収益化プロセスの構造化",
       "group": "AI戦略・社会",
-      "value": 15,
+      "value": 16,
       "tags": [
         "労働市場",
         "自動化",
@@ -2374,7 +2425,7 @@
       "id": "llm-integration-technical-documentation-automation",
       "label": "LLM統合による技術資料自動化：設備仕様書・マニュアルの問題診断とメンテナンス計画自動化",
       "group": "製造業・業務DX",
-      "value": 15,
+      "value": 16,
       "tags": [
         "設備保全",
         "デジタル化",
@@ -2503,7 +2554,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 78,
+      "value": 82,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -2516,7 +2567,7 @@
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 41,
+      "value": 42,
       "tags": [
         "AI導入",
         "自動化",
@@ -2659,7 +2710,7 @@
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "キャリア・働き方",
-      "value": 22,
+      "value": 23,
       "tags": [
         "メタスキル",
         "学び方",
@@ -2801,7 +2852,7 @@
       "id": "nvidia-dominance-shift-cpu-revaluation",
       "label": "NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 8,
       "tags": [
         "半導体市場",
         "GPUインフラ",
@@ -2995,7 +3046,7 @@
       "id": "professional-longevity-expert-development-strategy",
       "label": "専門家としての長期的なキャリア戦略：凡事徹底と継続学習",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "継続学習",
         "凡事徹底",
@@ -3150,7 +3201,7 @@
       "id": "relationship-quality-leadership-theory",
       "label": "関係性の質とリーダーシップ理論",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 5,
       "tags": [
         "リーダーシップ",
         "関係性の質",
@@ -3222,6 +3273,19 @@
         "年功序列",
         "成果主義",
         "AI導入"
+      ]
+    },
+    {
+      "id": "siera-ai-agent-manufacturing-application",
+      "label": "Siera AIエージェントの製造業応用：ヘルプデスク・設備トラブル対応・業務完結",
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "Siera",
+        "ヘルプデスク",
+        "設備トラブル",
+        "業務完結",
+        "ハーネスエンジニアリング"
       ]
     },
     {
@@ -3396,7 +3460,7 @@
       "id": "speed-first-prototyping",
       "label": "速さが命題：検討より先にプロトタイプを出す姿勢",
       "group": "ビジネス・組織",
-      "value": 13,
+      "value": 14,
       "tags": [
         "組織変革",
         "プロトタイピング",
@@ -3409,7 +3473,7 @@
       "id": "sre-agent-incident-automation-manufacturing",
       "label": "SREエージェントによるインシデント自動化：製造業への応用",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 5,
       "tags": [
         "SRE",
         "インシデント自動化",
@@ -3539,7 +3603,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 20,
+      "value": 22,
       "tags": [
         "アンラーン",
         "継続学習",
@@ -3646,6 +3710,14 @@
     },
     {
       "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "ai-boom-geopolitical-implications-energy-constraint"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "advanced-nation-redefinition-energy-calculation",
       "to": "ai-era-work-inversion"
     },
     {
@@ -3738,6 +3810,10 @@
     },
     {
       "from": "agent-harness-reliability-framework",
+      "to": "ai-call-center-automation"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
       "to": "ai-failure-log"
     },
     {
@@ -3747,6 +3823,10 @@
     {
       "from": "agent-harness-reliability-framework",
       "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
     },
     {
       "from": "agent-harness-reliability-framework",
@@ -3766,6 +3846,10 @@
     },
     {
       "from": "agent-harness-reliability-framework",
+      "to": "harness-engineering-autonomous-development"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
       "to": "inference-era-gpu-infrastructure-strategy"
     },
     {
@@ -3774,11 +3858,19 @@
     },
     {
       "from": "agent-harness-reliability-framework",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
       "to": "multi-agent-pipeline-error-handling-checkpoint"
     },
     {
       "from": "agent-harness-reliability-framework",
       "to": "multi-agent-task-dependency-management"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
+      "to": "siera-ai-agent-manufacturing-application"
     },
     {
       "from": "agentic-engineering-supervisor-model",
@@ -4154,6 +4246,10 @@
     },
     {
       "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-disruption-hardware-advantage"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
       "to": "ai-fatigue-judgment-burden-mitigation"
     },
     {
@@ -4167,6 +4263,10 @@
     {
       "from": "ai-age-human-adaptability-strategy",
       "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "job-hunting-strategy-ai-era"
     },
     {
       "from": "ai-age-human-adaptability-strategy",
@@ -4889,6 +4989,50 @@
       "to": "workflow-skill-definition"
     },
     {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "ai-capability-expectation-calibration-realistic-timeline"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "ai-existential-risk-governance"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "ai-talent-global-competition-manufacturing"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "government-energy-policy-monitoring"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
+    },
+    {
       "from": "ai-bubble-sustainability-strategy",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
     },
@@ -4995,6 +5139,26 @@
     {
       "from": "ai-budget-management-roi-optimization",
       "to": "tiered-ai-model-planning-verification-execution"
+    },
+    {
+      "from": "ai-call-center-automation",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "ai-call-center-automation",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "ai-call-center-automation",
+      "to": "harness-engineering-autonomous-development"
+    },
+    {
+      "from": "ai-call-center-automation",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-call-center-automation",
+      "to": "siera-ai-agent-manufacturing-application"
     },
     {
       "from": "ai-capability-evolution-design-flexibility",
@@ -5386,6 +5550,10 @@
     },
     {
       "from": "ai-data-center-energy-demand-strategy",
+      "to": "ai-boom-geopolitical-implications-energy-constraint"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
       "to": "ai-capability-evolution-design-flexibility"
     },
     {
@@ -5407,6 +5575,10 @@
     {
       "from": "ai-data-center-energy-demand-strategy",
       "to": "nand-flash-memory-market-ai-demand"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
     },
     {
       "from": "ai-democratization-low-cost-creation",
@@ -5467,6 +5639,54 @@
     {
       "from": "ai-democratization-low-cost-creation",
       "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "ai-automation-system-admin-differentiation-strategy"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "apple-hardware-first-strategy-ai-inverse-bet"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "job-hunting-strategy-ai-era"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "labor-money-decoupling"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "ai-driven-development-cto-perspective",
@@ -5878,11 +6098,23 @@
     },
     {
       "from": "ai-existential-risk-governance",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "ai-existential-risk-governance",
       "to": "agi-societal-impact-responsible-development"
     },
     {
       "from": "ai-existential-risk-governance",
       "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-boom-geopolitical-implications-energy-constraint"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-data-center-energy-demand-strategy"
     },
     {
       "from": "ai-existential-risk-governance",
@@ -10090,7 +10322,15 @@
     },
     {
       "from": "fde-engineer-domain-knowledge-priority-career-design",
+      "to": "ai-disruption-hardware-advantage"
+    },
+    {
+      "from": "fde-engineer-domain-knowledge-priority-career-design",
       "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "fde-engineer-domain-knowledge-priority-career-design",
+      "to": "ai-era-work-inversion"
     },
     {
       "from": "fde-engineer-domain-knowledge-priority-career-design",
@@ -10118,6 +10358,10 @@
     },
     {
       "from": "fde-engineer-domain-knowledge-priority-career-design",
+      "to": "job-hunting-strategy-ai-era"
+    },
+    {
+      "from": "fde-engineer-domain-knowledge-priority-career-design",
       "to": "junior-engineer-retention-ai-era-succession-planning"
     },
     {
@@ -10131,6 +10375,14 @@
     {
       "from": "fde-engineer-domain-knowledge-priority-career-design",
       "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "fde-engineer-domain-knowledge-priority-career-design",
+      "to": "professional-longevity-expert-development-strategy"
+    },
+    {
+      "from": "fde-engineer-domain-knowledge-priority-career-design",
+      "to": "speed-first-prototyping"
     },
     {
       "from": "gemma-llm-model-selection-manufacturing",
@@ -10975,6 +11227,38 @@
     {
       "from": "jaxa-space-strategy-fund",
       "to": "spacex-defense-infrastructure-strategy"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "ai-capability-expectation-calibration-realistic-timeline"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "ai-disruption-hardware-advantage"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "causal-inference-ai-personalized-medicine"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "relationship-quality-leadership-theory"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "jpyc-tax-strategy",
@@ -12030,7 +12314,19 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "ai-agent-operations"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "ai-call-center-automation"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "ai-disruption-hardware-advantage"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12082,6 +12378,10 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "job-hunting-strategy-ai-era"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "judgment-ai-model-manufacturing-application"
     },
     {
@@ -12115,6 +12415,10 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "seniority-employment-ai-debt-transition-strategy"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "siera-ai-agent-manufacturing-application"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -14515,6 +14819,30 @@
     {
       "from": "seniority-employment-ai-debt-transition-strategy",
       "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "siera-ai-agent-manufacturing-application",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "siera-ai-agent-manufacturing-application",
+      "to": "ai-call-center-automation"
+    },
+    {
+      "from": "siera-ai-agent-manufacturing-application",
+      "to": "harness-engineering-autonomous-development"
+    },
+    {
+      "from": "siera-ai-agent-manufacturing-application",
+      "to": "llm-integration-technical-documentation-automation"
+    },
+    {
+      "from": "siera-ai-agent-manufacturing-application",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "siera-ai-agent-manufacturing-application",
+      "to": "sre-agent-incident-automation-manufacturing"
     },
     {
       "from": "singularity-loop-ai-self-acceleration",
@@ -15578,11 +15906,27 @@
     },
     {
       "from": "voice-phone-ai-interface",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "voice-phone-ai-interface",
       "to": "ai-adoption-resistance-mitigation"
     },
     {
       "from": "voice-phone-ai-interface",
+      "to": "ai-call-center-automation"
+    },
+    {
+      "from": "voice-phone-ai-interface",
       "to": "claude-md-governance"
+    },
+    {
+      "from": "voice-phone-ai-interface",
+      "to": "daily-context-ai-partnership"
+    },
+    {
+      "from": "voice-phone-ai-interface",
+      "to": "siera-ai-agent-manufacturing-application"
     },
     {
       "from": "wearable-device-workplace-privacy-governance",
