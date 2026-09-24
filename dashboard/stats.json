@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T20:22:15+09:00",
+  "generatedAt": "2026-09-24T20:24:28+09:00",
   "weekly": {
-    "commitCount": 32,
+    "commitCount": 35,
     "byDay": [
       {
         "date": "2026-09-18",
@@ -29,34 +29,34 @@
       },
       {
         "date": "2026-09-24",
-        "count": 7
+        "count": 10
       }
     ]
   },
   "byDirectory": {
     "scrap": 2,
     "ideas": 0,
-    "health": 0,
+    "health": 2,
     "books": 1,
     "portfolio": 0,
-    "other": 33
+    "other": 34
   },
   "recentCommits": [
     {
       "date": "2026-09-24",
+      "message": "ランニング分析: 2026年9月 涼期移行と腰の違和感"
+    },
+    {
+      "date": "2026-09-24",
+      "message": "dashboard: Claude使用量更新 (2026-09-24)"
+    },
+    {
+      "date": "2026-09-24",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
+    {
+      "date": "2026-09-24",
       "message": "scrap: 2026-09-24 「就活は飽きるまでやれ」落合陽一が22歳に戻たら就・【AGIは死語である。電力が足りない】サンフランシ・【電話対応AIが問題を解決】OpenAI会長が仕掛"
-    },
-    {
-      "date": "2026-09-24",
-      "message": "dashboard: Claude使用量更新 (2026-09-24)"
-    },
-    {
-      "date": "2026-09-24",
-      "message": "dashboard: Claude使用量更新 (2026-09-24)"
-    },
-    {
-      "date": "2026-09-24",
-      "message": "dashboard: Claude使用量更新 (2026-09-24)"
     },
     {
       "date": "2026-09-24",
