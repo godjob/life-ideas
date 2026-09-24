@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T20:24:28+09:00",
+  "generatedAt": "2026-09-24T20:26:09+09:00",
   "weekly": {
-    "commitCount": 35,
+    "commitCount": 38,
     "byDay": [
       {
         "date": "2026-09-18",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-24",
-        "count": 10
+        "count": 13
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 2,
     "books": 1,
     "portfolio": 0,
-    "other": 34
+    "other": 37
   },
   "recentCommits": [
     {
       "date": "2026-09-24",
-      "message": "ランニング分析: 2026年9月 涼期移行と腰の違和感"
+      "message": ".gitignore に .DS_Store を追加（前コミットの取りこぼし）"
     },
     {
       "date": "2026-09-24",
@@ -52,11 +52,11 @@
     },
     {
       "date": "2026-09-24",
-      "message": "ランニング記録更新: import_running.py実行"
+      "message": ".DS_Store を gitignore に追加し ideas/ の追跡を解除"
     },
     {
       "date": "2026-09-24",
-      "message": "scrap: 2026-09-24 「就活は飽きるまでやれ」落合陽一が22歳に戻たら就・【AGIは死語である。電力が足りない】サンフランシ・【電話対応AIが問題を解決】OpenAI会長が仕掛"
+      "message": "ランニング分析: 2026年9月 涼期移行と腰の違和感"
     },
     {
       "date": "2026-09-24",
