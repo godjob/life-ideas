@@ -251,6 +251,62 @@
     .markdown-body blockquote { border-left: 4px solid #e94560; padding-left: 16px; color: #666; margin: 12px 0; }
     .markdown-body input[type="checkbox"] { margin-right: 6px; }
 
+    /* ===== レポートページ（Running / Vitals タブ限定。openFile が .report-page を付与） ===== */
+    .markdown-body.report-page h2 {
+      font-size: 1.25rem; color: #1a1a2e; background: #eef0f7;
+      border-left: 6px solid #e94560; border-radius: 4px;
+      padding: 10px 14px; margin: 40px 0 16px;
+    }
+    .markdown-body.report-page h3 {
+      font-size: 1.05rem; color: #1a1a2e; margin: 20px 0 10px;
+      padding: 0 0 6px 10px; border-left: 4px solid #1a1a2e; border-bottom: 1px solid #e2e2e8;
+    }
+    .markdown-body.report-page h2,
+    .markdown-body.report-page h3 { scroll-margin-top: 64px; }
+    .markdown-body.report-page h4 {
+      font-size: 0.92rem; color: #555; font-weight: 600; margin: 16px 0 6px;
+    }
+    .markdown-body.report-page h4::before {
+      content: '▪'; color: #e94560; margin-right: 6px; font-size: 0.85em;
+    }
+    .markdown-body.report-page .entry-date {
+      color: #e94560; font-weight: 700; margin-right: 2px; font-variant-numeric: tabular-nums;
+    }
+    .markdown-body.report-page section.entry {
+      background: #fff; border: 1px solid #e2e2e8; border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(26, 26, 46, 0.06);
+      padding: 16px 20px 8px; margin: 16px 0 20px;
+    }
+    .markdown-body.report-page section.entry > h3:first-child { margin-top: 0; }
+    .markdown-body.report-page section.entry > :last-child { margin-bottom: 8px; }
+    /* 過去の分析（details）: summary の日付を見やすく */
+    .markdown-body.report-page details > summary { font-size: 0.95rem; }
+    .markdown-body.report-page details > summary strong { color: #1a1a2e; }
+    .markdown-body.report-page details > :not(summary):not(table) { margin-left: 14px; margin-right: 14px; }
+    /* 上部固定チップナビ。scroll 容器は .content-area。上方向の影で padding 帯を塗り本文の透けを防ぐ */
+    .report-toc {
+      position: sticky; top: 0; z-index: 20; background: #fff;
+      display: flex; flex-wrap: nowrap; align-items: center; gap: 6px;
+      overflow-x: auto; overflow-y: hidden; white-space: nowrap;
+      padding: 8px 0; margin: 0 0 8px;
+      border-bottom: 1px solid #e2e2e8;
+      box-shadow: 0 -40px 0 #fff, 0 4px 6px -4px rgba(26, 26, 46, 0.12);
+      scrollbar-width: thin; scrollbar-color: #d0d0dc transparent;
+    }
+    .report-toc::-webkit-scrollbar { height: 4px; }
+    .report-toc::-webkit-scrollbar-thumb { background: #d0d0dc; border-radius: 2px; }
+    .report-toc a.toc-chip {
+      flex: 0 0 auto; background: #f0f1f7; color: #1a1a2e; border: 1px solid #d6d9e8;
+      border-radius: 14px; padding: 4px 12px; font-size: 0.82rem; text-decoration: none;
+    }
+    .report-toc a.toc-chip.toc-sub {
+      background: #fff; color: #e94560; border-color: #f3c1cb;
+      padding: 2px 8px; font-size: 0.74rem; font-variant-numeric: tabular-nums;
+    }
+    .report-toc a.toc-chip:hover { background: #e94560; color: #fff; border-color: #e94560; text-decoration: none; }
+    .report-toc a.toc-chip.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+    .report-toc a.toc-chip.toc-sub.active { background: #e94560; color: #fff; border-color: #e94560; }
+
     /* ===== Booksタブ専用スタイル ===== */
     .book-cover-wrap {
       display: flex; gap: 16px; align-items: flex-start; margin-bottom: 16px;
@@ -402,6 +458,11 @@
         display: table; table-layout: fixed;
         overflow-x: visible; width: 100%;
       }
+      /* レポートページ: カード内余白を詰める */
+      .markdown-body.report-page section.entry { padding: 12px 12px 4px; margin: 12px 0 16px; }
+      .markdown-body.report-page h2 { margin-top: 32px; font-size: 1.15rem; padding: 8px 12px; }
+      .markdown-body.report-page details > :not(summary):not(table) { margin-left: 8px; margin-right: 8px; }
+      .report-toc { box-shadow: 0 -20px 0 #fff, 0 4px 6px -4px rgba(26, 26, 46, 0.12); }
 
       /* スクロール非表示アニメーション（滑らか化） */
       .search-bar:not(.hidden) {
@@ -511,7 +572,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.48';
+  const VERSION = 'v1.49';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -523,6 +584,9 @@
   const contentCache = new Map();
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health', 'vitals', 'running'];
+  // 見出し階層・エントリカード・上部固定チップナビを付けるタブ（applyReportPageLayout）
+  const REPORT_PAGE_TABS = ['running', 'vitals'];
+  let reportTocObserver = null;  // report-toc の現在位置ハイライト用（ページ切替で disconnect）
   const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action', 'wiki'];
   const DATE_FILTER_TABS = ['daily', 'news'];
 
@@ -1445,6 +1509,7 @@
     const listEl = document.getElementById('file-list');
     const contentEl = document.getElementById('content-area');
     contentEl.style.padding = '';  // タブ切り替え時にMagazinesのpadding:0をリセット
+    if (reportTocObserver) { reportTocObserver.disconnect(); reportTocObserver = null; }
     listEl.innerHTML = '<div class="file-item empty">読み込み中...</div>';
     contentEl.innerHTML = '<div style="padding:32px;color:#aaa;text-align:center;">読み込み中...</div>';
 
@@ -1843,6 +1908,123 @@
   // ===========================
 
   // ===== 記事タブ専用レンダラー =====
+  // 見出しにアンカーIDを付けてチップ型の目次 <nav> を返す（News / Running / Vitals 共用）。
+  // marked の見出しID出力には依存しない（DOM 後処理で ID を振る）。
+  // opts: className（nav の class・既定 news-toc）, headings（対象見出し・既定 root 内の全 h2）,
+  //       idPrefix（既定 section-）, chipClass（各 a の class）,
+  //       subItems(h) → [{ el, label }]（見出しの後ろに並べるサブチップ）
+  function buildHeadingToc(root, opts = {}) {
+    const headings = opts.headings ? [...opts.headings] : [...root.querySelectorAll('h2')];
+    if (headings.length === 0) return null;
+    const prefix = opts.idPrefix || 'section-';
+    const toc = document.createElement('nav');
+    toc.className = opts.className || 'news-toc';
+    const addLink = (target, id, label, cls) => {
+      target.id = id;
+      const a = document.createElement('a');
+      if (cls) a.className = cls;
+      a.href = `#${id}`;
+      a.textContent = label;
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      toc.appendChild(a);
+    };
+    headings.forEach((h, i) => {
+      const id = `${prefix}${i}`;
+      addLink(h, id, h.textContent, opts.chipClass);
+      if (opts.subItems) {
+        (opts.subItems(h) || []).forEach((s, j) => {
+          addLink(s.el, `${id}-${j}`, s.label, [opts.chipClass, 'toc-sub'].filter(Boolean).join(' '));
+        });
+      }
+    });
+    return toc;
+  }
+
+  // Running / Vitals の長い1ページに区切りを付ける（openFile から呼ぶ）
+  //  - 先頭が YYYY-MM-DD の h3 / details の summary は日付を <span class="entry-date"> に分離
+  //  - 直下の h3 〜 次の h2/h3 の直前を <section class="entry"> で包む（details の中は対象外）
+  //  - 最初の h2 の直前に上部固定のチップナビ（nav.report-toc）を置く
+  function applyReportPageLayout(md, scrollRoot) {
+    md.classList.add('report-page');
+    if (md.dataset.reportLayout === '1') return;  // 二重適用しない
+    md.dataset.reportLayout = '1';
+
+    const DATE_RE = /^\s*(\d{4}-\d{2}-\d{2})/;
+    const splitDate = (el) => {
+      const t = el && el.firstChild;
+      if (!t || t.nodeType !== 3) return false;
+      const m = t.nodeValue.match(DATE_RE);
+      if (!m) return false;
+      const span = document.createElement('span');
+      span.className = 'entry-date';
+      span.textContent = m[1];
+      t.nodeValue = t.nodeValue.slice(m[0].length);
+      el.insertBefore(span, t);
+      return true;
+    };
+    const children = () => [...md.children];
+    children().forEach(el => { if (el.tagName === 'H3') splitDate(el); });
+    md.querySelectorAll('details > summary').forEach(s => splitDate(s.querySelector('strong') || s));
+
+    // チップナビ（h2 ＋「最新の分析」配下の日付 h3 を MM/DD のサブチップに）
+    const h2s = children().filter(el => el.tagName === 'H2');
+    const subItems = (h2) => {
+      if (!h2.textContent.includes('最新の分析')) return [];
+      const items = [];
+      for (let el = h2.nextElementSibling; el && el.tagName !== 'H2'; el = el.nextElementSibling) {
+        const d = el.tagName === 'H3' && el.querySelector(':scope > .entry-date');
+        if (d) items.push({ el, label: d.textContent.slice(5).replace('-', '/') });
+      }
+      return items;
+    };
+    const toc = buildHeadingToc(md, {
+      className: 'report-toc', headings: h2s, idPrefix: 'report-sec-', chipClass: 'toc-chip', subItems,
+    });
+    if (toc) md.insertBefore(toc, h2s[0]);
+
+    // エントリのカード化
+    let section = null;
+    children().forEach(el => {
+      if (el.tagName === 'H2' || el === toc) { section = null; return; }
+      if (el.tagName === 'H3') {
+        section = document.createElement('section');
+        section.className = 'entry';
+        md.insertBefore(section, el);
+      }
+      if (section) section.appendChild(el);
+    });
+
+    // 現在位置のチップを active 表示（任意機能。未対応ブラウザでは何もしない）
+    if (!toc || !scrollRoot || typeof IntersectionObserver === 'undefined') return;
+    const links = [...toc.querySelectorAll('a')]
+      .map(a => ({ a, el: md.querySelector(`[id="${a.getAttribute('href').slice(1)}"]`) }))
+      .filter(x => x.el);
+    let current = null;
+    const setActive = (a) => {
+      if (a === current) return;
+      if (current) current.classList.remove('active');
+      current = a;
+      if (!a) return;
+      a.classList.add('active');
+      const left = a.offsetLeft - (toc.clientWidth - a.offsetWidth) / 2;
+      if (typeof toc.scrollTo === 'function') toc.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
+    };
+    const update = () => {
+      // 監視帯（上端〜高さ15%）と同じ基準で「上端を過ぎた最後の見出し」を現在位置とみなす
+      const r = scrollRoot.getBoundingClientRect();
+      const limit = r.top + Math.max(r.height * 0.15, toc.offsetHeight + 24) + 2;
+      let hit = null;
+      links.forEach(x => { if (x.el.getBoundingClientRect().top <= limit) hit = x.a; });
+      setActive(hit);
+    };
+    if (reportTocObserver) reportTocObserver.disconnect();
+    reportTocObserver = new IntersectionObserver(update, { root: scrollRoot, rootMargin: '0px 0px -85% 0px' });
+    links.forEach(x => reportTocObserver.observe(x.el));
+  }
+
   function renderNewsContent(html) {
     const div = document.createElement('div');
     div.innerHTML = html;
@@ -1879,22 +2061,8 @@
     }
 
     // h2 にアンカーID付与 + TOC生成
-    const h2s = div.querySelectorAll('h2');
-    if (h2s.length > 0) {
-      const toc = document.createElement('nav');
-      toc.className = 'news-toc';
-      h2s.forEach((h2, i) => {
-        const id = `section-${i}`;
-        h2.id = id;
-        const a = document.createElement('a');
-        a.href = `#${id}`;
-        a.textContent = h2.textContent;
-        a.addEventListener('click', (e) => {
-          e.preventDefault();
-          h2.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        });
-        toc.appendChild(a);
-      });
+    const toc = buildHeadingToc(div, { className: 'news-toc' });
+    if (toc) {
       const header = div.querySelector('.news-header');
       if (header) header.after(toc);
       else div.prepend(toc);
@@ -2009,6 +2177,13 @@
       updateWikiToolbar();
     } else {
       contentEl.innerHTML = `<div class="markdown-body">${rendered}</div>`;
+    }
+    // Running / Vitals: 見出し階層・カード・上部チップナビ。それ以外のタブでは report-page を外す
+    if (reportTocObserver) { reportTocObserver.disconnect(); reportTocObserver = null; }
+    const reportBody = contentEl.querySelector('.markdown-body');
+    if (reportBody) {
+      if (REPORT_PAGE_TABS.includes(currentTab)) applyReportPageLayout(reportBody, contentEl);
+      else reportBody.classList.remove('report-page');
     }
     resolveRelativeImages(contentEl, path);
     makeExternalLinksNewTab(contentEl);
