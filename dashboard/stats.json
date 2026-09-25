@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T03:45:34+09:00",
+  "generatedAt": "2026-09-25T23:26:13+09:00",
   "weekly": {
-    "commitCount": 39,
+    "commitCount": 61,
     "byDay": [
       {
         "date": "2026-09-19",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-09-25",
-        "count": 0
+        "count": 22
       }
     ]
   },
   "byDirectory": {
     "scrap": 2,
     "ideas": 0,
-    "health": 3,
+    "health": 4,
     "books": 2,
     "portfolio": 0,
-    "other": 38
+    "other": 57
   },
   "recentCommits": [
     {
-      "date": "2026-09-24",
-      "message": "CLAUDE.md: ランニング取り込みフローの自動/手動の担当を明記"
+      "date": "2026-09-25",
+      "message": "dashboard: Claude使用量更新 (2026-09-25)"
     },
     {
-      "date": "2026-09-24",
-      "message": "dashboard: Claude使用量更新 (2026-09-24)"
+      "date": "2026-09-25",
+      "message": "index.html v1.49: Running/Vitalsタブに見出し階層・カード・上部ナビを追加"
     },
     {
-      "date": "2026-09-24",
-      "message": "読書記録: 1件追加・更新"
+      "date": "2026-09-25",
+      "message": "dashboard: Claude使用量更新 (2026-09-25)"
     },
     {
-      "date": "2026-09-24",
-      "message": ".gitignore に .DS_Store を追加（前コミットの取りこぼし）"
+      "date": "2026-09-25",
+      "message": "running/vitals公開版: 分析を最新2本+過去折りたたみに再構成"
     },
     {
-      "date": "2026-09-24",
-      "message": "dashboard: Claude使用量更新 (2026-09-24)"
+      "date": "2026-09-25",
+      "message": "dashboard: Claude使用量更新 (2026-09-25)"
     }
   ]
 }
