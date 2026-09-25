@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T23:26:13+09:00",
+  "generatedAt": "2026-09-25T23:26:32+09:00",
   "weekly": {
-    "commitCount": 61,
+    "commitCount": 63,
     "byDay": [
       {
         "date": "2026-09-19",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-25",
-        "count": 22
+        "count": 24
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 4,
     "books": 2,
     "portfolio": 0,
-    "other": 57
+    "other": 59
   },
   "recentCommits": [
+    {
+      "date": "2026-09-25",
+      "message": "rules: Running/Vitals公開版の新しい並びを反映"
+    },
+    {
+      "date": "2026-09-25",
+      "message": "dashboard: Claude使用量更新 (2026-09-25)"
+    },
     {
       "date": "2026-09-25",
       "message": "dashboard: Claude使用量更新 (2026-09-25)"
@@ -49,14 +57,6 @@
     {
       "date": "2026-09-25",
       "message": "index.html v1.49: Running/Vitalsタブに見出し階層・カード・上部ナビを追加"
-    },
-    {
-      "date": "2026-09-25",
-      "message": "dashboard: Claude使用量更新 (2026-09-25)"
-    },
-    {
-      "date": "2026-09-25",
-      "message": "running/vitals公開版: 分析を最新2本+過去折りたたみに再構成"
     },
     {
       "date": "2026-09-25",
