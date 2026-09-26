@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-09-26T04:03:09+09:00",
+  "generatedAt": "2026-09-27T03:11:27+09:00",
   "weekly": {
     "commitCount": 61,
     "byDay": [
-      {
-        "date": "2026-09-20",
-        "count": 2
-      },
       {
         "date": "2026-09-21",
         "count": 15
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-09-26",
+        "count": 2
+      },
+      {
+        "date": "2026-09-27",
         "count": 0
       }
     ]
@@ -43,20 +43,20 @@
   },
   "recentCommits": [
     {
+      "date": "2026-09-26",
+      "message": "news: 2026-09-26 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-09-26",
+      "message": "朝刊: 2026-09-26 Morning Edition生成"
+    },
+    {
       "date": "2026-09-25",
       "message": "rules: Running/Vitals公開版の新しい並びを反映"
     },
     {
       "date": "2026-09-25",
       "message": "dashboard: Claude使用量更新 (2026-09-25)"
-    },
-    {
-      "date": "2026-09-25",
-      "message": "dashboard: Claude使用量更新 (2026-09-25)"
-    },
-    {
-      "date": "2026-09-25",
-      "message": "index.html v1.49: Running/Vitalsタブに見出し階層・カード・上部ナビを追加"
     },
     {
       "date": "2026-09-25",
