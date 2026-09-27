@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-09-27T03:11:27+09:00",
+  "generatedAt": "2026-09-28T03:48:16+09:00",
   "weekly": {
-    "commitCount": 61,
+    "commitCount": 48,
     "byDay": [
-      {
-        "date": "2026-09-21",
-        "count": 15
-      },
       {
         "date": "2026-09-22",
         "count": 2
@@ -29,6 +25,10 @@
       },
       {
         "date": "2026-09-27",
+        "count": 2
+      },
+      {
+        "date": "2026-09-28",
         "count": 0
       }
     ]
@@ -43,6 +43,14 @@
   },
   "recentCommits": [
     {
+      "date": "2026-09-27",
+      "message": "news: 2026-09-27 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-09-27",
+      "message": "朝刊: 2026-09-27 Morning Edition生成"
+    },
+    {
       "date": "2026-09-26",
       "message": "news: 2026-09-26 記事まとめを自動生成"
     },
@@ -53,14 +61,6 @@
     {
       "date": "2026-09-25",
       "message": "rules: Running/Vitals公開版の新しい並びを反映"
-    },
-    {
-      "date": "2026-09-25",
-      "message": "dashboard: Claude使用量更新 (2026-09-25)"
-    },
-    {
-      "date": "2026-09-25",
-      "message": "dashboard: Claude使用量更新 (2026-09-25)"
     }
   ]
 }
