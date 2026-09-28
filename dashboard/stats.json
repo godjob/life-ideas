@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-28T20:08:54+09:00",
+  "generatedAt": "2026-09-28T20:51:45+09:00",
   "weekly": {
-    "commitCount": 76,
+    "commitCount": 80,
     "byDay": [
       {
         "date": "2026-09-22",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-28",
-        "count": 18
+        "count": 22
       }
     ]
   },
@@ -37,30 +37,30 @@
     "scrap": 3,
     "ideas": 0,
     "health": 7,
-    "books": 4,
+    "books": 5,
     "portfolio": 0,
-    "other": 79
+    "other": 82
   },
   "recentCommits": [
     {
       "date": "2026-09-28",
+      "message": "読書記録: 目次見出しの無い公式ページにも対応し目次を15冊追加"
+    },
+    {
+      "date": "2026-09-28",
+      "message": "dashboard: Claude使用量更新 (2026-09-28)"
+    },
+    {
+      "date": "2026-09-28",
+      "message": "dashboard: Claude使用量更新 (2026-09-28)"
+    },
+    {
+      "date": "2026-09-28",
+      "message": "dashboard: Claude使用量更新 (2026-09-28)"
+    },
+    {
+      "date": "2026-09-28",
       "message": "読書記録: 出版年月を月まで補完・目次を92冊に追加"
-    },
-    {
-      "date": "2026-09-28",
-      "message": "書籍メタデータ: 出版年月の月補完と目次の検証付き取得を追加"
-    },
-    {
-      "date": "2026-09-28",
-      "message": "dashboard: Claude使用量更新 (2026-09-28)"
-    },
-    {
-      "date": "2026-09-28",
-      "message": "dashboard: Claude使用量更新 (2026-09-28)"
-    },
-    {
-      "date": "2026-09-28",
-      "message": "dashboard: Claude使用量更新 (2026-09-28)"
     }
   ]
 }
