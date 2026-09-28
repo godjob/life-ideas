@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-28T20:51:45+09:00",
+  "generatedAt": "2026-09-28T21:48:59+09:00",
   "weekly": {
-    "commitCount": 80,
+    "commitCount": 86,
     "byDay": [
       {
         "date": "2026-09-22",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-09-28",
-        "count": 22
+        "count": 28
       }
     ]
   },
@@ -39,12 +39,12 @@
     "health": 7,
     "books": 5,
     "portfolio": 0,
-    "other": 82
+    "other": 88
   },
   "recentCommits": [
     {
       "date": "2026-09-28",
-      "message": "読書記録: 目次見出しの無い公式ページにも対応し目次を15冊追加"
+      "message": "指示ファイル: rules 3本を条件付き読み込みにしCLAUDE.mdを圧縮"
     },
     {
       "date": "2026-09-28",
@@ -60,7 +60,7 @@
     },
     {
       "date": "2026-09-28",
-      "message": "読書記録: 出版年月を月まで補完・目次を92冊に追加"
+      "message": "dashboard: Claude使用量更新 (2026-09-28)"
     }
   ]
 }
