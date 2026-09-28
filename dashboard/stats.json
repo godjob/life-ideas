@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-28T03:48:16+09:00",
+  "generatedAt": "2026-09-28T18:33:38+09:00",
   "weekly": {
-    "commitCount": 48,
+    "commitCount": 63,
     "byDay": [
       {
         "date": "2026-09-22",
@@ -17,11 +17,11 @@
       },
       {
         "date": "2026-09-25",
-        "count": 24
+        "count": 33
       },
       {
         "date": "2026-09-26",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2026-09-27",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-09-28",
-        "count": 0
+        "count": 5
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 3,
     "ideas": 0,
-    "health": 4,
+    "health": 5,
     "books": 2,
     "portfolio": 0,
-    "other": 59
+    "other": 70
   },
   "recentCommits": [
     {
-      "date": "2026-09-27",
-      "message": "news: 2026-09-27 記事まとめを自動生成"
+      "date": "2026-09-28",
+      "message": "scrap: 2026-09-28 【落合陽一が高齢化社会×ロボットの未来を語る】20"
     },
     {
-      "date": "2026-09-27",
-      "message": "朝刊: 2026-09-27 Morning Edition生成"
+      "date": "2026-09-28",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
+    {
+      "date": "2026-09-28",
+      "message": "dashboard: Claude使用量更新 (2026-09-28)"
+    },
+    {
+      "date": "2026-09-28",
+      "message": "dashboard: Claude使用量更新 (2026-09-28)"
     },
     {
       "date": "2026-09-26",
-      "message": "news: 2026-09-26 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-09-26",
-      "message": "朝刊: 2026-09-26 Morning Edition生成"
-    },
-    {
-      "date": "2026-09-25",
-      "message": "rules: Running/Vitals公開版の新しい並びを反映"
+      "message": "dashboard: Claude使用量更新 (2026-09-26)"
     }
   ]
 }
