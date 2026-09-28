@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-09-28] ingest | 【落合陽一が高齢化社会×ロボットの未来を語る】2040年問題 / 要介護1000万人･職員57万人不
+- 更新ページ: [日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス](japan-ai-robot-social-implementation.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [2040年問題：AIとロボットによる日本の社会課題解決](2040-problem-japan-ai-robot-solution.md), [市民開発：製造業におけるAIツール活用と生産性向上](citizen-development-ai-manufacturing.md)
+- 出典: [【落合陽一が高齢化社会×ロボットの未来を語る】2040年問題 / 要介護1000](https://www.youtube.com/watch?v=TP1a2uFaeDU)
+
 ## [2026-09-24] ingest | 【電話対応AIが問題を解決】OpenAI会長が仕掛ける“コールセンター革命”／チャットボットとは次元
 - 更新ページ: [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [声と電話によるAIインターフェース：直感的なチェックインと生活統合](voice-phone-ai-interface.md), [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [AIコールセンター自動化：高顧客満足度とハーネスエンジニアリングによる精度向上](ai-call-center-automation.md), [Siera AIエージェントの製造業応用：ヘルプデスク・設備トラブル対応・業務完結](siera-ai-agent-manufacturing-application.md)
 - 出典: [【電話対応AIが問題を解決】OpenAI会長が仕掛ける“コールセンター革命”／チ](https://www.youtube.com/watch?v=q4WkxfqEcpo)

@@ -1,6 +1,19 @@
 {
   "nodes": [
     {
+      "id": "2040-problem-japan-ai-robot-solution",
+      "label": "2040年問題：AIとロボットによる日本の社会課題解決",
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "2040年問題",
+        "超高齢化社会",
+        "労働力不足",
+        "社会実装",
+        "市民開発"
+      ]
+    },
+    {
       "id": "accounting-ai-domain-application",
       "label": "税務会計領域のAI活用：仕訳自動化と除外ルール設計の実例",
       "group": "ビジネス・組織",
@@ -172,7 +185,7 @@
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "製造業・業務DX",
-      "value": 46,
+      "value": 48,
       "tags": [
         "運用自動化",
         "サプライチェーン",
@@ -535,7 +548,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "ビジネス・組織",
-      "value": 30,
+      "value": 31,
       "tags": [
         "業務フロー再設計",
         "組織変革",
@@ -587,7 +600,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "キャリア・働き方",
-      "value": 38,
+      "value": 39,
       "tags": [
         "AI時代の働き方",
         "自動化",
@@ -665,7 +678,7 @@
       "id": "ai-first-strategy-enterprise-adoption",
       "label": "AI First戦略：エンタープライズ領域への深い統合と10年の進化",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AI導入",
         "ビジネス戦略",
@@ -847,7 +860,7 @@
       "id": "ai-model-orchestration-judgment-generation",
       "label": "AIモデルオーケストレーション：判定モデルと生成モデルの組み合わせ戦略",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 3,
       "tags": [
         "AIモデル連携",
         "業務効率化",
@@ -1029,7 +1042,7 @@
       "id": "ai-talent-global-competition-manufacturing",
       "label": "AI人材のグローバル競争と製造業への影響",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AI人材",
         "グローバル競争",
@@ -1081,7 +1094,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 17,
+      "value": 18,
       "tags": [
         "AI失業危機",
         "ベーシックインカム",
@@ -1184,7 +1197,7 @@
       "id": "asi-economy-societal-transformation",
       "label": "ASIエコノミーと社会変革：2040年を見据えた未来予測",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "ASIエコノミー",
         "社会変革",
@@ -1326,7 +1339,7 @@
       "id": "causal-inference-manufacturing-process-improvement",
       "label": "製造業における因果推論：設備故障・品質問題の真因特定とAI活用",
       "group": "製造業・業務DX",
-      "value": 7,
+      "value": 8,
       "tags": [
         "因果推論",
         "設備故障",
@@ -1359,6 +1372,19 @@
         "AIエコシステム",
         "半導体市場",
         "サプライチェーン"
+      ]
+    },
+    {
+      "id": "citizen-development-ai-manufacturing",
+      "label": "市民開発：製造業におけるAIツール活用と生産性向上",
+      "group": "製造業・業務DX",
+      "value": 3,
+      "tags": [
+        "市民開発",
+        "人手不足",
+        "サプライチェーン",
+        "業務効率化",
+        "非エンジニア"
       ]
     },
     {
@@ -1763,7 +1789,7 @@
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 18,
+      "value": 19,
       "tags": [
         "データ統合",
         "サプライチェーン",
@@ -2113,7 +2139,7 @@
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "労働市場",
         "自動化",
@@ -2217,7 +2243,7 @@
       "id": "japan-ai-robot-social-implementation",
       "label": "日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "高齢化社会",
         "労働力不足",
@@ -2243,7 +2269,7 @@
       "id": "japan-demographic-crisis-infrastructure-maintenance-strategy",
       "label": "日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上",
       "group": "AI戦略・社会",
-      "value": 16,
+      "value": 17,
       "tags": [
         "人口減少",
         "重要インフラ",
@@ -2282,7 +2308,7 @@
       "id": "job-hunting-strategy-ai-era",
       "label": "AI時代の就職活動戦略：飽きるまでやり抜く「核」の育成",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 3,
       "tags": [
         "キャリア戦略",
         "継続学習",
@@ -2554,7 +2580,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 82,
+      "value": 84,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -2580,7 +2606,7 @@
       "id": "manufacturing-automation-cost-disruption",
       "label": "製造業自動化コストの劇的低下：経営判断能力へのシフト",
       "group": "製造業・業務DX",
-      "value": 13,
+      "value": 14,
       "tags": [
         "自動化コスト",
         "サプライチェーン最適化",
@@ -2826,7 +2852,7 @@
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "プロンプト・AI活用",
-      "value": 17,
+      "value": 19,
       "tags": [
         "非エンジニア",
         "ツール開発",
@@ -2839,7 +2865,7 @@
       "id": "non-engineer-skill-development-claude-code-democratization",
       "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
       "group": "ビジネス・組織",
-      "value": 15,
+      "value": 16,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3033,7 +3059,7 @@
       "id": "process-ax-ai-reconstruction-strategy",
       "label": "プロセスAX：AIによる経営再構築戦略",
       "group": "ビジネス・組織",
-      "value": 3,
+      "value": 5,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3188,7 +3214,7 @@
       "id": "regional-sme-engineering-constraint-mitigation-ai-coding",
       "label": "地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応",
       "group": "ビジネス・組織",
-      "value": 8,
+      "value": 9,
       "tags": [
         "地方企業",
         "AI導入",
@@ -3253,7 +3279,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 36,
+      "value": 37,
       "tags": [
         "自己学習",
         "継続学習",
@@ -3266,7 +3292,7 @@
       "id": "seniority-employment-ai-debt-transition-strategy",
       "label": "年功序列雇用のAI時代的負債化と成果主義への段階的転換：組織摩擦を最小化する人事評価体系の見直し",
       "group": "ビジネス・組織",
-      "value": 5,
+      "value": 4,
       "tags": [
         "組織変革",
         "人事評価",
@@ -3356,7 +3382,7 @@
       "id": "skill-system",
       "label": "Skill System：フォルダ単位のClaudeへの命令セット",
       "group": "Claude/AI開発ツール",
-      "value": 39,
+      "value": 38,
       "tags": [
         "Skill System",
         "プロンプト設計",
@@ -3692,6 +3718,82 @@
     }
   ],
   "edges": [
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "ai-era-work-inversion"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "ai-first-strategy-enterprise-adoption"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "ai-talent-global-competition-manufacturing"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "asi-economy-societal-transformation"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "citizen-development-ai-manufacturing"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "data-integration-visualization-manufacturing-application"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "japan-ai-robot-social-implementation"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "process-ax-ai-reconstruction-strategy"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
+    },
+    {
+      "from": "2040-problem-japan-ai-robot-solution",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
     {
       "from": "accounting-ai-domain-application",
       "to": "claude-code-agent-teams"
@@ -8377,6 +8479,30 @@
       "to": "open-vs-closed-ai-model-strategy"
     },
     {
+      "from": "citizen-development-ai-manufacturing",
+      "to": "2040-problem-japan-ai-robot-solution"
+    },
+    {
+      "from": "citizen-development-ai-manufacturing",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "citizen-development-ai-manufacturing",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "citizen-development-ai-manufacturing",
+      "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "citizen-development-ai-manufacturing",
+      "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "citizen-development-ai-manufacturing",
+      "to": "process-ax-ai-reconstruction-strategy"
+    },
+    {
       "from": "claude-api-rate-limit-optimization-workflow",
       "to": "ai-budget-management-roi-optimization"
     },
@@ -11002,6 +11128,10 @@
     },
     {
       "from": "japan-ai-robot-social-implementation",
+      "to": "2040-problem-japan-ai-robot-solution"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
       "to": "ai-adoption-resistance-mitigation"
     },
     {
@@ -11023,6 +11153,10 @@
     {
       "from": "japan-ai-robot-social-implementation",
       "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "japan-ai-robot-social-implementation",
+      "to": "citizen-development-ai-manufacturing"
     },
     {
       "from": "japan-ai-robot-social-implementation",
@@ -12306,6 +12440,10 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "2040-problem-japan-ai-robot-solution"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "accounting-ai-domain-application"
     },
     {
@@ -12335,10 +12473,6 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "ai-model-license-compliance-manufacturing"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
-      "to": "ai-model-orchestration-judgment-generation"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12378,10 +12512,6 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "job-hunting-strategy-ai-era"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "judgment-ai-model-manufacturing-application"
     },
     {
@@ -12411,10 +12541,6 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "physical-ai-hardware-standardization-strategy"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
-      "to": "seniority-employment-ai-debt-transition-strategy"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -13366,7 +13492,15 @@
     },
     {
       "from": "non-engineer-ai-tool-development",
+      "to": "2040-problem-japan-ai-robot-solution"
+    },
+    {
+      "from": "non-engineer-ai-tool-development",
       "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "non-engineer-ai-tool-development",
+      "to": "citizen-development-ai-manufacturing"
     },
     {
       "from": "non-engineer-ai-tool-development",
@@ -13403,10 +13537,6 @@
     {
       "from": "non-engineer-ai-tool-development",
       "to": "prompt-engineering-manufacturing-application"
-    },
-    {
-      "from": "non-engineer-ai-tool-development",
-      "to": "skill-system"
     },
     {
       "from": "non-engineer-ai-tool-development",
