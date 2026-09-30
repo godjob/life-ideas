@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-09-30T04:43:09+09:00",
+  "generatedAt": "2026-10-01T04:45:13+09:00",
   "weekly": {
-    "commitCount": 84,
+    "commitCount": 70,
     "byDay": [
-      {
-        "date": "2026-09-24",
-        "count": 16
-      },
       {
         "date": "2026-09-25",
         "count": 33
@@ -29,19 +25,31 @@
       },
       {
         "date": "2026-09-30",
+        "count": 2
+      },
+      {
+        "date": "2026-10-01",
         "count": 0
       }
     ]
   },
   "byDirectory": {
-    "scrap": 3,
+    "scrap": 2,
     "ideas": 0,
     "health": 7,
-    "books": 5,
+    "books": 4,
     "portfolio": 0,
-    "other": 88
+    "other": 80
   },
   "recentCommits": [
+    {
+      "date": "2026-09-30",
+      "message": "news: 2026-09-30 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-09-30",
+      "message": "朝刊: 2026-09-30 Morning Edition生成"
+    },
     {
       "date": "2026-09-29",
       "message": "news: 2026-09-29 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-09-28",
       "message": "指示ファイル: rules 3本を条件付き読み込みにしCLAUDE.mdを圧縮"
-    },
-    {
-      "date": "2026-09-28",
-      "message": "dashboard: Claude使用量更新 (2026-09-28)"
-    },
-    {
-      "date": "2026-09-28",
-      "message": "dashboard: Claude使用量更新 (2026-09-28)"
     }
   ]
 }
