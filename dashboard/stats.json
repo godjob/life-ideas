@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-01T19:03:50+09:00",
+  "generatedAt": "2026-10-01T21:39:13+09:00",
   "weekly": {
-    "commitCount": 76,
+    "commitCount": 82,
     "byDay": [
       {
         "date": "2026-09-25",
@@ -29,22 +29,22 @@
       },
       {
         "date": "2026-10-01",
-        "count": 5
+        "count": 11
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 7,
-    "books": 4,
+    "health": 8,
+    "books": 5,
     "portfolio": 0,
-    "other": 83
+    "other": 87
   },
   "recentCommits": [
     {
       "date": "2026-10-01",
-      "message": "scrap: 2026-10-01 GAFAMの勝者はアルファベットのみ？/エヌビディ・【AI時代を生き抜く「大願」と「実験グセ」】アマゾ・【インターネット30年史とAI時代の戦略】7つの激ほか1件"
+      "message": "Healthページをレポート形式に刷新（build_health_public.py新設・index.html v1.50）"
     },
     {
       "date": "2026-10-01",
@@ -56,11 +56,11 @@
     },
     {
       "date": "2026-10-01",
-      "message": "dashboard: Claude使用量更新 (2026-10-01)"
+      "message": "health: クレアチン5g運用・デュタステリド3ヶ月評価・購入履歴を反映（2026-10-01）"
     },
     {
-      "date": "2026-09-28",
-      "message": "dashboard: Claude使用量更新 (2026-09-28)"
+      "date": "2026-10-01",
+      "message": "news: 2026-10-01 記事まとめを自動生成"
     }
   ]
 }
