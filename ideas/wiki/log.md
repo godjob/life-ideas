@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-10-01] ingest | 【AIが人間を上手に飼う】可能性が高いのはペット化？認知科学者の苫米地英人が警鐘「隠せる個人情報はな
+- 更新ページ: [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md), [AIの存亡リスクとガバナンス：開発競争と国際規制](ai-existential-risk-governance.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md), [AI時代の個人情報消失とプライバシー](ai-personal-information-loss-privacy.md)
+- 出典: [【AIが人間を上手に飼う】可能性が高いのはペット化？認知科学者の苫米地英人が警鐘](https://www.youtube.com/watch?v=1jPEbM-79Xs)
+
 ## [2026-10-01] ingest | 【GOOGLより富士通？】日本の勝機はAIより量子コンピュータ？/村田製作所など積層セラミックコンデ
 - 更新ページ: [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AIによる破壊的変化とハードウェア優位性](ai-disruption-hardware-advantage.md), [ミニマルファブ：サプライチェーン強靭化と迅速試作](minimal-fab-supply-chain-resilience.md), [量子コンピュータ：日本の戦略とAI時代における競争力](quantum-computing-japan-strategy.md)
 - 出典: [【GOOGLより富士通？】日本の勝機はAIより量子コンピュータ？/村田製作所など](https://www.youtube.com/watch?v=kaCwmgJSLdI&t=16s)

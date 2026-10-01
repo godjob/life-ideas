@@ -146,7 +146,7 @@
       "id": "ai-age-human-adaptability-strategy",
       "label": "AI時代の人間適応戦略：落合陽一の提言",
       "group": "キャリア・働き方",
-      "value": 6,
+      "value": 8,
       "tags": [
         "AI適応",
         "探求行動",
@@ -467,6 +467,19 @@
       ]
     },
     {
+      "id": "ai-cognitive-warfare-information-security",
+      "label": "AI認知戦と情報セキュリティ",
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "認知戦",
+        "情報セキュリティ",
+        "AIガバナンス",
+        "人間適応",
+        "プライバシー"
+      ]
+    },
+    {
       "id": "ai-content-pipeline-differentiation",
       "label": "AIコンテンツ生成パイプラインの差別化戦略",
       "group": "AIエージェント設計",
@@ -639,7 +652,7 @@
       "id": "ai-existential-risk-governance",
       "label": "AIの存亡リスクとガバナンス：開発競争と国際規制",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -717,7 +730,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 18,
+      "value": 20,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -730,7 +743,7 @@
       "id": "ai-human-coexistence-risk-management",
       "label": "AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AI依存",
         "セキュリティリスク",
@@ -743,7 +756,7 @@
       "id": "ai-hyper-performer-mindset",
       "label": "AIハイパフォーマーの思考法とマインドセット",
       "group": "キャリア・働き方",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AIハイパフォーマー",
         "メタスキル",
@@ -821,7 +834,7 @@
       "id": "ai-managed-service-operational-design",
       "label": "AIマネージドサービス設計：高性能より信頼性・監視・ロールバック機能の優先",
       "group": "AIエージェント設計",
-      "value": 24,
+      "value": 26,
       "tags": [
         "信頼性確保",
         "マネージドサービス",
@@ -935,6 +948,19 @@
       ]
     },
     {
+      "id": "ai-personal-information-loss-privacy",
+      "label": "AI時代の個人情報消失とプライバシー",
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "プライバシー保護",
+        "個人情報",
+        "AIガバナンス",
+        "情報セキュリティ",
+        "人間適応戦略"
+      ]
+    },
+    {
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AIエージェント設計",
@@ -990,7 +1016,7 @@
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "ビジネス・組織",
-      "value": 20,
+      "value": 21,
       "tags": [
         "AIガバナンス",
         "セキュリティ",
@@ -1042,7 +1068,7 @@
       "id": "ai-system-monitoring-cost-visibility-tools",
       "label": "AIシステムモニタリング・コスト可視化：Langfuseによる本番運用の予測可能性確保",
       "group": "技術実装・エンジニアリング",
-      "value": 15,
+      "value": 16,
       "tags": [
         "AIモニタリング",
         "コスト可視化",
@@ -1789,7 +1815,7 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "キャリア・働き方",
-      "value": 23,
+      "value": 24,
       "tags": [
         "習慣化",
         "生産性向上",
@@ -2697,7 +2723,7 @@
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 21,
+      "value": 22,
       "tags": [
         "セキュリティ監査",
         "リスク管理",
@@ -3344,7 +3370,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 36,
+      "value": 37,
       "tags": [
         "自己学習",
         "継続学習",
@@ -3694,7 +3720,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 22,
+      "value": 23,
       "tags": [
         "アンラーン",
         "継続学習",
@@ -3733,7 +3759,7 @@
       "id": "wearable-device-workplace-privacy-governance",
       "label": "ウェアラブルデバイスと職場監視：プライバシー・データガバナンスの倫理的枠組み",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "職場監視",
         "プライバシー",
@@ -4185,6 +4211,10 @@
     },
     {
       "from": "agi-societal-impact-responsible-development",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
       "to": "ai-existential-risk-governance"
     },
     {
@@ -4194,6 +4224,10 @@
     {
       "from": "agi-societal-impact-responsible-development",
       "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "agi-societal-impact-responsible-development",
+      "to": "ai-personal-information-loss-privacy"
     },
     {
       "from": "agi-societal-impact-responsible-development",
@@ -4437,6 +4471,10 @@
     },
     {
       "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
       "to": "ai-disruption-hardware-advantage"
     },
     {
@@ -4446,6 +4484,10 @@
     {
       "from": "ai-age-human-adaptability-strategy",
       "to": "ai-human-coexistence-risk-management"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-personal-information-loss-privacy"
     },
     {
       "from": "ai-age-human-adaptability-strategy",
@@ -5588,6 +5630,54 @@
       "to": "wearable-device-workplace-privacy-governance"
     },
     {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-human-coexistence-risk-management"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-hyper-performer-mindset"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-personal-information-loss-privacy"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-system-monitoring-cost-visibility-tools"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "unlearning-capability-ai-era-competition"
+    },
+    {
       "from": "ai-content-pipeline-differentiation",
       "to": "ai-agent-governance-human-criteria"
     },
@@ -6325,6 +6415,10 @@
     },
     {
       "from": "ai-existential-risk-governance",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "ai-existential-risk-governance",
       "to": "ai-data-center-energy-demand-strategy"
     },
     {
@@ -6338,6 +6432,10 @@
     {
       "from": "ai-existential-risk-governance",
       "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "ai-existential-risk-governance",
+      "to": "ai-personal-information-loss-privacy"
     },
     {
       "from": "ai-existential-risk-governance",
@@ -7218,6 +7316,30 @@
     {
       "from": "ai-personal-branding-influencer-strategy",
       "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "ai-personal-information-loss-privacy",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "ai-personal-information-loss-privacy",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "ai-personal-information-loss-privacy",
+      "to": "ai-existential-risk-governance"
+    },
+    {
+      "from": "ai-personal-information-loss-privacy",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-personal-information-loss-privacy",
+      "to": "ai-managed-service-operational-design"
+    },
+    {
+      "from": "ai-personal-information-loss-privacy",
+      "to": "wearable-device-workplace-privacy-governance"
     },
     {
       "from": "ai-physical-world-reasoning-intuition-acquisition",
