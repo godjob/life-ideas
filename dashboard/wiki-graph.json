@@ -4,7 +4,7 @@
       "id": "2040-problem-japan-ai-robot-solution",
       "label": "2040年問題：AIとロボットによる日本の社会課題解決",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "2040年問題",
         "超高齢化社会",
@@ -30,7 +30,7 @@
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
       "group": "AI戦略・社会",
-      "value": 11,
+      "value": 13,
       "tags": [
         "国家安全保障",
         "デジタル赤字",
@@ -94,7 +94,7 @@
       "id": "ai-accelerated-business-transformation-agency",
       "label": "AIによるビジネス変革加速：広告代理店における少人数・高成長モデル",
       "group": "ビジネス・組織",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AI導入",
         "組織変革",
@@ -104,10 +104,23 @@
       ]
     },
     {
+      "id": "ai-accelerated-scientific-industrial-revolution",
+      "label": "AIが加速する科学・産業革命：インフラと次世代技術",
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "GPUインフラ",
+        "半導体市場",
+        "MRAM",
+        "国際競争力",
+        "コスト削減"
+      ]
+    },
+    {
       "id": "ai-adoption-productivity-gap-competitive-disadvantage",
       "label": "AI導入遅延による生産性格差：早期採用と非採用の取り返しがつかない競争劣位化メカニズム",
       "group": "AI戦略・社会",
-      "value": 24,
+      "value": 26,
       "tags": [
         "AI導入遅延",
         "生産性格差",
@@ -159,7 +172,7 @@
       "id": "ai-agent-cli-automation-pattern",
       "label": "AIエージェントのCLI自律操作：ログ確認・定期メンテナンスの自動化パターン",
       "group": "AIエージェント設計",
-      "value": 23,
+      "value": 24,
       "tags": [
         "運用自動化",
         "システム管理",
@@ -328,7 +341,7 @@
       "id": "ai-boom-geopolitical-implications-energy-constraint",
       "label": "AIブームの地政学的影響とエネルギー制約",
       "group": "AI戦略・社会",
-      "value": 3,
+      "value": 4,
       "tags": [
         "地政学リスク",
         "エネルギー問題",
@@ -444,7 +457,7 @@
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
       "group": "健康・習慣",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AIコーチング",
         "ウェアラブル",
@@ -483,7 +496,7 @@
       "id": "ai-creativity-self-reflection-limitation-human-judgment-necessity",
       "label": "AIの『創造性』『自己内省』限界と人間判断の必須性：問題解決優位性の認識",
       "group": "AIエージェント設計",
-      "value": 19,
+      "value": 20,
       "tags": [
         "AGI",
         "創造性",
@@ -496,7 +509,7 @@
       "id": "ai-data-center-energy-demand-strategy",
       "label": "AIデータセンターとエネルギー需要：電力消費量増大への対応戦略",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 9,
       "tags": [
         "ASIエコノミー",
         "電力消費量",
@@ -522,7 +535,7 @@
       "id": "ai-disruption-hardware-advantage",
       "label": "AIによる破壊的変化とハードウェア優位性",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 3,
       "tags": [
         "ハードウェア優位性",
         "産業構造変化",
@@ -535,7 +548,7 @@
       "id": "ai-driven-development-cto-perspective",
       "label": "AI駆動開発：CTOに聞くエンジニアの未来と開発サイクル変革",
       "group": "キャリア・働き方",
-      "value": 5,
+      "value": 7,
       "tags": [
         "AI駆動開発",
         "エンジニアの役割",
@@ -548,7 +561,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "ビジネス・組織",
-      "value": 31,
+      "value": 32,
       "tags": [
         "業務フロー再設計",
         "組織変革",
@@ -613,7 +626,7 @@
       "id": "ai-everywhere-device-integration",
       "label": "AI Everywhere: デバイスレベルAI統合のロードマップ",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "エッジAI",
         "AIエージェント",
@@ -665,7 +678,7 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "ビジネス・組織",
-      "value": 22,
+      "value": 23,
       "tags": [
         "AI疲れ",
         "判断負荷",
@@ -691,7 +704,7 @@
       "id": "ai-frontier-diffusion-control",
       "label": "AIフロンティア技術の普及と制御：エコシステム戦略",
       "group": "AIエージェント設計",
-      "value": 4,
+      "value": 5,
       "tags": [
         "AIエコシステム",
         "ハーネスエンジニアリング",
@@ -704,7 +717,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 17,
+      "value": 18,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -756,7 +769,7 @@
       "id": "ai-investment-scale-japan-vs-global",
       "label": "日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応",
       "group": "AI戦略・社会",
-      "value": 12,
+      "value": 13,
       "tags": [
         "AI投資",
         "国際比較",
@@ -782,7 +795,7 @@
       "id": "ai-labor-policy-governance-framework",
       "label": "AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止",
       "group": "AI戦略・社会",
-      "value": 12,
+      "value": 11,
       "tags": [
         "AIガバナンス",
         "規制キャプチャ",
@@ -886,7 +899,7 @@
       "id": "ai-model-regulation-geopolitics",
       "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
       "group": "AI戦略・社会",
-      "value": 8,
+      "value": 9,
       "tags": [
         "AIモデル規制",
         "地政学リスク",
@@ -964,7 +977,7 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "製造業・業務DX",
-      "value": 25,
+      "value": 26,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -1003,7 +1016,7 @@
       "id": "ai-solo-entrepreneurship-impact",
       "label": "AIソロプレナーシップ：個人の能力拡張と起業への影響",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "AIソロプレナー",
         "起業",
@@ -1327,7 +1340,7 @@
       "id": "causal-inference-ai-personalized-medicine",
       "label": "因果推論AIによる個別化医療：ハイベネフィットアプローチと適用",
       "group": "健康・習慣",
-      "value": 4,
+      "value": 5,
       "tags": [
         "個別化医療",
         "因果推論",
@@ -1378,7 +1391,7 @@
       "id": "citizen-development-ai-manufacturing",
       "label": "市民開発：製造業におけるAIツール活用と生産性向上",
       "group": "製造業・業務DX",
-      "value": 3,
+      "value": 4,
       "tags": [
         "市民開発",
         "人手不足",
@@ -1789,7 +1802,7 @@
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
-      "value": 19,
+      "value": 18,
       "tags": [
         "データ統合",
         "サプライチェーン",
@@ -1802,7 +1815,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "ビジネス・組織",
-      "value": 26,
+      "value": 25,
       "tags": [
         "意思決定疲労",
         "SOP標準化",
@@ -1893,7 +1906,7 @@
       "id": "e2e-ai-model-manufacturing-application",
       "label": "E2E AIモデルの製造業応用：データ学習による物理現象理解と自動化",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 3,
       "tags": [
         "E2E AI",
         "自動運転",
@@ -1906,7 +1919,7 @@
       "id": "edge-ai-system-design-production-skills",
       "label": "エッジAIシステム設計：本番環境のメモリ最適化とハードウェア制約実装スキル",
       "group": "技術実装・エンジニアリング",
-      "value": 11,
+      "value": 13,
       "tags": [
         "エッジAI",
         "メモリ最適化",
@@ -2009,7 +2022,7 @@
       "id": "geopolitical-narrative-multidimensional-analysis",
       "label": "地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "地政学",
         "ナラティブ",
@@ -2191,7 +2204,7 @@
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
       "group": "AI戦略・社会",
-      "value": 12,
+      "value": 14,
       "tags": [
         "GPUインフラ",
         "ベンダーロックイン",
@@ -2204,7 +2217,7 @@
       "id": "information-processing-efficiency-ai-integration",
       "label": "情報処理効率化とAI統合：一次情報重視と大量情報要約術",
       "group": "キャリア・働き方",
-      "value": 6,
+      "value": 7,
       "tags": [
         "一次情報",
         "情報処理",
@@ -2217,7 +2230,7 @@
       "id": "innovation-productivity-national-competitiveness",
       "label": "イノベーションと生産性が国家競争力に与える影響",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "国家競争力",
         "イノベーション",
@@ -2240,10 +2253,23 @@
       ]
     },
     {
+      "id": "internet-ai-era-business-strategy",
+      "label": "インターネット・AI時代のビジネス戦略：規制・イノベーション・日米比較",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "ビジネス戦略",
+        "規制",
+        "イノベーション",
+        "国際競争力",
+        "日米比較"
+      ]
+    },
+    {
       "id": "japan-ai-robot-social-implementation",
       "label": "日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "高齢化社会",
         "労働力不足",
@@ -2256,7 +2282,7 @@
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
       "group": "AI戦略・社会",
-      "value": 11,
+      "value": 13,
       "tags": [
         "国際競争力",
         "デジタル赤字",
@@ -2490,7 +2516,7 @@
       "id": "local-llm-api-cost-elimination-strategy",
       "label": "ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 9,
+      "value": 10,
       "tags": [
         "ハイブリッドLLM",
         "ローカルLLM",
@@ -2503,7 +2529,7 @@
       "id": "local-llm-deployment-architecture",
       "label": "ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用",
       "group": "技術実装・エンジニアリング",
-      "value": 24,
+      "value": 25,
       "tags": [
         "ローカルLLM",
         "オンプレミスAI",
@@ -2580,7 +2606,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 84,
+      "value": 87,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -2606,7 +2632,7 @@
       "id": "manufacturing-automation-cost-disruption",
       "label": "製造業自動化コストの劇的低下：経営判断能力へのシフト",
       "group": "製造業・業務DX",
-      "value": 14,
+      "value": 16,
       "tags": [
         "自動化コスト",
         "サプライチェーン最適化",
@@ -2619,7 +2645,7 @@
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 13,
+      "value": 14,
       "tags": [
         "継続学習",
         "長期推論",
@@ -2645,7 +2671,7 @@
       "id": "manufacturing-in-ai-solo-era",
       "label": "AIソロプレナー時代における製造業の変革と内製化",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 5,
       "tags": [
         "AIソロプレナー",
         "内製化",
@@ -2658,7 +2684,7 @@
       "id": "manufacturing-on-premise-ai-adoption",
       "label": "製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策",
       "group": "製造業・業務DX",
-      "value": 8,
+      "value": 9,
       "tags": [
         "オンプレミスAI",
         "情報漏洩対策",
@@ -2772,16 +2798,42 @@
       ]
     },
     {
+      "id": "minimal-fab-supply-chain-resilience",
+      "label": "ミニマルファブ：サプライチェーン強靭化と迅速試作",
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "ミニマルファブ",
+        "サプライチェーン強靭化",
+        "迅速な試作",
+        "特定用途AIチップ",
+        "生産性向上"
+      ]
+    },
+    {
       "id": "missing-link-ai-productivity-gap",
       "label": "AI生産性向上のミッシングリンク：個の効率化から組織変革へ",
       "group": "ビジネス・組織",
-      "value": 5,
+      "value": 6,
       "tags": [
         "組織変革",
         "生産性向上",
         "AI導入",
         "業務フロー再設計",
         "意思決定"
+      ]
+    },
+    {
+      "id": "mram-next-generation-memory-game-changer",
+      "label": "MRAM：次世代メモリ技術としてのゲームチェンジャー",
+      "group": "技術実装・エンジニアリング",
+      "value": 5,
+      "tags": [
+        "MRAM",
+        "次世代メモリ",
+        "半導体市場",
+        "低消費電力",
+        "不揮発性メモリ"
       ]
     },
     {
@@ -2839,7 +2891,7 @@
       "id": "nand-flash-memory-market-ai-demand",
       "label": "NANDフラッシュメモリ市場：AI需要による高騰と需給変化",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 8,
       "tags": [
         "NANDフラッシュ",
         "半導体市場",
@@ -2878,7 +2930,7 @@
       "id": "nvidia-dominance-shift-cpu-revaluation",
       "label": "NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント",
       "group": "AI戦略・社会",
-      "value": 8,
+      "value": 9,
       "tags": [
         "半導体市場",
         "GPUインフラ",
@@ -3021,7 +3073,7 @@
       "id": "physical-ai-hardware-standardization-strategy",
       "label": "フィジカルAイと日本の標準化戦略：米中覇権争いにおける下層インターフェース統一による競争力構築",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 8,
       "tags": [
         "フィジカルAI",
         "標準化戦略",
@@ -3188,13 +3240,26 @@
       "id": "quantified-self-ai-feedback-loop",
       "label": "量的自己記録とAI分析の相乗効果：データ資産化と継続的改善",
       "group": "個人OS・知識管理",
-      "value": 19,
+      "value": 20,
       "tags": [
         "量的自己記録",
         "AI分析",
         "継続的改善",
         "プロンプト設計",
         "データ資産化"
+      ]
+    },
+    {
+      "id": "quantum-computing-japan-strategy",
+      "label": "量子コンピュータ：日本の戦略とAI時代における競争力",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "量子コンピュータ",
+        "国際競争力",
+        "サプライチェーン",
+        "AI投資",
+        "エネルギー効率"
       ]
     },
     {
@@ -3279,7 +3344,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 37,
+      "value": 36,
       "tags": [
         "自己学習",
         "継続学習",
@@ -3305,7 +3370,7 @@
       "id": "siera-ai-agent-manufacturing-application",
       "label": "Siera AIエージェントの製造業応用：ヘルプデスク・設備トラブル対応・業務完結",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 5,
       "tags": [
         "Siera",
         "ヘルプデスク",
@@ -3538,7 +3603,7 @@
       "id": "system-development-velocity-acceleration-ai-tools",
       "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
       "group": "ビジネス・組織",
-      "value": 12,
+      "value": 13,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3564,7 +3629,7 @@
       "id": "tesla-cybercab-vertical-integration-strategy",
       "label": "テスラ サイバーキャブ：完全無人自動運転と垂直統合戦略",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 3,
       "tags": [
         "自動運転",
         "垂直統合",
@@ -3668,7 +3733,7 @@
       "id": "wearable-device-workplace-privacy-governance",
       "label": "ウェアラブルデバイスと職場監視：プライバシー・データガバナンスの倫理的枠組み",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "職場監視",
         "プライバシー",
@@ -4183,6 +4248,30 @@
       "to": "manufacturing-ai-quick-wins"
     },
     {
+      "from": "ai-accelerated-scientific-industrial-revolution",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "ai-accelerated-scientific-industrial-revolution",
+      "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "ai-accelerated-scientific-industrial-revolution",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "ai-accelerated-scientific-industrial-revolution",
+      "to": "mram-next-generation-memory-game-changer"
+    },
+    {
+      "from": "ai-accelerated-scientific-industrial-revolution",
+      "to": "nand-flash-memory-market-ai-demand"
+    },
+    {
+      "from": "ai-accelerated-scientific-industrial-revolution",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
+    },
+    {
       "from": "ai-adoption-productivity-gap-competitive-disadvantage",
       "to": "agi-societal-impact-responsible-development"
     },
@@ -4357,6 +4446,10 @@
     {
       "from": "ai-age-human-adaptability-strategy",
       "to": "ai-human-coexistence-risk-management"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-solo-entrepreneurship-impact"
     },
     {
       "from": "ai-age-human-adaptability-strategy",
@@ -4872,10 +4965,6 @@
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
-      "to": "ai-labor-policy-governance-framework"
-    },
-    {
-      "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "ai-sandboxing-isolation-architecture-manufacturing"
     },
     {
@@ -4889,10 +4978,6 @@
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "daily-habit-routine-design-productivity-multiplication"
-    },
-    {
-      "from": "ai-automation-system-admin-differentiation-strategy",
-      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
@@ -4929,10 +5014,6 @@
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "satellite-constellation-internet-infrastructure"
-    },
-    {
-      "from": "ai-automation-system-admin-differentiation-strategy",
-      "to": "self-directed-learning-ai-era-survival-strategy"
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
@@ -5336,6 +5417,10 @@
     },
     {
       "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
       "to": "ai-managed-service-operational-design"
     },
     {
@@ -5357,6 +5442,10 @@
     {
       "from": "ai-capability-expectation-calibration-realistic-timeline",
       "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "internet-ai-era-business-strategy"
     },
     {
       "from": "ai-capability-expectation-calibration-realistic-timeline",
@@ -5652,6 +5741,10 @@
     },
     {
       "from": "ai-data-center-energy-demand-strategy",
+      "to": "ai-accelerated-scientific-industrial-revolution"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
       "to": "ai-boom-geopolitical-implications-energy-constraint"
     },
     {
@@ -5673,6 +5766,10 @@
     {
       "from": "ai-data-center-energy-demand-strategy",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-data-center-energy-demand-strategy",
+      "to": "mram-next-generation-memory-game-changer"
     },
     {
       "from": "ai-data-center-energy-demand-strategy",
@@ -5785,6 +5882,18 @@
     {
       "from": "ai-disruption-hardware-advantage",
       "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "minimal-fab-supply-chain-resilience"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "physical-ai-hardware-standardization-strategy"
+    },
+    {
+      "from": "ai-disruption-hardware-advantage",
+      "to": "quantum-computing-japan-strategy"
     },
     {
       "from": "ai-disruption-hardware-advantage",
@@ -11127,6 +11236,34 @@
       "to": "transparency-communication-trust-foundation"
     },
     {
+      "from": "internet-ai-era-business-strategy",
+      "to": "ai-creativity-self-reflection-limitation-human-judgment-necessity"
+    },
+    {
+      "from": "internet-ai-era-business-strategy",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "internet-ai-era-business-strategy",
+      "to": "ai-frontier-diffusion-control"
+    },
+    {
+      "from": "internet-ai-era-business-strategy",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "internet-ai-era-business-strategy",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "internet-ai-era-business-strategy",
+      "to": "japan-ai-robot-social-implementation"
+    },
+    {
+      "from": "internet-ai-era-business-strategy",
+      "to": "missing-link-ai-productivity-gap"
+    },
+    {
       "from": "japan-ai-robot-social-implementation",
       "to": "2040-problem-japan-ai-robot-solution"
     },
@@ -11240,6 +11377,10 @@
     },
     {
       "from": "japan-ai-strategy-global-competition",
+      "to": "internet-ai-era-business-strategy"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
       "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
     },
     {
@@ -11253,6 +11394,18 @@
     {
       "from": "japan-ai-strategy-global-competition",
       "to": "middle-income-trap-manufacturing-strategy"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
+      "to": "minimal-fab-supply-chain-resilience"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
+      "to": "physical-ai-hardware-standardization-strategy"
+    },
+    {
+      "from": "japan-ai-strategy-global-competition",
+      "to": "quantum-computing-japan-strategy"
     },
     {
       "from": "japan-ai-strategy-global-competition",
@@ -12464,19 +12617,11 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "ai-disruption-hardware-advantage"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
       "to": "ai-era-work-inversion"
     },
     {
       "from": "manufacturing-ai-opportunities",
       "to": "ai-model-license-compliance-manufacturing"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
-      "to": "ai-physical-world-reasoning-intuition-acquisition"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12496,7 +12641,7 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "e2e-ai-model-manufacturing-application"
+      "to": "citizen-development-ai-manufacturing"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12509,6 +12654,10 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "internet-ai-era-business-strategy"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12532,6 +12681,10 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "minimal-fab-supply-chain-resilience"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "multi-agent-task-dependency-management"
     },
     {
@@ -12540,7 +12693,7 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
-      "to": "physical-ai-hardware-standardization-strategy"
+      "to": "quantum-computing-japan-strategy"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12549,10 +12702,6 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "smile-curve-strategy"
-    },
-    {
-      "from": "manufacturing-ai-opportunities",
-      "to": "tesla-cybercab-vertical-integration-strategy"
     },
     {
       "from": "manufacturing-ai-quick-wins",
@@ -12700,7 +12849,19 @@
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "ai-accelerated-scientific-industrial-revolution"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "ai-agent-cli-automation-pattern"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "ai-expert-ensemble-prompting"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
@@ -12709,10 +12870,6 @@
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "context-window-scaling-limitation-smart-extraction-architecture"
-    },
-    {
-      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
-      "to": "data-integration-visualization-manufacturing-application"
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
@@ -12725,6 +12882,14 @@
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "mram-next-generation-memory-game-changer"
+    },
+    {
+      "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
+      "to": "siera-ai-agent-manufacturing-application"
     },
     {
       "from": "manufacturing-continuous-learning-memory-mechanism-operational-data",
@@ -13203,6 +13368,74 @@
       "to": "time-capital-health-investment-narrative"
     },
     {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "2040-problem-japan-ai-robot-solution"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "ai-accelerated-business-transformation-agency"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "ai-everywhere-device-integration"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "causal-inference-ai-personalized-medicine"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "geopolitical-narrative-multidimensional-analysis"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "information-processing-efficiency-ai-integration"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "local-llm-api-cost-elimination-strategy"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "quantified-self-ai-feedback-loop"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
+      "from": "minimal-fab-supply-chain-resilience",
+      "to": "wearable-device-workplace-privacy-governance"
+    },
+    {
       "from": "missing-link-ai-productivity-gap",
       "to": "ai-adoption-productivity-gap-competitive-disadvantage"
     },
@@ -13229,6 +13462,22 @@
     {
       "from": "missing-link-ai-productivity-gap",
       "to": "unlearning-capability-ai-era-competition"
+    },
+    {
+      "from": "mram-next-generation-memory-game-changer",
+      "to": "ai-accelerated-scientific-industrial-revolution"
+    },
+    {
+      "from": "mram-next-generation-memory-game-changer",
+      "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "mram-next-generation-memory-game-changer",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "mram-next-generation-memory-game-changer",
+      "to": "nand-flash-memory-market-ai-demand"
     },
     {
       "from": "multi-agent-pipeline-error-handling-checkpoint",
@@ -13600,6 +13849,18 @@
     },
     {
       "from": "nvidia-dominance-shift-cpu-revaluation",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "nvidia-dominance-shift-cpu-revaluation",
+      "to": "ai-accelerated-scientific-industrial-revolution"
+    },
+    {
+      "from": "nvidia-dominance-shift-cpu-revaluation",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "nvidia-dominance-shift-cpu-revaluation",
       "to": "ai-everywhere-device-integration"
     },
     {
@@ -13609,6 +13870,10 @@
     {
       "from": "nvidia-dominance-shift-cpu-revaluation",
       "to": "local-llm-api-cost-elimination-strategy"
+    },
+    {
+      "from": "nvidia-dominance-shift-cpu-revaluation",
+      "to": "mram-next-generation-memory-game-changer"
     },
     {
       "from": "nvidia-dominance-shift-cpu-revaluation",
@@ -14629,6 +14894,74 @@
     {
       "from": "quantified-self-ai-feedback-loop",
       "to": "personal-os-operating-system"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "ai-adoption-productivity-gap-competitive-disadvantage"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "ai-boom-geopolitical-implications-energy-constraint"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "innovation-productivity-national-competitiveness"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "manufacturing-in-ai-solo-era"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "minimal-fab-supply-chain-resilience"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "mram-next-generation-memory-game-changer"
+    },
+    {
+      "from": "quantum-computing-japan-strategy",
+      "to": "physical-ai-hardware-standardization-strategy"
     },
     {
       "from": "rapid-iteration-learning-loop-operational-design",

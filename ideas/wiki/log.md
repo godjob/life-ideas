@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-10-01] ingest | 【GOOGLより富士通？】日本の勝機はAIより量子コンピュータ？/村田製作所など積層セラミックコンデ
+- 更新ページ: [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AIによる破壊的変化とハードウェア優位性](ai-disruption-hardware-advantage.md), [ミニマルファブ：サプライチェーン強靭化と迅速試作](minimal-fab-supply-chain-resilience.md), [量子コンピュータ：日本の戦略とAI時代における競争力](quantum-computing-japan-strategy.md)
+- 出典: [【GOOGLより富士通？】日本の勝機はAIより量子コンピュータ？/村田製作所など](https://www.youtube.com/watch?v=kaCwmgJSLdI&t=16s)
+
+## [2026-10-01] ingest | 【インターネット30年史とAI時代の戦略】7つの激変に学べ／AI時代も起きる／いかがわしい奴が勝つ／
+- 更新ページ: [AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ](ai-capability-expectation-calibration-realistic-timeline.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題](japan-ai-strategy-global-competition.md), [インターネット・AI時代のビジネス戦略：規制・イノベーション・日米比較](internet-ai-era-business-strategy.md)
+- 出典: [【インターネット30年史とAI時代の戦略】7つの激変に学べ／AI時代も起きる／い](https://www.youtube.com/watch?v=KaHahuWSeTg)
+
+## [2026-10-01] ingest | 【AI時代を生き抜く「大願」と「実験グセ」】アマゾン一強の理由／AI政治システム／流通革命から知能革
+- 更新ページ: [AIソロプレナーシップ：個人の能力拡張と起業への影響](ai-solo-entrepreneurship-impact.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md)
+- 出典: [【AI時代を生き抜く「大願」と「実験グセ」】アマゾン一強の理由／AI政治システム](https://www.youtube.com/watch?v=VjdzAsbl2Fo)
+
+## [2026-10-01] ingest | GAFAMの勝者はアルファベットのみ？/エヌビディア×スペースXが実現!?/サムスンがエヌビディアを
+- 更新ページ: [AIデータセンターとエネルギー需要：電力消費量増大への対応戦略](ai-data-center-energy-demand-strategy.md), [NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント](nvidia-dominance-shift-cpu-revaluation.md), [製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築](manufacturing-continuous-learning-memory-mechanism-operational-data.md), [MRAM：次世代メモリ技術としてのゲームチェンジャー](mram-next-generation-memory-game-changer.md), [AIが加速する科学・産業革命：インフラと次世代技術](ai-accelerated-scientific-industrial-revolution.md)
+- 出典: [GAFAMの勝者はアルファベットのみ？/エヌビディア×スペースXが実現!?/サム](https://www.youtube.com/watch?v=3-DahnI0tJM)
+
 ## [2026-09-28] ingest | 【落合陽一が高齢化社会×ロボットの未来を語る】2040年問題 / 要介護1000万人･職員57万人不
 - 更新ページ: [日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス](japan-ai-robot-social-implementation.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [2040年問題：AIとロボットによる日本の社会課題解決](2040-problem-japan-ai-robot-solution.md), [市民開発：製造業におけるAIツール活用と生産性向上](citizen-development-ai-manufacturing.md)
 - 出典: [【落合陽一が高齢化社会×ロボットの未来を語る】2040年問題 / 要介護1000](https://www.youtube.com/watch?v=TP1a2uFaeDU)
