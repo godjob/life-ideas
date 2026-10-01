@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-01T21:39:13+09:00",
+  "generatedAt": "2026-10-01T21:48:04+09:00",
   "weekly": {
-    "commitCount": 82,
+    "commitCount": 84,
     "byDay": [
       {
         "date": "2026-09-25",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-10-01",
-        "count": 11
+        "count": 13
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 8,
+    "health": 9,
     "books": 5,
     "portfolio": 0,
-    "other": 87
+    "other": 88
   },
   "recentCommits": [
+    {
+      "date": "2026-10-01",
+      "message": "health: ランニング中の補給（アクエリアス・アミノバイタル）を追加"
+    },
+    {
+      "date": "2026-10-01",
+      "message": "dashboard: Claude使用量更新 (2026-10-01)"
+    },
     {
       "date": "2026-10-01",
       "message": "Healthページをレポート形式に刷新（build_health_public.py新設・index.html v1.50）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-10-01",
       "message": "dashboard: Claude使用量更新 (2026-10-01)"
-    },
-    {
-      "date": "2026-10-01",
-      "message": "health: クレアチン5g運用・デュタステリド3ヶ月評価・購入履歴を反映（2026-10-01）"
-    },
-    {
-      "date": "2026-10-01",
-      "message": "news: 2026-10-01 記事まとめを自動生成"
     }
   ]
 }
