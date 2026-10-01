@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-01T04:45:13+09:00",
+  "generatedAt": "2026-10-01T19:03:50+09:00",
   "weekly": {
-    "commitCount": 70,
+    "commitCount": 76,
     "byDay": [
       {
         "date": "2026-09-25",
@@ -17,7 +17,7 @@
       },
       {
         "date": "2026-09-28",
-        "count": 28
+        "count": 29
       },
       {
         "date": "2026-09-29",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-10-01",
-        "count": 0
+        "count": 5
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
+    "scrap": 3,
     "ideas": 0,
     "health": 7,
     "books": 4,
     "portfolio": 0,
-    "other": 80
+    "other": 83
   },
   "recentCommits": [
     {
-      "date": "2026-09-30",
-      "message": "news: 2026-09-30 記事まとめを自動生成"
+      "date": "2026-10-01",
+      "message": "scrap: 2026-10-01 GAFAMの勝者はアルファベットのみ？/エヌビディ・【AI時代を生き抜く「大願」と「実験グセ」】アマゾ・【インターネット30年史とAI時代の戦略】7つの激ほか1件"
     },
     {
-      "date": "2026-09-30",
-      "message": "朝刊: 2026-09-30 Morning Edition生成"
+      "date": "2026-10-01",
+      "message": "dashboard: Claude使用量更新 (2026-10-01)"
     },
     {
-      "date": "2026-09-29",
-      "message": "news: 2026-09-29 記事まとめを自動生成"
+      "date": "2026-10-01",
+      "message": "dashboard: Claude使用量更新 (2026-10-01)"
     },
     {
-      "date": "2026-09-29",
-      "message": "朝刊: 2026-09-29 Morning Edition生成"
+      "date": "2026-10-01",
+      "message": "dashboard: Claude使用量更新 (2026-10-01)"
     },
     {
       "date": "2026-09-28",
-      "message": "指示ファイル: rules 3本を条件付き読み込みにしCLAUDE.mdを圧縮"
+      "message": "dashboard: Claude使用量更新 (2026-09-28)"
     }
   ]
 }
