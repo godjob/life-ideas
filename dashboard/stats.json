@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-01T21:48:04+09:00",
+  "generatedAt": "2026-10-01T21:54:33+09:00",
   "weekly": {
-    "commitCount": 84,
+    "commitCount": 87,
     "byDay": [
       {
         "date": "2026-09-25",
@@ -29,34 +29,34 @@
       },
       {
         "date": "2026-10-01",
-        "count": 13
+        "count": 16
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 9,
+    "health": 10,
     "books": 5,
     "portfolio": 0,
-    "other": 88
+    "other": 90
   },
   "recentCommits": [
     {
       "date": "2026-10-01",
+      "message": "dashboard: Claude使用量更新 (2026-10-01)"
+    },
+    {
+      "date": "2026-10-01",
+      "message": "hook: plan更新時にHealthページ公開版を自動再生成（pre-commit/post-commit）"
+    },
+    {
+      "date": "2026-10-01",
+      "message": "health: アミノバイタルの成分情報を追加"
+    },
+    {
+      "date": "2026-10-01",
       "message": "health: ランニング中の補給（アクエリアス・アミノバイタル）を追加"
-    },
-    {
-      "date": "2026-10-01",
-      "message": "dashboard: Claude使用量更新 (2026-10-01)"
-    },
-    {
-      "date": "2026-10-01",
-      "message": "Healthページをレポート形式に刷新（build_health_public.py新設・index.html v1.50）"
-    },
-    {
-      "date": "2026-10-01",
-      "message": "dashboard: Claude使用量更新 (2026-10-01)"
     },
     {
       "date": "2026-10-01",
