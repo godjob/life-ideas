@@ -251,7 +251,7 @@
     .markdown-body blockquote { border-left: 4px solid #e94560; padding-left: 16px; color: #666; margin: 12px 0; }
     .markdown-body input[type="checkbox"] { margin-right: 6px; }
 
-    /* ===== レポートページ（Running / Vitals タブ限定。openFile が .report-page を付与） ===== */
+    /* ===== レポートページ（Running / Vitals / Health タブ限定。openFile が .report-page を付与） ===== */
     .markdown-body.report-page h2 {
       font-size: 1.25rem; color: #1a1a2e; background: #eef0f7;
       border-left: 6px solid #e94560; border-radius: 4px;
@@ -572,7 +572,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.49';
+  const VERSION = 'v1.50';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -585,7 +585,7 @@
   const isMobile = () => window.innerWidth <= 768;
   const SINGLE_FILE_TABS = ['urls', 'health', 'vitals', 'running'];
   // 見出し階層・エントリカード・上部固定チップナビを付けるタブ（applyReportPageLayout）
-  const REPORT_PAGE_TABS = ['running', 'vitals'];
+  const REPORT_PAGE_TABS = ['running', 'vitals', 'health'];
   let reportTocObserver = null;  // report-toc の現在位置ハイライト用（ページ切替で disconnect）
   const SEARCH_TABS = ['daily', 'weekly', 'news', 'books', 'action', 'wiki'];
   const DATE_FILTER_TABS = ['daily', 'news'];
@@ -1520,10 +1520,10 @@
       return;
     }
 
-    // Healthタブ: 単一ファイル表示
+    // Healthタブ: 単一ファイル表示（build_health_public.py が health/supplement-health-plan.md から生成）
     if (dir === 'health') {
       listEl.innerHTML = '<div class="file-item active">健康管理プラン</div>';
-      openFile('health/supplement-health-plan.md', listEl.firstChild);
+      openFile('ideas/health/index.md', listEl.firstChild);
       return;
     }
 
