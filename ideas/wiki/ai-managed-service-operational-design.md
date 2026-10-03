@@ -73,6 +73,71 @@ AIエージェントは短期タスクでは高い性能を発揮しますが、
 
 - **AIリーダーの価値観がシステム信頼性を決定づける**：Google DeepMindのデミス・ハサビス氏が示したように、AI開発組織のリーダーの個人的動機や根底にある価値観（単なる技術仕様ではなく、AGIの安全な実現を人生のミッションとする哲学）が、長期的にはシステム信頼性を決定づける。企業システムでも同様に、経営層やリーダーが「何のためのAI導入か」という根本的な価値観を明確にしておくことが、組織全体の信頼性文化を構築する基盤となる
 
+## 設計の3つの柱
+
+### 3. ロールバック・リカバリー機能
+
+- **チェックポイント機能**：[マルチエージェントパイプラインのエラーハンドリングとチェックポイント](multi-agent-pipeline-error-handling-checkpoint.md)に基づき、定期的に状態を保存
+- **段階的ロールバック**：エラー検出時に最後の安全な状態へ自動復帰
+- **トランザクション的実行**：複数ステップの処理は全成功か全失敗のいずれかで終結
+- **手動介入ポイント**：定期的に人間が検証し、続行・修正・中止を判断
+- **スケーラブルなセッション復帰**：[Claude Managed Agents セッション再接続と永続エージェント設計](claude-managed-agents-session-resilience.md)により、一時的な接続断時も自動リカバリー
+
+## 高度なAI時代における適応戦略
+
+高性能AIの登場に伴い、従来の保守的なシステム設計が通用しなくなる時代に入ります。
+
+- **セキュリティ体系の予防化**：事後対応型から予防的セキュリティ監査へシフト。AIが未検出バグを発見できる時代に、システムエンジニアは[製造業システム脆弱性の先制監査](manufacturing-system-vulnerability-preemptive-audit.md)を定期実施すべき
+
+- **人間の役割再定義**：低レイヤー実装はAIに委譲し、人間は[アーキテクチャ設計やリスク管理](agentic-engineering-supervisor-model.md)に専念。判断負荷を軽減しつつ、組織の戦略的判断能力を強化する設計が必須
+
+- **投資判断の性能対効果化**：トークン単価の上昇に伴い、[AI予算管理とROI最適化](ai-budget-management-roi-optimization.md)による厳密なコスト評価が従来以上に重要になる。軽量モデルから段階導入し、実績値に基づいて拡大判断する運用が現実的
+
+- **プラットフォームAPI統一と運用効率化**：複雑な自作ハーネスの維持よりも[信頼できるプラットフォームAPI](claude-managed-agents-cloud-deployment.md)への段階的移行により、セキュリティ・オブザーバビリティ・監視機構の運用負荷が大幅に削減される。同時に[Langfuseなどのモニタリングツール](ai-system-monitoring-cost-visibility-tools.md)により、本番環境での可視性が向上し、予測可能な運用を実現
+
+- **AIと従来システムの適切な使い分け**：[As Little AI As Possible原則](as-little-ai-as-possible-principle.md)に基づき、すべてのプロセスをAI化するのではなく、確定的な判断が必要な部分は従来ロジック・ルールベースシステムで堅牢に構築し、不確実性が高い部分にのみAIを活用する選別設計が有効
+
+- **過度な保守的設計の排除**：コンテキスト不安のような過度な保守的設計は柔軟性を奪い、後の改善を阻む可能性がある。[システム能力向上による『死に掛けたコード』](legacy-code-debt-system-capability-mismatch.md)を定期的に検出し、不要な複雑性を積極的に削除することで、長期運用の効率性を維持
+
+## 実装パターン
+
+### パターン1：既存ハーネスからの段階的移行
+
+[レガシーハーネスからプラットフォームAPI移行パターン](legacy-harness-platform-api-migration-pattern.md)に基づき：
+
+1. 既存のSkill資産を棚卸し、新プラットフォーム対応の優先順位を決定
+2. 最小限の機能（ログ確認など）からManaged Agents APIへ移行開始
+3. [Claude Managed Agents](claude-managed-agents-cloud-deployment.md)の標準監視機能を段階的に活用
+4. 旧ハーネスの複雑な監視・エラーハンドリング機能を段階的に廃止
+5. 全面移行完了により、セキュリティ・監視負荷の大幅削減を実現
+
+### パターン2：多言語グローバル工場への導入
+
+[Gemma 4などの多言語・マルチモーダル対応モデル](gemma-llm-model-selection-manufacturing.md)を活用：
+
+1. 小～中規模拠点でE2B/E4Bなど軽量モデルでの検証を先行
+2. [投資対効果の明確化](ai-budget-management-roi-optimization.md)後、高性能モデル導入の判断
+3. [ライセンス・コンプライアンス](ai-model-license-compliance-manufacturing.md)を確認した上で社内全体展開
+
+### パターン3：製造システムへの安全な統合
+
+1. [先制的脆弱性監査](manufacturing-system-vulnerability-preemptive-audit.md)により既存システムの弱点を把握
+2. [エアギャップアーキテクチャ](ai-agent-permission-model-least-privilege.md)設計により生産ネットワークからの隔離
+3. [最小権限の原則](ai-agent-permission-model-least-privilege.md)に基づくAPI権限設定
+4. [Langfuseなどのツール](ai-system-monitoring-cost-visibility-tools.md)による継続的な監視
+5. 定期的な[科学的検証ループ](ai-as-scientific-instrument-verification-loop.md)による安全性確認
+
+## 経営判断フレームワーク
+
+~~単なるAI導入による業務効率化~~ → 段階的権限管理と継続的検証を前提とした導入
+
+1. **初期段階**：非本番環境での限定的な導入により、システム・組織の適応度を検証
+2. **権限管理段階**：本番環境との分離、最小権限付与、監査ログ整備を完了
+3. **本番段階**：[段階的権限委譲](ai-security-non-engineer-governance-framework.md)により、本番環境での限定的な運用開始
+4. **継続検証段階**：[コスト可視化](ai-system-monitoring-cost-visibility-tools.md)と[科学的検証](ai-as-scientific-instrument-verification-loop.md)ループを組織に埋め込み
+
+この判断フレームワークにより、効率化と安全性のバランスを取りながら、長期的に信頼性の高い自動化を実現できます。
+
 ## 関連ページ
 
 - [Claude Managed Agents：クラウドホスト型エージェント統合APIと本番環境デプロイメント](claude-managed-agents-cloud-deployment.md): クラウドホスト型APIの設計思想と本番運用
