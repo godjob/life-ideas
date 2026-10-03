@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T04:41:40+09:00",
+  "generatedAt": "2026-10-03T15:07:18+09:00",
   "weekly": {
-    "commitCount": 57,
+    "commitCount": 62,
     "byDay": [
       {
         "date": "2026-09-27",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-10-03",
-        "count": 0
+        "count": 5
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
+    "scrap": 5,
     "ideas": 0,
     "health": 10,
     "books": 5,
     "portfolio": 0,
-    "other": 93
+    "other": 96
   },
   "recentCommits": [
     {
-      "date": "2026-10-02",
-      "message": "news: 2026-10-02 記事まとめを自動生成"
+      "date": "2026-10-03",
+      "message": "scrap: 2026-10-03 【中島聡氏と電撃対談！】ヒューマノイドロボットの可・【直撃取材】ヒューマノイドは現場で使えるか／フィジ・【「Gemini 4 Argon」まだ“本命”じゃ"
     },
     {
-      "date": "2026-10-02",
-      "message": "朝刊: 2026-10-02 Morning Edition生成"
+      "date": "2026-10-03",
+      "message": "dashboard: Claude使用量更新 (2026-10-03)"
     },
     {
-      "date": "2026-10-01",
-      "message": "scrap: 2026-10-01 【AIが人間を上手に飼う】可能性が高いのはペット化"
+      "date": "2026-10-03",
+      "message": "dashboard: Claude使用量更新 (2026-10-03)"
     },
     {
-      "date": "2026-10-01",
-      "message": "dashboard: Claude使用量更新 (2026-10-01)"
+      "date": "2026-10-03",
+      "message": "dashboard: Claude使用量更新 (2026-10-03)"
     },
     {
-      "date": "2026-10-01",
-      "message": "CLAUDE.md: setup-hooks.shが設定するフックの説明を実態に合わせて修正"
+      "date": "2026-10-03",
+      "message": "朝刊: 2026-10-03 Morning Edition生成"
     }
   ]
 }
