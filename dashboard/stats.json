@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T18:11:37+09:00",
+  "generatedAt": "2026-10-03T18:28:30+09:00",
   "weekly": {
-    "commitCount": 75,
+    "commitCount": 83,
     "byDay": [
       {
         "date": "2026-09-27",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-03",
-        "count": 18
+        "count": 26
       }
     ]
   },
@@ -39,12 +39,16 @@
     "health": 10,
     "books": 5,
     "portfolio": 0,
-    "other": 109
+    "other": 116
   },
   "recentCommits": [
     {
       "date": "2026-10-03",
-      "message": "CLAUDE.md: git scrap 実行前の同期を fetch + rebase --autostash に変更"
+      "message": "dashboard: Claude使用量更新 (2026-10-03)"
+    },
+    {
+      "date": "2026-10-03",
+      "message": "git_scrap: Gemini モデルを 2.5-flash から 3.6-flash へ移行"
     },
     {
       "date": "2026-10-03",
@@ -52,15 +56,11 @@
     },
     {
       "date": "2026-10-03",
-      "message": "wiki: 行数の推奨上限を200→400行に緩和し、YouTube・wiki分割処理のテストを追加"
-    },
-    {
-      "date": "2026-10-03",
       "message": "dashboard: Claude使用量更新 (2026-10-03)"
     },
     {
       "date": "2026-10-03",
-      "message": "wiki: 過去の更新で6000文字カットにより消えたセクションを一括復元（28ページ・112ブロック）"
+      "message": "dashboard: Claude使用量更新 (2026-10-03)"
     }
   ]
 }
