@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T18:00:21+09:00",
+  "generatedAt": "2026-10-03T18:01:49+09:00",
   "weekly": {
-    "commitCount": 71,
+    "commitCount": 73,
     "byDay": [
       {
         "date": "2026-09-27",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-03",
-        "count": 14
+        "count": 16
       }
     ]
   },
@@ -39,20 +39,20 @@
     "health": 10,
     "books": 5,
     "portfolio": 0,
-    "other": 105
+    "other": 107
   },
   "recentCommits": [
     {
       "date": "2026-10-03",
+      "message": "wiki: 行数の推奨上限を200→400行に緩和し、YouTube・wiki分割処理のテストを追加"
+    },
+    {
+      "date": "2026-10-03",
+      "message": "dashboard: Claude使用量更新 (2026-10-03)"
+    },
+    {
+      "date": "2026-10-03",
       "message": "wiki: 過去の更新で6000文字カットにより消えたセクションを一括復元（28ページ・112ブロック）"
-    },
-    {
-      "date": "2026-10-03",
-      "message": "dashboard: Claude使用量更新 (2026-10-03)"
-    },
-    {
-      "date": "2026-10-03",
-      "message": "dashboard: Claude使用量更新 (2026-10-03)"
     },
     {
       "date": "2026-10-03",
