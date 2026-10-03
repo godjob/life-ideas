@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-10-03] ingest | 【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落してない」今井翔太／機能
+- 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [AI First戦略：エンタープライズ領域への深い統合と10年の進化](ai-first-strategy-enterprise-adoption.md), [Geminiモデル性能と戦略的リリース：機能絞り込みと競合分析](gemini-model-performance-strategic-release.md), [AI強化学習の安全性とガバナンス：暴走リスクと制御](ai-reinforcement-learning-safety-governance.md)
+- 出典: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)
+
+## [2026-10-03] ingest | 【直撃取材】ヒューマノイドは現場で使えるか／フィジカルAIの実装は物流でどこまで進んでいるのか／人型
+- 更新ページ: [人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略](humanoid-robot-labor-market-disruption.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md), [物流におけるフィジカルAI実装と費用対効果](physical-ai-logistics-implementation.md), [物流におけるデータドリブンAI開発競争](data-driven-ai-development-competition-logistics.md)
+- 出典: [【直撃取材】ヒューマノイドは現場で使えるか／フィジカルAIの実装は物流でどこまで](https://www.youtube.com/watch?v=larKThjEtOE)
+
+## [2026-10-03] ingest | 【中島聡氏と電撃対談！】ヒューマノイドロボットの可能性は広がるのか？
+- 更新ページ: [人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略](humanoid-robot-labor-market-disruption.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AIロボットハンドと精密制御：製造業における新たな機会創出](ai-robot-hand-precision-control-manufacturing.md)
+- 出典: [【中島聡氏と電撃対談！】ヒューマノイドロボットの可能性は広がるのか？](https://www.youtube.com/watch?v=8yKyS3FhMok)
+
 ## [2026-10-01] ingest | 【AIが人間を上手に飼う】可能性が高いのはペット化？認知科学者の苫米地英人が警鐘「隠せる個人情報はな
 - 更新ページ: [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md), [AIの存亡リスクとガバナンス：開発競争と国際規制](ai-existential-risk-governance.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md), [AI時代の個人情報消失とプライバシー](ai-personal-information-loss-privacy.md)
 - 出典: [【AIが人間を上手に飼う】可能性が高いのはペット化？認知科学者の苫米地英人が警鐘](https://www.youtube.com/watch?v=1jPEbM-79Xs)

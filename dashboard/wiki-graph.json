@@ -4,7 +4,7 @@
       "id": "2040-problem-japan-ai-robot-solution",
       "label": "2040年問題：AIとロボットによる日本の社会課題解決",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "2040年問題",
         "超高齢化社会",
@@ -68,7 +68,7 @@
       "id": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "label": "AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題",
       "group": "AIエージェント設計",
-      "value": 10,
+      "value": 11,
       "tags": [
         "AGI",
         "継続学習",
@@ -185,7 +185,7 @@
       "id": "ai-agent-governance-human-criteria",
       "label": "AIエージェント組織のガバナンスと人間による選別基準設計",
       "group": "AIエージェント設計",
-      "value": 8,
+      "value": 9,
       "tags": [
         "ガバナンス",
         "組織設計",
@@ -211,7 +211,7 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 21,
+      "value": 22,
       "tags": [
         "最小権限原則",
         "エアギャップ",
@@ -276,7 +276,7 @@
       "id": "ai-assisted-system-building-non-programmers",
       "label": "プログラミング経験なしのAIによるシステム構築",
       "group": "プロンプト・AI活用",
-      "value": 4,
+      "value": 5,
       "tags": [
         "非エンジニア",
         "システム開発",
@@ -367,7 +367,7 @@
       "id": "ai-budget-management-roi-optimization",
       "label": "AI予算管理とROI最適化：隠れたコスト削減ポイントと運用効率化",
       "group": "技術実装・エンジニアリング",
-      "value": 26,
+      "value": 27,
       "tags": [
         "コスト最適化",
         "プロンプト最適化",
@@ -392,7 +392,7 @@
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "ビジネス・組織",
-      "value": 9,
+      "value": 10,
       "tags": [
         "AI導入",
         "ビジネス戦略",
@@ -405,7 +405,7 @@
       "id": "ai-capability-expectation-calibration-realistic-timeline",
       "label": "AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AI導入",
         "AGI",
@@ -652,7 +652,7 @@
       "id": "ai-existential-risk-governance",
       "label": "AIの存亡リスクとガバナンス：開発競争と国際規制",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -717,7 +717,7 @@
       "id": "ai-frontier-diffusion-control",
       "label": "AIフロンティア技術の普及と制御：エコシステム戦略",
       "group": "AIエージェント設計",
-      "value": 5,
+      "value": 7,
       "tags": [
         "AIエコシステム",
         "ハーネスエンジニアリング",
@@ -730,7 +730,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 20,
+      "value": 19,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -795,7 +795,7 @@
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 13,
+      "value": 12,
       "tags": [
         "労働市場",
         "資本戦略",
@@ -808,7 +808,7 @@
       "id": "ai-labor-policy-governance-framework",
       "label": "AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止",
       "group": "AI戦略・社会",
-      "value": 11,
+      "value": 10,
       "tags": [
         "AIガバナンス",
         "規制キャプチャ",
@@ -886,7 +886,7 @@
       "id": "ai-model-orchestration-judgment-generation",
       "label": "AIモデルオーケストレーション：判定モデルと生成モデルの組み合わせ戦略",
       "group": "ビジネス・組織",
-      "value": 3,
+      "value": 2,
       "tags": [
         "AIモデル連携",
         "業務効率化",
@@ -964,7 +964,7 @@
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AIエージェント設計",
-      "value": 8,
+      "value": 9,
       "tags": [
         "複雑性直感",
         "物理世界AI",
@@ -1000,10 +1000,36 @@
       ]
     },
     {
+      "id": "ai-reinforcement-learning-safety-governance",
+      "label": "AI強化学習の安全性とガバナンス：暴走リスクと制御",
+      "group": "AIエージェント設計",
+      "value": 4,
+      "tags": [
+        "AIの暴走",
+        "シンギュラリティ",
+        "強化学習",
+        "AGI",
+        "セキュリティ"
+      ]
+    },
+    {
+      "id": "ai-robot-hand-precision-control-manufacturing",
+      "label": "AIロボットハンドと精密制御：製造業における新たな機会創出",
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "AIロボットハンド",
+        "精密制御",
+        "自動化",
+        "人手不足",
+        "生産性向上"
+      ]
+    },
+    {
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "製造業・業務DX",
-      "value": 26,
+      "value": 27,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -1029,7 +1055,7 @@
       "id": "ai-self-improvement-development-acceleration",
       "label": "AIによる自己開発と開発プロセスの劇的加速",
       "group": "AIエージェント設計",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AI駆動開発",
         "自律開発",
@@ -1055,7 +1081,7 @@
       "id": "ai-staff-roi-maximization",
       "label": "AI社員のROI最大化：月額コストと生み出す価値の最適設計",
       "group": "ビジネス・組織",
-      "value": 3,
+      "value": 5,
       "tags": [
         "ROI最大化",
         "AI社員",
@@ -1081,7 +1107,7 @@
       "id": "ai-talent-global-competition-manufacturing",
       "label": "AI人材のグローバル競争と製造業への影響",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AI人材",
         "グローバル競争",
@@ -1107,7 +1133,7 @@
       "id": "ai-transparent-reasoning-governance",
       "label": "AI推論の透明性確保とガバナンス",
       "group": "AIエージェント設計",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AIガバナンス",
         "透明性",
@@ -1301,7 +1327,7 @@
       "id": "backoffice-automation-ai-cowork",
       "label": "バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化",
       "group": "ビジネス・組織",
-      "value": 12,
+      "value": 13,
       "tags": [
         "バックオフィス自動化",
         "AI導入",
@@ -1825,6 +1851,19 @@
       ]
     },
     {
+      "id": "data-driven-ai-development-competition-logistics",
+      "label": "物流におけるデータドリブンAI開発競争",
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "物流DX",
+        "フィジカルAI",
+        "データドリブン",
+        "競争優位性",
+        "ロボット導入"
+      ]
+    },
+    {
       "id": "data-integration-visualization-manufacturing-application",
       "label": "データ統合可視化技術の製造業応用：バラバラなデータを統一的マップへ変換",
       "group": "製造業・業務DX",
@@ -2032,6 +2071,19 @@
       ]
     },
     {
+      "id": "gemini-model-performance-strategic-release",
+      "label": "Geminiモデル性能と戦略的リリース：機能絞り込みと競合分析",
+      "group": "AI戦略・社会",
+      "value": 4,
+      "tags": [
+        "AI競争",
+        "機能絞り込み",
+        "AIガバナンス",
+        "産業適用",
+        "市場優位性"
+      ]
+    },
+    {
       "id": "gemma-llm-model-selection-manufacturing",
       "label": "Gemma LLMモデル選択：製造業における段階導入戦略と軽量・重量モデルの使い分け",
       "group": "製造業・業務DX",
@@ -2178,7 +2230,7 @@
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 9,
       "tags": [
         "労働市場",
         "自動化",
@@ -2295,7 +2347,7 @@
       "id": "japan-ai-robot-social-implementation",
       "label": "日本におけるAI・ロボットの社会実装加速：高齢化社会と労働力不足を背景としたチャンス",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "高齢化社会",
         "労働力不足",
@@ -2594,7 +2646,7 @@
       "id": "managed-agents-cost-optimization-gtm-strategy",
       "label": "Managed Agentsのコスト最適化とGTM戦略：運用負荷削減と段階的スケーリングの設計",
       "group": "AIエージェント設計",
-      "value": 6,
+      "value": 5,
       "tags": [
         "コスト最適化",
         "GTM戦略",
@@ -2632,7 +2684,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 87,
+      "value": 90,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -2645,7 +2697,7 @@
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 42,
+      "value": 44,
       "tags": [
         "AI導入",
         "自動化",
@@ -2658,7 +2710,7 @@
       "id": "manufacturing-automation-cost-disruption",
       "label": "製造業自動化コストの劇的低下：経営判断能力へのシフト",
       "group": "製造業・業務DX",
-      "value": 16,
+      "value": 17,
       "tags": [
         "自動化コスト",
         "サプライチェーン最適化",
@@ -2671,7 +2723,7 @@
       "id": "manufacturing-continuous-learning-memory-mechanism-operational-data",
       "label": "製造業の継続学習と記憶メカニズム：運用ログからの効率的な学習抽出と競争力構築",
       "group": "製造業・業務DX",
-      "value": 14,
+      "value": 15,
       "tags": [
         "継続学習",
         "長期推論",
@@ -2723,7 +2775,7 @@
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 22,
+      "value": 24,
       "tags": [
         "セキュリティ監査",
         "リスク管理",
@@ -2905,7 +2957,7 @@
       "id": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "label": "マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 9,
       "tags": [
         "マルチモダリティ",
         "具現化AI",
@@ -2995,7 +3047,7 @@
       "id": "openai-anthropic-competitive-dynamics-market-shift",
       "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
       "group": "ビジネス・組織",
-      "value": 9,
+      "value": 10,
       "tags": [
         "ビジネス戦略",
         "AI導入",
@@ -3109,6 +3161,19 @@
       ]
     },
     {
+      "id": "physical-ai-logistics-implementation",
+      "label": "物流におけるフィジカルAI実装と費用対効果",
+      "group": "製造業・業務DX",
+      "value": 4,
+      "tags": [
+        "物流DX",
+        "フィジカルAI",
+        "費用対効果",
+        "労働力不足",
+        "データドリブン"
+      ]
+    },
+    {
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "ビジネス・組織",
@@ -3163,7 +3228,7 @@
       "id": "progressive-disclosure-pattern",
       "label": "Progressive Disclosure パターン：段階的情報開示による効率化",
       "group": "Claude/AI開発ツール",
-      "value": 11,
+      "value": 12,
       "tags": [
         "Skill System",
         "トークン効率化",
@@ -3240,7 +3305,7 @@
       "id": "qms-style-ai-prompt-governance",
       "label": "QMS様式のAIプロンプト統治：製造業の手順書運用をClaude Codeに適用",
       "group": "Claude/AI開発ツール",
-      "value": 40,
+      "value": 39,
       "tags": [
         "QMS",
         "CLAUDE.md",
@@ -3292,7 +3357,7 @@
       "id": "rapid-iteration-learning-loop-operational-design",
       "label": "高速反復学習ループの運用設計：カオス環験での適応能力とゼロ欠陥志向からの脱却",
       "group": "ビジネス・組織",
-      "value": 15,
+      "value": 16,
       "tags": [
         "組織変革",
         "高速学習",
@@ -3409,7 +3474,7 @@
       "id": "singularity-loop-ai-self-acceleration",
       "label": "シンギュラリティループ：AIが自律的に進化を加速させるメカニズム",
       "group": "AI戦略・社会",
-      "value": 10,
+      "value": 11,
       "tags": [
         "シンギュラリティ",
         "ASIエコノミー",
@@ -4667,7 +4732,7 @@
     },
     {
       "from": "ai-agent-operations",
-      "to": "ai-model-orchestration-judgment-generation"
+      "to": "ai-robot-hand-precision-control-manufacturing"
     },
     {
       "from": "ai-agent-operations",
@@ -5519,15 +5584,15 @@
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
-      "to": "ai-labor-policy-governance-framework"
-    },
-    {
-      "from": "ai-capability-threshold-disclosure-strategy",
       "to": "ai-leader-values-philosophy-reliability-foundation"
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
       "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "ai-capability-threshold-disclosure-strategy",
+      "to": "ai-reinforcement-learning-safety-governance"
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
@@ -5539,7 +5604,15 @@
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
+      "to": "gemini-model-performance-strategic-release"
+    },
+    {
+      "from": "ai-capability-threshold-disclosure-strategy",
       "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "ai-capability-threshold-disclosure-strategy",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
@@ -6575,7 +6648,15 @@
     },
     {
       "from": "ai-first-strategy-enterprise-adoption",
+      "to": "ai-reinforcement-learning-safety-governance"
+    },
+    {
+      "from": "ai-first-strategy-enterprise-adoption",
       "to": "edge-ai-system-design-production-skills"
+    },
+    {
+      "from": "ai-first-strategy-enterprise-adoption",
+      "to": "gemini-model-performance-strategic-release"
     },
     {
       "from": "ai-first-strategy-enterprise-adoption",
@@ -7379,6 +7460,10 @@
     },
     {
       "from": "ai-physical-world-reasoning-intuition-acquisition",
+      "to": "data-driven-ai-development-competition-logistics"
+    },
+    {
+      "from": "ai-physical-world-reasoning-intuition-acquisition",
       "to": "git-hooks-security-defense"
     },
     {
@@ -7408,6 +7493,10 @@
     {
       "from": "ai-physical-world-reasoning-intuition-acquisition",
       "to": "organizational-ai-adoption-acceleration-topdown-directive"
+    },
+    {
+      "from": "ai-physical-world-reasoning-intuition-acquisition",
+      "to": "physical-ai-logistics-implementation"
     },
     {
       "from": "ai-physical-world-reasoning-intuition-acquisition",
@@ -7472,6 +7561,70 @@
     {
       "from": "ai-prompt-engineering-leadership-career",
       "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "ai-agent-governance-human-criteria"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "ai-assisted-system-building-non-programmers"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "ai-existential-risk-governance"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "ai-frontier-diffusion-control"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "ai-transparent-reasoning-governance"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "gemini-model-performance-strategic-release"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "ai-reinforcement-learning-safety-governance",
+      "to": "singularity-loop-ai-self-acceleration"
+    },
+    {
+      "from": "ai-robot-hand-precision-control-manufacturing",
+      "to": "2040-problem-japan-ai-robot-solution"
+    },
+    {
+      "from": "ai-robot-hand-precision-control-manufacturing",
+      "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "ai-robot-hand-precision-control-manufacturing",
+      "to": "japan-ai-robot-social-implementation"
+    },
+    {
+      "from": "ai-robot-hand-precision-control-manufacturing",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-robot-hand-precision-control-manufacturing",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "ai-sandboxing-isolation-architecture-manufacturing",
@@ -10130,6 +10283,34 @@
       "to": "unlearning-capability-ai-era-competition"
     },
     {
+      "from": "data-driven-ai-development-competition-logistics",
+      "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "data-driven-ai-development-competition-logistics",
+      "to": "ai-staff-roi-maximization"
+    },
+    {
+      "from": "data-driven-ai-development-competition-logistics",
+      "to": "ai-talent-global-competition-manufacturing"
+    },
+    {
+      "from": "data-driven-ai-development-competition-logistics",
+      "to": "manufacturing-continuous-learning-memory-mechanism-operational-data"
+    },
+    {
+      "from": "data-driven-ai-development-competition-logistics",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "data-driven-ai-development-competition-logistics",
+      "to": "physical-ai-logistics-implementation"
+    },
+    {
+      "from": "data-driven-ai-development-competition-logistics",
+      "to": "rapid-iteration-learning-loop-operational-design"
+    },
+    {
       "from": "data-integration-visualization-manufacturing-application",
       "to": "document-format-conversion-markdown-standardization"
     },
@@ -10742,6 +10923,46 @@
       "to": "speed-first-prototyping"
     },
     {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "ai-capability-evolution-design-flexibility"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "ai-capability-expectation-calibration-realistic-timeline"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "ai-frontier-diffusion-control"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "ai-reinforcement-learning-safety-governance"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "backoffice-automation-ai-cowork"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
+      "from": "gemini-model-performance-strategic-release",
+      "to": "progressive-disclosure-pattern"
+    },
+    {
       "from": "gemma-llm-model-selection-manufacturing",
       "to": "ai-model-license-compliance-manufacturing"
     },
@@ -11099,7 +11320,15 @@
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
+      "to": "ai-robot-hand-precision-control-manufacturing"
+    },
+    {
+      "from": "humanoid-robot-labor-market-disruption",
       "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "humanoid-robot-labor-market-disruption",
+      "to": "data-driven-ai-development-competition-logistics"
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
@@ -11120,6 +11349,10 @@
     {
       "from": "humanoid-robot-labor-market-disruption",
       "to": "physical-ai-hardware-standardization-strategy"
+    },
+    {
+      "from": "humanoid-robot-labor-market-disruption",
+      "to": "physical-ai-logistics-implementation"
     },
     {
       "from": "humanoid-robot-labor-market-disruption",
@@ -12747,6 +12980,10 @@
     },
     {
       "from": "manufacturing-ai-opportunities",
+      "to": "ai-robot-hand-precision-control-manufacturing"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
       "to": "ai-staff-roi-maximization"
     },
     {
@@ -12764,6 +13001,10 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "citizen-development-ai-manufacturing"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "data-driven-ai-development-competition-logistics"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -12812,6 +13053,10 @@
     {
       "from": "manufacturing-ai-opportunities",
       "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
+    },
+    {
+      "from": "manufacturing-ai-opportunities",
+      "to": "physical-ai-logistics-implementation"
     },
     {
       "from": "manufacturing-ai-opportunities",
@@ -14115,19 +14360,15 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "ai-governance-human-oversight-framework"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "ai-labor-market-shift-capital-strategy"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-model-provider-vertical-integration"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-reinforcement-learning-safety-governance"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -14143,19 +14384,15 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "gemini-model-performance-strategic-release"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "kimi-k3-moonshot-ai-model-comparison"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "managed-agents-cost-optimization-gtm-strategy"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "open-vs-closed-ai-model-strategy"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "qms-style-ai-prompt-governance"
     },
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
@@ -14536,6 +14773,42 @@
     {
       "from": "physical-ai-hardware-standardization-strategy",
       "to": "smile-curve-strategy"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "ai-budget-management-roi-optimization"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "ai-robot-hand-precision-control-manufacturing"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "ai-self-improvement-development-acceleration"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "ai-staff-roi-maximization"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "data-driven-ai-development-competition-logistics"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "physical-ai-logistics-implementation",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "pm-exponential-adaptation",
