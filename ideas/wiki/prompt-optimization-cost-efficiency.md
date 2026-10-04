@@ -9,9 +9,15 @@ tags: [プロンプト最適化, トークン削減, コスト削減, API利用�
 
 Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除する「Caveman」プロンプトテクニックにより、トークン消費を75%削減し月500ドル以上のコスト節約が可能になる。プロンプト設計の工夫は、AIツール導入時の見落とされやすいコスト削減ポイントであり、[プロンプトテンプレートの反復検証フレームワーク](prompt-template-iteration-testing-framework.md)を通じた継続的改善が月単位で大きなROI改善をもたらす。さらに、[段階的AIモデル活用の3フェーズ設計](tiered-ai-model-planning-verification-execution.md)により、安価なモデルで計画を立てた上で高度なモデルを選別的に使用することで、API利用そのものの効率化も可能になる。
 
+また、AIが主導して業務を実行する時代においては、人間側は詳細な処理を行うよりも「AIが生成した成果物をいかに効率よく理解・評価するか」という[Agentic Engineeringの監督者モデル](agentic-engineering-supervisor-model.md)のスキルが重要になる。この文脈において、制限言語（ASD-STE100）を用いたテキスト圧縮や、HTML/可視化コードの生成指示などの[制限言語（ASD-STE100）によるLLM出力最適化と可視化プロンプト手法](controlled-language-llm-output-optimization.md)を併用することで、トークン消費削減と人間の解読・検証コストの最小化を両立させることができる。
+
 ## 主要な知見
 
 - **Cavemanテクニックの有効性**: 「簡潔性を最優先」「説明より結果」という原則に従うことで、同じ出力品質を保ちながらトークン消費を劇的に削減できる。月500ドル以上の節約実績は、プロンプト最適化の実装価値を示す
+
+- **制限言語（ASD-STE100等）による出力最適化**: Andrej Karpathy氏が提唱するように、ASD-STE100（Simplified Technical English）などの制御された言語仕様を出力指示に含めることで、冗長な自然言語表現を排除し、極めて読みやすくトークン効率の高いドキュメントを生成可能。システム管理や技術文書の作成において効果を発揮する
+
+- **監督者視点での可視化出力**: AI時代においては人間がコードや長文テキストを直接読むよりも、AIにHTMLや図表コードの作成を指示し視覚的に理解する方が効率的。[AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md)に基づき、評価・解読速度を高めるプロンプト設計が求められる
 
 - **段階的モデル選択によるコスト削減**: [段階的AIモデル活用の3フェーズ設計](tiered-ai-model-planning-verification-execution.md)の考え方に基づき、安価なモデル（例：Claude Haiku）で要件や計画を整理した上で、高度な分析が必要な場面でのみ高級モデル（例：Claude Opus）を使用することで、トークン効率と処理品質の両立が可能。このアプローチにより、APIレート制限に頻繁に達していたユーザーが3週間以上制限に達しない状態を実現した実例がある
 
@@ -35,9 +41,9 @@ Claude等のLLM API利用時、不必要な詳細説明や自問自答を排除�
 
 「これについて考えます」「まず確認します」など思考プロセスの言語化を指示しない。特に[Skill設計](skill-md-specification.md)における自動化タスクでは、中間ステップの詳細説明は不要で、最終結果のみを要求することが標準化される。
 
-### 3. 形式の制限
+### 3. 形式の制限と制限言語の適用
 
-JSONやCSVなど構造化形式を明示的に指示することで、自然言語での冗長な説明を防止できる。[Hook設計パターン](hook-design-patterns-ai-workflow.md)では、SessionEnd等で出力形式を厳密に定義することでトークン効率が向上する。
+JSONやCSVなどの構造化形式の要求に併せ、「ASD-STE100規格で出力してください」といった制限言語（Controlled Language）の指定を行うことで、文脈の明瞭さを保ちながら冗長な副詞や複雑な文構造を強制排除できる。[Hook設計パターン](hook-design-patterns-ai-workflow.md)では、SessionEnd等で出力形式を厳密に定義することでトークン効率が向上する。
 
 ### 4. エッジケースの明記
 
@@ -55,6 +61,10 @@ JSONやCSVなど構造化形式を明示的に指示することで、自然言�
 【Cavemanテクニック】
 "エラー行をJSON形式で抽出してください。説明は不要"
 → トークン消費：500
+
+【ASD-STE100制限言語指定（技術ドキュメント用）】
+"システム障害の対応手順をASD-STE100仕様に準拠して簡潔に作成してください。明確な動詞のみを使用し、曖昧な説明は除外すること"
+→ トークン消費：350（可読性と解読速度も大幅向上）
 ```
 
 ### 段階的モデル選択による計画・検証・実行
@@ -80,6 +90,14 @@ JSONやCSVなど構造化形式を明示的に指示することで、自然言�
 
 この戦略により、安価なモデルで事前計画を充実させることで、高級モデルへの入力品質が向上し、結果として全体のトークン効率と処理品質が同時に向上する。
 
+### 監督者（Supervisor）向けの視覚的出力プロンプト
+
+[Agentic Engineeringの監督者モデル](agentic-engineering-supervisor-model.md)に基づき、人間がLLMの出力を評価する負荷を削減するため、長文テキストではなく直接可視化可能な形式を出力させる：
+
+```
+"複雑なシステム障害の依存関係をテキストで説明するのではなく、そのままブラウザで表示可能な単一ファイルのHTML/SVGインタラクティブ図として出力してください。解説テキストは不要です"
+```
+
 ### AIエージェント自動化での活用
 
 [AI時代の働き方の逆転](ai-era-work-inversion.md)の文脈で、自動化タスクの効率化は実行速度とコスト削減の双方に貢献する。エージェントが人間の検証を待つ時間を削減するには、中間ステップの詳細説明を排除し、判定結果のみを返す設計が効果的。
@@ -92,9 +110,9 @@ JSONやCSVなど構造化形式を明示的に指示することで、自然言�
 
 完全な説明排除は品質低下につながる可能性がある。バランスを取るための設計原則：
 
-- **人間が最終判定する業務**: 基本情報と選択肢のみ。詳細説明は冗長
+- **人間が最終判定する業務**: 基本情報と選択肢のみ。詳細説明の代わりにHTML化や図解指定を併用する
 - **自動化タスク**: 結果のみ。理由は不要
-- **学習・分析用途**: 必要最小限の説明のみ
+- **学習・分析用途**: 必要最小限の説明、またはASD-STE100等の制限言語による明確で短い表現を使用
 
 [プロンプト明確性とマネジメント](prompt-clarity-management-feedback-loop.md)で述べられるように、AIフィードバックループを通じて必要な詳細度を段階的に見極めることが重要。
 
@@ -120,42 +138,30 @@ JSONやCSVなど構造化形式を明示的に指示することで、自然言�
 
 ### 4. 処理フェーズの機械的分離
 
-[段階的AIモデル活用の3フェーズ設計](tiered-ai-model-planning-verification-execution.md)に基づき、計画・検証・実行の各フェーズを異なるモデルで処理する際は、各フェーズ間の入出力形式を厳密に定義することが重要。これにより、~~各フェーズでの詳細説明を排除する際の品質低下リスク~~ → 段階的に抽象度を調整することで、各フェーズに最適な出力品質を保ちながらトークン効率化できる。
+[段階的AIモデル活用の3フェーズ設計](tiered-ai-model-planning-verification-execution.md)に基づき、計画・検証・実行の各フェーズを異なるモデルで処理する際は、各フェーズ間の入出力形式を厳密に定義することが重要。これにより、段階的に抽象度を調整することで、各フェーズに最適な出力品質を保ちながらトークン効率化できる。
 
 ## 他の最適化手法との組み合わせ
 
 Cavemanテクニックは、以下の施策と組み合わせることでさらに効果が高まる：
 
 - **段階的モデル選択**: [段階的AIモデル活用の3フェーズ設計](tiered-ai-model-planning-verification-execution.md)により、計画段階での軽量モデル使用でトークン削減と処理品質の両立を実現
+- **制限言語・可視化プロンプト**: [制限言語（ASD-STE100）によるLLM出力最適化と可視化プロンプト手法](controlled-language-llm-output-optimization.md)により、読みやすさ向上と人間側の解読コスト最小化を達成
 - **RAG活用**: [LLM API・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md)の観点から、コンテキストウィンドウに不要な説明を載せない設計
 - **キャッシング**: Claudeのプロンプトキャッシング機能により、同一構造の重複クエリのトークン消費をさらに削減
 - **ローカルLLM**: [ローカルLLMデプロイメント・アーキテクチャ](local-llm-deployment-architecture.md)により、API利用頻度そのものを削減
 
 ## 関連ページ
 
-- [段階的AIモデル活用の3フェーズ設計](tiered-ai-model-planning-verification-execution.md): 軽量モデル計画→中堅モデル検証→高級モデル実行による効率化戦略
-- [AI予算管理とROI最適化](ai-budget-management-roi-optimization.md): トークン削減以外のコスト削減施策と運用効率化
-- [AIエージェント運用のトークン定量化](ai-agent-token-metrics-career-leverage.md): トークン消費の計測と可視化戦略
-- [長期連続稼働AIエージェント設計](long-running-ai-agent-design-patterns.md): エージェント運用でのトークン効率化パターン
-- [プロンプト明確性とマネジメント](prompt-clarity-management-feedback-loop.md): プロンプト品質向上のフィードバックループ
-- [Claude Code設定駆動ワークフロー](claude-code-configuration-driven-workflow.md): CLAUDE.mdによるプロンプト標準化
-- [QMS様式のAIプロンプト統治](qms-style-ai-prompt-governance.md): プロンプト管理の体系化
-- [指示設計の3要素フレームワーク](instruction-design-three-elements.md): 効果的な指示設計の原則
-- [Progressive Disclosure パターン](progressive-disclosure-pattern.md): 段階的情報開示による効率化
-- [マルチエージェントのタスク依存関係管理](multi-agent-task-dependency-management.md): エージェント間通信の最適化
-- [AI時代の働き方の逆転](ai-era-work-inversion.md): 自動化による効率化の組織的展開
-- [Claudeスキルテンプレートの再利用と組織展開](claude-skill-template-library-reuse.md): 検証済みテンプレートの標準化と採用加速
-- [プロンプトテンプレートの反復検証フレームワーク](prompt-template-iteration-testing-framework.md): テンプレート開発の5時間調整プロセスと組織的スケーリング
-- [descriptionフィールドの最適化](description-field-best-practices.md): 機能説明とトークン効率の両立
-- [Hook設計パターン](hook-design-patterns-ai-workflow.md): SessionEnd等での出力形式の厳密定義
-- [LLM API・RAG・デプロイメント](llm-api-rag-deployment-fundamentals.md): 現代AIエンジニアのコア6スキル
-- [ローカルLLMデプロイメント・アーキテクチャ](local-llm-deployment-architecture.md): オンプレミスAI運用とコスト最適化
-- [Claude Code Agent Teams](claude-code-agent-teams.md): 複数エージェント連携による業務自動化
-- [Skill設計](skill-md-specification.md): 自動化ワークフロー設計の基礎
-- [CLAUDE.md統治](claude-md-governance.md): AIへの経営判断基準の明文化
+- [制限言語（ASD-STE100）によるLLM出力最適化と可視化プロンプト手法](controlled-language-llm-output-optimization.md): ASD-STE100や可視化コード生成を活用した出力最適化テクニック
+- [Agentic Engineeringの監督者モデル](agentic-engineering-supervisor-model.md): 人間が実行者から検証・監督者へシフトする際の実践フレームワーク
+- [段階的AIモデル活用の3フェーズ設計](tiered-ai-model-planning-verification-execution.md): モデルの選別使用によるトークン消費とコストの最適化
+- [プロンプトテンプレートの反復検証フレームワーク](prompt-template-iteration-testing-framework.md): 5時間の調整プロセスを通じた高品質テンプレートの構築手法
+- [AI予算管理とROI最適化](ai-budget-management-roi-optimization.md): コスト可視化と運用効率化による導入対効果の最大化
+- [Claudeスキルテンプレートの再利用と組織展開](claude-skill-template-library-reuse.md): 検証済みプロンプトの組織共有と展開戦略
+- [ai-understanding-resolution-human-value.md](ai-understanding-resolution-human-value.md): AI時代における人間の理解力と評価スキルの再構築
 
 ## 更新履歴
-
 - 2026-04-08: [XユーザーのNoisyさん: 「How I stopped burning 75% of my Claude budget and saved $500/month」](https://x.com/noisyb0y1/status/2041454862425047268) をもとにページ作成
 - 2026-04-16: [XユーザーのAI Edgeさん: 「9 Claude Skills That Will Change Your Life (RESOURCES INCLUDED)」](https://x.com/aiedge_/status/2044431605209673973) をもとに、テンプレート駆動型プロンプト設計と組織展開、反復検証フレームワークに関する内容を追加
 - 2026-05-03: [XユーザーのMiles Deutscherさん: 「Never Hit Claude Usage Limits Ever Again」](https://x.com/milesdeutscher/status/2049618781841031551) をもとに、段階的モデル選択によるコスト削減戦略と処理フェーズの機械的分離に関する内容を追加
+- 2026-10-04: [XユーザーのAndrej Karpathyさん: 「We'll be spend](https://x.com/karpathy/status/2105819303471976479)

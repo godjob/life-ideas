@@ -1,5 +1,41 @@
 # Wiki 更新ログ
 
+## [2026-10-04] ingest | 落合陽一『マタギドライヴ』を読むためのヒント集｜宇野常寛
+- 更新ページ: [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md)
+- 出典: [落合陽一『マタギドライヴ』を読むためのヒント集｜宇野常寛](https://note.com/wakusei2nduno/n/n27191b0c7495?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | 狩猟採集から農耕・工業社会への急速な変化と進化的ミスマッチ:文化系のための『マタギドライヴ』の読み方
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [狩猟採集から農耕・工業社会への急速な変化と進化的ミスマッチ:文化系のための『マタ](https://note.com/wakusei2nduno/n/nb6323767b76d?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | 文化系のための『マタギドライヴ』の読み方（#1 用語解説）｜宇野常寛
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [文化系のための『マタギドライヴ』の読み方（#1 用語解説）｜宇野常寛](https://note.com/wakusei2nduno/n/n4b4b4758601f?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | 「知性」と「エネルギー」の等価化のもたらす二つの道：文化系のための『マタギドライヴ』の読み方 #3 
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [「知性」と「エネルギー」の等価化のもたらす二つの道：文化系のための『マタギドライ](https://note.com/wakusei2nduno/n/nc93c7ceb3f21?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | 「狩猟性への回帰」とテクノ民藝：文化系のための『マタギドライヴ』の読み方 #4 第一章（後半）｜宇野
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [「狩猟性への回帰」とテクノ民藝：文化系のための『マタギドライヴ』の読み方 #4 ](https://note.com/wakusei2nduno/n/n4612681c3546?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | 「死の終焉」について：文化系のための『マタギドライヴ』の読み方 #2 序章｜宇野常寛
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [「死の終焉」について：文化系のための『マタギドライヴ』の読み方 #2 序章｜宇野](https://note.com/wakusei2nduno/n/nd488199068eb?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | 「歴史」を書き直す（文化系のための「マタギドライヴ」の読み方 #7）｜宇野常寛
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [「歴史」を書き直す（文化系のための「マタギドライヴ」の読み方 #7）｜宇野常寛](https://note.com/wakusei2nduno/n/nf94a595a971b?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | 「人間」の拡張について（文化系のための『マタギドライヴ』の読み方 #6）｜宇野常寛
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [「人間」の拡張について（文化系のための『マタギドライヴ』の読み方 #6）｜宇野常](https://note.com/wakusei2nduno/n/n877e1e93b4e5?magazine_key=m87acce740a42)
+
+## [2026-10-04] ingest | XユーザーのAndrej Karpathyさん: 「We'll be spending a lot 
+- 更新ページ: [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md), [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md), [プロンプト最適化によるコスト効率化：Cavemanテクニックとトークン削減戦略](prompt-optimization-cost-efficiency.md), [制限言語（ASD-STE100）によるLLM出力最適化と可視化プロンプト手法](controlled-language-llm-output-optimization.md)
+- 出典: [XユーザーのAndrej Karpathyさん: 「We'll be spend](https://x.com/karpathy/status/2105819303471976479)
+
 ## [2026-10-03] ingest | 【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落してない」今井翔太／機能
 - 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [AI First戦略：エンタープライズ領域への深い統合と10年の進化](ai-first-strategy-enterprise-adoption.md), [Geminiモデル性能と戦略的リリース：機能絞り込みと競合分析](gemini-model-performance-strategic-release.md), [AI強化学習の安全性とガバナンス：暴走リスクと制御](ai-reinforcement-learning-safety-governance.md)
 - 出典: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)

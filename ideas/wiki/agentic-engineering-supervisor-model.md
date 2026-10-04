@@ -15,6 +15,8 @@ Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コ�
 
 加えて、[バックオフィス業務を自律実行するAIサービスの登場](backoffice-automation-ai-cowork.md)により、経理・労務・法務といった定型業務の標準化・自動化が急速に進展している。AIが『同僚』として機能する環境では、事務作業の属人化が軽減され、運用ナレッジの標準化が組織全体で実現される。監督者モデルは、こうした業務自動化を組織横断的に調整し、基幹システムの意思決定に反映させる統合的な役割へと拡張されていく。
 
+さらに、AIが業務の大部分を実行する時代においては、人間が詳細な処理やコード作成に時間を費やすよりも、「AIが生成した成果物をいかに効率よく理解・評価・可視化するか」という認知負荷軽減のスキルが監督者の中核となる。
+
 ## 主要な知見
 
 - **監督者ポジションと既存スキルの親和性**  
@@ -22,6 +24,9 @@ Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コ�
 
 - **ハーネスエンジニアリングによる自律開発フレームワーク**  
   [ハーネスエンジニアリング](harness-engineering-autonomous-development.md)は、Planner・Generator・Evaluatorの3つの役割を持つAIエージェントを連携させることで、人間の手を介さずに自律的に開発を完結させる手法である。このアプローチは、単一のAIより役割分担と評価ループ設計を優先する点で、製造業の品質管理プロセスと同じ発想に基づいている。エージェントハーネスの設計により、「目標→実行→評価→調整」の改善ループが自動で回ることで初めて高い成果が得られ、放置可能な仕組みが実現される。エンジニアのキャリアが『[コード職人からAIマネジャーへ](ai-manager-role-transition-code-craftsman.md)』転換する過渡期において、ハーネス設計の理解度が市場価値を大きく左右する。
+
+- **LLM出力の可視化・理解技術と認知負荷軽減**  
+  監督者モデルを実用化するうえで最大のボトルネックは、大量に出力されるLLM成果物の解読作業である。元Tesla AIのAndrej Karpathy氏が提言するように、今後はLLMの出力を人間が迅速に理解するための工夫が不可欠となる。[制限言語（ASD-STE100）によるLLM出力最適化と可視化プロンプト手法](controlled-language-llm-output-optimization.md)を活用し、ASD-STE100のような簡易化された言語仕様をLLMに指示することで、技術文書やマニュアルの冗長さを排除した圧倒的に読みやすいドキュメントが生成可能となる。さらに、テキスト出力にとどまらずHTML構造やアニメーション・動画コードの生成を指示してビジュアル化を促すことで、複雑なシステム挙動の理解速度を格段に高め、監督者の「成果物理解にかける時間」を大幅に削減できる。
 
 - **製造業効率化原理の応用と柔軟な設計原則**  
   自動アセンブリラインの概念をソフトウェア開発に適用する[The Factory Model](factory-model-software-development.md)は、ランニングのトレーニング管理におけるペース管理に相当する。無理なく一定品質を持続させるシステム設計が重要である。これは[エネルギー管理が競争力の中核](manufacturing-automation-cost-disruption.md)となる時代において、人間の認知負荷を軽減しながらエージェントの判断精度を維持するための鍵となる。特にハーネス設計では、各エージェント役割の処理負荷を均等に分散し、フィードバックループが機械的に回る仕組みが重要である。
@@ -33,6 +38,7 @@ Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コ�
   
   しかし、AIの出力結果を検証する判断そのものが新たな疲労源となることに注意が必要である。[AI疲れと判断負荷](ai-fatigue-judgment-burden-mitigation.md)を軽減するには、以下の工夫が不可欠である。
   - AIの出力結果をレビューする際の**判断基準を明確化**し、検証プロセスの属人性を排除する
+  - ASD-STE100などの制御言語やダイアグラム生成を活用して出力の可読性を高め、脳の解読コストを抑える
   - [チームレビュー（モブプログラミング）](prompt-clarity-management-feedback-loop.md)により判断負荷を分散し、同時に若手の学習機会を創出する
   - 定期的な心身リセット（ランニングなど）の習慣により、判断疲れの蓄積を緩和する
   - [ジュニアエンジニア育成](junior-engineer-retention-ai-era-succession-planning.md)に継続投資し、多様な視点による検証体制を維持する
@@ -50,6 +56,7 @@ Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コ�
 - [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md): AI自律開発の3つの役割と評価ループ設計
 - [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md): 長期稼働と信頼性確保のための監視体制
 - [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md): キャリア転換と市場価値の再定義
+- [制限言語（ASD-STE100）によるLLM出力最適化と可視化プロンプト手法](controlled-language-llm-output-optimization.md): 成果物の迅速な理解と認知負荷削減プロンプト
 - [AIエージェント運用のトークン定量化：キャリア交渉と昇進における説得力構築](ai-agent-token-metrics-career-leverage.md): 定量指標による貢献度可視化
 - [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md): 複数エージェント間の調整メカニズム
 - [The Factory Model：製造業の効率化原理をソフトウェア開発に適用するペース管理](factory-model-software-development.md): 持続可能なペース設計
@@ -65,6 +72,6 @@ Agentic Engineeringの発展に伴い、エンジニアの役割は「直接コ�
 - [仮定の再評価サイクル：ルール削減と継続的改善の運用設計](assumption-reevaluation-cycle-continuous-improvement.md): 定期的な仮説検証による効率向上
 
 ## 更新履歴
-
 - 2026-04-16: [Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps | Claude](https://claude.com/blog/harnessing-claudes-intelligence)を参照し、AI能力進化に対応する柔軟な設計原則と仮定の再評価サイクルの必要性を追加
 - 2026-04-09: [組織の壊し方｜株式会社 帝国データバンク[TDB]](https://www.tdb.co.jp/report/economic/h-5oddsyxoyt/)を参照し、組織機能不全パターンと承認フロー簡素化の必要性を追加
+- 2026-10-04: [XユーザーのAndrej Karpathyさん: 「We'll be spend](https://x.com/karpathy/status/2105819303471976479)
