@@ -28,4 +28,4 @@ GoogleのフロンティアAIモデルであるGemini 4 Argonのリリースは�
 - [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md): AIモデルプロバイダー間の競争状況。
 
 ## 更新履歴
-- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)
+- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gpLgs)

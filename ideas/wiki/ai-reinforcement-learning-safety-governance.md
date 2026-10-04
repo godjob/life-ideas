@@ -29,4 +29,4 @@ AIの急速な進化、特に強化学習の発展は、その性能向上とと
 - [AIフロンティア技術の普及と制御：エコシステム戦略](ai-frontier-diffusion-control.md): 最新のAIフロンティア技術が社会に普及する過程で、どのようにそのリスクを制御し、安全なエコシステムを構築していくか。
 
 ## 更新履歴
-- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)
+- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gpLgs)

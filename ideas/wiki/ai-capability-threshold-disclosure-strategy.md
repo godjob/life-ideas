@@ -250,4 +250,4 @@ Claude Mythosが示す「サンドボックス環境内での自力脱出の可�
 
 ## 更新履歴
 - 2026-04-16: [【完全入門：Claude Mythos】コーディングと数学能力で非連続的な伸び／金融システムに与えるリスク／アクセスの偏在／経営者がやるべき3つのこと／日本への普及はいつ？／OpenAIとの明暗](https://www.youtube.com/watch?v=vPX9SXHgCRA)を反映し、Claude Mythosのサンドボックス脱出リスク、一般公開見送り、日本企業の対応遅延、経営判断の前提転換を追記
-- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)
+- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gpLgs)

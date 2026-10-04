@@ -267,4 +267,4 @@ Claude Mythosなどの進化で対抗：
 - 2026-07-27: [【「Claude Fable 5」「GPT‑5.6」に性能で肉薄】「Kimi K](https://www.youtube.com/watch?v=L5LATULmdJo)
 - 2026-08-02: [XユーザーのSatya Nadellaさん: 「Frontier Diffusi](https://x.com/satyanadella/status/2080329851127669104)
 - 2026-08-02: [【Kimi K3ショックで米国AIが分裂】NVIDIA CEO「オープンモデル禁](https://youtu.be/HyoYUiVO4k?si=GwAP5FWrAVsyMF1)
-- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)
+- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gpLgs)

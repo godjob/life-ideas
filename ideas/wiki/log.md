@@ -38,7 +38,7 @@
 
 ## [2026-10-03] ingest | 【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落してない」今井翔太／機能
 - 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AI能力閾値の公開判断：性能向上に伴う段階的リリース戦略と安全性検証フレームワーク](ai-capability-threshold-disclosure-strategy.md), [AI First戦略：エンタープライズ領域への深い統合と10年の進化](ai-first-strategy-enterprise-adoption.md), [Geminiモデル性能と戦略的リリース：機能絞り込みと競合分析](gemini-model-performance-strategic-release.md), [AI強化学習の安全性とガバナンス：暴走リスクと制御](ai-reinforcement-learning-safety-governance.md)
-- 出典: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)
+- 出典: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gpLgs)
 
 ## [2026-10-03] ingest | 【直撃取材】ヒューマノイドは現場で使えるか／フィジカルAIの実装は物流でどこまで進んでいるのか／人型
 - 更新ページ: [人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略](humanoid-robot-labor-market-disruption.md), [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md), [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md), [物流におけるフィジカルAI実装と費用対効果](physical-ai-logistics-implementation.md), [物流におけるデータドリブンAI開発競争](data-driven-ai-development-competition-logistics.md)

@@ -36,4 +36,4 @@ Googleは、[Geminiモデル性能と戦略的リリース：機能絞り込み�
 ## 更新履歴
 - 2026-05-20: [Google I/O '26 Keynote](https://www.youtube.com/watch?v=wYSncx9zLIU)
 - 2026-08-02: [XユーザーのSatya Nadellaさん: 「Frontier Diffusi](https://x.com/satyanadella/status/2080329851127669104)
-- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gp4s)
+- 2026-10-03: [【「Gemini 4 Argon」まだ“本命”じゃない】「Googleは脱落して](https://www.youtube.com/watch?v=_Ef0j-gpLgs)
