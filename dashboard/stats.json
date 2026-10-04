@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-10-04T11:50:34+09:00",
+  "generatedAt": "2026-10-05T03:28:52+09:00",
   "weekly": {
-    "commitCount": 98,
+    "commitCount": 70,
     "byDay": [
-      {
-        "date": "2026-09-28",
-        "count": 29
-      },
       {
         "date": "2026-09-29",
         "count": 2
@@ -29,19 +25,27 @@
       },
       {
         "date": "2026-10-04",
-        "count": 10
+        "count": 11
+      },
+      {
+        "date": "2026-10-05",
+        "count": 0
       }
     ]
   },
   "byDirectory": {
     "scrap": 5,
     "ideas": 2,
-    "health": 7,
+    "health": 6,
     "books": 5,
     "portfolio": 0,
-    "other": 116
+    "other": 95
   },
   "recentCommits": [
+    {
+      "date": "2026-10-04",
+      "message": "news: 2026-10-04 記事まとめを自動生成"
+    },
     {
       "date": "2026-10-04",
       "message": "git_scrap: 週次まとめのURL表を ideas/urls/index.md から1週間分集めるよう変更"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-04",
       "message": "git_scrap: 週次まとめ生成の出力上限を1024→8192トークンに拡大"
-    },
-    {
-      "date": "2026-10-04",
-      "message": "ideas: 2026-W40 週次まとめ自動生成"
     }
   ]
 }
