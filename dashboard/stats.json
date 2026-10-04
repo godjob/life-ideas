@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T03:27:24+09:00",
+  "generatedAt": "2026-10-04T11:45:56+09:00",
   "weekly": {
-    "commitCount": 87,
+    "commitCount": 95,
     "byDay": [
       {
         "date": "2026-09-28",
@@ -25,42 +25,42 @@
       },
       {
         "date": "2026-10-03",
-        "count": 32
+        "count": 33
       },
       {
         "date": "2026-10-04",
-        "count": 0
+        "count": 7
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
-    "ideas": 0,
+    "scrap": 5,
+    "ideas": 1,
     "health": 7,
     "books": 5,
     "portfolio": 0,
-    "other": 109
+    "other": 114
   },
   "recentCommits": [
     {
-      "date": "2026-10-03",
-      "message": "読書記録: 1件追加・更新"
+      "date": "2026-10-04",
+      "message": "git_scrap: 週次まとめ生成の出力上限を1024→8192トークンに拡大"
     },
     {
-      "date": "2026-10-03",
-      "message": "dashboard: Claude使用量更新 (2026-10-03)"
+      "date": "2026-10-04",
+      "message": "ideas: 2026-W40 週次まとめ自動生成"
     },
     {
-      "date": "2026-10-03",
-      "message": "dashboard: Claude使用量更新 (2026-10-03)"
+      "date": "2026-10-04",
+      "message": "scrap: 2026-10-04 XユーザーのAndrej Karpathyさん: ・「人間」の拡張について（文化系のための『マタギドラ・「歴史」を書き直す（文化系のための「マタギドライヴほか6件"
     },
     {
-      "date": "2026-10-03",
-      "message": "Morning Edition・書籍メタデータ・Kindle取り込みの Gemini を 3.6-flash へ移行"
+      "date": "2026-10-04",
+      "message": "dashboard: Claude使用量更新 (2026-10-04)"
     },
     {
-      "date": "2026-10-03",
-      "message": "dashboard: Claude使用量更新 (2026-10-03)"
+      "date": "2026-10-04",
+      "message": "dashboard: Claude使用量更新 (2026-10-04)"
     }
   ]
 }
