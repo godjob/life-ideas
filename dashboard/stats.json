@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T19:19:35+09:00",
+  "generatedAt": "2026-10-06T21:33:55+09:00",
   "weekly": {
-    "commitCount": 86,
+    "commitCount": 89,
     "byDay": [
       {
         "date": "2026-09-30",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-06",
-        "count": 12
+        "count": 15
       }
     ]
   },
@@ -39,9 +39,21 @@
     "health": 8,
     "books": 5,
     "portfolio": 0,
-    "other": 106
+    "other": 109
   },
   "recentCommits": [
+    {
+      "date": "2026-10-06",
+      "message": "rules: health/checkups/ の構成と健診結果の記録手順を追記"
+    },
+    {
+      "date": "2026-10-06",
+      "message": "dashboard: Claude使用量更新 (2026-10-06)"
+    },
+    {
+      "date": "2026-10-06",
+      "message": "news: 2026-10-06 記事まとめを自動生成"
+    },
     {
       "date": "2026-10-06",
       "message": "scrap: 2026-10-06 XユーザーのYarchiさん: 「How to D・【大企業の96%が情報漏洩】パスワード変更は無意味"
@@ -49,18 +61,6 @@
     {
       "date": "2026-10-06",
       "message": "dashboard: Claude使用量更新 (2026-10-06)"
-    },
-    {
-      "date": "2026-10-06",
-      "message": "health: 2026年9月健診の結果（肝機能D2）を記録し健康管理プランに反映"
-    },
-    {
-      "date": "2026-10-06",
-      "message": "dashboard: Claude使用量更新 (2026-10-06)"
-    },
-    {
-      "date": "2026-10-06",
-      "message": "running: 2026-27シーズン計画（大阪本命）を分析に追加し公開版を再生成"
     }
   ]
 }
