@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T06:44:38+09:00",
+  "generatedAt": "2026-10-06T19:19:35+09:00",
   "weekly": {
-    "commitCount": 70,
+    "commitCount": 86,
     "byDay": [
       {
         "date": "2026-09-30",
@@ -21,7 +21,7 @@
       },
       {
         "date": "2026-10-04",
-        "count": 11
+        "count": 15
       },
       {
         "date": "2026-10-05",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-10-06",
-        "count": 0
+        "count": 12
       }
     ]
   },
   "byDirectory": {
-    "scrap": 5,
+    "scrap": 6,
     "ideas": 2,
-    "health": 6,
+    "health": 8,
     "books": 5,
     "portfolio": 0,
-    "other": 95
+    "other": 106
   },
   "recentCommits": [
     {
-      "date": "2026-10-05",
-      "message": "news: 2026-10-05 記事まとめを自動生成"
+      "date": "2026-10-06",
+      "message": "scrap: 2026-10-06 XユーザーのYarchiさん: 「How to D・【大企業の96%が情報漏洩】パスワード変更は無意味"
     },
     {
-      "date": "2026-10-05",
-      "message": "朝刊: 2026-10-05 Morning Edition生成"
+      "date": "2026-10-06",
+      "message": "dashboard: Claude使用量更新 (2026-10-06)"
     },
     {
-      "date": "2026-10-04",
-      "message": "news: 2026-10-04 記事まとめを自動生成"
+      "date": "2026-10-06",
+      "message": "health: 2026年9月健診の結果（肝機能D2）を記録し健康管理プランに反映"
     },
     {
-      "date": "2026-10-04",
-      "message": "git_scrap: 週次まとめのURL表を ideas/urls/index.md から1週間分集めるよう変更"
+      "date": "2026-10-06",
+      "message": "dashboard: Claude使用量更新 (2026-10-06)"
     },
     {
-      "date": "2026-10-04",
-      "message": "ideas: Gemini 4 Argon 動画のURL誤り（_Ef0j-gp4s → _Ef0j-gpLgs）を全箇所修正"
+      "date": "2026-10-06",
+      "message": "running: 2026-27シーズン計画（大阪本命）を分析に追加し公開版を再生成"
     }
   ]
 }
