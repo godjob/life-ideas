@@ -7,17 +7,29 @@ tags: [ハーネスエンジニアリング, 自動改善ループ, Planner, Gen
 
 ## 概要
 
-ハーネスエンジニアリングは、Claude Codeのサブエージェント機能を活用して、Planner（計画）・Generator（生成）・Evaluator（評価）の3つの役割を担うAIエージェントを連携させることで、人間の介入なしに自律的にアプリケーション開発を完結させる次世代開発パラダイムです。このパターンでは、単一のAIモデルに頼るのではなく、役割分担と評価ループの設計が開発成功の鍵となります。
+ハーネスエンジニアリングは、[Claude Code Agent Teams](claude-code-agent-teams.md)などのサブエージェント機能を活用して、Planner（計画）・Generator（生成）・Evaluator（評価）の3つの役割を担うAIエージェントを連携させることで、人間の介入なしに自律的にアプリケーション開発を完結させる次世代開発パラダイムです。
+
+単に高精度なAIモデルを単独で導入するのではなく、AIモデルを信頼できる自律型ワーカーに変えるための外部ソフトウェア環境「ハーネス（Harness）」を適切に設計・構築することが自動化の成否を分ける鍵となります。このパターンでは、役割分担、明確なアクセス権限、および評価・フィードバックループの設計が開発成功の差別化要因となります。
 
 ## 主要な知見
 
-- **役割分担による品質向上**：製造業の多段階検査プロセスと同じ発想で、AIエージェントも計画・実行・評価の3段階に分離することで品質が飛躍的に向上する。単一のAIより複数の専門役割が相互チェックする仕組みが差別化要因となる
+- **外部環境（ハーネス）による自律性の実現**：AIエージェントが途切れることなく自律走行し、目標を達成するためには、適切なハーネスという枠組み（明確なコンテキスト、ルール定義、検証基盤）が不可欠です。ランニングにおいてフォームやペース走のフレームワークを整えることで長距離を安定して走れるのと同様に、AIにも継続稼働を支える構造的環境が必要となります。
 
-- **自動改善ループの重要性**：ランニングのトレーニング管理と同様に、AIシステムも「目標→実行→評価→調整」の改善ループが自動で回ることで初めて高い成果が得られる。人間が放置可能な仕組みを設計できるかが他との競争優位を決定する
+- **役割分担と明確な完了定義（テスト）**：製造業の多段階検査プロセスや標準マニュアル作成と同じ発想で、AIエージェントも計画・実行・評価の3段階に分離し、ハーネス側に明確な「完了定義（テスト）」を組み込むことで品質が飛躍的に向上します。
 
-- **キャリア転換期における市場価値**：エンジニアのキャリアが[コード職人からAIマネジャーへ](ai-manager-role-transition-code-craftsman.md)移行する過渡期の今、ハーネス設計の理解度が市場価値を大きく左右する。既存のコーディングスキルをどう再構築するかが急務であり、早期適応者が大きなアドバンテージを得る
+- **自動改善ループと「放置可能性」**：AIシステムは「目標→実行→評価→調整」の改善ループが自動で回ることで初めて高い成果が得られます。人間が介入せずに任せきりにできる「放置可能性」を持った仕組みを設計できるかが他との競争優位を決定します。
 
-## コア概念
+- **キャリア転換期における市場価値**：エンジニアのキャリアが[コード職人からAIマネジャーへ](ai-manager-role-transition-code-craftsman.md)移行する過渡期の今、ハーネス設計の理解度が市場価値を大きく左右します。既存のコーディングスキルを[AIオーケストレーター](ai-orchestrator-role.md)としてのシステム設計能力へ再構築することが急務です。
+
+## コア概念とハーネスの6つの設計判断
+
+AIモデルを単なる対話相手から「放置可能な自律ワーカー」へと昇華させるには、Planner・Generator・Evaluatorの役割定義に加え、ハーネス構築における重要な設計判断（権限、指示ファイル、完了条件など）を整理する必要があります。
+
+```
+[ Planner ] ──(計画・指示)──> [ Generator ] ──(コード・成果物)──> [ Evaluator ]
+     ▲                                                                │
+     └──────────────────────(フィードバック)──────────────────────────┘
+```
 
 ### Planner エージェント
 
@@ -25,17 +37,25 @@ Plannerは全体的な開発戦略を立案する責任を持ちます。要件�
 
 ### Generator エージェント
 
-Generatorはplannerの計画に基づいて、実際のコード生成、リソース作成、機能実装を行います。[Claude Codeの役割](claude-code-agent-teams.md)そのものであり、生成スピードと反復性を重視します。生成の際は[設定駆動ワークフロー](claude-code-configuration-driven-workflow.md)に従い、CLAUDE.mdの設計規約を自動遵守することが品質担保につながります。
+GeneratorはPlannerの計画に基づいて、実際のコード生成、リソース作成、機能実装を行います。[Claude Codeの役割](claude-code-agent-teams.md)そのものであり、生成スピードと反復性を重視します。生成の際は[設定駆動ワークフロー](claude-code-configuration-driven-workflow.md)に従い、CLAUDE.mdの設計規約を自動遵守することが品質担保につながります。
 
 ### Evaluator エージェント
 
-Evaluatorはgeneratorの出力を検査・評価し、要件充足度、品質基準、パフォーマンス、セキュリティ等を多角的に検証します。フィードバックループを通じて改善指示を出し、目標達成まで反復させます。[エージェントハーネスの長期連続運用](agent-harness-reliability-framework.md)における誤り蓄積対策と同じ思想で、継続的な監視と修正ナレッジの蓄積が重要です。
+EvaluatorはGeneratorの出力を検査・評価し、要件充足度、品質基準、パフォーマンス、セキュリティ等を多角的に検証します。フィードバックループを通じて改善指示を出し、目標達成まで反復させます。[エージェントハーネスの長期連続運用](agent-harness-reliability-framework.md)における誤り蓄積対策と同じ思想で、継続的な監視と修正ナレッジの蓄積が重要です。
+
+### ハーネス側の重要な決定要素
+
+毎回同じ指示を入力する手間を省き、AIの暴走を防ぐためには、ハーネス側で以下の要素を標準化・自動化する必要があります：
+
+1. **アクセス権限と安全性の制御**：[最小権限原則とエアギャップ](ai-agent-permission-model-least-privilege.md)に基づく安全な実行環境の確保。
+2. **指示ファイルによるルール定義**：業務手順の標準化・マニュアル化と同様に、AIが従うべき共通ルールを定義。
+3. **明確な完了定義（テスト）**：成果物が要件を満たしたかを判定する客観的な自動テスト基盤。
 
 ## 実装設計のポイント
 
 ### 評価ループの自動化
 
-ハーネスエンジニアリングの成功は、Evaluatorが継続的に動作し、改善指示を自動でGeneratorに返す仕組みにかかっています。[プロンプト明確性とマネジメント](prompt-clarity-management-feedback-loop.md)を高めることで、AIフィードバックループの精度が向上します。
+ハーネスエンジニアリングの成功は、Evaluatorが継続的に動作し、改善指示を自動でGeneratorに返す仕組みにかかっています。[プロンプト明確性とマネジメント](prompt-clarity-management-feedback-loop.md)を高めることで、AIフィードバックループの精度が向上します。また、[Hook設計パターン](hook-design-patterns-ai-workflow.md)を組み込むことで、セッション終了時やツール実行前の評価・検証をシステム的に強制できます。
 
 ### 記憶システムの構築
 
@@ -49,56 +69,60 @@ Evaluatorはgeneratorの出力を検査・評価し、要件充足度、品質�
 
 [CLAUDE.md統治](claude-md-governance.md)の概念を応用し、AIエージェントチームへの経営判断基準を明文化します。日次改善ループにより、ハーネス自体の品質を継続的に向上させることができます。
 
-## 製造業での応用
+## 製造業・実務での応用
 
-ハーネスエンジニアリングの発想は[製造業のAI活用](manufacturing-ai-opportunities.md)にも直接応用可能です。品質管理プロセスをAIに自動化させる際、単一のAIより複数の検査段階（計画→実行→評価）を組み込むことで、誤り蓄積を防ぎ、信頼性の高い自動化システムが構築できます。
+ハーネスエンジニアリングの発想は[製造業のAI活用](manufacturing-ai-opportunities.md)や現場の業務自動化にも直接応用可能です。
 
-[マルチエージェントのタスク依存関係管理](multi-agent-task-dependency-management.md)により、複数のAIエージェント間の調整と競合解消も自動化され、製造業システム間の統合が効率化されます。
+単に「高精度なLLMモデル」を導入するだけでは現場での実用化は失敗します。安全なアクセス権限の設定や、工場・現場における明確な「完了定義（検品基準や自動テスト）」といった**ハーネス側の設計**こそが、業務自動化の成否を分けます。
+
+- **指示ファイルのルール化**：毎回同じ指示を手入力する無駄を省くためのルール定義（[SKILL.md](skill-md-specification.md)やマニュアル化）は、現場の業務手順標準化そのものであり、管理者にとっても即座に取り組める改善ポイントです。
+- **誤り蓄積の防止**：[マルチエージェントのタスク依存関係管理](multi-agent-task-dependency-management.md)により、品質管理プロセスやシステム間連携において、計画→実行→評価の複数段階を組み込むことで、エラーの連鎖を防ぎ、信頼性の高い自動化が実現します。
 
 ## 人間の役割の変化
 
-ハーネスエンジニアリングが浸透することで、エンジニアの役割は大きく転換します。従来の「コードを書く職人」から、[AIマネジャー](ai-manager-role-transition-code-craftsman.md)へのシフトが避けられません。
+ハーネスエンジニアリングが浸透することで、エンジニアや管理者の役割は大きく転換します。従来の「コードを書く職人」から、[ドメイン専門知識とAIの境界設計](domain-expertise-ai-boundary-design.md)を行う[AIマネジャー](ai-manager-role-transition-code-craftsman.md)や[AIオーケストレーター](ai-orchestrator-role.md)へのシフトが避けられません。
 
 具体的には以下の能力が求められるようになります：
 
-- ハーネス（AI3役エージェント）の設計・構築能力
-- AIエージェント間の協働フローの設計
-- 評価基準・フィードバック仕組みの明文化
-- 継続的改善ループの運用
+- ハーネス（AI3役エージェント＋外部安全基盤）の設計・構築能力
+- AIエージェント間の協働フローとアクセス権限の設計
+- 明確な評価基準（テスト）・フィードバック仕組みの明文化
+- 継続的改善ループの運用と標準手順（SOP）の更新
 
-これは従来のソフトウェア開発スキルの再構築を意味し、早期適応者が市場で圧倒的優位を得る機会です。
+これは従来のソフトウェア開発や業務管理スキルの再構築を意味し、早期適応者が市場で圧倒的優位を得る機会です。
 
 ## 「放置可能性」の重要性
 
-このパターンの最大の特徴は、設計後、人間が直接手を下さずにシステムが自動で改善し続ける点です。[バックグラウンド自動化設計](background-automation-design-competitive-advantage.md)の考え方と同様に、待機時間や運動時間の活用を自動化するのと同じ発想で、開発プロセス全体を自動化できます。
+このパターンの最大の特徴は、適切な枠組み（ハーネス）を設計した後、人間が直接手を下さずにシステムが自動で改善し続ける点です。[バックグラウンド自動化設計](background-automation-design-competitive-advantage.md)の考え方と同様に、待機時間や別業務を行っている時間を活用して、開発プロセス全体の自律走行を可能にします。
 
 正しくハーネスを設計すれば、人間は：
-- 初期要件の定義
-- ハーネスの監視・改善
+- 初期要件と目的の定義
+- ハーネス（権限・評価基準・指示ファイル）の監視・改善
 
-に専念でき、日々のコード生成・テスト・修正は完全にAIに委ねられます。これが「放置OK」と言われる由縁です。
+に専念でき、日々のコード生成・テスト・修正は完全にAIに委ねられます。これこそが、AIモデルを単なるチャットツールから「信頼して放置できる自律ワーカー」へと変革させる鍵です。
 
 ## 関連ページ
 
-- [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md)
-- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md)
-- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md)
-- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md)
-- [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md)
-- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md)
-- [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md)
-- [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md)
-- [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md)
-- [Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化](claude-code-configuration-driven-workflow.md)
-- [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md)
-- [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md)
-- [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md)
-- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md)
-- [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md)
-- [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md)
-- [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md)
-- [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md)
+- [Claude Code Agent Teams：AIエージェントチームの実装と活用](claude-code-agent-teams.md): 複数エージェントによる役割分担と協働の実装
+- [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md): 長期稼働ハーネスの制御と監視アーキテクチャ
+- [Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト](agentic-engineering-supervisor-model.md): 人間が監督者にシフトする開発モデル
+- [AIエージェント失敗ログと修正ナレッジ](ai-failure-log.md): エラーログの蓄積とEvaluatorによる自己修正メカニズム
+- [Claude Codeの長期記憶システム設計：CLAUDE.md + auto memoryの実装パターン](claude-long-term-memory-design.md): セッションを跨ぐ状態維持とコンテキスト保持
+- [CLAUDE.md統治：AIへの経営判断基準の明文化と日次改善ループ](claude-md-governance.md): AIエージェントの行動原理とガバナンス設計
+- [Skill System：フォルダ単位のClaudeへの命令セット](skill-system.md): モジュール化された指示セットの構造化
+- [SKILL.md仕様：ファイル命名ルールとフォルダ構造](skill-md-specification.md): スキル定義の具体的仕様と標準フォーマット
+- [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md): エージェントに対する明確な指示設計
+- [Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化](claude-code-configuration-driven-workflow.md): 設定ファイルによる生成精度の固定化
+- [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md): 評価とフィードバック精度の最適化
+- [コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計](ai-manager-role-transition-code-craftsman.md): 開発者の役割変化とキャリア戦略
+- [バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略](background-automation-design-competitive-advantage.md): 非同期・バックグラウンド実行での生産性向上
+- [製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革](manufacturing-ai-opportunities.md): 現場業務へのハーネス適用と自動化
+- [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md): 複数エージェントの依存制御
+- [ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル](domain-expertise-ai-boundary-design.md): 人間とAIの役割分担の境界線
+- [AIオーケストレーター：100倍エンジニアの役割](ai-orchestrator-role.md): エージェント群を指揮するハイレベルエンジニアリング
+- [Hook設計パターン：SessionEnd・PreCompact・PreToolUseの活用法](hook-design-patterns-ai-workflow.md): ハーネスに検証ロジックを割り込ませる技術
+- [AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護](ai-agent-permission-model-least-privilege.md): 安全な自律走行を実現する権限設計
 
 ## 更新履歴
-
 - 2026-04-06: [【放置OK】Claude Codeハーネス設計で自律開発するハーネスエンジニアリング入門！](https://www.youtube.com/watch?v=Wfz-gdWcItM)より初期作成
+- 2026-10-06: [XユーザーのYarchiさん: 「How to Design an Agent ](https://x.com/undefinedKi/status/2088611136027361368)

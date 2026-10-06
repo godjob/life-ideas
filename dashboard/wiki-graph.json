@@ -43,7 +43,7 @@
       "id": "agent-harness-reliability-framework",
       "label": "エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤",
       "group": "AIエージェント設計",
-      "value": 44,
+      "value": 45,
       "tags": [
         "誤り蓄積対策",
         "信頼性確保",
@@ -211,7 +211,7 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 22,
+      "value": 26,
       "tags": [
         "最小権限原則",
         "エアギャップ",
@@ -392,7 +392,7 @@
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "ビジネス・組織",
-      "value": 10,
+      "value": 11,
       "tags": [
         "AI導入",
         "ビジネス戦略",
@@ -470,7 +470,7 @@
       "id": "ai-cognitive-warfare-information-security",
       "label": "AI認知戦と情報セキュリティ",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "認知戦",
         "情報セキュリティ",
@@ -1029,7 +1029,7 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "製造業・業務DX",
-      "value": 27,
+      "value": 28,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -1042,7 +1042,7 @@
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "ビジネス・組織",
-      "value": 21,
+      "value": 23,
       "tags": [
         "AIガバナンス",
         "セキュリティ",
@@ -1711,7 +1711,7 @@
       "id": "cms-plugin-sandbox-security-architecture",
       "label": "CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策",
       "group": "技術実装・エンジニアリング",
-      "value": 8,
+      "value": 10,
       "tags": [
         "サンドボックス",
         "権限管理",
@@ -1892,7 +1892,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "ビジネス・組織",
-      "value": 25,
+      "value": 26,
       "tags": [
         "意思決定疲労",
         "SOP標準化",
@@ -2125,7 +2125,7 @@
       "id": "git-hooks-security-defense",
       "label": "Git Hooksセキュリティ防御：権限スキップ時の多層防御設計",
       "group": "技術実装・エンジニアリング",
-      "value": 6,
+      "value": 8,
       "tags": [
         "Git Hooks",
         "セキュリティ防御",
@@ -2203,7 +2203,7 @@
       "id": "harness-engineering-autonomous-development",
       "label": "ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン",
       "group": "AIエージェント設計",
-      "value": 14,
+      "value": 15,
       "tags": [
         "ハーネスエンジニアリング",
         "自動改善ループ",
@@ -2249,6 +2249,19 @@
         "キャリア転換",
         "プライバシー",
         "国際競争力"
+      ]
+    },
+    {
+      "id": "identity-based-security-shift-left-strategy",
+      "label": "認証情報保護とシフトレフトセキュリティ戦略：AI時代のアイデンティティガバナンス",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "セキュリティ",
+        "権限管理",
+        "AIガバナンス",
+        "サプライチェーン",
+        "リスク管理"
       ]
     },
     {
@@ -2333,7 +2346,7 @@
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "プロンプト・AI活用",
-      "value": 26,
+      "value": 27,
       "tags": [
         "指示設計",
         "プロンプト設計",
@@ -2787,7 +2800,7 @@
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 24,
+      "value": 26,
       "tags": [
         "セキュリティ監査",
         "リスク管理",
@@ -3408,7 +3421,7 @@
       "id": "remote-agent-session-sharing-multi-user-operations",
       "label": "リモートエージェント・セッション共有：複数拠点マルチユーザー運用と権限統制",
       "group": "Claude/AI開発ツール",
-      "value": 8,
+      "value": 9,
       "tags": [
         "セッション共有",
         "権限管理",
@@ -3537,7 +3550,7 @@
       "id": "skill-reusable-process-definition-manufacturing-knowledge-management",
       "label": "再利用可能プロセス定義によるSKILL.md：製造業の保守手順・トラブルシューティングの標準化と新人育成効率化",
       "group": "製造業・業務DX",
-      "value": 5,
+      "value": 6,
       "tags": [
         "保守業務",
         "ナレッジ標準化",
@@ -3862,7 +3875,7 @@
       "id": "workflow-skill-definition",
       "label": "ワークフローのSkill化：業務手順の標準化と共有",
       "group": "Claude/AI開発ツール",
-      "value": 9,
+      "value": 11,
       "tags": [
         "Skill System",
         "ワークフロー",
@@ -4080,7 +4093,15 @@
     },
     {
       "from": "agent-harness-reliability-framework",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
       "to": "ai-call-center-automation"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
+      "to": "ai-capability-evolution-design-flexibility"
     },
     {
       "from": "agent-harness-reliability-framework",
@@ -4124,6 +4145,10 @@
     },
     {
       "from": "agent-harness-reliability-framework",
+      "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
       "to": "long-running-ai-agent-design-patterns"
     },
     {
@@ -4140,7 +4165,15 @@
     },
     {
       "from": "agent-harness-reliability-framework",
+      "to": "remote-agent-session-sharing-multi-user-operations"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
       "to": "siera-ai-agent-manufacturing-application"
+    },
+    {
+      "from": "agent-harness-reliability-framework",
+      "to": "workflow-skill-definition"
     },
     {
       "from": "agentic-engineering-supervisor-model",
@@ -5808,7 +5841,15 @@
     },
     {
       "from": "ai-cognitive-warfare-information-security",
+      "to": "cms-plugin-sandbox-security-architecture"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
       "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "identity-based-security-shift-left-strategy"
     },
     {
       "from": "ai-cognitive-warfare-information-security",
@@ -10020,11 +10061,31 @@
     },
     {
       "from": "cms-plugin-sandbox-security-architecture",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "cms-plugin-sandbox-security-architecture",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "cms-plugin-sandbox-security-architecture",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "cms-plugin-sandbox-security-architecture",
       "to": "domain-expertise-ai-boundary-design"
     },
     {
       "from": "cms-plugin-sandbox-security-architecture",
       "to": "git-hooks-security-defense"
+    },
+    {
+      "from": "cms-plugin-sandbox-security-architecture",
+      "to": "identity-based-security-shift-left-strategy"
+    },
+    {
+      "from": "cms-plugin-sandbox-security-architecture",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
     },
     {
       "from": "cms-plugin-sandbox-security-architecture",
@@ -11444,6 +11505,10 @@
     },
     {
       "from": "harness-engineering-autonomous-development",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "harness-engineering-autonomous-development",
       "to": "ai-failure-log"
     },
     {
@@ -11621,6 +11686,26 @@
     {
       "from": "humanoid-robot-labor-market-disruption",
       "to": "wearable-device-workplace-privacy-governance"
+    },
+    {
+      "from": "identity-based-security-shift-left-strategy",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "identity-based-security-shift-left-strategy",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "identity-based-security-shift-left-strategy",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "identity-based-security-shift-left-strategy",
+      "to": "git-hooks-security-defense"
+    },
+    {
+      "from": "identity-based-security-shift-left-strategy",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
     },
     {
       "from": "identity-transformation-habit-formation-ai-era",
@@ -11832,6 +11917,10 @@
     },
     {
       "from": "instruction-design-three-elements",
+      "to": "agent-harness-reliability-framework"
+    },
+    {
+      "from": "instruction-design-three-elements",
       "to": "claude-md-governance"
     },
     {
@@ -11840,7 +11929,15 @@
     },
     {
       "from": "instruction-design-three-elements",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "instruction-design-three-elements",
       "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "instruction-design-three-elements",
+      "to": "harness-engineering-autonomous-development"
     },
     {
       "from": "instruction-design-three-elements",
@@ -11852,7 +11949,15 @@
     },
     {
       "from": "instruction-design-three-elements",
+      "to": "skill-reusable-process-definition-manufacturing-knowledge-management"
+    },
+    {
+      "from": "instruction-design-three-elements",
       "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "instruction-design-three-elements",
+      "to": "workflow-skill-definition"
     },
     {
       "from": "internet-ai-era-business-strategy",
@@ -13761,6 +13866,18 @@
     {
       "from": "manufacturing-system-vulnerability-preemptive-audit",
       "to": "claude-mythos-capability-risk-management"
+    },
+    {
+      "from": "manufacturing-system-vulnerability-preemptive-audit",
+      "to": "cms-plugin-sandbox-security-architecture"
+    },
+    {
+      "from": "manufacturing-system-vulnerability-preemptive-audit",
+      "to": "git-hooks-security-defense"
+    },
+    {
+      "from": "manufacturing-system-vulnerability-preemptive-audit",
+      "to": "identity-based-security-shift-left-strategy"
     },
     {
       "from": "manufacturing-system-vulnerability-preemptive-audit",

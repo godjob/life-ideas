@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-10-06] ingest | 【大企業の96%が情報漏洩】パスワード変更は無意味？／ランサムウェアの入口は認証情報／ホワイトハッカ
+- 更新ページ: [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md), [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md), [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md), [認証情報保護とシフトレフトセキュリティ戦略：AI時代のアイデンティティガバナンス](identity-based-security-shift-left-strategy.md)
+- 出典: [【大企業の96%が情報漏洩】パスワード変更は無意味？／ランサムウェアの入口は認証](https://www.youtube.com/watch?v=H-7oxjkMYao)
+
+## [2026-10-06] ingest | XユーザーのYarchiさん: 「How to Design an Agent Harness: s
+- 更新ページ: [エージェントハーネス：長期連続運用における誤り蓄積対策と制御・監視基盤](agent-harness-reliability-framework.md), [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md), [指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式](instruction-design-three-elements.md)
+- 出典: [XユーザーのYarchiさん: 「How to Design an Agent ](https://x.com/undefinedKi/status/2088611136027361368)
+
 ## [2026-10-04] ingest | 落合陽一『マタギドライヴ』を読むためのヒント集｜宇野常寛
 - 更新ページ: [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md)
 - 出典: [落合陽一『マタギドライヴ』を読むためのヒント集｜宇野常寛](https://note.com/wakusei2nduno/n/n27191b0c7495?magazine_key=m87acce740a42)

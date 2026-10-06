@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/10/06 | - | AI, Business, Management, YouTube | [【大企業の96%が情報漏洩】パスワード変更は無意味？／ランサムウェアの入口は認証情報／ホワイトハッカーが明かすサイバー攻撃の実態とAI時代の対策](https://www.youtube.com/watch?v=H-7oxjkMYao) | AIの発達により言語バリアが消失し、認証情報を狙った日本企業へのサイバー攻撃が急増しています。日経225企業の96%で情報漏洩が確認される中、従来のパスワード運用を見直し、侵入を未然に防ぐシフトレフト対策の重要性が提示されています。 |
+| 26/10/06 | - | AI, LLM, Productivity, Development, Tools | [XユーザーのYarchiさん: 「How to Design an Agent Harness: six decisions that turn a model into a worker you can leave alone」 / X](https://x.com/undefinedKi/status/2088611136027361368) | AIモデルを信頼できる自律型ワーカーに変えるための外部ソフトウェア環境「ハーネス（Harness）」の概念と設計における重要性を解説した記事。 |
 | 26/10/04 | - | AI, Learning, YouTube | [落合陽一『マタギドライヴ』を読むためのヒント集｜宇野常寛](https://note.com/wakusei2nduno/n/n27191b0c7495?magazine_key=m87acce740a42) | 評論家の宇野常寛氏が、落合陽一氏の8年ぶりの主著『マタギドライヴ』を多角的に理解するための動画や関連リンクをまとめたガイド記事です。 |
 | 26/10/04 | 26/09/14 | AI, Learning | [狩猟採集から農耕・工業社会への急速な変化と進化的ミスマッチ:文化系のための『マタギドライヴ』の読み方 #5 第一章（章末）｜宇野常寛](https://note.com/wakusei2nduno/n/nb6323767b76d?magazine_key=m87acce740a42) | 宇野常寛による落合陽一の著書『マタギドライヴ』第1章末の解説で、急速な技術変化と人類の進化的ミスマッチ（古層の脳と現代環境のズレ）を読み解く。 |
 | 26/10/04 | - | AI, Business, Learning | [文化系のための『マタギドライヴ』の読み方（#1 用語解説）｜宇野常寛](https://note.com/wakusei2nduno/n/n4b4b4758601f?magazine_key=m87acce740a42) | 批評家の宇野常寛氏が、PLANETSから刊行される落合陽一氏の大著『マタギドライヴ』の読解・解説を行う記事の第1弾です。 |
