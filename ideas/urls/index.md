@@ -2,6 +2,10 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/10/08 | 26/10/08 | AI, Learning, YouTube | [人類は狩猟採集「的」社会に回帰する⁈ 落合陽一×宇野常寛 〈マタギドライヴ〉とは何か](https://www.youtube.com/watch?v=QO0eUmHUVx4) | 落合陽一氏と宇野常寛氏が、新著『マタギドライヴ』を軸にAIと計算インフラの爆発的増大によって変化する人類の知のあり方や、狩猟採集的な行動様式への回帰について論じた対談記事。 |
+| 26/10/08 | 26/10/08 | AI, Business, YouTube | [【対米80兆円投資。日本のカネでOpenAIの電力を作らされる】なぜ投資の大半が電力なのか／令和の不平等条約／OpenAIの支払い能力次第／韓国の交渉に学べ／11月3日までに条件を見直せ／打ち手は3つ](https://www.youtube.com/watch?v=ibZryrOJdQo) | 田村孝太郎氏が解説する、対米80兆円投資計画における日本側の重大な経済・財務リスクと交渉戦略に関する分析です。 |
+| 26/10/08 | - | AI, Productivity, Business, Career, Management | [【伝説のエンジニア中島聡氏に聞く】全ビジネスパーソン必見「FDE思考」とは／AI時代に生き残る人材の条件／非エンジニアでも組織を変えられる](https://www.youtube.com/watch?v=8CYWWOPq7Q4) | 生成AI時代において、既存プロセスへのAI適用ではなく現場業務の再定義と技術実装を自ら行う「FDE思考」の重要性を説く動画記事。 |
+| 26/10/08 | - | Career, Business, Productivity, Learning, YouTube | [【人生100年時代のキャリア】8割が偶然で決まる／会社は徹底的に利用せよ／消滅する職業／正解が無料の時代の生存戦略／選択を最善にする唯一の方法【PIVOT CAREER】](https://www.youtube.com/watch?v=GQGEsaV0_Kk) | 経済的成功者のキャリアの8割は偶然で決まるという「計画的偶発性理論」に基づき、変化の激しい時代を生き抜くためのライフスタイル主導のキャリア戦略を提示する動画の分析。 |
 | 26/10/06 | - | AI, Business, Management, YouTube | [【大企業の96%が情報漏洩】パスワード変更は無意味？／ランサムウェアの入口は認証情報／ホワイトハッカーが明かすサイバー攻撃の実態とAI時代の対策](https://www.youtube.com/watch?v=H-7oxjkMYao) | AIの発達により言語バリアが消失し、認証情報を狙った日本企業へのサイバー攻撃が急増しています。日経225企業の96%で情報漏洩が確認される中、従来のパスワード運用を見直し、侵入を未然に防ぐシフトレフト対策の重要性が提示されています。 |
 | 26/10/06 | - | AI, LLM, Productivity, Development, Tools | [XユーザーのYarchiさん: 「How to Design an Agent Harness: six decisions that turn a model into a worker you can leave alone」 / X](https://x.com/undefinedKi/status/2088611136027361368) | AIモデルを信頼できる自律型ワーカーに変えるための外部ソフトウェア環境「ハーネス（Harness）」の概念と設計における重要性を解説した記事。 |
 | 26/10/04 | - | AI, Learning, YouTube | [落合陽一『マタギドライヴ』を読むためのヒント集｜宇野常寛](https://note.com/wakusei2nduno/n/n27191b0c7495?magazine_key=m87acce740a42) | 評論家の宇野常寛氏が、落合陽一氏の8年ぶりの主著『マタギドライヴ』を多角的に理解するための動画や関連リンクをまとめたガイド記事です。 |

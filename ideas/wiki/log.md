@@ -1,5 +1,21 @@
 # Wiki 更新ログ
 
+## [2026-10-08] ingest | 人類は狩猟採集「的」社会に回帰する⁈ 落合陽一×宇野常寛 〈マタギドライヴ〉とは何か
+- 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
+- 出典: [人類は狩猟採集「的」社会に回帰する⁈ 落合陽一×宇野常寛 〈マタギドライヴ〉とは](https://www.youtube.com/watch?v=QO0eUmHUVx4)
+
+## [2026-10-08] ingest | 【対米80兆円投資。日本のカネでOpenAIの電力を作らされる】なぜ投資の大半が電力なのか／令和の不
+- 更新ページ: [AIブームの地政学的影響とエネルギー制約](ai-boom-geopolitical-implications-energy-constraint.md), [AIデータセンターとエネルギー需要：電力消費量増大への対応戦略](ai-data-center-energy-demand-strategy.md)
+- 出典: [【対米80兆円投資。日本のカネでOpenAIの電力を作らされる】なぜ投資の大半が](https://www.youtube.com/watch?v=ibZryrOJdQo)
+
+## [2026-10-08] ingest | 【伝説のエンジニア中島聡氏に聞く】全ビジネスパーソン必見「FDE思考」とは／AI時代に生き残る人材の
+- 更新ページ: [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md), [FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略](fde-engineer-domain-knowledge-priority-career-design.md), [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md)
+- 出典: [【伝説のエンジニア中島聡氏に聞く】全ビジネスパーソン必見「FDE思考」とは／AI](https://www.youtube.com/watch?v=8CYWWOPq7Q4)
+
+## [2026-10-08] ingest | 【人生100年時代のキャリア】8割が偶然で決まる／会社は徹底的に利用せよ／消滅する職業／正解が無料の
+- 更新ページ: [AGIの社会的影響と責任ある開発](ai-career.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md), [計画的偶発性理論とAI時代のキャリア戦略](planned-happenstance-theory-career-strategy.md)
+- 出典: [【人生100年時代のキャリア】8割が偶然で決まる／会社は徹底的に利用せよ／消滅す](https://www.youtube.com/watch?v=GQGEsaV0_Kk)
+
 ## [2026-10-06] ingest | 【大企業の96%が情報漏洩】パスワード変更は無意味？／ランサムウェアの入口は認証情報／ホワイトハッカ
 - 更新ページ: [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md), [製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系](manufacturing-system-vulnerability-preemptive-audit.md), [CMS プラグインサンドボックス化：権限明示と脆弱性96%問題への構造的対策](cms-plugin-sandbox-security-architecture.md), [認証情報保護とシフトレフトセキュリティ戦略：AI時代のアイデンティティガバナンス](identity-based-security-shift-left-strategy.md)
 - 出典: [【大企業の96%が情報漏洩】パスワード変更は無意味？／ランサムウェアの入口は認証](https://www.youtube.com/watch?v=H-7oxjkMYao)
