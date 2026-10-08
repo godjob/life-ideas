@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-08T05:21:34+09:00",
+  "generatedAt": "2026-10-08T19:00:52+09:00",
   "weekly": {
-    "commitCount": 69,
+    "commitCount": 72,
     "byDay": [
       {
         "date": "2026-10-02",
@@ -29,19 +29,31 @@
       },
       {
         "date": "2026-10-08",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 5,
+    "scrap": 6,
     "ideas": 2,
     "health": 5,
     "books": 2,
     "portfolio": 0,
-    "other": 80
+    "other": 81
   },
   "recentCommits": [
+    {
+      "date": "2026-10-08",
+      "message": "scrap: 2026-10-08 【人生100年時代のキャリア】8割が偶然で決まる／・【伝説のエンジニア中島聡氏に聞く】全ビジネスパーソ・【対米80兆円投資。日本のカネでOpenAIの電力ほか1件"
+    },
+    {
+      "date": "2026-10-08",
+      "message": "dashboard: Claude使用量更新 (2026-10-08)"
+    },
+    {
+      "date": "2026-10-08",
+      "message": "朝刊: 2026-10-08 Morning Edition生成"
+    },
     {
       "date": "2026-10-07",
       "message": "news: 2026-10-07 記事まとめを自動生成"
@@ -49,18 +61,6 @@
     {
       "date": "2026-10-07",
       "message": "朝刊: 2026-10-07 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-06",
-      "message": "rules: health/checkups/ の構成と健診結果の記録手順を追記"
-    },
-    {
-      "date": "2026-10-06",
-      "message": "dashboard: Claude使用量更新 (2026-10-06)"
-    },
-    {
-      "date": "2026-10-06",
-      "message": "news: 2026-10-06 記事まとめを自動生成"
     }
   ]
 }
