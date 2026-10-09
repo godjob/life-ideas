@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T05:24:34+09:00",
+  "generatedAt": "2026-10-09T20:16:40+09:00",
   "weekly": {
-    "commitCount": 73,
+    "commitCount": 75,
     "byDay": [
       {
         "date": "2026-10-03",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-09",
-        "count": 0
+        "count": 2
       }
     ]
   },
@@ -43,6 +43,14 @@
   },
   "recentCommits": [
     {
+      "date": "2026-10-09",
+      "message": "news: 2026-10-09 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-10-09",
+      "message": "朝刊: 2026-10-09 Morning Edition生成"
+    },
+    {
       "date": "2026-10-08",
       "message": "statusline: claude-usage.json を main から外し usage ブランチへ公開する方式に変更"
     },
@@ -53,14 +61,6 @@
     {
       "date": "2026-10-08",
       "message": "読書記録: 1件追加・更新"
-    },
-    {
-      "date": "2026-10-08",
-      "message": "scrap: 2026-10-08 【人生100年時代のキャリア】8割が偶然で決まる／・【伝説のエンジニア中島聡氏に聞く】全ビジネスパーソ・【対米80兆円投資。日本のカネでOpenAIの電力ほか1件"
-    },
-    {
-      "date": "2026-10-08",
-      "message": "dashboard: Claude使用量更新 (2026-10-08)"
     }
   ]
 }
