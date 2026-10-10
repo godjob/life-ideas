@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T04:56:44+09:00",
+  "generatedAt": "2026-10-10T19:33:27+09:00",
   "weekly": {
-    "commitCount": 42,
+    "commitCount": 44,
     "byDay": [
       {
         "date": "2026-10-04",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-10-10",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "byDirectory": {
-    "scrap": 6,
+    "scrap": 5,
     "ideas": 2,
     "health": 5,
     "books": 3,
     "portfolio": 0,
-    "other": 82
+    "other": 79
   },
   "recentCommits": [
+    {
+      "date": "2026-10-10",
+      "message": "news: 2026-10-10 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-10-10",
+      "message": "朝刊: 2026-10-10 Morning Edition生成"
+    },
     {
       "date": "2026-10-09",
       "message": "news: 2026-10-09 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-10-08",
       "message": "statusline: claude-usage.json を main から外し usage ブランチへ公開する方式に変更"
-    },
-    {
-      "date": "2026-10-08",
-      "message": "news: 2026-10-08 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-08",
-      "message": "読書記録: 1件追加・更新"
     }
   ]
 }
