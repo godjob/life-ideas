@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T18:47:49+09:00",
+  "generatedAt": "2026-10-11T18:48:50+09:00",
   "weekly": {
-    "commitCount": 33,
+    "commitCount": 34,
     "byDay": [
       {
         "date": "2026-10-05",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-10-11",
-        "count": 4
+        "count": 5
       }
     ]
   },
   "byDirectory": {
     "scrap": 5,
     "ideas": 3,
-    "health": 3,
+    "health": 4,
     "books": 2,
     "portfolio": 0,
     "other": 69
   },
   "recentCommits": [
+    {
+      "date": "2026-10-11",
+      "message": "ランニング分析: 2026-10-11 Apple Watch 復帰と10月前半の振り返り"
+    },
     {
       "date": "2026-10-11",
       "message": "ideas: 2026-W41 週次まとめ自動生成"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-11",
       "message": "朝刊: 2026-10-11 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-10",
-      "message": "news: 2026-10-10 記事まとめを自動生成"
     }
   ]
 }
