@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T19:31:35+09:00",
+  "generatedAt": "2026-10-11T19:46:17+09:00",
   "weekly": {
-    "commitCount": 38,
+    "commitCount": 39,
     "byDay": [
       {
         "date": "2026-10-05",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-11",
-        "count": 9
+        "count": 10
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 4,
     "books": 5,
     "portfolio": 0,
-    "other": 69
+    "other": 70
   },
   "recentCommits": [
+    {
+      "date": "2026-10-11",
+      "message": "news: 2026-10-11 記事まとめを自動生成"
+    },
     {
       "date": "2026-10-11",
       "message": "読書記録: エッセンスを試験生成（5冊）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-11",
       "message": "git_scrap: 日曜の読書振り返りを非対話でも問いを保存し --book-answer で考察を書けるようにする"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "ランニング分析: 2026-10-11 Apple Watch 復帰と10月前半の振り返り"
     }
   ]
 }
