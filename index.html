@@ -609,10 +609,11 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.51';
+  const VERSION = 'v1.52';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
+  let navFiles = [];  // モバイルの ←→・セレクトが指す並び（検索・絞り込み中はその結果。currentFileIndex はこの中の位置）
   let lastScrollY = 0;
   let scrollAccumulator = 0;
   const HIDE_THRESHOLD = 40;
@@ -1445,6 +1446,7 @@
   }
 
   function updateMobileNav(files, idx) {
+    navFiles = files;
     const nav = document.getElementById('mobile-nav');
     if (!isMobile() || SINGLE_FILE_TABS.includes(currentTab) || files.length === 0) {
       nav.classList.remove('visible');
@@ -1484,11 +1486,12 @@
   }
 
   function navigateFile(offset) {
+    const list = navFiles.length ? navFiles : allFiles;
     const newIdx = currentFileIndex + offset;
-    if (newIdx < 0 || newIdx >= allFiles.length) return;
+    if (newIdx < 0 || newIdx >= list.length) return;
     currentFileIndex = newIdx;
-    const file = allFiles[newIdx];
-    updateMobileNav(allFiles, currentFileIndex);
+    const file = list[newIdx];
+    updateMobileNav(list, currentFileIndex);
     // index ではなく data-path 一致で active を切り替える
     // （Wiki タブはグラフ項目・グループ化により DOM 順と allFiles の index が一致しないため）
     document.querySelectorAll('#file-list .file-item').forEach(item => {
@@ -1506,6 +1509,7 @@
   async function switchTab(dir, btn) {
     currentTab = dir;
     allFiles = [];
+    navFiles = [];
     currentFileIndex = -1;
     lastScrollY = 0;
     currentSearchQuery = '';
@@ -1679,8 +1683,8 @@
     });
     if (dir === 'books') {
       decorateBookList();
-      // 一覧チップ用に全冊のエッセンスを裏で取得（スマホは一覧が非表示なので、絞り込み時まで取得しない）
-      if (!isMobile()) loadBookEssences(files).catch(() => {});
+      // 一覧チップ用のキーワード索引（book_essence.py が出力する1ファイル）を取得。本 md は開いた1冊だけ取得する
+      loadBookEssenceIndex().then(() => { if (currentTab === 'books') decorateBookList(); });
     }
 
     currentFileIndex = 0;
@@ -1785,13 +1789,10 @@
     const kwFilter = dir === 'books' && bookKeywordFilter ? bookKeywordFilter : null;
     if (kwFilter) {
       if (!textQuery) document.getElementById('file-list').innerHTML = '<div class="file-item empty">絞り込み中...</div>';
-      await loadBookEssences(allFiles);
+      await loadBookEssenceIndex();
       if (currentTab !== dir || bookKeywordFilter !== kwFilter) return;  // 取得中に条件が変わった
       const k = bookKwKey(kwFilter);
-      filtered = filtered.filter(f => {
-        const ess = bookEssenceMap[f.path];
-        return !!ess && ess.keywords.some(x => bookKwKey(x) === k);
-      });
+      filtered = filtered.filter(f => bookKeywordsOf(f.path).some(x => bookKwKey(x) === k));
     }
 
     document.getElementById('search-count').textContent = `${filtered.length}件`;
@@ -1845,9 +1846,13 @@
   //   **線を多く引いた章**: 章A / 章B   … 無いことがある
   //   <sub>ハイライト N件から ... で生成（YYYY-MM-DD）</sub>
   // marked の API には依存せず、md 文字列の段階で節を取り出して自前でカードを描く。
-  let bookEssenceMap = {};         // path → エッセンス | null（エッセンス無し）。未取得は undefined
-  let bookEssencePromise = null;   // 全冊のエッセンス取得（一覧チップ・絞り込み用）
-  let bookEssenceFilesKey = '';
+  // 一覧チップ・絞り込みは全冊の md ではなく索引 ideas/books/essence-index.json を1回だけ読む:
+  //   {"generated": "YYYY-MM-DD", "books": {"<ファイル名.md>": {"keywords": [...], "chapters": [...]}}}
+  // 索引が無い・壊れているときはチップ無し（開いた本の md から得たキーワードだけで絞り込む）。
+  const BOOK_ESSENCE_INDEX_PATH = 'ideas/books/essence-index.json';
+  let bookEssenceMap = {};         // path → 開いた本の md から読んだエッセンス | null（エッセンス無し）
+  let bookEssenceIndex = {};       // ファイル名 → キーワード配列（索引 JSON から）
+  let bookEssenceIndexPromise = null;
   let bookKeywordFilter = null;    // 絞り込み中のキーワード（null = 絞り込みなし）
   let bookCurrentPath = null;      // 表示中の本（絞り込み後も表示を維持するため）
   const BOOK_LIST_CHIP_MAX = 3;
@@ -1956,11 +1961,11 @@
     if (!item || !item.dataset.path) return;
     const old = item.querySelector('.book-kw-row');
     if (old) old.remove();
-    const ess = bookEssenceMap[item.dataset.path];
-    if (!ess || !ess.keywords.length) return;
+    const kws = bookKeywordsOf(item.dataset.path);
+    if (!kws.length) return;
     const row = document.createElement('div');
     row.className = 'book-kw-row';
-    ess.keywords.slice(0, BOOK_LIST_CHIP_MAX).forEach(k => row.appendChild(makeBookKwChip(k)));
+    kws.slice(0, BOOK_LIST_CHIP_MAX).forEach(k => row.appendChild(makeBookKwChip(k)));
     if (item.style.display === 'flex') item.style.flexWrap = 'wrap';  // 検索結果（件数バッジ付き）
     item.appendChild(row);
   }
@@ -1973,30 +1978,28 @@
     document.querySelectorAll('.book-kw-chip').forEach(c => c.classList.toggle('active', !!k && bookKwKey(c.dataset.kw) === k));
   }
 
-  // 全冊のエッセンスを取得（同時6本。取得済み・キャッシュ済みは再取得しない）
-  function loadBookEssences(files) {
-    const key = files.map(f => f.path).join('\n');
-    if (bookEssencePromise && bookEssenceFilesKey === key) return bookEssencePromise;
-    bookEssenceFilesKey = key;
-    const queue = files.filter(f => bookEssenceMap[f.path] === undefined);
-    let failed = false;
-    bookEssencePromise = (async () => {
-      let i = 0;
-      const worker = async () => {
-        while (i < queue.length) {
-          const f = queue[i++];
-          try { bookEssenceMap[f.path] = parseBookEssence(await fetchContent(f.path)); }
-          catch (e) { failed = true; continue; }   // 取得失敗は未取得のまま（次回再試行）
-          if (currentTab === 'books') {
-            const item = [...document.querySelectorAll('#file-list .file-item')].find(el => el.dataset.path === f.path);
-            decorateBookListItem(item);
-          }
+  // キーワード索引を1回だけ取得（失敗しても例外を出さず、索引なしとして扱う）
+  function loadBookEssenceIndex() {
+    if (bookEssenceIndexPromise) return bookEssenceIndexPromise;
+    bookEssenceIndexPromise = (async () => {
+      const map = {};
+      try {
+        const data = JSON.parse(await fetchContent(BOOK_ESSENCE_INDEX_PATH));
+        const books = data && typeof data.books === 'object' && !Array.isArray(data.books) ? data.books : {};
+        for (const [name, e] of Object.entries(books)) {
+          const kws = e && Array.isArray(e.keywords) ? e.keywords.filter(k => typeof k === 'string' && k.trim()).map(k => k.trim()) : [];
+          if (kws.length) map[name] = kws;
         }
-      };
-      await Promise.all(Array.from({ length: Math.min(6, queue.length) }, worker));
-      if (failed) bookEssenceFilesKey = '';
+      } catch (e) { /* 索引なし（404・壊れた JSON）: チップ無しで従来どおり */ }
+      bookEssenceIndex = map;
     })();
-    return bookEssencePromise;
+    return bookEssenceIndexPromise;
+  }
+  // その本のキーワード。開いた本は md（カードと同じ内容）を優先し、それ以外は索引から
+  function bookKeywordsOf(path) {
+    const ess = bookEssenceMap[path];
+    if (ess) return ess.keywords;
+    return bookEssenceIndex[String(path).split('/').pop()] || [];
   }
 
   function updateBookKwBanner() {
