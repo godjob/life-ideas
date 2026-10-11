@@ -318,6 +318,42 @@
     @media (max-width: 768px) {
       .book-cover { width: 60px; }
     }
+    /* エッセンス（AI生成）カード: ideas/books/*.md の「## エッセンス（AI生成）」節を置き換える */
+    .book-essence {
+      background: #fff8f9; border: 1px solid #f3c1cb; border-left: 4px solid #e94560;
+      border-radius: 10px; padding: 14px 18px 12px; margin: 16px 0 24px;
+    }
+    .book-essence-title { font-weight: 700; color: #1a1a2e; font-size: 0.95rem; margin-bottom: 6px; }
+    .markdown-body .book-essence ul { margin: 0 0 10px 1.2em; }
+    .markdown-body .book-essence li { margin-bottom: 4px; line-height: 1.6; }
+    .book-essence-chapters { font-size: 0.82rem; color: #555; margin-top: 10px; line-height: 1.6; }
+    .book-essence-chapters b { color: #1a1a2e; }
+    .book-essence-note { font-size: 0.72rem; color: #999; margin-top: 8px; }
+    .book-kw-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .book-kw-chip {
+      background: #eef2ff; color: #4a6cf7; border: 1px solid #c8d6ff; border-radius: 12px;
+      padding: 2px 10px; font-size: 0.78rem; line-height: 1.5; cursor: pointer;
+      font-family: inherit; font-weight: normal; white-space: nowrap; max-width: 100%;
+      overflow: hidden; text-overflow: ellipsis; transition: all 0.15s;
+    }
+    .book-kw-chip:hover:not(.active) { border-color: #e94560; color: #e94560; }
+    .book-kw-chip.active { background: #e94560; color: #fff; border-color: #e94560; }
+    /* 一覧（サイドバー）のチップは小さく1行に収める */
+    .file-item .book-kw-row { flex-basis: 100%; flex-wrap: nowrap; overflow: hidden; gap: 4px; margin-top: 4px; }
+    .file-item .book-kw-chip { font-size: 0.68rem; padding: 0 7px; flex-shrink: 1; min-width: 0; }
+    /* 検索バーの「キーワード絞り込み中」表示 */
+    .book-kw-filter {
+      display: inline-flex; align-items: center; gap: 6px; max-width: 100%;
+      background: #fff; border: 1px solid #e94560; border-radius: 14px;
+      padding: 2px 4px 2px 10px; font-size: 0.78rem; color: #1a1a2e;
+    }
+    .book-kw-filter.hidden { display: none; }
+    .book-kw-filter b { color: #e94560; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .book-kw-filter button {
+      background: #e94560; color: #fff; border: none; border-radius: 10px;
+      padding: 2px 8px; font-size: 0.74rem; cursor: pointer; white-space: nowrap; font-family: inherit;
+    }
+    .book-kw-filter button:hover { background: #c73652; }
     /* ================================= */
 
     .placeholder { text-align: center; color: #aaa; margin-top: 80px; }
@@ -545,6 +581,7 @@
   <button class="search-btn" onclick="doSearch()">検索</button>
   <button class="search-reset-btn" id="search-reset-btn" onclick="resetSearch()">リセット</button>
   <span id="search-count" class="search-count"></span>
+  <span id="book-kw-filter" class="book-kw-filter hidden" title="Books: キーワードで絞り込み中">🔑 <b id="book-kw-filter-name"></b><button type="button" onclick="clearBookKeyword()" aria-label="キーワード絞り込みを解除">✕ 解除</button></span>
 </div>
 
 <!-- モバイルナビバー -->
@@ -572,7 +609,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.50';
+  const VERSION = 'v1.51';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -1472,6 +1509,8 @@
     currentFileIndex = -1;
     lastScrollY = 0;
     currentSearchQuery = '';
+    bookKeywordFilter = null;
+    bookCurrentPath = null;
     localStorage.setItem('lastTab', dir);
 
     // Wiki 以外のタブでは hash を付けない（Wiki のハッシュルーティング状態も破棄）
@@ -1503,6 +1542,7 @@
     searchText.placeholder = dir === 'wiki' ? 'タイトル・タグで絞り込み（Enterで本文検索）' : 'キーワード検索...';
     document.getElementById('search-reset-btn').classList.toggle('hidden', dir === 'wiki');
     updateSearchClearButton();
+    updateBookKwBanner();
     document.getElementById('search-count').textContent = '';
     document.getElementById('mobile-nav').classList.remove('visible');
 
@@ -1637,6 +1677,11 @@
       item.classList.add('active');
       openFile(path, item);
     });
+    if (dir === 'books') {
+      decorateBookList();
+      // 一覧チップ用に全冊のエッセンスを裏で取得（スマホは一覧が非表示なので、絞り込み時まで取得しない）
+      if (!isMobile()) loadBookEssences(files).catch(() => {});
+    }
 
     currentFileIndex = 0;
     updateMobileNav(files, 0);
@@ -1675,6 +1720,18 @@
       item.classList.add('active');
       openFile(path, item);
     });
+    if (currentTab === 'books') {
+      decorateBookList();
+      // 表示中の本が結果に残っていれば開き直さない（チップを押した本から飛ばない）
+      const keepIdx = bookCurrentPath ? files.findIndex(f => f.path === bookCurrentPath) : -1;
+      if (keepIdx >= 0) {
+        currentFileIndex = keepIdx;
+        updateMobileNav(files, keepIdx);
+        [...listEl.querySelectorAll('.file-item')].forEach(el => el.classList.toggle('active', el.dataset.path === bookCurrentPath));
+        refreshBookKwChipStates();
+        return;
+      }
+    }
     currentFileIndex = 0;
     updateMobileNav(files, 0);
     listEl.firstChild.click();
@@ -1724,9 +1781,22 @@
       currentSearchQuery = '';
     }
 
+    // Books: エッセンスのキーワードで絞り込み（テキスト検索・日付とは AND）
+    const kwFilter = dir === 'books' && bookKeywordFilter ? bookKeywordFilter : null;
+    if (kwFilter) {
+      if (!textQuery) document.getElementById('file-list').innerHTML = '<div class="file-item empty">絞り込み中...</div>';
+      await loadBookEssences(allFiles);
+      if (currentTab !== dir || bookKeywordFilter !== kwFilter) return;  // 取得中に条件が変わった
+      const k = bookKwKey(kwFilter);
+      filtered = filtered.filter(f => {
+        const ess = bookEssenceMap[f.path];
+        return !!ess && ess.keywords.some(x => bookKwKey(x) === k);
+      });
+    }
+
     document.getElementById('search-count').textContent = `${filtered.length}件`;
     // 条件が空なら allFiles そのものを渡す（Wiki タブはカテゴリ別グループ表示を維持する）
-    const noFilter = !textQuery && !(DATE_FILTER_TABS.includes(dir) && (dateFrom || dateTo));
+    const noFilter = !textQuery && !kwFilter && !(DATE_FILTER_TABS.includes(dir) && (dateFrom || dateTo));
     renderFileList(noFilter ? allFiles : filtered);
   }
 
@@ -1738,6 +1808,8 @@
     document.getElementById('search-count').textContent = '';
     updateSearchClearButton();
     wikiFilterActive = false;
+    bookKeywordFilter = null;
+    updateBookKwBanner();
     renderFileList(allFiles);
     if (currentTab === 'wiki') applyWikiFilter('');
   }
@@ -1764,6 +1836,188 @@
     // Wiki タブ: 入力のたびにサイドバーをタイトル・タグで即時絞り込み（Enter で本文検索）
     if (currentTab === 'wiki') setWikiFilter(document.getElementById('search-text').value);
   });
+
+  // ===== Booksタブ: エッセンス（AI生成）とキーワード絞り込み =====
+  // 入力契約（book_essence.py が ideas/books/*.md に書く）:
+  //   ## エッセンス（AI生成）
+  //   - 要点 ×3
+  //   **キーワード**: a, b, c          … 最大5個・半角カンマ区切り
+  //   **線を多く引いた章**: 章A / 章B   … 無いことがある
+  //   <sub>ハイライト N件から ... で生成（YYYY-MM-DD）</sub>
+  // marked の API には依存せず、md 文字列の段階で節を取り出して自前でカードを描く。
+  let bookEssenceMap = {};         // path → エッセンス | null（エッセンス無し）。未取得は undefined
+  let bookEssencePromise = null;   // 全冊のエッセンス取得（一覧チップ・絞り込み用）
+  let bookEssenceFilesKey = '';
+  let bookKeywordFilter = null;    // 絞り込み中のキーワード（null = 絞り込みなし）
+  let bookCurrentPath = null;      // 表示中の本（絞り込み後も表示を維持するため）
+  const BOOK_LIST_CHIP_MAX = 3;
+
+  function bookKwKey(s) { return String(s).normalize('NFKC').trim().toLowerCase(); }
+
+  // 「## エッセンス…」節の行範囲（次の h1/h2 の手前まで）。無ければ null
+  function findBookEssenceRange(md) {
+    if (typeof md !== 'string' || !md) return null;
+    const lines = md.split('\n');
+    const start = lines.findIndex(l => /^##\s+エッセンス(?:\s*[（(]AI生成[）)])?\s*$/.test(l.replace(/\r$/, '').trim()));
+    if (start < 0) return null;
+    let end = lines.length;
+    for (let j = start + 1; j < lines.length; j++) {
+      if (/^#{1,2}\s/.test(lines[j])) { end = j; break; }
+    }
+    return { lines, start, end };
+  }
+
+  // エッセンス節をパース。節が無い・中身が空なら null（例外は出さない）
+  function parseBookEssence(md) {
+    const r = findBookEssenceRange(md);
+    if (!r) return null;
+    const points = [], keywords = [];
+    let chapters = [], note = '';
+    for (const raw of r.lines.slice(r.start + 1, r.end)) {
+      const line = raw.replace(/\r$/, '').trim();
+      let m;
+      if ((m = line.match(/^[-*+]\s+(.+)$/))) { points.push(m[1].trim()); continue; }
+      if ((m = line.match(/^\*\*キーワード\*\*\s*[:：]\s*(.*)$/))) {
+        for (const k of m[1].split(/\s*[,，、]\s*/)) {
+          const kw = k.trim();
+          if (kw && !keywords.some(x => bookKwKey(x) === bookKwKey(kw))) keywords.push(kw);
+        }
+        continue;
+      }
+      if ((m = line.match(/^\*\*線を多く引いた章\*\*\s*[:：]\s*(.*)$/))) {
+        chapters = m[1].split(/\s+\/\s+/).map(s => s.trim()).filter(Boolean);
+        continue;
+      }
+      if (/<sub>/i.test(line)) note = line.replace(/<[^>]*>/g, '').trim();
+    }
+    if (!points.length && !keywords.length) return null;
+    return { points, keywords, chapters, note };
+  }
+
+  // 本文からエッセンス節を取り除く（カードで置き換えるため）。節が無ければそのまま
+  function stripBookEssence(md) {
+    const r = findBookEssenceRange(md);
+    if (!r) return md;
+    return r.lines.slice(0, r.start).concat(r.lines.slice(r.end)).join('\n');
+  }
+
+  function escapeBookHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  // 要点内の最小限のインライン記法（**太字** と `コード`）だけ解釈する
+  function bookInlineMd(s) {
+    return escapeBookHtml(s)
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/`([^`]+)`/g, '<code>$1</code>');
+  }
+
+  function makeBookKwChip(kw) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'book-kw-chip';
+    b.textContent = kw;
+    b.dataset.kw = kw;
+    b.title = `「${kw}」の本で絞り込み`;
+    if (bookKeywordFilter && bookKwKey(kw) === bookKwKey(bookKeywordFilter)) b.classList.add('active');
+    b.addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); setBookKeyword(kw); });
+    return b;
+  }
+
+  function buildBookEssenceCard(ess) {
+    const card = document.createElement('section');
+    card.className = 'book-essence';
+    let html = '<div class="book-essence-title">💡 エッセンス（AI生成）</div>';
+    if (ess.points.length) html += '<ul>' + ess.points.map(p => `<li>${bookInlineMd(p)}</li>`).join('') + '</ul>';
+    card.innerHTML = html;
+    if (ess.keywords.length) {
+      const row = document.createElement('div');
+      row.className = 'book-kw-row';
+      ess.keywords.forEach(k => row.appendChild(makeBookKwChip(k)));
+      card.appendChild(row);
+    }
+    if (ess.chapters.length) {
+      const ch = document.createElement('div');
+      ch.className = 'book-essence-chapters';
+      ch.innerHTML = '<b>📍 線を多く引いた章</b>: ' + ess.chapters.map(escapeBookHtml).join(' / ');
+      card.appendChild(ch);
+    }
+    if (ess.note) {
+      const n = document.createElement('div');
+      n.className = 'book-essence-note';
+      n.textContent = ess.note;
+      card.appendChild(n);
+    }
+    return card;
+  }
+
+  // サイドバーの1冊にキーワードチップ（最大3個）を付ける
+  function decorateBookListItem(item) {
+    if (!item || !item.dataset.path) return;
+    const old = item.querySelector('.book-kw-row');
+    if (old) old.remove();
+    const ess = bookEssenceMap[item.dataset.path];
+    if (!ess || !ess.keywords.length) return;
+    const row = document.createElement('div');
+    row.className = 'book-kw-row';
+    ess.keywords.slice(0, BOOK_LIST_CHIP_MAX).forEach(k => row.appendChild(makeBookKwChip(k)));
+    if (item.style.display === 'flex') item.style.flexWrap = 'wrap';  // 検索結果（件数バッジ付き）
+    item.appendChild(row);
+  }
+  function decorateBookList() {
+    if (currentTab !== 'books') return;
+    document.querySelectorAll('#file-list .file-item').forEach(decorateBookListItem);
+  }
+  function refreshBookKwChipStates() {
+    const k = bookKeywordFilter ? bookKwKey(bookKeywordFilter) : null;
+    document.querySelectorAll('.book-kw-chip').forEach(c => c.classList.toggle('active', !!k && bookKwKey(c.dataset.kw) === k));
+  }
+
+  // 全冊のエッセンスを取得（同時6本。取得済み・キャッシュ済みは再取得しない）
+  function loadBookEssences(files) {
+    const key = files.map(f => f.path).join('\n');
+    if (bookEssencePromise && bookEssenceFilesKey === key) return bookEssencePromise;
+    bookEssenceFilesKey = key;
+    const queue = files.filter(f => bookEssenceMap[f.path] === undefined);
+    let failed = false;
+    bookEssencePromise = (async () => {
+      let i = 0;
+      const worker = async () => {
+        while (i < queue.length) {
+          const f = queue[i++];
+          try { bookEssenceMap[f.path] = parseBookEssence(await fetchContent(f.path)); }
+          catch (e) { failed = true; continue; }   // 取得失敗は未取得のまま（次回再試行）
+          if (currentTab === 'books') {
+            const item = [...document.querySelectorAll('#file-list .file-item')].find(el => el.dataset.path === f.path);
+            decorateBookListItem(item);
+          }
+        }
+      };
+      await Promise.all(Array.from({ length: Math.min(6, queue.length) }, worker));
+      if (failed) bookEssenceFilesKey = '';
+    })();
+    return bookEssencePromise;
+  }
+
+  function updateBookKwBanner() {
+    const el = document.getElementById('book-kw-filter');
+    if (!el) return;
+    const on = currentTab === 'books' && !!bookKeywordFilter;
+    el.classList.toggle('hidden', !on);
+    document.getElementById('book-kw-filter-name').textContent = on ? bookKeywordFilter : '';
+    refreshBookKwChipStates();
+  }
+
+  // チップクリック: そのキーワードで絞り込む（同じチップをもう一度押すと解除）。テキスト検索とは AND
+  async function setBookKeyword(kw) {
+    if (currentTab !== 'books') return;
+    const same = kw && bookKeywordFilter && bookKwKey(kw) === bookKwKey(bookKeywordFilter);
+    bookKeywordFilter = (kw && !same) ? kw : null;
+    updateBookKwBanner();
+    await doSearch();
+  }
+  function clearBookKeyword() { return setBookKeyword(null); }
+  // ===================================================================
 
   // ===== URLsタブ専用処理 =====
 
@@ -2140,6 +2394,17 @@
       if (wikiSlug === 'log') text = renderWikiLogAsTable(text);
     }
 
+    // Books: エッセンス節は md の段階で取り出し、描画後にカードとして差し込む
+    let bookEssence = null;
+    if (currentTab === 'books') {
+      bookCurrentPath = path;
+      try { bookEssence = parseBookEssence(text); } catch (e) { bookEssence = null; }
+      bookEssenceMap[path] = bookEssence;
+      if (bookEssence) text = stripBookEssence(text);
+      const item = [...document.querySelectorAll('#file-list .file-item')].find(el => el.dataset.path === path);
+      if (item && !item.querySelector('.book-kw-row')) decorateBookListItem(item);
+    }
+
     let rendered = marked.parse(text);
     if (currentTab === 'news') rendered = renderNewsContent(rendered);
     if (isWiki) {
@@ -2226,6 +2491,14 @@
           h1.parentNode.insertBefore(wrap, h1);
           wrap.appendChild(img);
           wrap.appendChild(h1);
+        }
+        // エッセンスカード: 書誌テーブルの直後（無ければ見出しの直後・先頭）
+        if (bookEssence) {
+          const card = buildBookEssenceCard(bookEssence);
+          const anchor = [...mdBody.children].find(el => el.tagName === 'TABLE')
+            || mdBody.querySelector(':scope > .book-cover-wrap')
+            || [...mdBody.children].find(el => el.tagName === 'H1');
+          if (anchor) anchor.after(card); else mdBody.prepend(card);
         }
       }
 
