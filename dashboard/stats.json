@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T19:46:17+09:00",
+  "generatedAt": "2026-10-11T19:56:30+09:00",
   "weekly": {
-    "commitCount": 39,
+    "commitCount": 42,
     "byDay": [
       {
         "date": "2026-10-05",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-11",
-        "count": 10
+        "count": 13
       }
     ]
   },
@@ -37,11 +37,23 @@
     "scrap": 5,
     "ideas": 3,
     "health": 4,
-    "books": 5,
+    "books": 8,
     "portfolio": 0,
     "other": 70
   },
   "recentCommits": [
+    {
+      "date": "2026-10-11",
+      "message": "読書記録: 全冊にエッセンスを生成（175冊）"
+    },
+    {
+      "date": "2026-10-11",
+      "message": "books: エッセンスのキーワード索引 essence-index.json を出力し Books タブは索引を読む方式に変更（v1.52）"
+    },
+    {
+      "date": "2026-10-11",
+      "message": "CLAUDE.md: 日曜の読書振り返りの問いをチャットで伝えて考察を保存する手順を追加"
+    },
     {
       "date": "2026-10-11",
       "message": "news: 2026-10-11 記事まとめを自動生成"
@@ -49,18 +61,6 @@
     {
       "date": "2026-10-11",
       "message": "読書記録: エッセンスを試験生成（5冊）"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "books: ハイライトからエッセンス（要点・キーワード・章）を生成する book_essence.py を追加"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "dashboard: Books タブにエッセンス表示とキーワード絞り込みを追加（v1.51）"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "git_scrap: 日曜の読書振り返りを非対話でも問いを保存し --book-answer で考察を書けるようにする"
     }
   ]
 }
