@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-10-11] ingest | 【インターネット30年史とAI時代の戦略】7つの激変に学べ／AI時代も起きる／いかがわしい奴が勝つ／
+- 更新ページ: [インターネット・AI時代のビジネス戦略：規制・イノベーション・日米比較](internet-ai-era-business-strategy.md), [日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応](ai-investment-scale-japan-vs-global.md), [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md)
+- 出典: [【インターネット30年史とAI時代の戦略】7つの激変に学べ／AI時代も起きる／い](https://www.youtube.com/watch?v=KaHahuWSeTg)
+
+## [2026-10-11] ingest | 【AI時代を生き抜く「大願」と「実験グセ」】アマゾン一強の理由／AI政治システム／流通革命から知能革
+- 更新ページ: [AIソロプレナーシップ：個人の能力拡張と起業への影響](ai-solo-entrepreneurship-impact.md), [AIマインドセット：人間は思考、AIは実行の役割分担モデル](ai-mindset-human-thought-ai-execution.md), [試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム](trial-and-error-adaptive-capacity-building-long-term-asset.md)
+- 出典: [【AI時代を生き抜く「大願」と「実験グセ」】アマゾン一強の理由／AI政治システム](https://www.youtube.com/watch?v=VjdzAsbl2Fo)
+
 ## [2026-10-08] ingest | 人類は狩猟採集「的」社会に回帰する⁈ 落合陽一×宇野常寛 〈マタギドライヴ〉とは何か
 - 更新ページ: [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md)
 - 出典: [人類は狩猟採集「的」社会に回帰する⁈ 落合陽一×宇野常寛 〈マタギドライヴ〉とは](https://www.youtube.com/watch?v=QO0eUmHUVx4)

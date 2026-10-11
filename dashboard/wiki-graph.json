@@ -133,7 +133,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "ビジネス・組織",
-      "value": 55,
+      "value": 54,
       "tags": [
         "AI導入",
         "組織変革",
@@ -626,7 +626,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "キャリア・働き方",
-      "value": 39,
+      "value": 40,
       "tags": [
         "AI時代の働き方",
         "自動化",
@@ -704,7 +704,7 @@
       "id": "ai-first-strategy-enterprise-adoption",
       "label": "AI First戦略：エンタープライズ領域への深い統合と10年の進化",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AI導入",
         "ビジネス戦略",
@@ -860,7 +860,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "キャリア・働き方",
-      "value": 19,
+      "value": 20,
       "tags": [
         "AIマインドセット",
         "思考と実行",
@@ -1146,7 +1146,7 @@
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
       "group": "キャリア・働き方",
-      "value": 9,
+      "value": 10,
       "tags": [
         "理解力",
         "解像度",
@@ -1340,7 +1340,7 @@
       "id": "book-metadata-completion-system",
       "label": "書籍メタデータ補完システム：OpenBD→NDL→Google Booksの3段階フォールバック",
       "group": "技術実装・エンジニアリング",
-      "value": 4,
+      "value": 5,
       "tags": [
         "メタデータ",
         "API連携",
@@ -1853,7 +1853,7 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "キャリア・働き方",
-      "value": 25,
+      "value": 26,
       "tags": [
         "習慣化",
         "生産性向上",
@@ -1957,7 +1957,7 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "AIエージェント設計",
-      "value": 35,
+      "value": 34,
       "tags": [
         "ドメイン知識",
         "境界設計",
@@ -2022,7 +2022,7 @@
       "id": "environment-engineering",
       "label": "エンバイロメント・エンジニアリング：AI活動の土台づくり",
       "group": "技術実装・エンジニアリング",
-      "value": 18,
+      "value": 19,
       "tags": [
         "AIインフラ",
         "環境構築",
@@ -2359,7 +2359,7 @@
       "id": "internet-ai-era-business-strategy",
       "label": "インターネット・AI時代のビジネス戦略：規制・イノベーション・日米比較",
       "group": "AI戦略・社会",
-      "value": 3,
+      "value": 5,
       "tags": [
         "ビジネス戦略",
         "規制",
@@ -2385,7 +2385,7 @@
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
       "group": "AI戦略・社会",
-      "value": 13,
+      "value": 14,
       "tags": [
         "国際競争力",
         "デジタル赤字",
@@ -2709,7 +2709,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 92,
+      "value": 93,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -2722,7 +2722,7 @@
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 48,
+      "value": 49,
       "tags": [
         "AI導入",
         "自動化",
@@ -2839,7 +2839,7 @@
       "id": "meaning-creation-post-work-society-ai-era",
       "label": "仕事消滅社会での生きがい創出：AIが自動化した先の人間的価値と幸福設計",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "生きがい",
         "人間的価値",
@@ -2865,7 +2865,7 @@
       "id": "meta-skills-ai-era",
       "label": "AI時代のメタスキル：学び方・情報収集・AI活用能力",
       "group": "キャリア・働き方",
-      "value": 24,
+      "value": 25,
       "tags": [
         "メタスキル",
         "学び方",
@@ -3602,7 +3602,7 @@
       "id": "sleep-priority-performance-management",
       "label": "睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性",
       "group": "キャリア・働き方",
-      "value": 25,
+      "value": 26,
       "tags": [
         "睡眠",
         "脳認知能力",
@@ -3680,7 +3680,7 @@
       "id": "speed-first-prototyping",
       "label": "速さが命題：検討より先にプロトタイプを出す姿勢",
       "group": "ビジネス・組織",
-      "value": 19,
+      "value": 21,
       "tags": [
         "組織変革",
         "プロトタイピング",
@@ -3810,7 +3810,7 @@
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
       "group": "ビジネス・組織",
-      "value": 9,
+      "value": 11,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3823,7 +3823,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 25,
+      "value": 26,
       "tags": [
         "アンラーン",
         "継続学習",
@@ -7050,6 +7050,10 @@
     },
     {
       "from": "ai-investment-scale-japan-vs-global",
+      "to": "internet-ai-era-business-strategy"
+    },
+    {
+      "from": "ai-investment-scale-japan-vs-global",
       "to": "japan-ai-strategy-global-competition"
     },
     {
@@ -7063,6 +7067,10 @@
     {
       "from": "ai-investment-scale-japan-vs-global",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "ai-investment-scale-japan-vs-global",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "ai-labor-market-shift-capital-strategy",
@@ -7362,7 +7370,15 @@
     },
     {
       "from": "ai-mindset-human-thought-ai-execution",
+      "to": "ai-first-strategy-enterprise-adoption"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
       "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "ai-understanding-resolution-human-value"
     },
     {
       "from": "ai-mindset-human-thought-ai-execution",
@@ -7375,10 +7391,6 @@
     {
       "from": "ai-mindset-human-thought-ai-execution",
       "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
-    },
-    {
-      "from": "ai-mindset-human-thought-ai-execution",
-      "to": "domain-expertise-ai-boundary-design"
     },
     {
       "from": "ai-mindset-human-thought-ai-execution",
@@ -7399,6 +7411,10 @@
     {
       "from": "ai-mindset-human-thought-ai-execution",
       "to": "quantified-self-ai-feedback-loop"
+    },
+    {
+      "from": "ai-mindset-human-thought-ai-execution",
+      "to": "speed-first-prototyping"
     },
     {
       "from": "ai-model-license-compliance-manufacturing",
@@ -8035,6 +8051,10 @@
     {
       "from": "ai-solo-entrepreneurship-impact",
       "to": "singularity-loop-ai-self-acceleration"
+    },
+    {
+      "from": "ai-solo-entrepreneurship-impact",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "ai-staff-roi-maximization",
@@ -12043,6 +12063,10 @@
     {
       "from": "internet-ai-era-business-strategy",
       "to": "japan-ai-robot-social-implementation"
+    },
+    {
+      "from": "internet-ai-era-business-strategy",
+      "to": "japan-ai-strategy-global-competition"
     },
     {
       "from": "internet-ai-era-business-strategy",
@@ -17314,7 +17338,7 @@
     },
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
-      "to": "ai-adoption-resistance-mitigation"
+      "to": "ai-era-work-inversion"
     },
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
@@ -17326,7 +17350,19 @@
     },
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "to": "claude-md-governance"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "environment-engineering"
     },
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
@@ -17335,6 +17371,22 @@
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "to": "japan-demographic-crisis-infrastructure-maintenance-strategy"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "meaning-creation-post-work-society-ai-era"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "meta-skills-ai-era"
     },
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
@@ -17351,6 +17403,18 @@
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "to": "skill-reusable-process-definition-manufacturing-knowledge-management"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "sleep-priority-performance-management"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "speed-first-prototyping"
+    },
+    {
+      "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "unlearning-capability-ai-era-competition",
@@ -17446,7 +17510,15 @@
     },
     {
       "from": "video-content-metadata-collection-strategy",
+      "to": "book-metadata-completion-system"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
       "to": "incomplete-content-handling-knowledge-quality-control"
+    },
+    {
+      "from": "video-content-metadata-collection-strategy",
+      "to": "internet-ai-era-business-strategy"
     },
     {
       "from": "video-content-metadata-collection-strategy",
