@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T04:04:15+09:00",
+  "generatedAt": "2026-10-11T18:47:49+09:00",
   "weekly": {
-    "commitCount": 29,
+    "commitCount": 33,
     "byDay": [
       {
         "date": "2026-10-05",
@@ -29,38 +29,38 @@
       },
       {
         "date": "2026-10-11",
-        "count": 0
+        "count": 4
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
-    "ideas": 2,
-    "health": 2,
+    "scrap": 5,
+    "ideas": 3,
+    "health": 3,
     "books": 2,
     "portfolio": 0,
     "other": 69
   },
   "recentCommits": [
     {
+      "date": "2026-10-11",
+      "message": "ideas: 2026-W41 週次まとめ自動生成"
+    },
+    {
+      "date": "2026-10-11",
+      "message": "scrap: 2026-10-11 【AI時代を生き抜く「大願」と「実験グセ」】アマゾ・【インターネット30年史とAI時代の戦略】7つの激"
+    },
+    {
+      "date": "2026-10-11",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
+    {
+      "date": "2026-10-11",
+      "message": "朝刊: 2026-10-11 Morning Edition生成"
+    },
+    {
       "date": "2026-10-10",
       "message": "news: 2026-10-10 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-10",
-      "message": "朝刊: 2026-10-10 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-09",
-      "message": "news: 2026-10-09 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-09",
-      "message": "朝刊: 2026-10-09 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-08",
-      "message": "statusline: claude-usage.json を main から外し usage ブランチへ公開する方式に変更"
     }
   ]
 }
