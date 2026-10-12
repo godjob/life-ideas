@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T04:16:36+09:00",
+  "generatedAt": "2026-10-12T20:52:29+09:00",
   "weekly": {
-    "commitCount": 40,
+    "commitCount": 42,
     "byDay": [
       {
         "date": "2026-10-06",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-10-12",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "byDirectory": {
-    "scrap": 5,
+    "scrap": 4,
     "ideas": 3,
     "health": 4,
-    "books": 8,
+    "books": 7,
     "portfolio": 0,
-    "other": 70
+    "other": 42
   },
   "recentCommits": [
+    {
+      "date": "2026-10-12",
+      "message": "news: 2026-10-12 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-10-12",
+      "message": "朝刊: 2026-10-12 Morning Edition生成"
+    },
     {
       "date": "2026-10-11",
       "message": "読書記録: 全冊にエッセンスを生成（175冊）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-10-11",
       "message": "CLAUDE.md: 日曜の読書振り返りの問いをチャットで伝えて考察を保存する手順を追加"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "news: 2026-10-11 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "読書記録: エッセンスを試験生成（5冊）"
     }
   ]
 }
