@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-13T07:19:48+09:00",
+  "generatedAt": "2026-10-13T20:41:29+09:00",
   "weekly": {
-    "commitCount": 27,
+    "commitCount": 29,
     "byDay": [
       {
         "date": "2026-10-07",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-10-13",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
-    "ideas": 3,
+    "scrap": 3,
+    "ideas": 1,
     "health": 4,
     "books": 7,
     "portfolio": 0,
-    "other": 42
+    "other": 35
   },
   "recentCommits": [
+    {
+      "date": "2026-10-13",
+      "message": "news: 2026-10-13 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-10-13",
+      "message": "朝刊: 2026-10-13 Morning Edition生成"
+    },
     {
       "date": "2026-10-12",
       "message": "news: 2026-10-12 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-10-11",
       "message": "読書記録: 全冊にエッセンスを生成（175冊）"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "books: エッセンスのキーワード索引 essence-index.json を出力し Books タブは索引を読む方式に変更（v1.52）"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "CLAUDE.md: 日曜の読書振り返りの問いをチャットで伝えて考察を保存する手順を追加"
     }
   ]
 }
