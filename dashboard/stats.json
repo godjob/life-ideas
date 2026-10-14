@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-14T05:26:53+09:00",
+  "generatedAt": "2026-10-14T18:27:50+09:00",
   "weekly": {
-    "commitCount": 27,
+    "commitCount": 29,
     "byDay": [
       {
         "date": "2026-10-08",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-14",
-        "count": 0
+        "count": 2
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 4,
     "books": 7,
     "portfolio": 0,
-    "other": 35
+    "other": 36
   },
   "recentCommits": [
+    {
+      "date": "2026-10-14",
+      "message": "news: 2026-10-14 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-10-14",
+      "message": "朝刊: 2026-10-14 Morning Edition生成"
+    },
     {
       "date": "2026-10-13",
       "message": "news: 2026-10-13 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-10-12",
       "message": "news: 2026-10-12 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-12",
-      "message": "朝刊: 2026-10-12 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-11",
-      "message": "読書記録: 全冊にエッセンスを生成（175冊）"
     }
   ]
 }
