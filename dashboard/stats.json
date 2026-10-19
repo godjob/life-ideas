@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-10-19T18:49:03+09:00",
+  "generatedAt": "2026-10-20T05:17:52+09:00",
   "weekly": {
-    "commitCount": 14,
+    "commitCount": 12,
     "byDay": [
-      {
-        "date": "2026-10-13",
-        "count": 2
-      },
       {
         "date": "2026-10-14",
         "count": 2
@@ -30,6 +26,10 @@
       {
         "date": "2026-10-19",
         "count": 2
+      },
+      {
+        "date": "2026-10-20",
+        "count": 0
       }
     ]
   },
@@ -39,7 +39,7 @@
     "health": 2,
     "books": 6,
     "portfolio": 0,
-    "other": 20
+    "other": 19
   },
   "recentCommits": [
     {
