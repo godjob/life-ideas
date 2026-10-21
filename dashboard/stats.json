@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T03:50:25+09:00",
+  "generatedAt": "2026-10-21T18:19:01+09:00",
   "weekly": {
-    "commitCount": 12,
+    "commitCount": 14,
     "byDay": [
       {
         "date": "2026-10-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-21",
-        "count": 0
+        "count": 2
       }
     ]
   },
@@ -39,9 +39,17 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 18
+    "other": 19
   },
   "recentCommits": [
+    {
+      "date": "2026-10-21",
+      "message": "news: 2026-10-21 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-10-21",
+      "message": "朝刊: 2026-10-21 Morning Edition生成"
+    },
     {
       "date": "2026-10-20",
       "message": "news: 2026-10-20 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-10-19",
       "message": "news: 2026-10-19 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-19",
-      "message": "朝刊: 2026-10-18 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-18",
-      "message": "news: 2026-10-18 記事まとめを自動生成"
     }
   ]
 }
