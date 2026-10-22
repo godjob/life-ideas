@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-22T19:31:12+09:00",
+  "generatedAt": "2026-10-22T20:27:57+09:00",
   "weekly": {
-    "commitCount": 16,
+    "commitCount": 17,
     "byDay": [
       {
         "date": "2026-10-16",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-10-22",
-        "count": 4
+        "count": 5
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 21
+    "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-10-22",
+      "message": "CLAUDE.md: CDN ライブラリの完全バージョン固定を規約化"
+    },
     {
       "date": "2026-10-22",
       "message": "セキュリティ: Node.js 22.23.4 固定（CVE-2026-111497 対応）と pip/npx 依存のバージョン固定"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-22",
       "message": "朝刊: 2026-10-22 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-21",
-      "message": "news: 2026-10-21 記事まとめを自動生成"
     }
   ]
 }
