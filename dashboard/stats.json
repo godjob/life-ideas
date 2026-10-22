@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-22T20:27:57+09:00",
+  "generatedAt": "2026-10-22T21:56:16+09:00",
   "weekly": {
-    "commitCount": 17,
+    "commitCount": 18,
     "byDay": [
       {
         "date": "2026-10-16",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-10-22",
-        "count": 5
+        "count": 6
       }
     ]
   },
   "byDirectory": {
-    "scrap": 0,
+    "scrap": 1,
     "ideas": 0,
     "health": 0,
     "books": 0,
     "portfolio": 0,
-    "other": 22
+    "other": 21
   },
   "recentCommits": [
+    {
+      "date": "2026-10-22",
+      "message": "scrap: 2026-10-22 【中島聡】米国で急拡大する新職種「FDE」とは／年・【仕事で出会ったすごい人】知的生産のセンス／「ウケ・【情報漏洩は「まだ序の口」】「AI対AI」の迎撃体"
+    },
     {
       "date": "2026-10-22",
       "message": "CLAUDE.md: CDN ライブラリの完全バージョン固定を規約化"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-22",
       "message": "news: 2026-10-22 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-22",
-      "message": "朝刊: 2026-10-22 Morning Edition生成"
     }
   ]
 }
