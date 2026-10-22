@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-10-22] ingest | 【情報漏洩は「まだ序の口」】「AI対AI」の迎撃体制に移行せよ／企業がすべきAI対策／政府のAI対策
+- 更新ページ: [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md), [製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策](manufacturing-on-premise-ai-adoption.md), [オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク](open-vs-closed-ai-model-strategy.md), [ソブリンAI（AI主権）と安全保障：米中依存回避と自国データ・インフラ保護戦略](sovereign-ai-national-security-strategy.md)
+- 出典: [【情報漏洩は「まだ序の口」】「AI対AI」の迎撃体制に移行せよ／企業がすべきAI](https://www.youtube.com/watch?v=kx7eZDf2UNU)
+
+## [2026-10-22] ingest | 【仕事で出会ったすごい人】知的生産のセンス／「ウケる」企画の絶対条件／本棚を捨てて脳を軽くする／打率
+- 更新ページ: [アンラーン能力：既存知識の手放しとAI時代の個人競争力](unlearning-capability-ai-era-competition.md), [AI時代のメタスキル：学び方・情報収集・AI活用能力](meta-skills-ai-era.md), [AI時代における知的生産のセンスと環境づくり](intellectual-production-sensibility-ai-era.md)
+- 出典: [【仕事で出会ったすごい人】知的生産のセンス／「ウケる」企画の絶対条件／本棚を捨て](https://www.youtube.com/watch?v=U5jSdne_uH4)
+
+## [2026-10-22] ingest | 【中島聡】米国で急拡大する新職種「FDE」とは／年間10億円の削減例も／40年書いたコードをAIに任
+- 更新ページ: [FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略](fde-engineer-domain-knowledge-priority-career-design.md), [パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功](palantir-fde-user-centric-deployment.md), [AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大](ai-model-provider-vertical-integration.md)
+- 出典: [【中島聡】米国で急拡大する新職種「FDE」とは／年間10億円の削減例も／40年書](https://www.youtube.com/watch?v=HejILbNPsyo)
+
 ## [2026-10-11] ingest | 【インターネット30年史とAI時代の戦略】7つの激変に学べ／AI時代も起きる／いかがわしい奴が勝つ／
 - 更新ページ: [インターネット・AI時代のビジネス戦略：規制・イノベーション・日米比較](internet-ai-era-business-strategy.md), [日本のAI投資規模と国際比較：1桁少ない現状と個人・組織の対応](ai-investment-scale-japan-vs-global.md), [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md)
 - 出典: [【インターネット30年史とAI時代の戦略】7つの激変に学べ／AI時代も起きる／い](https://www.youtube.com/watch?v=KaHahuWSeTg)

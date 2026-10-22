@@ -55,7 +55,7 @@
       "id": "agentic-engineering-supervisor-model",
       "label": "Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト",
       "group": "AIエージェント設計",
-      "value": 41,
+      "value": 42,
       "tags": [
         "監督者モデル",
         "ハーネスエンジニアリング",
@@ -211,7 +211,7 @@
       "id": "ai-agent-permission-model-least-privilege",
       "label": "AIエージェント権限モデル：最小権限原則とエアギャップアーキテクチャによるシステム保護",
       "group": "AIエージェント設計",
-      "value": 26,
+      "value": 27,
       "tags": [
         "最小権限原則",
         "エアギャップ",
@@ -873,7 +873,7 @@
       "id": "ai-model-license-compliance-manufacturing",
       "label": "AIモデルライセンス・コンプライアンス：法務確認とコスト見積もり複雑化への対策",
       "group": "技術実装・エンジニアリング",
-      "value": 11,
+      "value": 12,
       "tags": [
         "AIライセンス",
         "コンプライアンス",
@@ -899,7 +899,7 @@
       "id": "ai-model-provider-vertical-integration",
       "label": "AIモデルプロバイダーの垂直統合戦略：API提供からFDE派遣・受託への事業拡大",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "垂直統合",
         "ビジネス戦略",
@@ -912,7 +912,7 @@
       "id": "ai-model-regulation-geopolitics",
       "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
       "group": "AI戦略・社会",
-      "value": 9,
+      "value": 10,
       "tags": [
         "AIモデル規制",
         "地政学リスク",
@@ -1198,7 +1198,7 @@
       "id": "aidlc-manufacturing-requirements-definition",
       "label": "AIDLC in 製造業：要件定義フェーズの仕様齟齬防止と実装工数削減",
       "group": "製造業・業務DX",
-      "value": 15,
+      "value": 14,
       "tags": [
         "要件定義",
         "AIDLC",
@@ -1430,7 +1430,7 @@
       "id": "china-ai-semiconductor-geopolitics",
       "label": "中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "地政学リスク",
         "国際競争力",
@@ -1853,7 +1853,7 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "キャリア・働き方",
-      "value": 26,
+      "value": 27,
       "tags": [
         "習慣化",
         "生産性向上",
@@ -1892,7 +1892,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "ビジネス・組織",
-      "value": 26,
+      "value": 27,
       "tags": [
         "意思決定疲労",
         "SOP標準化",
@@ -1931,7 +1931,7 @@
       "id": "digital-deficit-national-security-risk",
       "label": "デジタル赤字と国家安全保障リスク",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 8,
       "tags": [
         "デジタル赤字",
         "国家安全保障",
@@ -2073,7 +2073,7 @@
       "id": "fde-engineer-domain-knowledge-priority-career-design",
       "label": "FDEエンジニアのドメイン知識優先キャリア設計：コーディングより課題解決スキルの習得と業界専門化戦略",
       "group": "キャリア・働き方",
-      "value": 8,
+      "value": 9,
       "tags": [
         "ドメイン知識",
         "FDE",
@@ -2307,7 +2307,7 @@
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
       "group": "AI戦略・社会",
-      "value": 14,
+      "value": 15,
       "tags": [
         "GPUインフラ",
         "ベンダーロックイン",
@@ -2346,13 +2346,26 @@
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "プロンプト・AI活用",
-      "value": 27,
+      "value": 28,
       "tags": [
         "指示設計",
         "プロンプト設計",
         "AI活用",
         "マネジメント",
         "業務効率化"
+      ]
+    },
+    {
+      "id": "intellectual-production-sensibility-ai-era",
+      "label": "AI時代における知的生産のセンスと環境づくり",
+      "group": "キャリア・働き方",
+      "value": 2,
+      "tags": [
+        "生産性向上",
+        "アンラーン",
+        "意思決定",
+        "メタスキル",
+        "時間管理"
       ]
     },
     {
@@ -2385,7 +2398,7 @@
       "id": "japan-ai-strategy-global-competition",
       "label": "日本のAI戦略：米中競争下の現状認識と国際競争力確保への課題",
       "group": "AI戦略・社会",
-      "value": 14,
+      "value": 15,
       "tags": [
         "国際競争力",
         "デジタル赤字",
@@ -2567,7 +2580,7 @@
       "id": "llm-infrastructure-foundation-provider-redundancy",
       "label": "LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 10,
+      "value": 9,
       "tags": [
         "冗長化",
         "フェイルオーバー",
@@ -2632,7 +2645,7 @@
       "id": "local-llm-deployment-architecture",
       "label": "ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用",
       "group": "技術実装・エンジニアリング",
-      "value": 25,
+      "value": 27,
       "tags": [
         "ローカルLLM",
         "オンプレミスAI",
@@ -2645,7 +2658,7 @@
       "id": "local-pglite-sensitive-data-management",
       "label": "PGLiteローカル環境による機密データ管理：製造業における外部依存排除と組織内セキュリティ",
       "group": "技術実装・エンジニアリング",
-      "value": 8,
+      "value": 9,
       "tags": [
         "PGLite",
         "ローカルDB",
@@ -2709,7 +2722,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 93,
+      "value": 94,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -2722,7 +2735,7 @@
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 49,
+      "value": 50,
       "tags": [
         "AI導入",
         "自動化",
@@ -2787,7 +2800,7 @@
       "id": "manufacturing-on-premise-ai-adoption",
       "label": "製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策",
       "group": "製造業・業務DX",
-      "value": 9,
+      "value": 11,
       "tags": [
         "オンプレミスAI",
         "情報漏洩対策",
@@ -2800,7 +2813,7 @@
       "id": "manufacturing-system-vulnerability-preemptive-audit",
       "label": "製造業システム脆弱性の先制監査：AIによる未検出バグ発見時代の予防的セキュリティ体系",
       "group": "製造業・業務DX",
-      "value": 26,
+      "value": 29,
       "tags": [
         "セキュリティ監査",
         "リスク管理",
@@ -3059,7 +3072,7 @@
       "id": "open-vs-closed-ai-model-strategy",
       "label": "オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 8,
       "tags": [
         "オープンAIモデル",
         "クローズドAIモデル",
@@ -3124,7 +3137,7 @@
       "id": "palantir-fde-user-centric-deployment",
       "label": "パランティアのFDE戦略：現場密着型開発とユーザー共創による導入成功",
       "group": "ビジネス・組織",
-      "value": 9,
+      "value": 12,
       "tags": [
         "FDE戦略",
         "ユーザー共創",
@@ -3638,6 +3651,19 @@
       ]
     },
     {
+      "id": "sovereign-ai-national-security-strategy",
+      "label": "ソブリンAI（AI主権）と安全保障：米中依存回避と自国データ・インフラ保護戦略",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "地政学リスク",
+        "デジタル赤字",
+        "オンプレミスAI",
+        "セキュリティ",
+        "AIガバナンス"
+      ]
+    },
+    {
       "id": "space-economy-business-model",
       "label": "宇宙経済とビジネスモデル：衛星コンステレーション・通信・地球観測",
       "group": "AI戦略・社会",
@@ -3771,7 +3797,7 @@
       "id": "tiered-ai-model-planning-verification-execution",
       "label": "段階的AIモデル活用の3フェーズ設計：軽量モデル計画→中堅モデル検証→高級モデル実行",
       "group": "技術実装・エンジニアリング",
-      "value": 6,
+      "value": 9,
       "tags": [
         "コスト最適化",
         "API利用",
@@ -3823,7 +3849,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 26,
+      "value": 27,
       "tags": [
         "アンラーン",
         "継続学習",
@@ -5894,11 +5920,23 @@
     },
     {
       "from": "ai-cognitive-warfare-information-security",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
       "to": "manufacturing-system-vulnerability-preemptive-audit"
     },
     {
       "from": "ai-cognitive-warfare-information-security",
+      "to": "open-vs-closed-ai-model-strategy"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "sovereign-ai-national-security-strategy"
     },
     {
       "from": "ai-cognitive-warfare-information-security",
@@ -7490,7 +7528,23 @@
     },
     {
       "from": "ai-model-provider-vertical-integration",
+      "to": "fde-engineer-domain-knowledge-priority-career-design"
+    },
+    {
+      "from": "ai-model-provider-vertical-integration",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "ai-model-provider-vertical-integration",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "ai-model-provider-vertical-integration",
       "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
+      "from": "ai-model-provider-vertical-integration",
+      "to": "palantir-fde-user-centric-deployment"
     },
     {
       "from": "ai-model-provider-vertical-integration",
@@ -11310,6 +11364,10 @@
     },
     {
       "from": "fde-engineer-domain-knowledge-priority-career-design",
+      "to": "palantir-fde-user-centric-deployment"
+    },
+    {
+      "from": "fde-engineer-domain-knowledge-priority-career-design",
       "to": "process-ax-ai-reconstruction-strategy"
     },
     {
@@ -12039,6 +12097,30 @@
     {
       "from": "instruction-design-three-elements",
       "to": "workflow-skill-definition"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "palantir-fde-user-centric-deployment"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "internet-ai-era-business-strategy",
@@ -13902,7 +13984,15 @@
     },
     {
       "from": "manufacturing-on-premise-ai-adoption",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
     },
     {
       "from": "manufacturing-on-premise-ai-adoption",
@@ -13914,7 +14004,15 @@
     },
     {
       "from": "manufacturing-on-premise-ai-adoption",
+      "to": "sovereign-ai-national-security-strategy"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
       "to": "system-development-velocity-acceleration-ai-tools"
+    },
+    {
+      "from": "manufacturing-on-premise-ai-adoption",
+      "to": "tiered-ai-model-planning-verification-execution"
     },
     {
       "from": "manufacturing-system-vulnerability-preemptive-audit",
@@ -14227,6 +14325,10 @@
     {
       "from": "meta-skills-ai-era",
       "to": "ai-tool-evaluation-monthly-refresh-cycle"
+    },
+    {
+      "from": "meta-skills-ai-era",
+      "to": "intellectual-production-sensibility-ai-era"
     },
     {
       "from": "meta-skills-ai-era",
@@ -14874,11 +14976,11 @@
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
-      "to": "ai-model-regulation-geopolitics"
+      "to": "ai-model-license-compliance-manufacturing"
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
-      "to": "aidlc-manufacturing-requirements-definition"
+      "to": "ai-model-regulation-geopolitics"
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
@@ -14894,11 +14996,11 @@
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
-      "to": "kimi-k3-moonshot-ai-model-comparison"
+      "to": "inference-era-gpu-infrastructure-strategy"
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
-      "to": "llm-infrastructure-foundation-provider-redundancy"
+      "to": "kimi-k3-moonshot-ai-model-comparison"
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
@@ -14914,11 +15016,23 @@
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
       "to": "nvidia-dominance-shift-cpu-revaluation"
     },
     {
       "from": "open-vs-closed-ai-model-strategy",
       "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "sovereign-ai-national-security-strategy"
+    },
+    {
+      "from": "open-vs-closed-ai-model-strategy",
+      "to": "tiered-ai-model-planning-verification-execution"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -15155,6 +15269,10 @@
     {
       "from": "palantir-fde-user-centric-deployment",
       "to": "ai-ceo-delegation-protocol"
+    },
+    {
+      "from": "palantir-fde-user-centric-deployment",
+      "to": "ai-model-provider-vertical-integration"
     },
     {
       "from": "palantir-fde-user-centric-deployment",
@@ -16797,6 +16915,46 @@
       "to": "organizational-ai-adoption-acceleration-topdown-directive"
     },
     {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "ai-agent-permission-model-least-privilege"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "digital-deficit-national-security-risk"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "local-llm-deployment-architecture"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "local-pglite-sensitive-data-management"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "manufacturing-on-premise-ai-adoption"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "tiered-ai-model-planning-verification-execution"
+    },
+    {
       "from": "space-economy-business-model",
       "to": "data-integration-visualization-manufacturing-application"
     },
@@ -17467,6 +17625,10 @@
     {
       "from": "unlearning-capability-ai-era-competition",
       "to": "human-capital-philosophy-ai-era"
+    },
+    {
+      "from": "unlearning-capability-ai-era-competition",
+      "to": "intellectual-production-sensibility-ai-era"
     },
     {
       "from": "unlearning-capability-ai-era-competition",
