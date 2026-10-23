@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Edition — 2026-10-23</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+header {
+  background: #fff;
+  border-bottom: 3px solid #1a1a1a;
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+header .masthead {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: #1a1a1a;
+}
+header .edition-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.section-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.hn-section { margin-bottom: 4rem; }
+.story-card {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.story-num {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.story-title-ja {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.story-title-en {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.story-meta {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.story-meta span::before { margin-right: 0.2em; }
+.story-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.read-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.daily-section { margin-bottom: 4rem; }
+.daily-card {
+  padding: 1.75rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+.daily-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.daily-card ul { padding-left: 1.25rem; }
+.daily-card li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.3rem; }
+.daily-card p { font-size: 0.9rem; line-height: 1.7; }
+@media (max-width: 600px) {
+  .story-title-ja { font-size: 1.3rem; }
+  .card-hero, .card-midnight, .card-rose, .card-terminal,
+  .card-academic, .card-bigstat, .card-teal, .card-amber,
+  .card-slate, .card-pastel { padding: 1.5rem; }
+}
+
+.card-hero {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.card-hero .story-num {
+  font-size: 8rem;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  line-height: 1;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+}
+.card-hero .story-title-ja { color: #fff; }
+.card-hero .story-title-en { color: rgba(255,255,255,0.65); }
+.card-hero .story-meta { color: rgba(255,255,255,0.75); }
+.card-hero .story-summary { color: rgba(255,255,255,0.9); }
+.card-hero .read-btn { background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
+.card-hero .read-btn:hover { background: rgba(255,255,255,0.35); }
+
+
+.card-midnight {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+.card-midnight .story-num { color: #39d353; }
+.card-midnight .story-title-ja { color: #e6edf3; }
+.card-midnight .story-title-en { color: #8b949e; }
+.card-midnight .story-meta { color: #8b949e; }
+.card-midnight .story-summary { color: #c9d1d9; }
+.card-midnight .read-btn { background: #39d353; color: #0d1117; border: none; font-weight: 700; }
+.card-midnight .read-btn:hover { background: #56e56a; }
+
+
+.card-rose {
+  background: #fff0f3;
+  color: #1a0a0d;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-rose::after {
+  content: "!";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e11d48;
+  opacity: 0.2;
+  font-family: 'Fraunces', serif;
+}
+.card-rose .story-num { color: #e11d48; }
+.card-rose .story-title-ja { color: #881337; }
+.card-rose .story-title-en { color: #9f1239; opacity: 0.7; }
+.card-rose .story-meta { color: #9f1239; }
+.card-rose .story-summary { color: #3f0a16; }
+.card-rose .read-btn { background: #e11d48; color: #fff; border: none; }
+.card-rose .read-btn:hover { background: #be123c; }
+
+
+.card-terminal {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-terminal .story-num { color: #569cd6; font-family: monospace; }
+.card-terminal .story-title-ja { color: #9cdcfe; font-family: monospace; }
+.card-terminal .story-title-ja::before { content: "> "; color: #4ec9b0; }
+.card-terminal .story-title-en { color: #808080; font-family: monospace; }
+.card-terminal .story-meta { color: #6a9955; font-family: monospace; }
+.card-terminal .story-summary { color: #ce9178; font-family: monospace; }
+.card-terminal .read-btn { background: #252526; color: #4ec9b0; border: 1px solid #4ec9b0; font-family: monospace; }
+.card-terminal .read-btn:hover { background: #4ec9b0; color: #1e1e1e; }
+
+
+.card-academic {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 4px;
+  border-top: 4px solid #7b2d3c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-academic .story-num { color: #7b2d3c; font-family: 'Fraunces', serif; }
+.card-academic .story-title-ja { color: #1a1a1a; }
+.card-academic .story-title-ja::first-letter {
+  font-size: 2.5em;
+  float: left;
+  margin: 0 0.05em 0 0;
+  line-height: 0.85;
+  color: #7b2d3c;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+.card-academic .story-title-en { color: #5a5a5a; }
+.card-academic .story-meta { color: #7b2d3c; }
+.card-academic .story-summary { color: #333; line-height: 1.8; }
+.card-academic .read-btn { background: #7b2d3c; color: #fff; border: none; }
+.card-academic .read-btn:hover { background: #5e2230; }
+
+
+.card-bigstat {
+  background: #fafaf9;
+  color: #1c1917;
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e7e5e4;
+}
+.card-bigstat .bg-score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: 900;
+  color: #f5f5f4;
+  font-family: 'Fraunces', serif;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+.card-bigstat > *:not(.bg-score) { position: relative; z-index: 1; }
+.card-bigstat .story-num { color: #78716c; }
+.card-bigstat .story-title-ja { color: #1c1917; }
+.card-bigstat .story-title-en { color: #78716c; }
+.card-bigstat .story-meta { color: #a8a29e; }
+.card-bigstat .story-summary { color: #44403c; }
+.card-bigstat .read-btn { background: #1c1917; color: #fafaf9; border: none; }
+.card-bigstat .read-btn:hover { background: #44403c; }
+
+
+.card-teal {
+  background: #e6f4f1;
+  color: #134e4a;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 5px solid #0d9488;
+}
+.card-teal .story-num { color: #0d9488; }
+.card-teal .story-title-ja { color: #134e4a; }
+.card-teal .story-title-en { color: #2d6a65; opacity: 0.8; }
+.card-teal .story-meta { color: #0f766e; }
+.card-teal .story-summary { color: #1f5c58; }
+.card-teal .read-btn { background: #0d9488; color: #fff; border: none; }
+.card-teal .read-btn:hover { background: #0f766e; }
+
+
+.card-amber {
+  background: #fffbeb;
+  color: #1c1410;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid #f59e0b;
+}
+.card-amber .story-num { color: #d97706; }
+.card-amber .story-title-ja { color: #1c1410; }
+.card-amber .story-title-en { color: #92400e; opacity: 0.75; }
+.card-amber .story-meta { color: #b45309; }
+.card-amber .story-summary { color: #44300f; }
+.card-amber .read-btn { background: #f59e0b; color: #1c1410; border: none; font-weight: 600; }
+.card-amber .read-btn:hover { background: #d97706; color: #fff; }
+
+
+.card-slate {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #facc15;
+}
+.card-slate .story-num { color: #facc15; }
+.card-slate .story-title-ja { color: #f1f5f9; }
+.card-slate .story-title-en { color: #94a3b8; }
+.card-slate .story-meta { color: #64748b; }
+.card-slate .story-summary { color: #cbd5e1; }
+.card-slate .read-btn { background: #facc15; color: #1e293b; border: none; font-weight: 700; }
+.card-slate .read-btn:hover { background: #eab308; }
+
+
+.card-pastel {
+  background: #f8f4ff;
+  color: #1e0a3c;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 2px solid #ddd6fe;
+}
+.card-pastel .story-num { color: #7c3aed; }
+.card-pastel .story-title-ja { color: #1e0a3c; }
+.card-pastel .story-title-en { color: #5b21b6; opacity: 0.7; }
+.card-pastel .story-meta { color: #6d28d9; }
+.card-pastel .story-summary { color: #2e1065; }
+.card-pastel .read-btn { background: #7c3aed; color: #fff; border: none; }
+.card-pastel .read-btn:hover { background: #6d28d9; }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="masthead">Morning Edition</div>
+      <div class="edition-date">2026年10月23日 &nbsp;·&nbsp; Hacker News Daily Digest</div>
+    </div>
+  </header>
+
+  <section class="hn-section">
+    <div class="container">
+      <h2 class="section-heading">Hacker News — 本日のピック</h2>
+      
+  <div class="story-card card-hero">
+    
+    <span class="story-num">01</span>
+    <div class="story-title-ja">Quad9（DNSリゾルバ）がフランス市場から撤退へ</div>
+    <div class="story-title-en">Quad9 (DNS Resolver) to Exit France</div>
+    <div class="story-meta">
+      <span>▲ 964</span>
+      <span>💬 348</span>
+      <span>by farrokhi</span>
+    </div>
+    <div class="story-summary">パブリックDNSサービスを提供するQuad9が、フランスにおけるサービス提供とインフラ運営を終了することを発表しました。法的な要請や規制負担の増大が撤退理由とみられます。ユーザーに対しては今後の対応や他地域でのサービス継続について説明されています。</div>
+    <a class="read-btn" href="https://quad9.net/news/blog/au-revoir-france/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50195959" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-midnight">
+    
+    <span class="story-num">02</span>
+    <div class="story-title-ja">eMudhraがグローバルなSSL/TLS証明書事業から撤退へ</div>
+    <div class="story-title-en">eMudhra to exit global SSL/TLS certificate business</div>
+    <div class="story-meta">
+      <span>▲ 909</span>
+      <span>💬 620</span>
+      <span>by bo0tzz</span>
+    </div>
+    <div class="story-summary">認証局のeMudhraが、グローバル市場におけるSSL/TLSパブリック証明書事業からの撤退を公式発表しました。今後は他のデジタル署名やアイデンティティ管理ソリューションなど、中核分野へリソースを集中させる方針です。既存顧客に対する移行案内などが順次行われる見込みです。</div>
+    <a class="read-btn" href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50195110" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-rose">
+    
+    <span class="story-num">03</span>
+    <div class="story-title-ja">Nintendo Switch 2の脱獄（ジェイルブレイク）</div>
+    <div class="story-title-en">Jailbreaking the Switch 2</div>
+    <div class="story-meta">
+      <span>▲ 699</span>
+      <span>💬 244</span>
+      <span>by ledoge</span>
+    </div>
+    <div class="story-summary">次世代ハード「Nintendo Switch 2」のセキュリティ解析および脱獄（Jailbreak）手法に関する個人ブログの検証記事です。システムの脆弱性を利用して未承認コードを実行する技術的アプローチが解説されています。ハードウェア・ソフトウェア双方の防衛機構とその回避策について考察されています。</div>
+    <a class="read-btn" href="https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50192536" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-terminal">
+    
+    <span class="story-num">04</span>
+    <div class="story-title-ja">Metaに対しニューメキシコ州のケンブリッジ・アナリティカ事件で250億ドルの支払命令</div>
+    <div class="story-title-en">Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case</div>
+    <div class="story-meta">
+      <span>▲ 677</span>
+      <span>💬 415</span>
+      <span>by cbg0</span>
+    </div>
+    <div class="story-summary">米ニューメキシコ州の裁判所が、ケンブリッジ・アナリティカ関連のデータプライバシー問題でMetaに対し250億ドルという巨額の制裁金支払いを命じました。ユーザーの個人情報保護に対する不適切な管理責任が重く問われた形です。Meta側は判決を不服として控訴する見通しです。</div>
+    <a class="read-btn" href="https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50184820" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-academic">
+    
+    <span class="story-num">05</span>
+    <div class="story-title-ja">WorldTUI：ターミナルのふりをする3億6000万パラメータのモデルを訓練した</div>
+    <div class="story-title-en">WorldTUI: I trained a 360M model to pretend to be a terminal</div>
+    <div class="story-meta">
+      <span>▲ 500</span>
+      <span>💬 156</span>
+      <span>by alphax314</span>
+    </div>
+    <div class="story-summary">ターミナル環境の挙動をシミュレートする360M（3億6000万）パラメータの機械学習モデル「WorldTUI」の紹介記事です。コマンド入力に対して実際のシェルやTUIのように振る舞うワールドモデルの構築手法が語られています。AIがCLIインターフェースの動作規則をどこまで学習できるかを試みる実験的な取り組みです。</div>
+    <a class="read-btn" href="https://simedw.com/2026/10/21/world-model-terminal/" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50190363" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-bigstat">
+    <div class="bg-score">456</div>
+    <span class="story-num">06</span>
+    <div class="story-title-ja">自身が開設していないCash App口座のせいで禁錮6年の危機に直面する女性</div>
+    <div class="story-title-en">Woman faces six years in prison over Cash App account she never opened</div>
+    <div class="story-meta">
+      <span>▲ 456</span>
+      <span>💬 461</span>
+      <span>by oidar</span>
+    </div>
+    <div class="story-summary">自身が開設した覚えのないCash Appアカウントによる不正行為に関連し、警察に拘留され最大6年の禁錮刑の可能性に直面している女性の報道です。成りすまし被害や本人確認手続きの不備が原因とみられ、フィンテックアプリのセキュリティリスクが問題視されています。冤罪防止に向けた法的手続きやプラットフォーム側の責任が問われています。</div>
+    <a class="read-btn" href="https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50194833" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-teal">
+    
+    <span class="story-num">07</span>
+    <div class="story-title-ja">「グリッド化（Gridification）」とは何か</div>
+    <div class="story-title-en">What Is Gridifcation</div>
+    <div class="story-meta">
+      <span>▲ 388</span>
+      <span>💬 194</span>
+      <span>by gumby</span>
+    </div>
+    <div class="story-summary">音楽やデザイン、社会構造における「グリッド化（Gridification）」という現象を考察した記事です。本来有機的で自由だった要素が、規則的な格子（グリッド）のような枠組みへと標準化されていくプロセスを分析しています。その変化が文化的表現や人間の創造性に与える影響について論じています。</div>
+    <a class="read-btn" href="https://musicalform.substack.com/p/what-is-gridifcation" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50150163" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-amber">
+    
+    <span class="story-num">08</span>
+    <div class="story-title-ja">OpenShell – 自律型AIエージェント群のための安全でプライベートなランタイム</div>
+    <div class="story-title-en">OpenShell – A safe, private runtime for fleets of autonomous AI agents</div>
+    <div class="story-meta">
+      <span>▲ 281</span>
+      <span>💬 144</span>
+      <span>by niemandhier</span>
+    </div>
+    <div class="story-summary">NVIDIAが公開した、複数の自律型AIエージェントを安全かつプライベートに実行するためのランタイム環境「OpenShell」のGitHubリポジトリです。エージェント間の通信やデータアクセスを制御し、機密性を保持したままマルチエージェントシステムを運用する機能を提供します。AIエージェントの実用化に向けたセキュリティ課題の解決を目指しています。</div>
+    <a class="read-btn" href="https://github.com/NVIDIA/OpenShell" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50198675" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-slate">
+    
+    <span class="story-num">09</span>
+    <div class="story-title-ja">Tell HN：知らずにPHPのRCE（リモートコード実行）エンバーゴを破ってしまいました。申し訳ありません。</div>
+    <div class="story-title-en">Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.</div>
+    <div class="story-meta">
+      <span>▲ 342</span>
+      <span>💬 143</span>
+      <span>by petecooper</span>
+    </div>
+    <div class="story-summary">PHPの未公開RCE（リモートコード実行）脆弱性情報を、情報公開猶予（エンバーゴ）期間中に誤って公表してしまった人物によるHacker Newsへの投稿です。うっかり非公開情報を漏洩させてしまった経緯と謝罪が綴られています。セキュリティコミュニティにおける脆弱性開示ルールや情報管理の難しさが浮き彫りとなっています。</div>
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50193416" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50193416" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+
+  <div class="story-card card-pastel">
+    
+    <span class="story-num">10</span>
+    <div class="story-title-ja">複数のLinuxカーネル脆弱性が誤って公開メーリングリストに投稿される</div>
+    <div class="story-title-en">Several Linux kernel vulnerabilities accidentally posted to public mailing list</div>
+    <div class="story-meta">
+      <span>▲ 238</span>
+      <span>💬 86</span>
+      <span>by mrkn1</span>
+    </div>
+    <div class="story-summary">修正パッチが用意される前の未公開Linuxカーネル脆弱性情報が、誤って公開のメーリングリスト（LKML）に送信された事案についての記事です。意図しない情報漏洩により、修正前に悪用されるゼロデイリスクが高まる懸念が生じています。Linux開発コミュニティにおけるセキュリティ報告手順の不手際が問題視されています。</div>
+    <a class="read-btn" href="https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities" target="_blank" rel="noopener">記事を読む</a>
+    &nbsp;
+    <a class="read-btn" href="https://news.ycombinator.com/item?id=50193804" target="_blank" rel="noopener" style="opacity:0.7">HN</a>
+  </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
