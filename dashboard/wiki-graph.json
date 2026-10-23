@@ -795,7 +795,7 @@
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 12,
+      "value": 14,
       "tags": [
         "労働市場",
         "資本戦略",
@@ -847,7 +847,7 @@
       "id": "ai-manager-role-transition-code-craftsman",
       "label": "コード職人からAIマネジャーへ：エンジニアキャリア転換期の市場価値設計",
       "group": "キャリア・働き方",
-      "value": 11,
+      "value": 10,
       "tags": [
         "AIマネジャー",
         "キャリア転換",
@@ -1146,7 +1146,7 @@
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
       "group": "キャリア・働き方",
-      "value": 10,
+      "value": 11,
       "tags": [
         "理解力",
         "解像度",
@@ -1918,7 +1918,7 @@
       "id": "die-with-zero-philosophy-life-optimization",
       "label": "DIE WITH ZEROの哲学：人生の最適化と記憶の配当",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "人生設計",
         "自己投資",
@@ -2229,7 +2229,7 @@
       "id": "human-capital-philosophy-ai-era",
       "label": "人的資本の哲学：AI時代の問い直しと本質的価値",
       "group": "キャリア・働き方",
-      "value": 6,
+      "value": 8,
       "tags": [
         "人的資本",
         "哲学",
@@ -2268,7 +2268,7 @@
       "id": "identity-transformation-habit-formation-ai-era",
       "label": "アイデンティティ変革による習慣形成：AI時代の自己再定義",
       "group": "キャリア・働き方",
-      "value": 3,
+      "value": 6,
       "tags": [
         "アイデンティティ変革",
         "習慣形成",
@@ -2320,7 +2320,7 @@
       "id": "information-processing-efficiency-ai-integration",
       "label": "情報処理効率化とAI統合：一次情報重視と大量情報要約術",
       "group": "キャリア・働き方",
-      "value": 9,
+      "value": 10,
       "tags": [
         "一次情報",
         "情報処理",
@@ -3017,6 +3017,19 @@
       ]
     },
     {
+      "id": "narrative-positioning-career-strategy",
+      "label": "物語思考とキャラ設定（ポジショニング）によるキャリア戦略",
+      "group": "キャリア・働き方",
+      "value": 3,
+      "tags": [
+        "キャリア戦略",
+        "自己投資",
+        "継続学習",
+        "時間管理",
+        "差別化戦略"
+      ]
+    },
+    {
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "プロンプト・AI活用",
@@ -3215,7 +3228,7 @@
       "id": "planned-happenstance-theory-career-strategy",
       "label": "計画的偶発性理論とAI時代のキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 3,
+      "value": 5,
       "tags": [
         "キャリア戦略",
         "計画的偶発性",
@@ -3343,7 +3356,7 @@
       "id": "pushed-person-strategy-ai-era",
       "label": "AI時代の『推される人』戦略：プロダクト均質化と差別化",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 5,
       "tags": [
         "差別化戦略",
         "パーソナルブランディング",
@@ -3745,7 +3758,7 @@
       "id": "strengths-leverage-task-design-productivity-multiplication",
       "label": "強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化",
       "group": "ビジネス・組織",
-      "value": 5,
+      "value": 8,
       "tags": [
         "強み活用",
         "タスク設計",
@@ -3810,7 +3823,7 @@
       "id": "time-capital-health-investment-narrative",
       "label": "時間資本から人的資本への変換：健康管理を自己投資として正当化するナラティブ",
       "group": "キャリア・働き方",
-      "value": 14,
+      "value": 17,
       "tags": [
         "自己投資",
         "ウェルネス",
@@ -3836,7 +3849,7 @@
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
       "group": "ビジネス・組織",
-      "value": 11,
+      "value": 14,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3849,7 +3862,7 @@
       "id": "unlearning-capability-ai-era-competition",
       "label": "アンラーン能力：既存知識の手放しとAI時代の個人競争力",
       "group": "キャリア・働き方",
-      "value": 27,
+      "value": 28,
       "tags": [
         "アンラーン",
         "継続学習",
@@ -7136,11 +7149,31 @@
     },
     {
       "from": "ai-labor-market-shift-capital-strategy",
+      "to": "human-capital-philosophy-ai-era"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
       "to": "labor-money-decoupling"
     },
     {
       "from": "ai-labor-market-shift-capital-strategy",
+      "to": "narrative-positioning-career-strategy"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
+      "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
+      "to": "unlearning-capability-ai-era-competition"
     },
     {
       "from": "ai-labor-market-shift-capital-strategy",
@@ -7676,11 +7709,19 @@
     },
     {
       "from": "ai-personal-branding-influencer-strategy",
+      "to": "identity-transformation-habit-formation-ai-era"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
       "to": "pushed-person-strategy-ai-era"
     },
     {
       "from": "ai-personal-branding-influencer-strategy",
       "to": "quality-economy-trust-based-information"
+    },
+    {
+      "from": "ai-personal-branding-influencer-strategy",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
       "from": "ai-personal-branding-influencer-strategy",
@@ -10536,6 +10577,10 @@
     },
     {
       "from": "crystallized-intelligence-ai-era-strategy",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
+    },
+    {
+      "from": "crystallized-intelligence-ai-era-strategy",
       "to": "unlearning-capability-ai-era-competition"
     },
     {
@@ -11869,6 +11914,10 @@
     {
       "from": "identity-transformation-habit-formation-ai-era",
       "to": "midlife-crisis-reframing-opportunity"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "planned-happenstance-theory-career-strategy"
     },
     {
       "from": "identity-transformation-habit-formation-ai-era",
@@ -14388,10 +14437,6 @@
     },
     {
       "from": "midlife-crisis-reframing-opportunity",
-      "to": "ai-manager-role-transition-code-craftsman"
-    },
-    {
-      "from": "midlife-crisis-reframing-opportunity",
       "to": "crystallized-intelligence-ai-era-strategy"
     },
     {
@@ -14400,7 +14445,15 @@
     },
     {
       "from": "midlife-crisis-reframing-opportunity",
+      "to": "die-with-zero-philosophy-life-optimization"
+    },
+    {
+      "from": "midlife-crisis-reframing-opportunity",
       "to": "meta-skills-ai-era"
+    },
+    {
+      "from": "midlife-crisis-reframing-opportunity",
+      "to": "narrative-positioning-career-strategy"
     },
     {
       "from": "midlife-crisis-reframing-opportunity",
@@ -14409,6 +14462,10 @@
     {
       "from": "midlife-crisis-reframing-opportunity",
       "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "midlife-crisis-reframing-opportunity",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "minimal-fab-supply-chain-resilience",
@@ -14781,6 +14838,34 @@
     {
       "from": "nand-flash-memory-market-ai-demand",
       "to": "nvidia-dominance-shift-cpu-revaluation"
+    },
+    {
+      "from": "narrative-positioning-career-strategy",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "narrative-positioning-career-strategy",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "narrative-positioning-career-strategy",
+      "to": "human-capital-philosophy-ai-era"
+    },
+    {
+      "from": "narrative-positioning-career-strategy",
+      "to": "planned-happenstance-theory-career-strategy"
+    },
+    {
+      "from": "narrative-positioning-career-strategy",
+      "to": "pushed-person-strategy-ai-era"
+    },
+    {
+      "from": "narrative-positioning-career-strategy",
+      "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "narrative-positioning-career-strategy",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "non-engineer-ai-tool-development",
@@ -15576,11 +15661,35 @@
     },
     {
       "from": "planned-happenstance-theory-career-strategy",
+      "to": "ai-labor-market-shift-capital-strategy"
+    },
+    {
+      "from": "planned-happenstance-theory-career-strategy",
       "to": "assumption-reevaluation-cycle-continuous-improvement"
     },
     {
       "from": "planned-happenstance-theory-career-strategy",
+      "to": "identity-transformation-habit-formation-ai-era"
+    },
+    {
+      "from": "planned-happenstance-theory-career-strategy",
+      "to": "information-processing-efficiency-ai-integration"
+    },
+    {
+      "from": "planned-happenstance-theory-career-strategy",
+      "to": "narrative-positioning-career-strategy"
+    },
+    {
+      "from": "planned-happenstance-theory-career-strategy",
       "to": "speed-first-prototyping"
+    },
+    {
+      "from": "planned-happenstance-theory-career-strategy",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
+    },
+    {
+      "from": "planned-happenstance-theory-career-strategy",
+      "to": "time-capital-health-investment-narrative"
     },
     {
       "from": "planned-happenstance-theory-career-strategy",
@@ -17177,6 +17286,10 @@
     {
       "from": "strengths-leverage-task-design-productivity-multiplication",
       "to": "environment-engineering"
+    },
+    {
+      "from": "strengths-leverage-task-design-productivity-multiplication",
+      "to": "identity-transformation-habit-formation-ai-era"
     },
     {
       "from": "strengths-leverage-task-design-productivity-multiplication",

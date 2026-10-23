@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-10-23] ingest | 初対談！【山口周×けんすう】人生がうまくいく方法を1枚で表した図／キャラ設定はポジショニング／ドラマ
+- 更新ページ: [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md), [計画的偶発性理論とAI時代のキャリア戦略](planned-happenstance-theory-career-strategy.md), [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md), [物語思考とキャラ設定（ポジショニング）によるキャリア戦略](narrative-positioning-career-strategy.md)
+- 出典: [初対談！【山口周×けんすう】人生がうまくいく方法を1枚で表した図／キャラ設定はポ](https://www.youtube.com/watch?v=dVdE6s79gjk)
+
+## [2026-10-23] ingest | 【山口周×けんすう】人生に悩んだら〇〇を変えろ／けんすう氏が真似した二人とは？／「強み」探しは間違い
+- 更新ページ: [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [計画的偶発性理論とAI時代のキャリア戦略](planned-happenstance-theory-career-strategy.md), [アイデンティティ変革による習慣形成：AI時代の自己再定義](identity-transformation-habit-formation-ai-era.md)
+- 出典: [【山口周×けんすう】人生に悩んだら〇〇を変えろ／けんすう氏が真似した二人とは？／](https://www.youtube.com/watch?v=Aexc1c9kwFo)
+
+## [2026-10-23] ingest | 【山口周×けんすう】人生に悩んだら〇〇を変えろ／けんすう氏が真似した二人とは？／「強み」探しは間違い
+- 更新ページ: [強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化](strengths-leverage-task-design-productivity-multiplication.md), [計画的偶発性理論とAI時代のキャリア戦略](planned-happenstance-theory-career-strategy.md), [AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現](ai-personal-branding-influencer-strategy.md)
+- 出典: [【山口周×けんすう】人生に悩んだら〇〇を変えろ／けんすう氏が真似した二人とは？／](https://www.youtube.com/watch?v=Aexc1c9kwFo)
+
 ## [2026-10-22] ingest | 【情報漏洩は「まだ序の口」】「AI対AI」の迎撃体制に移行せよ／企業がすべきAI対策／政府のAI対策
 - 更新ページ: [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md), [製造業におけるオンプレミスAI導入：オープンウェイトモデルと情報漏洩リスク対策](manufacturing-on-premise-ai-adoption.md), [オープンvsクローズドAIモデル戦略：ビジネスにおける選定基準とリスク](open-vs-closed-ai-model-strategy.md), [ソブリンAI（AI主権）と安全保障：米中依存回避と自国データ・インフラ保護戦略](sovereign-ai-national-security-strategy.md)
 - 出典: [【情報漏洩は「まだ序の口」】「AI対AI」の迎撃体制に移行せよ／企業がすべきAI](https://www.youtube.com/watch?v=kx7eZDf2UNU)
