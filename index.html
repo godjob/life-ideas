@@ -361,6 +361,9 @@
     .run-kpi-sub { font-size: 0.72rem; color: #666; font-variant-numeric: tabular-nums; }
     .run-headline { font-weight: 700; color: #1a1a2e; font-size: 1rem; line-height: 1.5; margin: 4px 0 6px; }
     .run-review { font-size: 0.9rem; line-height: 1.7; color: #444; margin: 0 0 14px; }
+    .run-memo { font-size: 0.88rem; line-height: 1.6; color: #444; background: #fff8e6; border-left: 3px solid #f0b429;
+      border-radius: 4px; padding: 6px 10px; margin: 0 0 14px; }
+    .run-memo-mark { margin-left: 4px; font-size: 0.8rem; cursor: help; }
     .run-ai-badge {
       display: inline-block; font-size: 0.68rem; color: #e94560; border: 1px solid #f3c1cb;
       border-radius: 10px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; white-space: nowrap;
@@ -692,7 +695,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.55';
+  const VERSION = 'v1.56';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -2977,7 +2980,7 @@
         <td class="num">${runFmtPace(r.pace_s)}</td>
         <td class="num">${runNum(r.hr_avg)}</td>
         <td class="num">${runNum(r.climb_m)}</td>
-        <td class="run-hl">${runEsc(r.headline)}</td></tr>`;
+        <td class="run-hl">${runEsc(r.headline)}${r.memo ? `<span class="run-memo-mark" title="${runEsc(r.memo)}">📝</span>` : ''}</td></tr>`;
     }).join('');
     view.querySelector('.run-table-wrap').innerHTML = `<table class="run-table">
       <thead><tr><th>日付</th><th class="num">距離km</th><th class="num">時間</th><th class="num">ペース</th><th class="num">心拍</th><th class="num">上りm</th><th>ひとこと</th></tr></thead>
@@ -3083,7 +3086,7 @@
     }
     const notes = Array.isArray(run.notes) ? run.notes.filter(Boolean) : [];
     const notesHtml = notes.length
-      ? `<details class="run-notes"><summary>メモ（${notes.length}件）</summary><ul>${notes.map(n => `<li>${runEsc(n)}</li>`).join('')}</ul></details>` : '';
+      ? `<details class="run-notes"><summary>出来事（${notes.length}件）</summary><ul>${notes.map(n => `<li>${runEsc(n)}</li>`).join('')}</ul></details>` : '';
 
     return `<div class="run-detail">
       <div class="run-detail-head">
@@ -3092,6 +3095,7 @@
       </div>
       <div class="run-kpis">${kpis}</div>
       ${run.headline ? `<div class="run-headline">${runEsc(run.headline)}</div>` : ''}
+      ${run.memo ? `<p class="run-memo">📝 ${runEsc(run.memo)}</p>` : ''}
       ${run.review ? `<p class="run-review">${runEsc(run.review)}${run.review_source === 'gemini' ? '<span class="run-ai-badge">AI総評</span>' : ''}</p>` : ''}
       <h3 class="run-h">距離ごとの推移</h3>
       <div class="run-readout"><span class="run-muted">グラフをなぞると各地点の値を表示</span></div>
