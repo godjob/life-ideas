@@ -392,6 +392,27 @@
     .run-notes { margin: 16px 0 8px; font-size: 0.88rem; }
     .run-notes summary { cursor: pointer; color: #1a1a2e; font-weight: 600; padding: 6px 0; }
     .run-notes ul { margin: 4px 0 0 1.3em; line-height: 1.7; color: #444; }
+    /* レース本番（analysis.md のレース記録と結びついた走行。v1.58） */
+    .run-race { background: #fff; border: 1px solid #e2e2e8; border-left: 4px solid #1a1a2e; border-radius: 8px; padding: 10px 12px; margin: 0 0 12px; }
+    .run-race-title { font-weight: 700; color: #1a1a2e; font-size: 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+    .run-race-badge { font-size: 0.7rem; font-weight: 600; border-radius: 10px; padding: 1px 8px; background: #fff4d6; color: #8a5a00; border: 1px solid #f0d080; }
+    .run-race-kpis { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 0; }
+    .run-race-kpis .run-kpi { background: #f8f9fc; }
+    .run-race .run-h { margin-top: 14px; }
+    .run-race table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+    .run-race th { color: #888; font-weight: 600; font-size: 0.75rem; text-align: left; padding: 4px 4px; border-bottom: 1px solid #e2e2e8; white-space: nowrap; }
+    .run-race td { padding: 5px 4px; border-bottom: 1px solid #f0f0f0; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .run-race .num { text-align: right; }
+    .run-race tr[data-id] { cursor: pointer; }
+    .run-race tr[data-id]:hover { background: #fff4f6; }
+    .run-race tr.run-race-cur td { font-weight: 700; color: #1a1a2e; background: #f3f4f8; }
+    .run-race-bar { display: inline-block; height: 10px; border-radius: 0 3px 3px 0; background: #6b7a90; vertical-align: -1px; }
+    .run-race-cur .run-race-bar { background: #e94560; }
+    .run-race-ahead { color: #1d7a6e; }
+    .run-race-behind { color: #c0392b; }
+    .run-race-gap { display: block; width: 100%; max-width: 560px; height: auto; margin: 4px 0 6px; }
+    .run-race details summary { cursor: pointer; color: #1a1a2e; font-weight: 600; padding: 6px 0; font-size: 0.85rem; }
+    .run-race-mark { margin-right: 4px; }
 
     /* ===== Booksタブ専用スタイル ===== */
     .book-cover-wrap {
@@ -698,7 +719,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.57';
+  const VERSION = 'v1.58';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -2835,7 +2856,7 @@
   let runsIndex = null;          // index.json の runs（1回だけ取得）
   let runRenderSeq = 0;          // 非同期描画の追い越し防止
   let runCurrentDetail = null;   // リサイズ時のグラフ再描画用
-  const runListFilter = { year: null, dist: 'all', hr: false };
+  const runListFilter = { year: null, dist: 'all', hr: false, race: false };
   // 単色（アクセント赤）の順序ランプ: 薄い→濃い。ヒートマップ・スプリット・心拍ゾーンで共用
   const RUN_RAMP = ['#fbe3e8', '#f6b3c0', '#ee7f95', '#e94560', '#a8203a'];
   const RUN_HM_EMPTY = '#ebedf0';
@@ -2936,6 +2957,7 @@
           ${RUN_DIST_BANDS.map(([v, l]) => `<option value="${v}"${runListFilter.dist === v ? ' selected' : ''}>${l}</option>`).join('')}
         </select>
         <label><input type="checkbox" class="run-f-hr"${runListFilter.hr ? ' checked' : ''}> 心拍ありのみ</label>
+        <label><input type="checkbox" class="run-f-race"${runListFilter.race ? ' checked' : ''}> 🏁 レースのみ</label>
         <span class="run-count"></span>
       </div>
       <div class="run-card run-heatmap"></div>
@@ -2944,6 +2966,7 @@
       runListFilter.year = view.querySelector('.run-f-year').value;
       runListFilter.dist = view.querySelector('.run-f-dist').value;
       runListFilter.hr = view.querySelector('.run-f-hr').checked;
+      runListFilter.race = view.querySelector('.run-f-race').checked;
       renderRunListBody(view, runs, years);
     };
     view.querySelectorAll('select, input').forEach(el => el.addEventListener('change', onChange));
@@ -2966,7 +2989,8 @@
     const rows = runs.filter(r =>
       (f.year === 'all' || r.date.startsWith(f.year)) &&
       (r.dist_km >= dlo && r.dist_km < dhi) &&
-      (!f.hr || r.hr_avg != null));
+      (!f.hr || r.hr_avg != null) &&
+      (!f.race || !!r.race));
     const hmYear = f.year === 'all' ? years[0] : f.year;
     view.querySelector('.run-heatmap').innerHTML = buildRunHeatmap(runs, hmYear);
     const sc = view.querySelector('.run-hm-scroll');
@@ -2983,7 +3007,7 @@
         <td class="num">${runFmtPace(r.pace_s)}</td>
         <td class="num">${runNum(r.hr_avg)}</td>
         <td class="num">${runNum(r.climb_m)}</td>
-        <td class="run-hl">${runEsc(r.headline)}${r.memo ? `<span class="run-memo-mark" title="${runEsc(r.memo)}">📝</span>` : ''}</td></tr>`;
+        <td class="run-hl">${r.race ? `<span class="run-race-mark" title="${runEsc(r.race)}">🏁</span>` : ''}${runEsc(r.headline)}${r.memo ? `<span class="run-memo-mark" title="${runEsc(r.memo)}">📝</span>` : ''}</td></tr>`;
     }).join('');
     view.querySelector('.run-table-wrap').innerHTML = `<table class="run-table">
       <thead><tr><th>日付</th><th class="num">距離km</th><th class="num">時間</th><th class="num">ペース</th><th class="num">心拍</th><th class="num">上りm</th><th>ひとこと</th></tr></thead>
@@ -3046,6 +3070,10 @@
     }
     if (currentTab !== 'running' || seq !== runRenderSeq) return;
     view.innerHTML = buildRunDetailHtml(run);
+    view.addEventListener('click', e => {  // レース欄の過去大会・翌走行へのリンク
+      const t = e.target.closest('.run-race [data-id]');
+      if (t && t.dataset.id !== run.id) openRunDetail(t.dataset.id, { push: true });
+    });
     contentEl.scrollTop = 0;
     runCurrentDetail = run;
     renderRunChart(view.querySelector('.run-chart'), run, view.querySelector('.run-readout'));
@@ -3096,6 +3124,7 @@
         <button type="button" class="run-back" onclick="showRunList()">← 一覧へ戻る</button>
         <span class="run-date">${runEsc(run.date)}<span class="${runDowClass(run.weekday)}">(${runEsc(run.weekday)})</span></span>
       </div>
+      ${run.race ? buildRunRaceHtml(run.race, kpi) : ''}
       <div class="run-kpis">${kpis}</div>
       ${run.headline ? `<div class="run-headline">${runEsc(run.headline)}</div>` : ''}
       ${run.memo ? `<p class="run-memo">📝 ${runEsc(run.memo)}</p>` : ''}
@@ -3109,6 +3138,99 @@
       ${zonesHtml}
       ${notesHtml}
     </div>`;
+  }
+
+  // レース欄: 結果・同じ大会の推移・前回との km ごとの比較・直前の練習量
+  function runSignDur(s) {
+    if (s == null || !isFinite(s)) return '—';
+    return (s < 0 ? '−' : s > 0 ? '+' : '±') + runFmtDur(Math.abs(s));
+  }
+  const runGapCls = s => s < 0 ? 'run-race-ahead' : s > 0 ? 'run-race-behind' : '';
+  function buildRunRaceHtml(rc, kpi) {
+    const c = rc.compare;
+    const badge = rc.is_pb ? '<span class="run-race-badge">🏆 自己ベスト</span>' : '';
+    const kpis = [
+      kpi('公式ネットタイム', runFmtDur(rc.net_s), '', `GPS計測 ${runFmtDur(rc.gps_duration_s)}`),
+      kpi(`${runEsc(rc.category)}の順位`, `${rc.rank}<small>/ ${rc.rank_of}本</small>`, '',
+        rc.best_before_s != null ? `それまでのベスト ${runFmtDur(rc.best_before_s)}` : '初出場'),
+      c ? kpi(`${runEsc(c.kind)}比`, `<span class="${runGapCls(c.diff_s)}">${runSignDur(c.diff_s)}</span>`, '',
+        `${runEsc(c.name)} ${runFmtDur(c.net_s)}${c.same_course ? '' : '（別コース）'}`) : '',
+      rc.shoes ? kpi('シューズ', `<span style="font-size:0.9rem">${runEsc(rc.shoes)}</span>`, '', rc.flat ? `平坦換算 ${runEsc(rc.flat)}` : '') : '',
+    ].join('');
+
+    const histTable = (rows, title) => {
+      const max = Math.max(...rows.map(h => h.net_s)), min = Math.min(...rows.map(h => h.net_s));
+      const body = rows.map(h => {
+        const w = max > min ? 30 + 70 * (h.net_s - min) / (max - min) : 60;
+        return `<tr${h.id ? ` data-id="${runEsc(h.id)}"` : ''}${h.current ? ' class="run-race-cur"' : ''}>
+          <td>${runEsc(h.date.slice(0, 4))}</td><td>${runEsc(h.name)}</td>
+          <td class="num">${runFmtDur(h.net_s)}</td>
+          <td class="num ${runGapCls(h.diff_prev_s)}">${h.diff_prev_s == null ? '—' : runSignDur(h.diff_prev_s)}</td>
+          <td style="width:25%;min-width:48px"><span class="run-race-bar" style="width:${w.toFixed(0)}%"></span></td></tr>`;
+      }).join('');
+      return `<h3 class="run-h">${title}</h3><div class="run-table-wrap"><table class="run-race-hist">
+        <thead><tr><th>年</th><th>大会</th><th class="num">ネット</th><th class="num">前回比</th><th></th></tr></thead>
+        <tbody>${body}</tbody></table></div>`;
+    };
+    const sh = rc.series_history || [], ch = rc.category_history || [];
+    // 初出場の大会は 1 行だけの表になるので、種目の全記録を代わりに出す
+    let html = sh.length > 1 || ch.length <= 1 ? histTable(sh, '同じ大会の記録') : histTable(ch, `${runEsc(rc.category)}の全記録`);
+    const others = sh.length > 1 && ch.length > sh.length;
+    if (others) html += `<details><summary>${runEsc(rc.category)}の全記録（${rc.category_history.length}本）</summary>${histTable(rc.category_history, '').replace('<h3 class="run-h"></h3>', '')}</details>`;
+
+    const sc = rc.split_compare || [];
+    if (c && sc.length) {
+      // 累計差の棒グラフ（下=今回が先行、上=遅れ）
+      const W = 360, H = 120, L = 30, R = 6, T = 8, B = 16;
+      const gaps = sc.map(x => x.gap_s), m = Math.max(30, ...gaps.map(Math.abs));
+      const bw = (W - L - R) / sc.length, Y = v => T + (H - T - B) / 2 - v / m * (H - T - B) / 2;
+      const bars = sc.map((x, i) => {
+        const y0 = Y(0), y1 = Y(x.gap_s);
+        return `<rect x="${(L + i * bw + 1).toFixed(1)}" y="${Math.min(y0, y1).toFixed(1)}" width="${Math.max(1, bw - 2).toFixed(1)}" height="${Math.max(0.5, Math.abs(y1 - y0)).toFixed(1)}" fill="${x.gap_s <= 0 ? '#2a9d8f' : '#e94560'}"><title>${x.km}km 時点 ${runSignDur(x.gap_s)}</title></rect>`;
+      }).join('');
+      const lab = sc.map((x, i) => (i % 5 === 4 || i === 0) ? `<text x="${(L + i * bw + bw / 2).toFixed(1)}" y="${H - 4}" font-size="10" fill="#888" text-anchor="middle">${x.km}</text>` : '').join('');
+      const svg = `<svg class="run-race-gap" viewBox="0 0 ${W} ${H}" role="img" aria-label="${runEsc(c.name)}との累計タイム差">
+        <line x1="${L}" x2="${W - R}" y1="${Y(0)}" y2="${Y(0)}" stroke="#999"/>
+        <text x="${L - 4}" y="${Y(m) + 4}" font-size="10" fill="#c0392b" text-anchor="end">遅れ</text>
+        <text x="${L - 4}" y="${Y(-m) + 4}" font-size="10" fill="#1d7a6e" text-anchor="end">先行</text>
+        <text x="${L - 4}" y="${Y(0) + 4}" font-size="10" fill="#888" text-anchor="end">0</text>
+        ${bars}${lab}<text x="${W - R}" y="${H - 4}" font-size="10" fill="#888" text-anchor="end">km</text></svg>`;
+      const rows = sc.map(x => {
+        const dp = x.pace_s != null && x.cmp_pace_s != null ? x.pace_s - x.cmp_pace_s : null;
+        return `<tr><td>${x.km}</td><td class="num">${runFmtPace(x.pace_s)}</td><td class="num">${runFmtPace(x.cmp_pace_s)}</td>
+          <td class="num ${runGapCls(dp)}">${dp == null ? '—' : (dp < 0 ? '−' : dp > 0 ? '+' : '±') + Math.abs(dp) + '秒'}</td>
+          <td class="num ${runGapCls(x.gap_s)}">${runSignDur(x.gap_s)}</td>
+          <td class="num">${runNum(x.hr_avg)} / ${runNum(x.cmp_hr_avg)}</td></tr>`;
+      }).join('');
+      const hv = rc.halves || {}, hc = hv.current, hp = hv.compare;
+      const halves = hc ? `<p class="run-muted">前半→後半: 今回 ${runFmtPace(hc.first_pace_s)} → ${runFmtPace(hc.second_pace_s)}/km${hp ? `、${runEsc(c.name)} ${runFmtPace(hp.first_pace_s)} → ${runFmtPace(hp.second_pace_s)}/km` : ''}</p>` : '';
+      html += `<h3 class="run-h">${runEsc(c.name)}との比較${c.same_course ? '（同じコース）' : '（別コース）'}</h3>
+        <p class="run-muted">km ごとの累計タイム差（緑=今回が先行・赤=遅れ）</p>${svg}${halves}
+        <details><summary>km ごとのペース比較（${sc.length}km）</summary><div class="run-table-wrap"><table class="run-race-cmp">
+        <thead><tr><th>km</th><th class="num">今回</th><th class="num">${runEsc(c.name)}</th><th class="num">差</th><th class="num">累計差</th><th class="num">心拍 今回/前回</th></tr></thead>
+        <tbody>${rows}</tbody></table></div></details>`;
+    }
+
+    const bu = rc.buildup || [];
+    if (bu.length) {
+      const th = bu[0].long_threshold_km;
+      const rows = bu.map(b => `<tr><td title="${runEsc(b.name)}">${runEsc(b.label)}</td>
+        <td class="num">${runNum(b.km_8w, 1)}km<br><small class="run-muted">${b.runs_8w}回</small></td>
+        <td class="num">${runNum(b.km_4w, 1)}km</td><td class="num">${runNum(b.km_2w, 1)}km</td>
+        <td class="num">${b.longest_km != null ? `${runNum(b.longest_km, 1)}km<br><small class="run-muted">${b.longest_days_before}日前</small>` : '—'}</td>
+        <td class="num">${b.long_runs_8w}回</td></tr>`).join('');
+      const racesIn = bu.filter(b => (b.races_8w || []).length).map(b => `${runEsc(b.label)}: ${b.races_8w.map(runEsc).join('・')}`).join('／');
+      html += `<h3 class="run-h">直前の練習量</h3><div class="run-table-wrap"><table class="run-race-build">
+        <thead><tr><th></th><th class="num">8週</th><th class="num">4週</th><th class="num">2週</th><th class="num">最長</th><th class="num">${th}km+</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>${racesIn ? `<p class="run-muted">期間内のレース（最長に含まれることがある）— ${racesIn}</p>` : ''}`;
+    }
+    if (rc.after) html += `<p class="run-muted">レース後の初ラン: <a href="#run=${runEsc(rc.after.id)}" data-id="${runEsc(rc.after.id)}" onclick="event.preventDefault()">${rc.after.days}日後・${runNum(rc.after.dist_km, 2)}km</a></p>`;
+
+    return `<section class="run-race">
+      <div class="run-race-title">🏁 ${runEsc(rc.name)} <span class="run-muted">${runEsc(rc.category)}マラソン</span>${badge}</div>
+      <div class="run-race-kpis">${kpis}</div>
+      ${html}
+    </section>`;
   }
 
   // 距離を共通 X 軸にした段組みグラフ（標高・ペース・心拍）。1 段 = 1 系列なので凡例は段名で兼ねる
