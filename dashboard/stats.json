@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T21:16:43+09:00",
+  "generatedAt": "2026-10-24T21:38:01+09:00",
   "weekly": {
-    "commitCount": 38,
+    "commitCount": 39,
     "byDay": [
       {
         "date": "2026-10-18",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-10-24",
-        "count": 17
+        "count": 18
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 13,
+    "health": 14,
     "books": 1,
     "portfolio": 0,
     "other": 25
   },
   "recentCommits": [
+    {
+      "date": "2026-10-24",
+      "message": "ランニング: 走行一覧をレース記録と結びつけ、レース本番の詳細に前年比較・km ごとの累計差・直前の練習量を表示（v1.58）"
+    },
     {
       "date": "2026-10-24",
       "message": "CLAUDE.md: index.html 規約にスマホのフォーム部品は16px以上（iOS自動ズーム対策）を追記"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-24",
       "message": "ランニング: gpx/ の日付なし重複636件を削除（日付付きと内容一致を確認済み・132MB→67MB）"
-    },
-    {
-      "date": "2026-10-24",
-      "message": "ランニング取り込み: 同名CSVの上書きでGPXが日付なしの重複になる不具合を修正（10/3の重複2件を削除）"
     }
   ]
 }
