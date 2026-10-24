@@ -307,6 +307,89 @@
     .report-toc a.toc-chip.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
     .report-toc a.toc-chip.toc-sub.active { background: #e94560; color: #fff; border-color: #e94560; }
 
+    /* ===== Running: 走行一覧・走行詳細（.run- 接頭辞のクラスに限定。他タブへ波及させない） ===== */
+    .run-switch { display: flex; gap: 6px; margin: 0 0 14px; flex-wrap: wrap; }
+    .run-switch button {
+      background: #f0f1f7; color: #1a1a2e; border: 1px solid #d6d9e8; border-radius: 16px;
+      padding: 6px 14px; font-size: 0.85rem; cursor: pointer;
+    }
+    .run-switch button:hover { border-color: #e94560; }
+    .run-switch button.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+    .run-view { max-width: 860px; color: #333; }
+    .run-muted { color: #888; font-size: 0.82rem; }
+    .run-error { color: #e94560; padding: 24px 0; }
+    .run-card {
+      background: #fff; border: 1px solid #e2e2e8; border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(26, 26, 46, 0.06); padding: 12px 14px; margin: 0 0 14px;
+    }
+    .run-controls { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 0 0 12px; font-size: 0.85rem; }
+    .run-controls select {
+      border: 1px solid #ccc; border-radius: 4px; padding: 4px 6px; font-size: 0.85rem; background: #fff; color: #333;
+    }
+    .run-controls label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+    .run-count { color: #888; margin-left: auto; font-variant-numeric: tabular-nums; }
+    .run-hm-summary { font-size: 0.85rem; color: #555; margin: 0 0 6px; }
+    .run-hm-summary b { color: #1a1a2e; }
+    .run-hm-scroll { overflow-x: auto; }
+    .run-heatmap svg { display: block; width: 100%; min-width: 600px; max-width: 780px; height: auto; }
+    .run-hm-cell.has-run { cursor: pointer; }
+    .run-hm-cell.has-run:hover { stroke: #1a1a2e; stroke-width: 1.5; }
+    .run-hm-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; font-size: 0.72rem; color: #888; margin-top: 6px; }
+    .run-hm-legend i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; vertical-align: -1px; margin-right: 2px; }
+    .run-table-wrap { overflow-x: auto; }
+    .run-table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+    .run-table th { background: #1a1a2e; color: #fff; padding: 7px 8px; text-align: left; white-space: nowrap; font-weight: 600; }
+    .run-table td { padding: 7px 8px; border-bottom: 1px solid #eee; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .run-table .num { text-align: right; }
+    .run-table td.run-hl { white-space: normal; min-width: 12em; color: #555; font-size: 0.8rem; line-height: 1.5; }
+    .run-table tbody tr { cursor: pointer; }
+    .run-table tbody tr:hover, .run-table tbody tr:focus { background: #fff4f6; outline: none; }
+    .run-dow-sat { color: #2563eb; }
+    .run-dow-sun { color: #e94560; }
+    .run-detail-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 12px; }
+    .run-back {
+      background: #fff; color: #1a1a2e; border: 1px solid #d6d9e8; border-radius: 16px;
+      padding: 5px 12px; font-size: 0.83rem; cursor: pointer;
+    }
+    .run-back:hover { border-color: #e94560; }
+    .run-date { font-weight: 700; color: #1a1a2e; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+    .run-kpis { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+    .run-kpi { flex: 1 1 96px; background: #fff; border: 1px solid #e2e2e8; border-radius: 8px; padding: 8px 10px; }
+    .run-kpi-label { font-size: 0.72rem; color: #888; }
+    .run-kpi-val { font-size: 1.25rem; font-weight: 700; color: #1a1a2e; line-height: 1.3; font-variant-numeric: tabular-nums; }
+    .run-kpi-val small { font-size: 0.72rem; font-weight: 400; color: #888; margin-left: 2px; }
+    .run-kpi-sub { font-size: 0.72rem; color: #666; font-variant-numeric: tabular-nums; }
+    .run-headline { font-weight: 700; color: #1a1a2e; font-size: 1rem; line-height: 1.5; margin: 4px 0 6px; }
+    .run-review { font-size: 0.9rem; line-height: 1.7; color: #444; margin: 0 0 14px; }
+    .run-ai-badge {
+      display: inline-block; font-size: 0.68rem; color: #e94560; border: 1px solid #f3c1cb;
+      border-radius: 10px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; white-space: nowrap;
+    }
+    .run-h { font-size: 0.95rem; color: #1a1a2e; margin: 18px 0 8px; padding-left: 8px; border-left: 4px solid #e94560; }
+    .run-readout { font-size: 0.8rem; color: #555; min-height: 1.5em; margin: 0 0 4px; font-variant-numeric: tabular-nums; }
+    .run-readout b { color: #1a1a2e; margin-right: 6px; }
+    .run-readout span + span::before { content: '｜'; color: #ccc; margin: 0 4px; }
+    .run-chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; -webkit-user-select: none; user-select: none; }
+    .run-splits { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+    .run-splits th { color: #888; font-weight: 600; font-size: 0.75rem; text-align: left; padding: 4px 6px; border-bottom: 1px solid #e2e2e8; white-space: nowrap; }
+    .run-splits td { padding: 5px 6px; border-bottom: 1px solid #f0f0f0; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .run-splits .num { text-align: right; }
+    .run-splits td.run-split-pace { width: 60%; }
+    .run-split-cell { display: flex; align-items: center; gap: 8px; }
+    .run-split-track { flex: 1 1 auto; min-width: 80px; height: 14px; }
+    .run-split-track span { display: block; height: 100%; border-radius: 0 4px 4px 0; }
+    .run-split-cell b { color: #1a1a2e; min-width: 2.6em; text-align: right; }
+    .run-split-cell small { color: #888; font-size: 0.7rem; }
+    .run-zonebar { display: flex; height: 18px; border-radius: 4px; overflow: hidden; background: #f3f4f8; }
+    .run-zone-seg { height: 100%; box-shadow: inset -2px 0 #fff; }
+    .run-zone-seg:last-child { box-shadow: none; }
+    .run-zone-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.78rem; color: #555; margin: 8px 0 0; padding: 0; }
+    .run-zone-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+    .run-zone-legend b { color: #1a1a2e; font-variant-numeric: tabular-nums; }
+    .run-notes { margin: 16px 0 8px; font-size: 0.88rem; }
+    .run-notes summary { cursor: pointer; color: #1a1a2e; font-weight: 600; padding: 6px 0; }
+    .run-notes ul { margin: 4px 0 0 1.3em; line-height: 1.7; color: #444; }
+
     /* ===== Booksタブ専用スタイル ===== */
     .book-cover-wrap {
       display: flex; gap: 16px; align-items: flex-start; margin-bottom: 16px;
@@ -609,7 +692,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.54';
+  const VERSION = 'v1.55';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -1520,7 +1603,8 @@
     // Wiki 以外のタブでは hash を付けない（Wiki のハッシュルーティング状態も破棄）
     if (dir !== 'wiki') {
       wikiHistoryIdx = 0; wikiHistoryMax = 0; wikiScrollByIdx = {}; wikiCurrentPath = null;
-      if (location.hash) {
+      // Running の詳細（#run=<id>）は Running タブを開くときだけ残す
+      if (location.hash && !(dir === 'running' && runIdFromHash())) {
         try { history.replaceState(null, '', location.pathname + location.search); } catch (e) { /* noop */ }
       }
     }
@@ -1578,10 +1662,14 @@
       return;
     }
 
-    // Runningタブ: 単一ファイル表示（build_running_public.py が生成）
+    // Runningタブ: レポート（build_running_public.py が生成する単一md）と
+    // 走行一覧／走行詳細（analyze_runs.py が生成する runs/*.json）を上部の切替で行き来する
     if (dir === 'running') {
       listEl.innerHTML = '<div class="file-item active">ランニング記録</div>';
-      openFile('ideas/running/index.md', listEl.firstChild);
+      const runId = runIdFromHash();
+      if (runId) { await openRunDetail(runId); return; }
+      if (runView === 'list') { await showRunList(); return; }
+      await showRunReport();
       return;
     }
 
@@ -2732,13 +2820,440 @@
   }
   // =====================
 
+  // ===== Running: 走行一覧・走行詳細 =====
+  // データは analyze_runs.py が出力する ideas/running/runs/index.json と runs/YYYY/<id>.json。
+  // グラフは CDN ライブラリを使わず手書き SVG（marked の 404 で全タブ停止した前例があるため）
+  const RUNS_DIR = 'ideas/running/runs';
+  const RUN_VIEW_KEY = 'running-view';
+  let runView = (() => { try { return localStorage.getItem(RUN_VIEW_KEY) === 'list' ? 'list' : 'report'; } catch (e) { return 'report'; } })();
+  let runsIndex = null;          // index.json の runs（1回だけ取得）
+  let runRenderSeq = 0;          // 非同期描画の追い越し防止
+  let runCurrentDetail = null;   // リサイズ時のグラフ再描画用
+  const runListFilter = { year: null, dist: 'all', hr: false };
+  // 単色（アクセント赤）の順序ランプ: 薄い→濃い。ヒートマップ・スプリット・心拍ゾーンで共用
+  const RUN_RAMP = ['#fbe3e8', '#f6b3c0', '#ee7f95', '#e94560', '#a8203a'];
+  const RUN_HM_EMPTY = '#ebedf0';
+  const RUN_DIST_BANDS = [
+    ['all', '全距離'], ['0-5', '〜5km'], ['5-10', '5〜10km'], ['10-15', '10〜15km'], ['15-21', '15〜21km'], ['21-999', '21km〜'],
+  ];
+
+  function runIdFromHash() {
+    const m = location.hash.match(/^#run=([\w-]+)$/);
+    return m ? m[1] : null;
+  }
+  function setRunHash(id, push) {
+    const want = id ? '#run=' + id : '';
+    if (location.hash === want) return;
+    try {
+      const url = location.pathname + location.search + want;
+      if (push) history.pushState(id ? { run: id } : null, '', url);
+      else history.replaceState(id ? { run: id } : null, '', url);
+    } catch (e) { /* noop */ }
+  }
+  function setRunView(v) {
+    runView = v;
+    try { localStorage.setItem(RUN_VIEW_KEY, v); } catch (e) { /* noop */ }
+  }
+  const runEsc = s => escapeHtml(String(s == null ? '' : s)).replace(/"/g, '&quot;');
+  const runPad = n => String(n).padStart(2, '0');
+  function runFmtPace(s) {
+    if (s == null || !isFinite(s)) return '—';
+    s = Math.round(s);
+    return Math.floor(s / 60) + ':' + runPad(s % 60);
+  }
+  function runFmtDur(s) {
+    if (s == null || !isFinite(s)) return '—';
+    s = Math.round(s);
+    const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = s % 60;
+    return h ? `${h}:${runPad(m)}:${runPad(x)}` : `${m}:${runPad(x)}`;
+  }
+  const runNum = (v, digits) => (v == null || !isFinite(v)) ? '—' : Number(v).toFixed(digits || 0);
+  function runDowClass(w) { return w === '土' ? 'run-dow-sat' : w === '日' ? 'run-dow-sun' : ''; }
+  function runHmLevel(km) { return !km ? 0 : km < 5 ? 1 : km < 10 ? 2 : km < 15 ? 3 : 4; }
+
+  async function loadRunsIndex() {
+    if (runsIndex) return runsIndex;
+    const data = JSON.parse(await fetchContent(`${RUNS_DIR}/index.json`));
+    runsIndex = (Array.isArray(data.runs) ? data.runs : []).filter(r => r && r.id && r.date);
+    return runsIndex;
+  }
+
+  function runSwitchHtml(active) {
+    return `<div class="run-switch">
+      <button type="button" class="${active === 'report' ? 'active' : ''}" onclick="showRunReport()">📝 レポート</button>
+      <button type="button" class="${active === 'list' ? 'active' : ''}" onclick="showRunList()">🗂 走行一覧</button>
+    </div>`;
+  }
+  function runPrepareContent(active) {
+    const contentEl = document.getElementById('content-area');
+    if (reportTocObserver) { reportTocObserver.disconnect(); reportTocObserver = null; }
+    contentEl.innerHTML = runSwitchHtml(active) + '<div class="run-view"><p class="run-muted">読み込み中...</p></div>';
+    return contentEl.querySelector('.run-view');
+  }
+
+  // 📝 レポート: 従来どおり単一 md を表示し、上部に切替を差し込む
+  async function showRunReport() {
+    setRunView('report');
+    setRunHash(null, false);
+    runCurrentDetail = null;
+    const seq = ++runRenderSeq;
+    const listEl = document.getElementById('file-list');
+    await openFile('ideas/running/index.md', listEl.firstChild);
+    if (currentTab !== 'running' || seq !== runRenderSeq) return;
+    const contentEl = document.getElementById('content-area');
+    if (!contentEl.querySelector('.run-switch')) contentEl.insertAdjacentHTML('afterbegin', runSwitchHtml('report'));
+  }
+
+  // 🗂 走行一覧: 年ヒートマップ＋絞り込み表
+  async function showRunList(opts) {
+    opts = opts || {};
+    setRunView('list');
+    if (!opts.keepHash) setRunHash(null, false);
+    runCurrentDetail = null;
+    const seq = ++runRenderSeq;
+    const view = runPrepareContent('list');
+    let runs;
+    try { runs = await loadRunsIndex(); }
+    catch (e) { view.innerHTML = `<p class="run-error">走行データを読み込めませんでした<br><small>${runEsc(e.message)}</small></p>`; return; }
+    if (currentTab !== 'running' || seq !== runRenderSeq) return;
+    if (!runs.length) { view.innerHTML = '<p class="run-muted">走行データがまだありません</p>'; return; }
+
+    const years = [...new Set(runs.map(r => r.date.slice(0, 4)))].sort().reverse();
+    if (!runListFilter.year || (runListFilter.year !== 'all' && !years.includes(runListFilter.year))) runListFilter.year = years[0];
+    view.innerHTML = `
+      <div class="run-controls">
+        <select class="run-f-year" aria-label="年">
+          ${years.map(y => `<option value="${y}"${runListFilter.year === y ? ' selected' : ''}>${y}年</option>`).join('')}
+          <option value="all"${runListFilter.year === 'all' ? ' selected' : ''}>全期間</option>
+        </select>
+        <select class="run-f-dist" aria-label="距離帯">
+          ${RUN_DIST_BANDS.map(([v, l]) => `<option value="${v}"${runListFilter.dist === v ? ' selected' : ''}>${l}</option>`).join('')}
+        </select>
+        <label><input type="checkbox" class="run-f-hr"${runListFilter.hr ? ' checked' : ''}> 心拍ありのみ</label>
+        <span class="run-count"></span>
+      </div>
+      <div class="run-card run-heatmap"></div>
+      <div class="run-table-wrap"></div>`;
+    const onChange = () => {
+      runListFilter.year = view.querySelector('.run-f-year').value;
+      runListFilter.dist = view.querySelector('.run-f-dist').value;
+      runListFilter.hr = view.querySelector('.run-f-hr').checked;
+      renderRunListBody(view, runs, years);
+    };
+    view.querySelectorAll('select, input').forEach(el => el.addEventListener('change', onChange));
+    // 行・セルのタップで詳細へ（イベント委譲。640 行でもリスナーは 1 つ）
+    view.addEventListener('click', e => {
+      const t = e.target.closest('[data-id]');
+      if (t && view.contains(t)) openRunDetail(t.dataset.id, { push: true });
+    });
+    view.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const t = e.target.closest('tr[data-id]');
+      if (t) openRunDetail(t.dataset.id, { push: true });
+    });
+    renderRunListBody(view, runs, years);
+  }
+
+  function renderRunListBody(view, runs, years) {
+    const f = runListFilter;
+    const [dlo, dhi] = f.dist === 'all' ? [0, Infinity] : f.dist.split('-').map(Number);
+    const rows = runs.filter(r =>
+      (f.year === 'all' || r.date.startsWith(f.year)) &&
+      (r.dist_km >= dlo && r.dist_km < dhi) &&
+      (!f.hr || r.hr_avg != null));
+    const hmYear = f.year === 'all' ? years[0] : f.year;
+    view.querySelector('.run-heatmap').innerHTML = buildRunHeatmap(runs, hmYear);
+    const sc = view.querySelector('.run-hm-scroll');
+    if (sc) sc.scrollLeft = sc.scrollWidth;  // 最新月（右端）を見せる
+    const totalKm = rows.reduce((a, r) => a + (r.dist_km || 0), 0);
+    view.querySelector('.run-count').textContent = `${rows.length}件・${totalKm.toFixed(1)}km`;
+    const showYear = f.year === 'all';
+    const body = rows.map(r => {
+      const [y, m, d] = r.date.split('-');
+      return `<tr data-id="${runEsc(r.id)}" tabindex="0">
+        <td>${showYear ? y.slice(2) + '/' : ''}${m}/${d}<span class="${runDowClass(r.weekday)}">(${runEsc(r.weekday)})</span></td>
+        <td class="num">${runNum(r.dist_km, 2)}</td>
+        <td class="num">${runFmtDur(r.duration_s)}</td>
+        <td class="num">${runFmtPace(r.pace_s)}</td>
+        <td class="num">${runNum(r.hr_avg)}</td>
+        <td class="num">${runNum(r.climb_m)}</td>
+        <td class="run-hl">${runEsc(r.headline)}</td></tr>`;
+    }).join('');
+    view.querySelector('.run-table-wrap').innerHTML = `<table class="run-table">
+      <thead><tr><th>日付</th><th class="num">距離km</th><th class="num">時間</th><th class="num">ペース</th><th class="num">心拍</th><th class="num">上りm</th><th>ひとこと</th></tr></thead>
+      <tbody>${body || '<tr><td colspan="7" class="run-muted">該当なし</td></tr>'}</tbody></table>`;
+  }
+
+  // 年カレンダー型ヒートマップ（列=週・行=曜日 月〜日）。距離で 4 段階の濃淡
+  function buildRunHeatmap(runs, year) {
+    const byDate = {};
+    let cnt = 0, km = 0;
+    runs.forEach(r => {
+      if (!r.date.startsWith(year)) return;
+      const o = byDate[r.date] || (byDate[r.date] = { km: 0, ids: [], w: r.weekday });
+      o.km += r.dist_km || 0; o.ids.push(r.id);
+      cnt++; km += r.dist_km || 0;
+    });
+    const start = Date.UTC(+year, 0, 1), days = Math.round((Date.UTC(+year + 1, 0, 1) - start) / 864e5);
+    const offset = (new Date(start).getUTCDay() + 6) % 7;  // 月曜始まり
+    const S = 13, C = 11, L = 20, T = 14;
+    const cols = Math.ceil((days + offset) / 7);
+    const W = L + cols * S, H = T + 7 * S;
+    let cells = '', months = '';
+    for (let i = 0; i < days; i++) {
+      const dt = new Date(start + i * 864e5);
+      const ds = dt.toISOString().slice(0, 10);
+      const idx = i + offset, x = L + Math.floor(idx / 7) * S, y = T + (idx % 7) * S;
+      if (dt.getUTCDate() === 1) months += `<text x="${x}" y="${T - 4}" font-size="9" fill="#888">${dt.getUTCMonth() + 1}月</text>`;
+      const o = byDate[ds];
+      const label = `${ds.slice(5).replace('-', '/')}` + (o ? ` ${o.km.toFixed(1)}km${o.ids.length > 1 ? `（${o.ids.length}回）` : ''}` : '');
+      cells += o
+        ? `<rect class="run-hm-cell has-run" data-id="${runEsc(o.ids[0])}" x="${x}" y="${y}" width="${C}" height="${C}" rx="2" fill="${RUN_RAMP[runHmLevel(o.km)]}"><title>${label}</title></rect>`
+        : `<rect class="run-hm-cell" x="${x}" y="${y}" width="${C}" height="${C}" rx="2" fill="${RUN_HM_EMPTY}"><title>${label}</title></rect>`;
+    }
+    const dows = ['月', '', '水', '', '金', '', '日'].map((t, i) => t ? `<text x="0" y="${T + i * S + 9}" font-size="9" fill="#888">${t}</text>` : '').join('');
+    const legend = [['0', RUN_HM_EMPTY], ['〜5', RUN_RAMP[1]], ['〜10', RUN_RAMP[2]], ['〜15', RUN_RAMP[3]], ['15+', RUN_RAMP[4]]]
+      .map(([t, c]) => `<span><i style="background:${c}"></i>${t}</span>`).join('');
+    return `<div class="run-hm-summary"><b>${year}年</b> ${cnt}回・${km.toFixed(1)}km</div>
+      <div class="run-hm-scroll"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${year}年の走行カレンダー">${months}${dows}${cells}</svg></div>
+      <div class="run-hm-legend">${legend}<span>km（その日の合計）</span></div>`;
+  }
+
+  // 走行詳細
+  async function openRunDetail(id, opts) {
+    opts = opts || {};
+    setRunView('list');  // 「一覧へ戻る」・再訪時の戻り先
+    if (!opts.fromPop) setRunHash(id, !!opts.push);
+    const seq = ++runRenderSeq;
+    const view = runPrepareContent('list');
+    const contentEl = document.getElementById('content-area');
+    let entry = null;
+    try { entry = (await loadRunsIndex()).find(r => r.id === id) || null; } catch (e) { /* index 無しでも推測パスで試す */ }
+    const file = entry && entry.file ? entry.file : `${id.slice(0, 4)}/${id}.json`;
+    let run;
+    try { run = JSON.parse(await fetchContent(`${RUNS_DIR}/${file}`)); }
+    catch (e) {
+      if (seq !== runRenderSeq) return;
+      view.innerHTML = `<div class="run-detail-head"><button type="button" class="run-back" onclick="showRunList()">← 一覧へ戻る</button></div>
+        <p class="run-error">走行データを読み込めませんでした（${runEsc(id)}）<br><small>${runEsc(e.message)}</small></p>`;
+      return;
+    }
+    if (currentTab !== 'running' || seq !== runRenderSeq) return;
+    view.innerHTML = buildRunDetailHtml(run);
+    contentEl.scrollTop = 0;
+    runCurrentDetail = run;
+    renderRunChart(view.querySelector('.run-chart'), run, view.querySelector('.run-readout'));
+  }
+
+  function buildRunDetailHtml(run) {
+    const s = run.summary || {};
+    const kpi = (label, val, unit, sub) => `<div class="run-kpi"><div class="run-kpi-label">${label}</div>
+      <div class="run-kpi-val">${val}${unit ? `<small>${unit}</small>` : ''}</div>${sub ? `<div class="run-kpi-sub">${sub}</div>` : ''}</div>`;
+    const kpis = [
+      kpi('距離', runNum(s.dist_km, 2), 'km'),
+      kpi('時間', runFmtDur(s.duration_s), '', s.stop_s ? `停止 ${runFmtDur(s.stop_s)}` : ''),
+      kpi('平均ペース', runFmtPace(s.pace_s), '/km', s.moving_pace_s != null ? `移動 ${runFmtPace(s.moving_pace_s)}/km` : ''),
+      kpi('平均心拍', runNum(s.hr_avg), s.hr_avg != null ? 'bpm' : '', s.hr_max != null ? `最大 ${runNum(s.hr_max)}` : ''),
+      kpi('上り', runNum(s.climb_m), 'm', s.descent_m != null ? `下り ${runNum(s.descent_m)}m` : ''),
+    ].join('');
+
+    // スプリット: 横棒の長さ・色ともに速いほど強く（ペースの範囲内で正規化）
+    const splits = Array.isArray(run.splits) ? run.splits : [];
+    const ps = splits.map(x => x.pace_s).filter(v => v != null && isFinite(v));
+    const pmin = Math.min(...ps), pmax = Math.max(...ps);
+    const splitRows = splits.map(x => {
+      const t = (x.pace_s == null || !(pmax > pmin)) ? 1 : (pmax - x.pace_s) / (pmax - pmin);  // 1=最速
+      const partial = x.dist_km != null && x.dist_km < 0.999;
+      const color = RUN_RAMP[1 + Math.round(t * 3)];
+      return `<tr>
+        <td>${runEsc(x.km)}${partial ? ` <small class="run-muted">(${runNum(x.dist_km, 2)}km)</small>` : ''}</td>
+        <td class="run-split-pace"><div class="run-split-cell">
+          <div class="run-split-track"><span style="width:${(35 + 65 * t).toFixed(1)}%;background:${color}"></span></div>
+          <b>${runFmtPace(x.pace_s)}</b>${partial ? '<small>換算</small>' : ''}</div></td>
+        <td class="num">${runNum(x.hr_avg)}</td>
+        <td class="num">${x.climb_m == null ? '—' : (x.climb_m > 0 ? '+' : '') + runNum(x.climb_m)}</td></tr>`;
+    }).join('');
+
+    let zonesHtml = '';
+    const z = run.zones;
+    if (z && Array.isArray(z.pct)) {
+      const segs = z.pct.map((p, i) => `<div class="run-zone-seg" style="flex:0 0 ${Math.max(0, p)}%;background:${RUN_RAMP[i] || RUN_RAMP[4]}" title="${runEsc((z.labels || [])[i] || 'Z' + (i + 1))} ${p}%"></div>`).join('');
+      const legend = z.pct.map((p, i) => `<li><i style="background:${RUN_RAMP[i] || RUN_RAMP[4]}"></i>${runEsc((z.labels || [])[i] || 'Z' + (i + 1))} <b>${p}%</b>${z.seconds && z.seconds[i] != null ? ` <span class="run-muted">${runFmtDur(z.seconds[i])}</span>` : ''}</li>`).join('');
+      zonesHtml = `<h3 class="run-h">心拍ゾーン</h3><div class="run-zonebar" role="img" aria-label="心拍ゾーンの割合">${segs}</div><ul class="run-zone-legend">${legend}</ul>`;
+    }
+    const notes = Array.isArray(run.notes) ? run.notes.filter(Boolean) : [];
+    const notesHtml = notes.length
+      ? `<details class="run-notes"><summary>メモ（${notes.length}件）</summary><ul>${notes.map(n => `<li>${runEsc(n)}</li>`).join('')}</ul></details>` : '';
+
+    return `<div class="run-detail">
+      <div class="run-detail-head">
+        <button type="button" class="run-back" onclick="showRunList()">← 一覧へ戻る</button>
+        <span class="run-date">${runEsc(run.date)}<span class="${runDowClass(run.weekday)}">(${runEsc(run.weekday)})</span></span>
+      </div>
+      <div class="run-kpis">${kpis}</div>
+      ${run.headline ? `<div class="run-headline">${runEsc(run.headline)}</div>` : ''}
+      ${run.review ? `<p class="run-review">${runEsc(run.review)}${run.review_source === 'gemini' ? '<span class="run-ai-badge">AI総評</span>' : ''}</p>` : ''}
+      <h3 class="run-h">距離ごとの推移</h3>
+      <div class="run-readout"><span class="run-muted">グラフをなぞると各地点の値を表示</span></div>
+      <div class="run-chart"></div>
+      ${splits.length ? `<h3 class="run-h">スプリット</h3><div class="run-table-wrap"><table class="run-splits">
+        <thead><tr><th>km</th><th>ペース /km</th><th class="num">心拍</th><th class="num">上りm</th></tr></thead>
+        <tbody>${splitRows}</tbody></table></div>` : ''}
+      ${zonesHtml}
+      ${notesHtml}
+    </div>`;
+  }
+
+  // 距離を共通 X 軸にした段組みグラフ（標高・ペース・心拍）。1 段 = 1 系列なので凡例は段名で兼ねる
+  function renderRunChart(box, run, readout) {
+    if (!box) return;
+    const s = run.series || {};
+    const d = Array.isArray(s.d) ? s.d : [];
+    if (d.length < 2) { box.innerHTML = '<p class="run-muted">推移データなし</p>'; return; }
+    const hasHr = Array.isArray(s.hr) && s.hr.some(v => v != null);
+    const panels = [
+      { key: 'ele', label: '標高', unit: 'm', color: '#6b7a90', fill: '#e6e9f0', tick: v => Math.round(v), fmt: v => Math.round(v) + ' m' },
+      { key: 'pace', label: 'ペース', unit: '/km（上ほど速い）', color: '#1a1a2e', invert: true, tick: runFmtPace, fmt: v => runFmtPace(v) + ' /km' },
+    ];
+    if (hasHr) panels.push({ key: 'hr', label: '心拍', unit: 'bpm', color: '#e94560', tick: v => Math.round(v), fmt: v => Math.round(v) + ' bpm' });
+
+    const W = Math.max(280, Math.round(box.clientWidth || 360));
+    const L = 40, R = 10, PH = 78, PT = 16, PB = 4, XL = 16;
+    const dmax = d[d.length - 1] || (run.summary && run.summary.dist_km) || 1;
+    const X = v => L + (v / dmax) * (W - L - R);
+    const quant = (arr, q) => arr[Math.min(arr.length - 1, Math.max(0, Math.round(q * (arr.length - 1))))];
+    const stops = Array.isArray(run.stops) ? run.stops : [];
+
+    const svgs = panels.map((p, pi) => {
+      const vals = Array.isArray(s[p.key]) ? s[p.key] : [];
+      const nn = vals.filter(v => v != null && isFinite(v)).sort((a, b) => a - b);
+      let lo = 0, hi = 1;
+      if (nn.length) {
+        // ペースは信号待ち明けの外れ値で軸が潰れないよう 3〜97% 点で切る
+        lo = p.key === 'pace' ? quant(nn, 0.03) : nn[0];
+        hi = p.key === 'pace' ? quant(nn, 0.97) : nn[nn.length - 1];
+      }
+      const minSpan = p.key === 'pace' ? 30 : 10;
+      if (hi - lo < minSpan) { const m = (hi + lo) / 2; lo = m - minSpan / 2; hi = m + minSpan / 2; }
+      const tickVals = [lo, (lo + hi) / 2, hi];
+      const pad = (hi - lo) * 0.1; const ylo = lo - pad, yhi = hi + pad;
+      const Y = v => { const c = Math.min(yhi, Math.max(ylo, v)); const t = (c - ylo) / (yhi - ylo); return PT + (p.invert ? t : 1 - t) * PH; };
+      p.Y = Y; p.vals = vals;
+      const isLast = pi === panels.length - 1;
+      const H = PT + PH + PB + (isLast ? XL : 0);
+
+      let path = '', pen = false;
+      vals.forEach((v, i) => {
+        if (v == null || !isFinite(v) || d[i] == null) { pen = false; return; }
+        path += (pen ? 'L' : 'M') + X(d[i]).toFixed(1) + ' ' + Y(v).toFixed(1);
+        pen = true;
+      });
+      let area = '';
+      if (p.fill && path && !vals.some(v => v == null)) {
+        area = `<path d="${path}L${X(d[d.length - 1]).toFixed(1)} ${PT + PH}L${X(d[0]).toFixed(1)} ${PT + PH}Z" fill="${p.fill}" stroke="none"/>`;
+      }
+      let grid = '';
+      tickVals.forEach(v => {
+        const y = Y(v).toFixed(1);
+        grid += `<line x1="${L}" x2="${W - R}" y1="${y}" y2="${y}" stroke="#f0f0f3"/>`
+          + `<text x="${L - 4}" y="${(+y + 3).toFixed(1)}" font-size="9" fill="#888" text-anchor="end">${p.tick(v)}</text>`;
+      });
+      for (let k = 1; k < dmax - 1e-9; k++) {
+        grid += `<line class="run-kmgrid" x1="${X(k).toFixed(1)}" x2="${X(k).toFixed(1)}" y1="${PT}" y2="${PT + PH}" stroke="#e5e7eb"/>`;
+      }
+      const stopRects = stops.map(st => {
+        const x1 = X(Math.max(0, st.from_km)), x2 = X(Math.min(dmax, st.to_km));
+        return `<rect class="run-stop" x="${x1.toFixed(1)}" y="${PT}" width="${Math.max(2, x2 - x1).toFixed(1)}" height="${PH}" fill="#9ca3af" fill-opacity="0.3"><title>停止 ${runFmtDur(st.dur_s)}</title></rect>`;
+      }).join('');
+      let xlabels = '';
+      if (isLast) {
+        for (let k = 0; k <= dmax + 1e-9; k++) xlabels += `<text x="${X(k).toFixed(1)}" y="${PT + PH + PB + 11}" font-size="9" fill="#888" text-anchor="middle">${k}</text>`;
+        xlabels += `<text x="${W - R}" y="${PT + PH + PB + 11}" font-size="9" fill="#888" text-anchor="end">km</text>`;
+      }
+      return `<svg class="run-panel" data-key="${p.key}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${p.label}の推移">
+        <text x="${L}" y="11" font-size="10.5" fill="#555" font-weight="600">${p.label} <tspan font-weight="400" fill="#888">${p.unit}</tspan></text>
+        ${grid}${stopRects}${area}
+        <path d="${path}" fill="none" stroke="${p.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        <line x1="${L}" x2="${W - R}" y1="${PT + PH}" y2="${PT + PH}" stroke="#d6d9e8"/>
+        ${xlabels}
+        <line class="run-cross" x1="0" x2="0" y1="${PT}" y2="${PT + PH}" stroke="#1a1a2e" stroke-width="1" visibility="hidden"/>
+        <circle class="run-dot" r="4" fill="${p.color}" stroke="#fff" stroke-width="2" visibility="hidden"/>
+        <rect x="0" y="0" width="${W}" height="${H}" fill="transparent"/>
+      </svg>`;
+    });
+    box.innerHTML = svgs.join('');
+    const els = [...box.querySelectorAll('svg.run-panel')];
+
+    const nearest = v => {  // d は昇順
+      let lo = 0, hi = d.length - 1;
+      while (hi - lo > 1) { const m = (lo + hi) >> 1; if (d[m] < v) lo = m; else hi = m; }
+      return Math.abs(d[lo] - v) <= Math.abs(d[hi] - v) ? lo : hi;
+    };
+    const show = (e) => {
+      const rc = e.currentTarget.getBoundingClientRect();
+      if (!rc.width) return;
+      const vx = (e.clientX - rc.left) / rc.width * W;
+      const i = nearest(Math.max(0, Math.min(dmax, (vx - L) / (W - L - R) * dmax)));
+      const x = X(d[i]).toFixed(1);
+      els.forEach((sv, pi) => {
+        const p = panels[pi], v = p.vals[i];
+        const cl = sv.querySelector('.run-cross'), dot = sv.querySelector('.run-dot');
+        cl.setAttribute('x1', x); cl.setAttribute('x2', x); cl.setAttribute('visibility', 'visible');
+        if (v == null || !isFinite(v)) dot.setAttribute('visibility', 'hidden');
+        else { dot.setAttribute('cx', x); dot.setAttribute('cy', p.Y(v).toFixed(1)); dot.setAttribute('visibility', 'visible'); }
+      });
+      if (readout) {
+        readout.innerHTML = `<b>${d[i].toFixed(2)} km</b>` + panels.map(p => {
+          const v = p.vals[i];
+          return `<span>${p.label} ${v == null || !isFinite(v) ? (p.key === 'pace' ? '停止中' : '—') : p.fmt(v)}</span>`;
+        }).join('');
+      }
+    };
+    const hide = (e) => {
+      if (e.pointerType && e.pointerType !== 'mouse') return;  // タッチは指を離しても値を残す
+      els.forEach(sv => sv.querySelectorAll('.run-cross, .run-dot').forEach(el => el.setAttribute('visibility', 'hidden')));
+    };
+    els.forEach(sv => {
+      sv.addEventListener('pointermove', show);
+      sv.addEventListener('pointerdown', show);
+      sv.addEventListener('pointerleave', hide);
+    });
+  }
+
+  // 幅が変わったらグラフだけ描き直す（SVG は実幅で座標を作るので文字が伸び縮みしない）
+  let runResizeTimer = null;
+  window.addEventListener('resize', () => {
+    if (!runCurrentDetail) return;
+    clearTimeout(runResizeTimer);
+    runResizeTimer = setTimeout(() => {
+      const box = document.querySelector('.run-detail .run-chart');
+      if (box && runCurrentDetail) renderRunChart(box, runCurrentDetail, document.querySelector('.run-detail .run-readout'));
+    }, 200);
+  });
+
+  // 戻る／進む: #run=<id> ⇔ 一覧
+  window.addEventListener('popstate', () => {
+    if (wikiSlugFromHash()) return;  // Wiki 側のリスナーが処理する
+    const id = runIdFromHash();
+    if (currentTab !== 'running') {
+      if (id) switchTab('running', document.querySelector(`.tab-btn[onclick*="'running'"]`));
+      return;
+    }
+    if (id) openRunDetail(id, { fromPop: true });
+    else if (document.querySelector('.run-detail')) showRunList({ keepHash: true });
+  });
+  // =====================
+
   function scrollToTop() {
     document.getElementById('content-area').scrollTo({ top: 0, behavior: 'smooth' });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // 初期表示（最後のタブを復元。URL が #wiki/<slug> なら保存タブに関係なく Wiki を開く）
-  const savedTab = wikiSlugFromHash() ? 'wiki' : (localStorage.getItem('lastTab') || 'daily');
+  // #run=<id> なら Running タブの走行詳細を開く
+  const savedTab = wikiSlugFromHash() ? 'wiki'
+    : runIdFromHash() ? 'running'
+    : (localStorage.getItem('lastTab') || 'daily');
   const tabBtn = document.querySelector(`.tab-btn[onclick*="'${savedTab}'"]`);
   switchTab(savedTab, tabBtn);
 </script>
