@@ -5740,23 +5740,6 @@
    "file": "2021/2021-07-31_0802.json"
   },
   {
-   "id": "2021-07-29_1232",
-   "date": "2021-07-29",
-   "weekday": "木",
-   "dist_km": 12.3,
-   "duration_s": 2772,
-   "pace_s": 225,
-   "moving_pace_s": 217,
-   "stop_s": 131,
-   "climb_m": 136,
-   "hr_avg": null,
-   "hr_max": null,
-   "drift_bpm": null,
-   "zone_pct": null,
-   "headline": "12.30kmのサイクリングを3:45/kmで",
-   "file": "2021/2021-07-29_1232.json"
-  },
-  {
    "id": "2021-07-17_0740",
    "date": "2021-07-17",
    "weekday": "土",
@@ -10976,23 +10959,6 @@
    "file": "2012/2012-05-26_0816.json"
   },
   {
-   "id": "2012-05-26_0748",
-   "date": "2012-05-26",
-   "weekday": "土",
-   "dist_km": 2.16,
-   "duration_s": 1625,
-   "pace_s": 752,
-   "moving_pace_s": null,
-   "stop_s": 1625,
-   "climb_m": 14,
-   "hr_avg": null,
-   "hr_max": null,
-   "drift_bpm": null,
-   "zone_pct": null,
-   "headline": "2.16kmのウォーキングを12:32/kmで",
-   "file": "2012/2012-05-26_0748.json"
-  },
-  {
    "id": "2012-05-19_1834",
    "date": "2012-05-19",
    "weekday": "土",
@@ -11008,23 +10974,6 @@
    "zone_pct": null,
    "headline": "1.92km・後半4:46へじわりとペースダウン",
    "file": "2012/2012-05-19_1834.json"
-  },
-  {
-   "id": "2012-05-19_1759",
-   "date": "2012-05-19",
-   "weekday": "土",
-   "dist_km": 3.58,
-   "duration_s": 2054,
-   "pace_s": 574,
-   "moving_pace_s": 11,
-   "stop_s": 2044,
-   "climb_m": 25,
-   "hr_avg": null,
-   "hr_max": null,
-   "drift_bpm": null,
-   "zone_pct": null,
-   "headline": "3.58kmのウォーキングを9:34/kmで",
-   "file": "2012/2012-05-19_1759.json"
   },
   {
    "id": "2012-05-05_1142",
