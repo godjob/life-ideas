@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T18:48:05+09:00",
+  "generatedAt": "2026-10-24T18:53:17+09:00",
   "weekly": {
-    "commitCount": 34,
+    "commitCount": 35,
     "byDay": [
       {
         "date": "2026-10-18",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-10-24",
-        "count": 13
+        "count": 14
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 11,
+    "health": 12,
     "books": 1,
     "portfolio": 0,
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-10-24",
+      "message": "ランニング: gpx/ の日付なし重複636件を削除（日付付きと内容一致を確認済み・132MB→67MB）"
+    },
     {
       "date": "2026-10-24",
       "message": "ランニング取り込み: 同名CSVの上書きでGPXが日付なしの重複になる不具合を修正（10/3の重複2件を削除）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-24",
       "message": "ランニング記録更新: import_running.py実行"
-    },
-    {
-      "date": "2026-10-24",
-      "message": "ランニング: 走行メモを公開・総評に反映（実名は置換）、Runningタブにメモ表示（v1.56）"
     }
   ]
 }
