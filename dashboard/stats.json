@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T18:28:06+09:00",
+  "generatedAt": "2026-10-24T18:40:09+09:00",
   "weekly": {
-    "commitCount": 30,
+    "commitCount": 31,
     "byDay": [
       {
         "date": "2026-10-18",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-10-24",
-        "count": 9
+        "count": 10
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 7,
+    "health": 8,
     "books": 1,
     "portfolio": 0,
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-10-24",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
     {
       "date": "2026-10-24",
       "message": "ランニング: 走行メモを公開・総評に反映（実名は置換）、Runningタブにメモ表示（v1.56）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-24",
       "message": "ランニング: 全639走行の分析結果を生成（公開JSON・非公開md）"
-    },
-    {
-      "date": "2026-10-24",
-      "message": "git scrap: ランニング取り込み後に analyze_runs.py（増分）を実行"
     }
   ]
 }
