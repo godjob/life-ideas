@@ -553,6 +553,9 @@
 
     /* スマホ */
     @media (max-width: 768px) {
+      /* iOS Safari は 16px 未満の入力欄・選択欄をタップすると画面を拡大し、そのまま戻らない
+         （全タブで右側がはみ出して見えていた。v1.57）。個別の font-size 指定より優先させる */
+      input, select, textarea { font-size: 16px !important; }
       .file-list { display: none; }
       .content-area {
         padding: 16px;
@@ -695,7 +698,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.56';
+  const VERSION = 'v1.57';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
