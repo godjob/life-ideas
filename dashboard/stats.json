@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T18:53:17+09:00",
+  "generatedAt": "2026-10-24T18:59:06+09:00",
   "weekly": {
-    "commitCount": 35,
+    "commitCount": 36,
     "byDay": [
       {
         "date": "2026-10-18",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-10-24",
-        "count": 14
+        "count": 15
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 12,
+    "health": 13,
     "books": 1,
     "portfolio": 0,
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-10-24",
+      "message": "CLAUDE.md: ランニング取り込みフローに分析スキップ時の対処と自動コミット対象（runs/）を追記"
+    },
     {
       "date": "2026-10-24",
       "message": "ランニング: gpx/ の日付なし重複636件を削除（日付付きと内容一致を確認済み・132MB→67MB）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-24",
       "message": "ランニング: 10/20〜10/24 の走行分析を追加、メモ本人の語は禁止語チェック対象外・1本の失敗で全体を止めないよう修正"
-    },
-    {
-      "date": "2026-10-24",
-      "message": "ランニング記録更新: import_running.py実行"
     }
   ]
 }
