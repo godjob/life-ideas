@@ -362,6 +362,7 @@
     .run-pager a:hover { border-color: #e94560; }
     .run-pager .run-pager-next { text-align: right; }
     .run-pager span { visibility: hidden; }
+    .run-pager-scope { font-size: 0.72rem; color: #888; margin: 0 0 4px; }
     .run-pager small { display: block; color: #888; font-size: 0.72rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .run-date { font-weight: 700; color: #1a1a2e; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
     .run-kpis { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
@@ -730,7 +731,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.59';
+  const VERSION = 'v1.60';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -2994,14 +2995,27 @@
     renderRunListBody(view, runs, years);
   }
 
-  function renderRunListBody(view, runs, years) {
+  // 一覧の絞り込み条件（年が未設定＝一覧を開く前に #run= で直接来たときは全期間扱い）
+  function runMatchesFilter(r) {
     const f = runListFilter;
     const [dlo, dhi] = f.dist === 'all' ? [0, Infinity] : f.dist.split('-').map(Number);
-    const rows = runs.filter(r =>
-      (f.year === 'all' || r.date.startsWith(f.year)) &&
+    return (!f.year || f.year === 'all' || r.date.startsWith(f.year)) &&
       (r.dist_km >= dlo && r.dist_km < dhi) &&
       (!f.hr || r.hr_avg != null) &&
-      (!f.race || !!r.race));
+      (!f.race || !!r.race);
+  }
+  function runFilterLabel() {
+    const f = runListFilter, parts = [];
+    if (f.year && f.year !== 'all') parts.push(f.year + '年');
+    if (f.dist !== 'all') parts.push((RUN_DIST_BANDS.find(b => b[0] === f.dist) || [, f.dist])[1]);
+    if (f.hr) parts.push('心拍あり');
+    if (f.race) parts.push('レース');
+    return parts.join('・');
+  }
+
+  function renderRunListBody(view, runs, years) {
+    const f = runListFilter;
+    const rows = runs.filter(runMatchesFilter);
     const hmYear = f.year === 'all' ? years[0] : f.year;
     view.querySelector('.run-heatmap').innerHTML = buildRunHeatmap(runs, hmYear);
     const sc = view.querySelector('.run-hm-scroll');
@@ -3072,8 +3086,12 @@
     let neighbors = {};
     try {
       const all = await loadRunsIndex();  // 新しい順
-      const i = all.findIndex(r => r.id === id);
-      if (i >= 0) { entry = all[i]; neighbors = { newer: all[i - 1] || null, older: all[i + 1] || null }; }
+      entry = all.find(r => r.id === id) || null;
+      // 前後は一覧の絞り込み条件内で移動する。条件外の走行（レース欄のリンク等）から来たときは全走行で
+      const inFilter = entry && runMatchesFilter(entry);
+      const list = inFilter ? all.filter(runMatchesFilter) : all;
+      const i = list.findIndex(r => r.id === id);
+      if (i >= 0) neighbors = { newer: list[i - 1] || null, older: list[i + 1] || null, scope: inFilter ? runFilterLabel() : '' };
     } catch (e) { /* index 無しでも推測パスで試す */ }
     const file = entry && entry.file ? entry.file : `${id.slice(0, 4)}/${id}.json`;
     let run;
@@ -3096,7 +3114,7 @@
     renderRunChart(view.querySelector('.run-chart'), run, view.querySelector('.run-readout'));
   }
 
-  // 前後の走行へのリンク（一覧の絞り込みに関係なく全走行の日付順）
+  // 前後の走行へのリンク（一覧の絞り込み条件内の日付順。scope=条件の表示名）
   function buildRunPagerHtml(nb, cls) {
     const link = (r, rel, label) => {
       if (!r) return '<span></span>';
@@ -3104,8 +3122,9 @@
       return `<a href="#run=${runEsc(r.id)}" data-id="${runEsc(r.id)}" class="run-pager-${rel}" rel="${rel === 'next' ? 'next' : 'prev'}">
         ${label}<small>${runEsc(r.date.slice(2, 4))}/${m}/${d}(${runEsc(r.weekday)}) ${runNum(r.dist_km, 2)}km${r.race ? ' 🏁' : ''}</small></a>`;
     };
-    if (!nb.older && !nb.newer) return '';
-    return `<nav class="run-pager ${cls || ''}" aria-label="前後の走行">${link(nb.older, 'prev', '‹ 前の走行')}${link(nb.newer, 'next', '次の走行 ›')}</nav>`;
+    const scope = nb.scope && !cls ? `<div class="run-pager-scope">絞り込み: ${runEsc(nb.scope)} の中で移動</div>` : '';
+    if (!nb.older && !nb.newer) return scope;  // 下側（cls あり）には条件を重ねて出さない
+    return `${scope}<nav class="run-pager ${cls || ''}" aria-label="前後の走行">${link(nb.older, 'prev', '‹ 前の走行')}${link(nb.newer, 'next', '次の走行 ›')}</nav>`;
   }
 
   function buildRunDetailHtml(run, neighbors) {
