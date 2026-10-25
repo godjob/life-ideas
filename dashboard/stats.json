@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-25T20:54:20+09:00",
+  "generatedAt": "2026-10-25T21:02:11+09:00",
   "weekly": {
-    "commitCount": 42,
+    "commitCount": 43,
     "byDay": [
       {
         "date": "2026-10-19",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-10-25",
-        "count": 4
+        "count": 5
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 0,
-    "health": 17,
+    "health": 18,
     "books": 1,
     "portfolio": 0,
     "other": 25
   },
   "recentCommits": [
+    {
+      "date": "2026-10-25",
+      "message": "ランニング: 走行詳細の前後リンクに走行時間を追加（v1.61）"
+    },
     {
       "date": "2026-10-25",
       "message": "ランニング: 走行詳細の前後リンクを一覧の絞り込み条件内で移動するように変更（v1.60）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-10-25",
       "message": "朝刊: 2026-10-25 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-24",
-      "message": "CLAUDE.md: ランニング取り込みフローにレース後の記録表追記と分析再実行の手順を追加"
     }
   ]
 }
