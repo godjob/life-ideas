@@ -352,6 +352,17 @@
       padding: 5px 12px; font-size: 0.83rem; cursor: pointer;
     }
     .run-back:hover { border-color: #e94560; }
+    .run-pager { display: flex; justify-content: space-between; gap: 8px; margin: 0 0 12px; }
+    .run-pager-bottom { margin: 20px 0 4px; padding-top: 12px; border-top: 1px solid #e2e2e8; }
+    .run-pager a, .run-pager span {
+      flex: 0 1 48%; display: block; padding: 6px 10px; border: 1px solid #d6d9e8; border-radius: 8px;
+      background: #fff; color: #1a1a2e; text-decoration: none; font-size: 0.82rem; line-height: 1.4;
+      font-variant-numeric: tabular-nums; min-width: 0;
+    }
+    .run-pager a:hover { border-color: #e94560; }
+    .run-pager .run-pager-next { text-align: right; }
+    .run-pager span { visibility: hidden; }
+    .run-pager small { display: block; color: #888; font-size: 0.72rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .run-date { font-weight: 700; color: #1a1a2e; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
     .run-kpis { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
     .run-kpi { flex: 1 1 96px; background: #fff; border: 1px solid #e2e2e8; border-radius: 8px; padding: 8px 10px; }
@@ -390,7 +401,7 @@
     .run-zone-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
     .run-zone-legend b { color: #1a1a2e; font-variant-numeric: tabular-nums; }
     .run-notes { margin: 16px 0 8px; font-size: 0.88rem; }
-    .run-notes summary { cursor: pointer; color: #1a1a2e; font-weight: 600; padding: 6px 0; }
+    .run-notes .run-h { margin-top: 0; }
     .run-notes ul { margin: 4px 0 0 1.3em; line-height: 1.7; color: #444; }
     /* レース本番（analysis.md のレース記録と結びついた走行。v1.58） */
     .run-race { background: #fff; border: 1px solid #e2e2e8; border-left: 4px solid #1a1a2e; border-radius: 8px; padding: 10px 12px; margin: 0 0 12px; }
@@ -719,7 +730,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.58';
+  const VERSION = 'v1.59';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -3058,7 +3069,12 @@
     const view = runPrepareContent('list');
     const contentEl = document.getElementById('content-area');
     let entry = null;
-    try { entry = (await loadRunsIndex()).find(r => r.id === id) || null; } catch (e) { /* index 無しでも推測パスで試す */ }
+    let neighbors = {};
+    try {
+      const all = await loadRunsIndex();  // 新しい順
+      const i = all.findIndex(r => r.id === id);
+      if (i >= 0) { entry = all[i]; neighbors = { newer: all[i - 1] || null, older: all[i + 1] || null }; }
+    } catch (e) { /* index 無しでも推測パスで試す */ }
     const file = entry && entry.file ? entry.file : `${id.slice(0, 4)}/${id}.json`;
     let run;
     try { run = JSON.parse(await fetchContent(`${RUNS_DIR}/${file}`)); }
@@ -3069,9 +3085,10 @@
       return;
     }
     if (currentTab !== 'running' || seq !== runRenderSeq) return;
-    view.innerHTML = buildRunDetailHtml(run);
-    view.addEventListener('click', e => {  // レース欄の過去大会・翌走行へのリンク
-      const t = e.target.closest('.run-race [data-id]');
+    view.innerHTML = buildRunDetailHtml(run, neighbors);
+    view.addEventListener('click', e => {  // 前後の走行・レース欄の過去大会・翌走行へのリンク
+      const t = e.target.closest('.run-pager [data-id], .run-race [data-id]');
+      if (t) e.preventDefault();
       if (t && t.dataset.id !== run.id) openRunDetail(t.dataset.id, { push: true });
     });
     contentEl.scrollTop = 0;
@@ -3079,7 +3096,20 @@
     renderRunChart(view.querySelector('.run-chart'), run, view.querySelector('.run-readout'));
   }
 
-  function buildRunDetailHtml(run) {
+  // 前後の走行へのリンク（一覧の絞り込みに関係なく全走行の日付順）
+  function buildRunPagerHtml(nb, cls) {
+    const link = (r, rel, label) => {
+      if (!r) return '<span></span>';
+      const [, m, d] = r.date.split('-');
+      return `<a href="#run=${runEsc(r.id)}" data-id="${runEsc(r.id)}" class="run-pager-${rel}" rel="${rel === 'next' ? 'next' : 'prev'}">
+        ${label}<small>${runEsc(r.date.slice(2, 4))}/${m}/${d}(${runEsc(r.weekday)}) ${runNum(r.dist_km, 2)}km${r.race ? ' 🏁' : ''}</small></a>`;
+    };
+    if (!nb.older && !nb.newer) return '';
+    return `<nav class="run-pager ${cls || ''}" aria-label="前後の走行">${link(nb.older, 'prev', '‹ 前の走行')}${link(nb.newer, 'next', '次の走行 ›')}</nav>`;
+  }
+
+  function buildRunDetailHtml(run, neighbors) {
+    neighbors = neighbors || {};
     const s = run.summary || {};
     const kpi = (label, val, unit, sub) => `<div class="run-kpi"><div class="run-kpi-label">${label}</div>
       <div class="run-kpi-val">${val}${unit ? `<small>${unit}</small>` : ''}</div>${sub ? `<div class="run-kpi-sub">${sub}</div>` : ''}</div>`;
@@ -3117,13 +3147,14 @@
     }
     const notes = Array.isArray(run.notes) ? run.notes.filter(Boolean) : [];
     const notesHtml = notes.length
-      ? `<details class="run-notes"><summary>出来事（${notes.length}件）</summary><ul>${notes.map(n => `<li>${runEsc(n)}</li>`).join('')}</ul></details>` : '';
+      ? `<div class="run-notes"><h3 class="run-h">出来事</h3><ul>${notes.map(n => `<li>${runEsc(n)}</li>`).join('')}</ul></div>` : '';
 
     return `<div class="run-detail">
       <div class="run-detail-head">
         <button type="button" class="run-back" onclick="showRunList()">← 一覧へ戻る</button>
         <span class="run-date">${runEsc(run.date)}<span class="${runDowClass(run.weekday)}">(${runEsc(run.weekday)})</span></span>
       </div>
+      ${buildRunPagerHtml(neighbors)}
       ${run.race ? buildRunRaceHtml(run.race, kpi) : ''}
       <div class="run-kpis">${kpis}</div>
       ${run.headline ? `<div class="run-headline">${runEsc(run.headline)}</div>` : ''}
@@ -3137,6 +3168,7 @@
         <tbody>${splitRows}</tbody></table></div>` : ''}
       ${zonesHtml}
       ${notesHtml}
+      ${buildRunPagerHtml(neighbors, 'run-pager-bottom')}
     </div>`;
   }
 
@@ -3224,7 +3256,7 @@
         <thead><tr><th></th><th class="num">8週</th><th class="num">4週</th><th class="num">2週</th><th class="num">最長</th><th class="num">${th}km+</th></tr></thead>
         <tbody>${rows}</tbody></table></div>${racesIn ? `<p class="run-muted">期間内のレース（最長に含まれることがある）— ${racesIn}</p>` : ''}`;
     }
-    if (rc.after) html += `<p class="run-muted">レース後の初ラン: <a href="#run=${runEsc(rc.after.id)}" data-id="${runEsc(rc.after.id)}" onclick="event.preventDefault()">${rc.after.days}日後・${runNum(rc.after.dist_km, 2)}km</a></p>`;
+    if (rc.after) html += `<p class="run-muted">レース後の初ラン: <a href="#run=${runEsc(rc.after.id)}" data-id="${runEsc(rc.after.id)}">${rc.after.days}日後・${runNum(rc.after.dist_km, 2)}km</a></p>`;
 
     return `<section class="run-race">
       <div class="run-race-title">🏁 ${runEsc(rc.name)} <span class="run-muted">${runEsc(rc.category)}マラソン</span>${badge}</div>
