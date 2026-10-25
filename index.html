@@ -731,7 +731,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.60';
+  const VERSION = 'v1.61';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -3120,7 +3120,7 @@
       if (!r) return '<span></span>';
       const [, m, d] = r.date.split('-');
       return `<a href="#run=${runEsc(r.id)}" data-id="${runEsc(r.id)}" class="run-pager-${rel}" rel="${rel === 'next' ? 'next' : 'prev'}">
-        ${label}<small>${runEsc(r.date.slice(2, 4))}/${m}/${d}(${runEsc(r.weekday)}) ${runNum(r.dist_km, 2)}km${r.race ? ' 🏁' : ''}</small></a>`;
+        ${label}<small>${runEsc(r.date.slice(2, 4))}/${m}/${d}(${runEsc(r.weekday)})${r.race ? ' 🏁' : ''}</small><small>${runNum(r.dist_km, 2)}km・${runFmtDur(r.duration_s)}</small></a>`;
     };
     const scope = nb.scope && !cls ? `<div class="run-pager-scope">絞り込み: ${runEsc(nb.scope)} の中で移動</div>` : '';
     if (!nb.older && !nb.newer) return scope;  // 下側（cls あり）には条件を重ねて出さない
