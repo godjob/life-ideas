@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-01T20:13:00+09:00",
+  "generatedAt": "2026-11-01T20:41:58+09:00",
   "weekly": {
-    "commitCount": 14,
+    "commitCount": 17,
     "byDay": [
       {
         "date": "2026-10-26",
@@ -29,14 +29,14 @@
       },
       {
         "date": "2026-11-01",
-        "count": 2
+        "count": 5
       }
     ]
   },
   "byDirectory": {
-    "scrap": 2,
-    "ideas": 0,
-    "health": 18,
+    "scrap": 3,
+    "ideas": 1,
+    "health": 19,
     "books": 0,
     "portfolio": 0,
     "other": 22
@@ -44,23 +44,23 @@
   "recentCommits": [
     {
       "date": "2026-11-01",
+      "message": "ideas: 2026-W44 週次まとめ自動生成"
+    },
+    {
+      "date": "2026-11-01",
+      "message": "scrap: 2026-11-01 【「134兆円」国家予算超え“AI投資”の賭け】「"
+    },
+    {
+      "date": "2026-11-01",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
+    {
+      "date": "2026-11-01",
       "message": "news: 2026-11-01 記事まとめを自動生成"
     },
     {
       "date": "2026-11-01",
       "message": "朝刊: 2026-11-01 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-31",
-      "message": "news: 2026-10-31 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-10-31",
-      "message": "朝刊: 2026-10-31 Morning Edition生成"
-    },
-    {
-      "date": "2026-10-30",
-      "message": "news: 2026-10-30 記事まとめを自動生成"
     }
   ]
 }
