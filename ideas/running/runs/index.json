@@ -1,7 +1,57 @@
 {
  "version": 1,
- "generated": "2026-10-24",
+ "generated": "2026-11-01",
  "runs": [
+  {
+   "id": "2026-11-01_0853",
+   "date": "2026-11-01",
+   "weekday": "日",
+   "dist_km": 17.94,
+   "duration_s": 6010,
+   "pace_s": 335,
+   "moving_pace_s": 323,
+   "stop_s": 409,
+   "climb_m": 141,
+   "hr_avg": 157,
+   "hr_max": 176,
+   "drift_bpm": -2,
+   "zone_pct": [
+    1,
+    0,
+    13,
+    85,
+    1
+   ],
+   "headline": "後半ペースを落とすもラスト1kmで5:02にスパートした17.94km",
+   "memo": "10/26からMAGIC SPEED 5で走ってる。心拍数160上限を意識できた。ラスト1kmはスパート",
+   "race": null,
+   "file": "2026/2026-11-01_0853.json"
+  },
+  {
+   "id": "2026-10-26_0512",
+   "date": "2026-10-26",
+   "weekday": "月",
+   "dist_km": 3.28,
+   "duration_s": 1125,
+   "pace_s": 342,
+   "moving_pace_s": 316,
+   "stop_s": 157,
+   "climb_m": 17,
+   "hr_avg": 148,
+   "hr_max": 164,
+   "drift_bpm": -10,
+   "zone_pct": [
+    0,
+    14,
+    36,
+    49,
+    0
+   ],
+   "headline": "2km目で最速4:57/kmを記録も終盤に停止が増え大きく失速",
+   "memo": "自宅で一度したが便意があり中止。残り2kmはゆっくりラン",
+   "race": null,
+   "file": "2026/2026-10-26_0512.json"
+  },
   {
    "id": "2026-10-24_1006",
    "date": "2026-10-24",

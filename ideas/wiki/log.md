@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-11-01] ingest | 【「134兆円」国家予算超え“AI投資”の賭け】「人類はまだClaudeを使いこなせてない」アンソロ
+- 更新ページ: [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md)
+- 出典: [【「134兆円」国家予算超え“AI投資”の賭け】「人類はまだClaudeを使いこ](https://www.youtube.com/watch?v=y7NAjBZjm9k)
+
 ## [2026-10-23] ingest | 初対談！【山口周×けんすう】人生がうまくいく方法を1枚で表した図／キャラ設定はポジショニング／ドラマ
 - 更新ページ: [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md), [計画的偶発性理論とAI時代のキャリア戦略](planned-happenstance-theory-career-strategy.md), [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md), [物語思考とキャラ設定（ポジショニング）によるキャリア戦略](narrative-positioning-career-strategy.md)
 - 出典: [初対談！【山口周×けんすう】人生がうまくいく方法を1枚で表した図／キャラ設定はポ](https://www.youtube.com/watch?v=dVdE6s79gjk)

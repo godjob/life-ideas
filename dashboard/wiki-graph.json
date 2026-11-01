@@ -691,7 +691,7 @@
       "id": "ai-fatigue-judgment-burden-mitigation",
       "label": "AI疲れと判断負荷：検証基準の明確化と組織設計による軽減戦略",
       "group": "ビジネス・組織",
-      "value": 22,
+      "value": 21,
       "tags": [
         "AI疲れ",
         "判断負荷",
@@ -743,7 +743,7 @@
       "id": "ai-human-coexistence-risk-management",
       "label": "AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感",
       "group": "AI戦略・社会",
-      "value": 8,
+      "value": 7,
       "tags": [
         "AI依存",
         "セキュリティリスク",
@@ -912,7 +912,7 @@
       "id": "ai-model-regulation-geopolitics",
       "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
       "group": "AI戦略・社会",
-      "value": 10,
+      "value": 9,
       "tags": [
         "AIモデル規制",
         "地政学リスク",
@@ -1159,7 +1159,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 17,
+      "value": 16,
       "tags": [
         "AI失業危機",
         "ベーシックインカム",
@@ -1249,7 +1249,7 @@
       "id": "as-little-ai-as-possible-principle",
       "label": "As Little AI As Possible原則：AIと従来ロジックの適切な使い分け設計",
       "group": "技術実装・エンジニアリング",
-      "value": 20,
+      "value": 21,
       "tags": [
         "システム設計",
         "AI導入",
@@ -1724,7 +1724,7 @@
       "id": "commodity-prompt-engineering-vs-architecture-differentiation",
       "label": "プロンプトエンジニアリングのコモディティ化と差別化要因としてのシステムアーキテクチャ設計",
       "group": "キャリア・働き方",
-      "value": 7,
+      "value": 8,
       "tags": [
         "システムアーキテクチャ",
         "エッジAI",
@@ -1892,7 +1892,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "ビジネス・組織",
-      "value": 27,
+      "value": 26,
       "tags": [
         "意思決定疲労",
         "SOP標準化",
@@ -1957,7 +1957,7 @@
       "id": "domain-expertise-ai-boundary-design",
       "label": "ドメイン専門知識とAIの境界設計：人間が設計、AIが実行する分業モデル",
       "group": "AIエージェント設計",
-      "value": 34,
+      "value": 36,
       "tags": [
         "ドメイン知識",
         "境界設計",
@@ -2580,7 +2580,7 @@
       "id": "llm-infrastructure-foundation-provider-redundancy",
       "label": "LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 9,
+      "value": 11,
       "tags": [
         "冗長化",
         "フェイルオーバー",
@@ -2606,7 +2606,7 @@
       "id": "llm-tiered-execution-pattern",
       "label": "段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計",
       "group": "技術実装・エンジニアリング",
-      "value": 10,
+      "value": 11,
       "tags": [
         "LLM運用",
         "コスト最適化",
@@ -2709,7 +2709,7 @@
       "id": "managed-agents-model-update-compatibility-design",
       "label": "Managed Agentsのモデル更新互換性設計：アプリケーション改修を避ける抽象化レイヤー",
       "group": "AIエージェント設計",
-      "value": 7,
+      "value": 8,
       "tags": [
         "モデル互換性",
         "抽象化レイヤー",
@@ -3241,7 +3241,7 @@
       "id": "pm-exponential-adaptation",
       "label": "AI時代のプロダクトマネジメント：指数関数的進化への適応",
       "group": "ビジネス・組織",
-      "value": 23,
+      "value": 22,
       "tags": [
         "プロダクトマネジメント",
         "学習駆動",
@@ -3499,7 +3499,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 40,
+      "value": 39,
       "tags": [
         "自己学習",
         "継続学習",
@@ -5481,15 +5481,7 @@
     },
     {
       "from": "ai-bubble-sustainability-strategy",
-      "to": "ai-fatigue-judgment-burden-mitigation"
-    },
-    {
-      "from": "ai-bubble-sustainability-strategy",
       "to": "ai-first-strategy-enterprise-adoption"
-    },
-    {
-      "from": "ai-bubble-sustainability-strategy",
-      "to": "ai-human-coexistence-risk-management"
     },
     {
       "from": "ai-bubble-sustainability-strategy",
@@ -5497,19 +5489,15 @@
     },
     {
       "from": "ai-bubble-sustainability-strategy",
-      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+      "to": "commodity-prompt-engineering-vs-architecture-differentiation"
+    },
+    {
+      "from": "ai-bubble-sustainability-strategy",
+      "to": "domain-expertise-ai-boundary-design"
     },
     {
       "from": "ai-bubble-sustainability-strategy",
       "to": "meaning-creation-post-work-society-ai-era"
-    },
-    {
-      "from": "ai-bubble-sustainability-strategy",
-      "to": "pm-exponential-adaptation"
-    },
-    {
-      "from": "ai-bubble-sustainability-strategy",
-      "to": "self-directed-learning-ai-era-survival-strategy"
     },
     {
       "from": "ai-bubble-sustainability-strategy",
@@ -9057,6 +9045,10 @@
     },
     {
       "from": "capability-overhang-user-activation-gap",
+      "to": "as-little-ai-as-possible-principle"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
       "to": "creator-intuition-driven-design-philosophy"
     },
     {
@@ -9065,7 +9057,23 @@
     },
     {
       "from": "capability-overhang-user-activation-gap",
+      "to": "domain-expertise-ai-boundary-design"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
       "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "capability-overhang-user-activation-gap",
+      "to": "managed-agents-model-update-compatibility-design"
     },
     {
       "from": "capability-overhang-user-activation-gap",
@@ -15145,10 +15153,6 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "ai-model-regulation-geopolitics"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-reinforcement-learning-safety-governance"
     },
     {
@@ -15173,10 +15177,6 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
-      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
-    },
-    {
-      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "fde-engineer-domain-knowledge-priority-career-design"
     },
     {
@@ -15186,6 +15186,10 @@
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "kimi-k3-moonshot-ai-model-comparison"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
