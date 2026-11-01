@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-01T20:43:03+09:00",
+  "generatedAt": "2026-11-01T21:06:10+09:00",
   "weekly": {
-    "commitCount": 18,
+    "commitCount": 19,
     "byDay": [
       {
         "date": "2026-10-26",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-01",
-        "count": 6
+        "count": 7
       }
     ]
   },
@@ -37,11 +37,15 @@
     "scrap": 3,
     "ideas": 1,
     "health": 20,
-    "books": 0,
+    "books": 1,
     "portfolio": 0,
     "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-11-01",
+      "message": "読書記録: 考察を追加 — メタスキル：努力の価値が変わる時代の「AI×自分」戦略"
+    },
     {
       "date": "2026-11-01",
       "message": "ランニング: 10/26〜11/01の分析を追記（MAGIC SPEED 5 導入・心拍上限160のロング走）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-01",
       "message": "ランニング記録更新: import_running.py実行"
-    },
-    {
-      "date": "2026-11-01",
-      "message": "news: 2026-11-01 記事まとめを自動生成"
     }
   ]
 }
