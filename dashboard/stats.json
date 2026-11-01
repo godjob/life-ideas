@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-01T21:06:10+09:00",
+  "generatedAt": "2026-11-01T21:14:06+09:00",
   "weekly": {
-    "commitCount": 19,
+    "commitCount": 20,
     "byDay": [
       {
         "date": "2026-10-26",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-01",
-        "count": 7
+        "count": 8
       }
     ]
   },
@@ -37,11 +37,15 @@
     "scrap": 3,
     "ideas": 1,
     "health": 20,
-    "books": 1,
+    "books": 2,
     "portfolio": 0,
     "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-11-01",
+      "message": "読書記録: 3件追加・更新"
+    },
     {
       "date": "2026-11-01",
       "message": "読書記録: 考察を追加 — メタスキル：努力の価値が変わる時代の「AI×自分」戦略"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-01",
       "message": "scrap: 2026-11-01 【「134兆円」国家予算超え“AI投資”の賭け】「"
-    },
-    {
-      "date": "2026-11-01",
-      "message": "ランニング記録更新: import_running.py実行"
     }
   ]
 }
