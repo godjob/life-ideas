@@ -354,16 +354,23 @@
     .run-back:hover { border-color: #e94560; }
     .run-pager { display: flex; justify-content: space-between; gap: 8px; margin: 0 0 12px; }
     .run-pager-bottom { margin: 20px 0 4px; padding-top: 12px; border-top: 1px solid #e2e2e8; }
-    .run-pager a, .run-pager span {
-      flex: 0 1 48%; display: block; padding: 6px 10px; border: 1px solid #d6d9e8; border-radius: 8px;
-      background: #fff; color: #1a1a2e; text-decoration: none; font-size: 0.82rem; line-height: 1.4;
+    /* 前後の走行: KPIカード（白地・枠線）と見分けるため、紺の地に大きな矢印のボタンにする */
+    .run-pager > a, .run-pager > span {
+      flex: 0 1 48%; display: flex; align-items: center; gap: 8px; padding: 6px 10px; border: 0; border-radius: 22px;
+      background: #eef0f8; color: #1a1a2e; text-decoration: none; font-size: 0.8rem; line-height: 1.35;
       font-variant-numeric: tabular-nums; min-width: 0;
     }
-    .run-pager a:hover { border-color: #e94560; }
-    .run-pager .run-pager-next { text-align: right; }
-    .run-pager span { visibility: hidden; }
+    .run-pager a:hover { background: #1a1a2e; color: #fff; }
+    .run-pager a:hover small { color: #c8cbe0; }
+    .run-pager .run-pager-next { flex-direction: row-reverse; text-align: right; }
+    .run-pager > span { visibility: hidden; }  /* 片側が無いときの空き枠（ボタン内の span は対象外） */
+    .run-pager-arrow { flex: 0 0 auto; font-size: 1.5rem; line-height: 1; font-weight: 700; color: #e94560; }
+    .run-pager-text { min-width: 0; }
     .run-pager-scope { font-size: 0.72rem; color: #888; margin: 0 0 4px; }
-    .run-pager small { display: block; color: #888; font-size: 0.72rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .run-pager small { display: block; color: #777; font-size: 0.72rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    /* 時刻・天気（日付の下の1行。KPIの数値と混ざらないよう枠なしの小さな文字） */
+    .run-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: -6px 0 12px; font-size: 0.85rem; color: #444; font-variant-numeric: tabular-nums; }
+    .run-meta small { color: #999; font-size: 0.7rem; }
     .run-date { font-weight: 700; color: #1a1a2e; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
     .run-kpis { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
     .run-kpi { flex: 1 1 96px; background: #fff; border: 1px solid #e2e2e8; border-radius: 8px; padding: 8px 10px; }
@@ -731,7 +738,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.61';
+  const VERSION = 'v1.62';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -3119,12 +3126,25 @@
     const link = (r, rel, label) => {
       if (!r) return '<span></span>';
       const [, m, d] = r.date.split('-');
+      // 日付を主に、距離は1行に小さく（所要時間はKPIと紛れるので出さない）
       return `<a href="#run=${runEsc(r.id)}" data-id="${runEsc(r.id)}" class="run-pager-${rel}" rel="${rel === 'next' ? 'next' : 'prev'}">
-        ${label}<small>${runEsc(r.date.slice(2, 4))}/${m}/${d}(${runEsc(r.weekday)})${r.race ? ' 🏁' : ''}</small><small>${runNum(r.dist_km, 2)}km・${runFmtDur(r.duration_s)}</small></a>`;
+        <span class="run-pager-arrow" aria-hidden="true">${rel === 'next' ? '›' : '‹'}</span><span class="run-pager-text">${label}
+        <small>${runEsc(r.date.slice(2, 4))}/${m}/${d}(${runEsc(r.weekday)})${r.race ? ' 🏁' : ''} · ${runNum(r.dist_km, 1)}km</small></span></a>`;
     };
-    const scope = nb.scope && !cls ? `<div class="run-pager-scope">絞り込み: ${runEsc(nb.scope)} の中で移動</div>` : '';
+    const scope = !cls ? `<div class="run-pager-scope">前後の走行へ移動${nb.scope ? `（絞り込み: ${runEsc(nb.scope)} の中）` : ''}</div>` : '';
     if (!nb.older && !nb.newer) return scope;  // 下側（cls あり）には条件を重ねて出さない
-    return `${scope}<nav class="run-pager ${cls || ''}" aria-label="前後の走行">${link(nb.older, 'prev', '‹ 前の走行')}${link(nb.newer, 'next', '次の走行 ›')}</nav>`;
+    return `${scope}<nav class="run-pager ${cls || ''}" aria-label="前後の走行">${link(nb.older, 'prev', '前の走行')}${link(nb.newer, 'next', '次の走行')}</nav>`;
+  }
+
+  // 開始〜終了時刻と天気（Open-Meteo の格子推定値。無い走行は出さない）
+  function buildRunMetaHtml(run) {
+    const t = run.time, w = run.weather;
+    if (!t && !w) return '';
+    const parts = [];
+    if (t) parts.push(`🕒 ${runEsc(t.start)}〜${runEsc(t.end)}`);
+    if (w) parts.push(`${runEsc(w.emoji || '')} ${runEsc(w.label)}`,
+      `🌡 ${runNum(w.temp_c, 1)}℃`, `💧 湿度 ${runNum(w.humidity_pct)}%`, `🍃 風 ${runNum(w.wind_ms, 1)}m/s<small>（天気は推定）</small>`);
+    return `<div class="run-meta">${parts.map(p => `<span>${p}</span>`).join('')}</div>`;
   }
 
   function buildRunDetailHtml(run, neighbors) {
@@ -3173,6 +3193,7 @@
         <button type="button" class="run-back" onclick="showRunList()">← 一覧へ戻る</button>
         <span class="run-date">${runEsc(run.date)}<span class="${runDowClass(run.weekday)}">(${runEsc(run.weekday)})</span></span>
       </div>
+      ${buildRunMetaHtml(run)}
       ${buildRunPagerHtml(neighbors)}
       ${run.race ? buildRunRaceHtml(run.race, kpi) : ''}
       <div class="run-kpis">${kpis}</div>
