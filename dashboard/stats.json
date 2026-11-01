@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-01T20:41:58+09:00",
+  "generatedAt": "2026-11-01T20:43:03+09:00",
   "weekly": {
-    "commitCount": 17,
+    "commitCount": 18,
     "byDay": [
       {
         "date": "2026-10-26",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-01",
-        "count": 5
+        "count": 6
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 1,
-    "health": 19,
+    "health": 20,
     "books": 0,
     "portfolio": 0,
     "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-11-01",
+      "message": "ランニング: 10/26〜11/01の分析を追記（MAGIC SPEED 5 導入・心拍上限160のロング走）"
+    },
     {
       "date": "2026-11-01",
       "message": "ideas: 2026-W44 週次まとめ自動生成"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-01",
       "message": "news: 2026-11-01 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-11-01",
-      "message": "朝刊: 2026-11-01 Morning Edition生成"
     }
   ]
 }
