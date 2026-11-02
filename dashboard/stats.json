@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T04:17:22+09:00",
+  "generatedAt": "2026-11-02T21:16:12+09:00",
   "weekly": {
-    "commitCount": 20,
+    "commitCount": 22,
     "byDay": [
       {
         "date": "2026-10-27",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-11-02",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "byDirectory": {
     "scrap": 1,
     "ideas": 1,
-    "health": 22,
+    "health": 9,
     "books": 2,
     "portfolio": 0,
-    "other": 20
+    "other": 19
   },
   "recentCommits": [
+    {
+      "date": "2026-11-02",
+      "message": "news: 2026-11-02 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-11-02",
+      "message": "朝刊: 2026-11-02 Morning Edition生成"
+    },
     {
       "date": "2026-11-01",
       "message": "ランニング: 全走行に時刻・天気を追加して再生成（642本・天気API 32回）"
@@ -53,14 +61,6 @@
     {
       "date": "2026-11-01",
       "message": "読書記録: 3件追加・更新"
-    },
-    {
-      "date": "2026-11-01",
-      "message": "読書記録: 考察を追加 — メタスキル：努力の価値が変わる時代の「AI×自分」戦略"
-    },
-    {
-      "date": "2026-11-01",
-      "message": "ランニング: 10/26〜11/01の分析を追記（MAGIC SPEED 5 導入・心拍上限160のロング走）"
     }
   ]
 }
