@@ -1,12 +1,8 @@
 {
-  "generatedAt": "2026-11-03T20:51:29+09:00",
+  "generatedAt": "2026-11-04T05:42:52+09:00",
   "weekly": {
-    "commitCount": 22,
+    "commitCount": 20,
     "byDay": [
-      {
-        "date": "2026-10-28",
-        "count": 2
-      },
       {
         "date": "2026-10-29",
         "count": 2
@@ -30,13 +26,17 @@
       {
         "date": "2026-11-03",
         "count": 2
+      },
+      {
+        "date": "2026-11-04",
+        "count": 0
       }
     ]
   },
   "byDirectory": {
     "scrap": 1,
     "ideas": 1,
-    "health": 6,
+    "health": 4,
     "books": 2,
     "portfolio": 0,
     "other": 18
