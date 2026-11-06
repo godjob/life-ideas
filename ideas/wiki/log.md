@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-11-06] ingest | 【野村泰紀】私たちの宇宙は「泡の一つ」｜太陽がゴルフボールなら、隣の星はどこにある？
+- 更新ページ: [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md), [当たり前の問い直し：継続的改善と哲学的な視点](rethinking-defaults-continuous-improvement.md), [マルチバースと超弦理論ランドスケープ：宇宙の微調整問題と統計的試行論](multiverse-string-landscape-fine-tuning.md)
+- 出典: [【野村泰紀】私たちの宇宙は「泡の一つ」｜太陽がゴルフボールなら、隣の星はどこにあ](https://www.youtube.com/watch?v=bIxTwtvgFSY)
+
+## [2026-11-06] ingest | 【速報解説：米中間選挙】大敗後のトランプは日本のカネを狙う／米政治の空白と地政学リスク／日本企業への
+- 更新ページ: [AIモデル規制と地政学：国家戦略と企業の立ち位置](ai-model-regulation-geopolitics.md), [日本の人口減少危機と重要インフラ維持管理：システム管理スキルの戦略的価値向上](japan-demographic-crisis-infrastructure-maintenance-strategy.md)
+- 出典: [【速報解説：米中間選挙】大敗後のトランプは日本のカネを狙う／米政治の空白と地政学](https://www.youtube.com/watch?v=Uxy4hL6bjMI)
+
 ## [2026-11-01] ingest | 【「134兆円」国家予算超え“AI投資”の賭け】「人類はまだClaudeを使いこなせてない」アンソロ
 - 更新ページ: [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md)
 - 出典: [【「134兆円」国家予算超え“AI投資”の賭け】「人類はまだClaudeを使いこ](https://www.youtube.com/watch?v=y7NAjBZjm9k)
