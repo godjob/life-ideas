@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-11T19:51:37+09:00",
+  "generatedAt": "2026-11-11T20:49:13+09:00",
   "weekly": {
-    "commitCount": 24,
+    "commitCount": 25,
     "byDay": [
       {
         "date": "2026-11-05",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-11",
-        "count": 4
+        "count": 5
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 0,
     "books": 4,
     "portfolio": 0,
-    "other": 23
+    "other": 24
   },
   "recentCommits": [
+    {
+      "date": "2026-11-11",
+      "message": "news: 2026-11-11 記事まとめを自動生成"
+    },
     {
       "date": "2026-11-11",
       "message": "読書記録: 1件追加・更新"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-11",
       "message": "朝刊: 2026-11-11 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-10",
-      "message": "news: 2026-11-10 記事まとめを自動生成"
     }
   ]
 }
