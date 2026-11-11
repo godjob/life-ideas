@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-11T19:03:28+09:00",
+  "generatedAt": "2026-11-11T19:50:01+09:00",
   "weekly": {
-    "commitCount": 22,
+    "commitCount": 23,
     "byDay": [
       {
         "date": "2026-11-05",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-11",
-        "count": 2
+        "count": 3
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 0,
     "books": 3,
     "portfolio": 0,
-    "other": 22
+    "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-11-11",
+      "message": "CLAUDE.md: 存在しないコマンド /portfolio・/scrap の記述を削除"
+    },
     {
       "date": "2026-11-11",
       "message": "scrap: 2026-11-11 Claude Fable 5.2へのプロンプト -・【超格差】テック大富豪への逆襲が始まった（中間選挙"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-10",
       "message": "朝刊: 2026-11-10 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-09",
-      "message": "news: 2026-11-09 記事まとめを自動生成"
     }
   ]
 }
