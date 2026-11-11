@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-11-11] ingest | 【超格差】テック大富豪への逆襲が始まった（中間選挙／イーロン・マスク／AI／データセンター／タラリコ
+- 更新ページ: [AIデータセンターとエネルギー需要：電力消費量増大への対応戦略](ai-data-center-energy-demand-strategy.md), [AI時代の労働政策ガバナンス：民主的意思決定と規制キャプチャ防止](ai-labor-policy-governance-framework.md), [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md)
+- 出典: [【超格差】テック大富豪への逆襲が始まった（中間選挙／イーロン・マスク／AI／デー](https://www.youtube.com/watch?v=HLF1TQ4_244)
+
+## [2026-11-11] ingest | Claude Fable 5.2へのプロンプト - Claude Platform Docs
+- 更新ページ: [Claude Fable 5：自律的な思考・設計パートナーとしてのAI開発](claude-fable-5-autonomous-development.md), [プロンプトエンジニアリングの製造業応用](prompt-engineering-manufacturing-application.md), [ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン](harness-engineering-autonomous-development.md), [Claude Fable 5.2におけるプロンプトエンジニアリングと自律制御](claude-fable-5-2-prompt-engineering.md)
+- 出典: [Claude Fable 5.2へのプロンプト - Claude Platfor](https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2)
+
 ## [2026-11-06] ingest | 【野村泰紀】私たちの宇宙は「泡の一つ」｜太陽がゴルフボールなら、隣の星はどこにある？
 - 更新ページ: [物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性](ai-physical-world-reasoning-intuition-acquisition.md), [当たり前の問い直し：継続的改善と哲学的な視点](rethinking-defaults-continuous-improvement.md), [マルチバースと超弦理論ランドスケープ：宇宙の微調整問題と統計的試行論](multiverse-string-landscape-fine-tuning.md)
 - 出典: [【野村泰紀】私たちの宇宙は「泡の一つ」｜太陽がゴルフボールなら、隣の星はどこにあ](https://www.youtube.com/watch?v=bIxTwtvgFSY)

@@ -30,7 +30,7 @@
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
       "group": "AI戦略・社会",
-      "value": 13,
+      "value": 14,
       "tags": [
         "国家安全保障",
         "デジタル赤字",
@@ -55,7 +55,7 @@
       "id": "agentic-engineering-supervisor-model",
       "label": "Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト",
       "group": "AIエージェント設計",
-      "value": 42,
+      "value": 41,
       "tags": [
         "監督者モデル",
         "ハーネスエンジニアリング",
@@ -302,7 +302,7 @@
       "id": "ai-autonomous-weapons-surveillance-state-governance",
       "label": "自律兵器と監視社会化：AI軍事転用とシステム監視の民主的ガバナンス枠組み",
       "group": "AI戦略・社会",
-      "value": 3,
+      "value": 4,
       "tags": [
         "自律兵器",
         "監視社会",
@@ -522,7 +522,7 @@
       "id": "ai-data-center-energy-demand-strategy",
       "label": "AIデータセンターとエネルギー需要：電力消費量増大への対応戦略",
       "group": "AI戦略・社会",
-      "value": 11,
+      "value": 13,
       "tags": [
         "ASIエコノミー",
         "電力消費量",
@@ -678,7 +678,7 @@
       "id": "ai-failure-log",
       "label": "AIエージェント失敗ログと修正ナレッジ",
       "group": "AIエージェント設計",
-      "value": 29,
+      "value": 28,
       "tags": [
         "失敗ログ",
         "プロンプト改善",
@@ -1495,7 +1495,7 @@
       "id": "claude-code-configuration-driven-workflow",
       "label": "Claude Code設定駆動ワークフロー：CLAUDE.mdの設計規約自動遵守と保守業務の並列化",
       "group": "Claude/AI開発ツール",
-      "value": 16,
+      "value": 17,
       "tags": [
         "CLAUDE.md",
         "自動化",
@@ -1557,10 +1557,23 @@
       ]
     },
     {
+      "id": "claude-fable-5-2-prompt-engineering",
+      "label": "Claude Fable 5.2におけるプロンプトエンジニアリングと自律制御",
+      "group": "Claude/AI開発ツール",
+      "value": 3,
+      "tags": [
+        "プロンプト設計",
+        "CLAUDE.md",
+        "ハーネスエンジニアリング",
+        "コスト最適化",
+        "マルチエージェント"
+      ]
+    },
+    {
       "id": "claude-fable-5-autonomous-development",
       "label": "Claude Fable 5：自律的な思考・設計パートナーとしてのAI開発",
       "group": "Claude/AI開発ツール",
-      "value": 4,
+      "value": 5,
       "tags": [
         "自律エージェント",
         "開発プロセス",
@@ -1814,7 +1827,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 29,
+      "value": 28,
       "tags": [
         "結晶性知能",
         "AI時代のキャリア",
@@ -2203,7 +2216,7 @@
       "id": "harness-engineering-autonomous-development",
       "label": "ハーネスエンジニアリング：Planner-Generator-Evaluator自律開発パターン",
       "group": "AIエージェント設計",
-      "value": 15,
+      "value": 16,
       "tags": [
         "ハーネスエンジニアリング",
         "自動改善ループ",
@@ -2528,7 +2541,7 @@
       "id": "legacy-code-debt-system-capability-mismatch",
       "label": "システム能力向上による『死に掛けたコード』：古い前提に基づく設計債務と定期的な仮説検証",
       "group": "技術実装・エンジニアリング",
-      "value": 6,
+      "value": 7,
       "tags": [
         "システム設計",
         "継続的改善",
@@ -2606,7 +2619,7 @@
       "id": "llm-tiered-execution-pattern",
       "label": "段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計",
       "group": "技術実装・エンジニアリング",
-      "value": 11,
+      "value": 12,
       "tags": [
         "LLM運用",
         "コスト最適化",
@@ -2722,7 +2735,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 94,
+      "value": 95,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -2735,7 +2748,7 @@
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 50,
+      "value": 49,
       "tags": [
         "AI導入",
         "自動化",
@@ -3318,7 +3331,7 @@
       "id": "prompt-clarity-management-feedback-loop",
       "label": "プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上",
       "group": "プロンプト・AI活用",
-      "value": 16,
+      "value": 17,
       "tags": [
         "プロンプト設計",
         "指示設計",
@@ -3331,7 +3344,7 @@
       "id": "prompt-engineering-manufacturing-application",
       "label": "プロンプトエンジニアリングの製造業応用",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 5,
       "tags": [
         "業務自動化",
         "非エンジニア開発",
@@ -3447,7 +3460,7 @@
       "id": "regional-sme-engineering-constraint-mitigation-ai-coding",
       "label": "地方中小企業のエンジニアリソース制約軽減：AI コーディングによる数十倍スピード化と小規模体制での大規模対応",
       "group": "ビジネス・組織",
-      "value": 9,
+      "value": 10,
       "tags": [
         "地方企業",
         "AI導入",
@@ -3576,7 +3589,7 @@
       "id": "skill-md-specification",
       "label": "SKILL.md仕様：ファイル命名ルールとフォルダ構造",
       "group": "Claude/AI開発ツール",
-      "value": 17,
+      "value": 18,
       "tags": [
         "スキル定義",
         "ファイル構造",
@@ -5894,6 +5907,10 @@
     },
     {
       "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
       "to": "ai-governance-human-oversight-framework"
     },
     {
@@ -7182,15 +7199,23 @@
     },
     {
       "from": "ai-labor-policy-governance-framework",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "ai-labor-policy-governance-framework",
+      "to": "ai-autonomous-weapons-surveillance-state-governance"
+    },
+    {
+      "from": "ai-labor-policy-governance-framework",
+      "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "ai-labor-policy-governance-framework",
       "to": "ai-era-work-inversion"
     },
     {
       "from": "ai-labor-policy-governance-framework",
       "to": "automation-efficiency-dividend-work-reduction"
-    },
-    {
-      "from": "ai-labor-policy-governance-framework",
-      "to": "crystallized-intelligence-ai-era-strategy"
     },
     {
       "from": "ai-labor-policy-governance-framework",
@@ -7202,11 +7227,11 @@
     },
     {
       "from": "ai-labor-policy-governance-framework",
-      "to": "manufacturing-ai-quick-wins"
+      "to": "pm-exponential-adaptation"
     },
     {
       "from": "ai-labor-policy-governance-framework",
-      "to": "pm-exponential-adaptation"
+      "to": "regional-sme-engineering-constraint-mitigation-ai-coding"
     },
     {
       "from": "ai-leader-values-philosophy-reliability-foundation",
@@ -9721,6 +9746,38 @@
       "to": "skill-system"
     },
     {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "claude-code-configuration-driven-workflow"
+    },
+    {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "claude-fable-5-autonomous-development"
+    },
+    {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "harness-engineering-autonomous-development"
+    },
+    {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "legacy-code-debt-system-capability-mismatch"
+    },
+    {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "prompt-engineering-manufacturing-application"
+    },
+    {
+      "from": "claude-fable-5-2-prompt-engineering",
+      "to": "skill-md-specification"
+    },
+    {
       "from": "claude-fable-5-autonomous-development",
       "to": "ai-agent-cli-automation-pattern"
     },
@@ -9743,6 +9800,14 @@
     {
       "from": "claude-fable-5-autonomous-development",
       "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "claude-fable-5-autonomous-development",
+      "to": "claude-fable-5-2-prompt-engineering"
+    },
+    {
+      "from": "claude-fable-5-autonomous-development",
+      "to": "prompt-clarity-management-feedback-loop"
     },
     {
       "from": "claude-fable-5-autonomous-development",
@@ -11726,15 +11791,7 @@
     },
     {
       "from": "harness-engineering-autonomous-development",
-      "to": "agentic-engineering-supervisor-model"
-    },
-    {
-      "from": "harness-engineering-autonomous-development",
       "to": "ai-agent-permission-model-least-privilege"
-    },
-    {
-      "from": "harness-engineering-autonomous-development",
-      "to": "ai-failure-log"
     },
     {
       "from": "harness-engineering-autonomous-development",
@@ -11755,6 +11812,10 @@
     {
       "from": "harness-engineering-autonomous-development",
       "to": "claude-code-configuration-driven-workflow"
+    },
+    {
+      "from": "harness-engineering-autonomous-development",
+      "to": "claude-fable-5-2-prompt-engineering"
     },
     {
       "from": "harness-engineering-autonomous-development",
@@ -16067,6 +16128,10 @@
     {
       "from": "prompt-engineering-manufacturing-application",
       "to": "ai-prompt-engineering-leadership-career"
+    },
+    {
+      "from": "prompt-engineering-manufacturing-application",
+      "to": "claude-fable-5-2-prompt-engineering"
     },
     {
       "from": "prompt-engineering-manufacturing-application",
