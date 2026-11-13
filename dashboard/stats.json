@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T06:39:40+09:00",
+  "generatedAt": "2026-11-13T21:05:54+09:00",
   "weekly": {
-    "commitCount": 16,
+    "commitCount": 18,
     "byDay": [
       {
         "date": "2026-11-07",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-13",
-        "count": 0
+        "count": 2
       }
     ]
   },
@@ -43,6 +43,14 @@
   },
   "recentCommits": [
     {
+      "date": "2026-11-13",
+      "message": "news: 2026-11-13 記事まとめを自動生成"
+    },
+    {
+      "date": "2026-11-13",
+      "message": "朝刊: 2026-11-13 Morning Edition生成"
+    },
+    {
       "date": "2026-11-12",
       "message": "news: 2026-11-12 記事まとめを自動生成"
     },
@@ -53,14 +61,6 @@
     {
       "date": "2026-11-11",
       "message": "news: 2026-11-11 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-11-11",
-      "message": "読書記録: 1件追加・更新"
-    },
-    {
-      "date": "2026-11-11",
-      "message": "CLAUDE.md: 存在しないコマンド /portfolio・/scrap の記述を削除"
     }
   ]
 }
