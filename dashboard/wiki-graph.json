@@ -457,7 +457,7 @@
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
       "group": "健康・習慣",
-      "value": 10,
+      "value": 12,
       "tags": [
         "AIコーチング",
         "ウェアラブル",
@@ -1133,7 +1133,7 @@
       "id": "ai-transparent-reasoning-governance",
       "label": "AI推論の透明性確保とガバナンス",
       "group": "AIエージェント設計",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AIガバナンス",
         "透明性",
@@ -1314,7 +1314,7 @@
       "id": "background-automation-design-competitive-advantage",
       "label": "バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略",
       "group": "キャリア・働き方",
-      "value": 11,
+      "value": 12,
       "tags": [
         "自動化設計",
         "生産性向上",
@@ -1905,7 +1905,7 @@
       "id": "decision-fatigue-sop-standardization-cognitive-load-reduction",
       "label": "意思決定疲労とSOP標準化：ルーチン化による心理的負荷削減と品質保証",
       "group": "ビジネス・組織",
-      "value": 26,
+      "value": 27,
       "tags": [
         "意思決定疲労",
         "SOP標準化",
@@ -2281,7 +2281,7 @@
       "id": "identity-transformation-habit-formation-ai-era",
       "label": "アイデンティティ変革による習慣形成：AI時代の自己再定義",
       "group": "キャリア・働き方",
-      "value": 6,
+      "value": 7,
       "tags": [
         "アイデンティティ変革",
         "習慣形成",
@@ -2619,7 +2619,7 @@
       "id": "llm-tiered-execution-pattern",
       "label": "段階的LLM実行パターン：大規模モデルで計画、軽量ローカルモデルで実装する効率化設計",
       "group": "技術実装・エンジニアリング",
-      "value": 12,
+      "value": 13,
       "tags": [
         "LLM運用",
         "コスト最適化",
@@ -2684,7 +2684,7 @@
       "id": "long-running-ai-agent-design-patterns",
       "label": "長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン",
       "group": "AIエージェント設計",
-      "value": 30,
+      "value": 31,
       "tags": [
         "長期連続稼働",
         "推論最適化",
@@ -3215,7 +3215,7 @@
       "id": "personal-os-operating-system",
       "label": "人生OSの運用：PMの4つのシフトの個人適用",
       "group": "キャリア・働き方",
-      "value": 10,
+      "value": 11,
       "tags": [
         "自己改善",
         "人生設計",
@@ -3421,7 +3421,7 @@
       "id": "quantified-self-ai-feedback-loop",
       "label": "量的自己記録とAI分析の相乗効果：データ資産化と継続的改善",
       "group": "個人OS・知識管理",
-      "value": 23,
+      "value": 24,
       "tags": [
         "量的自己記録",
         "AI分析",
@@ -3654,7 +3654,7 @@
       "id": "sleep-priority-performance-management",
       "label": "睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性",
       "group": "キャリア・働き方",
-      "value": 26,
+      "value": 27,
       "tags": [
         "睡眠",
         "脳認知能力",
@@ -3875,13 +3875,25 @@
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
       "group": "ビジネス・組織",
-      "value": 14,
+      "value": 16,
       "tags": [
         "組織変革",
         "AI導入",
         "リーダーシップ",
         "継続学習",
         "生産性格差"
+      ]
+    },
+    {
+      "id": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "label": "ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化",
+      "group": "健康・習慣",
+      "value": 3,
+      "tags": [
+        "ウェルネス",
+        "意思決定",
+        "リスク管理",
+        "時間管理"
       ]
     },
     {
@@ -5896,6 +5908,10 @@
     {
       "from": "ai-coaching-personalization-wearable-integration",
       "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "ai-coaching-personalization-wearable-integration",
@@ -10860,6 +10876,10 @@
     {
       "from": "daily-habit-routine-design-productivity-multiplication",
       "to": "time-capital-health-investment-narrative"
+    },
+    {
+      "from": "daily-habit-routine-design-productivity-multiplication",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "daily-habit-routine-design-productivity-multiplication",
@@ -16347,7 +16367,15 @@
     },
     {
       "from": "quantified-self-ai-feedback-loop",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "quantified-self-ai-feedback-loop",
       "to": "ai-expert-ensemble-prompting"
+    },
+    {
+      "from": "quantified-self-ai-feedback-loop",
+      "to": "background-automation-design-competitive-advantage"
     },
     {
       "from": "quantified-self-ai-feedback-loop",
@@ -16356,6 +16384,18 @@
     {
       "from": "quantified-self-ai-feedback-loop",
       "to": "personal-os-operating-system"
+    },
+    {
+      "from": "quantified-self-ai-feedback-loop",
+      "to": "sleep-priority-performance-management"
+    },
+    {
+      "from": "quantified-self-ai-feedback-loop",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
+    },
+    {
+      "from": "quantified-self-ai-feedback-loop",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "quantum-computing-japan-strategy",
@@ -17864,6 +17904,42 @@
     {
       "from": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "to": "unlearning-capability-ai-era-competition"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "ai-transparent-reasoning-governance"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "decision-fatigue-sop-standardization-cognitive-load-reduction"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "identity-transformation-habit-formation-ai-era"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "llm-tiered-execution-pattern"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "long-running-ai-agent-design-patterns"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "personal-os-operating-system"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "quantified-self-ai-feedback-loop"
+    },
+    {
+      "from": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "unlearning-capability-ai-era-competition",
