@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-15T18:56:42+09:00",
+  "generatedAt": "2026-11-15T19:10:08+09:00",
   "weekly": {
-    "commitCount": 26,
+    "commitCount": 27,
     "byDay": [
       {
         "date": "2026-11-09",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-15",
-        "count": 11
+        "count": 12
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 1,
-    "health": 3,
+    "health": 4,
     "books": 8,
     "portfolio": 0,
     "other": 24
   },
   "recentCommits": [
+    {
+      "date": "2026-11-15",
+      "message": "Running: 奈良ウルトラの断面図を横スクロール＋タップで地点情報を表示、週間計画の列の説明を追加（v1.64）"
+    },
     {
       "date": "2026-11-15",
       "message": "CLAUDE.md: 日曜の考察保存後に中身を確認してから push する手順を追加"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-15",
       "message": "読書記録: 考察の著者名の誤りを修正（ボストロム→ユドコウスキー、ソアレス）"
-    },
-    {
-      "date": "2026-11-15",
-      "message": "読書記録: 考察を追加 — 超知能ＡＩをつくれば人類は絶滅する"
     }
   ]
 }
