@@ -308,6 +308,13 @@
     .report-toc a.toc-chip.toc-sub.active { background: #e94560; color: #fff; border-color: #e94560; }
 
     /* ===== Running: 走行一覧・走行詳細（.run- 接頭辞のクラスに限定。他タブへ波及させない） ===== */
+    .ultra-page th, .ultra-page td { white-space: nowrap; }
+    .ultra-page th.ultra-wrap, .ultra-page td.ultra-wrap { white-space: normal; min-width: 13em; }
+    .ultra-prof { margin: 8px 0 16px; }
+    .ultra-prof-hint { font-size: 0.8rem; margin: 0 0 6px; }
+    .ultra-prof-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid #eee; border-radius: 8px; background: #fff; }
+    .ultra-prof-info { margin-top: 6px; padding: 8px 12px; background: #1a1a2e; color: #fff; border-radius: 8px; font-size: 0.88rem; line-height: 1.6; min-height: 3.2em; }
+    .ultra-prof-scroll svg { display: block; max-width: none; font-family: sans-serif; cursor: crosshair; }
     .run-switch { display: flex; gap: 6px; margin: 0 0 14px; flex-wrap: wrap; }
     .run-switch button {
       background: #f0f1f7; color: #1a1a2e; border: 1px solid #d6d9e8; border-radius: 16px;
@@ -738,7 +745,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.63';
+  const VERSION = 'v1.64';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -2974,6 +2981,79 @@
     if (currentTab !== 'running' || seq !== runRenderSeq) return;
     const contentEl = document.getElementById('content-area');
     if (!contentEl.querySelector('.run-switch')) contentEl.insertAdjacentHTML('afterbegin', runSwitchHtml('ultra'));
+    // 表: 短いセルは折り返さず（表ごと横スクロール）、長い文のセルだけ幅を持たせて折り返す
+    const body = contentEl.querySelector('.markdown-body');
+    if (body) {
+      body.classList.add('ultra-page');
+      body.querySelectorAll('td, th').forEach(td => { if (td.textContent.trim().length > 14) td.classList.add('ultra-wrap'); });
+    }
+    await ultraEnhanceProfile(contentEl, seq);
+  }
+
+  // 標高断面図を、横スクロール＋タップで注記が出る SVG に差し替える（データは build_ultra_plan.py の course.json）。
+  // 読み込めなければ md の profile.svg（静的画像）をそのまま残す
+  async function ultraEnhanceProfile(contentEl, seq) {
+    const img = contentEl.querySelector('img[alt="標高断面図"]');
+    if (!img) return;
+    let c;
+    try { c = JSON.parse(await fetchContent('ideas/running/ultra/course.json')); } catch (e) { return; }
+    if (currentTab !== 'running' || seq !== runRenderSeq || !img.isConnected) return;
+    const P = c.profile, total = c.total_km;
+    const W = 1500, H = 300, ml = 40, mr = 16, mt = 46, mb = 30, emax = 600;
+    const X = km => ml + (W - ml - mr) * km / total;
+    const Y = e => mt + (H - mt - mb) * (1 - e / emax);
+    const eleAt = km => P[Math.max(0, Math.min(P.length - 1, Math.round(km * 10)))][1];
+    const g = [];
+    for (let e = 0; e <= emax; e += 100) {
+      g.push(`<line x1="${ml}" x2="${W - mr}" y1="${Y(e)}" y2="${Y(e)}" stroke="#eee"/><text x="${ml - 5}" y="${Y(e) + 4}" text-anchor="end" fill="#888">${e}</text>`);
+    }
+    for (let k = 0; k <= 100; k += 5) g.push(`<text x="${X(k)}" y="${H - mb + 16}" text-anchor="middle" fill="#888">${k}</text>`);
+    const line = P.map(([x, e]) => `${X(x).toFixed(1)},${Y(e).toFixed(1)}`).join(' ');
+    g.push(`<polygon points="${X(0)},${Y(0)} ${line} ${X(P[P.length - 1][0])},${Y(0)}" fill="#fbe3e8"/>`);
+    g.push(`<polyline points="${line}" fill="none" stroke="#e94560" stroke-width="1.8"/>`);
+    c.water.forEach(km => g.push(`<circle cx="${X(km)}" cy="${Y(0) - 5}" r="3.2" fill="#3b82f6"/>`));
+    c.cutoffs.forEach((q, i) => {
+      if (i === c.cutoffs.length - 1) return;
+      g.push(`<line x1="${X(q.km)}" x2="${X(q.km)}" y1="${mt - 16}" y2="${Y(0)}" stroke="#1a1a2e" stroke-dasharray="3,3"/>`
+        + `<text x="${X(q.km)}" y="${mt - 20}" text-anchor="middle" fill="#1a1a2e" font-weight="bold">${runEsc(q.name)} ${q.km}km（${runEsc(q.close)}）</text>`);
+    });
+    c.marks.filter(m => !/^階段終了/.test(m.name)).forEach(m => {
+      g.push(`<text x="${X(m.km)}" y="${Y(eleAt(m.km)) - 8}" text-anchor="middle" fill="#555" stroke="#fff" stroke-width="3" paint-order="stroke">${runEsc(m.name.replace('階段開始', '石段'))}</text>`);
+    });
+    const wrap = document.createElement('div');
+    wrap.className = 'ultra-prof';
+    wrap.innerHTML = `<p class="run-muted ultra-prof-hint">横にスクロールできます。図をタップ（PCはマウスを乗せる）と、その地点の距離・標高・次の関門と給水を表示します。●＝給水所</p>
+      <div class="ultra-prof-scroll"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-size="12" role="img" aria-label="標高断面図">
+        <text x="${ml}" y="14" fill="#888">標高 m</text><text x="${W - mr}" y="${H - 4}" text-anchor="end" fill="#888">km</text>
+        ${g.join('')}<g class="ultra-cursor" style="display:none"></g></svg></div>
+      <div class="ultra-prof-info">図をタップすると、ここに地点の情報が出ます</div>`;
+    img.replaceWith(wrap);
+    const svg = wrap.querySelector('svg'), cur = wrap.querySelector('.ultra-cursor'), info = wrap.querySelector('.ultra-prof-info');
+    const show = evt => {
+      const r = svg.getBoundingClientRect();
+      const km = Math.max(0, Math.min(total, ((evt.clientX - r.left) * W / r.width - ml) / (W - ml - mr) * total));
+      const e = eleAt(km);
+      const grade = (eleAt(Math.min(total, km + 0.2)) - eleAt(Math.max(0, km - 0.2))) / 4;   // %（±200m）
+      const nextCut = c.cutoffs.find(q => q.km >= km - 0.05);
+      const nextWater = c.water.find(w => w >= km - 0.05);
+      const near = c.marks.find(m => Math.abs(m.km - km) < 0.4);
+      const rows = [
+        `${km.toFixed(1)}km　標高 ${e}m　勾配 ${grade >= 0 ? '+' : ''}${grade.toFixed(1)}%`,
+        nextCut ? `${nextCut.name}まで ${(nextCut.km - km).toFixed(1)}km（閉鎖 ${nextCut.close}）` : '',
+        nextWater != null ? `次の給水まで ${(nextWater - km).toFixed(1)}km` : 'この先の給水なし',
+        near ? `付近: ${near.name.replace('階段開始', '金峯山寺の石段').replace('階段終了', '金峯山寺の石段')}` : '',
+      ].filter(Boolean);
+      // 注記は図の外（下の欄）に出す。図の中に置くとスマホではスクロール位置しだいで画面外に切れる
+      const x = X(km), y = Y(e);
+      cur.innerHTML = `<line x1="${x}" x2="${x}" y1="${mt - 10}" y2="${Y(0)}" stroke="#e94560"/>`
+        + `<circle cx="${x}" cy="${y}" r="5" fill="#e94560" stroke="#fff" stroke-width="2"/>`
+        + `<text x="${x}" y="${Y(0) + 14}" text-anchor="middle" fill="#e94560" font-weight="bold" stroke="#fff" stroke-width="3" paint-order="stroke">${km.toFixed(1)}km</text>`;
+      cur.style.display = '';
+      info.innerHTML = rows.map((t, i) => i === 0 ? `<b>${runEsc(t)}</b>` : runEsc(t)).join('<br>');
+    };
+    // タップ（click）は横スクロールを妨げない。マウスは移動に追従させる
+    svg.addEventListener('click', show);
+    svg.addEventListener('pointermove', evt => { if (evt.pointerType === 'mouse') show(evt); });
   }
 
   // 🗂 走行一覧: 年ヒートマップ＋絞り込み表
