@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-15T17:11:49+09:00",
+  "generatedAt": "2026-11-15T17:23:00+09:00",
   "weekly": {
-    "commitCount": 21,
+    "commitCount": 22,
     "byDay": [
       {
         "date": "2026-11-09",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-15",
-        "count": 6
+        "count": 7
       }
     ]
   },
@@ -37,11 +37,15 @@
     "scrap": 3,
     "ideas": 1,
     "health": 3,
-    "books": 4,
+    "books": 5,
     "portfolio": 0,
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-11-15",
+      "message": "読書記録: 考察を追加 — 超知能ＡＩをつくれば人類は絶滅する"
+    },
     {
       "date": "2026-11-15",
       "message": "Running: 奈良ウルトラ2027のトレーニング計画ページを追加（v1.63）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-15",
       "message": "scrap: 2026-11-15 【100km完走】ウルトラマラソン攻略クリニック"
-    },
-    {
-      "date": "2026-11-15",
-      "message": "ランニング記録更新: import_running.py実行"
     }
   ]
 }
