@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-15T17:04:08+09:00",
+  "generatedAt": "2026-11-15T17:11:49+09:00",
   "weekly": {
-    "commitCount": 19,
+    "commitCount": 21,
     "byDay": [
       {
         "date": "2026-11-09",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-11-15",
-        "count": 4
+        "count": 6
       }
     ]
   },
   "byDirectory": {
     "scrap": 3,
     "ideas": 1,
-    "health": 1,
+    "health": 3,
     "books": 4,
     "portfolio": 0,
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-11-15",
+      "message": "Running: 奈良ウルトラ2027のトレーニング計画ページを追加（v1.63）"
+    },
+    {
+      "date": "2026-11-15",
+      "message": "ランニング分析: 奈良ウルトラ エントリーと11月前半の練習"
+    },
     {
       "date": "2026-11-15",
       "message": "ideas: 2026-W46 週次まとめ自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-11-15",
       "message": "ランニング記録更新: import_running.py実行"
-    },
-    {
-      "date": "2026-11-15",
-      "message": "朝刊: 2026-11-15 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-14",
-      "message": "news: 2026-11-14 記事まとめを自動生成"
     }
   ]
 }
