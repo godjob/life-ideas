@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-17T19:03:03+09:00",
+  "generatedAt": "2026-11-17T22:12:07+09:00",
   "weekly": {
-    "commitCount": 29,
+    "commitCount": 30,
     "byDay": [
       {
         "date": "2026-11-11",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-17",
-        "count": 2
+        "count": 3
       }
     ]
   },
@@ -42,6 +42,10 @@
     "other": 21
   },
   "recentCommits": [
+    {
+      "date": "2026-11-17",
+      "message": "news: 2026-11-17 記事まとめを自動生成"
+    },
     {
       "date": "2026-11-17",
       "message": "scrap: 2026-11-17 【ジェンスン・フアンCEO電撃辞任「もうNVIDI"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-16",
       "message": "朝刊: 2026-11-16 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-15",
-      "message": "news: 2026-11-15 記事まとめを自動生成"
     }
   ]
 }
