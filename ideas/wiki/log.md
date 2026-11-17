@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-11-17] ingest | 【ジェンスン・フアンCEO電撃辞任「もうNVIDIAじゃない」今井翔太】AI界は「未来が見える男」を
+- 更新ページ: [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢](china-ai-semiconductor-geopolitics.md)
+- 出典: [【ジェンスン・フアンCEO電撃辞任「もうNVIDIAじゃない」今井翔太】AI界は](https://www.youtube.com/watch?v=-a2I9CPwrS8)
+
 ## [2026-11-15] ingest | 【100km完走】ウルトラマラソン攻略クリニック
 - 更新ページ: [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md), [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md), [ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化](ultra-marathon-strategy-ai-pacing-nutrition-mental.md)
 - 出典: [【100km完走】ウルトラマラソン攻略クリニック](https://www.youtube.com/watch?v=qfvikiQDc8w)

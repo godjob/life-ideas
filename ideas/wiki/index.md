@@ -1,9 +1,12 @@
 # Wiki インデックス
 
-最終更新: 2026-11-15
+最終更新: 2026-11-17
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢](china-ai-semiconductor-geopolitics.md) | 26/08/02 | 26/11/17 | 中国のAIおよび半導体産業が急速な発展を遂げており、特に高性能AIモデル「Kimi K3」の登場と大手半導体メーカー「C |
+| [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md) | 26/04/14 | 26/11/17 | AI業界は2026年を境に「学習時代」から「推論時代」へと転換し、GPUインフラの役割が根本的に変わろうとしている。NV |
+| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/11/17 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md) | 26/07/23 | 26/11/15 | AI、特に汎用人工知能（AGI）の進化は、個人の健康管理やパフォーマンス向上に革新をもたらし、ウェアラブルデバイスと職場 |
 | [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md) | 26/07/12 | 26/11/15 | ブックデザイナー井上新八氏が定義する「心の渋滞」は、毎日の意思決定の積み重ねによって生じる心理的疲労であり、この状態では |
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 26/03/14 | 26/11/15 | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
@@ -22,7 +25,6 @@
 | [当たり前の問い直し：継続的改善と哲学的な視点](rethinking-defaults-continuous-improvement.md) | 26/07/12 | 26/11/06 | 「当たり前を問い直す」という哲学的な視点は、個人や組織における継続的改善の根幹をなします。特にAIが急速に進化する現代に |
 | [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md) | 26/05/31 | 26/11/01 | AI投資の拡大とAIバブル崩壊への懸念が高まる中、企業や個人がAIエコシステムで生き残り、持続的な成長を遂げるための戦略 |
 | [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md) | 26/05/03 | 26/11/01 | Capability Overhangとは、AIモデルが持つ実際の能力と、ユーザーが実際に活用できている能力の間の深刻な |
-| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/11/01 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md) | 26/05/12 | 26/10/23 | AI技術の進化、特に大手AIモデル企業が直接顧客企業の現場に入り込み、FDE（現場派遣エンジニア）として受託業務を開始す |
 | [AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現](ai-personal-branding-influencer-strategy.md) | 26/07/23 | 26/10/23 | AI技術の進化により、プロダクトやアウトプットが均質化する中で、個人が競争優位性を確立するためには「推される存在」となる |
 | [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 26/05/04 | 26/10/23 | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
@@ -160,7 +162,6 @@
 | [AIによるビジネス変革加速：広告代理店における少人数・高成長モデル](ai-accelerated-business-transformation-agency.md) | 26/08/02 | 26/08/02 | AI導入によって、少人数体制ながらも高い成長率と収益性を実現する広告代理店のビジネスモデルを解説する。クリエイティブ制作 |
 | [AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出](ai-ecosystem-orchestration-strategy.md) | 26/08/02 | 26/08/02 | AIエコシステムオーケストレーション戦略は、単一のAIモデルに依存せず、複数のフロンティアAIモデル（OpenAI, A |
 | [AIフロンティア技術の普及と制御：エコシステム戦略](ai-frontier-diffusion-control.md) | 26/08/02 | 26/08/02 | AIのフロンティア技術を社会全体に普及させ、その便益を最大化するためには、技術の「普及（Diffusion）」と「制御（ |
-| [中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢](china-ai-semiconductor-geopolitics.md) | 26/08/02 | 26/08/02 | 中国のAIおよび半導体産業が急速な発展を遂げており、特に高性能AIモデル「Kimi K3」の登場と大手半導体メーカー「C |
 | [地政学とナラティブ分析：5次元思考による複雑システム理解とエリート学習法](geopolitical-narrative-multidimensional-analysis.md) | 26/05/20 | 26/08/02 | 複雑な社会・経済・組織システムを理解するには、単一の視点では不十分であり、地理・歴史・技術・組織・経済の5次元から多角的 |
 | [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md) | 26/07/27 | 26/08/02 | 中国のMoonshot AIが開発した「Kimi K3」は、AnthropicのClaude Fable 5やOpenA |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/05/03 | 26/08/02 | NVIDIA GTC 2026でのOpenClawおよびKimi創業者ヤン・ジリン氏の事例に見られるように、AIエージェ |
@@ -189,7 +190,6 @@
 | [AI Everywhere: デバイスレベルAI統合のロードマップ](ai-everywhere-device-integration.md) | 26/05/20 | 26/05/20 | 「AI Everywhere」は、Googleが提唱するAIのデバイスレベルへの深い統合戦略であり、AI First戦略 |
 | [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md) | 26/04/14 | 26/05/20 | AI開発ツール（バイブコーディング、OpenCraw、Coworkなど）の普及により、非エンジニアも含む全社的なセキュリ |
 | [Claude Managed Agents：Self-hosted SandboxesとMCP Tunnels](claude-managed-agents-self-hosted-sandboxes.md) | 26/05/20 | 26/05/20 | Claude Managed Agentsに、企業が自社の環境でエージェントを実行できる「Self-hosted San |
-| [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md) | 26/04/14 | 26/05/20 | AI業界は2026年を境に「学習時代」から「推論時代」へと転換し、GPUインフラの役割が根本的に変わろうとしている。NV |
 | [NANDフラッシュメモリ市場：AI需要による高騰と需給変化](nand-flash-memory-market-ai-demand.md) | 26/05/20 | 26/05/20 | AIエージェントの急速な普及がNANDフラッシュメモリ市場に劇的な変化をもたらしています。これにより需要が爆発的に増加し |
 | [AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理](ai-governance-human-oversight-framework.md) | 26/05/12 | 26/05/12 | AIの企業導入が加速する中で、上場会社においては、その活用による効率化と同時に、厳格なガバナンスとリスク管理が不可欠とな |
 | [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 25/05/05 | 26/05/12 | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchおよび創業114年の地方中小 |

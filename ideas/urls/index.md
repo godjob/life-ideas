@@ -2,6 +2,7 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/11/17 | 26/11/17 | AI, Business, Management, YouTube | [【ジェンスン・フアンCEO電撃辞任「もうNVIDIAじゃない」今井翔太】AI界は「未来が見える男」を失った／OpenAI・アンソロピックが迎える試練／対中国の半導体規制「もう遅い」【AI QUEST】](https://www.youtube.com/watch?v=-a2I9CPwrS8) | NVIDIAのジェンスン・フアンCEOの辞任劇に伴い、AI業界の資金力・未来展望を支えていたカリスマの喪失と今後の市場構造変化を分析する対談記事です。 |
 | 26/11/15 | - | YouTube, Learning | [【100km完走】ウルトラマラソン攻略クリニック](https://www.youtube.com/watch?v=qfvikiQDc8w) | ランニングトレーナーの中川修一氏が、100kmウルトラマラソン完走に向けたフルマラソンからのペース逆算やメンタル準備などの実践的ノウハウを解説する動画の要約です。 |
 | 26/11/11 | - | AI, Business, YouTube | [【超格差】テック大富豪への逆襲が始まった（中間選挙／イーロン・マスク／AI／データセンター／タラリコ／解説：後藤直義、森川潤）](https://www.youtube.com/watch?v=HLF1TQ4_244) | 米中間選挙において富裕層の巨額資金やAIデータセンター問題への不満から民主党が圧勝し、テック富豪主導の政治に有権者が「NO」を突きつけた背景を解説する記事。 |
 | 26/11/11 | - | AI, LLM, Development, Productivity | [Claude Fable 5.2へのプロンプト - Claude Platform Docs](https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2) | Claude Fable 5.2特有の動作特性に対応するためのプロンプトエンジニアリングガイド。エフォート調整やタスク完遂、コード所有権の明示など実践的な解決策を提示している。 |

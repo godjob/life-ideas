@@ -354,7 +354,7 @@
       "id": "ai-bubble-sustainability-strategy",
       "label": "AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AIバブル",
         "本質的価値",
@@ -1430,7 +1430,7 @@
       "id": "china-ai-semiconductor-geopolitics",
       "label": "中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "地政学リスク",
         "国際競争力",
@@ -2320,7 +2320,7 @@
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
       "group": "AI戦略・社会",
-      "value": 15,
+      "value": 16,
       "tags": [
         "GPUインフラ",
         "ベンダーロックイン",
@@ -3085,7 +3085,7 @@
       "id": "nvidia-dominance-shift-cpu-revaluation",
       "label": "NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント",
       "group": "AI戦略・社会",
-      "value": 9,
+      "value": 11,
       "tags": [
         "半導体市場",
         "GPUインフラ",
@@ -3693,7 +3693,7 @@
       "id": "sovereign-ai-national-security-strategy",
       "label": "ソブリンAI（AI主権）と安全保障：米中依存回避と自国データ・インフラ保護戦略",
       "group": "AI戦略・社会",
-      "value": 3,
+      "value": 4,
       "tags": [
         "地政学リスク",
         "デジタル赤字",
@@ -9311,7 +9311,15 @@
     },
     {
       "from": "china-ai-semiconductor-geopolitics",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
       "to": "open-vs-closed-ai-model-strategy"
+    },
+    {
+      "from": "china-ai-semiconductor-geopolitics",
+      "to": "sovereign-ai-national-security-strategy"
     },
     {
       "from": "citizen-development-ai-manufacturing",
@@ -15311,6 +15319,10 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-bubble-sustainability-strategy"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-budget-management-roi-optimization"
     },
     {
@@ -15351,6 +15363,10 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "china-ai-semiconductor-geopolitics"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "claude-code-agent-teams"
     },
     {
@@ -15367,6 +15383,10 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "kimi-k3-moonshot-ai-model-comparison"
     },
     {
@@ -15376,6 +15396,10 @@
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "managed-agents-interface-decoupling-design"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "nvidia-dominance-shift-cpu-revaluation"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
