@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-11-18] ingest | 【NVIDIA問題は日本も痛みを被る】過剰なAI投資を見直すチャンス？／規制ブレーキは「早い方がいい
+- 更新ページ: [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md), [カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性](key-person-dependence-corporate-governance-risk.md), [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md)
+- 出典: [【NVIDIA問題は日本も痛みを被る】過剰なAI投資を見直すチャンス？／規制ブレ](https://www.youtube.com/watch?v=fxnF6IrnQbE)
+
+## [2026-11-18] ingest | 【100km】奈良の歴史を3000人が走った日。【第1回奈良ウルトラマラソン】
+- 更新ページ: [ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化](ultra-marathon-strategy-ai-pacing-nutrition-mental.md), [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md)
+- 出典: [【100km】奈良の歴史を3000人が走った日。【第1回奈良ウルトラマラソン】](https://www.youtube.com/watch?v=TdrB2oFJ9es)
+
+## [2026-11-18] ingest | NVIDIA ジェンスン・ファン退任？の衝撃度合いを解説します
+- 更新ページ: [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md), [NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント](nvidia-dominance-shift-cpu-revaluation.md), [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md), [カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性](key-person-dependence-corporate-governance-risk.md)
+- 出典: [NVIDIA ジェンスン・ファン退任？の衝撃度合いを解説します](https://www.youtube.com/watch?v=ks3d_2v6J2Y)
+
 ## [2026-11-17] ingest | 【ジェンスン・フアンCEO電撃辞任「もうNVIDIAじゃない」今井翔太】AI界は「未来が見える男」を
 - 更新ページ: [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢](china-ai-semiconductor-geopolitics.md)
 - 出典: [【ジェンスン・フアンCEO電撃辞任「もうNVIDIAじゃない」今井翔太】AI界は](https://www.youtube.com/watch?v=-a2I9CPwrS8)
