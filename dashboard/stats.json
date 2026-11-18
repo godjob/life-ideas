@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-18T19:10:01+09:00",
+  "generatedAt": "2026-11-18T19:16:26+09:00",
   "weekly": {
-    "commitCount": 27,
+    "commitCount": 28,
     "byDay": [
       {
         "date": "2026-11-12",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-18",
-        "count": 2
+        "count": 3
       }
     ]
   },
   "byDirectory": {
     "scrap": 4,
     "ideas": 1,
-    "health": 4,
+    "health": 5,
     "books": 5,
     "portfolio": 0,
     "other": 21
   },
   "recentCommits": [
+    {
+      "date": "2026-11-18",
+      "message": "running: 奈良ウルトラ計画に第1回大会動画の要点を反映"
+    },
     {
       "date": "2026-11-18",
       "message": "scrap: 2026-11-18 NVIDIA ジェンスン・ファン退任？の衝撃度合い・【100km】奈良の歴史を3000人が走った日。【・【NVIDIA問題は日本も痛みを被る】過剰なAI投"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-17",
       "message": "scrap: 2026-11-17 【ジェンスン・フアンCEO電撃辞任「もうNVIDI"
-    },
-    {
-      "date": "2026-11-17",
-      "message": "朝刊: 2026-11-17 Morning Edition生成"
     }
   ]
 }
