@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-20T21:42:08+09:00",
+  "generatedAt": "2026-11-20T21:45:59+09:00",
   "weekly": {
-    "commitCount": 32,
+    "commitCount": 33,
     "byDay": [
       {
         "date": "2026-11-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-20",
-        "count": 4
+        "count": 5
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 5,
     "books": 5,
     "portfolio": 0,
-    "other": 21
+    "other": 22
   },
   "recentCommits": [
+    {
+      "date": "2026-11-20",
+      "message": "news: 2026-11-20 記事まとめを自動生成"
+    },
     {
       "date": "2026-11-20",
       "message": "dashboard v1.66: 走行一覧に絞り込みごとの連番列を追加"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-20",
       "message": "朝刊: 2026-11-20 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-19",
-      "message": "news: 2026-11-19 記事まとめを自動生成"
     }
   ]
 }
