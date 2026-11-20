@@ -462,6 +462,14 @@
     .markdown-body .book-essence li { margin-bottom: 4px; line-height: 1.6; }
     .book-essence-chapters { font-size: 0.82rem; color: #555; margin-top: 10px; line-height: 1.6; }
     .book-essence-chapters b { color: #1a1a2e; }
+    /* ハイライトカード（Books）: 本文より小さめ・行間詰め・「。」ごとに改行 */
+    .markdown-body blockquote.book-hl {
+      background: #fafafa; border: 1px solid #eee; border-left: 3px solid #c9ced6; border-radius: 6px;
+      padding: 8px 12px 6px; margin: 10px 0; color: #333;
+    }
+    .markdown-body blockquote.book-hl p { font-size: 0.92em; line-height: 1.2; margin: 0; }
+    .book-hl-pos { text-align: right; font-size: 0.7rem; color: #aaa; margin-top: 4px; }
+    mark.book-hl-kw { background: linear-gradient(transparent 60%, #ffe58a 60%); color: inherit; padding: 0; }
     .book-essence-note { font-size: 0.72rem; color: #999; margin-top: 8px; }
     .book-kw-row { display: flex; flex-wrap: wrap; gap: 6px; }
     .book-kw-chip {
@@ -746,7 +754,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.66';
+  const VERSION = 'v1.67';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -2659,34 +2667,51 @@
         }
       }
 
-      // ハイライト色変更: blockquote内の「色のハイライト」テキストを削除し、左バーをその色に変更
-      // 日本語: "— 黄色のハイライト | 位置: 353" / "— オレンジ色のハイライト | 位置: 681"
-      // 英語: "— Yellow highlight | Location: 133"
-      const hlColorMap = {
-        '黄色': '#f5c842', '青': '#4a9eff', 'ピンク色': '#ff6b9d', 'ピンク': '#ff6b9d',
-        'オレンジ色': '#ff9f43', 'オレンジ': '#ff9f43', '青色': '#4a9eff',
-        'Yellow': '#f5c842', 'Blue': '#4a9eff', 'Pink': '#ff6b9d', 'Orange': '#ff9f43',
-      };
-      const hlRegexAll = /[—\u2014]\s*(黄色|青色?|ピンク色?|オレンジ色?|Yellow|Blue|Pink|Orange)(?:のハイライト|\s+highlight)\s*\|\s*(?:位置|Location):\s*(.+)/i;
-      contentEl.querySelectorAll('blockquote').forEach(bq => {
-        const text = bq.textContent || '';
-        const match = text.match(hlRegexAll);
-        if (match) {
-          const colorKey = match[1].charAt(0).toUpperCase() + match[1].slice(1);
-          const color = hlColorMap[match[1]] || hlColorMap[colorKey];
-          const pos = match[2].trim();
-          if (color) bq.style.borderLeftColor = color;
-          bq.title = (/[a-zA-Z]/.test(match[1]) ? 'Location: ' : '位置: ') + pos;
-          // innerHTML からハイライトメタ行を除去
-          const escKey = match[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-          const metaPattern = /[a-zA-Z]/.test(match[1])
-            ? '[—\u2014]\\s*' + escKey + '\\s+highlight[^<]*'
-            : '[—\u2014]\\s*' + escKey + 'のハイライト[^<]*';
-          bq.innerHTML = bq.innerHTML
-            .replace(new RegExp('<br>\\s*' + metaPattern, 'gi'), '')
-            .replace(new RegExp(metaPattern + '(<br>)?', 'gi'), '')
-            .replace(/<p>\s*<\/p>/g, '');
+      // ハイライト整形（v1.67）: Kindle のハイライト blockquote を読みやすいカードに組み直す
+      //   "— Yellow highlight | Location: 133" / "— 黄色のハイライト | 位置: 353" / "— Yellow highlight | Page: 12"
+      //   色に意味は無いのでバーは統一色。位置は右下に小さく。「。」ごとに改行・キーワードに印。
+      //   途中で切れたハイライト（文末記号で終わらず、次の位置が+1〜2）は1枚にまとめる。md は変えない
+      const hlMetaRe = /[——]\s*(黄色|青色?|ピンク色?|オレンジ色?|Yellow|Blue|Pink|Orange)(?:のハイライト|\s+highlight)\s*\|\s*(位置|Location|Page|ページ)\s*[:：]\s*([\d,，\-–]+)/i;
+      const hlItems = [];
+      contentEl.querySelectorAll('.markdown-body > blockquote').forEach(bq => {
+        const full = bq.textContent || '';
+        const m = full.match(hlMetaRe);
+        if (!m) return;
+        const isPage = /^(Page|ページ)$/i.test(m[2]);
+        const pos = parseInt(m[3].replace(/[,，]/g, ''), 10);
+        const text = full.slice(0, m.index).replace(/\s+$/, '').replace(/^\s+/, '');
+        hlItems.push({ bq, isPage, pos, posEnd: pos, text });
+      });
+      // 連続する途切れハイライトをまとめる
+      const hlMerged = [];
+      hlItems.forEach(it => {
+        const prev = hlMerged[hlMerged.length - 1];
+        if (prev && prev.bq.nextElementSibling === it.bq && prev.isPage === it.isPage &&
+            it.pos - prev.posEnd >= 0 && it.pos - prev.posEnd <= 2 &&
+            !/[。．！？!?][」』）)]*$/.test(prev.text)) {
+          prev.text += it.text;
+          prev.posEnd = it.pos;
+          it.bq.remove();
+          return;
         }
+        hlMerged.push(it);
+      });
+      const hlKws = ((bookEssence && bookEssence.keywords) || []).filter(k => k.length >= 2)
+        .sort((x, y) => y.length - x.length).map(k => escapeBookHtml(k).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      const hlKwRe = hlKws.length ? new RegExp('(' + hlKws.join('|') + ')', 'gi') : null;
+      hlMerged.forEach(it => {
+        const sentences = it.text.replace(/([。．！？!?][」』）)]*)\s*/g, '$1\n').split('\n').map(t => t.trim()).filter(Boolean);
+        const body = sentences.map(t => {
+          let h = escapeBookHtml(t);
+          if (hlKwRe) h = h.replace(hlKwRe, '<mark class="book-hl-kw">$1</mark>');
+          return h;
+        }).join('<br>');
+        const unit = it.isPage ? 'p.' : '位置 ';
+        const posLabel = unit + it.pos + (it.posEnd !== it.pos ? '–' + it.posEnd : '');
+        it.bq.className = 'book-hl';
+        it.bq.removeAttribute('style');
+        it.bq.innerHTML = `<p>${body}</p><div class="book-hl-pos">${posLabel}</div>`;
+        if (currentSearchQuery) highlightText(it.bq, currentSearchQuery);
       });
     }
 
