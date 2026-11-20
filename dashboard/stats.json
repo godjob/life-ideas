@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-20T20:18:04+09:00",
+  "generatedAt": "2026-11-20T20:18:37+09:00",
   "weekly": {
-    "commitCount": 30,
+    "commitCount": 31,
     "byDay": [
       {
         "date": "2026-11-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-20",
-        "count": 2
+        "count": 3
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 5,
     "books": 5,
     "portfolio": 0,
-    "other": 20
+    "other": 21
   },
   "recentCommits": [
+    {
+      "date": "2026-11-20",
+      "message": "dashboard v1.65: Booksの自分の考察をエッセンス直下へ移動・走行カレンダーを日曜始まりに"
+    },
     {
       "date": "2026-11-20",
       "message": "scrap: 2026-11-20 【仕事の任せ方】部下が120点を出す「靴下理論」と・【能力競争時代の終焉】「やっとこの時代が来た」これ"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-19",
       "message": "読書記録: 2件追加・更新"
-    },
-    {
-      "date": "2026-11-19",
-      "message": "朝刊: 2026-11-19 Morning Edition生成"
     }
   ]
 }
