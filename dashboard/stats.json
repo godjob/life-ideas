@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-20T07:30:38+09:00",
+  "generatedAt": "2026-11-20T20:18:04+09:00",
   "weekly": {
-    "commitCount": 28,
+    "commitCount": 30,
     "byDay": [
       {
         "date": "2026-11-14",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-20",
-        "count": 0
+        "count": 2
       }
     ]
   },
@@ -37,11 +37,19 @@
     "scrap": 4,
     "ideas": 1,
     "health": 5,
-    "books": 6,
+    "books": 5,
     "portfolio": 0,
-    "other": 21
+    "other": 20
   },
   "recentCommits": [
+    {
+      "date": "2026-11-20",
+      "message": "scrap: 2026-11-20 【仕事の任せ方】部下が120点を出す「靴下理論」と・【能力競争時代の終焉】「やっとこの時代が来た」これ"
+    },
+    {
+      "date": "2026-11-20",
+      "message": "朝刊: 2026-11-20 Morning Edition生成"
+    },
     {
       "date": "2026-11-19",
       "message": "news: 2026-11-19 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-11-19",
       "message": "朝刊: 2026-11-19 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-18",
-      "message": "news: 2026-11-18 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-11-18",
-      "message": "running: 奈良ウルトラ計画に第1回大会動画の要点を反映"
     }
   ]
 }
