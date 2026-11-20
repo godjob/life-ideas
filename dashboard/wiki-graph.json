@@ -574,7 +574,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "ビジネス・組織",
-      "value": 33,
+      "value": 34,
       "tags": [
         "業務フロー再設計",
         "組織変革",
@@ -730,7 +730,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 21,
+      "value": 22,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -860,7 +860,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "キャリア・働き方",
-      "value": 20,
+      "value": 21,
       "tags": [
         "AIマインドセット",
         "思考と実行",
@@ -1042,7 +1042,7 @@
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "ビジネス・組織",
-      "value": 23,
+      "value": 24,
       "tags": [
         "AIガバナンス",
         "セキュリティ",
@@ -1146,7 +1146,7 @@
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
       "group": "キャリア・働き方",
-      "value": 11,
+      "value": 12,
       "tags": [
         "理解力",
         "解像度",
@@ -1236,7 +1236,7 @@
       "id": "approval-workflow-simplification-competitive-advantage",
       "label": "承認フロー簡素化と権限委譲設計：複雑さ排除による組織の自己防御メカニズム",
       "group": "ビジネス・組織",
-      "value": 15,
+      "value": 17,
       "tags": [
         "承認フロー",
         "権限委譲",
@@ -1866,7 +1866,7 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "キャリア・働き方",
-      "value": 27,
+      "value": 29,
       "tags": [
         "習慣化",
         "生産性向上",
@@ -2359,7 +2359,7 @@
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "プロンプト・AI活用",
-      "value": 28,
+      "value": 29,
       "tags": [
         "指示設計",
         "プロンプト設計",
@@ -2745,6 +2745,19 @@
       ]
     },
     {
+      "id": "management-delegation-socks-theory-approval-risk",
+      "label": "マネジメントにおける仕事の任せ方と責任構造：靴下理論と「承認」によるリスク引き受け",
+      "group": "ビジネス・組織",
+      "value": 2,
+      "tags": [
+        "リーダーシップ",
+        "組織設計",
+        "意思決定",
+        "権限管理",
+        "リスク管理"
+      ]
+    },
+    {
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
@@ -3059,7 +3072,7 @@
       "id": "narrative-positioning-career-strategy",
       "label": "物語思考とキャラ設定（ポジショニング）によるキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 3,
+      "value": 4,
       "tags": [
         "キャリア戦略",
         "自己投資",
@@ -3395,7 +3408,7 @@
       "id": "pushed-person-strategy-ai-era",
       "label": "AI時代の『推される人』戦略：プロダクト均質化と差別化",
       "group": "ビジネス・組織",
-      "value": 5,
+      "value": 7,
       "tags": [
         "差別化戦略",
         "パーソナルブランディング",
@@ -3486,7 +3499,7 @@
       "id": "relationship-quality-leadership-theory",
       "label": "関係性の質とリーダーシップ理論",
       "group": "ビジネス・組織",
-      "value": 5,
+      "value": 7,
       "tags": [
         "リーダーシップ",
         "関係性の質",
@@ -3538,7 +3551,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 39,
+      "value": 40,
       "tags": [
         "自己学習",
         "継続学習",
@@ -3823,7 +3836,7 @@
       "id": "task-delegation-automation-decision-framework",
       "label": "タスク委譲と自動化の意思決定：『自分にしかできない業務』の定期検証フレームワーク",
       "group": "キャリア・働き方",
-      "value": 12,
+      "value": 13,
       "tags": [
         "自己投資",
         "時間管理",
@@ -3875,7 +3888,7 @@
       "id": "transparency-communication-trust-foundation",
       "label": "透明性とコミュニケーション：判断背景の共有による信頼醸成",
       "group": "ビジネス・組織",
-      "value": 15,
+      "value": 16,
       "tags": [
         "リーダーシップ",
         "信頼醸成",
@@ -3888,7 +3901,7 @@
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
       "group": "ビジネス・組織",
-      "value": 16,
+      "value": 17,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3901,7 +3914,7 @@
       "id": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
       "label": "ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化",
       "group": "健康・習慣",
-      "value": 5,
+      "value": 7,
       "tags": [
         "ウェルネス",
         "意思決定",
@@ -3965,7 +3978,7 @@
       "id": "wellness-eq-capital-ai-era-competitive-advantage",
       "label": "ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位",
       "group": "キャリア・働き方",
-      "value": 18,
+      "value": 19,
       "tags": [
         "ウェルネス",
         "信頼構築",
@@ -5125,6 +5138,10 @@
     {
       "from": "ai-as-infinite-subordinate-management",
       "to": "ai-workflow-adoption-customer-onsite-support-model"
+    },
+    {
+      "from": "ai-as-infinite-subordinate-management",
+      "to": "management-delegation-socks-theory-approval-risk"
     },
     {
       "from": "ai-as-infinite-subordinate-management",
@@ -7192,6 +7209,10 @@
     },
     {
       "from": "ai-labor-market-shift-capital-strategy",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
       "to": "domain-expertise-ai-boundary-design"
     },
     {
@@ -7209,6 +7230,14 @@
     {
       "from": "ai-labor-market-shift-capital-strategy",
       "to": "narrative-positioning-career-strategy"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
+      "to": "pushed-person-strategy-ai-era"
+    },
+    {
+      "from": "ai-labor-market-shift-capital-strategy",
+      "to": "relationship-quality-leadership-theory"
     },
     {
       "from": "ai-labor-market-shift-capital-strategy",
@@ -8528,7 +8557,19 @@
     },
     {
       "from": "ai-understanding-resolution-human-value",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
       "to": "matagi-drive-ai-era-value-discovery"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "wellness-eq-capital-ai-era-competitive-advantage"
     },
     {
       "from": "ai-unemployment-crisis-ubi-transition-strategy",
@@ -13771,6 +13812,42 @@
       "to": "skill-testing-strategy"
     },
     {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "ai-mindset-human-thought-ai-execution"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "approval-workflow-simplification-competitive-advantage"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "relationship-quality-leadership-theory"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "task-delegation-automation-decision-framework"
+    },
+    {
+      "from": "management-delegation-socks-theory-approval-risk",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
+    },
+    {
       "from": "manufacturing-ai-opportunities",
       "to": "2040-problem-japan-ai-robot-solution"
     },
@@ -16208,6 +16285,10 @@
     },
     {
       "from": "prompt-clarity-management-feedback-loop",
+      "to": "approval-workflow-simplification-competitive-advantage"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
       "to": "claude-md-auto-cultivation-hooks"
     },
     {
@@ -16221,6 +16302,10 @@
     {
       "from": "prompt-clarity-management-feedback-loop",
       "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "prompt-clarity-management-feedback-loop",
+      "to": "management-delegation-socks-theory-approval-risk"
     },
     {
       "from": "prompt-clarity-management-feedback-loop",
@@ -18248,7 +18333,19 @@
     },
     {
       "from": "wellness-eq-capital-ai-era-competitive-advantage",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "wellness-eq-capital-ai-era-competitive-advantage",
       "to": "labor-money-decoupling"
+    },
+    {
+      "from": "wellness-eq-capital-ai-era-competitive-advantage",
+      "to": "narrative-positioning-career-strategy"
+    },
+    {
+      "from": "wellness-eq-capital-ai-era-competitive-advantage",
+      "to": "pushed-person-strategy-ai-era"
     },
     {
       "from": "wellness-eq-capital-ai-era-competitive-advantage",
@@ -18256,7 +18353,19 @@
     },
     {
       "from": "wellness-eq-capital-ai-era-competitive-advantage",
+      "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "wellness-eq-capital-ai-era-competitive-advantage",
       "to": "sleep-priority-performance-management"
+    },
+    {
+      "from": "wellness-eq-capital-ai-era-competitive-advantage",
+      "to": "transparency-communication-trust-foundation"
+    },
+    {
+      "from": "wellness-eq-capital-ai-era-competitive-advantage",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "workflow-skill-definition",

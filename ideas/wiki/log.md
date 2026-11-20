@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-11-20] ingest | 【能力競争時代の終焉】「やっとこの時代が来た」これからビジネスパーソンは「人間力」を高めよ/前編【前
+- 更新ページ: [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md), [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md), [ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位](wellness-eq-capital-ai-era-competitive-advantage.md)
+- 出典: [【能力競争時代の終焉】「やっとこの時代が来た」これからビジネスパーソンは「人間力](https://www.youtube.com/watch?v=DBRCiOTOn74)
+
+## [2026-11-20] ingest | 【仕事の任せ方】部下が120点を出す「靴下理論」とは／「承認」が持つ本当の意味／部下が自分を超えたと
+- 更新ページ: [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md), [無限に働く部下としてのAI：活用と管理の原則](ai-as-infinite-subordinate-management.md), [マネジメントにおける仕事の任せ方と責任構造：靴下理論と「承認」によるリスク引き受け](management-delegation-socks-theory-approval-risk.md)
+- 出典: [【仕事の任せ方】部下が120点を出す「靴下理論」とは／「承認」が持つ本当の意味／](https://www.youtube.com/watch?v=pSn8aLkPTz0)
+
 ## [2026-11-18] ingest | 【NVIDIA問題は日本も痛みを被る】過剰なAI投資を見直すチャンス？／規制ブレーキは「早い方がいい
 - 更新ページ: [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md), [カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性](key-person-dependence-corporate-governance-risk.md), [推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策](inference-era-gpu-infrastructure-strategy.md)
 - 出典: [【NVIDIA問題は日本も痛みを被る】過剰なAI投資を見直すチャンス？／規制ブレ](https://www.youtube.com/watch?v=fxnF6IrnQbE)

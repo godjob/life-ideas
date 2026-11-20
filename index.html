@@ -745,7 +745,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.64';
+  const VERSION = 'v1.65';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -2647,6 +2647,14 @@
             || mdBody.querySelector(':scope > .book-cover-wrap')
             || [...mdBody.children].find(el => el.tagName === 'H1');
           if (anchor) anchor.after(card); else mdBody.prepend(card);
+          // 「## 自分の考察」節（見出し〜次の h1/h2 の手前）をエッセンスカードの直下へ移す
+          const kH = [...mdBody.children].find(el => el.tagName === 'H2' && el.textContent.trim() === '自分の考察');
+          if (kH) {
+            const nodes = [kH];
+            for (let n = kH.nextElementSibling; n && !/^H[12]$/.test(n.tagName); n = n.nextElementSibling) nodes.push(n);
+            let at = card;
+            nodes.forEach(n => { at.after(n); at = n; });
+          }
         }
       }
 
@@ -3152,7 +3160,7 @@
       <tbody>${body || '<tr><td colspan="7" class="run-muted">該当なし</td></tr>'}</tbody></table>`;
   }
 
-  // 年カレンダー型ヒートマップ（列=週・行=曜日 月〜日）。距離で 4 段階の濃淡
+  // 年カレンダー型ヒートマップ（列=週・行=曜日 日〜土）。距離で 4 段階の濃淡
   function buildRunHeatmap(runs, year) {
     const byDate = {};
     let cnt = 0, km = 0;
@@ -3163,7 +3171,7 @@
       cnt++; km += r.dist_km || 0;
     });
     const start = Date.UTC(+year, 0, 1), days = Math.round((Date.UTC(+year + 1, 0, 1) - start) / 864e5);
-    const offset = (new Date(start).getUTCDay() + 6) % 7;  // 月曜始まり
+    const offset = new Date(start).getUTCDay();  // 日曜始まり（通常のカレンダーと同じ並び）
     const S = 13, C = 11, L = 20, T = 14;
     const cols = Math.ceil((days + offset) / 7);
     const W = L + cols * S, H = T + 7 * S;
@@ -3179,7 +3187,7 @@
         ? `<rect class="run-hm-cell has-run" data-id="${runEsc(o.ids[0])}" x="${x}" y="${y}" width="${C}" height="${C}" rx="2" fill="${RUN_RAMP[runHmLevel(o.km)]}"><title>${label}</title></rect>`
         : `<rect class="run-hm-cell" x="${x}" y="${y}" width="${C}" height="${C}" rx="2" fill="${RUN_HM_EMPTY}"><title>${label}</title></rect>`;
     }
-    const dows = ['月', '', '水', '', '金', '', '日'].map((t, i) => t ? `<text x="0" y="${T + i * S + 9}" font-size="9" fill="#888">${t}</text>` : '').join('');
+    const dows = ['日', '', '火', '', '木', '', '土'].map((t, i) => t ? `<text x="0" y="${T + i * S + 9}" font-size="9" fill="#888">${t}</text>` : '').join('');
     const legend = [['0', RUN_HM_EMPTY], ['〜5', RUN_RAMP[1]], ['〜10', RUN_RAMP[2]], ['〜15', RUN_RAMP[3]], ['15+', RUN_RAMP[4]]]
       .map(([t, c]) => `<span><i style="background:${c}"></i>${t}</span>`).join('');
     return `<div class="run-hm-summary"><b>${year}年</b> ${cnt}回・${km.toFixed(1)}km</div>
