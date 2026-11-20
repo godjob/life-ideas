@@ -348,6 +348,7 @@
     .run-table th { background: #1a1a2e; color: #fff; padding: 7px 8px; text-align: left; white-space: nowrap; font-weight: 600; }
     .run-table td { padding: 7px 8px; border-bottom: 1px solid #eee; white-space: nowrap; font-variant-numeric: tabular-nums; }
     .run-table .num { text-align: right; }
+    .run-table td.run-no { color: #aaa; font-size: 0.75rem; padding-right: 4px; }
     .run-table td.run-hl { white-space: normal; min-width: 12em; color: #555; font-size: 0.8rem; line-height: 1.5; }
     .run-table tbody tr { cursor: pointer; }
     .run-table tbody tr:hover, .run-table tbody tr:focus { background: #fff4f6; outline: none; }
@@ -745,7 +746,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.65';
+  const VERSION = 'v1.66';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -3144,9 +3145,10 @@
     const totalKm = rows.reduce((a, r) => a + (r.dist_km || 0), 0);
     view.querySelector('.run-count').textContent = `${rows.length}件・${totalKm.toFixed(1)}km`;
     const showYear = f.year === 'all';
-    const body = rows.map(r => {
+    const body = rows.map((r, i) => {
       const [y, m, d] = r.date.split('-');
       return `<tr data-id="${runEsc(r.id)}" tabindex="0">
+        <td class="num run-no">${i + 1}</td>
         <td>${showYear ? y.slice(2) + '/' : ''}${m}/${d}<span class="${runDowClass(r.weekday)}">(${runEsc(r.weekday)})</span></td>
         <td class="num">${runNum(r.dist_km, 2)}</td>
         <td class="num">${runFmtDur(r.duration_s)}</td>
@@ -3156,8 +3158,8 @@
         <td class="run-hl">${r.race ? `<span class="run-race-mark" title="${runEsc(r.race)}">🏁</span>` : ''}${runEsc(r.headline)}${r.memo ? `<span class="run-memo-mark" title="${runEsc(r.memo)}">📝</span>` : ''}</td></tr>`;
     }).join('');
     view.querySelector('.run-table-wrap').innerHTML = `<table class="run-table">
-      <thead><tr><th>日付</th><th class="num">距離km</th><th class="num">時間</th><th class="num">ペース</th><th class="num">心拍</th><th class="num">上りm</th><th>ひとこと</th></tr></thead>
-      <tbody>${body || '<tr><td colspan="7" class="run-muted">該当なし</td></tr>'}</tbody></table>`;
+      <thead><tr><th class="num">#</th><th>日付</th><th class="num">距離km</th><th class="num">時間</th><th class="num">ペース</th><th class="num">心拍</th><th class="num">上りm</th><th>ひとこと</th></tr></thead>
+      <tbody>${body || '<tr><td colspan="8" class="run-muted">該当なし</td></tr>'}</tbody></table>`;
   }
 
   // 年カレンダー型ヒートマップ（列=週・行=曜日 日〜土）。距離で 4 段階の濃淡
