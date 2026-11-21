@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T18:56:53+09:00",
+  "generatedAt": "2026-11-21T19:19:37+09:00",
   "weekly": {
-    "commitCount": 39,
+    "commitCount": 40,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-21",
-        "count": 7
+        "count": 8
       }
     ]
   },
   "byDirectory": {
     "scrap": 6,
     "ideas": 1,
-    "health": 7,
+    "health": 8,
     "books": 5,
     "portfolio": 0,
     "other": 25
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "health: 22km走の補給（スポーツようかん・ジェル）と走行中の給食で便意が来ない実感を記録"
+    },
     {
       "date": "2026-11-21",
       "message": "git_scrap: front matter の source が URL でなければ無視する・URLなしスクラップのwiki出典をリンクにしない（壊れたリンク6箇所も修正）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-21",
       "message": "running: 2026-11-21 奈良前のロング走22kmの分析を追記・公開版を再生成"
-    },
-    {
-      "date": "2026-11-21",
-      "message": "scrap: 2026-11-21 【やっぱり権力】AI時代に必要なのは「影響力」／責・【株式上場】アンソロピック社員たちは「上級国民」に"
     }
   ]
 }
