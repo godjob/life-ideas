@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T15:11:31+09:00",
+  "generatedAt": "2026-11-21T18:48:28+09:00",
   "weekly": {
-    "commitCount": 36,
+    "commitCount": 37,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,12 +29,12 @@
       },
       {
         "date": "2026-11-21",
-        "count": 4
+        "count": 5
       }
     ]
   },
   "byDirectory": {
-    "scrap": 5,
+    "scrap": 6,
     "ideas": 1,
     "health": 7,
     "books": 5,
@@ -42,6 +42,10 @@
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "scrap: 2026-11-21 AIエージェントにSNSクリップ運用を任せるセット"
+    },
     {
       "date": "2026-11-21",
       "message": "running: 2026-11-21 奈良前のロング走22kmの分析を追記・公開版を再生成"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-21",
       "message": "朝刊: 2026-11-21 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-20",
-      "message": "dashboard v1.67: Booksのハイライトをカード化（小さめ文字・行間1.2・。ごと改行・途切れ結合・キーワード印・Page:表記の残り修正）"
     }
   ]
 }
