@@ -310,6 +310,11 @@
     /* ===== Running: 走行一覧・走行詳細（.run- 接頭辞のクラスに限定。他タブへ波及させない） ===== */
     .ultra-page th, .ultra-page td { white-space: nowrap; }
     .ultra-page th.ultra-wrap, .ultra-page td.ultra-wrap { white-space: normal; min-width: 13em; }
+    /* 表が本文の枠より広いときは枠内で横スクロール（PC幅でもはみ出させない。v1.68） */
+    .ultra-page .ultra-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 16px 0; }
+    .ultra-page .ultra-table-scroll > table { margin: 0; }
+    /* PC幅では長い文のセルを細めにして、実績列まで枠内に収める（スマホは表ごと横スクロールなので 13em のまま） */
+    @media (min-width: 769px) { .ultra-page th.ultra-wrap, .ultra-page td.ultra-wrap { min-width: 8em; } }
     .ultra-prof { margin: 8px 0 16px; }
     .ultra-prof-hint { font-size: 0.8rem; margin: 0 0 6px; }
     .ultra-prof-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid #eee; border-radius: 8px; background: #fff; }
@@ -754,7 +759,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.67';
+  const VERSION = 'v1.68';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -3019,7 +3024,19 @@
     const body = contentEl.querySelector('.markdown-body');
     if (body) {
       body.classList.add('ultra-page');
-      body.querySelectorAll('td, th').forEach(td => { if (td.textContent.trim().length > 14) td.classList.add('ultra-wrap'); });
+      // 長い文を含む列は列ごと折り返し可にする（セル単位だと短いセルの nowrap が列幅を決めてしまい、PC幅で枠をはみ出す）
+      body.querySelectorAll('table').forEach(t => {
+        const rows = [...t.rows], wide = new Set();
+        rows.forEach(r => [...r.cells].forEach((c, i) => { if (c.textContent.trim().length > 14) wide.add(i); }));
+        rows.forEach(r => [...r.cells].forEach((c, i) => { if (wide.has(i)) c.classList.add('ultra-wrap'); }));
+      });
+      body.querySelectorAll('table').forEach(t => {
+        if (t.parentElement.classList.contains('ultra-table-scroll')) return;
+        const w = document.createElement('div');
+        w.className = 'ultra-table-scroll';
+        t.parentNode.insertBefore(w, t);
+        w.appendChild(t);
+      });
     }
     await ultraEnhanceProfile(contentEl, seq);
   }
