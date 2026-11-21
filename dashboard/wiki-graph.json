@@ -17,7 +17,7 @@
       "id": "accounting-ai-domain-application",
       "label": "税務会計領域のAI活用：仕訳自動化と除外ルール設計の実例",
       "group": "ビジネス・組織",
-      "value": 3,
+      "value": 4,
       "tags": [
         "税務会計",
         "自動仕訳",
@@ -55,7 +55,7 @@
       "id": "agentic-engineering-supervisor-model",
       "label": "Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト",
       "group": "AIエージェント設計",
-      "value": 41,
+      "value": 42,
       "tags": [
         "監督者モデル",
         "ハーネスエンジニアリング",
@@ -185,7 +185,7 @@
       "id": "ai-agent-governance-human-criteria",
       "label": "AIエージェント組織のガバナンスと人間による選別基準設計",
       "group": "AIエージェント設計",
-      "value": 9,
+      "value": 11,
       "tags": [
         "ガバナンス",
         "組織設計",
@@ -231,6 +231,19 @@
         "AI活用",
         "メタスキル",
         "業務フロー再設計"
+      ]
+    },
+    {
+      "id": "ai-agent-setup-prompt-engineering",
+      "label": "AIエージェント一括委任セットアッププロンプト：業務自動化とリスク回避の指示設計",
+      "group": "プロンプト・AI活用",
+      "value": 3,
+      "tags": [
+        "プロンプト設計",
+        "業務自動化",
+        "AIガバナンス",
+        "リスク管理",
+        "ワークフロー"
       ]
     },
     {
@@ -574,7 +587,7 @@
       "id": "ai-driven-workflow-reengineering",
       "label": "AI前提の業務フロー再設計：効率化からビジネスモデル変革へのシフト",
       "group": "ビジネス・組織",
-      "value": 34,
+      "value": 35,
       "tags": [
         "業務フロー再設計",
         "組織変革",
@@ -678,7 +691,7 @@
       "id": "ai-failure-log",
       "label": "AIエージェント失敗ログと修正ナレッジ",
       "group": "AIエージェント設計",
-      "value": 28,
+      "value": 29,
       "tags": [
         "失敗ログ",
         "プロンプト改善",
@@ -730,7 +743,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 23,
+      "value": 25,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -1042,7 +1055,7 @@
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "ビジネス・組織",
-      "value": 25,
+      "value": 27,
       "tags": [
         "AIガバナンス",
         "セキュリティ",
@@ -1327,7 +1340,7 @@
       "id": "backoffice-automation-ai-cowork",
       "label": "バックオフィス自動化とAI Cowork：経理・労務・法務業務の自律実行と標準化",
       "group": "ビジネス・組織",
-      "value": 14,
+      "value": 15,
       "tags": [
         "バックオフィス自動化",
         "AI導入",
@@ -1957,7 +1970,7 @@
       "id": "document-format-conversion-markdown-standardization",
       "label": "ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上",
       "group": "製造業・業務DX",
-      "value": 7,
+      "value": 8,
       "tags": [
         "ドキュメント変換",
         "Markdown標準化",
@@ -2359,7 +2372,7 @@
       "id": "instruction-design-three-elements",
       "label": "指示設計の3要素フレームワーク：背景・目的・期待アウトプット形式",
       "group": "プロンプト・AI活用",
-      "value": 29,
+      "value": 30,
       "tags": [
         "指示設計",
         "プロンプト設計",
@@ -2774,7 +2787,7 @@
       "id": "manufacturing-ai-quick-wins",
       "label": "製造業のAI即日適用パターン：資料処理と修正要望の自動化",
       "group": "製造業・業務DX",
-      "value": 49,
+      "value": 50,
       "tags": [
         "AI導入",
         "自動化",
@@ -3357,7 +3370,7 @@
       "id": "prompt-clarity-management-feedback-loop",
       "label": "プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上",
       "group": "プロンプト・AI活用",
-      "value": 17,
+      "value": 18,
       "tags": [
         "プロンプト設計",
         "指示設計",
@@ -3784,7 +3797,7 @@
       "id": "sre-agent-incident-automation-manufacturing",
       "label": "SREエージェントによるインシデント自動化：製造業への応用",
       "group": "製造業・業務DX",
-      "value": 6,
+      "value": 7,
       "tags": [
         "SRE",
         "インシデント自動化",
@@ -3991,7 +4004,7 @@
       "id": "workflow-skill-definition",
       "label": "ワークフローのSkill化：業務手順の標準化と共有",
       "group": "Claude/AI開発ツール",
-      "value": 11,
+      "value": 12,
       "tags": [
         "Skill System",
         "ワークフロー",
@@ -4941,6 +4954,10 @@
     },
     {
       "from": "ai-agent-operations",
+      "to": "ai-agent-setup-prompt-engineering"
+    },
+    {
+      "from": "ai-agent-operations",
       "to": "ai-email-native-interface-system-integration"
     },
     {
@@ -5082,6 +5099,58 @@
     {
       "from": "ai-agent-quality-deep-insight-human-role",
       "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "accounting-ai-domain-application"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "ai-agent-governance-human-criteria"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "ai-failure-log"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "backoffice-automation-ai-cowork"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "document-format-conversion-markdown-standardization"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "instruction-design-three-elements"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "prompt-clarity-management-feedback-loop"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "sre-agent-incident-automation-manufacturing"
+    },
+    {
+      "from": "ai-agent-setup-prompt-engineering",
+      "to": "workflow-skill-definition"
     },
     {
       "from": "ai-agent-token-metrics-career-leverage",
@@ -7993,6 +8062,14 @@
     },
     {
       "from": "ai-prompt-engineering-leadership-career",
+      "to": "ai-agent-governance-human-criteria"
+    },
+    {
+      "from": "ai-prompt-engineering-leadership-career",
+      "to": "ai-agent-setup-prompt-engineering"
+    },
+    {
+      "from": "ai-prompt-engineering-leadership-career",
       "to": "ai-board-decision-making"
     },
     {
@@ -8006,6 +8083,10 @@
     {
       "from": "ai-prompt-engineering-leadership-career",
       "to": "ai-orchestrator-role"
+    },
+    {
+      "from": "ai-prompt-engineering-leadership-career",
+      "to": "ai-security-non-engineer-governance-framework"
     },
     {
       "from": "ai-prompt-engineering-leadership-career",
@@ -9037,7 +9118,19 @@
     },
     {
       "from": "automated-content-distribution",
+      "to": "ai-agent-setup-prompt-engineering"
+    },
+    {
+      "from": "automated-content-distribution",
+      "to": "ai-driven-workflow-reengineering"
+    },
+    {
+      "from": "automated-content-distribution",
       "to": "ai-failure-log"
+    },
+    {
+      "from": "automated-content-distribution",
+      "to": "ai-governance-human-oversight-framework"
     },
     {
       "from": "automated-content-distribution",

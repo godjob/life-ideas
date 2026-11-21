@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-11-21] ingest | AIエージェントにSNSクリップ運用を任せるセットアッププロンプト（GTA6ファンページの例）
+- 更新ページ: [自動コンテンツ配信：AIによるPR動画生成とSNS投稿の仕組み](automated-content-distribution.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略](ai-prompt-engineering-leadership-career.md), [AIエージェント一括委任セットアッププロンプト：業務自動化とリスク回避の指示設計](ai-agent-setup-prompt-engineering.md)
+- 出典: [AIエージェントにSNSクリップ運用を任せるセットアッププロンプト（GTA6ファ](Xで見かけた画像2枚（英語「Faceless GTA 6 Clipping Page: Setup Prompt」Page 1/2・2/2）を日本語に要約)
+
 ## [2026-11-21] ingest | 【株式上場】アンソロピック社員たちは「上級国民」になった（AI/IPO/OpenAI/Amazon/
 - 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理](ai-governance-human-oversight-framework.md), [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md)
 - 出典: [【株式上場】アンソロピック社員たちは「上級国民」になった（AI/IPO/Open](https://www.youtube.com/watch?v=zWM8MZnK8jo)
