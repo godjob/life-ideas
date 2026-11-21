@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T07:03:14+09:00",
+  "generatedAt": "2026-11-21T15:10:33+09:00",
   "weekly": {
-    "commitCount": 32,
+    "commitCount": 35,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,19 +29,31 @@
       },
       {
         "date": "2026-11-21",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 4,
+    "scrap": 5,
     "ideas": 1,
-    "health": 5,
+    "health": 6,
     "books": 5,
     "portfolio": 0,
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "scrap: 2026-11-21 【やっぱり権力】AI時代に必要なのは「影響力」／責・【株式上場】アンソロピック社員たちは「上級国民」に"
+    },
+    {
+      "date": "2026-11-21",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
+    {
+      "date": "2026-11-21",
+      "message": "朝刊: 2026-11-21 Morning Edition生成"
+    },
     {
       "date": "2026-11-20",
       "message": "dashboard v1.67: Booksのハイライトをカード化（小さめ文字・行間1.2・。ごと改行・途切れ結合・キーワード印・Page:表記の残り修正）"
@@ -49,18 +61,6 @@
     {
       "date": "2026-11-20",
       "message": "news: 2026-11-20 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-11-20",
-      "message": "dashboard v1.66: 走行一覧に絞り込みごとの連番列を追加"
-    },
-    {
-      "date": "2026-11-20",
-      "message": "dashboard v1.65: Booksの自分の考察をエッセンス直下へ移動・走行カレンダーを日曜始まりに"
-    },
-    {
-      "date": "2026-11-20",
-      "message": "scrap: 2026-11-20 【仕事の任せ方】部下が120点を出す「靴下理論」と・【能力競争時代の終焉】「やっとこの時代が来た」これ"
     }
   ]
 }
