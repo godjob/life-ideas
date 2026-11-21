@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T18:48:52+09:00",
+  "generatedAt": "2026-11-21T18:56:53+09:00",
   "weekly": {
-    "commitCount": 38,
+    "commitCount": 39,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-21",
-        "count": 6
+        "count": 7
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 7,
     "books": 5,
     "portfolio": 0,
-    "other": 24
+    "other": 25
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "git_scrap: front matter の source が URL でなければ無視する・URLなしスクラップのwiki出典をリンクにしない（壊れたリンク6箇所も修正）"
+    },
     {
       "date": "2026-11-21",
       "message": "ideas/urls: URLのない画像スクラップ（GTA6セットアッププロンプト）の誤登録行を削除"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-21",
       "message": "scrap: 2026-11-21 【やっぱり権力】AI時代に必要なのは「影響力」／責・【株式上場】アンソロピック社員たちは「上級国民」に"
-    },
-    {
-      "date": "2026-11-21",
-      "message": "ランニング記録更新: import_running.py実行"
     }
   ]
 }
