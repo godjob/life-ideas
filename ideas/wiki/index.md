@@ -1,13 +1,18 @@
 # Wiki インデックス
 
-最終更新: 2026-11-20
+最終更新: 2026-11-21
 
 | ページ | 登録日 | 更新日 | 概要 |
 |--------|--------|--------|------|
+| [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md) | 26/05/04 | 26/11/21 | AIによるホワイトカラー業務の自動化が急速に進展する中で、システム管理業務も例外ではない。AI時代の働き方の逆転により、 |
+| [AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理](ai-governance-human-oversight-framework.md) | 26/05/12 | 26/11/21 | AIの企業導入が加速する中で、上場会社においては活用による効率化と同時に、厳格なガバナンスとリスク管理が不可欠となります |
+| [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md) | 26/07/27 | 26/11/21 | AI技術の急速な発展に伴い、世界中でAI人材の獲得競争が激化しています。特に中国発の高性能AIモデルの登場や、主要AIス |
+| [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 26/05/04 | 26/11/21 | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
+| [マネジメントにおける仕事の任せ方と責任構造：靴下理論と「承認」によるリスク引き受け](management-delegation-socks-theory-approval-risk.md) | 26/11/20 | 26/11/21 | マネジメントにおける権限委譲と仕事の任せ方は、単に業務を振る技術ではなく、上司が責任をどのように引き受けるかという組織構 |
+| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/11/21 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [無限に働く部下としてのAI：活用と管理の原則](ai-as-infinite-subordinate-management.md) | 26/07/04 | 26/11/20 | AIを「無限に働く部下」として捉え、その活用と管理の原則を説く概念。AIが定型業務やデータ分析を代替する時代において、人 |
 | [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md) | 26/05/12 | 26/11/20 | AI技術の進化、特に大手AIモデル企業が直接顧客企業の現場に入り込み、FDE（現場派遣エンジニア）として受託業務を開始す |
 | [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md) | 26/08/12 | 26/11/20 | AIが「文房具」レベルで普及し、業務効率を劇的に向上させる一方で、人間がAIの成果を鵜呑みにせず、本質を深く「理解」し、 |
-| [マネジメントにおける仕事の任せ方と責任構造：靴下理論と「承認」によるリスク引き受け](management-delegation-socks-theory-approval-risk.md) | 26/11/20 | 26/11/20 | マネジメントにおける権限委譲と仕事の任せ方は、単に業務を振る技術ではなく、上司が責任をどのように引き受けるかという組織構 |
 | [プロンプト明確性とマネジメント：AIフィードバックループによるスキル向上](prompt-clarity-management-feedback-loop.md) | 26/03/15 | 26/11/20 | AIへの指示出しプロセスは、マネジメントスキルの「筋トレ」になる。人間チームは曖昧な指示を忖度してくれるため問題が隠れる |
 | [ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位](wellness-eq-capital-ai-era-competitive-advantage.md) | 26/04/04 | 26/11/20 | AI失業時代において、専門スキルや知識による「能力競争」の価値はAIの標準化によって急速に減退する一方で、ウェルネス活動 |
 | [AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件](ai-bubble-sustainability-strategy.md) | 26/05/31 | 26/11/18 | AI投資の過熱に伴う市場の修正圧力や規制強化の動き（NVIDIAを巡る市場構造の変化や米国の規制動向など）が高まる中、企 |
@@ -17,7 +22,6 @@
 | [ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化](ultra-marathon-strategy-ai-pacing-nutrition-mental.md) | 26/11/15 | 26/11/18 | 100kmに及ぶウルトラマラソンの完走には、単なる根性論ではなく、フルマラソンの自己ベスト（SUB3やSUB3.5など） |
 | [動画コンテンツのメタデータ収集戦略：YouTubeスクラップの効率化とナレッジ管理](video-content-metadata-collection-strategy.md) | 26/04/17 | 26/11/18 | デジタル情報の急増に伴い、YouTubeなどの動画プラットフォームから業務改善やAI活用のナレッジを抽出することは重要な |
 | [中国AI・半導体産業の地政学的影響：Kimi K3とCXMTが変える世界情勢](china-ai-semiconductor-geopolitics.md) | 26/08/02 | 26/11/17 | 中国のAIおよび半導体産業が急速な発展を遂げており、特に高性能AIモデル「Kimi K3」の登場と大手半導体メーカー「C |
-| [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md) | 26/04/14 | 26/11/17 | OpenAIとAnthropicの競争構図は、AI産業における経営戦略の転換点を示している。OpenAIがSoraなどの |
 | [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md) | 26/07/23 | 26/11/15 | AI、特に汎用人工知能（AGI）の進化は、個人の健康管理やパフォーマンス向上に革新をもたらし、ウェアラブルデバイスと職場 |
 | [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md) | 26/07/12 | 26/11/15 | ブックデザイナー井上新八氏が定義する「心の渋滞」は、毎日の意思決定の積み重ねによって生じる心理的疲労であり、この状態では |
 | [量的自己記録とAI分析の相乗効果：データ資産化と継続的改善](quantified-self-ai-feedback-loop.md) | 26/03/14 | 26/11/15 | 量的自己記録（Quantified Self）で日々積み上げたデータは、AIの分析対象となることで初めて資産価値を発揮し |
@@ -35,7 +39,6 @@
 | [当たり前の問い直し：継続的改善と哲学的な視点](rethinking-defaults-continuous-improvement.md) | 26/07/12 | 26/11/06 | 「当たり前を問い直す」という哲学的な視点は、個人や組織における継続的改善の根幹をなします。特にAIが急速に進化する現代に |
 | [Capability Overhang：AIモデル能力とユーザー活用ギャップの埋め方](capability-overhang-user-activation-gap.md) | 26/05/03 | 26/11/01 | Capability Overhangとは、AIモデルが持つ実際の能力と、ユーザーが実際に活用できている能力の間の深刻な |
 | [AI時代のパーソナルブランディング：インフルエンサー戦略と自己表現](ai-personal-branding-influencer-strategy.md) | 26/07/23 | 26/10/23 | AI技術の進化により、プロダクトやアウトプットが均質化する中で、個人が競争優位性を確立するためには「推される存在」となる |
-| [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md) | 26/05/04 | 26/10/23 | 結晶性知能とは、経験と知識の蓄積から得られた判断力や問題解決能力であり、AI時代において流動性知能（新しい環境への適応力 |
 | [アイデンティティ変革による習慣形成：AI時代の自己再定義](identity-transformation-habit-formation-ai-era.md) | 26/09/14 | 26/10/23 | AIが社会に深く浸透し、個人と組織の働き方が大きく変化する現代において、単なる目標設定では習慣化や自己成長が困難になって |
 | [中年の危機を好機へ：人生のナラティブ再構築と40代からの競争力設計](midlife-crisis-reframing-opportunity.md) | 26/04/04 | 26/10/23 | 中年の危機は、単なる人生の停滞ではなく、人生のナラティブを根本から再構築する転換点である。40代からの競争力は、過去の経 |
 | [物語思考とキャラ設定（ポジショニング）によるキャリア戦略](narrative-positioning-career-strategy.md) | 26/10/23 | 26/10/23 | 不確実性の高い現代において、目先の利益追及（PL思考）から長期的な資産形成（BS思考）へキャリアの視点をシフトさせること |
@@ -80,7 +83,6 @@
 | [物流におけるフィジカルAI実装と費用対効果](physical-ai-logistics-implementation.md) | 26/10/03 | 26/10/03 | 物流現場におけるフィジカルAIの実装は、多品種・少量生産への対応や24時間稼働による生産性向上を実現し、深刻化する労働力 |
 | [AGIの社会的影響と責任ある開発](agi-societal-impact-responsible-development.md) | 26/07/23 | 26/10/01 | 汎用人工知能（AGI）の到来は、人類社会に未曽有の変革をもたらす可能性を秘めています。このページでは、AGIがもたらす広 |
 | [AIが加速する科学・産業革命：インフラと次世代技術](ai-accelerated-scientific-industrial-revolution.md) | 26/10/01 | 26/10/01 | AI技術の普及は、科学や産業のあり方を根本から変革しつつあり、その進化はまだ初期段階に過ぎません。本ページでは、AIの本 |
-| [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md) | 26/05/04 | 26/10/01 | AIによるホワイトカラー業務の自動化が急速に進展する中で、システム管理業務も例外ではない。AI時代の働き方の逆転により、 |
 | [AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ](ai-capability-expectation-calibration-realistic-timeline.md) | 26/05/04 | 26/10/01 | Andrej Karpathyが指摘する「AIは動物ではなく幽霊」という視点から、現在のLLMの根本的な能力限界を認識し |
 | [AIによる破壊的変化とハードウェア優位性](ai-disruption-hardware-advantage.md) | 26/09/24 | 26/10/01 | AI技術の急速な進化は、産業構造に破壊的な変化をもたらし、特にソフトウェアやサービス分野のビジネスモデルを大きく変えよう |
 | [AIの存亡リスクとガバナンス：開発競争と国際規制](ai-existential-risk-governance.md) | 26/09/21 | 26/10/01 | AI技術の急速な発展は、その潜在的な恩恵と共に、人類の存亡に関わるリスク（X-risk）を顕在化させています。本ページで |
@@ -170,7 +172,6 @@
 | [Kimi K3とMoonshot AI：AIモデル性能比較と市場影響](kimi-k3-moonshot-ai-model-comparison.md) | 26/07/27 | 26/08/02 | 中国のMoonshot AIが開発した「Kimi K3」は、AnthropicのClaude Fable 5やOpenA |
 | [長期連続稼働AIエージェント設計：1ヶ月以上の自律運用と推論最適化パターン](long-running-ai-agent-design-patterns.md) | 26/05/03 | 26/08/02 | NVIDIA GTC 2026でのOpenClawおよびKimi創業者ヤン・ジリン氏の事例に見られるように、AIエージェ |
 | [マルチエージェントのタスク依存関係管理：製造業システム間の自動調整と競合解消](multi-agent-task-dependency-management.md) | 26/03/16 | 26/08/02 | 複数のAIエージェントが異なるシステムを管理する際、タスク間の依存関係を自動的に把握し、同時実行による競合やデータ不整合 |
-| [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md) | 26/07/27 | 26/07/27 | AI技術の急速な発展に伴い、世界中でAI人材の獲得競争が激化しています。特に中国発の高性能AIモデルの登場は、この競争に |
 | [パーソナルAIアシスタント化：フライデー型自動化エージェントの組織導入と個人生産性向上設計](personal-ai-assistant-automation-design.md) | 26/04/16 | 26/07/23 | パーソナルAIアシスタント「フライデー」型の自動化エージェントを導入することで、個人の業務を大幅に削減し、生産性を飛躍的 |
 | [AI時代の『推される人』戦略：プロダクト均質化と差別化](pushed-person-strategy-ai-era.md) | 26/07/23 | 26/07/23 | AI技術の進化により、ビジネスにおけるプロダクトやアウトプットの品質が均質化し、機能や効率性だけでは差別化が難しくなる時 |
 | [人的資本の哲学：AI時代の問い直しと本質的価値](human-capital-philosophy-ai-era.md) | 26/07/12 | 26/07/12 | AIが社会のあらゆる側面に浸透する現代において、「人的資本」の概念は根本的な問い直しを迫られています。本ページでは、山口 |
@@ -194,7 +195,6 @@
 | [非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装](ai-security-non-engineer-governance-framework.md) | 26/04/14 | 26/05/20 | AI開発ツール（バイブコーディング、OpenCraw、Coworkなど）の普及により、非エンジニアも含む全社的なセキュリ |
 | [Claude Managed Agents：Self-hosted SandboxesとMCP Tunnels](claude-managed-agents-self-hosted-sandboxes.md) | 26/05/20 | 26/05/20 | Claude Managed Agentsに、企業が自社の環境でエージェントを実行できる「Self-hosted San |
 | [NANDフラッシュメモリ市場：AI需要による高騰と需給変化](nand-flash-memory-market-ai-demand.md) | 26/05/20 | 26/05/20 | AIエージェントの急速な普及がNANDフラッシュメモリ市場に劇的な変化をもたらしています。これにより需要が爆発的に増加し |
-| [AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理](ai-governance-human-oversight-framework.md) | 26/05/12 | 26/05/12 | AIの企業導入が加速する中で、上場会社においては、その活用による効率化と同時に、厳格なガバナンスとリスク管理が不可欠とな |
 | [組織全体のAI導入加速：トップダウン指示と自動追跡仕組みによる習慣変化](organizational-ai-adoption-acceleration-topdown-directive.md) | 25/05/05 | 26/05/12 | 組織全体がAI新技術を採用する際、単なる啓蒙や選択肢提供では不十分である。Goodpatchおよび創業114年の地方中小 |
 | [宇宙経済とビジネスモデル：衛星コンステレーション・通信・地球観測](space-economy-business-model.md) | 26/05/31 | 26/05/12 | 宇宙経済は、ロケット打ち上げコストの劇的な低下と小型衛星技術の発展により、急速に商業化が進んでいます。特に、衛星コンステ |
 | [経営者のAIハンズオン学習と組織全体の変革加速：社長自作→全社強制導入の実装パターン](executive-ai-hands-on-learning-organizational-transformation.md) | 26/05/05 | 26/05/05 | グッドパッチの土屋社長が2ヶ月で40個のアプリケーションを自ら開発し、その経験を基に全社員200名にClaude Cod |

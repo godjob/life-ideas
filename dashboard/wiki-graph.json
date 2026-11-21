@@ -587,7 +587,7 @@
       "id": "ai-ecosystem-orchestration-strategy",
       "label": "AIエコシステムオーケストレーション戦略：複数モデルの組み合わせと価値創出",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AIエコシステム",
         "複数モデル",
@@ -717,7 +717,7 @@
       "id": "ai-frontier-diffusion-control",
       "label": "AIフロンティア技術の普及と制御：エコシステム戦略",
       "group": "AIエージェント設計",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AIエコシステム",
         "ハーネスエンジニアリング",
@@ -730,7 +730,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 22,
+      "value": 23,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -795,7 +795,7 @@
       "id": "ai-labor-market-shift-capital-strategy",
       "label": "AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換",
       "group": "AI戦略・社会",
-      "value": 14,
+      "value": 15,
       "tags": [
         "労働市場",
         "資本戦略",
@@ -1042,7 +1042,7 @@
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "ビジネス・組織",
-      "value": 24,
+      "value": 25,
       "tags": [
         "AIガバナンス",
         "セキュリティ",
@@ -1068,7 +1068,7 @@
       "id": "ai-solo-entrepreneurship-impact",
       "label": "AIソロプレナーシップ：個人の能力拡張と起業への影響",
       "group": "キャリア・働き方",
-      "value": 5,
+      "value": 6,
       "tags": [
         "AIソロプレナー",
         "起業",
@@ -1672,7 +1672,7 @@
       "id": "claude-mythos-capability-risk-management",
       "label": "Claude Mythos：高性能化とサンドボックス脱出リスク、経営判断基準の実装",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -2515,7 +2515,7 @@
       "id": "key-person-dependence-corporate-governance-risk",
       "label": "カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性",
       "group": "ビジネス・組織",
-      "value": 3,
+      "value": 5,
       "tags": [
         "リスク管理",
         "ガバナンス",
@@ -2748,7 +2748,7 @@
       "id": "management-delegation-socks-theory-approval-risk",
       "label": "マネジメントにおける仕事の任せ方と責任構造：靴下理論と「承認」によるリスク引き受け",
       "group": "ビジネス・組織",
-      "value": 2,
+      "value": 4,
       "tags": [
         "リーダーシップ",
         "組織設計",
@@ -3150,7 +3150,7 @@
       "id": "openai-anthropic-competitive-dynamics-market-shift",
       "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
       "group": "ビジネス・組織",
-      "value": 10,
+      "value": 11,
       "tags": [
         "ビジネス戦略",
         "AI導入",
@@ -3680,7 +3680,7 @@
       "id": "sleep-priority-performance-management",
       "label": "睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性",
       "group": "キャリア・働き方",
-      "value": 27,
+      "value": 28,
       "tags": [
         "睡眠",
         "脳認知能力",
@@ -3719,7 +3719,7 @@
       "id": "sovereign-ai-national-security-strategy",
       "label": "ソブリンAI（AI主権）と安全保障：米中依存回避と自国データ・インフラ保護戦略",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 6,
       "tags": [
         "地政学リスク",
         "デジタル赤字",
@@ -3901,7 +3901,7 @@
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
       "group": "ビジネス・組織",
-      "value": 17,
+      "value": 18,
       "tags": [
         "組織変革",
         "AI導入",
@@ -5297,6 +5297,10 @@
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
+      "to": "ai-solo-entrepreneurship-impact"
+    },
+    {
+      "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "cloud-independence-ai-cost-security-strategy"
     },
     {
@@ -5329,6 +5333,10 @@
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
+      "to": "management-delegation-socks-theory-approval-risk"
+    },
+    {
+      "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "manufacturing-system-vulnerability-preemptive-audit"
     },
     {
@@ -5345,6 +5353,10 @@
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
+      "to": "sleep-priority-performance-management"
+    },
+    {
+      "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "space-economy-business-model"
     },
     {
@@ -5354,6 +5366,10 @@
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
       "to": "sre-agent-incident-automation-manufacturing"
+    },
+    {
+      "from": "ai-automation-system-admin-differentiation-strategy",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "ai-automation-system-admin-differentiation-strategy",
@@ -7049,11 +7065,27 @@
     },
     {
       "from": "ai-governance-human-oversight-framework",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "ai-governance-human-oversight-framework",
       "to": "assumption-reevaluation-cycle-continuous-improvement"
     },
     {
       "from": "ai-governance-human-oversight-framework",
+      "to": "key-person-dependence-corporate-governance-risk"
+    },
+    {
+      "from": "ai-governance-human-oversight-framework",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
+      "from": "ai-governance-human-oversight-framework",
       "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "ai-governance-human-oversight-framework",
+      "to": "sovereign-ai-national-security-strategy"
     },
     {
       "from": "ai-human-coexistence-risk-management",
@@ -8365,7 +8397,19 @@
     },
     {
       "from": "ai-talent-global-competition-manufacturing",
+      "to": "ai-ecosystem-orchestration-strategy"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
       "to": "ai-engineer-practical-skills-roadmap"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "ai-governance-human-oversight-framework"
+    },
+    {
+      "from": "ai-talent-global-competition-manufacturing",
+      "to": "ai-labor-market-shift-capital-strategy"
     },
     {
       "from": "ai-talent-global-competition-manufacturing",
@@ -10734,6 +10778,10 @@
     {
       "from": "crystallized-intelligence-ai-era-strategy",
       "to": "labor-money-decoupling"
+    },
+    {
+      "from": "crystallized-intelligence-ai-era-strategy",
+      "to": "management-delegation-socks-theory-approval-risk"
     },
     {
       "from": "crystallized-intelligence-ai-era-strategy",
@@ -15497,6 +15545,10 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-frontier-diffusion-control"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-governance-human-oversight-framework"
     },
     {
@@ -15533,6 +15585,10 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "claude-mythos-capability-risk-management"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "fde-engineer-domain-knowledge-priority-career-design"
     },
     {
@@ -15542,6 +15598,10 @@
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "key-person-dependence-corporate-governance-risk"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",

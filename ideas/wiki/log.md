@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-11-21] ingest | 【株式上場】アンソロピック社員たちは「上級国民」になった（AI/IPO/OpenAI/Amazon/
+- 更新ページ: [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md), [AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理](ai-governance-human-oversight-framework.md), [AI人材のグローバル競争と製造業への影響](ai-talent-global-competition-manufacturing.md)
+- 出典: [【株式上場】アンソロピック社員たちは「上級国民」になった（AI/IPO/Open](https://www.youtube.com/watch?v=zWM8MZnK8jo)
+
+## [2026-11-21] ingest | 【やっぱり権力】AI時代に必要なのは「影響力」／責任を持って決める／「いい権力」を手に入れるロードマ
+- 更新ページ: [マネジメントにおける仕事の任せ方と責任構造：靴下理論と「承認」によるリスク引き受け](management-delegation-socks-theory-approval-risk.md), [結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略](crystallized-intelligence-ai-era-strategy.md), [システム管理業務のAI自動化と差別化戦略：物量作戦・クローズドネットワーク・宇宙サイバー脅威対応](ai-automation-system-admin-differentiation-strategy.md)
+- 出典: [【やっぱり権力】AI時代に必要なのは「影響力」／責任を持って決める／「いい権力」](https://www.youtube.com/watch?v=wOTlAcCDK00)
+
 ## [2026-11-20] ingest | 【能力競争時代の終焉】「やっとこの時代が来た」これからビジネスパーソンは「人間力」を高めよ/前編【前
 - 更新ページ: [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md), [AI時代の労働市場シフトと資本戦略：職位から人的・社会・金融資本への転換](ai-labor-market-shift-capital-strategy.md), [ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位](wellness-eq-capital-ai-era-competitive-advantage.md)
 - 出典: [【能力競争時代の終焉】「やっとこの時代が来た」これからビジネスパーソンは「人間力](https://www.youtube.com/watch?v=DBRCiOTOn74)

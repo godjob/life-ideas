@@ -1,7 +1,82 @@
 {
  "version": 1,
- "generated": "2026-11-15",
+ "generated": "2026-11-21",
  "runs": [
+  {
+   "id": "2026-11-21_0813",
+   "date": "2026-11-21",
+   "weekday": "土",
+   "dist_km": 22.05,
+   "duration_s": 7862,
+   "pace_s": 357,
+   "moving_pace_s": 350,
+   "stop_s": 318,
+   "climb_m": 294,
+   "hr_avg": 151,
+   "hr_max": 171,
+   "drift_bpm": -5,
+   "zone_pct": [
+    0,
+    1,
+    47,
+    52,
+    0
+   ],
+   "headline": "合計318秒の停止を含みつつも後半にかけて心拍数を抑えて走破",
+   "memo": "AIトレーナーの指示通り走った。楽に走れた。",
+   "race": null,
+   "file": "2026/2026-11-21_0813.json"
+  },
+  {
+   "id": "2026-11-19_0529",
+   "date": "2026-11-19",
+   "weekday": "木",
+   "dist_km": 4.02,
+   "duration_s": 1234,
+   "pace_s": 307,
+   "moving_pace_s": 307,
+   "stop_s": 0,
+   "climb_m": 35,
+   "hr_avg": 156,
+   "hr_max": 167,
+   "drift_bpm": -4,
+   "zone_pct": [
+    0,
+    0,
+    18,
+    82,
+    0
+   ],
+   "headline": "起伏に合わせて配分した4.02kmのイーブンペース走",
+   "memo": "時間ないので短め",
+   "race": null,
+   "file": "2026/2026-11-19_0529.json"
+  },
+  {
+   "id": "2026-11-16_0502",
+   "date": "2026-11-16",
+   "weekday": "月",
+   "dist_km": 5.03,
+   "duration_s": 1616,
+   "pace_s": 322,
+   "moving_pace_s": 321,
+   "stop_s": 5,
+   "climb_m": 44,
+   "hr_avg": 151,
+   "hr_max": 165,
+   "drift_bpm": 5,
+   "zone_pct": [
+    0,
+    2,
+    53,
+    46,
+    0
+   ],
+   "headline": "5.03km・前半5:32→後半5:14と後半型",
+   "memo": "早朝に登り坂多め。出発前排便で便意は抑えられた",
+   "race": null,
+   "file": "2026/2026-11-16_0502.json"
+  },
   {
    "id": "2026-11-14_0919",
    "date": "2026-11-14",
