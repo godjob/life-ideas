@@ -148,4 +148,4 @@ Anthropicの新型モデル「Claude Fable 5」と「Mythos 5」の登場は、�
 - 2026-08-02: [「10秒」で作ったLP売上1.5億!?｜AI導入後、少人数×10倍速で事業が進む](https://youtu.be/M_7dsc8Naig?si=nc6OtFxQbThu9oZ)
 - 2026-09-21: [【Jev 事例10本】「判定だけの AI」で爆速AI体験が実現！日本と海外の事例](https://www.youtube.com/watch?v=zrW_i8eYPlw)
 - 2026-10-03: [【中島聡氏と電撃対談！】ヒューマノイドロボットの可能性は広がるのか？](https://www.youtube.com/watch?v=8yKyS3FhMok)
-- 2026-11-21: [AIエージェントにSNSクリップ運用を任せるセットアッププロンプト（GTA6ファ](Xで見かけた画像2枚（英語「Faceless GTA 6 Clipping Page: Setup Prompt」Page 1/2・2/2）を日本語に要約)
+- 2026-11-21: AIエージェントにSNSクリップ運用を任せるセットアッププロンプト（GTA6ファ
