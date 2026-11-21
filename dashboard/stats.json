@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T15:10:33+09:00",
+  "generatedAt": "2026-11-21T15:11:31+09:00",
   "weekly": {
-    "commitCount": 35,
+    "commitCount": 36,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-21",
-        "count": 3
+        "count": 4
       }
     ]
   },
   "byDirectory": {
     "scrap": 5,
     "ideas": 1,
-    "health": 6,
+    "health": 7,
     "books": 5,
     "portfolio": 0,
     "other": 23
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "running: 2026-11-21 奈良前のロング走22kmの分析を追記・公開版を再生成"
+    },
     {
       "date": "2026-11-21",
       "message": "scrap: 2026-11-21 【やっぱり権力】AI時代に必要なのは「影響力」／責・【株式上場】アンソロピック社員たちは「上級国民」に"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-20",
       "message": "dashboard v1.67: Booksのハイライトをカード化（小さめ文字・行間1.2・。ごと改行・途切れ結合・キーワード印・Page:表記の残り修正）"
-    },
-    {
-      "date": "2026-11-20",
-      "message": "news: 2026-11-20 記事まとめを自動生成"
     }
   ]
 }
