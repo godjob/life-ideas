@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T19:24:12+09:00",
+  "generatedAt": "2026-11-21T19:35:26+09:00",
   "weekly": {
-    "commitCount": 41,
+    "commitCount": 42,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-21",
-        "count": 9
+        "count": 10
       }
     ]
   },
   "byDirectory": {
     "scrap": 6,
     "ideas": 1,
-    "health": 9,
+    "health": 10,
     "books": 5,
     "portfolio": 0,
     "other": 25
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "health: オレは摂取すジェルの栄養値（45g・112kcal・配合成分・価格）を追記し、ウルトラでの補給量の差を計算"
+    },
     {
       "date": "2026-11-21",
       "message": "health: 補給ジェルの商品名を公式サイトで確認した正式名（オレは摂取すジェル エネルギー グレープフルーツ風味）に修正"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-21",
       "message": "ideas/urls: URLのない画像スクラップ（GTA6セットアッププロンプト）の誤登録行を削除"
-    },
-    {
-      "date": "2026-11-21",
-      "message": "scrap: 2026-11-21 AIエージェントにSNSクリップ運用を任せるセット"
     }
   ]
 }
