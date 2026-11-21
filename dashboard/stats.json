@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T18:48:28+09:00",
+  "generatedAt": "2026-11-21T18:48:52+09:00",
   "weekly": {
-    "commitCount": 37,
+    "commitCount": 38,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-21",
-        "count": 5
+        "count": 6
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 7,
     "books": 5,
     "portfolio": 0,
-    "other": 23
+    "other": 24
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "ideas/urls: URLのない画像スクラップ（GTA6セットアッププロンプト）の誤登録行を削除"
+    },
     {
       "date": "2026-11-21",
       "message": "scrap: 2026-11-21 AIエージェントにSNSクリップ運用を任せるセット"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-21",
       "message": "ランニング記録更新: import_running.py実行"
-    },
-    {
-      "date": "2026-11-21",
-      "message": "朝刊: 2026-11-21 Morning Edition生成"
     }
   ]
 }
