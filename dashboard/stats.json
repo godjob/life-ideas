@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T19:35:26+09:00",
+  "generatedAt": "2026-11-21T21:30:25+09:00",
   "weekly": {
-    "commitCount": 42,
+    "commitCount": 43,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-21",
-        "count": 10
+        "count": 11
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 10,
     "books": 5,
     "portfolio": 0,
-    "other": 25
+    "other": 26
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "dashboard v1.68: 奈良ウルトラの表がPC幅で本文枠をはみ出す問題を修正（長文の列を列ごと折り返し・広い表は枠内で横スクロール）"
+    },
     {
       "date": "2026-11-21",
       "message": "health: オレは摂取すジェルの栄養値（45g・112kcal・配合成分・価格）を追記し、ウルトラでの補給量の差を計算"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-21",
       "message": "git_scrap: front matter の source が URL でなければ無視する・URLなしスクラップのwiki出典をリンクにしない（壊れたリンク6箇所も修正）"
-    },
-    {
-      "date": "2026-11-21",
-      "message": "ideas/urls: URLのない画像スクラップ（GTA6セットアッププロンプト）の誤登録行を削除"
     }
   ]
 }
