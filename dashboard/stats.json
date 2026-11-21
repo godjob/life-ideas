@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T21:30:25+09:00",
+  "generatedAt": "2026-11-21T21:31:39+09:00",
   "weekly": {
-    "commitCount": 43,
+    "commitCount": 44,
     "byDay": [
       {
         "date": "2026-11-15",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-21",
-        "count": 11
+        "count": 12
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 10,
     "books": 5,
     "portfolio": 0,
-    "other": 26
+    "other": 27
   },
   "recentCommits": [
+    {
+      "date": "2026-11-21",
+      "message": "news: 2026-11-21 記事まとめを自動生成"
+    },
     {
       "date": "2026-11-21",
       "message": "dashboard v1.68: 奈良ウルトラの表がPC幅で本文枠をはみ出す問題を修正（長文の列を列ごと折り返し・広い表は枠内で横スクロール）"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-21",
       "message": "health: 22km走の補給（スポーツようかん・ジェル）と走行中の給食で便意が来ない実感を記録"
-    },
-    {
-      "date": "2026-11-21",
-      "message": "git_scrap: front matter の source が URL でなければ無視する・URLなしスクラップのwiki出典をリンクにしない（壊れたリンク6箇所も修正）"
     }
   ]
 }
