@@ -1,9 +1,9 @@
 {
   "model": "Opus 5.5",
-  "fiveHourPercent": 0,
-  "fiveHourResetAt": null,
+  "fiveHourPercent": 3,
+  "fiveHourResetAt": "2026-11-22T23:00:00+09:00",
   "sevenDayPercent": 2,
   "sevenDayResetAt": "2026-11-28T10:00:00+09:00",
   "usagePercent": 2,
-  "updatedAt": "2026-11-22T02:03:06+09:00"
+  "updatedAt": "2026-11-22T18:09:50+09:00"
 }
