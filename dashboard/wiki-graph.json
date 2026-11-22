@@ -639,7 +639,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "キャリア・働き方",
-      "value": 40,
+      "value": 41,
       "tags": [
         "AI時代の働き方",
         "自動化",
@@ -756,7 +756,7 @@
       "id": "ai-human-coexistence-risk-management",
       "label": "AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AI依存",
         "セキュリティリスク",
@@ -4747,6 +4747,10 @@
     {
       "from": "ai-age-human-adaptability-strategy",
       "to": "ai-disruption-hardware-advantage"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "ai-era-work-inversion"
     },
     {
       "from": "ai-age-human-adaptability-strategy",
@@ -14587,6 +14591,10 @@
     {
       "from": "matagi-drive-ai-era-value-discovery",
       "to": "ai-fatigue-judgment-burden-mitigation"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "ai-human-coexistence-risk-management"
     },
     {
       "from": "matagi-drive-ai-era-value-discovery",

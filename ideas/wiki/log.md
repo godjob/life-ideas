@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-11-22] ingest | 【人間は「生みの苦しみ」を手放す】落合陽一が語る「AIがAIを生む時代の生存戦略」／「問題解決」はA
+- 更新ページ: [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md)
+- 出典: [【人間は「生みの苦しみ」を手放す】落合陽一が語る「AIがAIを生む時代の生存戦略](https://www.youtube.com/watch?v=KPRUgGi4LtE)
+
 ## [2026-11-21] ingest | AIエージェントにSNSクリップ運用を任せるセットアッププロンプト（GTA6ファンページの例）
 - 更新ページ: [自動コンテンツ配信：AIによるPR動画生成とSNS投稿の仕組み](automated-content-distribution.md), [AIエージェントの運用展開：検品・在庫管理・受発注の自動化](ai-agent-operations.md), [AIプロンプト指示設計リーダーシップ：コード書きからAI使いこなし人材への転換戦略](ai-prompt-engineering-leadership-career.md), [AIエージェント一括委任セットアッププロンプト：業務自動化とリスク回避の指示設計](ai-agent-setup-prompt-engineering.md)
 - 出典: AIエージェントにSNSクリップ運用を任せるセットアッププロンプト（GTA6ファ
