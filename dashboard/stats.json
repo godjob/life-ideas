@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-23T05:53:12+09:00",
+  "generatedAt": "2026-11-23T14:28:30+09:00",
   "weekly": {
-    "commitCount": 36,
+    "commitCount": 38,
     "byDay": [
       {
         "date": "2026-11-17",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-11-23",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "byDirectory": {
     "scrap": 7,
     "ideas": 2,
-    "health": 10,
+    "health": 11,
     "books": 9,
     "portfolio": 0,
     "other": 26
   },
   "recentCommits": [
+    {
+      "date": "2026-11-23",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
+    {
+      "date": "2026-11-23",
+      "message": "朝刊: 2026-11-23 Morning Edition生成"
+    },
     {
       "date": "2026-11-22",
       "message": "news: 2026-11-22 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-11-22",
       "message": "git_scrap: 読書の考察の整形で原文に無い強調語（必ず・絶対など）が足されたら原文を保存する"
-    },
-    {
-      "date": "2026-11-22",
-      "message": "読書記録: 考察の文言を本人の返答どおりに修正（「必ず」の付け足し・言い切りを戻す）"
-    },
-    {
-      "date": "2026-11-22",
-      "message": "読書記録: 考察を追加 — 一億円のDXを入れても、なぜ経理のExcel突合は終わらない"
     }
   ]
 }
