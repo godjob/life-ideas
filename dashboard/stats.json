@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T21:25:14+09:00",
+  "generatedAt": "2026-11-24T23:45:37+09:00",
   "weekly": {
-    "commitCount": 45,
+    "commitCount": 46,
     "byDay": [
       {
         "date": "2026-11-18",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-24",
-        "count": 8
+        "count": 9
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 9,
     "books": 5,
     "portfolio": 0,
-    "other": 26
+    "other": 27
   },
   "recentCommits": [
+    {
+      "date": "2026-11-24",
+      "message": "news: 2026-11-24 記事まとめを自動生成"
+    },
     {
       "date": "2026-11-24",
       "message": "scrap: 2026-11-24 【目的は利益の独占か？安全保障か？】Claudeを"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-24",
       "message": "scrap: 2026-11-24 Shopify創業者トビ・リュトケが、NVIDIA"
-    },
-    {
-      "date": "2026-11-24",
-      "message": "scrap: 2026-11-24 【NVIDIAジェンスン・フアン氏がCEOに舞い戻"
     }
   ]
 }
