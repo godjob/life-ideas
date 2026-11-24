@@ -409,7 +409,7 @@
     .run-splits th { color: #888; font-weight: 600; font-size: 0.75rem; text-align: left; padding: 4px 6px; border-bottom: 1px solid #e2e2e8; white-space: nowrap; }
     .run-splits td { padding: 5px 6px; border-bottom: 1px solid #f0f0f0; white-space: nowrap; font-variant-numeric: tabular-nums; }
     .run-splits .num { text-align: right; }
-    .run-splits td.run-split-pace { width: 60%; }
+    .run-splits td.run-split-pace { width: 50%; }
     .run-split-cell { display: flex; align-items: center; gap: 8px; }
     .run-split-track { flex: 1 1 auto; min-width: 80px; height: 14px; }
     .run-split-track span { display: block; height: 100%; border-radius: 0 4px 4px 0; }
@@ -759,7 +759,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.68';
+  const VERSION = 'v1.69';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -3322,7 +3322,10 @@
     const splits = Array.isArray(run.splits) ? run.splits : [];
     const ps = splits.map(x => x.pace_s).filter(v => v != null && isFinite(v));
     const pmin = Math.min(...ps), pmax = Math.max(...ps);
+    // 通過タイム: スタートからの累計（各kmのペース×距離の和。停止・減速を含むので総時間とほぼ一致）
+    let cum = 0;
     const splitRows = splits.map(x => {
+      cum = (cum == null || x.pace_s == null) ? null : cum + x.pace_s * (x.dist_km != null ? x.dist_km : 1);
       const t = (x.pace_s == null || !(pmax > pmin)) ? 1 : (pmax - x.pace_s) / (pmax - pmin);  // 1=最速
       const partial = x.dist_km != null && x.dist_km < 0.999;
       const color = RUN_RAMP[1 + Math.round(t * 3)];
@@ -3331,6 +3334,7 @@
         <td class="run-split-pace"><div class="run-split-cell">
           <div class="run-split-track"><span style="width:${(35 + 65 * t).toFixed(1)}%;background:${color}"></span></div>
           <b>${runFmtPace(x.pace_s)}</b>${partial ? '<small>換算</small>' : ''}</div></td>
+        <td class="num">${runFmtDur(cum)}</td>
         <td class="num">${runNum(x.hr_avg)}</td>
         <td class="num">${x.climb_m == null ? '—' : (x.climb_m > 0 ? '+' : '') + runNum(x.climb_m)}</td></tr>`;
     }).join('');
@@ -3362,7 +3366,7 @@
       <div class="run-readout"><span class="run-muted">グラフをなぞると各地点の値を表示</span></div>
       <div class="run-chart"></div>
       ${splits.length ? `<h3 class="run-h">スプリット</h3><div class="run-table-wrap"><table class="run-splits">
-        <thead><tr><th>km</th><th>ペース /km</th><th class="num">心拍</th><th class="num">上りm</th></tr></thead>
+        <thead><tr><th>km</th><th>ペース /km</th><th class="num">通過</th><th class="num">心拍</th><th class="num">上りm</th></tr></thead>
         <tbody>${splitRows}</tbody></table></div>` : ''}
       ${zonesHtml}
       ${notesHtml}
