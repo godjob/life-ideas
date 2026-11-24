@@ -367,7 +367,7 @@
       "id": "ai-bubble-sustainability-strategy",
       "label": "AIバブル崩壊後の持続可能性戦略：本質的価値創出と生存要件",
       "group": "AI戦略・社会",
-      "value": 8,
+      "value": 9,
       "tags": [
         "AIバブル",
         "本質的価値",
@@ -405,7 +405,7 @@
       "id": "ai-capability-evolution-design-flexibility",
       "label": "AI能力進化への対応設計：柔軟なアーキテクチャと過度なカスタマイズ回避",
       "group": "ビジネス・組織",
-      "value": 11,
+      "value": 10,
       "tags": [
         "AI導入",
         "ビジネス戦略",
@@ -2294,7 +2294,7 @@
       "id": "identity-transformation-habit-formation-ai-era",
       "label": "アイデンティティ変革による習慣形成：AI時代の自己再定義",
       "group": "キャリア・働き方",
-      "value": 7,
+      "value": 8,
       "tags": [
         "アイデンティティ変革",
         "習慣形成",
@@ -2528,7 +2528,7 @@
       "id": "key-person-dependence-corporate-governance-risk",
       "label": "カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性",
       "group": "ビジネス・組織",
-      "value": 6,
+      "value": 7,
       "tags": [
         "リスク管理",
         "ガバナンス",
@@ -3163,7 +3163,7 @@
       "id": "openai-anthropic-competitive-dynamics-market-shift",
       "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
       "group": "ビジネス・組織",
-      "value": 12,
+      "value": 13,
       "tags": [
         "ビジネス戦略",
         "AI導入",
@@ -3344,7 +3344,7 @@
       "id": "professional-longevity-expert-development-strategy",
       "label": "専門家としての長期的なキャリア戦略：凡事徹底と継続学習",
       "group": "キャリア・働き方",
-      "value": 5,
+      "value": 6,
       "tags": [
         "継続学習",
         "凡事徹底",
@@ -3927,7 +3927,7 @@
       "id": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
       "label": "ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化",
       "group": "健康・習慣",
-      "value": 7,
+      "value": 8,
       "tags": [
         "ウェルネス",
         "意思決定",
@@ -5834,7 +5834,7 @@
     },
     {
       "from": "ai-capability-expectation-calibration-realistic-timeline",
-      "to": "ai-capability-evolution-design-flexibility"
+      "to": "ai-bubble-sustainability-strategy"
     },
     {
       "from": "ai-capability-expectation-calibration-realistic-timeline",
@@ -5866,6 +5866,10 @@
     },
     {
       "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "identity-transformation-habit-formation-ai-era"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
       "to": "internet-ai-era-business-strategy"
     },
     {
@@ -5883,6 +5887,14 @@
     {
       "from": "ai-capability-expectation-calibration-realistic-timeline",
       "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "professional-longevity-expert-development-strategy"
+    },
+    {
+      "from": "ai-capability-expectation-calibration-realistic-timeline",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "ai-capability-threshold-disclosure-strategy",
@@ -13034,6 +13046,10 @@
     },
     {
       "from": "key-person-dependence-corporate-governance-risk",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
+    },
+    {
+      "from": "key-person-dependence-corporate-governance-risk",
       "to": "pm-exponential-adaptation"
     },
     {
@@ -16415,6 +16431,10 @@
     {
       "from": "professional-longevity-expert-development-strategy",
       "to": "information-processing-efficiency-ai-integration"
+    },
+    {
+      "from": "professional-longevity-expert-development-strategy",
+      "to": "key-person-dependence-corporate-governance-risk"
     },
     {
       "from": "professional-longevity-expert-development-strategy",
