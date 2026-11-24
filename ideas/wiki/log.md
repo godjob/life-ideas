@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-11-24] ingest | 【NVIDIAジェンスン・フアン氏がCEOに舞い戻った】「復帰はない」取締役会一転の理由は「トランプ
+- 更新ページ: [カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性](key-person-dependence-corporate-governance-risk.md), [ソブリンAI（AI主権）と安全保障：米中依存回避と自国データ・インフラ保護戦略](sovereign-ai-national-security-strategy.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md)
+- 出典: [【NVIDIAジェンスン・フアン氏がCEOに舞い戻った】「復帰はない」取締役会一](https://www.youtube.com/watch?v=BParvh_sqW8)
+
 ## [2026-11-22] ingest | 【人間は「生みの苦しみ」を手放す】落合陽一が語る「AIがAIを生む時代の生存戦略」／「問題解決」はA
 - 更新ページ: [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md)
 - 出典: [【人間は「生みの苦しみ」を手放す】落合陽一が語る「AIがAIを生む時代の生存戦略](https://www.youtube.com/watch?v=KPRUgGi4LtE)

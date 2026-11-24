@@ -483,7 +483,7 @@
       "id": "ai-cognitive-warfare-information-security",
       "label": "AI認知戦と情報セキュリティ",
       "group": "AI戦略・社会",
-      "value": 5,
+      "value": 7,
       "tags": [
         "認知戦",
         "情報セキュリティ",
@@ -925,7 +925,7 @@
       "id": "ai-model-regulation-geopolitics",
       "label": "AIモデル規制と地政学：国家戦略と企業の立ち位置",
       "group": "AI戦略・社会",
-      "value": 9,
+      "value": 10,
       "tags": [
         "AIモデル規制",
         "地政学リスク",
@@ -1724,7 +1724,7 @@
       "id": "cloud-independence-ai-cost-security-strategy",
       "label": "クラウド非依存AI戦略：オンプレミス実行によるセキュリティ・コスト最適化と現場導入障壁の低減",
       "group": "技術実装・エンジニアリング",
-      "value": 20,
+      "value": 22,
       "tags": [
         "オンプレミスAI",
         "コスト最適化",
@@ -1957,7 +1957,7 @@
       "id": "digital-deficit-national-security-risk",
       "label": "デジタル赤字と国家安全保障リスク",
       "group": "AI戦略・社会",
-      "value": 8,
+      "value": 9,
       "tags": [
         "デジタル赤字",
         "国家安全保障",
@@ -2333,7 +2333,7 @@
       "id": "inference-era-gpu-infrastructure-strategy",
       "label": "推論時代のGPUインフラ戦略：学習から推論へのシフトとNVIDIAベンダーロックイン対策",
       "group": "AI戦略・社会",
-      "value": 17,
+      "value": 18,
       "tags": [
         "GPUインフラ",
         "ベンダーロックイン",
@@ -2528,7 +2528,7 @@
       "id": "key-person-dependence-corporate-governance-risk",
       "label": "カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性",
       "group": "ビジネス・組織",
-      "value": 5,
+      "value": 6,
       "tags": [
         "リスク管理",
         "ガバナンス",
@@ -2619,7 +2619,7 @@
       "id": "llm-infrastructure-foundation-provider-redundancy",
       "label": "LLMを基幹インフラとして設計：複数プロバイダー冗長化とシステム信頼性確保の運用戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 11,
+      "value": 12,
       "tags": [
         "冗長化",
         "フェイルオーバー",
@@ -3163,7 +3163,7 @@
       "id": "openai-anthropic-competitive-dynamics-market-shift",
       "label": "OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略",
       "group": "ビジネス・組織",
-      "value": 11,
+      "value": 12,
       "tags": [
         "ビジネス戦略",
         "AI導入",
@@ -3732,7 +3732,7 @@
       "id": "sovereign-ai-national-security-strategy",
       "label": "ソブリンAI（AI主権）と安全保障：米中依存回避と自国データ・インフラ保護戦略",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "地政学リスク",
         "デジタル赤字",
@@ -13002,6 +13002,10 @@
     },
     {
       "from": "key-person-dependence-corporate-governance-risk",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "key-person-dependence-corporate-governance-risk",
       "to": "ai-governance-human-oversight-framework"
     },
     {
@@ -13010,7 +13014,15 @@
     },
     {
       "from": "key-person-dependence-corporate-governance-risk",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "key-person-dependence-corporate-governance-risk",
       "to": "commodity-prompt-engineering-vs-architecture-differentiation"
+    },
+    {
+      "from": "key-person-dependence-corporate-governance-risk",
+      "to": "digital-deficit-national-security-risk"
     },
     {
       "from": "key-person-dependence-corporate-governance-risk",
@@ -15658,6 +15670,10 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-model-regulation-geopolitics"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-reinforcement-learning-safety-governance"
     },
     {
@@ -15731,6 +15747,10 @@
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "qms-style-ai-prompt-governance"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "sovereign-ai-national-security-strategy"
     },
     {
       "from": "organizational-ai-adoption-acceleration-topdown-directive",
@@ -17598,6 +17618,10 @@
     },
     {
       "from": "sovereign-ai-national-security-strategy",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
       "to": "ai-model-regulation-geopolitics"
     },
     {
@@ -17606,11 +17630,27 @@
     },
     {
       "from": "sovereign-ai-national-security-strategy",
+      "to": "cloud-independence-ai-cost-security-strategy"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
       "to": "digital-deficit-national-security-risk"
     },
     {
       "from": "sovereign-ai-national-security-strategy",
+      "to": "inference-era-gpu-infrastructure-strategy"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
       "to": "japan-ai-strategy-global-competition"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "key-person-dependence-corporate-governance-risk"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "llm-infrastructure-foundation-provider-redundancy"
     },
     {
       "from": "sovereign-ai-national-security-strategy",
@@ -17627,6 +17667,10 @@
     {
       "from": "sovereign-ai-national-security-strategy",
       "to": "manufacturing-system-vulnerability-preemptive-audit"
+    },
+    {
+      "from": "sovereign-ai-national-security-strategy",
+      "to": "openai-anthropic-competitive-dynamics-market-shift"
     },
     {
       "from": "sovereign-ai-national-security-strategy",
