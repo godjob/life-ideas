@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T10:57:34+09:00",
+  "generatedAt": "2026-11-24T18:59:26+09:00",
   "weekly": {
-    "commitCount": 37,
+    "commitCount": 40,
     "byDay": [
       {
         "date": "2026-11-18",
@@ -29,19 +29,31 @@
       },
       {
         "date": "2026-11-24",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 7,
-    "ideas": 2,
-    "health": 12,
-    "books": 9,
+    "scrap": 6,
+    "ideas": 1,
+    "health": 10,
+    "books": 5,
     "portfolio": 0,
-    "other": 25
+    "other": 26
   },
   "recentCommits": [
+    {
+      "date": "2026-11-24",
+      "message": "ダッシュボード v1.69: 走行のスプリット表に通過タイム列を追加"
+    },
+    {
+      "date": "2026-11-24",
+      "message": "ランニング分析: 奈良本番のペース配分を見直し（時計で4時間切り・1kmごとの通過タイム表）"
+    },
+    {
+      "date": "2026-11-24",
+      "message": "朝刊: 2026-11-24 Morning Edition生成"
+    },
     {
       "date": "2026-11-23",
       "message": "news: 2026-11-23 記事まとめを自動生成"
@@ -49,18 +61,6 @@
     {
       "date": "2026-11-23",
       "message": "ランニング分析: 11/23 10km（ロング走2日後に想定より速く走った件と本番の入り）"
-    },
-    {
-      "date": "2026-11-23",
-      "message": "ランニング記録更新: import_running.py実行"
-    },
-    {
-      "date": "2026-11-23",
-      "message": "朝刊: 2026-11-23 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-22",
-      "message": "news: 2026-11-22 記事まとめを自動生成"
     }
   ]
 }
