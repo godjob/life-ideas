@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T18:59:26+09:00",
+  "generatedAt": "2026-11-24T19:11:39+09:00",
   "weekly": {
-    "commitCount": 40,
+    "commitCount": 41,
     "byDay": [
       {
         "date": "2026-11-18",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-24",
-        "count": 3
+        "count": 4
       }
     ]
   },
   "byDirectory": {
-    "scrap": 6,
+    "scrap": 7,
     "ideas": 1,
-    "health": 10,
+    "health": 9,
     "books": 5,
     "portfolio": 0,
     "other": 26
   },
   "recentCommits": [
+    {
+      "date": "2026-11-24",
+      "message": "scrap: 2026-11-24 【NVIDIAジェンスン・フアン氏がCEOに舞い戻"
+    },
     {
       "date": "2026-11-24",
       "message": "ダッシュボード v1.69: 走行のスプリット表に通過タイム列を追加"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-23",
       "message": "news: 2026-11-23 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-11-23",
-      "message": "ランニング分析: 11/23 10km（ロング走2日後に想定より速く走った件と本番の入り）"
     }
   ]
 }
