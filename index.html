@@ -226,6 +226,7 @@
     .markdown-body table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.85rem; }
     .markdown-body th { background: #1a1a2e; color: #fff; padding: 8px 12px; text-align: left; }
     .markdown-body td { padding: 8px 12px; border-bottom: 1px solid #eee; }
+    .markdown-body th[align="right"], .markdown-body td[align="right"] { white-space: nowrap; font-variant-numeric: tabular-nums; }
     .markdown-body tr:hover td { background: #f9f9f9; }
     /* 折りたたみセクション（月別テーブルなど。既定で閉じている） */
     .markdown-body details {
@@ -759,7 +760,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.69';
+  const VERSION = 'v1.70';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
