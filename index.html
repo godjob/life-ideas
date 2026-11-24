@@ -227,6 +227,22 @@
     .markdown-body th { background: #1a1a2e; color: #fff; padding: 8px 12px; text-align: left; }
     .markdown-body td { padding: 8px 12px; border-bottom: 1px solid #eee; }
     .markdown-body th[align="right"], .markdown-body td[align="right"] { white-space: nowrap; font-variant-numeric: tabular-nums; }
+    /* Wiki 一覧: 情報セルは2行（登録・更新／履歴・関連・被リンク） */
+    .markdown-body .wiki-index-table td.wi-meta { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.8rem; color: #444; }
+    .markdown-body .wiki-index-table td.wi-meta span + span { margin-left: 10px; }
+    .markdown-body .wiki-index-table td.wi-meta small { color: #999; font-size: 0.72rem; }
+    @media (max-width: 768px) {
+      /* スマホ: 1ページ1カード（タイトル → 情報2行 → 概要）。横スクロールさせない */
+      .markdown-body table.wiki-index-table { display: block; width: 100%; min-width: 0; overflow: visible; }
+      .markdown-body .wiki-index-table thead { display: none; }
+      .markdown-body .wiki-index-table tbody, .markdown-body .wiki-index-table tr,
+      .markdown-body .wiki-index-table td { display: block; width: auto; }
+      .markdown-body .wiki-index-table tr { border-bottom: 1px solid #e2e2e8; padding: 10px 2px; }
+      .markdown-body .wiki-index-table td { border: 0; padding: 0; }
+      .markdown-body .wiki-index-table td.wi-title { font-weight: 600; line-height: 1.4; }
+      .markdown-body .wiki-index-table td.wi-meta { margin: 4px 0 2px; line-height: 1.5; }
+      .markdown-body .wiki-index-table td.wi-desc { color: #555; font-size: 0.8rem; line-height: 1.5; }
+    }
     .markdown-body tr:hover td { background: #f9f9f9; }
     /* 折りたたみセクション（月別テーブルなど。既定で閉じている） */
     .markdown-body details {
@@ -760,7 +776,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.70';
+  const VERSION = 'v1.71';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -1031,6 +1047,53 @@
     // 既に同じ語で絞り込み中ならハイライトを付けて描画
     setTimeout(updateWikiTagChips, 0);
     return wrap;
+  }
+
+  // Wiki 一覧（index.md）の7列表を「ページ｜情報（日付・件数の2行）｜概要」の3列に組み直す。
+  // index.md の列は位置で読まれる（wikiTitleMap 等）のでファイルは変えず、描画後の DOM だけ変える。
+  // スマホ幅では CSS で1ページ1カード（タイトル→情報2行→概要）になる
+  function restructureWikiIndexTable(root) {
+    const table = [...root.querySelectorAll('table')].find(tb => {
+      const h = [...tb.querySelectorAll('thead th')].map(th => th.textContent.trim());
+      return h[0] === 'ページ' && h.includes('更新日') && h.includes('被リンク');
+    });
+    if (!table) return;
+    const heads = [...table.querySelectorAll('thead th')].map(th => th.textContent.trim());
+    const col = name => heads.indexOf(name);
+    const iReg = col('登録日'), iUpd = col('更新日'), iHist = col('履歴'), iRel = col('関連'),
+          iBack = col('被リンク'), iDesc = col('概要');
+    const out = document.createElement('table');
+    out.className = 'wiki-index-table';
+    out.innerHTML = '<thead><tr><th>ページ</th><th>情報</th><th>概要</th></tr></thead><tbody></tbody>';
+    const tbody = out.querySelector('tbody');
+    for (const tr of table.querySelectorAll('tbody tr')) {
+      const cells = [...tr.children];
+      const txt = i => (i >= 0 && cells[i]) ? cells[i].textContent.trim() : '';
+      const row = document.createElement('tr');
+      const tdTitle = document.createElement('td');
+      tdTitle.className = 'wi-title';
+      if (cells[0]) while (cells[0].firstChild) tdTitle.appendChild(cells[0].firstChild);
+      const tdMeta = document.createElement('td');
+      tdMeta.className = 'wi-meta';
+      const line = pairs => {
+        const d = document.createElement('div');
+        pairs.forEach(([label, v]) => {
+          const s = document.createElement('span');
+          s.innerHTML = `<small>${label}</small> `;
+          s.appendChild(document.createTextNode(v || '—'));
+          d.appendChild(s);
+        });
+        return d;
+      };
+      tdMeta.appendChild(line([['登録', txt(iReg)], ['更新', txt(iUpd)]]));
+      tdMeta.appendChild(line([['履歴', txt(iHist)], ['関連', txt(iRel)], ['被リンク', txt(iBack)]]));
+      const tdDesc = document.createElement('td');
+      tdDesc.className = 'wi-desc';
+      if (iDesc >= 0 && cells[iDesc]) while (cells[iDesc].firstChild) tdDesc.appendChild(cells[iDesc].firstChild);
+      row.append(tdTitle, tdMeta, tdDesc);
+      tbody.appendChild(row);
+    }
+    table.replaceWith(out);
   }
 
   // 更新ログ（log.md）を index.md と同じテーブル形式に変換する。
@@ -2591,6 +2654,7 @@
       const body = document.createElement('div');
       body.className = 'markdown-body';
       body.innerHTML = rendered;
+      if (wikiSlug === 'index') { try { restructureWikiIndexTable(body); } catch (e) { /* 失敗時は元の表のまま */ } }
       if (!isSpecial) {
         // 関連・被リンクは記事下部（「## 更新履歴」の直前。無ければ末尾）
         let relEl = null;
