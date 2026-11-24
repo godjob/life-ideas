@@ -55,7 +55,7 @@
       "id": "agentic-engineering-supervisor-model",
       "label": "Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト",
       "group": "AIエージェント設計",
-      "value": 42,
+      "value": 43,
       "tags": [
         "監督者モデル",
         "ハーネスエンジニアリング",
@@ -198,7 +198,7 @@
       "id": "ai-agent-operations",
       "label": "AIエージェントの運用展開：検品・在庫管理・受発注の自動化",
       "group": "製造業・業務DX",
-      "value": 48,
+      "value": 49,
       "tags": [
         "運用自動化",
         "サプライチェーン",
@@ -743,7 +743,7 @@
       "id": "ai-governance-human-oversight-framework",
       "label": "AIガバナンスと人間監視フレームワーク：上場会社におけるAI導入とリスク管理",
       "group": "ビジネス・組織",
-      "value": 25,
+      "value": 26,
       "tags": [
         "AIガバナンス",
         "リスク管理",
@@ -977,7 +977,7 @@
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AIエージェント設計",
-      "value": 10,
+      "value": 11,
       "tags": [
         "複雑性直感",
         "物理世界AI",
@@ -1016,7 +1016,7 @@
       "id": "ai-reinforcement-learning-safety-governance",
       "label": "AI強化学習の安全性とガバナンス：暴走リスクと制御",
       "group": "AIエージェント設計",
-      "value": 4,
+      "value": 5,
       "tags": [
         "AIの暴走",
         "シンギュラリティ",
@@ -1042,7 +1042,7 @@
       "id": "ai-sandboxing-isolation-architecture-manufacturing",
       "label": "AIサンドボックス隔離アーキテクチャ：製造業システムの自力脱出防止と運用プロセス設計",
       "group": "製造業・業務DX",
-      "value": 28,
+      "value": 29,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -1068,7 +1068,7 @@
       "id": "ai-self-improvement-development-acceleration",
       "label": "AIによる自己開発と開発プロセスの劇的加速",
       "group": "AIエージェント設計",
-      "value": 7,
+      "value": 9,
       "tags": [
         "AI駆動開発",
         "自律開発",
@@ -1417,7 +1417,7 @@
       "id": "causal-inference-manufacturing-process-improvement",
       "label": "製造業における因果推論：設備故障・品質問題の真因特定とAI活用",
       "group": "製造業・業務DX",
-      "value": 9,
+      "value": 10,
       "tags": [
         "因果推論",
         "設備故障",
@@ -1685,7 +1685,7 @@
       "id": "claude-mythos-capability-risk-management",
       "label": "Claude Mythos：高性能化とサンドボックス脱出リスク、経営判断基準の実装",
       "group": "AI戦略・社会",
-      "value": 6,
+      "value": 7,
       "tags": [
         "セキュリティ",
         "リスク管理",
@@ -2774,7 +2774,7 @@
       "id": "manufacturing-ai-opportunities",
       "label": "製造業のAI活用機会：電話・FAX・スプレッドシート業界の変革",
       "group": "製造業・業務DX",
-      "value": 95,
+      "value": 96,
       "tags": [
         "デジタル変革",
         "自動化",
@@ -3111,7 +3111,7 @@
       "id": "non-engineer-skill-development-claude-code-democratization",
       "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
       "group": "ビジネス・組織",
-      "value": 18,
+      "value": 19,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3267,7 +3267,7 @@
       "id": "physical-ai-hardware-standardization-strategy",
       "label": "フィジカルAイと日本の標準化戦略：米中覇権争いにおける下層インターフェース統一による競争力構築",
       "group": "AI戦略・社会",
-      "value": 9,
+      "value": 10,
       "tags": [
         "フィジカルAI",
         "標準化戦略",
@@ -8294,7 +8294,15 @@
     },
     {
       "from": "ai-self-improvement-development-acceleration",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "ai-self-improvement-development-acceleration",
       "to": "ai-agent-cli-automation-pattern"
+    },
+    {
+      "from": "ai-self-improvement-development-acceleration",
+      "to": "ai-governance-human-oversight-framework"
     },
     {
       "from": "ai-self-improvement-development-acceleration",
@@ -8303,6 +8311,14 @@
     {
       "from": "ai-self-improvement-development-acceleration",
       "to": "ai-orchestrator-role"
+    },
+    {
+      "from": "ai-self-improvement-development-acceleration",
+      "to": "ai-reinforcement-learning-safety-governance"
+    },
+    {
+      "from": "ai-self-improvement-development-acceleration",
+      "to": "causal-inference-manufacturing-process-improvement"
     },
     {
       "from": "ai-self-improvement-development-acceleration",
@@ -8315,6 +8331,10 @@
     {
       "from": "ai-self-improvement-development-acceleration",
       "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "ai-self-improvement-development-acceleration",
+      "to": "non-engineer-skill-development-claude-code-democratization"
     },
     {
       "from": "ai-self-improvement-development-acceleration",
@@ -15654,6 +15674,10 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-agent-operations"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-bubble-sustainability-strategy"
     },
     {
@@ -15690,7 +15714,15 @@
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "ai-reinforcement-learning-safety-governance"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "ai-self-improvement-development-acceleration"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -15747,6 +15779,10 @@
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
       "to": "managed-agents-interface-decoupling-design"
+    },
+    {
+      "from": "openai-anthropic-competitive-dynamics-market-shift",
+      "to": "manufacturing-ai-opportunities"
     },
     {
       "from": "openai-anthropic-competitive-dynamics-market-shift",
@@ -17274,11 +17310,23 @@
     },
     {
       "from": "singularity-loop-ai-self-acceleration",
+      "to": "ai-sandboxing-isolation-architecture-manufacturing"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
       "to": "ai-security-non-engineer-governance-framework"
     },
     {
       "from": "singularity-loop-ai-self-acceleration",
+      "to": "ai-self-improvement-development-acceleration"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
       "to": "asi-economy-societal-transformation"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
+      "to": "claude-mythos-capability-risk-management"
     },
     {
       "from": "singularity-loop-ai-self-acceleration",
@@ -17303,6 +17351,10 @@
     {
       "from": "singularity-loop-ai-self-acceleration",
       "to": "multi-agent-pipeline-error-handling-checkpoint"
+    },
+    {
+      "from": "singularity-loop-ai-self-acceleration",
+      "to": "physical-ai-hardware-standardization-strategy"
     },
     {
       "from": "skill-creator-automation",

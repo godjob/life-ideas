@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-11-24] ingest | 【目的は利益の独占か？安全保障か？】Claudeを解剖「黒塗りの報告書」／ジェンスン・フアンと真逆の
+- 更新ページ: [AIによる自己開発と開発プロセスの劇的加速](ai-self-improvement-development-acceleration.md), [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md)
+- 出典: [【目的は利益の独占か？安全保障か？】Claudeを解剖「黒塗りの報告書」／ジェン](https://www.youtube.com/watch?v=fNm4HZ3l5NY)
+
 ## [2026-11-24] ingest | Jensen Huang, AI & Why Founders Are Irreplaceable 
 - 更新ページ: [カリスマ経営者依存リスクと企業ガバナンス：NVIDIA事例にみる組織継続性](key-person-dependence-corporate-governance-risk.md), [AI能力期待値の現実的校正：10年単位の長期時間軸と段階的導入ロードマップ](ai-capability-expectation-calibration-realistic-timeline.md), [専門家としての長期的なキャリア戦略：凡事徹底と継続学習](professional-longevity-expert-development-strategy.md)
 - 出典: [Jensen Huang, AI & Why Founders Are Irre](https://www.youtube.com/watch?v=w0oOxs0WKNk)
