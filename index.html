@@ -305,7 +305,7 @@
       position: sticky; top: 0; z-index: 20; background: #fff;
       display: flex; flex-wrap: nowrap; align-items: center; gap: 6px;
       overflow-x: auto; overflow-y: hidden; white-space: nowrap;
-      padding: 8px 0; margin: 0 0 8px;
+      padding: 8px 0; margin: 40px 0 8px;  /* 上余白は下の白い影の高さと揃える（直前の行が影に隠れるのを防ぐ） */
       border-bottom: 1px solid #e2e2e8;
       box-shadow: 0 -40px 0 #fff, 0 4px 6px -4px rgba(26, 26, 46, 0.12);
       scrollbar-width: thin; scrollbar-color: #d0d0dc transparent;
@@ -665,7 +665,7 @@
       .markdown-body.report-page section.entry { padding: 12px 12px 4px; margin: 12px 0 16px; }
       .markdown-body.report-page h2 { margin-top: 32px; font-size: 1.15rem; padding: 8px 12px; }
       .markdown-body.report-page details > :not(summary):not(table) { margin-left: 8px; margin-right: 8px; }
-      .report-toc { box-shadow: 0 -20px 0 #fff, 0 4px 6px -4px rgba(26, 26, 46, 0.12); }
+      .report-toc { margin-top: 20px; box-shadow: 0 -20px 0 #fff, 0 4px 6px -4px rgba(26, 26, 46, 0.12); }
 
       /* スクロール非表示アニメーション（滑らか化） */
       .search-bar:not(.hidden) {
@@ -776,7 +776,7 @@
 <script>
   const REPO = 'godjob/life-ideas';
   const BRANCH = 'main';
-  const VERSION = 'v1.71';
+  const VERSION = 'v1.72';
   let currentTab = 'daily';
   let allFiles = [];
   let currentFileIndex = -1;
@@ -1796,13 +1796,15 @@
     // Runningタブ: レポート（build_running_public.py が生成する単一md）と
     // 走行一覧／走行詳細（analyze_runs.py が生成する runs/*.json）を上部の切替で行き来する
     if (dir === 'running') {
-      // 2つ目の項目は奈良ウルトラの計画（スマホでは file-list が隠れるので上部の切替からも開ける）
-      listEl.innerHTML = '<div class="file-item active">ランニング記録</div><div class="file-item">🏔 奈良ウルトラ2027</div>';
+      // 2つ目はトレーニング計画、3つ目は奈良ウルトラ（スマホでは file-list が隠れるので上部の切替からも開ける）
+      listEl.innerHTML = '<div class="file-item active">ランニング記録</div><div class="file-item">📅 計画</div><div class="file-item">🏔 奈良ウルトラ2027</div>';
       listEl.children[0].onclick = () => (runView === 'list' ? showRunList() : showRunReport());
-      listEl.children[1].onclick = () => showRunUltra();
+      listEl.children[1].onclick = () => showRunPlan();
+      listEl.children[2].onclick = () => showRunUltra();
       const runId = runIdFromHash();
       if (runId) { await openRunDetail(runId); return; }
       if (runView === 'list') { await showRunList(); return; }
+      if (runView === 'plan') { await showRunPlan(); return; }
       if (runView === 'ultra') { await showRunUltra(); return; }
       await showRunReport();
       return;
@@ -2986,7 +2988,8 @@
   // グラフは CDN ライブラリを使わず手書き SVG（marked の 404 で全タブ停止した前例があるため）
   const RUNS_DIR = 'ideas/running/runs';
   const RUN_VIEW_KEY = 'running-view';
-  let runView = (() => { try { const v = localStorage.getItem(RUN_VIEW_KEY); return v === 'list' || v === 'ultra' ? v : 'report'; } catch (e) { return 'report'; } })();
+  let runView = (() => { try { const v = localStorage.getItem(RUN_VIEW_KEY); return ['list', 'plan', 'ultra'].includes(v) ? v : 'report'; } catch (e) { return 'report'; } })();
+  const PLAN_MD = 'ideas/running/plan/index.md';     // build_training_plan.py の生成物
   const ULTRA_MD = 'ideas/running/ultra/index.md';   // build_ultra_plan.py の生成物
   let runsIndex = null;          // index.json の runs（1回だけ取得）
   let runRenderSeq = 0;          // 非同期描画の追い越し防止
@@ -3043,6 +3046,7 @@
   function runSwitchHtml(active) {
     return `<div class="run-switch">
       <button type="button" class="${active === 'report' ? 'active' : ''}" onclick="showRunReport()">📝 レポート</button>
+      <button type="button" class="${active === 'plan' ? 'active' : ''}" onclick="showRunPlan()">📅 計画</button>
       <button type="button" class="${active === 'list' ? 'active' : ''}" onclick="showRunList()">🗂 走行一覧</button>
       <button type="button" class="${active === 'ultra' ? 'active' : ''}" onclick="showRunUltra()">🏔 奈良ウルトラ</button>
     </div>`;
@@ -3068,23 +3072,22 @@
     if (!contentEl.querySelector('.run-switch')) contentEl.insertAdjacentHTML('afterbegin', runSwitchHtml('report'));
   }
 
-  // サイドバーの「ランニング記録」(0) /「奈良ウルトラ」(1) の選択表示
+  // サイドバーの「ランニング記録」(0) /「計画」(1) /「奈良ウルトラ」(2) の選択表示
   function runSetListActive(i) {
     const items = document.querySelectorAll('#file-list .file-item');
     items.forEach((el, j) => el.classList.toggle('active', j === i));
   }
 
-  // 🏔 奈良ウルトラ: トレーニング計画（単一 md。標高図などの SVG は相対パスで同じフォルダ）
-  async function showRunUltra() {
-    setRunView('ultra');
+  // 幅の広い表を持つ単一 md（計画・奈良ウルトラ）の表示。描画の追い越しがあれば null を返す
+  async function showRunDoc(view, path, itemEl) {
+    setRunView(view);
     setRunHash(null, false);
     runCurrentDetail = null;
     const seq = ++runRenderSeq;
-    const listEl = document.getElementById('file-list');
-    await openFile(ULTRA_MD, listEl.children[1] || null);
-    if (currentTab !== 'running' || seq !== runRenderSeq) return;
+    await openFile(path, itemEl);
+    if (currentTab !== 'running' || seq !== runRenderSeq) return null;
     const contentEl = document.getElementById('content-area');
-    if (!contentEl.querySelector('.run-switch')) contentEl.insertAdjacentHTML('afterbegin', runSwitchHtml('ultra'));
+    if (!contentEl.querySelector('.run-switch')) contentEl.insertAdjacentHTML('afterbegin', runSwitchHtml(view));
     // 表: 短いセルは折り返さず（表ごと横スクロール）、長い文のセルだけ幅を持たせて折り返す
     const body = contentEl.querySelector('.markdown-body');
     if (body) {
@@ -3103,7 +3106,20 @@
         w.appendChild(t);
       });
     }
-    await ultraEnhanceProfile(contentEl, seq);
+    return { contentEl, seq };
+  }
+
+  // 📅 計画: シーズン全体のトレーニング計画（特定の大会に限らない）
+  async function showRunPlan() {
+    const listEl = document.getElementById('file-list');
+    await showRunDoc('plan', PLAN_MD, listEl.children[1] || null);
+  }
+
+  // 🏔 奈良ウルトラ: 大会ページ（標高図などの SVG は相対パスで同じフォルダ）
+  async function showRunUltra() {
+    const listEl = document.getElementById('file-list');
+    const r = await showRunDoc('ultra', ULTRA_MD, listEl.children[2] || null);
+    if (r) await ultraEnhanceProfile(r.contentEl, r.seq);
   }
 
   // 標高断面図を、横スクロール＋タップで注記が出る SVG に差し替える（データは build_ultra_plan.py の course.json）。
