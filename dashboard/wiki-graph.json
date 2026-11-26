@@ -30,7 +30,7 @@
       "id": "advanced-nation-redefinition-energy-calculation",
       "label": "先進国の再定義：計算能力とエネルギー生産力",
       "group": "AI戦略・社会",
-      "value": 14,
+      "value": 15,
       "tags": [
         "国家安全保障",
         "デジタル赤字",
@@ -354,7 +354,7 @@
       "id": "ai-boom-geopolitical-implications-energy-constraint",
       "label": "AIブームの地政学的影響とエネルギー制約",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "地政学リスク",
         "エネルギー問題",
@@ -535,7 +535,7 @@
       "id": "ai-data-center-energy-demand-strategy",
       "label": "AIデータセンターとエネルギー需要：電力消費量増大への対応戦略",
       "group": "AI戦略・社会",
-      "value": 13,
+      "value": 14,
       "tags": [
         "ASIエコノミー",
         "電力消費量",
@@ -626,7 +626,7 @@
       "id": "ai-engineer-practical-skills-roadmap",
       "label": "AIエンジニア実践スキルロードマップ：理論より動くものづくり6スキル",
       "group": "キャリア・働き方",
-      "value": 27,
+      "value": 28,
       "tags": [
         "AIスキル",
         "学習ロードマップ",
@@ -873,7 +873,7 @@
       "id": "ai-mindset-human-thought-ai-execution",
       "label": "AIマインドセット：人間は思考、AIは実行の役割分担モデル",
       "group": "キャリア・働き方",
-      "value": 21,
+      "value": 22,
       "tags": [
         "AIマインドセット",
         "思考と実行",
@@ -3564,7 +3564,7 @@
       "id": "self-directed-learning-ai-era-survival-strategy",
       "label": "AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保",
       "group": "キャリア・働き方",
-      "value": 40,
+      "value": 41,
       "tags": [
         "自己学習",
         "継続学習",
@@ -5627,6 +5627,10 @@
     {
       "from": "ai-boom-geopolitical-implications-energy-constraint",
       "to": "ai-investment-scale-japan-vs-global"
+    },
+    {
+      "from": "ai-boom-geopolitical-implications-energy-constraint",
+      "to": "ai-mindset-human-thought-ai-execution"
     },
     {
       "from": "ai-boom-geopolitical-implications-energy-constraint",
@@ -15582,7 +15586,15 @@
     },
     {
       "from": "nvidia-dominance-shift-cpu-revaluation",
+      "to": "ai-boom-geopolitical-implications-energy-constraint"
+    },
+    {
+      "from": "nvidia-dominance-shift-cpu-revaluation",
       "to": "ai-data-center-energy-demand-strategy"
+    },
+    {
+      "from": "nvidia-dominance-shift-cpu-revaluation",
+      "to": "ai-engineer-practical-skills-roadmap"
     },
     {
       "from": "nvidia-dominance-shift-cpu-revaluation",
@@ -15611,6 +15623,10 @@
     {
       "from": "nvidia-dominance-shift-cpu-revaluation",
       "to": "nand-flash-memory-market-ai-demand"
+    },
+    {
+      "from": "nvidia-dominance-shift-cpu-revaluation",
+      "to": "self-directed-learning-ai-era-survival-strategy"
     },
     {
       "from": "onboarding-friction-design-saas-growth",
@@ -17178,11 +17194,19 @@
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
+      "to": "advanced-nation-redefinition-energy-calculation"
+    },
+    {
+      "from": "self-directed-learning-ai-era-survival-strategy",
       "to": "ai-adoption-resistance-mitigation"
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",
       "to": "ai-as-infinite-subordinate-management"
+    },
+    {
+      "from": "self-directed-learning-ai-era-survival-strategy",
+      "to": "ai-data-center-energy-demand-strategy"
     },
     {
       "from": "self-directed-learning-ai-era-survival-strategy",

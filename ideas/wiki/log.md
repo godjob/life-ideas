@@ -1,5 +1,9 @@
 # Wiki 更新ログ
 
+## [2026-11-26] ingest | 【AIに勝つ人の特徴とは】時代は4年制大学ではない／NVIDIAどうなる？／中国に電力で負ける米国／
+- 更新ページ: [AIブームの地政学的影響とエネルギー制約](ai-boom-geopolitical-implications-energy-constraint.md), [NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント](nvidia-dominance-shift-cpu-revaluation.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md)
+- 出典: [【AIに勝つ人の特徴とは】時代は4年制大学ではない／NVIDIAどうなる？／中国](https://www.youtube.com/watch?v=kTLG0hSOel8)
+
 ## [2026-11-26] ingest | 【今年AIで何作った？】アイディア脳の二人がバイブコーディング作成のサービスを紹介！野田クリスタルと
 - 更新ページ: [AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制](ai-powered-web-production-flow.md), [プログラミング経験なしのAIによるシステム構築](ai-assisted-system-building-non-programmers.md), [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md)
 - 出典: [【今年AIで何作った？】アイディア脳の二人がバイブコーディング作成のサービスを紹](https://www.youtube.com/watch?v=aKLb2P51bEg)
