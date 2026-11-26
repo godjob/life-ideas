@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-26T14:53:46+09:00",
+  "generatedAt": "2026-11-26T14:54:43+09:00",
   "weekly": {
-    "commitCount": 47,
+    "commitCount": 48,
     "byDay": [
       {
         "date": "2026-11-20",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-26",
-        "count": 4
+        "count": 5
       }
     ]
   },
   "byDirectory": {
     "scrap": 11,
     "ideas": 1,
-    "health": 10,
+    "health": 11,
     "books": 5,
     "portfolio": 0,
     "other": 29
   },
   "recentCommits": [
+    {
+      "date": "2026-11-26",
+      "message": "ランニング分析: 2026-11-26 平日10km（抑えめのつもりが移動ペース5:11/km）"
+    },
     {
       "date": "2026-11-26",
       "message": "ランニング記録更新: import_running.py実行"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-26",
       "message": "scrap: 2026-11-26 「これは売れるわ！」野田ゲー新作！「真・将棋2」の・【今年AIで何作った？】アイディア脳の二人がバイブ"
-    },
-    {
-      "date": "2026-11-25",
-      "message": "news: 2026-11-25 記事まとめを自動生成"
     }
   ]
 }
