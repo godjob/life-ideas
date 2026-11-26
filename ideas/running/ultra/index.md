@@ -1,6 +1,6 @@
 # 🏔 第2回 奈良ウルトラマラソン（2027年5月30日）
 
-**あと 186 日**（2026-11-25 時点）　100.2km・累積標高 約1,875m・制限 約14時間40分・スタート 4:30〜5:00（WAVE別）・会場 藤原宮跡（橿原市）
+**あと 185 日**（2026-11-26 時点）　100.2km・累積標高 約1,875m・制限 約14時間40分・スタート 4:30〜5:00（WAVE別）・会場 藤原宮跡（橿原市）
 
 > コースデータ・関門は **2026大会の公式参考値**（2027 は調整中）。GPX は大会公式のもので、自分の走行記録ではない。
 > [公式サイト](https://www.r-wellness.com/nara/) / [コース情報・関門](https://www.r-wellness.com/nara/course/) / [スケジュール](https://www.r-wellness.com/nara/schedule/) / [コース（Googleマップ）](https://www.google.com/maps/d/u/0/embed?mid=1_bZ-LqHd0ItyplssV4kRgzSEpQac-zA&ehbc=2E312F&noprof=1) / [GPXデータ（公式）](https://www.r-wellness.com/nara/2026/wp-content/themes/nara/download/nara-100km.gpx)
