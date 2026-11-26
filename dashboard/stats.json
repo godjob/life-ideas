@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-26T09:13:09+09:00",
+  "generatedAt": "2026-11-26T13:16:48+09:00",
   "weekly": {
-    "commitCount": 44,
+    "commitCount": 46,
     "byDay": [
       {
         "date": "2026-11-20",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-11-26",
-        "count": 1
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 10,
+    "scrap": 11,
     "ideas": 1,
     "health": 9,
     "books": 5,
     "portfolio": 0,
-    "other": 29
+    "other": 30
   },
   "recentCommits": [
+    {
+      "date": "2026-11-26",
+      "message": "scrap: 2026-11-26 【AIに勝つ人の特徴とは】時代は4年制大学ではない"
+    },
+    {
+      "date": "2026-11-26",
+      "message": "朝刊: 2026-11-26 Morning Edition生成"
+    },
     {
       "date": "2026-11-26",
       "message": "scrap: 2026-11-26 「これは売れるわ！」野田ゲー新作！「真・将棋2」の・【今年AIで何作った？】アイディア脳の二人がバイブ"
@@ -53,14 +61,6 @@
     {
       "date": "2026-11-25",
       "message": "トレーニング計画: 奈良までの本番ペースを5:32/km前後に変更"
-    },
-    {
-      "date": "2026-11-25",
-      "message": "ダッシュボード v1.72: Runningに「📅 計画」を追加し、トレーニング計画を奈良ウルトラから分離"
-    },
-    {
-      "date": "2026-11-25",
-      "message": "朝刊: 2026-11-25 Morning Edition生成"
     }
   ]
 }
