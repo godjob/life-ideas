@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-26T08:25:25+09:00",
+  "generatedAt": "2026-11-26T09:13:09+09:00",
   "weekly": {
-    "commitCount": 43,
+    "commitCount": 44,
     "byDay": [
       {
         "date": "2026-11-20",
@@ -29,12 +29,12 @@
       },
       {
         "date": "2026-11-26",
-        "count": 0
+        "count": 1
       }
     ]
   },
   "byDirectory": {
-    "scrap": 9,
+    "scrap": 10,
     "ideas": 1,
     "health": 9,
     "books": 5,
@@ -42,6 +42,10 @@
     "other": 29
   },
   "recentCommits": [
+    {
+      "date": "2026-11-26",
+      "message": "scrap: 2026-11-26 「これは売れるわ！」野田ゲー新作！「真・将棋2」の・【今年AIで何作った？】アイディア脳の二人がバイブ"
+    },
     {
       "date": "2026-11-25",
       "message": "news: 2026-11-25 記事まとめを自動生成"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-25",
       "message": "朝刊: 2026-11-25 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-24",
-      "message": "news: 2026-11-24 記事まとめを自動生成"
     }
   ]
 }
