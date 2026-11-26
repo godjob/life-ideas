@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-26T13:16:48+09:00",
+  "generatedAt": "2026-11-26T14:53:46+09:00",
   "weekly": {
-    "commitCount": 46,
+    "commitCount": 47,
     "byDay": [
       {
         "date": "2026-11-20",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-26",
-        "count": 3
+        "count": 4
       }
     ]
   },
   "byDirectory": {
     "scrap": 11,
     "ideas": 1,
-    "health": 9,
+    "health": 10,
     "books": 5,
     "portfolio": 0,
-    "other": 30
+    "other": 29
   },
   "recentCommits": [
+    {
+      "date": "2026-11-26",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
     {
       "date": "2026-11-26",
       "message": "scrap: 2026-11-26 【AIに勝つ人の特徴とは】時代は4年制大学ではない"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-25",
       "message": "news: 2026-11-25 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-11-25",
-      "message": "トレーニング計画: 奈良までの本番ペースを5:32/km前後に変更"
     }
   ]
 }
