@@ -2,6 +2,8 @@
 
 | 登録日 | 投稿日 | タグ | タイトル | 要約 |
 |--------|--------|------|---------|------|
+| 26/11/26 | - | AI, Development, Productivity, Business, YouTube | [【今年AIで何作った？】アイディア脳の二人がバイブコーディング作成のサービスを紹介！野田クリスタルと語るAI時代のゲーム開発革命【けんすう×野田クリスタル】](https://www.youtube.com/watch?v=aKLb2P51bEg) | けんすう氏と野田クリスタル氏が、AIを活用した「バイブコーディング」によるゲーム開発やWebサービス制作の具体例を語り合う対談です。 |
+| 26/11/26 | - | AI, Development, Business, Productivity, YouTube | [「これは売れるわ！」野田ゲー新作！「真・将棋2」の全貌 / プログラミングの壁を越えるAI活用術【けんすう×野田クリスタル】](https://www.youtube.com/watch?v=IKBn--EwnaM) | お笑い芸人兼ゲームクリエイターの野田クリスタル氏が、生成AIを活用して開発した新作ゲーム「真・将棋2」の開発秘話を語るトーク動画。AIを駆使して未経験だったオンライン対戦機能の実装や多言語展開、参加型デバッグを1人で実現した実践的なノウハウが明かされている。 |
 | 26/11/24 | 26/11/24 | AI, LLM, Business, Development, YouTube | [【目的は利益の独占か？安全保障か？】Claudeを解剖「黒塗りの報告書」／ジェンスン・フアンと真逆の思想／アンソロピック上場「時価総額世界一も可能」今井翔太／「リーマン予想」証明か【AI QUEST】](https://www.youtube.com/watch?v=fNm4HZ3l5NY) | Anthropicが史上最大規模のIPOを果たし、Claudeを活用したAI開発の自己改善（RSI）により開発速度が12倍に加速している現状と、そのガバナンスや安全保障上の課題を解説する動画の要約。 |
 | 26/11/24 | - | AI, Business, Management, Career, YouTube | [Jensen Huang, AI & Why Founders Are Irreplaceable \| Tobi Lütke, Shopify](https://www.youtube.com/watch?v=w0oOxs0WKNk) | Shopify創業者トビ・リュトケが、NVIDIAのジェンセン・フアンを例に「なぜ創業者（ファウンダー）はプロ経営者で代替不可能なのか」を解説する対談動画の要約。 |
 | 26/11/24 | 2026/11/24 | AI, Business, Management, YouTube | [【NVIDIAジェンスン・フアン氏がCEOに舞い戻った】「復帰はない」取締役会一転の理由は「トランプの介入」／“革ジャン”不在が安全保障リスク？／アンソロピックは戦々恐々／今井翔太【AI QUEST】](https://www.youtube.com/watch?v=BParvh_sqW8) | NVIDIA創業者のジェンスン・フアン氏がCEOへ急遽復帰した背景と、政治・安全保障・株価および競合企業への多角的な影響をAI研究者の今井翔太氏が解説しています。 |

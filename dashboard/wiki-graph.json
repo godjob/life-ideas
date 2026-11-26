@@ -55,7 +55,7 @@
       "id": "agentic-engineering-supervisor-model",
       "label": "Agentic Engineeringの監督者モデル：直接実行から検証・調整へのシフト",
       "group": "AIエージェント設計",
-      "value": 43,
+      "value": 44,
       "tags": [
         "監督者モデル",
         "ハーネスエンジニアリング",
@@ -289,7 +289,7 @@
       "id": "ai-assisted-system-building-non-programmers",
       "label": "プログラミング経験なしのAIによるシステム構築",
       "group": "プロンプト・AI活用",
-      "value": 7,
+      "value": 10,
       "tags": [
         "非エンジニア",
         "システム開発",
@@ -574,7 +574,7 @@
       "id": "ai-driven-development-cto-perspective",
       "label": "AI駆動開発：CTOに聞くエンジニアの未来と開発サイクル変革",
       "group": "キャリア・働き方",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AI駆動開発",
         "エンジニアの役割",
@@ -1055,7 +1055,7 @@
       "id": "ai-security-non-engineer-governance-framework",
       "label": "非エンジニア向けAIセキュリティガバナンス：分ける・残す・防ぐ3原則と権限管理の実装",
       "group": "ビジネス・組織",
-      "value": 27,
+      "value": 28,
       "tags": [
         "AIガバナンス",
         "セキュリティ",
@@ -1081,7 +1081,7 @@
       "id": "ai-solo-entrepreneurship-impact",
       "label": "AIソロプレナーシップ：個人の能力拡張と起業への影響",
       "group": "キャリア・働き方",
-      "value": 6,
+      "value": 7,
       "tags": [
         "AIソロプレナー",
         "起業",
@@ -1534,7 +1534,7 @@
       "id": "claude-code-rapid-app-development-side-business",
       "label": "Claude Codeによる爆速アプリ開発と副業化：プログラミング知識ゼロからのWebアプリ販売モデル",
       "group": "ビジネス・組織",
-      "value": 13,
+      "value": 14,
       "tags": [
         "AI導入",
         "非エンジニア",
@@ -1814,7 +1814,7 @@
       "id": "creator-intuition-driven-design-philosophy",
       "label": "クリエイター直感駆動設計：内なるワクワク感と外部フィードバックの統合",
       "group": "ビジネス・組織",
-      "value": 6,
+      "value": 7,
       "tags": [
         "直感駆動",
         "フィードバックループ",
@@ -1853,7 +1853,7 @@
       "id": "custom-tool-development-ai-empowerment",
       "label": "カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン",
       "group": "ビジネス・組織",
-      "value": 8,
+      "value": 9,
       "tags": [
         "ニッチ市場",
         "カスタムツール",
@@ -2502,7 +2502,7 @@
       "id": "judgment-ai-model-manufacturing-application",
       "label": "判定特化型AIモデルの製造業応用：品質検査と異常検知",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 5,
       "tags": [
         "品質検査",
         "異常検知",
@@ -3098,7 +3098,7 @@
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "プロンプト・AI活用",
-      "value": 20,
+      "value": 21,
       "tags": [
         "非エンジニア",
         "ツール開発",
@@ -3111,7 +3111,7 @@
       "id": "non-engineer-skill-development-claude-code-democratization",
       "label": "非エンジニアのスキル開発とClaude Code民主化：営業・事務職による開発参画と創造性解放",
       "group": "ビジネス・組織",
-      "value": 19,
+      "value": 21,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3836,7 +3836,7 @@
       "id": "system-development-velocity-acceleration-ai-tools",
       "label": "システム開発速度の劇的加速：数週間から1日への実装期間短縮と現場課題解決の民主化",
       "group": "ビジネス・組織",
-      "value": 16,
+      "value": 17,
       "tags": [
         "組織変革",
         "AI導入",
@@ -5310,11 +5310,19 @@
     },
     {
       "from": "ai-assisted-system-building-non-programmers",
+      "to": "agentic-engineering-supervisor-model"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
       "to": "ai-self-improvement-development-acceleration"
     },
     {
       "from": "ai-assisted-system-building-non-programmers",
       "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "custom-tool-development-ai-empowerment"
     },
     {
       "from": "ai-assisted-system-building-non-programmers",
@@ -5326,7 +5334,15 @@
     },
     {
       "from": "ai-assisted-system-building-non-programmers",
+      "to": "judgment-ai-model-manufacturing-application"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
       "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "ai-assisted-system-building-non-programmers",
+      "to": "non-engineer-skill-development-claude-code-democratization"
     },
     {
       "from": "ai-assisted-system-building-non-programmers",
@@ -8066,11 +8082,35 @@
     },
     {
       "from": "ai-powered-web-production-flow",
+      "to": "ai-assisted-system-building-non-programmers"
+    },
+    {
+      "from": "ai-powered-web-production-flow",
+      "to": "ai-security-non-engineer-governance-framework"
+    },
+    {
+      "from": "ai-powered-web-production-flow",
       "to": "claude-chat-claude-code-workflow"
     },
     {
       "from": "ai-powered-web-production-flow",
+      "to": "claude-code-configuration-driven-workflow"
+    },
+    {
+      "from": "ai-powered-web-production-flow",
+      "to": "claude-code-rapid-app-development-side-business"
+    },
+    {
+      "from": "ai-powered-web-production-flow",
+      "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "ai-powered-web-production-flow",
       "to": "speed-first-prototyping"
+    },
+    {
+      "from": "ai-powered-web-production-flow",
+      "to": "system-development-velocity-acceleration-ai-tools"
     },
     {
       "from": "ai-prompt-engineering-leadership-career",
@@ -10954,7 +10994,15 @@
     },
     {
       "from": "custom-tool-development-ai-empowerment",
+      "to": "ai-assisted-system-building-non-programmers"
+    },
+    {
+      "from": "custom-tool-development-ai-empowerment",
       "to": "ai-democratization-low-cost-creation"
+    },
+    {
+      "from": "custom-tool-development-ai-empowerment",
+      "to": "ai-solo-entrepreneurship-impact"
     },
     {
       "from": "custom-tool-development-ai-empowerment",
@@ -10979,6 +11027,10 @@
     {
       "from": "custom-tool-development-ai-empowerment",
       "to": "non-engineer-ai-tool-development"
+    },
+    {
+      "from": "custom-tool-development-ai-empowerment",
+      "to": "non-engineer-skill-development-claude-code-democratization"
     },
     {
       "from": "custom-tool-development-ai-empowerment",
@@ -15422,6 +15474,10 @@
     },
     {
       "from": "non-engineer-ai-tool-development",
+      "to": "ai-assisted-system-building-non-programmers"
+    },
+    {
+      "from": "non-engineer-ai-tool-development",
       "to": "citizen-development-ai-manufacturing"
     },
     {
@@ -15430,7 +15486,7 @@
     },
     {
       "from": "non-engineer-ai-tool-development",
-      "to": "claude-code-configuration-driven-workflow"
+      "to": "creator-intuition-driven-design-philosophy"
     },
     {
       "from": "non-engineer-ai-tool-development",
@@ -15443,10 +15499,6 @@
     {
       "from": "non-engineer-ai-tool-development",
       "to": "life-repository-evolution"
-    },
-    {
-      "from": "non-engineer-ai-tool-development",
-      "to": "manufacturing-ai-quick-wins"
     },
     {
       "from": "non-engineer-ai-tool-development",
@@ -17850,6 +17902,10 @@
     },
     {
       "from": "speed-first-prototyping",
+      "to": "ai-driven-development-cto-perspective"
+    },
+    {
+      "from": "speed-first-prototyping",
       "to": "ai-failure-log"
     },
     {
@@ -17879,6 +17935,10 @@
     {
       "from": "speed-first-prototyping",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "speed-first-prototyping",
+      "to": "non-engineer-ai-tool-development"
     },
     {
       "from": "speed-first-prototyping",

@@ -1,5 +1,13 @@
 # Wiki 更新ログ
 
+## [2026-11-26] ingest | 【今年AIで何作った？】アイディア脳の二人がバイブコーディング作成のサービスを紹介！野田クリスタルと
+- 更新ページ: [AI時代のWeb制作フロー：コーディング先行による設計→実装→デザイン体制](ai-powered-web-production-flow.md), [プログラミング経験なしのAIによるシステム構築](ai-assisted-system-building-non-programmers.md), [速さが命題：検討より先にプロトタイプを出す姿勢](speed-first-prototyping.md)
+- 出典: [【今年AIで何作った？】アイディア脳の二人がバイブコーディング作成のサービスを紹](https://www.youtube.com/watch?v=aKLb2P51bEg)
+
+## [2026-11-26] ingest | 「これは売れるわ！」野田ゲー新作！「真・将棋2」の全貌 / プログラミングの壁を越えるAI活用術【け
+- 更新ページ: [プログラミング経験なしのAIによるシステム構築](ai-assisted-system-building-non-programmers.md), [非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応](non-engineer-ai-tool-development.md), [カスタムツール自前開発とAI化：ニッチ市場向けサービス創出の新パターン](custom-tool-development-ai-empowerment.md)
+- 出典: [「これは売れるわ！」野田ゲー新作！「真・将棋2」の全貌 / プログラミングの壁を](https://www.youtube.com/watch?v=IKBn--EwnaM)
+
 ## [2026-11-24] ingest | 【目的は利益の独占か？安全保障か？】Claudeを解剖「黒塗りの報告書」／ジェンスン・フアンと真逆の
 - 更新ページ: [AIによる自己開発と開発プロセスの劇的加速](ai-self-improvement-development-acceleration.md), [シンギュラリティループ：AIが自律的に進化を加速させるメカニズム](singularity-loop-ai-self-acceleration.md), [OpenAI vs Anthropic：競争力学とB2B戦略シフト、次世代モデル競争の経営戦略](openai-anthropic-competitive-dynamics-market-shift.md)
 - 出典: [【目的は利益の独占か？安全保障か？】Claudeを解剖「黒塗りの報告書」／ジェン](https://www.youtube.com/watch?v=fNm4HZ3l5NY)
