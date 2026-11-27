@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-27T08:24:47+09:00",
+  "generatedAt": "2026-11-27T19:20:22+09:00",
   "weekly": {
-    "commitCount": 43,
+    "commitCount": 45,
     "byDay": [
       {
         "date": "2026-11-21",
@@ -29,19 +29,27 @@
       },
       {
         "date": "2026-11-27",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "byDirectory": {
     "scrap": 10,
     "ideas": 1,
-    "health": 11,
+    "health": 10,
     "books": 5,
     "portfolio": 0,
     "other": 29
   },
   "recentCommits": [
+    {
+      "date": "2026-11-27",
+      "message": "scrap: 2026-11-27 【AI時代に稼げる人になる10代のキャリア戦略】ス・【アメリカに大打撃を生む可能性…】AIが５年で崩壊・人と機械が一体になる？東大・稲見教授の研究室を訪問"
+    },
+    {
+      "date": "2026-11-27",
+      "message": "朝刊: 2026-11-27 Morning Edition生成"
+    },
     {
       "date": "2026-11-26",
       "message": "news: 2026-11-26 記事まとめを自動生成"
@@ -53,14 +61,6 @@
     {
       "date": "2026-11-26",
       "message": "ランニング記録更新: import_running.py実行"
-    },
-    {
-      "date": "2026-11-26",
-      "message": "scrap: 2026-11-26 【AIに勝つ人の特徴とは】時代は4年制大学ではない"
-    },
-    {
-      "date": "2026-11-26",
-      "message": "朝刊: 2026-11-26 Morning Edition生成"
     }
   ]
 }
