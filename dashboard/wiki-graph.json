@@ -4,7 +4,7 @@
       "id": "2040-problem-japan-ai-robot-solution",
       "label": "2040年問題：AIとロボットによる日本の社会課題解決",
       "group": "AI戦略・社会",
-      "value": 8,
+      "value": 10,
       "tags": [
         "2040年問題",
         "超高齢化社会",
@@ -68,7 +68,7 @@
       "id": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning",
       "label": "AGI実現に向けた現在のアーキテクチャ制限：継続的学習・長期推論・記憶能力の課題",
       "group": "AIエージェント設計",
-      "value": 12,
+      "value": 11,
       "tags": [
         "AGI",
         "継続学習",
@@ -133,7 +133,7 @@
       "id": "ai-adoption-resistance-mitigation",
       "label": "AI導入の抵抗感排除：ターミナル心理障壁と成功体験の設計",
       "group": "ビジネス・組織",
-      "value": 54,
+      "value": 55,
       "tags": [
         "AI導入",
         "組織変革",
@@ -146,7 +146,7 @@
       "id": "ai-age-human-adaptability-strategy",
       "label": "AI時代の人間適応戦略：落合陽一の提言",
       "group": "キャリア・働き方",
-      "value": 10,
+      "value": 11,
       "tags": [
         "AI適応",
         "探求行動",
@@ -159,7 +159,7 @@
       "id": "ai-agent-boom-end-human-core-strength",
       "label": "AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ",
       "group": "キャリア・働き方",
-      "value": 3,
+      "value": 4,
       "tags": [
         "運用負荷",
         "セキュリティ",
@@ -470,7 +470,7 @@
       "id": "ai-coaching-personalization-wearable-integration",
       "label": "AIコーチングの個別化とウェアラブル連携",
       "group": "健康・習慣",
-      "value": 12,
+      "value": 13,
       "tags": [
         "AIコーチング",
         "ウェアラブル",
@@ -639,7 +639,7 @@
       "id": "ai-era-work-inversion",
       "label": "AI時代の働き方の逆転：長時間労働からの解放と自動化による価値創造",
       "group": "キャリア・働き方",
-      "value": 41,
+      "value": 40,
       "tags": [
         "AI時代の働き方",
         "自動化",
@@ -977,7 +977,7 @@
       "id": "ai-physical-world-reasoning-intuition-acquisition",
       "label": "物理世界へのAI進出と直感獲得：複雑性理解による人間超越の可能性",
       "group": "AIエージェント設計",
-      "value": 11,
+      "value": 12,
       "tags": [
         "複雑性直感",
         "物理世界AI",
@@ -1029,7 +1029,7 @@
       "id": "ai-robot-hand-precision-control-manufacturing",
       "label": "AIロボットハンドと精密制御：製造業における新たな機会創出",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 6,
       "tags": [
         "AIロボットハンド",
         "精密制御",
@@ -1172,7 +1172,7 @@
       "id": "ai-unemployment-crisis-ubi-transition-strategy",
       "label": "AI失業危機とUBI移行戦略：20～50%失業率時代の経済構造転換と個人生存戦略",
       "group": "AI戦略・社会",
-      "value": 16,
+      "value": 17,
       "tags": [
         "AI失業危機",
         "ベーシックインカム",
@@ -1327,7 +1327,7 @@
       "id": "background-automation-design-competitive-advantage",
       "label": "バックグラウンド自動化設計：運動時間・待機時間の活用による他者差別化戦略",
       "group": "キャリア・働き方",
-      "value": 12,
+      "value": 13,
       "tags": [
         "自動化設計",
         "生産性向上",
@@ -1417,7 +1417,7 @@
       "id": "causal-inference-manufacturing-process-improvement",
       "label": "製造業における因果推論：設備故障・品質問題の真因特定とAI活用",
       "group": "製造業・業務DX",
-      "value": 10,
+      "value": 11,
       "tags": [
         "因果推論",
         "設備故障",
@@ -1456,7 +1456,7 @@
       "id": "citizen-development-ai-manufacturing",
       "label": "市民開発：製造業におけるAIツール活用と生産性向上",
       "group": "製造業・業務DX",
-      "value": 4,
+      "value": 5,
       "tags": [
         "市民開発",
         "人手不足",
@@ -1967,6 +1967,19 @@
       ]
     },
     {
+      "id": "digital-socialism-ai-economy-transformation",
+      "label": "デジタル社会主義とAI経済の崩壊：知能コスト暴落がもたらす構造変化",
+      "group": "AI戦略・社会",
+      "value": 2,
+      "tags": [
+        "労働市場",
+        "ASIエコノミー",
+        "ウェルネス",
+        "アイデンティティ変革",
+        "価値創造"
+      ]
+    },
+    {
       "id": "document-format-conversion-markdown-standardization",
       "label": "ドキュメント形式変換とMarkdown標準化：複数形式資料の統一化によるAI分析効率向上",
       "group": "製造業・業務DX",
@@ -2029,6 +2042,19 @@
         "ハードウェア制約",
         "モデル量子化",
         "システム設計"
+      ]
+    },
+    {
+      "id": "embodied-ai-body-extension-design-philosophy",
+      "label": "身体拡張技術とEmbodied AI：服と道具の間のデザイン思想と身体所有感メカニズム",
+      "group": "AI戦略・社会",
+      "value": 2,
+      "tags": [
+        "身体拡張",
+        "Embodied AI",
+        "フィジカルAI",
+        "人間工学",
+        "労働力不足"
       ]
     },
     {
@@ -2268,7 +2294,7 @@
       "id": "humanoid-robot-labor-market-disruption",
       "label": "人型ロボット普及と労働市場の大変革：ブルーカラー自動化とキャリア転換戦略",
       "group": "AI戦略・社会",
-      "value": 10,
+      "value": 11,
       "tags": [
         "労働市場",
         "自動化",
@@ -2385,7 +2411,7 @@
       "id": "intellectual-production-sensibility-ai-era",
       "label": "AI時代における知的生産のセンスと環境づくり",
       "group": "キャリア・働き方",
-      "value": 2,
+      "value": 4,
       "tags": [
         "生産性向上",
         "アンラーン",
@@ -2502,7 +2528,7 @@
       "id": "judgment-ai-model-manufacturing-application",
       "label": "判定特化型AIモデルの製造業応用：品質検査と異常検知",
       "group": "製造業・業務DX",
-      "value": 5,
+      "value": 6,
       "tags": [
         "品質検査",
         "異常検知",
@@ -2554,7 +2580,7 @@
       "id": "labor-money-decoupling",
       "label": "労働とお金の切り離し：AI自動化による収益化プロセスの構造化",
       "group": "AI戦略・社会",
-      "value": 16,
+      "value": 17,
       "tags": [
         "労働市場",
         "自動化",
@@ -2671,7 +2697,7 @@
       "id": "local-llm-api-cost-elimination-strategy",
       "label": "ローカルLLMとクラウドLLMのハイブリッド運用：API費用排除と推論コスト最適化戦略",
       "group": "技術実装・エンジニアリング",
-      "value": 10,
+      "value": 11,
       "tags": [
         "ハイブリッドLLM",
         "ローカルLLM",
@@ -2684,7 +2710,7 @@
       "id": "local-llm-deployment-architecture",
       "label": "ローカルLLMデプロイメント・アーキテクチャ：Ollama・OpenClawによるオンプレミスAI運用",
       "group": "技術実装・エンジニアリング",
-      "value": 27,
+      "value": 26,
       "tags": [
         "ローカルLLM",
         "オンプレミスAI",
@@ -2800,7 +2826,7 @@
       "id": "manufacturing-automation-cost-disruption",
       "label": "製造業自動化コストの劇的低下：経営判断能力へのシフト",
       "group": "製造業・業務DX",
-      "value": 18,
+      "value": 19,
       "tags": [
         "自動化コスト",
         "サプライチェーン最適化",
@@ -2878,7 +2904,7 @@
       "id": "matagi-drive-ai-era-value-discovery",
       "label": "マタギドライヴ：AI時代の価値発見と人間性",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "価値発見",
         "狩猟採集",
@@ -2904,7 +2930,7 @@
       "id": "meaning-creation-post-work-society-ai-era",
       "label": "仕事消滅社会での生きがい創出：AIが自動化した先の人間的価値と幸福設計",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 9,
       "tags": [
         "生きがい",
         "人間的価値",
@@ -3047,7 +3073,7 @@
       "id": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "label": "マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画",
       "group": "AI戦略・社会",
-      "value": 10,
+      "value": 12,
       "tags": [
         "マルチモダリティ",
         "具現化AI",
@@ -3085,7 +3111,7 @@
       "id": "narrative-positioning-career-strategy",
       "label": "物語思考とキャラ設定（ポジショニング）によるキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "キャリア戦略",
         "自己投資",
@@ -3098,7 +3124,7 @@
       "id": "non-engineer-ai-tool-development",
       "label": "非エンジニアがAIと共にツールを育てる：実践的アプローチと変化への適応",
       "group": "プロンプト・AI活用",
-      "value": 21,
+      "value": 22,
       "tags": [
         "非エンジニア",
         "ツール開発",
@@ -3267,7 +3293,7 @@
       "id": "physical-ai-hardware-standardization-strategy",
       "label": "フィジカルAイと日本の標準化戦略：米中覇権争いにおける下層インターフェース統一による競争力構築",
       "group": "AI戦略・社会",
-      "value": 10,
+      "value": 11,
       "tags": [
         "フィジカルAI",
         "標準化戦略",
@@ -3280,7 +3306,7 @@
       "id": "physical-ai-logistics-implementation",
       "label": "物流におけるフィジカルAI実装と費用対効果",
       "group": "製造業・業務DX",
-      "value": 5,
+      "value": 7,
       "tags": [
         "物流DX",
         "フィジカルAI",
@@ -3293,7 +3319,7 @@
       "id": "planned-happenstance-theory-career-strategy",
       "label": "計画的偶発性理論とAI時代のキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 5,
+      "value": 6,
       "tags": [
         "キャリア戦略",
         "計画的偶発性",
@@ -3421,7 +3447,7 @@
       "id": "pushed-person-strategy-ai-era",
       "label": "AI時代の『推される人』戦略：プロダクト均質化と差別化",
       "group": "ビジネス・組織",
-      "value": 7,
+      "value": 9,
       "tags": [
         "差別化戦略",
         "パーソナルブランディング",
@@ -3823,7 +3849,7 @@
       "id": "strengths-leverage-task-design-productivity-multiplication",
       "label": "強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化",
       "group": "ビジネス・組織",
-      "value": 8,
+      "value": 9,
       "tags": [
         "強み活用",
         "タスク設計",
@@ -3914,7 +3940,7 @@
       "id": "trial-and-error-adaptive-capacity-building-long-term-asset",
       "label": "試行錯誤による適応能力構築：短期KPI外の長期資産化と組織学習能力向上メカニズム",
       "group": "ビジネス・組織",
-      "value": 18,
+      "value": 19,
       "tags": [
         "組織変革",
         "AI導入",
@@ -3927,7 +3953,7 @@
       "id": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
       "label": "ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化",
       "group": "健康・習慣",
-      "value": 8,
+      "value": 10,
       "tags": [
         "ウェルネス",
         "意思決定",
@@ -4750,10 +4776,6 @@
     },
     {
       "from": "ai-age-human-adaptability-strategy",
-      "to": "ai-era-work-inversion"
-    },
-    {
-      "from": "ai-age-human-adaptability-strategy",
       "to": "ai-human-coexistence-risk-management"
     },
     {
@@ -4766,11 +4788,19 @@
     },
     {
       "from": "ai-age-human-adaptability-strategy",
+      "to": "background-automation-design-competitive-advantage"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
       "to": "claude-code-agent-teams"
     },
     {
       "from": "ai-age-human-adaptability-strategy",
       "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "ai-age-human-adaptability-strategy",
+      "to": "digital-socialism-ai-economy-transformation"
     },
     {
       "from": "ai-age-human-adaptability-strategy",
@@ -6063,6 +6093,14 @@
     {
       "from": "ai-coaching-personalization-wearable-integration",
       "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "embodied-ai-body-extension-design-philosophy"
+    },
+    {
+      "from": "ai-coaching-personalization-wearable-integration",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
     },
     {
       "from": "ai-coaching-personalization-wearable-integration",
@@ -11365,6 +11403,42 @@
       "to": "manufacturing-ai-opportunities"
     },
     {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "ai-age-human-adaptability-strategy"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "ai-agent-boom-end-human-core-strength"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "ai-unemployment-crisis-ubi-transition-strategy"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "citizen-development-ai-manufacturing"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "labor-money-decoupling"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "manufacturing-automation-cost-disruption"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "matagi-drive-ai-era-value-discovery"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "meaning-creation-post-work-society-ai-era"
+    },
+    {
+      "from": "digital-socialism-ai-economy-transformation",
+      "to": "non-engineer-ai-tool-development"
+    },
+    {
       "from": "document-format-conversion-markdown-standardization",
       "to": "book-metadata-completion-system"
     },
@@ -11603,6 +11677,46 @@
     {
       "from": "edge-ai-system-design-production-skills",
       "to": "self-directed-learning-ai-era-survival-strategy"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "2040-problem-japan-ai-robot-solution"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "ai-adoption-resistance-mitigation"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "ai-coaching-personalization-wearable-integration"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "ai-physical-world-reasoning-intuition-acquisition"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "ai-robot-hand-precision-control-manufacturing"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "multimodal-embodied-ai-integration-roadmap-manufacturing"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "physical-ai-hardware-standardization-strategy"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "physical-ai-logistics-implementation"
+    },
+    {
+      "from": "embodied-ai-body-extension-design-philosophy",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "energy-policy-innovation-regulation-impact",
@@ -12602,6 +12716,18 @@
     },
     {
       "from": "intellectual-production-sensibility-ai-era",
+      "to": "planned-happenstance-theory-career-strategy"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "pushed-person-strategy-ai-era"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
+    },
+    {
+      "from": "intellectual-production-sensibility-ai-era",
       "to": "unlearning-capability-ai-era-competition"
     },
     {
@@ -12934,11 +13060,27 @@
     },
     {
       "from": "job-hunting-strategy-ai-era",
+      "to": "intellectual-production-sensibility-ai-era"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
       "to": "manufacturing-ai-opportunities"
     },
     {
       "from": "job-hunting-strategy-ai-era",
+      "to": "narrative-positioning-career-strategy"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "pushed-person-strategy-ai-era"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
       "to": "relationship-quality-leadership-theory"
+    },
+    {
+      "from": "job-hunting-strategy-ai-era",
+      "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
       "from": "job-hunting-strategy-ai-era",
@@ -14706,6 +14848,10 @@
     },
     {
       "from": "matagi-drive-ai-era-value-discovery",
+      "to": "digital-socialism-ai-economy-transformation"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
       "to": "information-processing-efficiency-ai-integration"
     },
     {
@@ -14715,6 +14861,10 @@
     {
       "from": "matagi-drive-ai-era-value-discovery",
       "to": "manufacturing-ai-quick-wins"
+    },
+    {
+      "from": "matagi-drive-ai-era-value-discovery",
+      "to": "meaning-creation-post-work-society-ai-era"
     },
     {
       "from": "matagi-drive-ai-era-value-discovery",
@@ -15266,7 +15416,7 @@
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
-      "to": "agi-architecture-limitation-continuous-learning-long-horizon-reasoning"
+      "to": "2040-problem-japan-ai-robot-solution"
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
@@ -15298,6 +15448,10 @@
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "ai-robot-hand-precision-control-manufacturing"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "to": "ai-sandboxing-isolation-architecture-manufacturing"
     },
     {
@@ -15318,6 +15472,10 @@
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "causal-inference-manufacturing-process-improvement"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "to": "context-window-scaling-limitation-smart-extraction-architecture"
     },
     {
@@ -15334,7 +15492,15 @@
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "embodied-ai-body-extension-design-philosophy"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "to": "humanoid-robot-labor-market-disruption"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "judgment-ai-model-manufacturing-application"
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
@@ -15350,7 +15516,7 @@
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
-      "to": "local-llm-deployment-architecture"
+      "to": "local-llm-api-cost-elimination-strategy"
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
@@ -15367,6 +15533,10 @@
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
       "to": "non-engineer-skill-development-claude-code-democratization"
+    },
+    {
+      "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
+      "to": "physical-ai-logistics-implementation"
     },
     {
       "from": "multimodal-embodied-ai-integration-roadmap-manufacturing",
@@ -16823,6 +16993,14 @@
     {
       "from": "pushed-person-strategy-ai-era",
       "to": "custom-tool-development-ai-empowerment"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "intellectual-production-sensibility-ai-era"
+    },
+    {
+      "from": "pushed-person-strategy-ai-era",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
     },
     {
       "from": "pushed-person-strategy-ai-era",

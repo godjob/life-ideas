@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-11-27] ingest | 人と機械が一体になる？東大・稲見教授の研究室を訪問取材
+- 更新ページ: [マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画](multimodal-embodied-ai-integration-roadmap-manufacturing.md), [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md), [身体拡張技術とEmbodied AI：服と道具の間のデザイン思想と身体所有感メカニズム](embodied-ai-body-extension-design-philosophy.md)
+- 出典: [人と機械が一体になる？東大・稲見教授の研究室を訪問取材](https://www.youtube.com/watch?v=ypfCfmXgkKQ)
+
+## [2026-11-27] ingest | 【アメリカに大打撃を生む可能性…】AIが５年で崩壊もたらす？「もう少しで日本は社会主義に」斎藤幸平が
+- 更新ページ: [AI時代の人間適応戦略：落合陽一の提言](ai-age-human-adaptability-strategy.md), [マタギドライヴ：AI時代の価値発見と人間性](matagi-drive-ai-era-value-discovery.md), [デジタル社会主義とAI経済の崩壊：知能コスト暴落がもたらす構造変化](digital-socialism-ai-economy-transformation.md)
+- 出典: [【アメリカに大打撃を生む可能性…】AIが５年で崩壊もたらす？「もう少しで日本は社](https://www.youtube.com/watch?v=LoKgrHjn02c)
+
+## [2026-11-27] ingest | 【AI時代に稼げる人になる10代のキャリア戦略】スキルより「センス」が重要！楠木建が教える“選ばれる
+- 更新ページ: [AI時代における知的生産のセンスと環境づくり](intellectual-production-sensibility-ai-era.md), [AI時代の就職活動戦略：飽きるまでやり抜く「核」の育成](job-hunting-strategy-ai-era.md), [AI時代の『推される人』戦略：プロダクト均質化と差別化](pushed-person-strategy-ai-era.md)
+- 出典: [【AI時代に稼げる人になる10代のキャリア戦略】スキルより「センス」が重要！楠木](https://www.youtube.com/watch?v=VbZ1-2NckBQ)
+
 ## [2026-11-26] ingest | 【AIに勝つ人の特徴とは】時代は4年制大学ではない／NVIDIAどうなる？／中国に電力で負ける米国／
 - 更新ページ: [AIブームの地政学的影響とエネルギー制約](ai-boom-geopolitical-implications-energy-constraint.md), [NVIDIA一強体制の変化とCPU再評価：電力効率とAIエージェント](nvidia-dominance-shift-cpu-revaluation.md), [AI時代の個人生存戦略：自己学習とIT新スキル習得による競争力確保](self-directed-learning-ai-era-survival-strategy.md)
 - 出典: [【AIに勝つ人の特徴とは】時代は4年制大学ではない／NVIDIAどうなる？／中国](https://www.youtube.com/watch?v=kTLG0hSOel8)
