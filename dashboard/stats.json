@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-28T08:05:59+09:00",
+  "generatedAt": "2026-11-28T15:16:04+09:00",
   "weekly": {
-    "commitCount": 35,
+    "commitCount": 38,
     "byDay": [
       {
         "date": "2026-11-22",
@@ -29,19 +29,31 @@
       },
       {
         "date": "2026-11-28",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "byDirectory": {
-    "scrap": 10,
+    "scrap": 11,
     "ideas": 1,
-    "health": 10,
+    "health": 11,
     "books": 6,
     "portfolio": 0,
     "other": 29
   },
   "recentCommits": [
+    {
+      "date": "2026-11-28",
+      "message": "scrap: 2026-11-28 XユーザーのDAN KOEさん: 「How to ・【AI時代の言論危機】言論空間A、B、Cとは？／国・【確定】スマホとAIで、あなたは確実に「バカ」にな"
+    },
+    {
+      "date": "2026-11-28",
+      "message": "ランニング記録更新: import_running.py実行"
+    },
+    {
+      "date": "2026-11-28",
+      "message": "朝刊: 2026-11-28 Morning Edition生成"
+    },
     {
       "date": "2026-11-27",
       "message": "news: 2026-11-27 記事まとめを自動生成"
@@ -49,18 +61,6 @@
     {
       "date": "2026-11-27",
       "message": "読書記録: 2件追加・更新"
-    },
-    {
-      "date": "2026-11-27",
-      "message": "scrap: 2026-11-27 【AI時代に稼げる人になる10代のキャリア戦略】ス・【アメリカに大打撃を生む可能性…】AIが５年で崩壊・人と機械が一体になる？東大・稲見教授の研究室を訪問"
-    },
-    {
-      "date": "2026-11-27",
-      "message": "朝刊: 2026-11-27 Morning Edition生成"
-    },
-    {
-      "date": "2026-11-26",
-      "message": "news: 2026-11-26 記事まとめを自動生成"
     }
   ]
 }
