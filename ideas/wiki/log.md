@@ -1,5 +1,17 @@
 # Wiki 更新ログ
 
+## [2026-11-28] ingest | 【確定】スマホとAIで、あなたは確実に「バカ」になっている（PISA/学力/教育/学校/デジタル/タ
+- 更新ページ: [AIと人間の共存：過度な依存・セキュリティ・制御リスクと適切な距離感](ai-human-coexistence-risk-management.md), [AI時代の理解力・解像度と人間が磨くべき価値](ai-understanding-resolution-human-value.md), [ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持](junior-engineer-retention-ai-era-succession-planning.md), [デジタル端末・AI規制と認知能力低下：教育現場におけるアナログ回帰の動向](digital-device-regulation-educational-cognitive-impact.md)
+- 出典: [【確定】スマホとAIで、あなたは確実に「バカ」になっている（PISA/学力/教育](https://www.youtube.com/watch?v=lpGH6yGWe4w)
+
+## [2026-11-28] ingest | 【AI時代の言論危機】言論空間A、B、Cとは？／国家と生成AIによる支配／全てが週刊文春化／意見を支
+- 更新ページ: [AI認知戦と情報セキュリティ](ai-cognitive-warfare-information-security.md), [クオリティエコノミー：信頼に基づく情報価値とプラットフォーム戦略](quality-economy-trust-based-information.md), [生成AI時代の言論空間構造と情報のブラックボックス化リスク](ai-speech-space-blackbox-risk.md)
+- 出典: [【AI時代の言論危機】言論空間A、B、Cとは？／国家と生成AIによる支配／全てが](https://www.youtube.com/watch?v=xCrxA8MUL-8)
+
+## [2026-11-28] ingest | XユーザーのDAN KOEさん: 「How to fix your entire life in 1
+- 更新ページ: [アイデンティティ変革による習慣形成：AI時代の自己再定義](identity-transformation-habit-formation-ai-era.md), [日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み](daily-habit-routine-design-productivity-multiplication.md), [GitHubで人生を管理する：lifeリポジトリの運用と実践](github-life-management.md)
+- 出典: [XユーザーのDAN KOEさん: 「How to fix your entire](https://x.com/thedankoe/status/2010751592346030461?s=12)
+
 ## [2026-11-27] ingest | 人と機械が一体になる？東大・稲見教授の研究室を訪問取材
 - 更新ページ: [マルチモダリティ具現化AI統合ロードマップ：LLM単体から多感覚ロボット統合への移行計画](multimodal-embodied-ai-integration-roadmap-manufacturing.md), [AIコーチングの個別化とウェアラブル連携](ai-coaching-personalization-wearable-integration.md), [身体拡張技術とEmbodied AI：服と道具の間のデザイン思想と身体所有感メカニズム](embodied-ai-body-extension-design-philosophy.md)
 - 出典: [人と機械が一体になる？東大・稲見教授の研究室を訪問取材](https://www.youtube.com/watch?v=ypfCfmXgkKQ)

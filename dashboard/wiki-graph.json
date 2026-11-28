@@ -159,7 +159,7 @@
       "id": "ai-agent-boom-end-human-core-strength",
       "label": "AIエージェントブームの終焉と人間の本体力：運用負荷とセキュリティ",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "運用負荷",
         "セキュリティ",
@@ -315,7 +315,7 @@
       "id": "ai-autonomous-weapons-surveillance-state-governance",
       "label": "自律兵器と監視社会化：AI軍事転用とシステム監視の民主的ガバナンス枠組み",
       "group": "AI戦略・社会",
-      "value": 4,
+      "value": 5,
       "tags": [
         "自律兵器",
         "監視社会",
@@ -483,7 +483,7 @@
       "id": "ai-cognitive-warfare-information-security",
       "label": "AI認知戦と情報セキュリティ",
       "group": "AI戦略・社会",
-      "value": 7,
+      "value": 9,
       "tags": [
         "認知戦",
         "情報セキュリティ",
@@ -1091,6 +1091,19 @@
       ]
     },
     {
+      "id": "ai-speech-space-blackbox-risk",
+      "label": "生成AI時代の言論空間構造と情報のブラックボックス化リスク",
+      "group": "AI戦略・社会",
+      "value": 2,
+      "tags": [
+        "AIガバナンス",
+        "信頼性確保",
+        "地政学リスク",
+        "リスク管理",
+        "セキュリティ"
+      ]
+    },
+    {
       "id": "ai-staff-roi-maximization",
       "label": "AI社員のROI最大化：月額コストと生み出す価値の最適設計",
       "group": "ビジネス・組織",
@@ -1146,7 +1159,7 @@
       "id": "ai-transparent-reasoning-governance",
       "label": "AI推論の透明性確保とガバナンス",
       "group": "AIエージェント設計",
-      "value": 7,
+      "value": 8,
       "tags": [
         "AIガバナンス",
         "透明性",
@@ -1159,7 +1172,7 @@
       "id": "ai-understanding-resolution-human-value",
       "label": "AI時代の理解力・解像度と人間が磨くべき価値",
       "group": "キャリア・働き方",
-      "value": 12,
+      "value": 14,
       "tags": [
         "理解力",
         "解像度",
@@ -1288,7 +1301,7 @@
       "id": "assumption-reevaluation-cycle-continuous-improvement",
       "label": "仮定の再評価サイクル：ルール削減と継続的改善の運用設計",
       "group": "ビジネス・組織",
-      "value": 20,
+      "value": 21,
       "tags": [
         "継続的改善",
         "組織変革",
@@ -1840,7 +1853,7 @@
       "id": "crystallized-intelligence-ai-era-strategy",
       "label": "結晶性知能とAI時代：経験価値の再構築と40代からのキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 28,
+      "value": 29,
       "tags": [
         "結晶性知能",
         "AI時代のキャリア",
@@ -1879,7 +1892,7 @@
       "id": "daily-habit-routine-design-productivity-multiplication",
       "label": "日次習慣ルーチン設計：『心の渋滞』排除による生産性倍増と10年継続の仕組み",
       "group": "キャリア・働き方",
-      "value": 29,
+      "value": 30,
       "tags": [
         "習慣化",
         "生産性向上",
@@ -1944,7 +1957,7 @@
       "id": "die-with-zero-philosophy-life-optimization",
       "label": "DIE WITH ZEROの哲学：人生の最適化と記憶の配当",
       "group": "キャリア・働き方",
-      "value": 5,
+      "value": 6,
       "tags": [
         "人生設計",
         "自己投資",
@@ -1964,6 +1977,19 @@
         "計算能力",
         "国際競争力",
         "海外依存"
+      ]
+    },
+    {
+      "id": "digital-device-regulation-educational-cognitive-impact",
+      "label": "デジタル端末・AI規制と認知能力低下：教育現場におけるアナログ回帰の動向",
+      "group": "AI戦略・社会",
+      "value": 3,
+      "tags": [
+        "継続学習",
+        "AIガバナンス",
+        "メタスキル",
+        "ウェルネス",
+        "結晶性知能"
       ]
     },
     {
@@ -2074,7 +2100,7 @@
       "id": "environment-engineering",
       "label": "エンバイロメント・エンジニアリング：AI活動の土台づくり",
       "group": "技術実装・エンジニアリング",
-      "value": 19,
+      "value": 20,
       "tags": [
         "AIインフラ",
         "環境構築",
@@ -2190,7 +2216,7 @@
       "id": "github-life-management",
       "label": "GitHubで人生を管理する：lifeリポジトリの運用と実践",
       "group": "個人OS・知識管理",
-      "value": 13,
+      "value": 14,
       "tags": [
         "GitHub活用",
         "タスク管理",
@@ -2320,7 +2346,7 @@
       "id": "identity-transformation-habit-formation-ai-era",
       "label": "アイデンティティ変革による習慣形成：AI時代の自己再定義",
       "group": "キャリア・働き方",
-      "value": 8,
+      "value": 10,
       "tags": [
         "アイデンティティ変革",
         "習慣形成",
@@ -2372,7 +2398,7 @@
       "id": "information-processing-efficiency-ai-integration",
       "label": "情報処理効率化とAI統合：一次情報重視と大量情報要約術",
       "group": "キャリア・働き方",
-      "value": 10,
+      "value": 11,
       "tags": [
         "一次情報",
         "情報処理",
@@ -2541,7 +2567,7 @@
       "id": "junior-engineer-retention-ai-era-succession-planning",
       "label": "ジュニアエンジニア育成と世代継承：AI効率化時代における長期競争力の維持",
       "group": "ビジネス・組織",
-      "value": 13,
+      "value": 14,
       "tags": [
         "世代継承",
         "若手育成",
@@ -2943,7 +2969,7 @@
       "id": "memory-dividend-experiential-investment-strategy",
       "label": "記憶の配当：経験への投資戦略と人生の充実",
       "group": "キャリア・働き方",
-      "value": 4,
+      "value": 5,
       "tags": [
         "自己投資",
         "人生設計",
@@ -3111,7 +3137,7 @@
       "id": "narrative-positioning-career-strategy",
       "label": "物語思考とキャラ設定（ポジショニング）によるキャリア戦略",
       "group": "キャリア・働き方",
-      "value": 5,
+      "value": 6,
       "tags": [
         "キャリア戦略",
         "自己投資",
@@ -3280,7 +3306,7 @@
       "id": "personal-os-operating-system",
       "label": "人生OSの運用：PMの4つのシフトの個人適用",
       "group": "キャリア・働き方",
-      "value": 11,
+      "value": 12,
       "tags": [
         "自己改善",
         "人生設計",
@@ -3473,7 +3499,7 @@
       "id": "quality-economy-trust-based-information",
       "label": "クオリティエコノミー：信頼に基づく情報価値とプラットフォーム戦略",
       "group": "ビジネス・組織",
-      "value": 4,
+      "value": 5,
       "tags": [
         "クリエイターエコノミー",
         "情報価値",
@@ -3486,7 +3512,7 @@
       "id": "quantified-self-ai-feedback-loop",
       "label": "量的自己記録とAI分析の相乗効果：データ資産化と継続的改善",
       "group": "個人OS・知識管理",
-      "value": 24,
+      "value": 25,
       "tags": [
         "量的自己記録",
         "AI分析",
@@ -3538,7 +3564,7 @@
       "id": "relationship-quality-leadership-theory",
       "label": "関係性の質とリーダーシップ理論",
       "group": "ビジネス・組織",
-      "value": 7,
+      "value": 8,
       "tags": [
         "リーダーシップ",
         "関係性の質",
@@ -3719,7 +3745,7 @@
       "id": "sleep-priority-performance-management",
       "label": "睡眠優先のパフォーマンス管理：脳認知能力と40代以降のキャリア持続可能性",
       "group": "キャリア・働き方",
-      "value": 28,
+      "value": 29,
       "tags": [
         "睡眠",
         "脳認知能力",
@@ -3849,7 +3875,7 @@
       "id": "strengths-leverage-task-design-productivity-multiplication",
       "label": "強みの活用タスク設計：得意領域への特化による生産性倍増と組織効率化",
       "group": "ビジネス・組織",
-      "value": 9,
+      "value": 10,
       "tags": [
         "強み活用",
         "タスク設計",
@@ -3953,7 +3979,7 @@
       "id": "ultra-marathon-strategy-ai-pacing-nutrition-mental",
       "label": "ウルトラマラソン攻略戦略：フルマラソン逆算ペース・補給計画・アクシデント対処とAI最適化",
       "group": "健康・習慣",
-      "value": 10,
+      "value": 12,
       "tags": [
         "ウェルネス",
         "意思決定",
@@ -4017,7 +4043,7 @@
       "id": "wellness-eq-capital-ai-era-competitive-advantage",
       "label": "ウェルネス＆EQ資本：AI失業時代の生きがい資産と信頼構築による競争優位",
       "group": "キャリア・働き方",
-      "value": 19,
+      "value": 20,
       "tags": [
         "ウェルネス",
         "信頼構築",
@@ -6144,6 +6170,10 @@
     },
     {
       "from": "ai-cognitive-warfare-information-security",
+      "to": "ai-speech-space-blackbox-risk"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
       "to": "ai-system-monitoring-cost-visibility-tools"
     },
     {
@@ -6181,6 +6211,10 @@
     {
       "from": "ai-cognitive-warfare-information-security",
       "to": "unlearning-capability-ai-era-competition"
+    },
+    {
+      "from": "ai-cognitive-warfare-information-security",
+      "to": "wellness-eq-capital-ai-era-competitive-advantage"
     },
     {
       "from": "ai-content-pipeline-differentiation",
@@ -7256,7 +7290,15 @@
     },
     {
       "from": "ai-human-coexistence-risk-management",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "ai-human-coexistence-risk-management",
       "to": "claude-mythos-capability-risk-management"
+    },
+    {
+      "from": "ai-human-coexistence-risk-management",
+      "to": "digital-device-regulation-educational-cognitive-impact"
     },
     {
       "from": "ai-human-coexistence-risk-management",
@@ -8491,6 +8533,30 @@
       "to": "trial-and-error-adaptive-capacity-building-long-term-asset"
     },
     {
+      "from": "ai-speech-space-blackbox-risk",
+      "to": "ai-autonomous-weapons-surveillance-state-governance"
+    },
+    {
+      "from": "ai-speech-space-blackbox-risk",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "ai-speech-space-blackbox-risk",
+      "to": "ai-transparent-reasoning-governance"
+    },
+    {
+      "from": "ai-speech-space-blackbox-risk",
+      "to": "information-processing-efficiency-ai-integration"
+    },
+    {
+      "from": "ai-speech-space-blackbox-risk",
+      "to": "quality-economy-trust-based-information"
+    },
+    {
+      "from": "ai-speech-space-blackbox-risk",
+      "to": "relationship-quality-leadership-theory"
+    },
+    {
       "from": "ai-staff-roi-maximization",
       "to": "ai-adoption-resistance-mitigation"
     },
@@ -8801,6 +8867,10 @@
     {
       "from": "ai-understanding-resolution-human-value",
       "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "ai-understanding-resolution-human-value",
+      "to": "digital-device-regulation-educational-cognitive-impact"
     },
     {
       "from": "ai-understanding-resolution-human-value",
@@ -11164,6 +11234,10 @@
     },
     {
       "from": "daily-habit-routine-design-productivity-multiplication",
+      "to": "identity-transformation-habit-formation-ai-era"
+    },
+    {
+      "from": "daily-habit-routine-design-productivity-multiplication",
       "to": "information-processing-efficiency-ai-integration"
     },
     {
@@ -11401,6 +11475,34 @@
     {
       "from": "digital-deficit-national-security-risk",
       "to": "manufacturing-ai-opportunities"
+    },
+    {
+      "from": "digital-device-regulation-educational-cognitive-impact",
+      "to": "ai-agent-boom-end-human-core-strength"
+    },
+    {
+      "from": "digital-device-regulation-educational-cognitive-impact",
+      "to": "ai-understanding-resolution-human-value"
+    },
+    {
+      "from": "digital-device-regulation-educational-cognitive-impact",
+      "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "digital-device-regulation-educational-cognitive-impact",
+      "to": "environment-engineering"
+    },
+    {
+      "from": "digital-device-regulation-educational-cognitive-impact",
+      "to": "junior-engineer-retention-ai-era-succession-planning"
+    },
+    {
+      "from": "digital-device-regulation-educational-cognitive-impact",
+      "to": "sleep-priority-performance-management"
+    },
+    {
+      "from": "digital-device-regulation-educational-cognitive-impact",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "digital-socialism-ai-economy-transformation",
@@ -12104,7 +12206,19 @@
     },
     {
       "from": "github-life-management",
+      "to": "assumption-reevaluation-cycle-continuous-improvement"
+    },
+    {
+      "from": "github-life-management",
       "to": "automated-content-distribution"
+    },
+    {
+      "from": "github-life-management",
+      "to": "daily-habit-routine-design-productivity-multiplication"
+    },
+    {
+      "from": "github-life-management",
+      "to": "die-with-zero-philosophy-life-optimization"
     },
     {
       "from": "github-life-management",
@@ -12112,7 +12226,23 @@
     },
     {
       "from": "github-life-management",
+      "to": "identity-transformation-habit-formation-ai-era"
+    },
+    {
+      "from": "github-life-management",
       "to": "life-repository-evolution"
+    },
+    {
+      "from": "github-life-management",
+      "to": "memory-dividend-experiential-investment-strategy"
+    },
+    {
+      "from": "github-life-management",
+      "to": "personal-os-operating-system"
+    },
+    {
+      "from": "github-life-management",
+      "to": "quantified-self-ai-feedback-loop"
     },
     {
       "from": "github-life-management",
@@ -12121,6 +12251,14 @@
     {
       "from": "github-life-management",
       "to": "speed-first-prototyping"
+    },
+    {
+      "from": "github-life-management",
+      "to": "strengths-leverage-task-design-productivity-multiplication"
+    },
+    {
+      "from": "github-life-management",
+      "to": "ultra-marathon-strategy-ai-pacing-nutrition-mental"
     },
     {
       "from": "github-non-engineer-adoption",
@@ -12444,11 +12582,19 @@
     },
     {
       "from": "identity-transformation-habit-formation-ai-era",
+      "to": "github-life-management"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
       "to": "meta-skills-ai-era"
     },
     {
       "from": "identity-transformation-habit-formation-ai-era",
       "to": "midlife-crisis-reframing-opportunity"
+    },
+    {
+      "from": "identity-transformation-habit-formation-ai-era",
+      "to": "narrative-positioning-career-strategy"
     },
     {
       "from": "identity-transformation-habit-formation-ai-era",
@@ -13177,6 +13323,10 @@
     {
       "from": "junior-engineer-retention-ai-era-succession-planning",
       "to": "crystallized-intelligence-ai-era-strategy"
+    },
+    {
+      "from": "junior-engineer-retention-ai-era-succession-planning",
+      "to": "digital-device-regulation-educational-cognitive-impact"
     },
     {
       "from": "junior-engineer-retention-ai-era-succession-planning",
@@ -17016,7 +17166,15 @@
     },
     {
       "from": "quality-economy-trust-based-information",
+      "to": "ai-cognitive-warfare-information-security"
+    },
+    {
+      "from": "quality-economy-trust-based-information",
       "to": "ai-content-quality-vs-quantity-value"
+    },
+    {
+      "from": "quality-economy-trust-based-information",
+      "to": "ai-speech-space-blackbox-risk"
     },
     {
       "from": "quality-economy-trust-based-information",
