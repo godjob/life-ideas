@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-28T15:16:04+09:00",
+  "generatedAt": "2026-11-28T15:17:04+09:00",
   "weekly": {
-    "commitCount": 38,
+    "commitCount": 39,
     "byDay": [
       {
         "date": "2026-11-22",
@@ -29,19 +29,23 @@
       },
       {
         "date": "2026-11-28",
-        "count": 3
+        "count": 4
       }
     ]
   },
   "byDirectory": {
     "scrap": 11,
     "ideas": 1,
-    "health": 11,
+    "health": 12,
     "books": 6,
     "portfolio": 0,
     "other": 29
   },
   "recentCommits": [
+    {
+      "date": "2026-11-28",
+      "message": "ランニング分析: 2026-11-28 30km走（大雨の中 5:56/km・補給4回で疲労少なめ）"
+    },
     {
       "date": "2026-11-28",
       "message": "scrap: 2026-11-28 XユーザーのDAN KOEさん: 「How to ・【AI時代の言論危機】言論空間A、B、Cとは？／国・【確定】スマホとAIで、あなたは確実に「バカ」にな"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-27",
       "message": "news: 2026-11-27 記事まとめを自動生成"
-    },
-    {
-      "date": "2026-11-27",
-      "message": "読書記録: 2件追加・更新"
     }
   ]
 }
