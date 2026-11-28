@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-28T15:25:50+09:00",
+  "generatedAt": "2026-11-28T16:10:50+09:00",
   "weekly": {
-    "commitCount": 41,
+    "commitCount": 42,
     "byDay": [
       {
         "date": "2026-11-22",
@@ -29,7 +29,7 @@
       },
       {
         "date": "2026-11-28",
-        "count": 6
+        "count": 7
       }
     ]
   },
@@ -39,9 +39,13 @@
     "health": 12,
     "books": 6,
     "portfolio": 0,
-    "other": 31
+    "other": 32
   },
   "recentCommits": [
+    {
+      "date": "2026-11-28",
+      "message": "補給記録: オレは摂取す（はちみつレモン）と飲めるようかん ANDO_ の栄養値を追記"
+    },
     {
       "date": "2026-11-28",
       "message": "補給記録: 2026-11-28 30km走で試した補給4点を追記"
@@ -57,10 +61,6 @@
     {
       "date": "2026-11-28",
       "message": "scrap: 2026-11-28 XユーザーのDAN KOEさん: 「How to ・【AI時代の言論危機】言論空間A、B、Cとは？／国・【確定】スマホとAIで、あなたは確実に「バカ」にな"
-    },
-    {
-      "date": "2026-11-28",
-      "message": "ランニング記録更新: import_running.py実行"
     }
   ]
 }
